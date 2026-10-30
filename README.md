@@ -13,6 +13,18 @@ npm run test:e2e   # e2e + axe a11y (Playwright, cần build trước)
 npm run lint
 ```
 
+## Tính năng
+
+- `/` — trang chủ: hero ảnh, đếm ngược, lịch trình 90 ngày, công cụ nhanh, băng ảnh Việt Nam, lưới 26 ngày lễ.
+- `/[slug]/` — 26 trang lễ: đếm ngược, lịch sử, ý nghĩa, phong tục, quà tặng, 5+ lời chúc, câu chuyện & nguồn, **Gợi ý lời chúc** (tạo câu chúc theo tông).
+- `/lich/` — lịch cả năm: ô ngày dương + âm, chip ngày lễ, lọc loại, agenda mobile, tải `ngay-le-viet.ics` (3 năm).
+- `/thiep/` — tạo thiệp: 6 mẫu, tùy chỉnh người nhận/người gửi/lời chúc, tải PNG (1080×1350, 1200×630), chia sẻ (noindex).
+- `/birthday/` — thiệp sinh nhật qua URL (noindex, không lưu dữ liệu).
+- `Ctrl/⌘+K` — tìm ngày lễ không cần dấu.
+- Chế độ tối (system + toggle, lưu localStorage), PWA (manifest + service worker, cài được).
+- `/credits/` — nguồn ảnh theo giấy phép.
+- Live: https://jasontm17.github.io/All-In-One-Holiday/
+
 ## Design system
 
 Chi tiết nghiên cứu + token đầy đủ: [`docs/design-references.md`](docs/design-references.md).

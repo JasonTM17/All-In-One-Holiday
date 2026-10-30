@@ -33,7 +33,7 @@ test("holiday page renders sections and copies a wish", async ({
   await expect(
     page.getByRole("heading", { name: "Phong tục & hoạt động" }),
   ).toBeVisible();
-  await expect(page.getByRole("heading", { name: "Lời chúc" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Lời chúc", exact: true })).toBeVisible();
   const firstCopy = page
     .getByRole("button", { name: "Sao chép", exact: true })
     .first();
