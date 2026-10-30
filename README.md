@@ -36,7 +36,7 @@ npm run lint
 `npm run build` → nội dung trong `out/` đẩy lên bất kỳ static host nào.
 
 - **Custom domain**: build mặc định (không env).
-- **GitHub Pages** (`user.github.io/All-In-One-Holiday/`): build với `NEXT_PUBLIC_BASE_PATH=/All-In-One-Holiday` và `NEXT_PUBLIC_SITE_URL=https://<user>.github.io`. Workflow `.github/workflows/pages.yml` đã cấu hình sẵn — chỉ cần bật Pages (source: GitHub Actions) trong repo settings.
+- **GitHub Pages** (`user.github.io/All-In-One-Holiday/`): build với `NEXT_PUBLIC_BASE_PATH=/All-In-One-Holiday` và `NEXT_PUBLIC_SITE_URL=https://<user>.github.io/All-In-One-Holiday`. Workflow `.github/workflows/pages.yml` đã cấu hình sẵn cho repo này.
 
 ## Thiệp sinh nhật
 
