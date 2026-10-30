@@ -15,6 +15,8 @@ npm run lint
 
 ## Design system
 
+Chi tiết nghiên cứu + token đầy đủ: [`docs/design-references.md`](docs/design-references.md).
+
 - **Hướng thẩm mỹ**: festive editorial — hero "drenched" theo màu riêng của từng ngày lễ, nội dung trung tính ấm tối giản.
 - **Màu**: token trong `@theme` ở `src/app/globals.css` (`--color-ink/muted/faint/surface/line/brand`). Mỗi holiday có `theme.from/to` gradient riêng.
 - **Chữ**: Playfair Display (tiêu đề, có subset Vietnamese) + Be Vietnam Pro (nội dung). Nhạy số: `tabular-nums`.
