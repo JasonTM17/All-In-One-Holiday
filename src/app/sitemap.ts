@@ -9,6 +9,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     { url: `${base}/`, changeFrequency: "weekly", priority: 1 },
     { url: `${base}/birthday/`, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${base}/lich/`, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${base}/thiep/`, changeFrequency: "monthly", priority: 0.5 },
     ...holidays.map((h) => ({
       url: `${base}/${h.slug}/`,
       changeFrequency: "yearly" as const,

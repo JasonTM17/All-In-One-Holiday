@@ -51,6 +51,13 @@ export default function RootLayout({
   return (
     <html lang="vi" className={`${display.variable} ${sans.variable}`}>
       <body>
+        {/* Set theme before paint: localStorage theme or system preference. No flash. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "try{var t=localStorage.getItem('theme');var d=t?t==='dark':matchMedia('(prefers-color-scheme: dark)').matches;document.documentElement.classList.toggle('dark',d)}catch(e){}",
+          }}
+        />
         <a href="#noi-dung" className="skip-link">
           Bỏ qua đến nội dung
         </a>

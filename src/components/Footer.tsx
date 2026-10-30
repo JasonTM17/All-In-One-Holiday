@@ -54,6 +54,12 @@ export default function Footer() {
               </Link>
             </li>
             <li>
+              <Link href="/lich/" className="u-link font-medium text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
+                Lịch ngày lễ
+              </Link>
+              <Link href="/thiep/" className="u-link font-medium text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
+                Tạo thiệp
+              </Link>
               <Link href="/birthday/" className="u-link font-medium text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
                 Thiệp sinh nhật
               </Link>

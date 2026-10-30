@@ -6,6 +6,7 @@ import { siteUrl } from "@/lib/site";
 import { occurrenceInYear } from "@/lib/dates";
 import RuleCountdown from "@/components/RuleCountdown";
 import CopyButton from "@/components/CopyButton";
+import WishGenerator from "@/components/WishGenerator";
 import Faq from "@/components/Faq";
 import Motif from "@/components/Motif";
 import Reveal from "@/components/Reveal";
@@ -298,6 +299,10 @@ export default async function HolidayPage({
               </li>
             ))}
           </ul>
+          <h3 className="mt-10 font-display text-xl font-extrabold text-[var(--color-ink)]">
+            Gợi ý lời chúc
+          </h3>
+          <WishGenerator holiday={h} />
         </div>
       </section>
 

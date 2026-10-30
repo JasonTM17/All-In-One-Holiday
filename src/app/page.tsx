@@ -6,6 +6,7 @@ import HolidayGrid from "@/components/HolidayGrid";
 import NextHolidayHero from "@/components/NextHolidayHero";
 import Reveal from "@/components/Reveal";
 import { heroSrcSet } from "@/components/HImg";
+import { nextOccurrence } from "@/lib/dates";
 import Motif from "@/components/Motif";
 
 export const metadata: Metadata = {
@@ -40,6 +41,12 @@ export default function Home() {
     theme: { from: h.theme.from, to: h.theme.to },
   }));
 
+  const now = new Date();
+  const next90 = holidays
+    .map((h) => ({ h, date: nextOccurrence(h.rule, now) }))
+    .filter((x) => x.date.getTime() - now.getTime() <= 90 * 86400000)
+    .sort((a, b) => a.date.getTime() - b.date.getTime());
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "WebSite",
@@ -58,7 +65,7 @@ export default function Home() {
       />
 
       {/* ---------- Hero ---------- */}
-      {/* eslint-disable-next-line @next/next/no-head-element -- static export: preload the LCP hero photo */}
+      {}
       <link
         rel="preload"
         as="image"
@@ -139,6 +146,31 @@ export default function Home() {
               </div>
             ))}
           </dl>
+        </div>
+      </section>
+
+      {/* ---------- Tools row ---------- */}
+      <section aria-label="Công cụ" className="border-b border-[var(--color-line)] bg-[var(--color-surface)]">
+        <div className="mx-auto grid max-w-6xl gap-3 px-4 py-8 sm:grid-cols-3 sm:px-6">
+          {[
+            { href: "/lich/", t: "Lịch ngày lễ", d: "Ngày dương, ngày âm, đăng ký .ics" },
+            { href: "/thiep/", t: "Tạo thiệp", d: "6 mẫu, tải PNG miễn phí" },
+            { href: "/birthday/", t: "Thiệp sinh nhật", d: "Cá nhân hóa qua liên kết" },
+          ].map((tool) => (
+            <Link
+              key={tool.href}
+              href={tool.href}
+              className="card group flex items-center justify-between gap-4 p-5 transition-transform hover:-translate-y-0.5 focus-visible:outline-2"
+            >
+              <div>
+                <p className="font-display text-lg font-extrabold text-[var(--color-ink)] group-hover:text-[var(--color-brand-deep)]">
+                  {tool.t}
+                </p>
+                <p className="mt-0.5 text-sm text-[var(--color-faint)]">{tool.d}</p>
+              </div>
+              <span aria-hidden="true" className="text-xl text-[var(--color-brand)] transition-transform group-hover:translate-x-1">→</span>
+            </Link>
+          ))}
         </div>
       </section>
 
@@ -258,6 +290,55 @@ export default function Home() {
                 </li>
               ))}
           </ul>
+        </div>
+      </section>
+
+      {/* ---------- Next 90 days timeline ---------- */}
+      <section
+        aria-labelledby="sap-toi"
+        className="border-b border-[var(--color-line)] bg-[var(--color-surface)]"
+      >
+        <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
+          <Reveal>
+            <p className="eyebrow text-[var(--color-brand)]">Sắp tới</p>
+            <h2
+              id="sap-toi"
+              className="mt-3 font-display text-[clamp(1.6rem,3vw,2.4rem)] font-extrabold text-[var(--color-ink)]"
+            >
+              Trong 90 ngày tới
+            </h2>
+          </Reveal>
+          <ol className="mt-8 space-y-0">
+            {next90.map(({ h, date }) => (
+              <li key={h.slug} className="group relative flex gap-5 pb-8 last:pb-0">
+                <span className="absolute left-[13px] top-8 h-full w-px bg-[var(--color-line)] last:hidden" aria-hidden="true" />
+                <span
+                  className="relative z-10 mt-1 flex h-7 w-7 shrink-0 items-center justify-center rounded-full border-2 text-[10px] font-extrabold text-[var(--color-ink)]"
+                  style={{ borderColor: h.theme.from }}
+                  aria-hidden="true"
+                >
+                  {h.dateMark.slice(0, 2)}
+                </span>
+                <div className="min-w-0 flex-1">
+                  <div className="flex flex-wrap items-baseline gap-x-3">
+                    <Link
+                      href={`/${h.slug}/`}
+                      className="u-link font-display text-lg font-extrabold text-[var(--color-ink)] hover:text-[var(--color-brand-deep)]"
+                    >
+                      {h.name}
+                    </Link>
+                    <time className="text-sm font-bold text-[var(--color-faint)]">
+                      {date.getDate()}/{date.getMonth() + 1}/{date.getFullYear()}
+                    </time>
+                    <span className="rounded-full bg-[var(--color-soft)] px-2.5 py-0.5 text-xs font-bold text-[var(--color-muted)]">
+                      còn {Math.round((date.getTime() - now.getTime()) / 86400000)} ngày
+                    </span>
+                  </div>
+                  <p className="mt-0.5 truncate text-sm text-[var(--color-faint)]">{h.tagline}</p>
+                </div>
+              </li>
+            ))}
+          </ol>
         </div>
       </section>
 

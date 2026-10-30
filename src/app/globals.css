@@ -17,6 +17,18 @@
   --ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
+html.dark {
+  --color-ink: #f5f1ea;
+  --color-muted: #d4cdc2;
+  --color-faint: #b8b0a4;
+  --color-surface: #171310;
+  --color-card: #241e19;
+  --color-line: #3d3630;
+  --color-brand: #fb7185;
+  --color-brand-deep: #fda4af;
+  --color-gold: #fbbf24;
+}
+
 html {
   scroll-behavior: smooth;
 }

@@ -1,5 +1,10 @@
 import Link from "next/link";
+import dynamic from "next/dynamic";
 import Motif from "./Motif";
+
+const SearchPalette = dynamic(() => import("./SearchPalette"));
+const ThemeToggle = dynamic(() => import("./ThemeToggle"));
+const PwaRegister = dynamic(() => import("./PwaRegister"));
 
 export default function Header() {
   return (
@@ -20,8 +25,17 @@ export default function Header() {
             Tất cả ngày lễ
           </Link>
           <Link
+            href="/lich/"
+            className="u-link hidden min-h-11 items-center px-2 text-sm font-bold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)] sm:inline-flex"
+          >
+            Lịch
+          </Link>
+          <SearchPalette />
+          <ThemeToggle />
+          <PwaRegister />
+          <Link
             href="/birthday/"
-            className="inline-flex min-h-11 items-center rounded-full bg-[var(--color-brand)] px-5 py-2.5 text-sm font-bold text-white transition-colors hover:bg-[var(--color-brand-deep)]"
+            className="inline-flex min-h-11 items-center rounded-full bg-[var(--color-brand-deep)] px-5 py-2.5 text-sm font-bold text-white transition-colors hover:brightness-110"
           >
             Tạo thiệp sinh nhật
           </Link>
