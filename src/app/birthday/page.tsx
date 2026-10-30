@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Thiệp sinh nhật",
   description:
     "Tạo thiệp sinh nhật cá nhân trong vài giây: đếm ngược, lời nhắn và liên kết chia sẻ.",
+  robots: { index: false, follow: false },
   openGraph: {
     title: "Thiệp sinh nhật",
     description: "Tạo thiệp sinh nhật cá nhân trong vài giây.",

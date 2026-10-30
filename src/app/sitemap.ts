@@ -1,16 +1,16 @@
 import type { MetadataRoute } from "next";
 import { holidays } from "@/data/holidays";
+import { siteUrl } from "@/lib/site";
 
 export const dynamic = "force-static";
 
-const BASE = "https://ngayleviet.vn";
-
 export default function sitemap(): MetadataRoute.Sitemap {
+  const base = siteUrl();
   return [
-    { url: `${BASE}/`, changeFrequency: "weekly", priority: 1 },
-    { url: `${BASE}/birthday/`, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${base}/`, changeFrequency: "weekly", priority: 1 },
+    { url: `${base}/birthday/`, changeFrequency: "monthly", priority: 0.6 },
     ...holidays.map((h) => ({
-      url: `${BASE}/${h.slug}/`,
+      url: `${base}/${h.slug}/`,
       changeFrequency: "yearly" as const,
       priority: 0.8,
     })),

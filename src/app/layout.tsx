@@ -18,8 +18,10 @@ const sans = Be_Vietnam_Pro({
   display: "swap",
 });
 
+import { siteUrl } from "@/lib/site";
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ngayleviet.vn"),
+  metadataBase: new URL(siteUrl() + "/"),
   title: {
     default: "Ngày Lễ Việt — Lịch lễ hội & lời chúc",
     template: "%s | Ngày Lễ Việt",
@@ -30,7 +32,13 @@ export const metadata: Metadata = {
     type: "website",
     locale: "vi_VN",
     siteName: "Ngày Lễ Việt",
+    url: "/",
+    images: [`${siteUrl()}/opengraph-image.png`],
   },
+  twitter: {
+    card: "summary_large_image",
+  },
+  alternates: { canonical: "/" },
 };
 
 export const viewport: Viewport = {
