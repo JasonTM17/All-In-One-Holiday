@@ -12,6 +12,13 @@ const LIC_OK = /CC0|CC BY|public domain|attribution|cc by/i;
 const MISSING_ONLY = new Set(process.argv.slice(2).filter((a) => !a.startsWith("--")));
 
 const QUERIES = {
+  "ong-cong-ong-tao": ["koi carp water", "Vietnamese altar offerings"],
+  "tet-han-thuc": ["banh troi", "banh chay"],
+  "tet-doan-ngo": ["lychee fruit fresh", "plums fruit market", "Vietnam fruit stall"],
+  "ngay-thay-thuoc": ["stethoscope", "medical examination tools"],
+  "ngay-bao-chi": ["newspaper stack", "printing press machine"],
+  "nguoi-cao-tuoi": ["autumn park bench", "senior couple back view", "bamboo walking stick"],
+  "doanh-nhan": ["business skyline city", "handshake business", "Ho Chi Minh City business"],
   "scenery": ["Terraced fields Mu Cang Chai", "Ha Long Bay", "Vietnam rice terrace"],
   "tet-nguyen-dan": ["hoa mai", "Tet Vietnam", "banh chung", "hoa dao Tet"],
   "tet-nguyen-tieu": ["lantern festival Vietnam", "den long Hoi An", "Nguyen Tieu"],

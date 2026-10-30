@@ -170,4 +170,62 @@ export const stories: Record<string, StoryEntry> = {
     ],
     story: { title: "Đêm Bethlehem ở phố phái", body: "Phố Hàng Mã Hà Nội cuối năm biến thành con phố của ánh sáng; nhà thờ lớn rực sáng đêm 24/12 khiến hàng chục nghìn người kéo đến cùng một giờ. Nhiều người không theo đạo, nhưng Giáng sinh ở Việt Nam từ lâu thành lễ của gia đình và của những người trẻ muốn một đêm ấm cuối năm. Chùa và nhà thờ gần nhau như thế — và Noel trở thành ngày lễ mà ai cũng được vào." },
   },
+"ong-cong-ong-tao": {
+    sources: [
+      { outlet: "Wikipedia", title: "Táo quân", url: "https://vi.wikipedia.org/wiki/T%C3%A1o_qu%C3%A2n", summary: "Bài viết về thần Táo quân — ba vị thần bếp trong tín ngưỡng dân gian Việt Nam, được tiễn về trời ngày 23 tháng Chạp." },
+      { outlet: "Wikipedia", title: "Cá chép", url: "https://vi.wikipedia.org/wiki/C%C3%A1_ch%C3%A9p", summary: "Cá chép — loài cá từ lâu gắn với văn hóa phương Đông, và đặc biệt là tục tiễn Táo quân của người Việt." },
+      { outlet: "Wikipedia", title: "Tết", url: "https://vi.wikipedia.org/wiki/T%E1%BA%BFt", summary: "Ông Công Ông Táo là lễ mở đầu chuỗi cúng cuối năm trước Tết Nguyên Đán trong hệ thống lễ hội Việt." },
+    ],
+    story: { title: "Bếp lửa và đôi cá chép", body: "Truyền thuyết kể: ba người — Trọng Cao, Thị Nhi và Phạm Lang — chung sống thuận hòa đến cuối đời, được Ngọc Hoàng phong làm Táo quân cai quản bếp nhà người. Từ đó, mỗi chiều 23 tháng Chạp, bà nội trợ lại dọn bếp thật sạch, dâng mâm cỗ, rồi mang cá chép ra ao hồ thả — đưa Táo quân cưỡi lưng về trời báo cáo việc nhà. Người Việt tin: nhà nào bếp ấm thì nhà ấy đầy phúc; và câu chuyện cứu nhau khó khăn của ba người khiến ngày lễ này thành bài học về nhân nghĩa giữa đời thường." },
+  },
+  "tet-han-thuc": {
+    sources: [
+      { outlet: "Wikipedia", title: "Tết Hàn thực", url: "https://vi.wikipedia.org/wiki/T%E1%BA%BFt_H%C3%A0n_th%E1%BB%B1c", summary: "Tết Hàn thực 3/3 âm lịch — nguồn gốc tục ăn lạnh tưởng nhớ Giới Tử Thôi, được dân gian Việt biến thành tết bánh trôi chay." },
+      { outlet: "Wikipedia", title: "Bánh trôi", url: "https://vi.wikipedia.org/wiki/B%C3%A1nh_tr%C3%B4i", summary: "Bánh trôi nước — viên bánh nếp nhân đường nấu trong nước gừng, biểu tượng của tết Hàn thực." },
+      { outlet: "Wikipedia", title: "Bánh chay", url: "https://vi.wikipedia.org/wiki/B%C3%A1nh_chay", summary: "Bánh chay — viên bánh đậu xanh ngọt thanh, người bạn đồng hành của bánh trôi trong mâm cúng Hàn thực." },
+    ],
+    story: { title: "Giới Tử Thôi và chiếc bánh thanh tịnh", body: "Giới Tử Thôi, hiền sĩ nước Tấn thời Xuân Thu, vì giữ khí tiết đã ôm cây chết cháy cùng mẹ già trên núi Miên Sơn. Vua Tấn Văn Công đau xót, lập tục cấm lửa ngày đó — mọi nhà phải ăn đồ lạnh, gọi là Hàn thực. Tục này du nhập Việt Nam nhưng được dân gian làm dịu thành tết ăn chay: không còn cấm lửa, chỉ còn bánh trôi tròn như trời và bánh chay dẹt như đất dâng lên tổ tiên. Ở phố cũ, người ta còn truyền tay nhau câu 'mùng ba tháng ba — bánh trôi bánh chay' như một lời hẹn ngọt ngào của mùa xuân." },
+  },
+  "tet-doan-ngo": {
+    sources: [
+      { outlet: "Wikipedia", title: "Tết Đoan Ngọ", url: "https://vi.wikipedia.org/wiki/T%E1%BA%BFt_%C4%90oan_ng%E1%BB%8D", summary: "Tết Đoan Ngọ 5/5 âm lịch — tết giết sâu bọ của dân gian Việt, khi người ta ăn hoa quả chua và rượu nếp thanh lọc cơ thể." },
+      { outlet: "Wikipedia", title: "Gia đình", url: "https://vi.wikipedia.org/wiki/Gia_%C4%91%C3%ACnh", summary: "Bối cảnh gia đình — mâm cơm Đoan Ngọ truyền thống của nhà Việt với cơm rượu và trái cây đầu mùa." },
+      { outlet: "Wikipedia", title: "Đông y", url: "https://vi.wikipedia.org/wiki/%C4%90%C3%B4ng_y", summary: "Y học cổ truyền — nền tảng của tục 'giết sâu bọ' và hái thuốc ngọ trong dân gian." },
+    ],
+    story: { title: "Tết giết sâu bọ", body: "Ngày xưa ở đồng bằng, tháng 5 sang hè là lúc ruồi muỗi, dịch bệnh rộ lên. Người xưa chẳng có thuốc tây — chỉ có kinh nghiệm: hoa quả chua, rượu nếp, cơm rượu và lá ngải. Mùng 5 tháng 5, đúng giờ ngọ, cả nhà ăn đồ chua trước khi ăn cơm — như một cách bảo vệ chung của cả dân tộc. 'Hà Nội không vội được đâu' vẫn hay nói về tết này: người thủ đô chuẩn bị từ sớm mâm vải, mận, cơm rượu hoa vàng. Tết giết sâu bọ vì thế không phải lễ mê tín mà là trí tuệ dân gian phòng bệnh mùa hè — và cũng là ngày con cháu hỏi thăm sức khỏe cha mẹ." },
+  },
+  "ngay-thay-thuoc": {
+    sources: [
+      { outlet: "Wikipedia", title: "Ngày Thầy thuốc Việt Nam", url: "https://vi.wikipedia.org/wiki/Ng%C3%A0y_th%E1%BA%A7y_thu%E1%BB%91c_Vi%E1%BB%87t_Nam", summary: "Ngày Thầy thuốc Việt Nam 27/2 — kỷ niệm bức thư năm 1955 của Chủ tịch Hồ Chí Minh gửi cán bộ y tế." },
+      { outlet: "Wikipedia", title: "Đông y", url: "https://vi.wikipedia.org/wiki/%C4%90%C3%B4ng_y", summary: "Đông y — truyền thống y học mà thầy thuốc Việt Nam kế thừa cùng y học hiện đại." },
+      { outlet: "Wikipedia", title: "Nghĩa trang Hàng Dương", url: "https://vi.wikipedia.org/wiki/Ngh%C4%A9a_trang_H%C3%A0ng_D%C6%B0%C6%A1ng", summary: "Nơi yên nghỉ của nhiều anh hùng cách mạng — gợi nhớ đạo lý phụng sự quê hương mà nghề thầy thuốc cũng mang." },
+    ],
+    story: { title: "Lương y như từ mẫu", body: "Bức thư gửi cán bộ y tế ngày 27/2/1955 của Bác Hồ chỉ ngắn vài chục dòng nhưng chứa một chuẩn mực vượt thời đại: 'Lương y như từ mẫu' — thầy thuốc phải yêu thương bệnh nhân như mẹ yêu con. Từ đó, 27/2 trở thành ngày của những người áo trắng: bác sĩ đêm trực phòng mổ, điều dưỡng đưa thuốc tận giường, thầy thuốc vùng cao đi bộ cả ngày đến bản. Mỗi năm, bệnh viện lại trao bó hoa và lá thư cảm ơn — và một nghề lặng lẽ được nói tên." },
+  },
+  "ngay-bao-chi": {
+    sources: [
+      { outlet: "Wikipedia", title: "Báo chí Việt Nam", url: "https://vi.wikipedia.org/wiki/B%C3%A1o_ch%C3%AD_Vi%E1%BB%87t_Nam", summary: "Lịch sử báo chí Việt Nam — từ Thanh Niên 1925, Cứu Quốc thời kháng chiến đến báo mạng hiện đại." },
+      { outlet: "Wikipedia", title: "Thanh Niên (báo)", url: "https://vi.wikipedia.org/wiki/Thanh_Ni%C3%AAn_(b%C3%A1o)", summary: "Báo Thanh Niên — tờ báo hiện nay của T.Ư Đoàn, mang tên tờ báo tiền thân do Nguyễn Ái Quốc sáng lập năm 1925." },
+      { outlet: "Wikipedia", title: "Tết", url: "https://vi.wikipedia.org/wiki/T%E1%BA%BFt", summary: "Bối cảnh văn hóa — báo chí định hình cách người Việt hiểu lễ hội và lịch sử của mình." },
+    ],
+    story: { title: "Tờ báo khởi nguồn ở Quảng Châu", body: "Năm 1925, trong một căn phòng nhỏ ở Quảng Châu, Nguyễn Ái Quốc cùng đồng chí in tờ Thanh Niên số đầu tiên — tờ báo Việt Nam đầu tiên mang tinh thần cách mạng. Giấy mỏng, máy in cũ, nhưng lời báo chạy về nước nhanh hơn cả tin chiến trường. Từ đó, báo chí Việt Nam đi qua thời chiến với Cứu Quốc, qua đổi mới với báo điện tử — và vẫn là nghề chạy nhanh hơn người khác để kể cho dân nghe sự thật. 21/6 mỗi năm, những người làm báo nhắc lại ngày khởi nguồn ấy." },
+  },
+  "nguoi-cao-tuoi": {
+    sources: [
+      { outlet: "Wikipedia", title: "Ngày quốc tế người cao tuổi", url: "https://vi.wikipedia.org/wiki/Ng%C3%A0y_qu%E1%BB%91c_t%E1%BA%BF_ng%C6%B0%E1%BB%9Di_cao_tu%E1%BB%95i", summary: "Ngày Quốc tế Người cao tuổi 1/10 do LHQ chọn năm 1991 — Việt Nam cũng kỷ niệm cùng ngày." },
+      { outlet: "Wikipedia", title: "Gia đình", url: "https://vi.wikipedia.org/wiki/Gia_%C4%91%C3%ACnh", summary: "Gia đình Việt — nơi người cao tuổi giữ vai trò cột trụ tinh thần và truyền thống." },
+      { outlet: "Wikipedia", title: "Tết", url: "https://vi.wikipedia.org/wiki/T%E1%BA%BFt", summary: "Lễ mừng thọ trong văn hóa Việt thường gắn với dịp Tết và các ngày lễ trong năm." },
+    ],
+    story: { title: "Mái tóc bạc của làng", body: "Ở quê, cụ ông 80 tuổi vẫn ngồi gác hiên kể chuyện ngày đánh bom; cụ bà vẫn nhớ từng mùa cấy của ba đời nhà. Người già không chỉ là người cần chăm sóc — họ là thư viện sống của gia đình và của làng. Khi LHQ chọn 1/10 làm Ngày Người cao tuổi, Việt Nam gặp lại một phần cốt lõi của mình: 'kính lão đắc thọ' vốn đã là đạo lý trong từng mâm cỗ mừng thọ 70, 80, 90 tuổi. Ngày ấy chỉ cần một cú điện thoại về quê — hỏi ông bà ăn cơm chưa — là đã giữ được phong tục." },
+  },
+  "doanh-nhan": {
+    sources: [
+      { outlet: "Wikipedia", title: "Doanh nhân", url: "https://vi.wikipedia.org/wiki/Doanh_nh%C3%A2n", summary: "Khái niệm doanh nhân — vai trò người khởi tạo, điều hành và chịu trách nhiệm trong doanh nghiệp." },
+      { outlet: "Wikipedia", title: "Khởi nghiệp", url: "https://vi.wikipedia.org/wiki/Kh%E1%BB%9Fi_nghi%E1%BB%87p", summary: "Khởi nghiệp — phong trào mà Ngày Doanh nhân Việt Nam khuyến khích, đặc biệt với giới trẻ." },
+      { outlet: "Wikipedia", title: "Báo chí Việt Nam", url: "https://vi.wikipedia.org/wiki/B%C3%A1o_ch%C3%AD_Vi%E1%BB%87t_Nam", summary: "Báo chí là nơi lưu lại câu chuyện khởi nghiệp và những thương hiệu Việt đi lên." },
+    ],
+    story: { title: "Người dám bắt đầu", body: "Năm 2004, Nhà nước chọn 13/10 làm ngày riêng cho doanh nhân — lần đầu trong lịch sử, nghề buôn được công nhận là một vai trò xây dựng đất nước. Từ quán cà phê hẻm nhỏ đến công ty công nghệ xuất khẩu, mỗi doanh nhân Việt đều mang một câu chuyện bắt đầu: có người bỏ việc nhà nước năm đổi mới, có người khởi nghiệp từ phòng trọ sinh viên. Ngày Doanh nhân là lời nhắc rằng thương trường không chỉ là tiền — mà là việc làm cho hàng trăm gia đình, là chữ tín trên hóa đơn, là khi dám chịu trách nhiệm với cả một đội ngũ." },
+  },
+  
+
 };

@@ -142,3 +142,52 @@ Photos from Wikimedia Commons contributors; see per-file license and description
 | scenery/gallery2.webp | Steven C. Price | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ha-Long-Bay3.jpg) |
 | scenery/gallery3.webp | Steffen Schmitz (more photos) | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:H%E1%BA%A1_Long_Bay,_Ti_T%E1%BB%91p_Island,_2020-01_CN-01.jpg) |
 | scenery/hero.webp | Thomas Hirsch / User:Ravn | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Halong_Bay_in_Vietnam.jpg) |
+| ong-cong-ong-tao/hero.webp | Ian Simons | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Carp_Pond_-_geograph.org.uk_-_651649.jpg) |
+| ong-cong-ong-tao/card.webp | Mick Lobb | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Nursery_Pond,_Hazlecourt_Fish_Pond_-_Llysworney_-_geograph.org.uk_-_1264196.jpg) |
+| ong-cong-ong-tao/gallery1.webp | Acabashi | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:City_of_London_Cemetery_-_Koi_carp_in_the_new_crematorium_pond_01.jpg) |
+| ong-cong-ong-tao/gallery2.webp | Ermell | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Weisendorf_carp_pond_17RM1668-PSD.jpg) |
+| ong-cong-ong-tao/gallery3.webp | Acabashi | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Highdown_Gardens,_Worthing,_Cave_Pond_carp_1.jpg) |
+| ong-cong-ong-tao/hero.webp | Wikimedia Commons | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Japanese_water_garden_with_carp.jpg) |
+| tet-han-thuc/hero.webp | Titti Nguyen | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Tet_offerings,_Hue_2011.jpg) |
+| tet-han-thuc/card.webp | Conbo at vi.wikipedia | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Banhchay.JPG) |
+| tet-han-thuc/gallery1.webp | Conbo at vi.wikipedia | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Banhtroi.JPG) |
+| tet-han-thuc/gallery2.webp | Lachy70 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:B%C3%A1nh_tr%C3%B4i_n%C6%B0%E1%BB%9Bc.png) |
+| tet-han-thuc/gallery2.webp | Lachy70 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:HanNomKhaiSample.png) |
+| tet-han-thuc/gallery2.webp | Violetbonmua | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Sunset_4.jpg) |
+| tet-han-thuc/gallery3.webp | Lachy70 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:B%C3%A1nh_tr%C3%B4i_n%C6%B0%E1%BB%9Bc.png) |
+| tet-doan-ngo/hero.webp | Matt @ PEK from Taipei, Taiwan | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:In_suite_breakfast_experience_(3119861609).jpg) |
+| tet-doan-ngo/card.webp | babinbubun | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Start_your_day.jpg) |
+| tet-doan-ngo/gallery1.webp | JIP | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Spring_rolls_and_lychee_juice_at_restaurant_Nam_Nam_in_Munich.jpg) |
+| tet-doan-ngo/gallery2.webp | TopTropicals.com | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Litchi_chinensis_-_Lychee_(52334448851).jpg) |
+| tet-doan-ngo/gallery3.webp | rajucreddy | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Exotic_Lychee_Cluster_By_Raju_C_Reddy.jpg) |
+| ngay-thay-thuoc/hero.webp | Arthur William Devis | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:The_Death_of_Nelson,_21_October_1805_RMG_L8118.jpg) |
+| ngay-thay-thuoc/card.webp | Arthur William Devis | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:The_Death_of_Nelson,_21_October_1805_RMG_BHC2894.tiff) |
+| ngay-thay-thuoc/gallery1.webp | Wikimedia Commons | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:White_Coats_for_Black_Lives_demonstration_-_DPLA_-_f6c5939a0a0114cce310a82f836cc8f8.jpg) |
+| ngay-thay-thuoc/gallery2.webp | Wikimedia Commons | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:White_Coats_for_Black_Lives_demonstration_-_DPLA_-_961dc2c03002624c35c616ad2bd432ba.jpg) |
+| ngay-thay-thuoc/gallery3.webp | David E. Lucas | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:1,000th_open-heart_surgery_patient_-_DPLA_-_1f3814906333d7b97509c6770c1322eb.jpg) |
+| ngay-thay-thuoc/hero.webp | Nenad Stojkovic | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Female_doctor_putting_protective_medical_gloves_closeup._(51404981053).jpg) |
+| ngay-thay-thuoc/card.webp | Benlisquare | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Loss,_in_first-person_view.png) |
+| ngay-thay-thuoc/card.webp | ernstl | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Stethoscope_1.jpg) |
+| ngay-bao-chi/hero.webp | Sue Clark | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Double_Octuple_Newspaper_Press.jpg) |
+| ngay-bao-chi/card.webp | David Brewer from Brookmans Park, England | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:2010_newspaper_press_Bulawayo_Zimbabwe_6423798769.jpg) |
+| ngay-bao-chi/gallery1.webp | George S. Turnbull | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:First_newspaper_press_in_the_American_west.png) |
+| ngay-bao-chi/gallery2.webp | ScribblingAl | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:City_Press_newspaper_logo.jpg) |
+| ngay-bao-chi/gallery3.webp | Newspapers.com | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Etching_of_newspaper_printing_press_in_use_United_States_1878.jpg) |
+| ngay-bao-chi/hero.webp | Daniel R. Blume from Orange County, California, USA | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:A_stack_of_newspapers_(cropped).jpg) |
+| ngay-bao-chi/gallery1.webp | Daniel R. Blume from Orange County, California, USA | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:A_stack_of_newspapers.jpg) |
+| ngay-bao-chi/gallery2.webp | Globalimmigrantnews | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Newspaper_stack.jpg) |
+| ngay-bao-chi/gallery3.webp | ElCapitanBSC | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Newspaper_Cones_2009_(3890107375).jpg) |
+| nguoi-cao-tuoi/hero.webp | . The original uploader was MoodyGroove at English Wikipedia. | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Clinton_health_care_elderly.jpg) |
+| nguoi-cao-tuoi/card.webp | Cpl. Cullen J. Tiernan | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:USMC-100810-M-8743T-217.jpg) |
+| nguoi-cao-tuoi/gallery1.webp | Wikimedia Commons | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Nicaraguan_Residents_Receive_Care_at_High_School_Clinic_During_Continuing_Promise_2008_DVIDS109439.jpg) |
+| nguoi-cao-tuoi/gallery2.webp | Tim Green from Bradford | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Literary_Institute,_Camborne_(9592703552).jpg) |
+| nguoi-cao-tuoi/gallery3.webp | Print made by: Isaac Cruikshank After: George Moutard Woodward Published by: S W Fores | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Symptoms_of_Crim._Con.!!_(BM_1935,0522.8.39).jpg) |
+| nguoi-cao-tuoi/hero.webp | Onderwijsgek | CC BY-SA 2.5 nl | [Commons](https://commons.wikimedia.org/wiki/File:Bench_autumn.JPG) |
+| nguoi-cao-tuoi/card.webp | Onderwijsgek | CC BY-SA 2.5 nl | [Commons](https://commons.wikimedia.org/wiki/File:Bench_autumn_02.JPG) |
+| nguoi-cao-tuoi/gallery2.webp | Onderwijsgek | CC BY-SA 2.5 nl | [Commons](https://commons.wikimedia.org/wiki/File:Bench_autumn_03.JPG) |
+| nguoi-cao-tuoi/gallery3.webp | Johan Jönsson (Julle) | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Park_bench,_Stralau.jpg) |
+| doanh-nhan/hero.webp | Diliff | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Sydney_skyline_at_dusk_-_Dec_2008.jpg) |
+| doanh-nhan/card.webp | Andrew McMillan. | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Central_Business_District_skyline,_Singapore,_at_night.jpg) |
+| doanh-nhan/gallery1.webp | Hpeterswald | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Sydney_City_Business_District.jpg) |
+| doanh-nhan/gallery2.webp | ProjectManhattan. | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Skyline_of_the_Central_Business_District,_Singapore,_featuring_Asia_Square_-_20131121.jpg) |
+| doanh-nhan/gallery3.webp | RM Bulseco from Davao City, Philippines. | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Central_Business_District_skyline,_Singapore,_at_night_-_20140215-03.jpg) |

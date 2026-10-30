@@ -1294,5 +1294,460 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "source": "Wikimedia Commons",
       "alt": "Hạ Long Bay, in Vietnam."
     }
+  ],
+  "ong-cong-ong-tao": [
+    {
+      "file": "ong-cong-ong-tao/hero.webp",
+      "photographer": "Ian Simons",
+      "profile": "https://commons.wikimedia.org/wiki/File:Carp_Pond_-_geograph.org.uk_-_651649.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Carp_Pond_-_geograph.org.uk_-_651649.jpg",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Carp Pond Used in the past for growing carp."
+    },
+    {
+      "file": "ong-cong-ong-tao/card.webp",
+      "photographer": "Mick Lobb",
+      "profile": "https://commons.wikimedia.org/wiki/File:Nursery_Pond,_Hazlecourt_Fish_Pond_-_Llysworney_-_geograph.org.uk_-_1264196.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Nursery_Pond,_Hazlecourt_Fish_Pond_-_Llysworney_-_geograph.org.uk_-_1264196.jpg",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Nursery Pond, Hazlecourt Fish Pond - Llysworney Once used to breed a variety of decorative and exotic aquarium fish, the"
+    },
+    {
+      "file": "ong-cong-ong-tao/gallery1.webp",
+      "photographer": "Acabashi",
+      "profile": "https://commons.wikimedia.org/wiki/File:City_of_London_Cemetery_-_Koi_carp_in_the_new_crematorium_pond_01.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:City_of_London_Cemetery_-_Koi_carp_in_the_new_crematorium_pond_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "A Koi carp in the new crematorium pond at the City of London Cemetery, Newham, England.Camera: Canon EOS 6D with Canon E"
+    },
+    {
+      "file": "ong-cong-ong-tao/gallery2.webp",
+      "photographer": "Ermell",
+      "profile": "https://commons.wikimedia.org/wiki/File:Weisendorf_carp_pond_17RM1668-PSD.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Weisendorf_carp_pond_17RM1668-PSD.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Fish pond near Weisendorf in Aischgrund"
+    },
+    {
+      "file": "ong-cong-ong-tao/gallery3.webp",
+      "photographer": "Acabashi",
+      "profile": "https://commons.wikimedia.org/wiki/File:Highdown_Gardens,_Worthing,_Cave_Pond_carp_1.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Highdown_Gardens,_Worthing,_Cave_Pond_carp_1.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Koi carp in the Cave Pond (constructed in 1910) which extends into a cave which was an earlier lime kiln, next to The Ch"
+    },
+    {
+      "file": "ong-cong-ong-tao/hero.webp",
+      "photographer": "Wikimedia Commons",
+      "profile": "https://commons.wikimedia.org/wiki/File:Japanese_water_garden_with_carp.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Japanese_water_garden_with_carp.jpg",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "koi carp water"
+    }
+  ],
+  "tet-han-thuc": [
+    {
+      "file": "tet-han-thuc/hero.webp",
+      "photographer": "Titti Nguyen",
+      "profile": "https://commons.wikimedia.org/wiki/File:Tet_offerings,_Hue_2011.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Tet_offerings,_Hue_2011.jpg",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Offerings for Tet at the office (2011). As a colleague of mine said: better to be on the safe side"
+    },
+    {
+      "file": "tet-han-thuc/card.webp",
+      "photographer": "Conbo at vi.wikipedia",
+      "profile": "https://commons.wikimedia.org/wiki/File:Banhchay.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:Banhchay.JPG",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "A bowl of bánh chay"
+    },
+    {
+      "file": "tet-han-thuc/gallery1.webp",
+      "photographer": "Conbo at vi.wikipedia",
+      "profile": "https://commons.wikimedia.org/wiki/File:Banhtroi.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:Banhtroi.JPG",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Hình thu nhỏ của một đĩa bánh trôi, làm minh hoạ cho bài viết về đối tượng"
+    },
+    {
+      "file": "tet-han-thuc/gallery2.webp",
+      "photographer": "Lachy70",
+      "profile": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_tr%C3%B4i_n%C6%B0%E1%BB%9Bc.png",
+      "photo": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_tr%C3%B4i_n%C6%B0%E1%BB%9Bc.png",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Bánh trôi nước, one of Hồ Xuân Hương's most famous poems is shown here with chữ Hán Nôm and chữ Quốc ngữ (Vietnamese alp"
+    },
+    {
+      "file": "tet-han-thuc/gallery2.webp",
+      "photographer": "Lachy70",
+      "profile": "https://commons.wikimedia.org/wiki/File:HanNomKhaiSample.png",
+      "photo": "https://commons.wikimedia.org/wiki/File:HanNomKhaiSample.png",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "This picture shows the Vietnamese alphabet and Nôm text in the font Hán Nôm Khai. The text reads \"風𡨸漢喃楷\" and \"永\". It al"
+    },
+    {
+      "file": "tet-han-thuc/gallery2.webp",
+      "photographer": "Violetbonmua",
+      "profile": "https://commons.wikimedia.org/wiki/File:Sunset_4.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Sunset_4.jpg",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "Sunset at Đăk Glei, Kon Tum Province, Vietnam. Children of minority ethnic group and volunteer youth of the \"Mùa hè xanh"
+    },
+    {
+      "file": "tet-han-thuc/gallery3.webp",
+      "photographer": "Lachy70",
+      "profile": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_tr%C3%B4i_n%C6%B0%E1%BB%9Bc.png",
+      "photo": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_tr%C3%B4i_n%C6%B0%E1%BB%9Bc.png",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Bánh trôi nước, one of Hồ Xuân Hương's most famous poems is shown here with chữ Hán Nôm and chữ Quốc ngữ (Vietnamese alp"
+    }
+  ],
+  "tet-doan-ngo": [
+    {
+      "file": "tet-doan-ngo/hero.webp",
+      "photographer": "Matt @ PEK from Taipei, Taiwan",
+      "profile": "https://commons.wikimedia.org/wiki/File:In_suite_breakfast_experience_(3119861609).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:In_suite_breakfast_experience_(3119861609).jpg",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "St. Regis Bali Resort in Bali, Indonesia selections from breakfast menu: Freshly Squeezed vitamin Drinks -apple and cele"
+    },
+    {
+      "file": "tet-doan-ngo/card.webp",
+      "photographer": "babinbubun",
+      "profile": "https://commons.wikimedia.org/wiki/File:Start_your_day.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Start_your_day.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "The breakfast which gives you a fresh start.."
+    },
+    {
+      "file": "tet-doan-ngo/gallery1.webp",
+      "photographer": "JIP",
+      "profile": "https://commons.wikimedia.org/wiki/File:Spring_rolls_and_lychee_juice_at_restaurant_Nam_Nam_in_Munich.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Spring_rolls_and_lychee_juice_at_restaurant_Nam_Nam_in_Munich.jpg",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "Spring rolls, some kind of sauce and fresh vegetables, along with a glass of lychee juice, served at restaurant Nam Nam "
+    },
+    {
+      "file": "tet-doan-ngo/gallery2.webp",
+      "photographer": "TopTropicals.com",
+      "profile": "https://commons.wikimedia.org/wiki/File:Litchi_chinensis_-_Lychee_(52334448851).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Litchi_chinensis_-_Lychee_(52334448851).jpg",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Litchi chinensis - Lychee. You've eaten Lychee no doubt in Chinese restaurants. Under the brittle crimson skin, the fles"
+    },
+    {
+      "file": "tet-doan-ngo/gallery3.webp",
+      "photographer": "rajucreddy",
+      "profile": "https://commons.wikimedia.org/wiki/File:Exotic_Lychee_Cluster_By_Raju_C_Reddy.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Exotic_Lychee_Cluster_By_Raju_C_Reddy.jpg",
+      "license": "CC0",
+      "source": "Wikimedia Commons",
+      "alt": "The still photograph titled \"Exotic Lychee Cluster By Raju C Reddy \" captures the enchanting beauty of a bunch of fresh "
+    }
+  ],
+  "ngay-thay-thuoc": [
+    {
+      "file": "ngay-thay-thuoc/hero.webp",
+      "photographer": "Arthur William Devis",
+      "profile": "https://commons.wikimedia.org/wiki/File:The_Death_of_Nelson,_21_October_1805_RMG_L8118.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:The_Death_of_Nelson,_21_October_1805_RMG_L8118.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "The Death of Nelson, 21 October 1805 The scene in the cockpit on the 'Victory', 100 guns, as Nelson lay dying during the"
+    },
+    {
+      "file": "ngay-thay-thuoc/card.webp",
+      "photographer": "Arthur William Devis",
+      "profile": "https://commons.wikimedia.org/wiki/File:The_Death_of_Nelson,_21_October_1805_RMG_BHC2894.tiff",
+      "photo": "https://commons.wikimedia.org/wiki/File:The_Death_of_Nelson,_21_October_1805_RMG_BHC2894.tiff",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "The Death of Nelson, 21 October 1805 The scene in the cockpit on the 'Victory', 100 guns, as Nelson lay dying during the"
+    },
+    {
+      "file": "ngay-thay-thuoc/gallery1.webp",
+      "photographer": "Wikimedia Commons",
+      "profile": "https://commons.wikimedia.org/wiki/File:White_Coats_for_Black_Lives_demonstration_-_DPLA_-_f6c5939a0a0114cce310a82f836cc8f8.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:White_Coats_for_Black_Lives_demonstration_-_DPLA_-_f6c5939a0a0114cce310a82f836cc8f8.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Grant Hospital doctors, nurses and staff particpated in the White Coats for Black Lives demostration on the lawn of Main"
+    },
+    {
+      "file": "ngay-thay-thuoc/gallery2.webp",
+      "photographer": "Wikimedia Commons",
+      "profile": "https://commons.wikimedia.org/wiki/File:White_Coats_for_Black_Lives_demonstration_-_DPLA_-_961dc2c03002624c35c616ad2bd432ba.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:White_Coats_for_Black_Lives_demonstration_-_DPLA_-_961dc2c03002624c35c616ad2bd432ba.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Grant Hospital doctors, nurses and staff particpated in the White Coats for Black Lives demostration on the lawn of Main"
+    },
+    {
+      "file": "ngay-thay-thuoc/gallery3.webp",
+      "photographer": "David E. Lucas",
+      "profile": "https://commons.wikimedia.org/wiki/File:1,000th_open-heart_surgery_patient_-_DPLA_-_1f3814906333d7b97509c6770c1322eb.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:1,000th_open-heart_surgery_patient_-_DPLA_-_1f3814906333d7b97509c6770c1322eb.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "A view of a male doctor, wearing a white lab coat, using a stethoscope to check on the patient who was the 1,000th open-"
+    },
+    {
+      "file": "ngay-thay-thuoc/hero.webp",
+      "photographer": "Nenad Stojkovic",
+      "profile": "https://commons.wikimedia.org/wiki/File:Female_doctor_putting_protective_medical_gloves_closeup._(51404981053).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Female_doctor_putting_protective_medical_gloves_closeup._(51404981053).jpg",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Female doctor putting protective medical gloves closeup."
+    },
+    {
+      "file": "ngay-thay-thuoc/card.webp",
+      "photographer": "Benlisquare",
+      "profile": "https://commons.wikimedia.org/wiki/File:Loss,_in_first-person_view.png",
+      "photo": "https://commons.wikimedia.org/wiki/File:Loss,_in_first-person_view.png",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "A collection of four algorithmically-generated AI artwork panels serving as a parody of \"Loss\" by Tim Buckley, depicting"
+    },
+    {
+      "file": "ngay-thay-thuoc/card.webp",
+      "photographer": "ernstl",
+      "profile": "https://commons.wikimedia.org/wiki/File:Stethoscope_1.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Stethoscope_1.jpg",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Stethoscope"
+    }
+  ],
+  "ngay-bao-chi": [
+    {
+      "file": "ngay-bao-chi/hero.webp",
+      "photographer": "Sue Clark",
+      "profile": "https://commons.wikimedia.org/wiki/File:Double_Octuple_Newspaper_Press.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Double_Octuple_Newspaper_Press.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "From Webster's New Illustrated Dictionary based on the Unabridged Dictionary of Noah Webster, Revised and edited by Edwa"
+    },
+    {
+      "file": "ngay-bao-chi/card.webp",
+      "photographer": "David Brewer from Brookmans Park, England",
+      "profile": "https://commons.wikimedia.org/wiki/File:2010_newspaper_press_Bulawayo_Zimbabwe_6423798769.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:2010_newspaper_press_Bulawayo_Zimbabwe_6423798769.jpg",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Visit to The Chronicle &amp; The Sunday News office in Bulawayo, Zimbabwe."
+    },
+    {
+      "file": "ngay-bao-chi/gallery1.webp",
+      "photographer": "George S. Turnbull",
+      "profile": "https://commons.wikimedia.org/wiki/File:First_newspaper_press_in_the_American_west.png",
+      "photo": "https://commons.wikimedia.org/wiki/File:First_newspaper_press_in_the_American_west.png",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "First newspaper press in the [American] west. (Washington hand press). Used on Oregon Spectator, 1846. Preserved in the "
+    },
+    {
+      "file": "ngay-bao-chi/gallery2.webp",
+      "photographer": "ScribblingAl",
+      "profile": "https://commons.wikimedia.org/wiki/File:City_Press_newspaper_logo.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:City_Press_newspaper_logo.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "The official logo of the City Press news publication in South Africa."
+    },
+    {
+      "file": "ngay-bao-chi/gallery3.webp",
+      "photographer": "Newspapers.com",
+      "profile": "https://commons.wikimedia.org/wiki/File:Etching_of_newspaper_printing_press_in_use_United_States_1878.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Etching_of_newspaper_printing_press_in_use_United_States_1878.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Etching of newspaper printing press in use United States 1878"
+    },
+    {
+      "file": "ngay-bao-chi/hero.webp",
+      "photographer": "Daniel R. Blume from Orange County, California, USA",
+      "profile": "https://commons.wikimedia.org/wiki/File:A_stack_of_newspapers_(cropped).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:A_stack_of_newspapers_(cropped).jpg",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "LA Times"
+    },
+    {
+      "file": "ngay-bao-chi/gallery1.webp",
+      "photographer": "Daniel R. Blume from Orange County, California, USA",
+      "profile": "https://commons.wikimedia.org/wiki/File:A_stack_of_newspapers.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:A_stack_of_newspapers.jpg",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "LA Times"
+    },
+    {
+      "file": "ngay-bao-chi/gallery2.webp",
+      "photographer": "Globalimmigrantnews",
+      "profile": "https://commons.wikimedia.org/wiki/File:Newspaper_stack.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Newspaper_stack.jpg",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "global immigrant news"
+    },
+    {
+      "file": "ngay-bao-chi/gallery3.webp",
+      "photographer": "ElCapitanBSC",
+      "profile": "https://commons.wikimedia.org/wiki/File:Newspaper_Cones_2009_(3890107375).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Newspaper_Cones_2009_(3890107375).jpg",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Uploaded through Desktop Flickr Organizer."
+    }
+  ],
+  "nguoi-cao-tuoi": [
+    {
+      "file": "nguoi-cao-tuoi/hero.webp",
+      "photographer": ". The original uploader was MoodyGroove at English Wikipedia.",
+      "profile": "https://commons.wikimedia.org/wiki/File:Clinton_health_care_elderly.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Clinton_health_care_elderly.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "From https://clintonwhitehouse2.archives.gov/WH/EOP/First_Lady/html/HILLARY_Bio.html: Upon taking office in 1993, Presid"
+    },
+    {
+      "file": "nguoi-cao-tuoi/card.webp",
+      "photographer": "Cpl. Cullen J. Tiernan",
+      "profile": "https://commons.wikimedia.org/wiki/File:USMC-100810-M-8743T-217.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:USMC-100810-M-8743T-217.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "A soldier with the Armed Forces for the Defense of Mozambique hands medicine to an elderly village woman in Sabie, Mozam"
+    },
+    {
+      "file": "nguoi-cao-tuoi/gallery1.webp",
+      "photographer": "Wikimedia Commons",
+      "profile": "https://commons.wikimedia.org/wiki/File:Nicaraguan_Residents_Receive_Care_at_High_School_Clinic_During_Continuing_Promise_2008_DVIDS109439.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Nicaraguan_Residents_Receive_Care_at_High_School_Clinic_During_Continuing_Promise_2008_DVIDS109439.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Project Hope volunteer Sara Joyce, embarked aboard the amphibious assault ship USS Kearsarge, examines the hand of an el"
+    },
+    {
+      "file": "nguoi-cao-tuoi/gallery2.webp",
+      "photographer": "Tim Green from Bradford",
+      "profile": "https://commons.wikimedia.org/wiki/File:Literary_Institute,_Camborne_(9592703552).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Literary_Institute,_Camborne_(9592703552).jpg",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Grade II*. Literary Institute, now social centre. 1842, enlarged 1852; altered. Granite ashlar, slate roof. T-plan forme"
+    },
+    {
+      "file": "nguoi-cao-tuoi/gallery3.webp",
+      "photographer": "Print made by: Isaac Cruikshank After: George Moutard Woodward Published by: S W Fores",
+      "profile": "https://commons.wikimedia.org/wiki/File:Symptoms_of_Crim._Con.!!_(BM_1935,0522.8.39).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Symptoms_of_Crim._Con.!!_(BM_1935,0522.8.39).jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Six groups of three persons (wife, husband, and lover) arranged in two rows, their words (not transcribed) etched above "
+    },
+    {
+      "file": "nguoi-cao-tuoi/hero.webp",
+      "photographer": "Onderwijsgek",
+      "profile": "https://commons.wikimedia.org/wiki/File:Bench_autumn.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:Bench_autumn.JPG",
+      "license": "CC BY-SA 2.5 nl",
+      "source": "Wikimedia Commons",
+      "alt": "Bankje in de herfst bij de begraafplaats in Oudewater."
+    },
+    {
+      "file": "nguoi-cao-tuoi/card.webp",
+      "photographer": "Onderwijsgek",
+      "profile": "https://commons.wikimedia.org/wiki/File:Bench_autumn_02.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:Bench_autumn_02.JPG",
+      "license": "CC BY-SA 2.5 nl",
+      "source": "Wikimedia Commons",
+      "alt": "Bankje in de herfst bij de begraafplaats in Oudewater."
+    },
+    {
+      "file": "nguoi-cao-tuoi/gallery2.webp",
+      "photographer": "Onderwijsgek",
+      "profile": "https://commons.wikimedia.org/wiki/File:Bench_autumn_03.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:Bench_autumn_03.JPG",
+      "license": "CC BY-SA 2.5 nl",
+      "source": "Wikimedia Commons",
+      "alt": "Bankje in de herfst bij de begraafplaats in Oudewater."
+    },
+    {
+      "file": "nguoi-cao-tuoi/gallery3.webp",
+      "photographer": "Johan Jönsson (Julle)",
+      "profile": "https://commons.wikimedia.org/wiki/File:Park_bench,_Stralau.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Park_bench,_Stralau.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Park bench in autumn, Stralau."
+    }
+  ],
+  "doanh-nhan": [
+    {
+      "file": "doanh-nhan/hero.webp",
+      "photographer": "Diliff",
+      "profile": "https://commons.wikimedia.org/wiki/File:Sydney_skyline_at_dusk_-_Dec_2008.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Sydney_skyline_at_dusk_-_Dec_2008.jpg",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "A panoramic view of the Sydney skyline as viewed across Sydney Harbour from Kirribilli. Taken by myself with a Canon 5D "
+    },
+    {
+      "file": "doanh-nhan/card.webp",
+      "photographer": "Andrew McMillan.",
+      "profile": "https://commons.wikimedia.org/wiki/File:Central_Business_District_skyline,_Singapore,_at_night.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Central_Business_District_skyline,_Singapore,_at_night.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "A view of the Central Business District skyline of Singapore at night."
+    },
+    {
+      "file": "doanh-nhan/gallery1.webp",
+      "photographer": "Hpeterswald",
+      "profile": "https://commons.wikimedia.org/wiki/File:Sydney_City_Business_District.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Sydney_City_Business_District.jpg",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "Sydney City Business District"
+    },
+    {
+      "file": "doanh-nhan/gallery2.webp",
+      "photographer": "ProjectManhattan.",
+      "profile": "https://commons.wikimedia.org/wiki/File:Skyline_of_the_Central_Business_District,_Singapore,_featuring_Asia_Square_-_20131121.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Skyline_of_the_Central_Business_District,_Singapore,_featuring_Asia_Square_-_20131121.jpg",
+      "license": "CC0",
+      "source": "Wikimedia Commons",
+      "alt": "Skyline of the Central Business District of Singapore, featuring Asia Square on the left. The anchor tenant of Tower 1 o"
+    },
+    {
+      "file": "doanh-nhan/gallery3.webp",
+      "photographer": "RM Bulseco from Davao City, Philippines.",
+      "profile": "https://commons.wikimedia.org/wiki/File:Central_Business_District_skyline,_Singapore,_at_night_-_20140215-03.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Central_Business_District_skyline,_Singapore,_at_night_-_20140215-03.jpg",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "The skyline of the Central Business District of Singapore at night."
+    }
   ]
 };
