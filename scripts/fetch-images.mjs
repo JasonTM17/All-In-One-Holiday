@@ -10,9 +10,9 @@ const UA = { "User-Agent": "NgayLeViet/1.0 (github.com/JasonTM17/All-In-One-Holi
 const LIC_OK = /CC0|CC BY|public domain|attribution|cc by/i;
 
 const MISSING_ONLY = new Set(process.argv.slice(2).filter((a) => !a.startsWith("--")));
-const EXTRA_SCENERY = ["Ha Long Bay", "Hoi An ancient town", "Sapa rice terraces", "Hanoi old quarter", "Da Lat Vietnam", "Mekong delta Vietnam", "ao dai Vietnam", "Vietnamese food"];
 
 const QUERIES = {
+  "scenery": ["Terraced fields Mu Cang Chai", "Ha Long Bay", "Vietnam rice terrace"],
   "tet-nguyen-dan": ["hoa mai", "Tet Vietnam", "banh chung", "hoa dao Tet"],
   "tet-nguyen-tieu": ["lantern festival Vietnam", "den long Hoi An", "Nguyen Tieu"],
   "valentine": ["rose flower red", "single red rose", "rose petals"],
@@ -22,14 +22,14 @@ const QUERIES = {
   "quoc-te-lao-dong": ["rice field Vietnam farmer", "Vietnam farmers", "dong lua"],
   "ngay-cua-me": ["carnation", "dianthus flower", "flowers pink bloom"],
   "quoc-te-thieu-nhi": ["colorful balloons", "kids birthday balloons", "playground children"],
-  "ngay-gia-dinh-viet-nam": ["Vietnamese family", "family dinner Asia", "gia dinh"],
+  "ngay-gia-dinh-viet-nam": ["Vietnamese cuisine dishes", "family meal rice", "traditional Vietnamese food"],
   "thuong-binh-liet-si": ["memorial candle light", "candles night memorial", "war memorial Vietnam"],
   "vu-lan": ["lotus flower", "hoa sen", "lotus pond Vietnam"],
   "quoc-khanh": ["Hanoi Ba Dinh", "Vietnam parade", "Ba Dinh square"],
   "trung-thu": ["Full moon festival lanterns", "paper lantern night", "Chinese lantern festival"],
   "phu-nu-viet-nam": ["ao dai Vietnam", "Vietnamese woman ao dai", "áo dài"],
-  "nha-giao-viet-nam": ["classroom Vietnam students", "teacher students", "school Vietnam"],
-  "quan-doi-nhan-dan": ["soldier camouflage", "military soldiers", "army uniform"],
+  "nha-giao-viet-nam": ["teacher desk books", "school blackboard", "chalk letters board"],
+  "quan-doi-nhan-dan": ["Vietnam soldiers parade", "army honor guard", "flag raising ceremony"],
   "giang-sinh": ["Christmas tree decorations", "Christmas lights", "Noel tree"],
 };
 const EXTRA = {

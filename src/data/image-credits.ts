@@ -11,15 +11,6 @@ export interface ImageCredit {
 export const imageCredits: Record<string, ImageCredit[]> = {
   "tet-duong-lich": [
     {
-      "file": "tet-duong-lich/hero.webp",
-      "photographer": "vi:User:Bdanh",
-      "profile": "https://commons.wikimedia.org/wiki/File:Phao_hoa_svd_My_Dinh_ngay_10-10-2010.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Phao_hoa_svd_My_Dinh_ngay_10-10-2010.jpg",
-      "license": "CC BY-SA 3.0",
-      "source": "Wikimedia Commons",
-      "alt": "Pháo hoa tại Sân vận động Mỹ Đình ngày 10-10-2010"
-    },
-    {
       "file": "tet-duong-lich/card.webp",
       "photographer": "Hung Le",
       "profile": "https://commons.wikimedia.org/wiki/File:Paris-like_Fireworks_-).jpg",
@@ -29,31 +20,40 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Independence Day 2nd of September. Hanoi, Vietnam 2010"
     },
     {
-      "file": "tet-duong-lich/gallery1.webp",
-      "photographer": "Hoàng Đức Xuyên T59",
-      "profile": "https://commons.wikimedia.org/wiki/File:New_Year_firework_remains_at_H%E1%BB%8Dc_Phi_Street_17-02-2026_E1.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:New_Year_firework_remains_at_H%E1%BB%8Dc_Phi_Street_17-02-2026_E1.jpg",
+      "file": "tet-duong-lich/hero.webp",
+      "photographer": "Vivu Vietnam",
+      "profile": "https://commons.wikimedia.org/wiki/File:Da_Nang_International_Fireworks_Festival_DIFF_Dragon_Bridge_Han_River_night_skyline_Vietnam.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Da_Nang_International_Fireworks_Festival_DIFF_Dragon_Bridge_Han_River_night_skyline_Vietnam.jpg",
       "license": "CC BY-SA 4.0",
       "source": "Wikimedia Commons",
-      "alt": "After New Year's Eve of 2026."
+      "alt": "Fireworks over the Han River during the Da Nang International Fireworks Festival (DIFF), with the illuminated Dragon Bri"
+    },
+    {
+      "file": "tet-duong-lich/gallery1.webp",
+      "photographer": "Violetbonmua",
+      "profile": "https://commons.wikimedia.org/wiki/File:Da_Lat_Flower_Festival_2012_Fireworks_-_23.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:Da_Lat_Flower_Festival_2012_Fireworks_-_23.JPG",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "Pháo hoa đêm khai mạc Festival Hoa Đà Lạt - giao thừa 2012 tại Việt Nam."
     },
     {
       "file": "tet-duong-lich/gallery2.webp",
-      "photographer": "Hoàng Đức Xuyên T59",
-      "profile": "https://commons.wikimedia.org/wiki/File:New_Year_firework_remains_at_H%E1%BB%8Dc_Phi_Street_17-02-2026_E2.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:New_Year_firework_remains_at_H%E1%BB%8Dc_Phi_Street_17-02-2026_E2.jpg",
+      "photographer": "Vivu Vietnam",
+      "profile": "https://commons.wikimedia.org/wiki/File:Fireworks_Campanile_Scenic_Observatory_night_Phu_Quoc_Vietnam.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Fireworks_Campanile_Scenic_Observatory_night_Phu_Quoc_Vietnam.jpg",
       "license": "CC BY-SA 4.0",
       "source": "Wikimedia Commons",
-      "alt": "After New Year's Eve of 2026."
+      "alt": "Kiss of the Sea show and Campanile Scenic Observatory, Sunset Town, Phu Quoc, Vietnam."
     },
     {
       "file": "tet-duong-lich/gallery3.webp",
-      "photographer": "vi:User:Bdanh",
-      "profile": "https://commons.wikimedia.org/wiki/File:Phao_hoa_svd_My_Dinh_ngay_10-10-2010.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Phao_hoa_svd_My_Dinh_ngay_10-10-2010.jpg",
-      "license": "CC BY-SA 3.0",
+      "photographer": "Vivu Vietnam",
+      "profile": "https://commons.wikimedia.org/wiki/File:Kiss_of_the_Sea_show_outdoor_theater_fireworks_night_Phu_Quoc_Island_Vietnam.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Kiss_of_the_Sea_show_outdoor_theater_fireworks_night_Phu_Quoc_Island_Vietnam.jpg",
+      "license": "CC BY-SA 4.0",
       "source": "Wikimedia Commons",
-      "alt": "Pháo hoa tại Sân vận động Mỹ Đình ngày 10-10-2010"
+      "alt": "Kiss of the Sea show featuring a spectacular fireworks display above the illuminated semicircular open-air theater on th"
     }
   ],
   "tet-nguyen-dan": [
@@ -298,18 +298,27 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY 2.0",
       "source": "Wikimedia Commons",
       "alt": "Beautiful student girl with ao dai"
+    },
+    {
+      "file": "phu-nu-viet-nam/hero.webp",
+      "photographer": "Phát Trương",
+      "profile": "https://commons.wikimedia.org/wiki/File:%C3%81o_d%C3%A0i_hoa_ph%C6%B0%E1%BB%A3ng_-_Ph%C3%A1t_Tr%C6%B0%C6%A1ng_-_51231007393_(extend_cropped).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:%C3%81o_d%C3%A0i_hoa_ph%C6%B0%E1%BB%A3ng_-_Ph%C3%A1t_Tr%C6%B0%C6%A1ng_-_51231007393_(extend_cropped).jpg",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Cô gái ở TP. Hồ Chí Minh mặc áo dài, trên tay cầm hoa phượng đỏ."
+    },
+    {
+      "file": "phu-nu-viet-nam/gallery2.webp",
+      "photographer": "HidoLX",
+      "profile": "https://commons.wikimedia.org/wiki/File:Ao_dai_12.2022_(cropped).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Ao_dai_12.2022_(cropped).jpg",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Beautiful student girl with ao dai"
     }
   ],
   "nha-giao-viet-nam": [
-    {
-      "file": "nha-giao-viet-nam/hero.webp",
-      "photographer": "USAID Vietnam",
-      "profile": "https://commons.wikimedia.org/wiki/File:Dong_A_University_IT_Program_for_Students_with_Disabilities.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Dong_A_University_IT_Program_for_Students_with_Disabilities.jpg",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "Dong A IT Program graduates celebrate in Danang. Photo: CRS First Group of Students with Disabilities Graduates from IT "
-    },
     {
       "file": "nha-giao-viet-nam/card.webp",
       "photographer": "Biswarup Ganguly",
@@ -345,6 +354,33 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "Public domain",
       "source": "Wikimedia Commons",
       "alt": "AA Stivers speaks with students who learn in an inclusive education environment where students with disabilities are int"
+    },
+    {
+      "file": "nha-giao-viet-nam/gallery1.webp",
+      "photographer": "Jones, Michael John",
+      "profile": "https://commons.wikimedia.org/wiki/File:South_Vietnamese_students_at_a_military_hospital.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:South_Vietnamese_students_at_a_military_hospital.jpg",
+      "license": "CC0",
+      "source": "Wikimedia Commons",
+      "alt": "Hue, South Vietnam. September 1970. In the classroom, Vietnamese students wait for instruction as Warrant Officer Class "
+    },
+    {
+      "file": "nha-giao-viet-nam/gallery3.webp",
+      "photographer": "Anne and David from Kent, England UK",
+      "profile": "https://commons.wikimedia.org/wiki/File:Cambodia._Phnom_Penh._The_Tuol_Sleng_Genocide_Museum._Known_as_S-21._(Security_prison_21)._Bou_Meng_one_of_two_adult_survivors._Signing_copies_of_his_book._(40041285514).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Cambodia._Phnom_Penh._The_Tuol_Sleng_Genocide_Museum._Known_as_S-21._(Security_prison_21)._Bou_Meng_one_of_two_adult_survivors._Signing_copies_of_his_book._(40041285514).jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "The Tuol Sleng Genocide Museum (Khmer: សារមន្ទីរឧក្រិដ្ឋកម្មប្រល័យពូជសាសន៍ទួលស្លែង) is a museum in Phnom Penh, the capit"
+    },
+    {
+      "file": "nha-giao-viet-nam/hero.webp",
+      "photographer": "AxitTDTbenzoic",
+      "profile": "https://commons.wikimedia.org/wiki/File:Chu_V%C4%83n_An_High_School,_New_Stadium.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Chu_V%C4%83n_An_High_School,_New_Stadium.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "The new stadium within Chu Văn An High School campus."
     }
   ],
   "quan-doi-nhan-dan": [
@@ -401,6 +437,33 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "Public domain",
       "source": "Wikimedia Commons",
       "alt": "Soldier in black and white uniform to conceal him while climbing trees. He stands in front of a house camouflaged to rep"
+    },
+    {
+      "file": "quan-doi-nhan-dan/hero.webp",
+      "photographer": "en (talk · contribs)",
+      "profile": "https://commons.wikimedia.org/wiki/File:Southafrica1.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Southafrica1.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Camouflage used by South African National Defence Force"
+    },
+    {
+      "file": "quan-doi-nhan-dan/hero.webp",
+      "photographer": "Christopher John Bellis",
+      "profile": "https://commons.wikimedia.org/wiki/File:9_RAR_soldiers_during_their_farewell_parade_from_South_Vietnam_in_November_1969.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:9_RAR_soldiers_during_their_farewell_parade_from_South_Vietnam_in_November_1969.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "AWM image BEL/69/0788/VN. Nui Dat, South Vietnam. 1969-11. Line up of soldiers of 9th Battalion, The Royal Australian Re"
+    },
+    {
+      "file": "quan-doi-nhan-dan/gallery2.webp",
+      "photographer": "Fairley, John Geoffrey",
+      "profile": "https://commons.wikimedia.org/wiki/File:General_Abrams_inspects_Australian_soldiers_at_St_Kilda_helicopter_pad.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:General_Abrams_inspects_Australian_soldiers_at_St_Kilda_helicopter_pad.jpg",
+      "license": "CC0",
+      "source": "Wikimedia Commons",
+      "alt": "Commander of the United States Military Assistance Command, Vietnam, General Creighton W. Abrams, inspects the soldiers "
     }
   ],
   "gio-to-hung-vuong": [
@@ -495,6 +558,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 3.0",
       "source": "Wikimedia Commons",
       "alt": "City hall, Ho Chi Minh City, Vietnam."
+    },
+    {
+      "file": "giai-phong-mien-nam/hero.webp",
+      "photographer": "Diego Delso",
+      "profile": "https://commons.wikimedia.org/wiki/File:Puente_Mong,_Ciudad_Ho_Chi_Minh,_Vietnam,_2013-08-14,_DD_01.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:Puente_Mong,_Ciudad_Ho_Chi_Minh,_Vietnam,_2013-08-14,_DD_01.JPG",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "Mong Bridge, Ho Chi Minh City, Vietnam"
     }
   ],
   "quoc-te-lao-dong": [
@@ -589,6 +661,42 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 1.0",
       "source": "Wikimedia Commons",
       "alt": "Beschreibung: Gartennelke (Dianthus caryophyllus) Fotograf/Bearbeitung: Darkone, 17./31. August / 18. September 2004"
+    },
+    {
+      "file": "ngay-cua-me/hero.webp",
+      "photographer": "Forest &amp; Kim Starr",
+      "profile": "https://commons.wikimedia.org/wiki/File:Starr_070730-7932_Dianthus_caryophyllus.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Starr_070730-7932_Dianthus_caryophyllus.jpg",
+      "license": "CC BY 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "Dianthus caryophyllus (flowers red). Location: Maui, Foodland Pukalani"
+    },
+    {
+      "file": "ngay-cua-me/gallery1.webp",
+      "photographer": "Wikimedia Commons",
+      "profile": "https://commons.wikimedia.org/wiki/File:Three_flowers;_a_carnation_(Dianthus_caryophyllus)_and_two_l_Wellcome_V0044446.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Three_flowers;_a_carnation_(Dianthus_caryophyllus)_and_two_l_Wellcome_V0044446.jpg",
+      "license": "CC BY 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Three flowers: a carnation (Dianthus caryophyllus) and two large Compositae species. Coloured aquatint by A. Adlard, c. "
+    },
+    {
+      "file": "ngay-cua-me/gallery2.webp",
+      "photographer": "Cann66",
+      "profile": "https://commons.wikimedia.org/wiki/File:Yabani_Karanfil_%C3%87i%C3%A7e%C4%9Fi_(Dianthus_caryophyllus).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Yabani_Karanfil_%C3%87i%C3%A7e%C4%9Fi_(Dianthus_caryophyllus).jpg",
+      "license": "CC BY 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Yabani Karanfil Çiçeği (Dianthus caryophyllus)"
+    },
+    {
+      "file": "ngay-cua-me/gallery3.webp",
+      "photographer": "Krzysztof Ziarnek, Kenraiz",
+      "profile": "https://commons.wikimedia.org/wiki/File:Dianthus_caryophyllus_%27Cornelia%27_kz02.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Dianthus_caryophyllus_%27Cornelia%27_kz02.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Dianthus caryophyllus 'Cornelia' in Jardín Botánico La Concepción, Malaga"
     }
   ],
   "quoc-te-thieu-nhi": [
@@ -636,6 +744,42 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 3.0",
       "source": "Wikimedia Commons",
       "alt": "A hot air balloon being inflated before air trip over Cappadocia, central Turkey, as seen from inside."
+    },
+    {
+      "file": "quoc-te-thieu-nhi/card.webp",
+      "photographer": "Hans Braxmeier",
+      "profile": "https://commons.wikimedia.org/wiki/File:Balloons_Colorful_Shooting_Gallery_Folk_Festival.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Balloons_Colorful_Shooting_Gallery_Folk_Festival.jpg",
+      "license": "CC0",
+      "source": "Wikimedia Commons",
+      "alt": "Some colorful balloons"
+    },
+    {
+      "file": "quoc-te-thieu-nhi/gallery1.webp",
+      "photographer": "Ibrahim Husain Meraj",
+      "profile": "https://commons.wikimedia.org/wiki/File:Colorful_balloons_01.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:Colorful_balloons_01.JPG",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Colorful balloons"
+    },
+    {
+      "file": "quoc-te-thieu-nhi/gallery2.webp",
+      "photographer": "Ibrahim Husain Meraj",
+      "profile": "https://commons.wikimedia.org/wiki/File:Colorful_balloons_02.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:Colorful_balloons_02.JPG",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Colorful balloons"
+    },
+    {
+      "file": "quoc-te-thieu-nhi/gallery3.webp",
+      "photographer": "Ibrahim Husain Meraj",
+      "profile": "https://commons.wikimedia.org/wiki/File:Colorful_balloons_03.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:Colorful_balloons_03.JPG",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Colorful balloons"
     }
   ],
   "ngay-gia-dinh-viet-nam": [
@@ -683,6 +827,78 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 3.0",
       "source": "Wikimedia Commons",
       "alt": "Distribution of Vietnamese family names"
+    },
+    {
+      "file": "ngay-gia-dinh-viet-nam/hero.webp",
+      "photographer": "Pete Souza",
+      "profile": "https://commons.wikimedia.org/wiki/File:Obama_family_in_mist_in_Rio_de_Janeiro.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Obama_family_in_mist_in_Rio_de_Janeiro.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "United States President Barack Obama, First Lady Michelle Obama, and daughters Sasha and Malia, tour the Christ the Rede"
+    },
+    {
+      "file": "ngay-gia-dinh-viet-nam/card.webp",
+      "photographer": "Edward S. Curtis",
+      "profile": "https://commons.wikimedia.org/wiki/File:Inupiat_Family_from_Noatak,_Alaska,_1929,_Edward_S._Curtis_(restored).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Inupiat_Family_from_Noatak,_Alaska,_1929,_Edward_S._Curtis_(restored).jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "A family portrait of an Inupiat Eskimo mother, father, and son. Photographed in Noatak, Alaska, circa 1929. From The Nor"
+    },
+    {
+      "file": "ngay-gia-dinh-viet-nam/gallery1.webp",
+      "photographer": "Zde",
+      "profile": "https://commons.wikimedia.org/wiki/File:Vietnamese_Painting,_Hall_of_Family_Ancestors,_1945,_NG_Vm_5819,_142201.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Vietnamese_Painting,_Hall_of_Family_Ancestors,_1945,_NG_Vm_5819,_142201.jpg",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "Hall of Ancestors (家先堂 Gia Tiên Đường). Ink and colours on paper. Northern Vietnam, 1945. NG Vm 5819. The 2nd line reads"
+    },
+    {
+      "file": "ngay-gia-dinh-viet-nam/gallery2.webp",
+      "photographer": "Hoangkid",
+      "profile": "https://commons.wikimedia.org/wiki/File:Vietnamese_family_daily_meal.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Vietnamese_family_daily_meal.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "A modern daily Vietnamese meal presented on an aluminium round tray. From top left to right: vegetarian soup of Basella "
+    },
+    {
+      "file": "ngay-gia-dinh-viet-nam/gallery3.webp",
+      "photographer": "Shirley Aley Campbell",
+      "profile": "https://commons.wikimedia.org/wiki/File:Vietnamese_Family_by_Shirley_Aley_Campbell.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Vietnamese_Family_by_Shirley_Aley_Campbell.jpg",
+      "license": "CC BY 2.5",
+      "source": "Wikimedia Commons",
+      "alt": "Vietnamese Family by Shirley Aley Campbell"
+    },
+    {
+      "file": "ngay-gia-dinh-viet-nam/card.webp",
+      "photographer": "Alpha from Melbourne, Australia",
+      "profile": "https://commons.wikimedia.org/wiki/File:Vietnamese_minced_pork_rice_rolls.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Vietnamese_minced_pork_rice_rolls.jpg",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Vietnamese minced pork rice rolls"
+    },
+    {
+      "file": "ngay-gia-dinh-viet-nam/gallery1.webp",
+      "photographer": "Dina Said",
+      "profile": "https://commons.wikimedia.org/wiki/File:Egyptian_food_Koshary.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Egyptian_food_Koshary.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "This is an image of food from"
+    },
+    {
+      "file": "ngay-gia-dinh-viet-nam/gallery3.webp",
+      "photographer": "Carrotkit",
+      "profile": "https://commons.wikimedia.org/wiki/File:Vietnamese_chicken_wings.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Vietnamese_chicken_wings.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "​Vietnamese chicken wings"
     }
   ],
   "thuong-binh-liet-si": [
@@ -730,6 +946,24 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "Public domain",
       "source": "Wikimedia Commons",
       "alt": "At the National Law Enforcement Officers Memorial Candle Light Vigil of 2015 in Washington D.C. individuals pay personal"
+    },
+    {
+      "file": "thuong-binh-liet-si/hero.webp",
+      "photographer": "U.S. Customs and Border Protection",
+      "profile": "https://commons.wikimedia.org/wiki/File:National_Law_Enforcement_Officers_Memorial_Candle_Light_Vigil_2015_(17612331396).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:National_Law_Enforcement_Officers_Memorial_Candle_Light_Vigil_2015_(17612331396).jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Border Patrol Agents participate in the National Law Enforcement Officers Memorial Candle Light Vigil of 2015 in Washing"
+    },
+    {
+      "file": "thuong-binh-liet-si/card.webp",
+      "photographer": "U.S. Customs and Border Protection",
+      "profile": "https://commons.wikimedia.org/wiki/File:National_Law_Enforcement_Officers_Memorial_Candle_Light_Vigil_2015_(17016097354).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:National_Law_Enforcement_Officers_Memorial_Candle_Light_Vigil_2015_(17016097354).jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Border Patrol Agents participate in the National Law Enforcement Officers Memorial Candle Light Vigil of 2015 in Washing"
     }
   ],
   "vu-lan": [
@@ -842,6 +1076,24 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 3.0",
       "source": "Wikimedia Commons",
       "alt": "Quảng trường Ba Đình, Hà Nội, Việt Nam"
+    },
+    {
+      "file": "quoc-khanh/card.webp",
+      "photographer": "The original uploader was Casablanca1911 at Vietnamese Wikipedia.",
+      "profile": "https://commons.wikimedia.org/wiki/File:The_Ba_Dinh_meeting-hall.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:The_Ba_Dinh_meeting-hall.jpg",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "The Ba Dinh meeting-hall of Vietnam National Assembly"
+    },
+    {
+      "file": "quoc-khanh/gallery2.webp",
+      "photographer": "joxeankoret",
+      "profile": "https://commons.wikimedia.org/wiki/File:Ba_Dinh_Hall_1462359227_71b04ee08a.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Ba_Dinh_Hall_1462359227_71b04ee08a.jpg",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Ba Đình Hall in Hanoi"
     }
   ],
   "trung-thu": [
@@ -1003,6 +1255,71 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY 2.0",
       "source": "Wikimedia Commons",
       "alt": "Lady Bug"
+    },
+    {
+      "file": "birthday/hero.webp",
+      "photographer": "Geoffreyrabbit",
+      "profile": "https://commons.wikimedia.org/wiki/File:Mother%27s_birthday_cake_in_birthday_dinner.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Mother%27s_birthday_cake_in_birthday_dinner.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "My mother's birthday cake celebrate with her friend at vegetarian restaurant in Tsim Sha Tsui"
+    }
+  ],
+  "scenery": [
+    {
+      "file": "scenery/hero.webp",
+      "photographer": "Łukasz Golowanow &amp; Maciek Hypś, Konflikty.pl",
+      "profile": "https://commons.wikimedia.org/wiki/File:F-16_Solo_Display_Team_Radom_2009_b.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:F-16_Solo_Display_Team_Radom_2009_b.JPG",
+      "license": "Attribution",
+      "source": "Wikimedia Commons",
+      "alt": "A Dutch F-16 of the Solo Display Team on the landing approach during a training flight before the Air Show 2009 in Radom"
+    },
+    {
+      "file": "scenery/card.webp",
+      "photographer": "Daniel Schwen",
+      "profile": "https://commons.wikimedia.org/wiki/File:Seattle_3.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Seattle_3.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Seattle Skyline view from Queen Anne Hill. The Space Needle is visible on the left, the mountain in the background is Mo"
+    },
+    {
+      "file": "scenery/gallery1.webp",
+      "photographer": "Steven C. Price",
+      "profile": "https://commons.wikimedia.org/wiki/File:Ha-Long-Bay5.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Ha-Long-Bay5.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Vendors in Ha Long Bay, Vietnam"
+    },
+    {
+      "file": "scenery/gallery2.webp",
+      "photographer": "Steven C. Price",
+      "profile": "https://commons.wikimedia.org/wiki/File:Ha-Long-Bay3.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Ha-Long-Bay3.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Ha Long Bay, Vietnam"
+    },
+    {
+      "file": "scenery/gallery3.webp",
+      "photographer": "Steffen Schmitz (more photos)",
+      "profile": "https://commons.wikimedia.org/wiki/File:H%E1%BA%A1_Long_Bay,_Ti_T%E1%BB%91p_Island,_2020-01_CN-01.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:H%E1%BA%A1_Long_Bay,_Ti_T%E1%BB%91p_Island,_2020-01_CN-01.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Hạ Long Bay (Vietnam), World Heritage Site – Ti Top Island – panoramic view"
+    },
+    {
+      "file": "scenery/hero.webp",
+      "photographer": "Thomas Hirsch / User:Ravn",
+      "profile": "https://commons.wikimedia.org/wiki/File:Halong_Bay_in_Vietnam.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Halong_Bay_in_Vietnam.jpg",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "Hạ Long Bay, in Vietnam."
     }
   ]
 };
