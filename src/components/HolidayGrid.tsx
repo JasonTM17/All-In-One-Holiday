@@ -5,16 +5,19 @@ import Link from "next/link";
 import {
   CATEGORY_LABELS,
   type HolidayCategory,
+  type MotifName,
 } from "@/data/holidays";
 import { nextOccurrence, daysUntil, type DateRule } from "@/lib/dates";
 import { formatDayMonth, formatFull } from "@/lib/format";
 import { useNow } from "@/hooks/useNow";
+import Motif from "./Motif";
 
 export interface GridItem {
   slug: string;
   name: string;
   dateMark: string;
   displayDate: string;
+  motif: MotifName;
   categories: HolidayCategory[];
   rule: DateRule;
   theme: { from: string; to: string; accent: string };
@@ -60,7 +63,7 @@ export default function HolidayGrid({ items }: { items: GridItem[] }) {
       <div
         role="group"
         aria-label="Lọc ngày lễ theo nhóm"
-        className="mb-8 flex flex-wrap gap-2"
+        className="mb-10 flex flex-wrap gap-2"
       >
         {FILTERS.map((f) => (
           <button
@@ -68,10 +71,10 @@ export default function HolidayGrid({ items }: { items: GridItem[] }) {
             type="button"
             aria-pressed={filter === f.key}
             onClick={() => setFilter(f.key)}
-            className={`rounded-full border px-4 py-2 text-sm font-semibold transition-colors ${
+            className={`min-h-11 rounded-full border px-5 py-2.5 text-sm font-bold transition-colors ${
               filter === f.key
-                ? "border-rose-700 bg-rose-700 text-white"
-                : "border-stone-300 bg-white text-stone-700 hover:border-rose-400 hover:text-rose-800"
+                ? "border-[var(--color-brand)] bg-[var(--color-brand)] text-white"
+                : "border-[var(--color-line)] bg-white text-[var(--color-muted)] hover:border-[var(--color-brand)] hover:text-[var(--color-brand-deep)]"
             }`}
           >
             {f.label}
@@ -87,32 +90,44 @@ export default function HolidayGrid({ items }: { items: GridItem[] }) {
             <li key={h.slug}>
               <Link
                 href={`/${h.slug}/`}
-                className="group block h-full overflow-hidden rounded-2xl border border-stone-200 bg-white shadow-sm transition-shadow hover:shadow-md"
+                className="card group block h-full overflow-hidden"
               >
                 <div
-                  className="dot-pattern flex h-32 items-center justify-center"
+                  className="relative flex h-36 items-center justify-center overflow-hidden"
                   style={{
                     background: `linear-gradient(135deg, ${h.theme.from}, ${h.theme.to})`,
                   }}
                 >
-                  <span className="font-display text-3xl font-extrabold tracking-tight text-white drop-shadow">
+                  <div
+                    className="dot-pattern absolute inset-0"
+                    aria-hidden="true"
+                  />
+                  <Motif
+                    name={h.motif}
+                    className="pointer-events-none absolute -right-4 -top-4 h-24 w-24 text-white/20 transition-transform duration-300 group-hover:rotate-6 group-hover:scale-110"
+                  />
+                  <span className="relative font-display text-4xl font-extrabold tracking-tight text-white drop-shadow-sm">
                     {h.dateMark}
                   </span>
                 </div>
-                <div className="p-5">
-                  <p className="font-display text-lg font-bold text-stone-900 group-hover:text-rose-800">
+                <div className="p-6">
+                  <p className="font-display text-xl font-bold text-[var(--color-ink)] group-hover:text-[var(--color-brand-deep)]">
                     {h.name}
                   </p>
-                  <p className="mt-1 text-sm text-stone-600">{h.tagline}</p>
-                  <p className="mt-3 text-xs font-semibold uppercase tracking-wide text-stone-500">
+                  <p className="mt-1.5 text-sm leading-relaxed text-[var(--color-muted)]">
+                    {h.tagline}
+                  </p>
+                  <p className="mt-4 flex items-center gap-2 text-xs font-bold uppercase tracking-wide text-[var(--color-faint)]">
                     <time
-                      dateTime={next ? next.toISOString().slice(0, 10) : undefined}
+                      dateTime={
+                        next ? next.toISOString().slice(0, 10) : undefined
+                      }
                       title={next ? formatFull(next) : undefined}
                     >
                       {next ? formatDayMonth(next) : h.displayDate}
                     </time>
                     {days !== null && (
-                      <span className="ml-2 text-rose-700">
+                      <span className="text-[var(--color-brand)]">
                         {days === 0 ? "· Hôm nay" : `· Còn ${days} ngày`}
                       </span>
                     )}

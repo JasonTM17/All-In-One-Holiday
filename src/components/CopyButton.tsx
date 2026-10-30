@@ -32,7 +32,7 @@ export default function CopyButton({
     <button
       type="button"
       onClick={copy}
-      className={`rounded-lg border border-stone-300 bg-white px-3 py-1.5 text-sm font-semibold text-stone-700 transition-colors hover:border-rose-400 hover:text-rose-800 ${className}`}
+      className={`min-h-11 shrink-0 rounded-full border border-[var(--color-line)] bg-white px-4 py-2 text-sm font-bold text-[var(--color-muted)] transition-colors hover:border-[var(--color-brand)] hover:text-[var(--color-brand-deep)] ${className}`}
     >
       <span aria-live="polite">{copied ? "Đã sao chép" : label}</span>
     </button>

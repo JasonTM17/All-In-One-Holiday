@@ -18,7 +18,7 @@ export default function Faq({ items }: { items: FaqItem[] }) {
   }
 
   return (
-    <div className="divide-y divide-stone-200 rounded-2xl border border-stone-200 bg-white">
+    <div className="card divide-y divide-[var(--color-line)] overflow-hidden p-0">
       {items.map((f, i) => {
         const isOpen = open === i;
         return (
@@ -34,7 +34,7 @@ export default function Faq({ items }: { items: FaqItem[] }) {
                 id={`faq-button-${i}`}
                 onClick={() => setOpen(isOpen ? null : i)}
                 onKeyDown={(e) => onKeyDown(e, i)}
-                className="flex w-full items-center justify-between gap-4 px-5 py-4 text-left font-semibold text-stone-800 hover:text-rose-800"
+                className="flex min-h-14 w-full items-center justify-between gap-4 px-6 py-4 text-left font-bold text-[var(--color-ink)] hover:text-[var(--color-brand-deep)]"
               >
                 {f.q}
                 <span
@@ -50,7 +50,7 @@ export default function Faq({ items }: { items: FaqItem[] }) {
               role="region"
               aria-labelledby={`faq-button-${i}`}
               hidden={!isOpen}
-              className="px-5 pb-5 text-stone-600"
+              className="px-6 pb-5 leading-relaxed text-[var(--color-muted)]"
             >
               {f.a}
             </div>

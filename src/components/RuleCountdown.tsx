@@ -13,15 +13,21 @@ function pad(n: number): string {
 export default function RuleCountdown({
   rule,
   todayLabel = "Hôm nay là ngày lễ!",
+  dark = false,
 }: {
   rule: DateRule;
   todayLabel?: string;
+  dark?: boolean;
 }) {
   const now = useNow(1000);
   const target = useMemo(
     () => (now ? nextOccurrence(rule, now) : null),
     [now, rule],
   );
+
+  const box = dark
+    ? "tile bg-black/10 text-[var(--color-ink)]"
+    : "tile glass text-white";
 
   if (!target || !now) {
     return (
@@ -30,7 +36,7 @@ export default function RuleCountdown({
         className="grid h-24 w-full max-w-md grid-cols-4 gap-3"
       >
         {UNITS.map((u) => (
-          <div key={u} className="rounded-xl bg-white/10" />
+          <div key={u} className={box} />
         ))}
       </div>
     );
@@ -38,7 +44,7 @@ export default function RuleCountdown({
 
   if (daysUntil(target, now) === 0) {
     return (
-      <p className="rounded-2xl bg-white/15 px-8 py-5 font-display text-2xl font-bold">
+      <p className={`${dark ? "bg-black/10 text-[var(--color-ink)]" : "glass text-white"} rounded-2xl px-8 py-5 font-display text-2xl font-bold`}>
         {todayLabel}
       </p>
     );
@@ -53,24 +59,23 @@ export default function RuleCountdown({
   ];
 
   return (
-    <div
-      role="timer"
-      aria-label={`Còn ${values[0]} ngày ${values[1]} giờ`}
-      className="grid w-full max-w-md grid-cols-4 gap-3"
-    >
-      {UNITS.map((unit, i) => (
-        <div
-          key={unit}
-          className="rounded-xl bg-white/15 px-2 py-3 text-center backdrop-blur-sm"
-        >
-          <span className="block font-display text-3xl font-bold tabular-nums">
-            {pad(values[i])}
-          </span>
-          <span className="text-xs uppercase tracking-wide opacity-80">
-            {unit}
-          </span>
-        </div>
-      ))}
+    <div className="w-full max-w-md">
+      {/* The ticking digits are decorative; a static label carries the meaning. */}
+      <div aria-hidden="true" className="grid grid-cols-4 gap-3">
+        {UNITS.map((unit, i) => (
+          <div key={unit} className={box}>
+            <span className="font-display text-3xl font-bold tabular-nums">
+              {pad(values[i])}
+            </span>
+            <span className="text-[11px] font-semibold uppercase tracking-wide opacity-75">
+              {unit}
+            </span>
+          </div>
+        ))}
+      </div>
+      <p className="sr-only" role="timer">
+        Còn {values[0]} ngày {values[1]} giờ nữa
+      </p>
     </div>
   );
 }

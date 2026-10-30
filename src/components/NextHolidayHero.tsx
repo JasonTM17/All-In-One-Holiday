@@ -5,12 +5,17 @@ import Link from "next/link";
 import { nextOccurrence, type DateRule } from "@/lib/dates";
 import { formatFull } from "@/lib/format";
 import { useNow } from "@/hooks/useNow";
+import Motif from "./Motif";
 import RuleCountdown from "./RuleCountdown";
+import type { MotifName } from "@/data/holidays";
 
 export interface NextHolidayItem {
   slug: string;
   name: string;
+  dateMark: string;
+  motif: MotifName;
   rule: DateRule;
+  theme: { from: string; to: string };
 }
 
 export default function NextHolidayHero({
@@ -30,25 +35,45 @@ export default function NextHolidayHero({
   }, [items, now]);
 
   return (
-    <div className="flex min-h-44 flex-col items-start gap-4">
+    <div className="min-h-[22rem]">
       {next ? (
-        <>
-          <p className="text-sm font-semibold uppercase tracking-widest text-amber-200">
-            Ngày lễ sắp tới
-          </p>
-          <Link
-            href={`/${next.item.slug}/`}
-            className="font-display text-4xl font-extrabold text-white sm:text-5xl"
-          >
-            {next.item.name}
-          </Link>
-          <p className="text-sm text-white/80">{formatFull(next.date)}</p>
-          <RuleCountdown rule={next.item.rule} />
-        </>
+        <div
+          className="relative h-full overflow-hidden rounded-3xl p-7 text-white shadow-2xl sm:p-9"
+          style={{
+            background: `linear-gradient(140deg, ${next.item.theme.from}, ${next.item.theme.to})`,
+          }}
+        >
+          <div className="dot-pattern absolute inset-0" aria-hidden="true" />
+          <Motif
+            name={next.item.motif}
+            className="floaty-slow pointer-events-none absolute -bottom-8 -right-8 h-44 w-44 text-white/15"
+          />
+          <div className="relative flex h-full flex-col gap-4">
+            <p className="eyebrow flex items-center justify-between text-white/75">
+              Ngày lễ sắp tới
+              <span className="rounded-full border border-white/30 px-2.5 py-0.5 text-[10px] tracking-widest">
+                {formatFull(next.date)}
+              </span>
+            </p>
+            <Link
+              href={`/${next.item.slug}/`}
+              className="font-display text-4xl font-extrabold leading-tight sm:text-[2.6rem]"
+            >
+              {next.item.name}
+            </Link>
+            <RuleCountdown rule={next.item.rule} />
+            <Link
+              href={`/${next.item.slug}/`}
+              className="mt-auto inline-flex w-fit items-center gap-2 rounded-full bg-white/95 px-5 py-2.5 text-sm font-bold text-[var(--color-brand-deep)] transition-transform hover:scale-[1.03]"
+            >
+              Xem chi tiết →
+            </Link>
+          </div>
+        </div>
       ) : (
         <div
           aria-hidden="true"
-          className="h-44 w-full animate-pulse rounded-xl bg-white/10"
+          className="h-[22rem] w-full animate-pulse rounded-3xl bg-black/10"
         />
       )}
     </div>
