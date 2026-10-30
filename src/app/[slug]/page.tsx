@@ -10,6 +10,8 @@ import Faq from "@/components/Faq";
 import Motif from "@/components/Motif";
 import Reveal from "@/components/Reveal";
 import HolidayActions from "@/components/HolidayActions";
+import HImg from "@/components/HImg";
+import { stories } from "@/data/stories";
 
 export function generateStaticParams() {
   return holidays.map((h) => ({ slug: h.slug }));
@@ -84,6 +86,21 @@ export default async function HolidayPage({
         className="relative overflow-hidden text-white"
         style={{ background: heroBackground(h.theme.from, h.theme.to) }}
       >
+        <HImg
+          src={`${h.slug}/hero.webp`}
+          alt={`${h.name} — ảnh minh họa`}
+          width={1920}
+          height={1280}
+          eager
+          className="absolute inset-0 h-full w-full object-cover opacity-45"
+        />
+        <div
+          className="absolute inset-0"
+          style={{
+            background: `linear-gradient(105deg, ${h.theme.from}F2 25%, ${h.theme.from}99 55%, ${h.theme.to}66)`,
+          }}
+          aria-hidden="true"
+        />
         <div className="dot-pattern absolute inset-0" aria-hidden="true" />
         <Motif
           name={h.motif}
@@ -303,6 +320,73 @@ export default async function HolidayPage({
             </ul>
           </section>
         </Reveal>
+
+        <Reveal>
+          <section aria-labelledby="hinh-anh">
+            <h2
+              id="hinh-anh"
+              className="font-display text-3xl font-extrabold text-[var(--color-ink)]"
+            >
+              Hình ảnh
+            </h2>
+            <div className="mt-8 grid gap-4 sm:grid-cols-3">
+              {[1, 2, 3].map((n) => (
+                <HImg
+                  key={n}
+                  src={`${h.slug}/gallery${n}.webp`}
+                  alt={`${h.name} — ảnh ${n}`}
+                  width={800}
+                  height={600}
+                  className="card aspect-[4/3] h-auto w-full object-cover"
+                />
+              ))}
+            </div>
+          </section>
+        </Reveal>
+
+        {(() => {
+          const st = stories[h.slug];
+          if (!st) return null;
+          return (
+            <Reveal>
+              <section aria-labelledby="cau-chuyen">
+                <p className="eyebrow text-[var(--color-brand)]">Câu chuyện</p>
+                <h2
+                  id="cau-chuyen"
+                  className="mt-2 font-display text-3xl font-extrabold text-[var(--color-ink)]"
+                >
+                  {st.story.title}
+                </h2>
+                <p className="mt-5 max-w-3xl leading-relaxed text-[var(--color-muted)]">
+                  {st.story.body}
+                </p>
+                <h3 className="mt-10 font-display text-xl font-bold text-[var(--color-ink)]">
+                  Đọc thêm
+                </h3>
+                <ul className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                  {st.sources.map((s) => (
+                    <li key={s.url} className="card flex flex-col p-5">
+                      <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-[var(--color-brand)]">
+                        {s.outlet}
+                      </p>
+                      <a
+                        href={s.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="u-link mt-2 font-display font-bold text-[var(--color-ink)]"
+                      >
+                        {s.title} ↗
+                      </a>
+                      <p className="mt-2 text-sm leading-relaxed text-[var(--color-muted)]">
+                        {s.summary}
+                      </p>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            </Reveal>
+          );
+        })()}
 
         <Reveal>
           <section aria-labelledby="faq">

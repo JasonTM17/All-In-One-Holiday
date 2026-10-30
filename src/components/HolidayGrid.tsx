@@ -12,6 +12,8 @@ import { formatDayMonth, formatFull } from "@/lib/format";
 import { useNow } from "@/hooks/useNow";
 import Motif from "./Motif";
 
+const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 export interface GridItem {
   slug: string;
   name: string;
@@ -98,6 +100,15 @@ export default function HolidayGrid({ items }: { items: GridItem[] }) {
                     background: `linear-gradient(135deg, ${h.theme.from}, ${h.theme.to})`,
                   }}
                 >
+                  <img
+                    src={`${base}/images/holidays/${h.slug}/card.webp`}
+                    alt=""
+                    width={800}
+                    height={600}
+                    loading="lazy"
+                    decoding="async"
+                    className="absolute inset-0 h-full w-full object-cover opacity-50 transition-opacity duration-300 group-hover:opacity-60"
+                  />
                   <div
                     className="dot-pattern absolute inset-0"
                     aria-hidden="true"

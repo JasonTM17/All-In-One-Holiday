@@ -43,6 +43,16 @@ export default function NextHolidayHero({
             background: `linear-gradient(140deg, ${next.item.theme.from}, ${next.item.theme.to})`,
           }}
         >
+          <img
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/holidays/${next.item.slug}/hero.webp`}
+            alt=""
+            width={1920}
+            height={1280}
+            loading="eager"
+            fetchPriority="high"
+            decoding="async"
+            className="absolute inset-0 h-full w-full object-cover opacity-35"
+          />
           <div className="dot-pattern absolute inset-0" aria-hidden="true" />
           <Motif
             name={next.item.motif}

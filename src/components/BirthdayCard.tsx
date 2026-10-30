@@ -95,6 +95,15 @@ export default function BirthdayCard() {
             background: `linear-gradient(135deg, ${theme.from}, ${theme.to})`,
           }}
         >
+          <img
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/holidays/birthday/hero.webp`}
+            alt=""
+            width={1920}
+            height={1280}
+            loading="eager"
+            decoding="async"
+            className="absolute inset-0 h-full w-full object-cover opacity-30"
+          />
           <div className="dot-pattern absolute inset-0" aria-hidden="true" />
           <Motif
             name="balloon"

@@ -1,7 +1,13 @@
 import { describe, expect, it } from "vitest";
+import { existsSync } from "node:fs";
+import { join } from "node:path";
 import { holidays, CATEGORY_LABELS } from "./holidays";
 import { nextOccurrence } from "@/lib/dates";
 import sitemap from "@/app/sitemap";
+import { imageCredits } from "./image-credits";
+import { stories } from "./stories";
+
+const IMG_DIR = join(__dirname, "../../public/images/holidays");
 
 describe("holiday data integrity", () => {
   it("has unique slugs", () => {
@@ -43,6 +49,46 @@ describe("holiday data integrity", () => {
     expect(urls.some((u) => u.includes("/birthday/"))).toBe(true);
     for (const h of holidays) {
       expect(urls.some((u) => u.endsWith(`/${h.slug}/`))).toBe(true);
+    }
+  });
+});
+
+describe("holiday photos", () => {
+  it("every holiday has hero/card/gallery images on disk", () => {
+    for (const h of holidays) {
+      for (const kind of ["hero", "card", "gallery1", "gallery2", "gallery3"]) {
+        const f = join(IMG_DIR, h.slug, `${kind}.webp`);
+        expect(existsSync(f), `${h.slug}/${kind}.webp missing`).toBe(true);
+      }
+    }
+  });
+  it("every holiday image has a credit entry", () => {
+    for (const h of holidays) {
+      const list = imageCredits[h.slug] ?? [];
+      expect(list.length, `${h.slug} has no credits`).toBeGreaterThanOrEqual(5);
+      for (const c of list) {
+        expect(c.license.length).toBeGreaterThan(0);
+        expect(c.photo).toMatch(/^https:/);
+        expect(c.photographer.length).toBeGreaterThan(0);
+      }
+    }
+  });
+});
+
+describe("holiday stories", () => {
+  it("every holiday has ≥3 sources, https links, and sane summaries", () => {
+    const seen = new Set<string>();
+    for (const h of holidays) {
+      const st = stories[h.slug];
+      expect(st, `no story for ${h.slug}`).toBeDefined();
+      expect(st.sources.length).toBeGreaterThanOrEqual(3);
+      for (const s of st.sources) {
+        expect(s.url).toMatch(/^https:/);
+        expect(s.summary.length).toBeGreaterThan(40);
+        expect(seen.has(`${h.slug}:${s.url}`)).toBe(false);
+        seen.add(`${h.slug}:${s.url}`);
+      }
+      expect(st.story.body.length).toBeGreaterThan(300);
     }
   });
 });

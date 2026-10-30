@@ -49,6 +49,11 @@ export default function Footer() {
               </Link>
             </li>
             <li>
+              <Link href="/credits/" className="u-link font-medium text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
+                Nguồn ảnh
+              </Link>
+            </li>
+            <li>
               <Link href="/birthday/" className="u-link font-medium text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
                 Thiệp sinh nhật
               </Link>

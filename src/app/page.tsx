@@ -155,11 +155,20 @@ export default function Home() {
                     className="card group block h-full overflow-hidden"
                   >
                     <div
-                      className="relative flex h-24 items-center justify-center"
+                      className="relative flex h-24 items-center justify-center overflow-hidden"
                       style={{
                         background: `linear-gradient(135deg, ${h.theme.from}, ${h.theme.to})`,
                       }}
                     >
+                      <img
+                        src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/holidays/${h.slug}/card.webp`}
+                        alt=""
+                        width={800}
+                        height={600}
+                        loading="lazy"
+                        decoding="async"
+                        className="absolute inset-0 h-full w-full object-cover opacity-50"
+                      />
                       <Motif
                         name={h.motif}
                         className="pointer-events-none absolute -right-3 -top-3 h-16 w-16 text-white/20 transition-transform duration-300 group-hover:rotate-6 group-hover:scale-110"
