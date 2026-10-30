@@ -130,6 +130,59 @@ export default function Home() {
         </div>
       </div>
 
+      {/* ---------- Women's days band ---------- */}
+      <section
+        aria-labelledby="phai-dep"
+        className="dot-pattern-ink border-b border-[var(--color-line)] bg-[#faf6ef]"
+      >
+        <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
+          <Reveal>
+            <p className="eyebrow text-[var(--color-brand)]">Dành cho phái đẹp</p>
+            <h2
+              id="phai-dep"
+              className="mt-3 font-display text-[clamp(1.6rem,3vw,2.4rem)] font-extrabold text-[var(--color-ink)]"
+            >
+              Những ngày tôn vinh phụ nữ
+            </h2>
+          </Reveal>
+          <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {holidays
+              .filter((h) => h.categories.includes("phu-nu"))
+              .map((h) => (
+                <li key={h.slug}>
+                  <Link
+                    href={`/${h.slug}/`}
+                    className="card group block h-full overflow-hidden"
+                  >
+                    <div
+                      className="relative flex h-24 items-center justify-center"
+                      style={{
+                        background: `linear-gradient(135deg, ${h.theme.from}, ${h.theme.to})`,
+                      }}
+                    >
+                      <Motif
+                        name={h.motif}
+                        className="pointer-events-none absolute -right-3 -top-3 h-16 w-16 text-white/20 transition-transform duration-300 group-hover:rotate-6 group-hover:scale-110"
+                      />
+                      <span className="font-display text-2xl font-extrabold text-white">
+                        {h.dateMark}
+                      </span>
+                    </div>
+                    <div className="p-4">
+                      <p className="font-display font-bold text-[var(--color-ink)] group-hover:text-[var(--color-brand-deep)]">
+                        {h.name}
+                      </p>
+                      <p className="mt-0.5 text-xs text-[var(--color-faint)]">
+                        {h.displayDate}
+                      </p>
+                    </div>
+                  </Link>
+                </li>
+              ))}
+          </ul>
+        </div>
+      </section>
+
       {/* ---------- Grid ---------- */}
       <section
         id="danh-sach"

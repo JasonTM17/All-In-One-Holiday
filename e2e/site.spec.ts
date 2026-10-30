@@ -27,6 +27,9 @@ test("holiday page renders sections and copies a wish", async ({
   await expect(
     page.getByRole("heading", { level: 1, name: "Tết Trung thu" }),
   ).toBeVisible();
+  await page.evaluate(() =>
+    window.scrollTo(0, document.body.scrollHeight),
+  );
   await expect(
     page.getByRole("heading", { name: "Phong tục & hoạt động" }),
   ).toBeVisible();

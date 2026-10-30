@@ -27,7 +27,7 @@ export default function Footer() {
               <li key={h.slug}>
                 <Link
                   href={`/${h.slug}/`}
-                  className="font-medium text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]"
+                  className="u-link font-medium text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]"
                 >
                   {h.name}
                 </Link>
@@ -39,17 +39,17 @@ export default function Footer() {
           <p className="eyebrow text-[var(--color-faint)]">Khám phá</p>
           <ul className="mt-4 space-y-2.5 text-sm">
             <li>
-              <Link href="/" className="font-medium text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
+              <Link href="/" className="u-link font-medium text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
                 Trang chủ
               </Link>
             </li>
             <li>
-              <Link href="/#danh-sach" className="font-medium text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
+              <Link href="/#danh-sach" className="u-link font-medium text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
                 Tất cả ngày lễ
               </Link>
             </li>
             <li>
-              <Link href="/birthday/" className="font-medium text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
+              <Link href="/birthday/" className="u-link font-medium text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
                 Thiệp sinh nhật
               </Link>
             </li>

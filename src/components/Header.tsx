@@ -15,7 +15,7 @@ export default function Header() {
         <nav aria-label="Điều hướng chính" className="flex items-center gap-2 sm:gap-5">
           <Link
             href="/#danh-sach"
-            className="hidden min-h-11 items-center px-2 text-sm font-bold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)] sm:inline-flex"
+            className="u-link hidden min-h-11 items-center px-2 text-sm font-bold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)] sm:inline-flex"
           >
             Tất cả ngày lễ
           </Link>

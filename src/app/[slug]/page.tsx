@@ -100,7 +100,7 @@ export default async function HolidayPage({
 
         <div className="relative mx-auto grid max-w-6xl gap-10 px-4 pb-24 pt-14 sm:px-6 lg:grid-cols-[1.35fr_1fr] lg:pb-28 lg:pt-20">
           <div>
-            <p className="eyebrow flex flex-wrap items-center gap-x-3 gap-y-1 text-white/75">
+            <p className="eyebrow flex flex-wrap items-center gap-x-3 gap-y-1 text-white/85">
               <span>{h.displayDate}</span>
               {h.categories.map((c) => (
                 <span

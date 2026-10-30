@@ -123,7 +123,7 @@ export const holidays: Holiday[] = [
     displayDate: "1/1 Âm lịch",
     rule: { type: "lunar", month: 1, day: 1 },
     categories: ["truyen-thong", "quoc-gia"],
-    theme: { from: "#991b1b", to: "#f59e0b", accent: "#fbbf24" },
+    theme: { from: "#991b1b", to: "#b45309", accent: "#fbbf24" },
     tagline: "Lễ lớn nhất năm của người Việt.",
     history: [
       "Tết Nguyên Đán là ngày đầu năm âm lịch, có nguồn gốc từ nền văn minh nông nghiệp lúa nước, gắn với chu kỳ của mặt trăng và mùa vụ.",
@@ -205,7 +205,7 @@ export const holidays: Holiday[] = [
     displayDate: "14 tháng 2",
     rule: { type: "solar", month: 2, day: 14 },
     categories: ["quoc-te"],
-    theme: { from: "#9f1239", to: "#fb7185", accent: "#fda4af" },
+    theme: { from: "#9f1239", to: "#e11d48", accent: "#fda4af" },
     tagline: "Ngày của những lời yêu thương.",
     history: [
       "Valentine gắn với Thánh Valentino thế kỷ III — người được truyền lại đã bí mật chủ hôn cho các đôi tình nhân thời La Mã cấm kết hôn.",
@@ -244,7 +244,7 @@ export const holidays: Holiday[] = [
     displayDate: "8 tháng 3",
     rule: { type: "solar", month: 3, day: 8 },
     categories: ["phu-nu", "quoc-te"],
-    theme: { from: "#be185d", to: "#f472b6", accent: "#f9a8d4" },
+    theme: { from: "#be185d", to: "#db2777", accent: "#f9a8d4" },
     tagline: "Tôn vinh phái đẹp trên toàn thế giới.",
     history: [
       "Ngày 8/3 bắt nguồn từ phong trào đấu tranh của công nhân dệt nữ ở New York đầu thế kỷ 20 và được Liên Hợp Quốc tổ chức kỷ niệm lần đầu năm 1975.",
@@ -283,7 +283,7 @@ export const holidays: Holiday[] = [
     displayDate: "10/3 Âm lịch",
     rule: { type: "lunar", month: 3, day: 10 },
     categories: ["quoc-gia", "truyen-thong"],
-    theme: { from: "#78350f", to: "#15803d", accent: "#fbbf24" },
+    theme: { from: "#854d0e", to: "#166534", accent: "#fbbf24" },
     tagline: "Dù ai đi ngược về xuôi, nhớ ngày Giỗ Tổ mùng mười tháng ba.",
     history: [
       "Giỗ Tổ Hùng Vương tưởng nhớ các vua Hùng — những người có công dựng nước Văn Lang, nhà nước đầu tiên của dân tộc Việt Nam.",
@@ -322,7 +322,7 @@ export const holidays: Holiday[] = [
     displayDate: "30 tháng 4",
     rule: { type: "solar", month: 4, day: 30 },
     categories: ["quoc-gia"],
-    theme: { from: "#b91c1c", to: "#facc15", accent: "#fde047" },
+    theme: { from: "#b91c1c", to: "#b45309", accent: "#fde047" },
     tagline: "Ngày đất nước thống nhất.",
     history: [
       "Ngày 30/4/1975, chiến dịch Hồ Chí Minh kết thúc thắng lợi — miền Nam hoàn toàn giải phóng, đất nước thống nhất sau hơn 20 năm chia cắt.",
@@ -361,7 +361,7 @@ export const holidays: Holiday[] = [
     displayDate: "1 tháng 5",
     rule: { type: "solar", month: 5, day: 1 },
     categories: ["quoc-gia", "quoc-te"],
-    theme: { from: "#9a3412", to: "#0ea5e9", accent: "#fb923c" },
+    theme: { from: "#9a3412", to: "#0369a1", accent: "#fb923c" },
     tagline: "Tôn vinh người lao động toàn cầu.",
     history: [
       "Ngày 1/5 khởi nguồn từ phong trào đòi ngày làm 8 giờ của công nhân Chicago năm 1886, trở thành ngày quốc tế đoàn kết của giai cấp công nhân.",
@@ -399,7 +399,7 @@ export const holidays: Holiday[] = [
     displayDate: "Chủ nhật thứ 2 tháng 5",
     rule: { type: "nth-weekday", month: 5, weekday: 0, nth: 2 },
     categories: ["phu-nu", "quoc-te"],
-    theme: { from: "#be123c", to: "#f9a8d4", accent: "#fda4af" },
+    theme: { from: "#be123c", to: "#db2777", accent: "#fda4af" },
     tagline: "Một ngày trong năm dành riêng cho mẹ.",
     history: [
       "Ngày của Mẹ hiện đại do Anna Jarvis khởi xướng ở Mỹ năm 1908 và trở thành ngày lễ chính thức năm 1914 — Chủ nhật thứ hai của tháng 5.",
@@ -438,7 +438,7 @@ export const holidays: Holiday[] = [
     displayDate: "1 tháng 6",
     rule: { type: "solar", month: 6, day: 1 },
     categories: ["quoc-te"],
-    theme: { from: "#0369a1", to: "#facc15", accent: "#fde047" },
+    theme: { from: "#0369a1", to: "#b45309", accent: "#fde047" },
     tagline: "Ngày của trẻ thơ.",
     history: [
       "Ngày Quốc tế Thiếu nhi được thiết lập năm 1949 để bảo vệ quyền trẻ em; Việt Nam tổ chức kỷ niệm từ rất sớm, từ thời Bác Hồ gửi thư chúc Tết thiếu nhi.",
@@ -477,7 +477,7 @@ export const holidays: Holiday[] = [
     displayDate: "28 tháng 6",
     rule: { type: "solar", month: 6, day: 28 },
     categories: ["quoc-gia"],
-    theme: { from: "#065f46", to: "#fb923c", accent: "#fdba74" },
+    theme: { from: "#065f46", to: "#c2410c", accent: "#fdba74" },
     tagline: "Tổ ấm của mỗi người Việt.",
     history: [
       "Ngày Gia đình Việt Nam được thiết lập năm 2001 nhằm tôn vinh vị trí của gia đình trong đời sống xã hội và gìn giữ những giá trị văn hóa gia đình truyền thống.",
@@ -516,7 +516,7 @@ export const holidays: Holiday[] = [
     displayDate: "27 tháng 7",
     rule: { type: "solar", month: 7, day: 27 },
     categories: ["quoc-gia"],
-    theme: { from: "#7f1d1d", to: "#57534e", accent: "#fca5a5" },
+    theme: { from: "#881337", to: "#292524", accent: "#fca5a5" },
     tagline: "Đền ơn đáp nghĩa.",
     history: [
       "Ngày 27/7 được chọn từ năm 1947 để tưởng nhớ những người hy sinh, bị thương vì độc lập dân tộc — khởi nguồn từ \"Ngày Thương binh toàn quốc\".",
@@ -555,7 +555,7 @@ export const holidays: Holiday[] = [
     displayDate: "15/7 Âm lịch",
     rule: { type: "lunar", month: 7, day: 15 },
     categories: ["truyen-thong", "phu-nu"],
-    theme: { from: "#4c1d95", to: "#f59e0b", accent: "#fcd34d" },
+    theme: { from: "#4c1d95", to: "#b45309", accent: "#fcd34d" },
     tagline: "Mùa báo hiếu.",
     history: [
       "Lễ Vu Lan bắt nguồn từ câu chuyện tôn giả Mục Kiền Liên cứu mẹ, trở thành mùa báo hiếu lớn nhất của Phật giáo và đạo lý Việt Nam.",
@@ -594,7 +594,7 @@ export const holidays: Holiday[] = [
     displayDate: "2 tháng 9",
     rule: { type: "solar", month: 9, day: 2 },
     categories: ["quoc-gia"],
-    theme: { from: "#b91c1c", to: "#f59e0b", accent: "#fde047" },
+    theme: { from: "#b91c1c", to: "#b45309", accent: "#fde047" },
     tagline: "Ngày nước Việt Nam ra đời.",
     history: [
       "Ngày 2/9/1945, Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập tại quảng trường Ba Đình, khai sinh nước Việt Nam Dân chủ Cộng hòa.",
@@ -711,7 +711,7 @@ export const holidays: Holiday[] = [
     displayDate: "20 tháng 11",
     rule: { type: "solar", month: 11, day: 20 },
     categories: ["quoc-gia"],
-    theme: { from: "#065f46", to: "#84cc16", accent: "#bef264" },
+    theme: { from: "#065f46", to: "#4d7c0f", accent: "#bef264" },
     tagline: "Tôn sư trọng đạo.",
     history: [
       "Ngày 20/11 được chọn làm Ngày Nhà giáo Việt Nam từ năm 1982, nhằm tôn vinh những người làm nghề trồng người.",
@@ -750,7 +750,7 @@ export const holidays: Holiday[] = [
     displayDate: "22 tháng 12",
     rule: { type: "solar", month: 12, day: 22 },
     categories: ["quoc-gia"],
-    theme: { from: "#14532d", to: "#b91c1c", accent: "#fde047" },
+    theme: { from: "#14532d", to: "#a16207", accent: "#fde047" },
     tagline: "Ngày truyền thống quân đội anh hùng.",
     history: [
       "Ngày 22/12/1944, Đội Việt Nam Tuyên truyền Giải phóng quân — tiền thân của Quân đội nhân dân Việt Nam — được thành lập tại Cao Bằng.",
