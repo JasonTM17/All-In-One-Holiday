@@ -42,6 +42,7 @@ export interface Holiday {
   rule: DateRule;
   categories: HolidayCategory[];
   theme: HolidayTheme;
+  motif: MotifName;
   tagline: string;
   history: string[];
   meaning: string;
@@ -51,9 +52,32 @@ export interface Holiday {
   faq: Faq[];
 }
 
+/** Decorative SVG ornament shown on each holiday page (see components/Motif). */
+export type MotifName =
+  | "fireworks"
+  | "lantern"
+  | "fullmoon"
+  | "heart"
+  | "rose"
+  | "temple"
+  | "star"
+  | "wheat"
+  | "carnation"
+  | "balloon"
+  | "home"
+  | "candle"
+  | "lotus"
+  | "flag"
+  | "moonstar"
+  | "ribbon"
+  | "book"
+  | "medal"
+  | "pine";
+
 export const holidays: Holiday[] = [
   {
     slug: "tet-duong-lich",
+    motif: "fireworks",
     name: "Tết Dương lịch",
     dateMark: "01·01",
     displayDate: "1 tháng 1",
@@ -62,7 +86,7 @@ export const holidays: Holiday[] = [
     theme: { from: "#312e81", to: "#7c3aed", accent: "#a78bfa" },
     tagline: "Ngày đầu tiên của năm mới dương lịch.",
     history: [
-      "Tết Dương lịch đánh dấu ngày 1 tháng 1 theo lịch Gregorius — lịch quốc tế mà Việt Nam sử dụng chính thức từ năm 1954 tại miền Bắc và sau 1975 trên cả nước.",
+      "Tết Dương lịch đánh dấu ngày 1 tháng 1 theo lịch Gregorius — lịch quốc tế được áp dụng ở Việt Nam từ đầu thế kỷ 20 và trở thành lịch hành chính của quốc gia sau Cách mạng tháng Tám.",
       "Dù Tết Nguyên Đán vẫn là lễ lớn nhất, ngày 1/1 đã trở thành dịp nghỉ lễ quốc gia để mọi người tổng kết năm cũ và đặt mục tiêu cho năm mới.",
     ],
     meaning:
@@ -77,6 +101,8 @@ export const holidays: Holiday[] = [
       "Năm mới đến, chúc bạn đủ đầy sức khỏe, niềm vui và thành công.",
       "Happy New Year! Mong mọi dự định của bạn đều thành hiện thực.",
       "Chúc gia đình bạn một năm mới bình an, sum vầy, phát tài.",
+      "Một năm mới, ba trăm sáu mươi lăm cơ hội mới — chúc bạn nắm lấy tất cả.",
+
     ],
     gifts: [
       { title: "Sổ tay kế hoạch", text: "Một cuốn planner để bắt đầu năm mới ngăn nắp." },
@@ -91,6 +117,7 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "tet-nguyen-dan",
+    motif: "lantern",
     name: "Tết Nguyên Đán",
     dateMark: "Mùng Một",
     displayDate: "1/1 Âm lịch",
@@ -115,6 +142,8 @@ export const holidays: Holiday[] = [
       "Năm mới chúc gia đình bạn sức khỏe dồi dào, tài lộc đầy nhà.",
       "Chúc bạn một năm mới nhiều thắng lợi, công thành danh toại.",
       "Xuân sang phú quý đem tài lộc về; Tết đến bình an giữ hạnh phúc ở.",
+      "Chúc tuổi mới thêm niềm vui, nhà nhà sum họp, người người an vui.",
+
     ],
     gifts: [
       { title: "Giỏ quà Tết", text: "Bánh mứt, trà, rượu vang — quà biếu phổ biến nhất." },
@@ -129,6 +158,7 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "tet-nguyen-tieu",
+    motif: "fullmoon",
     name: "Tết Nguyên Tiêu",
     dateMark: "15·01",
     displayDate: "15/1 Âm lịch",
@@ -152,6 +182,9 @@ export const holidays: Holiday[] = [
       "Rằm tháng Giêng, chúc gia đình bạn viên mãn, bình an cả năm.",
       "Chúc bạn một năm tròn đầy như trăng rằm đêm nay.",
       "Nguyện ánh trăng rằm soi sáng mọi điều tốt đẹp đến với bạn.",
+      "Rằm đầu năm, chúc nhà nhà no đủ, người người bình an.",
+      "Chúc bạn và gia đình một đêm rằm tháng Giêng thật ấm và thật đủ đầy.",
+
     ],
     gifts: [
       { title: "Hộp chè trôi nước", text: "Nguyên liệu sẵn sàng để nấu món rằm tháng Giêng." },
@@ -166,6 +199,7 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "valentine",
+    motif: "heart",
     name: "Lễ Tình nhân",
     dateMark: "14·02",
     displayDate: "14 tháng 2",
@@ -188,6 +222,8 @@ export const holidays: Holiday[] = [
       "Cảm ơn em vì đã chọn đồng hành cùng anh mỗi ngày.",
       "Yêu em hôm qua, yêu em hôm nay, và sẽ yêu em cả ngày mai.",
       "Chúc tình yêu của hai ta luôn ngọt như viên sô-cô-la đầu tiên.",
+      "Mong mỗi ngày bên nhau đều là một ngày Valentine.",
+
     ],
     gifts: [
       { title: "Hoa hồng", text: "Chọn bó hoa theo màu yêu thích của người ấy." },
@@ -202,6 +238,7 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "quoc-te-phu-nu",
+    motif: "rose",
     name: "Quốc tế Phụ nữ 8/3",
     dateMark: "08·03",
     displayDate: "8 tháng 3",
@@ -210,7 +247,7 @@ export const holidays: Holiday[] = [
     theme: { from: "#be185d", to: "#f472b6", accent: "#f9a8d4" },
     tagline: "Tôn vinh phái đẹp trên toàn thế giới.",
     history: [
-      "Ngày 8/3 bắt nguồn từ phong trào đấu tranh của công nhân dệt nữ ở New York năm 1908 và được Liên Hợp Quốc chính thức công nhận năm 1975.",
+      "Ngày 8/3 bắt nguồn từ phong trào đấu tranh của công nhân dệt nữ ở New York đầu thế kỷ 20 và được Liên Hợp Quốc tổ chức kỷ niệm lần đầu năm 1975.",
       "Ở Việt Nam, ngày này còn gắn với khởi nghĩa Hai Bà Trưng — biểu tượng anh dũng của phụ nữ Việt từ thời Bắc thuộc.",
     ],
     meaning: "Ngày để tôn vinh công lao, sự hy sinh và quyền bình đẳng của phụ nữ trong gia đình lẫn xã hội.",
@@ -224,6 +261,8 @@ export const holidays: Holiday[] = [
       "Cảm ơn em vì tất cả những hy sinh thầm lặng. Chúc em 8/3 thật vui.",
       "Chúc phụ nữ Việt Nam mãi khỏe, đẹp, tự tin và thành công.",
       "8/3 anh chúc em: cười nhiều hơn, khó ít đi, và luôn được yêu thương.",
+      "Chúc những người phụ nữ tuyệt vời quanh anh một ngày 8/3 rực rỡ.",
+
     ],
     gifts: [
       { title: "Hoa tươi", text: "Hồng, ly hay cẩm chướng — món quà không bao giờ lỗi thời." },
@@ -238,6 +277,7 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "gio-to-hung-vuong",
+    motif: "temple",
     name: "Giỗ Tổ Hùng Vương",
     dateMark: "10·03",
     displayDate: "10/3 Âm lịch",
@@ -259,6 +299,9 @@ export const holidays: Holiday[] = [
       "Nhân ngày Giỗ Tổ, nguyện tổ tiên phù hộ cho gia đình mình bình an.",
       "Uống nước nhớ nguồn — chúc mọi người một ngày Giỗ Tổ ý nghĩa.",
       "Mùng mười tháng ba, cùng hướng về cội nguồn dân tộc.",
+      "Nhớ về cội nguồn Hùng Vương, giữ gìn máu hồng xưa trong tim.",
+      "Giỗ Tổ năm nay, nguyện non sông mãi trường tồn, con cháu mãi đoàn kết.",
+
     ],
     gifts: [
       { title: "Chuyến về nguồn", text: "Cùng gia đình thăm Đền Hùng hoặc nơi quê hương." },
@@ -273,6 +316,7 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "giai-phong-mien-nam",
+    motif: "star",
     name: "Ngày Giải phóng miền Nam 30/4",
     dateMark: "30·04",
     displayDate: "30 tháng 4",
@@ -294,6 +338,9 @@ export const holidays: Holiday[] = [
       "Tự hào ngày 30/4 — chúc đất nước mãi hòa bình, thịnh vượng.",
       "Kính nhớ những người đã ngã xuống cho độc lập hôm nay.",
       "Chúc đất nước ta mãi đoàn kết, vững bước tương lai.",
+      "Ba mươi tháng tư — ngày non sông thu về một mối. Mãi tự hào.",
+      "Hòa bình hôm nay là lời hứa với ngày mai. Chúc mừng ngày thống nhất.",
+
     ],
     gifts: [
       { title: "Cờ Tổ quốc", text: "Lá cờ nhỏ treo ban công ngày lễ lớn." },
@@ -308,6 +355,7 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "quoc-te-lao-dong",
+    motif: "wheat",
     name: "Quốc tế Lao động 1/5",
     dateMark: "01·05",
     displayDate: "1 tháng 5",
@@ -328,6 +376,9 @@ export const holidays: Holiday[] = [
       "Chúc người lao động một ngày 1/5 thật nghỉ ngơi, thật vui.",
       "Cảm ơn những đôi tay đã xây nên mọi giá trị. 1/5 ý nghĩa!",
       "Chúc bạn công việc thuận lợi và luôn được đền đáp xứng đáng.",
+      "Lao động là vinh quang — chúc bạn được tôn vinh đúng nghĩa hôm nay.",
+      "Chúc mọi đôi tay cần mẫn đều gặt hái được quả ngọt.",
+
     ],
     gifts: [
       { title: "Chuyến nghỉ dưỡng", text: "Tận dụng kỳ nghỉ dài đầu tháng 5." },
@@ -342,6 +393,7 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "ngay-cua-me",
+    motif: "carnation",
     name: "Ngày của Mẹ",
     dateMark: "CN·II",
     displayDate: "Chủ nhật thứ 2 tháng 5",
@@ -364,6 +416,8 @@ export const holidays: Holiday[] = [
       "Con chúc mẹ luôn khỏe mạnh, bình an và sống lâu bên con cháu.",
       "Cảm ơn mẹ vì đã cho con cả thế giới mà chẳng hề đòi lại gì.",
       "Ngày của Mẹ, con chỉ mong mẹ luôn cười thật tươi như hôm nay.",
+      "Mẹ ơi, con lớn lên rồi mà vẫn thấy mình nhỏ trong vòng tay mẹ.",
+
     ],
     gifts: [
       { title: "Hoa cẩm chướng", text: "Đỏ cho tình yêu, trắng cho sự hiếu kính." },
@@ -378,6 +432,7 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "quoc-te-thieu-nhi",
+    motif: "balloon",
     name: "Quốc tế Thiếu nhi 1/6",
     dateMark: "01·06",
     displayDate: "1 tháng 6",
@@ -386,7 +441,7 @@ export const holidays: Holiday[] = [
     theme: { from: "#0369a1", to: "#facc15", accent: "#fde047" },
     tagline: "Ngày của trẻ thơ.",
     history: [
-      "Ngày Quốc tế Thiếu nhi được thành lập từ năm 1949 để bảo vệ quyền trẻ em; Việt Nam tổ chức kỷ niệm từ rất sớm, từ thời Bác Hồ gửi thư chúc Tết thiếu nhi.",
+      "Ngày Quốc tế Thiếu nhi được thiết lập năm 1949 để bảo vệ quyền trẻ em; Việt Nam tổ chức kỷ niệm từ rất sớm, từ thời Bác Hồ gửi thư chúc Tết thiếu nhi.",
       "Mỗi năm ngày 1/6, trường học và các tổ chức tổ chức vui chơi, văn nghệ và trao quà cho thiếu nhi khắp cả nước.",
     ],
     meaning: "Ngày nhắc nhở xã hội bảo vệ, yêu thương và đầu tư cho thế hệ tương lai.",
@@ -399,6 +454,9 @@ export const holidays: Holiday[] = [
       "Chúc các con 1/6 thật vui, ngoan ngoãn và học giỏi!",
       "Chúc bé yêu luôn khỏe mạnh, cười thật nhiều mỗi ngày.",
       "Tuổi thơ chỉ có một — chúc con một ngày Thiếu nhi đáng nhớ.",
+      "Chúc các bạn nhỏ luôn được yêu thương, được là chính mình.",
+      "1/6 vui nhé — cả thế giới hôm nay là của các con.",
+
     ],
     gifts: [
       { title: "Sách tranh, truyện thiếu nhi", text: "Quà vừa vui vừa nuôi thói quen đọc." },
@@ -413,6 +471,7 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "ngay-gia-dinh-viet-nam",
+    motif: "home",
     name: "Ngày Gia đình Việt Nam",
     dateMark: "28·06",
     displayDate: "28 tháng 6",
@@ -434,6 +493,9 @@ export const holidays: Holiday[] = [
       "Chúc gia đình mình luôn sum vầy, yêu thương và bình an.",
       "Nhà là nơi để về — chúc tổ ấm của bạn luôn ấm áp.",
       "Ngày Gia đình, mong mọi nhà đều đầy tiếng cười.",
+      "Chúc tổ ấm nhà bạn luôn có người chờ, có bữa cơm nóng.",
+      "Gia đình là điểm tựa — chúc nhà mình mãi yên ấm.",
+
     ],
     gifts: [
       { title: "Album ảnh gia đình", text: "In những khoảnh khắc chung thành kỷ niệm chạm được." },
@@ -448,6 +510,7 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "thuong-binh-liet-si",
+    motif: "candle",
     name: "Ngày Thương binh Liệt sĩ",
     dateMark: "27·07",
     displayDate: "27 tháng 7",
@@ -469,6 +532,9 @@ export const holidays: Holiday[] = [
       "Mãi ghi nhớ công ơn các anh hùng liệt sĩ của dân tộc.",
       "Hôm nay có hòa bình vì ngày ấy có người đã không trở về.",
       "Đền ơn đáp nghĩa — kính cẩn tri ân những người có công.",
+      "Xin cúi đầu trước những hy sinh để hôm nay có tên là hòa bình.",
+      "Tri ân chưa bao giờ là đủ — kính nhớ các anh hùng dân tộc.",
+
     ],
     gifts: [
       { title: "Quà thăm hỏi", text: "Gạo, sữa, thuốc bổ cho gia đình thương binh lân cận." },
@@ -483,6 +549,7 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "vu-lan",
+    motif: "lotus",
     name: "Lễ Vu Lan",
     dateMark: "15·07",
     displayDate: "15/7 Âm lịch",
@@ -504,6 +571,9 @@ export const holidays: Holiday[] = [
       "Mùa Vu Lan, cầu chúc cha mẹ mình luôn khỏe mạnh, bình an.",
       "Còn mẹ còn cha là còn cả thế giới — trân trọng từng ngày bên họ.",
       "Nguyện công ơn sinh thành được báo đáp bằng hiếu tâm mỗi ngày.",
+      "Vu Lan về, cầu nguyện cho những người đã sinh thành ta.",
+      "Mùa báo hiếu, mong cha mẹ con luôn được bình an vô sự.",
+
     ],
     gifts: [
       { title: "Hoa cài áo Vu Lan", text: "Bông hồng đỏ nhỏ cài lên ngực áo ngày lễ." },
@@ -518,6 +588,7 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "quoc-khanh",
+    motif: "flag",
     name: "Quốc khánh 2/9",
     dateMark: "02·09",
     displayDate: "2 tháng 9",
@@ -539,6 +610,9 @@ export const holidays: Holiday[] = [
       "Tự hào là người Việt Nam! Chúc mừng Quốc khánh 2/9.",
       "Chúc đất nước mãi độc lập, tự do, hạnh phúc.",
       "Mừng ngày Tổ quốc khởi sinh — đoàn kết vững bước tương lai.",
+      "Từ Ba Đình năm ấy đến hôm nay — tự hào Việt Nam.",
+      "Chúc non sông gấm vóc mãi hùng vĩ, đời đời hưng thịnh.",
+
     ],
     gifts: [
       { title: "Cờ và phụ kiện 2/9", text: "Cờ nhỏ, áo cờ đỏ sao vàng cho ngày diễu hành." },
@@ -553,6 +627,7 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "trung-thu",
+    motif: "moonstar",
     name: "Tết Trung thu",
     dateMark: "15·08",
     displayDate: "15/8 Âm lịch",
@@ -574,6 +649,9 @@ export const holidays: Holiday[] = [
       "Trung thu vui vẻ! Chúc gia đình bạn đoàn viên dưới trăng rằm.",
       "Chúc các bé một mùa trăng rực rỡ đèn ông sao.",
       "Trăng tròn người quây quần — chúc bạn một Trung thu ấm áp.",
+      "Chúc mùa trăng này mang về cho bạn đủ đầy như ánh trăng rằm.",
+      "Trung thu đến — chúc nhà nhà sum vầy, trẻ trẻ vui cười.",
+
     ],
     gifts: [
       { title: "Bánh trung thu", text: "Bánh nướng, bánh dẻo nhân sen, trà xanh là kinh điển." },
@@ -588,6 +666,7 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "phu-nu-viet-nam",
+    motif: "ribbon",
     name: "Ngày Phụ nữ Việt Nam 20/10",
     dateMark: "20·10",
     displayDate: "20 tháng 10",
@@ -610,6 +689,8 @@ export const holidays: Holiday[] = [
       "20/10 — chúc phụ nữ Việt Nam mãi rạng rỡ và thành công.",
       "Cảm ơn những người phụ nữ tuyệt vời trong đời em/anh.",
       "Chúc em một ngày 20/10 chỉ toàn hoa, quà và tiếng cười.",
+      "20/10 — chúc chị/em mãi là bông hoa đẹp nhất vườn Việt.",
+
     ],
     gifts: [
       { title: "Hoa tươi", text: "Bó hoa kèm thiệp viết tay luôn là lựa chọn đầu tiên." },
@@ -624,6 +705,7 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "nha-giao-viet-nam",
+    motif: "book",
     name: "Ngày Nhà giáo Việt Nam",
     dateMark: "20·11",
     displayDate: "20 tháng 11",
@@ -645,6 +727,9 @@ export const holidays: Holiday[] = [
       "Kính chúc thầy cô 20/11 khỏe mạnh, hạnh phúc và mãi tận tâm.",
       "Cảm ơn thầy cô vì đã thắp lửa tri thức trong em.",
       "Nhân ngày Nhà giáo, em kính chúc cô luôn trẻ và vui như ngày nào.",
+      "Ơn dạy dỗ nặng bằng sông dài — kính chúc thầy cô mạnh khỏe.",
+      "Chúc những người trồng người được hái quả ngọt cả đời.",
+
     ],
     gifts: [
       { title: "Hoa và thiệp tri ân", text: "Đơn giản, chân thành và đúng truyền thống." },
@@ -659,6 +744,7 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "quan-doi-nhan-dan",
+    motif: "medal",
     name: "Ngày Quân đội Nhân dân VN",
     dateMark: "22·12",
     displayDate: "22 tháng 12",
@@ -680,6 +766,9 @@ export const holidays: Holiday[] = [
       "Chúc mừng ngày truyền thống Quân đội nhân dân Việt Nam 22/12!",
       "Tri ân những người lính canh giữ giấc ngủ bình yên của đất nước.",
       "Kính chúc các chiến sĩ mãi vững vàng giữa trời yên biển lặng.",
+      "Cảm ơn những người đã đổi thanh xuân lấy bình yên Tổ quốc.",
+      "22/12 — kính chúc quân đội anh hùng mãi kiên cường sắt son.",
+
     ],
     gifts: [
       { title: "Hoa và thư tri ân", text: "Gửi lời cảm ơn đến người thân đang trong quân ngũ." },
@@ -694,6 +783,7 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "giang-sinh",
+    motif: "pine",
     name: "Giáng sinh",
     dateMark: "25·12",
     displayDate: "24–25 tháng 12",
@@ -715,6 +805,9 @@ export const holidays: Holiday[] = [
       "Merry Christmas! Chúc bạn một Giáng sinh an lành, ấm áp.",
       "Chúc mùa lễ hội mang đến cho bạn thật nhiều niềm vui.",
       "Giáng sinh bình an — mong mọi điều tốt đẹp đến với gia đình bạn.",
+      "Noel an lành — chúc bạn được ôm ấp bởi những người thương mình.",
+      "Chúc mùa lễ hội của bạn đủ ấm để đi qua mùa đông.",
+
     ],
     gifts: [
       { title: "Quà Noel cho bé", text: "Đồ chơi gói giấy óng để dưới gốc cây thông." },
