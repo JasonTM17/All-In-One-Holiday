@@ -33,10 +33,9 @@ Photos from Wikimedia Commons contributors; see per-file license and description
 | phu-nu-viet-nam/hero.webp | Lucas Jans from USA | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:%C3%81o_d%C3%A0i_dancers.jpg) |
 | phu-nu-viet-nam/card.webp | Pauloleong2002 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Woman_wearing_Ao_Dai.jpg) |
 | phu-nu-viet-nam/gallery1.webp | PA | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:VN_-_bonzes_et_%C3%A1o_d%C3%A0i.jpg) |
-| phu-nu-viet-nam/gallery2.webp | Nhiên Kids | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:%C3%81o_d%C3%A0i_b%C3%A9_trai_thi%E1%BA%BFt_k%E1%BA%BF_Nhi%C3%AAn_Kids.jpg) |
 | phu-nu-viet-nam/gallery3.webp | HidoLX | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ao_dai_12.2022.jpg) |
 | phu-nu-viet-nam/hero.webp | Phát Trương | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:%C3%81o_d%C3%A0i_hoa_ph%C6%B0%E1%BB%A3ng_-_Ph%C3%A1t_Tr%C6%B0%C6%A1ng_-_51231007393_(extend_cropped).jpg) |
-| phu-nu-viet-nam/gallery2.webp | HidoLX | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ao_dai_12.2022_(cropped).jpg) |
+| phu-nu-viet-nam/gallery2.webp | Daderot | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Ao_dai_collection_-_Vietnamese_Women%27s_Museum_-_Hanoi,_Vietnam_-_DSC04141.JPG) |
 | nha-giao-viet-nam/card.webp | Biswarup Ganguly | CC BY 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Auditorium_-_Teacher-Student_Center_-_University_of_Dhaka_-_Dhaka_2015-05-31_2428.JPG) |
 | nha-giao-viet-nam/gallery1.webp | USAID Vietnam | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Launch_of_the_smart_classroom_in_Ho_Chi_Minh_City_(29396857950).jpg) |
 | nha-giao-viet-nam/gallery2.webp | USAID Vietnam | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:AA_Stivers_visits_Nguyen_Ding_Chieu_School_(16787033668).jpg) |
@@ -88,18 +87,16 @@ Photos from Wikimedia Commons contributors; see per-file license and description
 | quoc-te-thieu-nhi/gallery2.webp | Ibrahim Husain Meraj | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Colorful_balloons_02.JPG) |
 | quoc-te-thieu-nhi/gallery3.webp | Ibrahim Husain Meraj | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Colorful_balloons_03.JPG) |
 | ngay-gia-dinh-viet-nam/hero.webp | Unknown authorUnknown author | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Saami_Family_1900.jpg) |
-| ngay-gia-dinh-viet-nam/card.webp | Clear Path International | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Vietnamese_shrine_for_dead.jpg) |
 | ngay-gia-dinh-viet-nam/gallery1.webp | Clear Path International | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Vietnamese_shrine_for_dead_youth.jpg) |
 | ngay-gia-dinh-viet-nam/gallery2.webp | Thang Nguyen from Nottingham, United Kingdom | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Vietnamese_Ancestors_Altar.jpg) |
 | ngay-gia-dinh-viet-nam/gallery3.webp | Rungbachduong | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Distribution_of_Vietnamese_family_names.png) |
 | ngay-gia-dinh-viet-nam/hero.webp | Pete Souza | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Obama_family_in_mist_in_Rio_de_Janeiro.jpg) |
-| ngay-gia-dinh-viet-nam/card.webp | Edward S. Curtis | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Inupiat_Family_from_Noatak,_Alaska,_1929,_Edward_S._Curtis_(restored).jpg) |
 | ngay-gia-dinh-viet-nam/gallery1.webp | Zde | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Vietnamese_Painting,_Hall_of_Family_Ancestors,_1945,_NG_Vm_5819,_142201.jpg) |
 | ngay-gia-dinh-viet-nam/gallery2.webp | Hoangkid | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Vietnamese_family_daily_meal.jpg) |
 | ngay-gia-dinh-viet-nam/gallery3.webp | Shirley Aley Campbell | CC BY 2.5 | [Commons](https://commons.wikimedia.org/wiki/File:Vietnamese_Family_by_Shirley_Aley_Campbell.jpg) |
-| ngay-gia-dinh-viet-nam/card.webp | Alpha from Melbourne, Australia | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Vietnamese_minced_pork_rice_rolls.jpg) |
 | ngay-gia-dinh-viet-nam/gallery1.webp | Dina Said | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Egyptian_food_Koshary.jpg) |
 | ngay-gia-dinh-viet-nam/gallery3.webp | Carrotkit | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Vietnamese_chicken_wings.jpg) |
+| ngay-gia-dinh-viet-nam/card.webp | Hoangkid | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Vietnamese_family_daily_meal.jpg) |
 | thuong-binh-liet-si/gallery2.webp | JFVelasquez Floro | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:7801Easter_Vigil_Ascencion_Church_of_Santo_Cristo,_Pulilan_37.jpg) |
 | thuong-binh-liet-si/gallery3.webp | JFVelasquez Floro | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:7696Easter_Vigil_Ascencion_Church_of_Santo_Cristo,_Pulilan_01.jpg) |
 | thuong-binh-liet-si/hero.webp | U.S. Customs and Border Protection | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:National_Law_Enforcement_Officers_Memorial_Candle_Light_Vigil_2015_(17612293106).jpg) |

@@ -282,15 +282,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Bonzes et áo dài"
     },
     {
-      "file": "phu-nu-viet-nam/gallery2.webp",
-      "photographer": "Nhiên Kids",
-      "profile": "https://commons.wikimedia.org/wiki/File:%C3%81o_d%C3%A0i_b%C3%A9_trai_thi%E1%BA%BFt_k%E1%BA%BF_Nhi%C3%AAn_Kids.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:%C3%81o_d%C3%A0i_b%C3%A9_trai_thi%E1%BA%BFt_k%E1%BA%BF_Nhi%C3%AAn_Kids.jpg",
-      "license": "CC BY-SA 4.0",
-      "source": "Wikimedia Commons",
-      "alt": "Ao dai for boys"
-    },
-    {
       "file": "phu-nu-viet-nam/gallery3.webp",
       "photographer": "HidoLX",
       "profile": "https://commons.wikimedia.org/wiki/File:Ao_dai_12.2022.jpg",
@@ -310,12 +301,12 @@ export const imageCredits: Record<string, ImageCredit[]> = {
     },
     {
       "file": "phu-nu-viet-nam/gallery2.webp",
-      "photographer": "HidoLX",
-      "profile": "https://commons.wikimedia.org/wiki/File:Ao_dai_12.2022_(cropped).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Ao_dai_12.2022_(cropped).jpg",
-      "license": "CC BY-SA 2.0",
+      "photographer": "Daderot",
+      "profile": "https://commons.wikimedia.org/wiki/File:Ao_dai_collection_-_Vietnamese_Women%27s_Museum_-_Hanoi,_Vietnam_-_DSC04141.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:Ao_dai_collection_-_Vietnamese_Women%27s_Museum_-_Hanoi,_Vietnam_-_DSC04141.JPG",
+      "license": "CC0",
       "source": "Wikimedia Commons",
-      "alt": "Beautiful student girl with ao dai"
+      "alt": "Exhibit in the Vietnamese Women's Museum, Hanoi, Vietnam. Photography was permitted in the museum without restriction."
     }
   ],
   "nha-giao-viet-nam": [
@@ -793,15 +784,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "A Sami indigenous northern European family in Norway around 1900. The picture was probably taken in 1896 around the Kans"
     },
     {
-      "file": "ngay-gia-dinh-viet-nam/card.webp",
-      "photographer": "Clear Path International",
-      "profile": "https://commons.wikimedia.org/wiki/File:Vietnamese_shrine_for_dead.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Vietnamese_shrine_for_dead.jpg",
-      "license": "CC BY 2.0",
-      "source": "Wikimedia Commons",
-      "alt": "A shrine dedicated to a dead man in Vietnam. It includes a photo of the deceased with a decorative frame, flowers in a v"
-    },
-    {
       "file": "ngay-gia-dinh-viet-nam/gallery1.webp",
       "photographer": "Clear Path International",
       "profile": "https://commons.wikimedia.org/wiki/File:Vietnamese_shrine_for_dead_youth.jpg",
@@ -838,15 +820,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "United States President Barack Obama, First Lady Michelle Obama, and daughters Sasha and Malia, tour the Christ the Rede"
     },
     {
-      "file": "ngay-gia-dinh-viet-nam/card.webp",
-      "photographer": "Edward S. Curtis",
-      "profile": "https://commons.wikimedia.org/wiki/File:Inupiat_Family_from_Noatak,_Alaska,_1929,_Edward_S._Curtis_(restored).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Inupiat_Family_from_Noatak,_Alaska,_1929,_Edward_S._Curtis_(restored).jpg",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "A family portrait of an Inupiat Eskimo mother, father, and son. Photographed in Noatak, Alaska, circa 1929. From The Nor"
-    },
-    {
       "file": "ngay-gia-dinh-viet-nam/gallery1.webp",
       "photographer": "Zde",
       "profile": "https://commons.wikimedia.org/wiki/File:Vietnamese_Painting,_Hall_of_Family_Ancestors,_1945,_NG_Vm_5819,_142201.jpg",
@@ -874,15 +847,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Vietnamese Family by Shirley Aley Campbell"
     },
     {
-      "file": "ngay-gia-dinh-viet-nam/card.webp",
-      "photographer": "Alpha from Melbourne, Australia",
-      "profile": "https://commons.wikimedia.org/wiki/File:Vietnamese_minced_pork_rice_rolls.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Vietnamese_minced_pork_rice_rolls.jpg",
-      "license": "CC BY-SA 2.0",
-      "source": "Wikimedia Commons",
-      "alt": "Vietnamese minced pork rice rolls"
-    },
-    {
       "file": "ngay-gia-dinh-viet-nam/gallery1.webp",
       "photographer": "Dina Said",
       "profile": "https://commons.wikimedia.org/wiki/File:Egyptian_food_Koshary.jpg",
@@ -899,6 +863,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 4.0",
       "source": "Wikimedia Commons",
       "alt": "​Vietnamese chicken wings"
+    },
+    {
+      "file": "ngay-gia-dinh-viet-nam/card.webp",
+      "photographer": "Hoangkid",
+      "profile": "https://commons.wikimedia.org/wiki/File:Vietnamese_family_daily_meal.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Vietnamese_family_daily_meal.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "A modern daily Vietnamese meal presented on an aluminium round tray. From top left to right: vegetarian soup of Basella "
     }
   ],
   "thuong-binh-liet-si": [
