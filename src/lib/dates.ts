@@ -1,4 +1,4 @@
-import { Lunar } from "lunar-typescript";
+import { Lunar, Solar } from "lunar-typescript";
 
 export type DateRule =
   | { type: "solar"; month: number; day: number }
@@ -29,6 +29,12 @@ export function lunarToSolar(
 ): Date {
   const solar = Lunar.fromYmd(lunarYear, lunarMonth, lunarDay).getSolar();
   return new Date(solar.getYear(), solar.getMonth() - 1, solar.getDay());
+}
+
+/** Convert a Gregorian date to its lunar month/day numbers. */
+export function solarToLunar(d: Date): { month: number; day: number } {
+  const l = Solar.fromYmd(d.getFullYear(), d.getMonth() + 1, d.getDate()).getLunar();
+  return { month: l.getMonth(), day: l.getDay() };
 }
 
 /** Occurrence of a rule in a given calendar year (lunar year for lunar rules). */
