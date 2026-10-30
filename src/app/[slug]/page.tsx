@@ -88,6 +88,7 @@ export default async function HolidayPage({
       >
         <HImg
           src={`${h.slug}/hero.webp`}
+          sm={`${h.slug}/hero-sm.webp`}
           alt={`${h.name} — ảnh minh họa`}
           width={1920}
           height={1280}

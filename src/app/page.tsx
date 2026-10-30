@@ -57,7 +57,30 @@ export default function Home() {
       />
 
       {/* ---------- Hero ---------- */}
+      {/* eslint-disable-next-line @next/next/no-head-element -- static export: preload the LCP hero photo */}
+      <link
+        rel="preload"
+        as="image"
+        href={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/holidays/scenery/hero-sm.webp`}
+        fetchPriority="high"
+      />
       <section className="relative overflow-hidden bg-gradient-to-br from-rose-950 via-rose-800 to-amber-700 text-white">
+        <img
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/holidays/scenery/hero.webp`}
+          srcSet={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/holidays/scenery/hero-sm.webp 800w, ${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/holidays/scenery/hero.webp 1600w`}
+          sizes="100vw"
+          alt=""
+          width={1920}
+          height={1280}
+          loading="eager"
+          fetchPriority="high"
+          decoding="async"
+          className="absolute inset-0 h-full w-full object-cover opacity-55"
+        />
+        <div
+          className="absolute inset-0 bg-gradient-to-br from-rose-950/90 via-rose-900/75 to-amber-800/55"
+          aria-hidden="true"
+        />
         <div className="dot-pattern absolute inset-0" aria-hidden="true" />
         <Motif
           name="lantern"
@@ -129,6 +152,49 @@ export default function Home() {
           ))}
         </div>
       </div>
+
+      {/* ---------- Vietnam scenery strip ---------- */}
+      <section
+        aria-labelledby="viet-nam"
+        className="border-b border-[var(--color-line)] bg-[#faf6ef]"
+      >
+        <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
+          <Reveal>
+            <p className="eyebrow text-[var(--color-brand)]">Việt Nam</p>
+            <h2
+              id="viet-nam"
+              className="mt-3 font-display text-[clamp(1.6rem,3vw,2.4rem)] font-extrabold text-[var(--color-ink)]"
+            >
+              Đất nước của những lễ hội
+            </h2>
+          </Reveal>
+          <ul className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
+            {[
+              ["scenery/hero.webp", "Vịnh Hạ Long"],
+              ["scenery/gallery1.webp", "Miền Tây sông nước"],
+              ["home-hero/gallery2.webp", "Hội An rực đèn"],
+              ["scenery/gallery3.webp", "Đảo đá vôi"],
+              ["scenery/card.webp", "Đà Lạt về đêm"],
+              ["gio-to-hung-vuong/hero.webp", "Đền Hùng, Phú Thọ"],
+            ].map(([src, cap]) => (
+              <li key={src} className="group relative overflow-hidden rounded-2xl">
+                <img
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/holidays/${src}`}
+                  alt={cap}
+                  width={800}
+                  height={600}
+                  loading="lazy"
+                  decoding="async"
+                  className="aspect-[4/5] h-auto w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+                <span className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-3 pt-8 text-xs font-bold text-white">
+                  {cap}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
 
       {/* ---------- Women's days band ---------- */}
       <section

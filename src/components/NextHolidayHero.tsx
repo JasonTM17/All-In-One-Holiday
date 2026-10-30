@@ -45,11 +45,12 @@ export default function NextHolidayHero({
         >
           <img
             src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/holidays/${next.item.slug}/hero.webp`}
+            srcSet={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/holidays/${next.item.slug}/hero-sm.webp 800w, ${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/holidays/${next.item.slug}/hero.webp 1600w`}
+            sizes="(min-width: 1024px) 50vw, 100vw"
             alt=""
             width={1920}
             height={1280}
-            loading="eager"
-            fetchPriority="high"
+            loading="lazy"
             decoding="async"
             className="absolute inset-0 h-full w-full object-cover opacity-35"
           />

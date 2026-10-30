@@ -97,6 +97,8 @@ export default function BirthdayCard() {
         >
           <img
             src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/holidays/birthday/hero.webp`}
+            srcSet={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/holidays/birthday/hero-sm.webp 800w, ${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/holidays/birthday/hero.webp 1600w`}
+            sizes="100vw"
             alt=""
             width={1920}
             height={1280}
