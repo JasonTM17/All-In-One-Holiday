@@ -10,7 +10,7 @@ import Faq from "@/components/Faq";
 import Motif from "@/components/Motif";
 import Reveal from "@/components/Reveal";
 import HolidayActions from "@/components/HolidayActions";
-import HImg from "@/components/HImg";
+import HImg, { heroSrcSet } from "@/components/HImg";
 import { stories } from "@/data/stories";
 
 export function generateStaticParams() {
@@ -86,9 +86,17 @@ export default async function HolidayPage({
         className="relative overflow-hidden text-white"
         style={{ background: heroBackground(h.theme.from, h.theme.to) }}
       >
+        <link
+          rel="preload"
+          as="image"
+          href={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/holidays/${h.slug}/hero-800.webp`}
+          imageSrcSet={heroSrcSet(h.slug)}
+          imageSizes="100vw"
+          fetchPriority="high"
+        />
         <HImg
           src={`${h.slug}/hero.webp`}
-          sm={`${h.slug}/hero-sm.webp`}
+          hero={h.slug}
           alt={`${h.name} — ảnh minh họa`}
           width={1920}
           height={1280}

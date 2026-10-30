@@ -1,4 +1,5 @@
 "use client";
+import { heroSrcSet } from "./HImg";
 
 import { useMemo, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
@@ -97,7 +98,7 @@ export default function BirthdayCard() {
         >
           <img
             src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/holidays/birthday/hero.webp`}
-            srcSet={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/holidays/birthday/hero-sm.webp 800w, ${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/holidays/birthday/hero.webp 1600w`}
+            srcSet={heroSrcSet("birthday")}
             sizes="100vw"
             alt=""
             width={1920}

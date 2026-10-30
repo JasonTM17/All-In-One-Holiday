@@ -8,6 +8,7 @@ import { useNow } from "@/hooks/useNow";
 import Motif from "./Motif";
 import RuleCountdown from "./RuleCountdown";
 import type { MotifName } from "@/data/holidays";
+import { heroSrcSet } from "./HImg";
 
 export interface NextHolidayItem {
   slug: string;
@@ -45,7 +46,7 @@ export default function NextHolidayHero({
         >
           <img
             src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/holidays/${next.item.slug}/hero.webp`}
-            srcSet={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/holidays/${next.item.slug}/hero-sm.webp 800w, ${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/holidays/${next.item.slug}/hero.webp 1600w`}
+            srcSet={heroSrcSet(next.item.slug)}
             sizes="(min-width: 1024px) 50vw, 100vw"
             alt=""
             width={1920}

@@ -5,6 +5,7 @@ import { siteUrl } from "@/lib/site";
 import HolidayGrid from "@/components/HolidayGrid";
 import NextHolidayHero from "@/components/NextHolidayHero";
 import Reveal from "@/components/Reveal";
+import { heroSrcSet } from "@/components/HImg";
 import Motif from "@/components/Motif";
 
 export const metadata: Metadata = {
@@ -61,13 +62,15 @@ export default function Home() {
       <link
         rel="preload"
         as="image"
-        href={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/holidays/scenery/hero-sm.webp`}
+        href={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/holidays/scenery/hero-800.webp`}
+        imageSrcSet={heroSrcSet("scenery")}
+        imageSizes="100vw"
         fetchPriority="high"
       />
       <section className="relative overflow-hidden bg-gradient-to-br from-rose-950 via-rose-800 to-amber-700 text-white">
         <img
           src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/holidays/scenery/hero.webp`}
-          srcSet={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/holidays/scenery/hero-sm.webp 800w, ${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/holidays/scenery/hero.webp 1600w`}
+          srcSet={heroSrcSet("scenery")}
           sizes="100vw"
           alt=""
           width={1920}
