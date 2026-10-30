@@ -1,0 +1,33 @@
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+
+# env / secrets
+.env
+.env*
+
+# logs
+*.log
+npm-debug.log*
+
+# agent / kit / plan artifacts
+plans/
+.agentkit/
+.agents/
+.claude/
+.codex/
+.devin/
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+
+# misc
+.DS_Store
+tsconfig.tsbuildinfo
+*.tsbuildinfo
+
+# verification artifacts
+screenshots/
