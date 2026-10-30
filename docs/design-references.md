@@ -91,3 +91,7 @@ Rule: both stops keep white ≥3:1 (large display text ≥18px/bold). Neutral ra
 | Trung thu | ![](images/trung-thu-desktop.jpg) | ![](images/trung-thu-mobile.jpg) |
 | Giáng sinh | ![](images/giang-sinh-desktop.jpg) | ![](images/giang-sinh-mobile.jpg) |
 | Thiệp sinh nhật | ![](images/birthday-desktop.jpg) | ![](images/birthday-mobile.jpg) |
+
+## Photography (round 4-5)
+
+All photography is free-license (Wikimedia Commons: CC0/CC BY/CC BY-SA/PD) — curated per-holiday, stored locally in `public/images/holidays/<slug>/` (hero 1600-1920w + card + gallery ×3, all ≤~250KB webp; `hero-sm` 800w variants feed `srcset`). Photos sit under palette gradient overlays (40-60% opacity) so AA holds. Credits: `public/images/CREDITS.md`, `src/data/image-credits.ts`, and the `/credits` page. Fetch/curation tooling: `scripts/fetch-images.mjs`, `scripts/contact-sheets.mjs`.
