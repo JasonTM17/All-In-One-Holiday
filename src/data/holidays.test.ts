@@ -6,8 +6,10 @@ import { nextOccurrence } from "@/lib/dates";
 import sitemap from "@/app/sitemap";
 import { imageCredits } from "./image-credits";
 import { stories } from "./stories";
+import { HERO_SRC_W } from "./hero-sizes";
 
 const IMG_DIR = join(__dirname, "../../public/images/holidays");
+const HERO_WIDTHS = [480, 800, 1200, 1600];
 
 describe("holiday data integrity", () => {
   it("has unique slugs", () => {
@@ -92,11 +94,55 @@ describe("holiday data integrity", () => {
 });
 
 describe("holiday photos", () => {
-  it("every holiday has hero/card/gallery images on disk", () => {
+  it("every holiday has hero/card/gallery images on disk in webp + avif", () => {
     for (const h of holidays) {
       for (const kind of ["hero", "card", "gallery1", "gallery2", "gallery3"]) {
-        const f = join(IMG_DIR, h.slug, `${kind}.webp`);
-        expect(existsSync(f), `${h.slug}/${kind}.webp missing`).toBe(true);
+        for (const ext of ["webp", "avif"]) {
+          const f = join(IMG_DIR, h.slug, `${kind}.${ext}`);
+          expect(existsSync(f), `${h.slug}/${kind}.${ext} missing`).toBe(true);
+        }
+      }
+    }
+  });
+
+  it("every srcset rung advertised by HImg exists on disk in both formats", () => {
+    for (const h of holidays) {
+      const srcW = HERO_SRC_W[h.slug];
+      expect(srcW, `${h.slug} missing from HERO_SRC_W`).toBeDefined();
+      for (const w of HERO_WIDTHS) {
+        if (w >= srcW) continue;
+        for (const ext of ["webp", "avif"]) {
+          const f = join(IMG_DIR, h.slug, `hero-${w}.${ext}`);
+          expect(existsSync(f), `${h.slug}/hero-${w}.${ext} missing`).toBe(true);
+        }
+      }
+      for (const base of ["card", "gallery1", "gallery2", "gallery3"]) {
+        for (const ext of ["webp", "avif"]) {
+          const f = join(IMG_DIR, h.slug, `${base}-480.${ext}`);
+          expect(existsSync(f), `${h.slug}/${base}-480.${ext} missing`).toBe(true);
+        }
+      }
+      // legacy hero-sm.webp was retired — must stay deleted
+      expect(
+        existsSync(join(IMG_DIR, h.slug, "hero-sm.webp")),
+        `${h.slug}/hero-sm.webp should be deleted`,
+      ).toBe(false);
+    }
+  });
+
+  it("home-page scenery files exist in webp + avif too", () => {
+    for (const rel of [
+      "scenery/hero",
+      "scenery/hero-480",
+      "scenery/gallery1-480",
+      "scenery/gallery3-480",
+      "scenery/card-480",
+      "home-hero/gallery2-480",
+      "gio-to-hung-vuong/hero-480",
+    ]) {
+      for (const ext of ["webp", "avif"]) {
+        const f = join(IMG_DIR, `${rel}.${ext}`);
+        expect(existsSync(f), `${rel}.${ext} missing`).toBe(true);
       }
     }
   });

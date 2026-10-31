@@ -8,9 +8,7 @@ import { nextOccurrence, daysUntil, type DateRule } from "@/lib/dates";
 import { formatDayMonth, formatFull } from "@/lib/format";
 import { useNow } from "@/hooks/useNow";
 import Motif from "./Motif";
-import { thumbSrcSet } from "./HImg";
-
-const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+import HImg from "./HImg";
 
 export interface GridItem {
   slug: string;
@@ -98,15 +96,13 @@ export default function HolidayGrid({ items }: { items: GridItem[] }) {
                     background: `linear-gradient(135deg, ${h.theme.from}, ${h.theme.to})`,
                   }}
                 >
-                  <img
-                    src={`${base}/images/holidays/${h.slug}/card.webp`}
-                    srcSet={thumbSrcSet(h.slug, "card")}
-                    sizes="(min-width: 1024px) 380px, (min-width: 640px) 46vw, 92vw"
+                  <HImg
+                    src={`${h.slug}/card.webp`}
+                    thumb={{ slug: h.slug, base: "card" }}
+                    sizes="(min-width: 1184px) 355px, (min-width: 1024px) 31vw, (min-width: 640px) 46vw, 92vw"
                     alt=""
                     width={800}
                     height={600}
-                    loading="lazy"
-                    decoding="async"
                     className="absolute inset-0 h-full w-full object-cover opacity-50 transition-opacity duration-300 group-hover:opacity-60"
                   />
                   <div

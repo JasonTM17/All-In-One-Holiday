@@ -1,5 +1,6 @@
 "use client";
-import { heroSrcSet } from "./HImg";
+import { HERO_TINT } from "@/data/hero-sizes";
+import HImg from "./HImg";
 
 import { useMemo, useState } from "react";
 import dynamic from "next/dynamic";
@@ -30,7 +31,7 @@ function parseDate(v: string | null): Date | null {
     : null;
 }
 
-export default function BirthdayCard() {
+export default function BirthdayCard({ lqip }: { lqip?: string }) {
   const params = useSearchParams();
   const router = useRouter();
 
@@ -99,15 +100,16 @@ export default function BirthdayCard() {
             background: `linear-gradient(135deg, ${theme.from}, ${theme.to})`,
           }}
         >
-          <img
-            src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/holidays/birthday/hero.webp`}
-            srcSet={heroSrcSet("birthday")}
+          <HImg
+            src="birthday/hero.webp"
+            hero="birthday"
+            lqip={lqip}
+            tint={HERO_TINT.birthday}
             sizes="100vw"
             alt=""
             width={1920}
             height={1280}
-            loading="eager"
-            decoding="async"
+            eager
             className="absolute inset-0 h-full w-full object-cover opacity-30"
           />
           <div className="dot-pattern absolute inset-0" aria-hidden="true" />

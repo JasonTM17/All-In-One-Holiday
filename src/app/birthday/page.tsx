@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
 import BirthdayCard from "@/components/BirthdayCard";
+import { HERO_LQIP } from "@/data/hero-lqip";
 
 export const metadata: Metadata = {
   title: "Thiệp sinh nhật",
@@ -30,7 +31,7 @@ export default function BirthdayPage() {
             />
           }
         >
-          <BirthdayCard />
+          <BirthdayCard lqip={HERO_LQIP.birthday} />
         </Suspense>
       </div>
     </section>
