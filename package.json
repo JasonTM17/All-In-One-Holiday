@@ -16,7 +16,7 @@
     "prebuild": "node scripts/gen-lunar-table.mjs && node scripts/gen-ics.mjs && node scripts/gen-api.mjs"
   },
   "dependencies": {
-    "next": "16.4.2",
+    "next": "16.4.3",
     "react": "19.3.1",
     "react-dom": "19.3.1"
   },
@@ -32,7 +32,7 @@
     "@types/react-dom": "19.3.0",
     "axe-core": "^4.14.0",
     "eslint": "9.39.5",
-    "eslint-config-next": "16.4.2",
+    "eslint-config-next": "16.4.3",
     "postcss": "8.5.32",
     "serve": "^14.2.6",
     "sharp": "0.35.5",
