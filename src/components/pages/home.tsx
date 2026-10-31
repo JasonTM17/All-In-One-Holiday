@@ -10,15 +10,30 @@ import Motif from "@/components/Motif";
 import { homeJsonLd } from "@/lib/jsonld";
 import { HERO_LQIP } from "@/data/hero-lqip";
 import { HERO_TINT } from "@/data/hero-sizes";
-import { getStrings, localePath, type Locale } from "@/i18n";
+import { getStrings, localePath, localePrefix, type Locale } from "@/i18n";
 import { holidaysOf } from "@/i18n/data";
 import type { Metadata } from "next";
 
-export const homeMetadata: Metadata = {
-  openGraph: {
-    images: [`${siteUrl()}/opengraph-image.png`],
-  },
-};
+/**
+ * Per-locale home metadata. openGraph replaces the layout block wholesale,
+ * so it must be complete — including the locale's own opengraph-image route
+ * (/opengraph-image.png for vi, /en/opengraph-image.png for en).
+ */
+export function homeMetadata(locale: Locale): Metadata {
+  const t = getStrings(locale);
+  const url = `${localePrefix(locale)}/`;
+  return {
+    openGraph: {
+      type: "website",
+      locale: t.meta.ogLocale,
+      alternateLocale: locale === "en" ? "vi_VN" : "en_US",
+      siteName: "Ngày Lễ Việt",
+      url,
+      images: [`${siteUrl()}${url}opengraph-image.png`],
+    },
+    twitter: { card: "summary_large_image" },
+  };
+}
 
 export default function HomePage({ locale }: { locale: Locale }) {
   const t = getStrings(locale);

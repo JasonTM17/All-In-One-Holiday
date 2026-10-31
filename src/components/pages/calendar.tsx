@@ -15,8 +15,10 @@ export function calendarMetadata(locale: Locale): Metadata {
     alternates: languageAlternates(locale, "/lich/"),
     openGraph: {
       title: `${t.calendar.metaTitle} — Ngày Lễ Việt`,
+      description: t.calendar.metaDescription,
       url,
       type: "website",
+      images: [`${url}opengraph-image.png`],
     },
   };
 }

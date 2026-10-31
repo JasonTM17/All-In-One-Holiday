@@ -2,17 +2,26 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
 import CardMakerLazy, { CardMakerSkeleton } from "@/components/CardMakerLazy";
-import { getStrings, type Locale } from "@/i18n";
+import { getStrings, localePath, type Locale } from "@/i18n";
 import { holidaysOf } from "@/i18n/data";
+import { siteUrl } from "@/lib/site";
 import { languageAlternates } from "@/lib/metadata";
 
 export function cardMetadata(locale: Locale): Metadata {
   const t = getStrings(locale);
+  const url = localePath(locale, "/thiep/");
   return {
     title: t.thiep.metaTitle,
     description: t.thiep.metaDescription,
     robots: { index: false, follow: false },
     alternates: languageAlternates(locale, "/thiep/"),
+    openGraph: {
+      title: `${t.thiep.metaTitle} — Ngày Lễ Việt`,
+      description: t.thiep.metaDescription,
+      url,
+      type: "website",
+      images: [`${siteUrl()}${url}opengraph-image.png`],
+    },
   };
 }
 

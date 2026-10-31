@@ -1,16 +1,25 @@
 // Shared /credits image-attribution page (vi at /credits/, en at /en/credits/).
 import type { Metadata } from "next";
 import { imageCredits } from "@/data/image-credits";
-import { getStrings, type Locale } from "@/i18n";
+import { getStrings, localePath, type Locale } from "@/i18n";
 import { holidaysOf } from "@/i18n/data";
+import { siteUrl } from "@/lib/site";
 import { languageAlternates } from "@/lib/metadata";
 
 export function creditsMetadata(locale: Locale): Metadata {
   const t = getStrings(locale);
+  const url = localePath(locale, "/credits/");
   return {
     title: t.credits.metaTitle,
     description: t.credits.metaDescription,
     alternates: languageAlternates(locale, "/credits/"),
+    openGraph: {
+      title: `${t.credits.metaTitle} — Ngày Lễ Việt`,
+      description: t.credits.metaDescription,
+      url,
+      type: "website",
+      images: [`${siteUrl()}${url}opengraph-image.png`],
+    },
   };
 }
 

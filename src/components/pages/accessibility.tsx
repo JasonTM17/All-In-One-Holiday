@@ -1,17 +1,26 @@
 // Shared /accessibility statement page (vi at /accessibility/, en at
 // /en/accessibility/).
 import type { Metadata } from "next";
-import { getStrings, type Locale } from "@/i18n";
+import { getStrings, localePath, type Locale } from "@/i18n";
+import { siteUrl } from "@/lib/site";
 import { languageAlternates } from "@/lib/metadata";
 
 const ISSUES_URL = "https://github.com/JasonTM17/All-In-One-Holiday/issues";
 
 export function accessibilityMetadata(locale: Locale): Metadata {
   const t = getStrings(locale);
+  const url = localePath(locale, "/accessibility/");
   return {
     title: t.a11y.metaTitle,
     description: t.a11y.metaDescription,
     alternates: languageAlternates(locale, "/accessibility/"),
+    openGraph: {
+      title: `${t.a11y.metaTitle} — Ngày Lễ Việt`,
+      description: t.a11y.metaDescription,
+      url,
+      type: "website",
+      images: [`${siteUrl()}${url}opengraph-image.png`],
+    },
   };
 }
 

@@ -3,7 +3,8 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import BirthdayCard from "@/components/BirthdayCard";
 import { HERO_LQIP } from "@/data/hero-lqip";
-import { getStrings, type Locale } from "@/i18n";
+import { getStrings, localePath, type Locale } from "@/i18n";
+import { siteUrl } from "@/lib/site";
 import { languageAlternates } from "@/lib/metadata";
 
 export function birthdayMetadata(locale: Locale): Metadata {
@@ -14,8 +15,13 @@ export function birthdayMetadata(locale: Locale): Metadata {
     robots: { index: false, follow: false },
     alternates: languageAlternates(locale, "/birthday/"),
     openGraph: {
-      title: t.birthday.metaTitle,
+      title: `${t.birthday.metaTitle} — Ngày Lễ Việt`,
       description: t.birthday.metaDescription,
+      url: localePath(locale, "/birthday/"),
+      type: "website",
+      images: [
+        `${siteUrl()}${localePath(locale, "/birthday/")}opengraph-image.png`,
+      ],
     },
   };
 }
