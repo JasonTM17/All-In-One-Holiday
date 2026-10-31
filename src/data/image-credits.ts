@@ -1749,5 +1749,52 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "source": "Wikimedia Commons",
       "alt": "The skyline of the Central Business District of Singapore at night."
     }
+  ],
+  "tet-thanh-minh": [
+    {
+      "file": "tet-thanh-minh/hero.webp",
+      "photographer": "Zhang Zeduan (1085–1145)",
+      "profile": "https://commons.wikimedia.org/wiki/File:Qingming_Festival_Detail_2.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Qingming_Festival_Detail_2.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Close-up detail of the Chinese cityscape handscroll Along the River During Qingming Festival, ink and colors on silk, 25"
+    },
+    {
+      "file": "tet-thanh-minh/card.webp",
+      "photographer": "Zhang Zeduan (1085–1145)",
+      "profile": "https://commons.wikimedia.org/wiki/File:Qingming_Festival_Detail_3.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Qingming_Festival_Detail_3.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Close-up detail of the Chinese cityscape handscroll Along the River During Qingming Festival, ink and colors on silk, 25"
+    },
+    {
+      "file": "tet-thanh-minh/gallery1.webp",
+      "photographer": "Zhang Zeduan (1085–1145)",
+      "profile": "https://commons.wikimedia.org/wiki/File:Qingming_Festival_Detail_10.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Qingming_Festival_Detail_10.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Close-up detail of the Chinese cityscape handscroll Along the River During Qingming Festival, ink and colors on silk, 25"
+    },
+    {
+      "file": "tet-thanh-minh/gallery2.webp",
+      "photographer": "Zhang Zeduan (1085–1145)",
+      "profile": "https://commons.wikimedia.org/wiki/File:Qingming_Festival_Detail_11.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Qingming_Festival_Detail_11.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Close-up detail of the Chinese cityscape handscroll Along the River During Qingming Festival, ink and colors on silk, 25"
+    },
+    {
+      "file": "tet-thanh-minh/gallery3.webp",
+      "photographer": "Jacklee.",
+      "profile": "https://commons.wikimedia.org/wiki/File:Five_coloured_papers_on_a_grave_mound,_Bukit_Brown_Cemetery,_Singapore_-_20110326-01.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Five_coloured_papers_on_a_grave_mound,_Bukit_Brown_Cemetery,_Singapore_-_20110326-01.jpg",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "\"Five coloured papers\" placed on the mound of a grave in Bukit Brown Cemetery, Singapore, during Qingming Festival. Ther"
+    }
   ]
 };

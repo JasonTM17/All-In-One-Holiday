@@ -149,6 +149,30 @@ SUMMARY:Giỗ Tổ Hùng Vương
 DESCRIPTION:Dù ai đi ngược về xuôi\, nhớ ngày Giỗ Tổ mùng mười tháng ba.
 END:VEVENT
 BEGIN:VEVENT
+UID:tet-thanh-minh-2026@ngayleviet
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20260405
+DTEND;VALUE=DATE:20260406
+SUMMARY:Tết Thanh minh
+DESCRIPTION:Tiết trời trong sáng — mùa tảo mộ nhớ nguồn.
+END:VEVENT
+BEGIN:VEVENT
+UID:tet-thanh-minh-2027@ngayleviet
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20270405
+DTEND;VALUE=DATE:20270406
+SUMMARY:Tết Thanh minh
+DESCRIPTION:Tiết trời trong sáng — mùa tảo mộ nhớ nguồn.
+END:VEVENT
+BEGIN:VEVENT
+UID:tet-thanh-minh-2028@ngayleviet
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20280404
+DTEND;VALUE=DATE:20280405
+SUMMARY:Tết Thanh minh
+DESCRIPTION:Tiết trời trong sáng — mùa tảo mộ nhớ nguồn.
+END:VEVENT
+BEGIN:VEVENT
 UID:giai-phong-mien-nam-2026@ngayleviet
 DTSTAMP:20261031T000000Z
 DTSTART;VALUE=DATE:20260430

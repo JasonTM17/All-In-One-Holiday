@@ -66,6 +66,14 @@ export const stories: Record<string, StoryEntry> = {
     ],
     story: { title: "Về nguồn", body: "Người Việt tự gọi mình là “con Rồng cháu Tiên”, gọi núi Nghĩa Lĩnh là “cội nguồn”. Ngày 10/3 âm lịch, người từ khắp miền đất nước ngược về Phú Thọ dâng hương trước sơn môn đền Hùng. Câu “Dù ai đi ngược về xuôi, nhớ ngày Giỗ Tổ mùng mười tháng ba” đi vào văn hóa như lời nhắc tự nhiên nhất — một ngày để cả dân tộc cùng ngoảnh mặt về một điểm bắt đầu." },
   },
+  "tet-thanh-minh": {
+    sources: [
+      { outlet: "Wikipedia", title: "Thanh minh", url: `${W}Thanh_minh`, summary: "Tiết Thanh minh — tiết khí thứ năm trong 24 tiết khí và lễ tảo mộ đầu tháng tư của các dân tộc Á Đông." },
+      { outlet: "Wikipedia", title: "Nghĩa trang", url: `${W}Ngh%C4%A9a_trang`, summary: "Nghĩa trang — nơi diễn ra tục tảo mộ, quét dọn và viếng thăng phần mộ tổ tiên vào Tết Thanh minh." },
+      { outlet: "Wikipedia", title: "Truyện Kiều", url: `${W}Truy%E1%BB%87n_Ki%E1%BB%81u`, summary: "Truyện Kiều của Nguyễn Du với câu thơ bất hủ 'Thanh minh trong tiết tháng ba' — làm mùa lễ thành bất tử trong văn học Việt." },
+    ],
+    story: { title: "Chiếc chổi đưa về cội nguồn", body: "Khi Nguyễn Du viết 'Thanh minh trong tiết tháng ba / Lễ là tảo mộ, hội là đạp thanh', ông đã khắc mãi mãi hình ảnh mùa lễ này vào tâm trí người Việt. Mỗi độ xuân về, các gia đình lại mang chổi, sơn và hoa tươi quay về mồ mả ông bà. Cỏ được nhổ, bia được phủi mới, hương được thắp — và chỉ khi ấy cả nhà mới đứng thành hàng mà cúi đầu. Tảo mộ không đòi điều gì lớn lao: nó chỉ đòi người sống quay về mỗi năm một lần để nói với người đã khuất rằng — chúng con chưa quên." },
+  },
   "giai-phong-mien-nam": {
     sources: [
       { outlet: "Wikipedia", title: "Ngày 30 tháng 4", url: `${W}Ng%C3%A0y_30_th%C3%A1ng_4`, summary: "Ngày 30/4/1975 đánh dấu sự kết thúc của Chiến tranh Việt Nam, mở ra giai đoạn thống nhất đất nước." },

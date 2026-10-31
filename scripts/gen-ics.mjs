@@ -23,6 +23,7 @@ execFileSync(
     "src/lib/ics.ts",
     "src/lib/search.ts",
     "src/data/holidays.ts",
+    "src/data/holidays-en.ts",
     "src/data/lunar-table.ts",
     "--outDir",
     ".ics-tmp",

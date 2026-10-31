@@ -5,7 +5,7 @@
 // position of the leap month (0 when the year has none).
 // Run via `npm run gen:lunar` (also part of prebuild). Requires lunar-typescript.
 import { writeFileSync } from "node:fs";
-import { LunarYear, Lunar } from "lunar-typescript";
+import { LunarYear, Lunar, Solar } from "lunar-typescript";
 
 const FIRST_YEAR = 1900;
 const LAST_YEAR = 2100;
@@ -49,9 +49,25 @@ function daysInYear(y) {
   return (y % 4 === 0 && y % 100 !== 0) || y % 400 === 0 ? 366 : 365;
 }
 
+/** Solar day-of-year of the Qingming solar term (Tết Thanh minh) — April 4/5/6. */
+function qingmingDoy(solarYear) {
+  for (let d = 1; d <= 10; d++) {
+    const s = Solar.fromYmd(solarYear, 4, d);
+    if (s.getLunar().getJieQi() === "清明") {
+      return dayOfYear(s);
+    }
+  }
+  throw new Error(`Qingming solar term not found for ${solarYear}`);
+}
+
 const rows = [];
 for (let y = FIRST_YEAR; y <= LAST_YEAR; y++) {
   rows.push(`  ${y}: "${yearEntry(y)}",`);
+}
+
+const qingming = [];
+for (let y = FIRST_YEAR; y <= LAST_YEAR; y++) {
+  qingming.push(`  ${y}: ${qingmingDoy(y)},`);
 }
 
 const body = `// GENERATED FILE — do not edit by hand. Regenerate with \`npm run gen:lunar\`.
@@ -66,6 +82,11 @@ const body = `// GENERATED FILE — do not edit by hand. Regenerate with \`npm r
 // negative of its month number, matching lunar-typescript's convention.
 export const LUNAR_TABLE: Record<number, string> = {
 ${rows.join("\n")}
+};
+
+// Solar day-of-year of the Qingming solar term (Tết Thanh minh) per year.
+export const QINGMING_TABLE: Record<number, number> = {
+${qingming.join("\n")}
 };
 `;
 

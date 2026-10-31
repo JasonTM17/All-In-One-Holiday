@@ -191,3 +191,8 @@ Photos from Wikimedia Commons contributors; see per-file license and description
 | doanh-nhan/gallery1.webp | Hpeterswald | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Sydney_City_Business_District.jpg) |
 | doanh-nhan/gallery2.webp | ProjectManhattan. | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Skyline_of_the_Central_Business_District,_Singapore,_featuring_Asia_Square_-_20131121.jpg) |
 | doanh-nhan/gallery3.webp | RM Bulseco from Davao City, Philippines. | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Central_Business_District_skyline,_Singapore,_at_night_-_20140215-03.jpg) |
+| tet-thanh-minh/hero.webp | Zhang Zeduan (1085–1145) | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Qingming_Festival_Detail_2.jpg) |
+| tet-thanh-minh/card.webp | Zhang Zeduan (1085–1145) | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Qingming_Festival_Detail_3.jpg) |
+| tet-thanh-minh/gallery1.webp | Zhang Zeduan (1085–1145) | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Qingming_Festival_Detail_10.jpg) |
+| tet-thanh-minh/gallery2.webp | Zhang Zeduan (1085–1145) | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Qingming_Festival_Detail_11.jpg) |
+| tet-thanh-minh/gallery3.webp | Jacklee. | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Five_coloured_papers_on_a_grave_mound,_Bukit_Brown_Cemetery,_Singapore_-_20110326-01.jpg) |

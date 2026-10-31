@@ -1,0 +1,3014 @@
+{
+ "generatedAt": "2026-10-31T11:38:48.986Z",
+ "locales": [
+  "vi",
+  "en"
+ ],
+ "count": 27,
+ "holidays": [
+  {
+   "slug": "tet-duong-lich",
+   "locale": "vi",
+   "name": "Tết Dương lịch",
+   "dateMark": "01·01",
+   "displayDate": "1 tháng 1",
+   "categories": [
+    "quoc-te"
+   ],
+   "tagline": "Ngày đầu tiên của năm mới dương lịch.",
+   "meaning": "Dịp để khép lại một năm, nghỉ ngơi bên gia đình và mở đầu hành trình mới với những dự định tươi sáng.",
+   "traditions": [
+    {
+     "title": "Đếm ngược giao thừa",
+     "text": "Nhiều thành phố tổ chức bắn pháo hoa và đếm ngược về 0 giờ."
+    },
+    {
+     "title": "Lời chúc năm mới",
+     "text": "Trao đổi thiệp, tin nhắn chúc sức khỏe và thành công."
+    },
+    {
+     "title": "Kế hoạch năm mới",
+     "text": "Viết mục tiêu, du lịch ngắn ngày hoặc sum họp gia đình."
+    }
+   ],
+   "wishes": [
+    "Chúc năm mới an khang, thịnh vượng, vạn sự như ý!",
+    "Năm mới đến, chúc bạn đủ đầy sức khỏe, niềm vui và thành công.",
+    "Happy New Year! Mong mọi dự định của bạn đều thành hiện thực.",
+    "Chúc gia đình bạn một năm mới bình an, sum vầy, phát tài.",
+    "Một năm mới, ba trăm sáu mươi lăm cơ hội mới — chúc bạn nắm lấy tất cả."
+   ],
+   "gifts": [
+    {
+     "title": "Sổ tay kế hoạch",
+     "text": "Một cuốn planner để bắt đầu năm mới ngăn nắp."
+    },
+    {
+     "title": "Lịch để bàn",
+     "text": "Quà thiết thực cho bạn bè, đồng nghiệp."
+    },
+    {
+     "title": "Bữa tối đầu năm",
+     "text": "Đặt bàn ăn tối cùng người thân chào năm mới."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 1,
+    "day": 1
+   },
+   "nextOccurrence": "2026-12-31",
+   "occurrenceThisYear": "2025-12-31"
+  },
+  {
+   "slug": "tet-nguyen-dan",
+   "locale": "vi",
+   "name": "Tết Nguyên Đán",
+   "dateMark": "Mùng Một",
+   "displayDate": "1/1 Âm lịch",
+   "categories": [
+    "truyen-thong",
+    "quoc-gia"
+   ],
+   "tagline": "Lễ lớn nhất năm của người Việt.",
+   "meaning": "Tết là khoảnh khắc chuyển giao giữa năm cũ và năm mới — thời điểm của đoàn viên, hiếu kính và hy vọng.",
+   "traditions": [
+    {
+     "title": "Gói bánh chưng, bánh tét",
+     "text": "Gia đình quây quần gói bánh, nấu bánh suốt đêm trước Tết."
+    },
+    {
+     "title": "Lì xì đầu năm",
+     "text": "Người lớn mừng tuổi trẻ nhỏ bằng bao đỏ cầu may mắn."
+    },
+    {
+     "title": "Chúc Tết, thăm họ hàng",
+     "text": "Mùng 1 Tết cha, mùng 2 Tết mẹ, mùng 3 Tết thầy."
+    },
+    {
+     "title": "Câu đối đỏ, hoa đào hoa mai",
+     "text": "Trang trí nhà cửa với sắc đỏ vàng rực rỡ đón xuân."
+    }
+   ],
+   "wishes": [
+    "Chúc mừng năm mới — an khang thịnh vượng, vạn sự như ý!",
+    "Năm mới chúc gia đình bạn sức khỏe dồi dào, tài lộc đầy nhà.",
+    "Chúc bạn một năm mới nhiều thắng lợi, công thành danh toại.",
+    "Xuân sang phú quý đem tài lộc về; Tết đến bình an giữ hạnh phúc ở.",
+    "Chúc tuổi mới thêm niềm vui, nhà nhà sum họp, người người an vui."
+   ],
+   "gifts": [
+    {
+     "title": "Giỏ quà Tết",
+     "text": "Bánh mứt, trà, rượu vang — quà biếu phổ biến nhất."
+    },
+    {
+     "title": "Bao lì xì",
+     "text": "Tiền mệnh giá mới trong bao đỏ mang lời chúc may mắn."
+    },
+    {
+     "title": "Cây cảnh, hoa xuân",
+     "text": "Đào, mai, quất tượng trưng cho sự khởi đầu tươi mới."
+    }
+   ],
+   "rule": {
+    "type": "lunar",
+    "month": 1,
+    "day": 1
+   },
+   "nextOccurrence": "2027-02-05",
+   "occurrenceThisYear": "2026-02-16"
+  },
+  {
+   "slug": "tet-nguyen-tieu",
+   "locale": "vi",
+   "name": "Tết Nguyên Tiêu",
+   "dateMark": "15·01",
+   "displayDate": "15/1 Âm lịch",
+   "categories": [
+    "truyen-thong"
+   ],
+   "tagline": "Rằm tháng Giêng — đêm trăng đầu năm.",
+   "meaning": "Đêm trăng tròn đầu năm tượng trưng cho sự viên mãn; dịp cầu bình an cho cả năm.",
+   "traditions": [
+    {
+     "title": "Đi chùa cầu an",
+     "text": "Lễ Phật, thắp hương cầu sức khỏe và bình an đầu năm."
+    },
+    {
+     "title": "Cúng rằm tháng Giêng",
+     "text": "Mâm cúng gia tiên với chè trôi nước, hoa quả."
+    },
+    {
+     "title": "Ăn chè trôi nước",
+     "text": "Viên bánh tròn thơm gừng tượng trưng cho sự đoàn viên."
+    },
+    {
+     "title": "Hội đèn lồng",
+     "text": "Nhiều nơi rước đèn, ngắm hoa đăng rực rỡ về đêm."
+    }
+   ],
+   "wishes": [
+    "Rằm tháng Giêng, chúc gia đình bạn viên mãn, bình an cả năm.",
+    "Chúc bạn một năm tròn đầy như trăng rằm đêm nay.",
+    "Nguyện ánh trăng rằm soi sáng mọi điều tốt đẹp đến với bạn.",
+    "Rằm đầu năm, chúc nhà nhà no đủ, người người bình an.",
+    "Chúc bạn và gia đình một đêm rằm tháng Giêng thật ấm và thật đủ đầy."
+   ],
+   "gifts": [
+    {
+     "title": "Hộp chè trôi nước",
+     "text": "Nguyên liệu sẵn sàng để nấu món rằm tháng Giêng."
+    },
+    {
+     "title": "Đèn lồng trang trí",
+     "text": "Điểm nhấn ấm cúng cho đêm rằm đầu năm."
+    },
+    {
+     "title": "Trầm hương",
+     "text": "Món quà thanh tịnh cho không gian thờ cúng."
+    }
+   ],
+   "rule": {
+    "type": "lunar",
+    "month": 1,
+    "day": 15
+   },
+   "nextOccurrence": "2027-02-19",
+   "occurrenceThisYear": "2026-03-02"
+  },
+  {
+   "slug": "valentine",
+   "locale": "vi",
+   "name": "Lễ Tình nhân",
+   "dateMark": "14·02",
+   "displayDate": "14 tháng 2",
+   "categories": [
+    "quoc-te"
+   ],
+   "tagline": "Ngày của những lời yêu thương.",
+   "meaning": "Dịp để nói ra điều khó nói — một lời yêu thương đúng lúc đáng giá hơn mọi món quà.",
+   "traditions": [
+    {
+     "title": "Tặng hoa hồng",
+     "text": "Hồng đỏ cho tình yêu nồng cháy, hồng nhạt cho sự ngọt ngào."
+    },
+    {
+     "title": "Sô-cô-la và thiệp",
+     "text": "Cặp quà kinh điển kèm một lời nhắn viết tay."
+    },
+    {
+     "title": "Hẹn hò đặc biệt",
+     "text": "Bữa tối, bộ phim hay chuyến đi ngắn dành cho hai người."
+    }
+   ],
+   "wishes": [
+    "Anh/chị là món quà đẹp nhất mà đời mang đến. Valentine vui vẻ!",
+    "Cảm ơn em vì đã chọn đồng hành cùng anh mỗi ngày.",
+    "Yêu em hôm qua, yêu em hôm nay, và sẽ yêu em cả ngày mai.",
+    "Chúc tình yêu của hai ta luôn ngọt như viên sô-cô-la đầu tiên.",
+    "Mong mỗi ngày bên nhau đều là một ngày Valentine."
+   ],
+   "gifts": [
+    {
+     "title": "Hoa hồng",
+     "text": "Chọn bó hoa theo màu yêu thích của người ấy."
+    },
+    {
+     "title": "Sô-cô-la thủ công",
+     "text": "Hộp sô-cô-la kèm thiệp viết tay luôn ghi điểm."
+    },
+    {
+     "title": "Trải nghiệm đôi",
+     "text": "Workshop gốm, lớp nấu ăn hay buổi picnic cho hai người."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 2,
+    "day": 14
+   },
+   "nextOccurrence": "2027-02-13",
+   "occurrenceThisYear": "2026-02-13"
+  },
+  {
+   "slug": "quoc-te-phu-nu",
+   "locale": "vi",
+   "name": "Quốc tế Phụ nữ 8/3",
+   "dateMark": "08·03",
+   "displayDate": "8 tháng 3",
+   "categories": [
+    "phu-nu",
+    "quoc-te"
+   ],
+   "tagline": "Tôn vinh phái đẹp trên toàn thế giới.",
+   "meaning": "Ngày để tôn vinh công lao, sự hy sinh và quyền bình đẳng của phụ nữ trong gia đình lẫn xã hội.",
+   "traditions": [
+    {
+     "title": "Tặng hoa và quà",
+     "text": "Hoa, thiệp và những lời chúc gửi đến mẹ, vợ, chị em, đồng nghiệp."
+    },
+    {
+     "title": "Bữa cơm sum họp",
+     "text": "Gia đình cùng nấu ăn để phụ nữ được nghỉ ngơi."
+    },
+    {
+     "title": "Hoạt động tôn vinh",
+     "text": "Cơ quan, trường học tổ chức gặp mặt, tuyên dương nữ cán bộ, học sinh."
+    }
+   ],
+   "wishes": [
+    "Chúc mẹ/chị/em ngày 8/3 rạng rỡ, hạnh phúc và luôn xinh đẹp!",
+    "Cảm ơn em vì tất cả những hy sinh thầm lặng. Chúc em 8/3 thật vui.",
+    "Chúc phụ nữ Việt Nam mãi khỏe, đẹp, tự tin và thành công.",
+    "8/3 anh chúc em: cười nhiều hơn, khó ít đi, và luôn được yêu thương.",
+    "Chúc những người phụ nữ tuyệt vời quanh anh một ngày 8/3 rực rỡ."
+   ],
+   "gifts": [
+    {
+     "title": "Hoa tươi",
+     "text": "Hồng, ly hay cẩm chướng — món quà không bao giờ lỗi thời."
+    },
+    {
+     "title": "Mỹ phẩm, spa",
+     "text": "Lựa chọn thiết thực cho những người phụ nữ bận rộn."
+    },
+    {
+     "title": "Một ngày được nghỉ",
+     "text": "Nhận hết việc nhà — món quà chân thành nhất."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 3,
+    "day": 8
+   },
+   "nextOccurrence": "2027-03-07",
+   "occurrenceThisYear": "2026-03-07"
+  },
+  {
+   "slug": "gio-to-hung-vuong",
+   "locale": "vi",
+   "name": "Giỗ Tổ Hùng Vương",
+   "dateMark": "10·03",
+   "displayDate": "10/3 Âm lịch",
+   "categories": [
+    "quoc-gia",
+    "truyen-thong"
+   ],
+   "tagline": "Dù ai đi ngược về xuôi, nhớ ngày Giỗ Tổ mùng mười tháng ba.",
+   "meaning": "Uống nước nhớ nguồn — ngày để mỗi người Việt hướng về cội nguồn dân tộc.",
+   "traditions": [
+    {
+     "title": "Dâng hương Đền Hùng",
+     "text": "Hàng triệu người về Phú Thọ thắp hương tưởng nhớ các vua Hùng."
+    },
+    {
+     "title": "Rước kiệu, hát xoan",
+     "text": "Lễ rước kiệu từ chân núi Nghĩa Lĩnh lên Đền Thượng."
+    },
+    {
+     "title": "Bánh chưng, bánh giầy dâng cúng",
+     "text": "Hai loại bánh tượng trưng trời đất trong mâm cúng tổ tiên."
+    }
+   ],
+   "wishes": [
+    "Nhân ngày Giỗ Tổ, nguyện tổ tiên phù hộ cho gia đình mình bình an.",
+    "Uống nước nhớ nguồn — chúc mọi người một ngày Giỗ Tổ ý nghĩa.",
+    "Mùng mười tháng ba, cùng hướng về cội nguồn dân tộc.",
+    "Nhớ về cội nguồn Hùng Vương, giữ gìn máu hồng xưa trong tim.",
+    "Giỗ Tổ năm nay, nguyện non sông mãi trường tồn, con cháu mãi đoàn kết."
+   ],
+   "gifts": [
+    {
+     "title": "Chuyến về nguồn",
+     "text": "Cùng gia đình thăm Đền Hùng hoặc nơi quê hương."
+    },
+    {
+     "title": "Bánh chưng, bánh giầy",
+     "text": "Mâm cúng truyền thống cho ngày Giỗ Tổ tại nhà."
+    },
+    {
+     "title": "Sách lịch sử",
+     "text": "Sách về thời đại Hùng Vương cho thế hệ trẻ."
+    }
+   ],
+   "rule": {
+    "type": "lunar",
+    "month": 3,
+    "day": 10
+   },
+   "nextOccurrence": "2027-04-15",
+   "occurrenceThisYear": "2026-04-25"
+  },
+  {
+   "slug": "tet-thanh-minh",
+   "locale": "vi",
+   "name": "Tết Thanh minh",
+   "dateMark": "04·04–06",
+   "displayDate": "4–6 tháng 4 (đổi theo năm)",
+   "categories": [
+    "truyen-thong"
+   ],
+   "tagline": "Tiết trời trong sáng — mùa tảo mộ nhớ nguồn.",
+   "meaning": "Ngày của sự tưởng nhớ giữa tiết xuân trong sáng — khi con cháu quay về quét dọn mồ mả, thắp hương và nối lại sợi dây với tổ tiên.",
+   "traditions": [
+    {
+     "title": "Tảo mộ",
+     "text": "Cả nhà dọn cỏ, vun đất, sửa lại mộ phần ông bà trong những tuần quanh Thanh minh."
+    },
+    {
+     "title": "Dâng hương hoa quả",
+     "text": "Nén hương, cành cúc và mâm lễ giản dị đặt trước mộ và ban thờ."
+    },
+    {
+     "title": "Sum họp, dạo xuân",
+     "text": "Chuyến tảo mộ thường thành buổi gặp gỡ đại gia đình giữa tiết trời trong lành."
+    },
+    {
+     "title": "Xôi, bánh dân gian",
+     "text": "Nhiều miền dâng xôi và bánh nếp trong ngày tảo mộ."
+    }
+   ],
+   "wishes": [
+    "Nhân tiết Thanh minh, nguyện tổ tiên phù hộ gia đình bình an, khỏe mạnh.",
+    "Nhớ nguồn — chúc gia đình bạn một mùa Thanh minh an nhiên, đoàn viên.",
+    "Tiết trời trong sáng, mong tâm bạn cũng nhẹ nhàng và nhà cửa bình an.",
+    "Chúc bạn một mùa Thanh minh dịu êm — kính nhớ quá khứ, quý trọng hiện tại.",
+    "Nguyện ông bà phù hộ cho cả nhà bốn mùa vô sự."
+   ],
+   "gifts": [
+    {
+     "title": "Hoa tươi tảo mộ",
+     "text": "Cúc, ly hoặc hồng tươi dâng trước mộ và ban thờ."
+    },
+    {
+     "title": "Nhang, nến",
+     "text": "Bộ lễ trang trọng cho buổi tảo mộ của gia đình."
+    },
+    {
+     "title": "Xôi, bánh nếp",
+     "text": "Lễ vật truyền thống nhiều miền chuẩn bị cho ngày tảo mộ."
+    }
+   ],
+   "rule": {
+    "type": "qingming"
+   },
+   "nextOccurrence": "2027-04-04",
+   "occurrenceThisYear": "2026-04-04"
+  },
+  {
+   "slug": "giai-phong-mien-nam",
+   "locale": "vi",
+   "name": "Ngày Giải phóng miền Nam 30/4",
+   "dateMark": "30·04",
+   "displayDate": "30 tháng 4",
+   "categories": [
+    "quoc-gia"
+   ],
+   "tagline": "Ngày đất nước thống nhất.",
+   "meaning": "Ngày của độc lập, thống nhất và lòng biết ơn với những thế hệ đã hy sinh cho đất nước.",
+   "traditions": [
+    {
+     "title": "Treo cờ Tổ quốc",
+     "text": "Nhà cửa, đường phố rực sắc đỏ sao vàng."
+    },
+    {
+     "title": "Kỷ niệm và diễu binh",
+     "text": "Các dịp tròn năm tổ chức diễu binh, diễu hành cấp quốc gia."
+    },
+    {
+     "title": "Về nguồn",
+     "text": "Tham quan địa chỉ đỏ, tưởng nhớ anh hùng liệt sĩ."
+    }
+   ],
+   "wishes": [
+    "Tự hào ngày 30/4 — chúc đất nước mãi hòa bình, thịnh vượng.",
+    "Kính nhớ những người đã ngã xuống cho độc lập hôm nay.",
+    "Chúc đất nước ta mãi đoàn kết, vững bước tương lai.",
+    "Ba mươi tháng tư — ngày non sông thu về một mối. Mãi tự hào.",
+    "Hòa bình hôm nay là lời hứa với ngày mai. Chúc mừng ngày thống nhất."
+   ],
+   "gifts": [
+    {
+     "title": "Cờ Tổ quốc",
+     "text": "Lá cờ nhỏ treo ban công ngày lễ lớn."
+    },
+    {
+     "title": "Chuyến tham quan",
+     "text": "Dinh Độc Lập, địa đạo Củ Chi cho chuyến về nguồn."
+    },
+    {
+     "title": "Sách, phim lịch sử",
+     "text": "Tư liệu về chiến dịch Hồ Chí Minh cho gia đình."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 4,
+    "day": 30
+   },
+   "nextOccurrence": "2027-04-29",
+   "occurrenceThisYear": "2026-04-29"
+  },
+  {
+   "slug": "quoc-te-lao-dong",
+   "locale": "vi",
+   "name": "Quốc tế Lao động 1/5",
+   "dateMark": "01·05",
+   "displayDate": "1 tháng 5",
+   "categories": [
+    "quoc-gia",
+    "quoc-te"
+   ],
+   "tagline": "Tôn vinh người lao động toàn cầu.",
+   "meaning": "Ngày ghi nhận giá trị của lao động và quyền lợi chính đáng của người làm việc.",
+   "traditions": [
+    {
+     "title": "Kỳ nghỉ lễ 30/4–1/5",
+     "text": "Nhiều gia đình chọn du lịch, về quê trong dịp nghỉ dài."
+    },
+    {
+     "title": "Vinh danh lao động tiêu biểu",
+     "text": "Doanh nghiệp, công đoàn tuyên dương người lao động xuất sắc."
+    }
+   ],
+   "wishes": [
+    "Chúc người lao động một ngày 1/5 thật nghỉ ngơi, thật vui.",
+    "Cảm ơn những đôi tay đã xây nên mọi giá trị. 1/5 ý nghĩa!",
+    "Chúc bạn công việc thuận lợi và luôn được đền đáp xứng đáng.",
+    "Lao động là vinh quang — chúc bạn được tôn vinh đúng nghĩa hôm nay.",
+    "Chúc mọi đôi tay cần mẫn đều gặt hái được quả ngọt."
+   ],
+   "gifts": [
+    {
+     "title": "Chuyến nghỉ dưỡng",
+     "text": "Tận dụng kỳ nghỉ dài đầu tháng 5."
+    },
+    {
+     "title": "Quà chăm sóc sức khỏe",
+     "text": "Gối massage, thẻ khám sức khỏe cho người lao động."
+    },
+    {
+     "title": "Lời cảm ơn",
+     "text": "Đôi khi một lời ghi nhận đúng lúc là quà quý nhất."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 5,
+    "day": 1
+   },
+   "nextOccurrence": "2027-04-30",
+   "occurrenceThisYear": "2026-04-30"
+  },
+  {
+   "slug": "ngay-cua-me",
+   "locale": "vi",
+   "name": "Ngày của Mẹ",
+   "dateMark": "CN·II",
+   "displayDate": "Chủ nhật thứ 2 tháng 5",
+   "categories": [
+    "phu-nu",
+    "quoc-te"
+   ],
+   "tagline": "Một ngày trong năm dành riêng cho mẹ.",
+   "meaning": "Dịp để nói lời yêu thương với mẹ — người luôn đứng sau mọi bước đi của ta.",
+   "traditions": [
+    {
+     "title": "Hoa cẩm chướng cho mẹ",
+     "text": "Bông cẩm chướng là biểu tượng kinh điển của ngày này."
+    },
+    {
+     "title": "Bữa cơm do con nấu",
+     "text": "Vào bếp thay mẹ một ngày — món quà giản dị nhất."
+    },
+    {
+     "title": "Gọi điện về nhà",
+     "text": "Với những người xa quê, một cuộc gọi dài là món quà."
+    }
+   ],
+   "wishes": [
+    "Mẹ là cả bầu trời che chở. Chúc mẹ ngày của Mẹ thật hạnh phúc!",
+    "Con chúc mẹ luôn khỏe mạnh, bình an và sống lâu bên con cháu.",
+    "Cảm ơn mẹ vì đã cho con cả thế giới mà chẳng hề đòi lại gì.",
+    "Ngày của Mẹ, con chỉ mong mẹ luôn cười thật tươi như hôm nay.",
+    "Mẹ ơi, con lớn lên rồi mà vẫn thấy mình nhỏ trong vòng tay mẹ."
+   ],
+   "gifts": [
+    {
+     "title": "Hoa cẩm chướng",
+     "text": "Đỏ cho tình yêu, trắng cho sự hiếu kính."
+    },
+    {
+     "title": "Khăn lụa, áo dài",
+     "text": "Quà tặng truyền thống mẹ nào cũng thích."
+    },
+    {
+     "title": "Ngày nghỉ ngơi trọn vẹn",
+     "text": "Con lo hết việc nhà để mẹ thật sự được nghỉ."
+    }
+   ],
+   "rule": {
+    "type": "nth-weekday",
+    "month": 5,
+    "weekday": 0,
+    "nth": 2
+   },
+   "nextOccurrence": "2027-05-08",
+   "occurrenceThisYear": "2026-05-09"
+  },
+  {
+   "slug": "quoc-te-thieu-nhi",
+   "locale": "vi",
+   "name": "Quốc tế Thiếu nhi 1/6",
+   "dateMark": "01·06",
+   "displayDate": "1 tháng 6",
+   "categories": [
+    "quoc-te"
+   ],
+   "tagline": "Ngày của trẻ thơ.",
+   "meaning": "Ngày nhắc nhở xã hội bảo vệ, yêu thương và đầu tư cho thế hệ tương lai.",
+   "traditions": [
+    {
+     "title": "Vui chơi tại trường",
+     "text": "Văn nghệ, trò chơi dân gian và khuôn viên tràng bóng bay."
+    },
+    {
+     "title": "Quà cho bé",
+     "text": "Đồ chơi, sách truyện, quần áo mới cho các con."
+    },
+    {
+     "title": "Hoạt động thiện nguyện",
+     "text": "Tặng quà cho trẻ em khó khăn, trẻ mồ côi."
+    }
+   ],
+   "wishes": [
+    "Chúc các con 1/6 thật vui, ngoan ngoãn và học giỏi!",
+    "Chúc bé yêu luôn khỏe mạnh, cười thật nhiều mỗi ngày.",
+    "Tuổi thơ chỉ có một — chúc con một ngày Thiếu nhi đáng nhớ.",
+    "Chúc các bạn nhỏ luôn được yêu thương, được là chính mình.",
+    "1/6 vui nhé — cả thế giới hôm nay là của các con."
+   ],
+   "gifts": [
+    {
+     "title": "Sách tranh, truyện thiếu nhi",
+     "text": "Quà vừa vui vừa nuôi thói quen đọc."
+    },
+    {
+     "title": "Đồ chơi sáng tạo",
+     "text": "Lego, đồ thủ công, dụng cụ vẽ cho trẻ."
+    },
+    {
+     "title": "Một ngày đi chơi",
+     "text": "Công viên, sở thú hay rạp chiếu phim cùng cả nhà."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 6,
+    "day": 1
+   },
+   "nextOccurrence": "2027-05-31",
+   "occurrenceThisYear": "2026-05-31"
+  },
+  {
+   "slug": "ngay-gia-dinh-viet-nam",
+   "locale": "vi",
+   "name": "Ngày Gia đình Việt Nam",
+   "dateMark": "28·06",
+   "displayDate": "28 tháng 6",
+   "categories": [
+    "quoc-gia"
+   ],
+   "tagline": "Tổ ấm của mỗi người Việt.",
+   "meaning": "Nhắc mỗi người trân trọng tổ ấm của mình — nơi bắt đầu và quay về của mọi hành trình.",
+   "traditions": [
+    {
+     "title": "Bữa cơm sum họp",
+     "text": "Cả nhà cùng ăn tối, trò chuyện thay vì mỗi người một màn hình."
+    },
+    {
+     "title": "Ảnh gia đình",
+     "text": "Chụp một bộ ảnh chung làm kỷ niệm mỗi năm."
+    },
+    {
+     "title": "Câu chuyện thế hệ",
+     "text": "Ông bà kể cho con cháu nghe về dòng họ, quê hương."
+    }
+   ],
+   "wishes": [
+    "Chúc gia đình mình luôn sum vầy, yêu thương và bình an.",
+    "Nhà là nơi để về — chúc tổ ấm của bạn luôn ấm áp.",
+    "Ngày Gia đình, mong mọi nhà đều đầy tiếng cười.",
+    "Chúc tổ ấm nhà bạn luôn có người chờ, có bữa cơm nóng.",
+    "Gia đình là điểm tựa — chúc nhà mình mãi yên ấm."
+   ],
+   "gifts": [
+    {
+     "title": "Album ảnh gia đình",
+     "text": "In những khoảnh khắc chung thành kỷ niệm chạm được."
+    },
+    {
+     "title": "Bữa tối sum họp",
+     "text": "Đặt bàn hoặc tự nấu một mâm cơm đông đủ."
+    },
+    {
+     "title": "Chuyến đi chung",
+     "text": "Một chuyến picnic gần cho cả nhà cuối tuần."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 6,
+    "day": 28
+   },
+   "nextOccurrence": "2027-06-27",
+   "occurrenceThisYear": "2026-06-27"
+  },
+  {
+   "slug": "thuong-binh-liet-si",
+   "locale": "vi",
+   "name": "Ngày Thương binh Liệt sĩ",
+   "dateMark": "27·07",
+   "displayDate": "27 tháng 7",
+   "categories": [
+    "quoc-gia"
+   ],
+   "tagline": "Đền ơn đáp nghĩa.",
+   "meaning": "Ngày tri ân những người đã đổi máu xương cho hòa bình hôm nay.",
+   "traditions": [
+    {
+     "title": "Viếng nghĩa trang liệt sĩ",
+     "text": "Thắp hương, đặt hoa tại các nghĩa trang và đài tưởng niệm."
+    },
+    {
+     "title": "Thăm gia đình chính sách",
+     "text": "Thăm hỏi, tặng quà thương binh, mẹ Việt Nam anh hùng."
+    },
+    {
+     "title": "Đèn tri ân",
+     "text": "Thắp nến tri ân các anh hùng liệt sĩ tối 26/7."
+    }
+   ],
+   "wishes": [
+    "Mãi ghi nhớ công ơn các anh hùng liệt sĩ của dân tộc.",
+    "Hôm nay có hòa bình vì ngày ấy có người đã không trở về.",
+    "Đền ơn đáp nghĩa — kính cẩn tri ân những người có công.",
+    "Xin cúi đầu trước những hy sinh để hôm nay có tên là hòa bình.",
+    "Tri ân chưa bao giờ là đủ — kính nhớ các anh hùng dân tộc."
+   ],
+   "gifts": [
+    {
+     "title": "Quà thăm hỏi",
+     "text": "Gạo, sữa, thuốc bổ cho gia đình thương binh lân cận."
+    },
+    {
+     "title": "Hoa viếng",
+     "text": "Vòng hoa, bó hoa đặt tại đài tưởng niệm địa phương."
+    },
+    {
+     "title": "Đóng góp quỹ đền ơn",
+     "text": "Chung tay xây nhà tình nghĩa cho người có công."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 7,
+    "day": 27
+   },
+   "nextOccurrence": "2027-07-26",
+   "occurrenceThisYear": "2026-07-26"
+  },
+  {
+   "slug": "vu-lan",
+   "locale": "vi",
+   "name": "Lễ Vu Lan",
+   "dateMark": "15·07",
+   "displayDate": "15/7 Âm lịch",
+   "categories": [
+    "truyen-thong",
+    "phu-nu"
+   ],
+   "tagline": "Mùa báo hiếu.",
+   "meaning": "Mùa để nhớ về công ơn cha mẹ và báo hiếu những người sinh thành.",
+   "traditions": [
+    {
+     "title": "Cài hoa hồng lên áo",
+     "text": "Hoa đỏ khi còn mẹ, hoa trắng khi mẹ đã khuất — lễ nghi xúc động nhất."
+    },
+    {
+     "title": "Đi chùa lễ Vu Lan",
+     "text": "Nghe kinh báo hiếu, cầu nguyện cho cha mẹ hai bên."
+    },
+    {
+     "title": "Cúng rằm tháng 7",
+     "text": "Mâm cúng gia tiên, xá tội vong nhân, phóng sinh."
+    }
+   ],
+   "wishes": [
+    "Mùa Vu Lan, cầu chúc cha mẹ mình luôn khỏe mạnh, bình an.",
+    "Còn mẹ còn cha là còn cả thế giới — trân trọng từng ngày bên họ.",
+    "Nguyện công ơn sinh thành được báo đáp bằng hiếu tâm mỗi ngày.",
+    "Vu Lan về, cầu nguyện cho những người đã sinh thành ta.",
+    "Mùa báo hiếu, mong cha mẹ con luôn được bình an vô sự."
+   ],
+   "gifts": [
+    {
+     "title": "Hoa cài áo Vu Lan",
+     "text": "Bông hồng đỏ nhỏ cài lên ngực áo ngày lễ."
+    },
+    {
+     "title": "Quà báo hiếu",
+     "text": "Thuốc bổ, sữa, hay đơn giản là một cuộc về thăm."
+    },
+    {
+     "title": "Sữa chua, chè chay",
+     "text": "Món ngọt nhẹ cho mâm cỗ chay ngày rằm."
+    }
+   ],
+   "rule": {
+    "type": "lunar",
+    "month": 7,
+    "day": 15
+   },
+   "nextOccurrence": "2027-08-15",
+   "occurrenceThisYear": "2026-08-26"
+  },
+  {
+   "slug": "quoc-khanh",
+   "locale": "vi",
+   "name": "Quốc khánh 2/9",
+   "dateMark": "02·09",
+   "displayDate": "2 tháng 9",
+   "categories": [
+    "quoc-gia"
+   ],
+   "tagline": "Ngày nước Việt Nam ra đời.",
+   "meaning": "Ngày của niềm tự hào dân tộc và khát vọng hòa bình, phát triển.",
+   "traditions": [
+    {
+     "title": "Diễu binh 2/9",
+     "text": "Các năm tròn tổ chức diễu binh, diễu hành tại Ba Đình."
+    },
+    {
+     "title": "Pháo hoa",
+     "text": "Hà Nội, TP.HCM và nhiều tỉnh thành bắn pháo hoa đêm 2/9."
+    },
+    {
+     "title": "Phố phường treo cờ",
+     "text": "Cả nước rực đỏ cờ sao vàng trong dịp Quốc khánh."
+    }
+   ],
+   "wishes": [
+    "Tự hào là người Việt Nam! Chúc mừng Quốc khánh 2/9.",
+    "Chúc đất nước mãi độc lập, tự do, hạnh phúc.",
+    "Mừng ngày Tổ quốc khởi sinh — đoàn kết vững bước tương lai.",
+    "Từ Ba Đình năm ấy đến hôm nay — tự hào Việt Nam.",
+    "Chúc non sông gấm vóc mãi hùng vĩ, đời đời hưng thịnh."
+   ],
+   "gifts": [
+    {
+     "title": "Cờ và phụ kiện 2/9",
+     "text": "Cờ nhỏ, áo cờ đỏ sao vàng cho ngày diễu hành."
+    },
+    {
+     "title": "Chuyến về nguồn",
+     "text": "Thăm Khu di tích Hoàng Thành, Lăng Bác, quê Bác ở Nghệ An."
+    },
+    {
+     "title": "Sách về Bác Hồ",
+     "text": "Tư liệu lịch sử ý nghĩa cho thế hệ trẻ."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 9,
+    "day": 2
+   },
+   "nextOccurrence": "2027-09-01",
+   "occurrenceThisYear": "2026-09-01"
+  },
+  {
+   "slug": "trung-thu",
+   "locale": "vi",
+   "name": "Tết Trung thu",
+   "dateMark": "15·08",
+   "displayDate": "15/8 Âm lịch",
+   "categories": [
+    "truyen-thong"
+   ],
+   "tagline": "Tết đoàn viên dưới ánh trăng.",
+   "meaning": "Đêm trăng tròn của sự sum họp — người lớn nhớ quê, trẻ nhỏ mong đèn ông sao.",
+   "traditions": [
+    {
+     "title": "Phá cỗ ngắm trăng",
+     "text": "Mâm cỗ bánh trung thu, bưởi, hồng đặt dưới sân trăng."
+    },
+    {
+     "title": "Rước đèn ông sao",
+     "text": "Trẻ em rước đèn lồng, đèn ông sao đi khắp phố."
+    },
+    {
+     "title": "Múa lân",
+     "text": "Tiếng trống lân rộn rã trong những đêm rằm tháng 8."
+    }
+   ],
+   "wishes": [
+    "Trung thu vui vẻ! Chúc gia đình bạn đoàn viên dưới trăng rằm.",
+    "Chúc các bé một mùa trăng rực rỡ đèn ông sao.",
+    "Trăng tròn người quây quần — chúc bạn một Trung thu ấm áp.",
+    "Chúc mùa trăng này mang về cho bạn đủ đầy như ánh trăng rằm.",
+    "Trung thu đến — chúc nhà nhà sum vầy, trẻ trẻ vui cười."
+   ],
+   "gifts": [
+    {
+     "title": "Bánh trung thu",
+     "text": "Bánh nướng, bánh dẻo nhân sen, trà xanh là kinh điển."
+    },
+    {
+     "title": "Đèn lồng cho bé",
+     "text": "Đèn ông sao, đèn cá chép thủ công."
+    },
+    {
+     "title": "Trà sen",
+     "text": "Cặp trà-bánh cho buổi ngắm trăng đoàn viên."
+    }
+   ],
+   "rule": {
+    "type": "lunar",
+    "month": 8,
+    "day": 15
+   },
+   "nextOccurrence": "2027-09-14",
+   "occurrenceThisYear": "2026-09-24"
+  },
+  {
+   "slug": "phu-nu-viet-nam",
+   "locale": "vi",
+   "name": "Ngày Phụ nữ Việt Nam 20/10",
+   "dateMark": "20·10",
+   "displayDate": "20 tháng 10",
+   "categories": [
+    "phu-nu",
+    "quoc-gia"
+   ],
+   "tagline": "Tôn vinh phụ nữ Việt Nam.",
+   "meaning": "Ngày riêng của phụ nữ Việt — tri ân sự hy sinh, bản lĩnh và vẻ đẹp của một nửa thế giới.",
+   "traditions": [
+    {
+     "title": "Tặng hoa, tặng quà",
+     "text": "Đồng nghiệp, người thân gửi hoa và lời chúc đến phụ nữ quanh mình."
+    },
+    {
+     "title": "Vinh danh phụ nữ tiêu biểu",
+     "text": "Các cấp hội phụ nữ tổ chức gặp mặt, tuyên dương."
+    },
+    {
+     "title": "Nam giới vào bếp",
+     "text": "Tục \"đàn ông nấu ăn\" ngày 20/10 ngày càng phổ biến."
+    }
+   ],
+   "wishes": [
+    "Chúc mẹ/em/chị 20/10 luôn xinh đẹp, hạnh phúc và được yêu thương!",
+    "20/10 — chúc phụ nữ Việt Nam mãi rạng rỡ và thành công.",
+    "Cảm ơn những người phụ nữ tuyệt vời trong đời em/anh.",
+    "Chúc em một ngày 20/10 chỉ toàn hoa, quà và tiếng cười.",
+    "20/10 — chúc chị/em mãi là bông hoa đẹp nhất vườn Việt."
+   ],
+   "gifts": [
+    {
+     "title": "Hoa tươi",
+     "text": "Bó hoa kèm thiệp viết tay luôn là lựa chọn đầu tiên."
+    },
+    {
+     "title": "Áo dài",
+     "text": "Tà áo dài — biểu tượng vẻ đẹp phụ nữ Việt."
+    },
+    {
+     "title": "Đồ chăm sóc",
+     "text": "Spa, mỹ phẩm, hay một buổi hẹn ăn tối."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 10,
+    "day": 20
+   },
+   "nextOccurrence": "2027-10-19",
+   "occurrenceThisYear": "2026-10-19"
+  },
+  {
+   "slug": "nha-giao-viet-nam",
+   "locale": "vi",
+   "name": "Ngày Nhà giáo Việt Nam",
+   "dateMark": "20·11",
+   "displayDate": "20 tháng 11",
+   "categories": [
+    "quoc-gia"
+   ],
+   "tagline": "Tôn sư trọng đạo.",
+   "meaning": "Nhất tự vi sư, bán tự vi sư — ngày để nhớ ơn những người đã dìu dắt ta.",
+   "traditions": [
+    {
+     "title": "Học sinh tặng hoa",
+     "text": "Hoa và thiệp tay gửi thầy cô trong tiết chào cờ đặc biệt."
+    },
+    {
+     "title": "Cựu học sinh về thăm",
+     "text": "Thế hệ đi trước quay lại trường xưa thăm thầy cô già."
+    },
+    {
+     "title": "Lời nhắn tri ân",
+     "text": "Những tin nhắn cảm ơn gửi đến thầy cô cũ khắp nơi."
+    }
+   ],
+   "wishes": [
+    "Kính chúc thầy cô 20/11 khỏe mạnh, hạnh phúc và mãi tận tâm.",
+    "Cảm ơn thầy cô vì đã thắp lửa tri thức trong em.",
+    "Nhân ngày Nhà giáo, em kính chúc cô luôn trẻ và vui như ngày nào.",
+    "Ơn dạy dỗ nặng bằng sông dài — kính chúc thầy cô mạnh khỏe.",
+    "Chúc những người trồng người được hái quả ngọt cả đời."
+   ],
+   "gifts": [
+    {
+     "title": "Hoa và thiệp tri ân",
+     "text": "Đơn giản, chân thành và đúng truyền thống."
+    },
+    {
+     "title": "Sách, cây bút",
+     "text": "Quà tặng phù hợp với nghề trồng người."
+    },
+    {
+     "title": "Chuyến thăm bất ngờ",
+     "text": "Ghé thăm thầy cô cũ — món quà ai cũng trân trọng."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 11,
+    "day": 20
+   },
+   "nextOccurrence": "2026-11-19",
+   "occurrenceThisYear": "2026-11-19"
+  },
+  {
+   "slug": "quan-doi-nhan-dan",
+   "locale": "vi",
+   "name": "Ngày Quân đội Nhân dân VN",
+   "dateMark": "22·12",
+   "displayDate": "22 tháng 12",
+   "categories": [
+    "quoc-gia"
+   ],
+   "tagline": "Ngày truyền thống quân đội anh hùng.",
+   "meaning": "Tri ân những người lính đã và đang giữ gìn độc lập, chủ quyền của Tổ quốc.",
+   "traditions": [
+    {
+     "title": "Gặp mặt truyền thống",
+     "text": "Các đơn vị, cựu chiến binh tổ chức gặp mặt ngày thành lập."
+    },
+    {
+     "title": "Vinh danh cán bộ chiến sĩ",
+     "text": "Khen thưởng gương quân nhân tiêu biểu."
+    },
+    {
+     "title": "Hoạt động biên giới",
+     "text": "Thăm đồn biên phòng, trại lính ở vùng sâu vùng xa."
+    }
+   ],
+   "wishes": [
+    "Chúc mừng ngày truyền thống Quân đội nhân dân Việt Nam 22/12!",
+    "Tri ân những người lính canh giữ giấc ngủ bình yên của đất nước.",
+    "Kính chúc các chiến sĩ mãi vững vàng giữa trời yên biển lặng.",
+    "Cảm ơn những người đã đổi thanh xuân lấy bình yên Tổ quốc.",
+    "22/12 — kính chúc quân đội anh hùng mãi kiên cường sắt son."
+   ],
+   "gifts": [
+    {
+     "title": "Hoa và thư tri ân",
+     "text": "Gửi lời cảm ơn đến người thân đang trong quân ngũ."
+    },
+    {
+     "title": "Quà cho chiến sĩ xa nhà",
+     "text": "Thực phẩm, thư tay gửi đến bộ đội vùng biên, hải đảo."
+    },
+    {
+     "title": "Sách lịch sử quân sự",
+     "text": "Tư liệu về các chiến dịch anh hùng của dân tộc."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 12,
+    "day": 22
+   },
+   "nextOccurrence": "2026-12-21",
+   "occurrenceThisYear": "2026-12-21"
+  },
+  {
+   "slug": "giang-sinh",
+   "locale": "vi",
+   "name": "Giáng sinh",
+   "dateMark": "25·12",
+   "displayDate": "24–25 tháng 12",
+   "categories": [
+    "quoc-te",
+    "truyen-thong"
+   ],
+   "tagline": "Mùa an lành và ấm áp nhất năm.",
+   "meaning": "Mùa của sự cho đi, an lành và những điều ấm áp bên người thân.",
+   "traditions": [
+    {
+     "title": "Đi nhà thờ đêm 24/12",
+     "text": "Lễ vọng Giáng sinh và ngắm hang đá tại các nhà thờ lớn."
+    },
+    {
+     "title": "Trao quà Noel",
+     "text": "Ông già Noel tặng quà cho trẻ em đêm trước Giáng sinh."
+    },
+    {
+     "title": "Trang trí cây thông",
+     "text": "Cây thông Noel, đèn nhấp nháy và vòng nguyệt quế."
+    }
+   ],
+   "wishes": [
+    "Merry Christmas! Chúc bạn một Giáng sinh an lành, ấm áp.",
+    "Chúc mùa lễ hội mang đến cho bạn thật nhiều niềm vui.",
+    "Giáng sinh bình an — mong mọi điều tốt đẹp đến với gia đình bạn.",
+    "Noel an lành — chúc bạn được ôm ấp bởi những người thương mình.",
+    "Chúc mùa lễ hội của bạn đủ ấm để đi qua mùa đông."
+   ],
+   "gifts": [
+    {
+     "title": "Quà Noel cho bé",
+     "text": "Đồ chơi gói giấy óng để dưới gốc cây thông."
+    },
+    {
+     "title": "Khăn, găng tay len",
+     "text": "Quà ấm áp đúng mùa se lạnh cuối năm."
+    },
+    {
+     "title": "Bánh quy, sô-cô-la",
+     "text": "Hộp quà ngọt cho bạn bè, đồng nghiệp."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 12,
+    "day": 25
+   },
+   "nextOccurrence": "2026-12-24",
+   "occurrenceThisYear": "2026-12-24"
+  },
+  {
+   "slug": "ong-cong-ong-tao",
+   "locale": "vi",
+   "name": "Ông Công Ông Táo",
+   "dateMark": "23·12",
+   "displayDate": "23 tháng 12 Âm lịch",
+   "categories": [
+    "truyen-thong"
+   ],
+   "tagline": "Tiễn Táo quân về trời.",
+   "meaning": "Ông Công Ông Táo là lễ chuyển giao giữa năm cũ và năm mới — ngày gia đình dọn bếp, tưởng nhớ ngọn lửa ấm cả năm qua, và tin rằng điều thiện sẽ được mang lên trời. Đó cũng là lời nhắc sống tử tế trong chính nhà mình.",
+   "traditions": [
+    {
+     "title": "Cúng tiễn Táo quân",
+     "text": "Dọn dẹp bàn thờ bếp, dâng mâm cỗ, nón Táo và vật phẩm hóa vàng để Táo quân về trời trình báo."
+    },
+    {
+     "title": "Thả cá chép",
+     "text": "Thả cá chép ra ao hồ — phương tiện đưa Táo quân lên trời; nhiều gia đình thả chiều 23/12 âm lịch."
+    },
+    {
+     "title": "Quét dọn nhà cửa",
+     "text": "Sau lễ cúng, người ta bắt đầu quét tước, lau chùi, sửa sang đón Tết."
+    },
+    {
+     "title": "Cúng ông Thổ địa",
+     "text": "Cùng mâm cỗ, nhiều nhà cúng cả ông Địa – Thổ công cai quản đất đai trong nhà."
+    }
+   ],
+   "wishes": [
+    "Chúc cả nhà một năm bếp lửa ấm, bát ngát yêu thương!",
+    "Táo quân về trời báo lành — chúc gia đình bình an đón Tết!",
+    "Cá chép vượt vũ môn — chúc năm mới mọi việc hanh thông!",
+    "Chúc ông bà cha mẹ khỏe mạnh, nhà nhà sum vầy ngày cuối năm!",
+    "Mong năm tới bếp nhà luôn nóng hổi, bát cơm luôn đầy!",
+    "Tiễn Táo về trời, đón lộc về nhà — chúc tân niên thịnh vượng!"
+   ],
+   "gifts": [
+    {
+     "title": "Mâm cúng Táo quân",
+     "text": "Nón Táo, cỗ chay hoặc mặn tùy nhà — lễ vật chính của ngày 23 tháng Chạp."
+    },
+    {
+     "title": "Cá chép thả",
+     "text": "Mua cá chép thả ao hồ — vật phẩm mang ý nghĩa tâm linh nhất của ngày lễ."
+    },
+    {
+     "title": "Quà cho gia đình",
+     "text": "Hoa mai, đào, bánh mứt Tết — vì từ nay là bắt đầu không khí Tết."
+    }
+   ],
+   "rule": {
+    "type": "lunar",
+    "month": 12,
+    "day": 23
+   },
+   "nextOccurrence": "2027-01-29",
+   "occurrenceThisYear": "2027-01-29"
+  },
+  {
+   "slug": "tet-han-thuc",
+   "locale": "vi",
+   "name": "Tết Hàn thực",
+   "dateMark": "03·03",
+   "displayDate": "3 tháng 3 Âm lịch",
+   "categories": [
+    "truyen-thong"
+   ],
+   "tagline": "Tết bánh trôi bánh chay.",
+   "meaning": "Tết Hàn thực là ngày ăn chay, nhớ về cội nguồn và thực hành sự thanh tịnh giữa đời sống năm mới — một nốt lặng trong dải lễ hội sau Tết, khi người ta dâng lên tổ tiên những viên bánh tròn ngọt thanh.",
+   "traditions": [
+    {
+     "title": "Nấu bánh trôi, bánh chay",
+     "text": "Bánh trôi nước nhân đường và bánh chay xay đậu xanh — hai chiếc bánh thanh tịnh đặc trưng."
+    },
+    {
+     "title": "Cúng tổ tiên",
+     "text": "Dâng bánh trôi chay lên bàn thờ ông bà mùng 3/3 âm lịch."
+    },
+    {
+     "title": "Ăn chay cả ngày",
+     "text": "Nhiều gia đình giữ ngày chay thanh tịnh để tĩnh tâm đầu xuân."
+    },
+    {
+     "title": "Xuất hành lễ chùa",
+     "text": "Người ta thường đi lễ chùa cầu an sau loạt lễ Xuân."
+    }
+   ],
+   "wishes": [
+    "Chúc gia đình một ngày Hàn thực ngọt lành, thanh tịnh!",
+    "Bánh trôi tròn đầy — chúc cuộc sống viên mãn, ngọt ngào!",
+    "Chúc ông bà cha mẹ khỏe, ấm no qua từng mùa xuân!",
+    "Mong nhà nhà thêm đoàn viên, lòng lòng thêm hiếu thảo!",
+    "Hàn thực an vui — chúc năm mới bình an, tâm tĩnh lặng!"
+   ],
+   "gifts": [
+    {
+     "title": "Bánh trôi bánh chay",
+     "text": "Hộp bánh trôi nước, bánh chay ngọt — quà truyền thống cho ngày 3/3."
+    },
+    {
+     "title": "Trà sen, mứt chay",
+     "text": "Hộp trà ướp sen và mứt chay thanh tịnh phù hợp tết chay."
+    },
+    {
+     "title": "Hoa cúng",
+     "text": "Bó hoa sen hoặc cúng trắng dâng bàn thờ gia tiên."
+    }
+   ],
+   "rule": {
+    "type": "lunar",
+    "month": 3,
+    "day": 3
+   },
+   "nextOccurrence": "2027-04-08",
+   "occurrenceThisYear": "2026-04-18"
+  },
+  {
+   "slug": "tet-doan-ngo",
+   "locale": "vi",
+   "name": "Tết Đoan Ngọ",
+   "dateMark": "05·05",
+   "displayDate": "5 tháng 5 Âm lịch",
+   "categories": [
+    "truyen-thong"
+   ],
+   "tagline": "Giờ ngọ chính vọng — tết giết sâu bọ.",
+   "meaning": "Tết Đoan Ngọ là cách dân gian Việt đối phó với chuyển mùa hè: một ngày thanh lọc cơ thể, bảo vệ sức khỏe, đồng thời gắn với bó mẹ và những đứa trẻ — vì tục giết sâu bọ cũng là tục giữ gìn sinh khí cho nhà.",
+   "traditions": [
+    {
+     "title": "Ăn hoa quả chua",
+     "text": "Xoài xanh, mận, vải — trái chua đầu mùa được cho 'giết sâu bọ' trong người."
+    },
+    {
+     "title": "Rượu nếp, cơm rượu",
+     "text": "Cơm rượu nếp cái hoa vàng — món truyền thống của tết Đoan Ngọ."
+    },
+    {
+     "title": "Hái thuốc ngọ",
+     "text": "Đúng giờ ngọ, người xưa đi hái cỏ cây làm thuốc vì tin giờ này dược tính mạnh."
+    },
+    {
+     "title": "Tục đốt vía",
+     "text": "Đốt vía, đeo chỉ ngũ sắc cho trẻ — xua đuổi sâu bọ và tai ương."
+    }
+   ],
+   "wishes": [
+    "Đoan Ngọ an khỏe — chúc cả nhà mùa hè hạnh phúc, không đau ốm!",
+    "Trái cây chín mùa — chúc cuộc sống chín đầy, ngọt lành!",
+    "Chúc mẹ khỏe mạnh — lòng hiếu của con mãi quanh quẩn!",
+    "Giờ ngọ chính vọng — chúc năng lượng tràn, bệnh tật lùi xa!",
+    "Chúc nhà nhà hạ mát, lòng lòng bình an giữa hè!"
+   ],
+   "gifts": [
+    {
+     "title": "Giỏ hoa quả tươi",
+     "text": "Vải, mận, xoài — đúng chuẩn lễ giết sâu bọ."
+    },
+    {
+     "title": "Cơm rượu nếp",
+     "text": "Hộp cơm rượu nhà làm — món truyền thống đầy ý nghĩa."
+    },
+    {
+     "title": "Vòng chỉ ngũ sắc",
+     "text": "Vòng tay len năm màu cho trẻ — quà nhỏ truyền thống trừ tà."
+    }
+   ],
+   "rule": {
+    "type": "lunar",
+    "month": 5,
+    "day": 5
+   },
+   "nextOccurrence": "2027-06-08",
+   "occurrenceThisYear": "2026-06-18"
+  },
+  {
+   "slug": "ngay-thay-thuoc",
+   "locale": "vi",
+   "name": "Ngày Thầy thuốc Việt Nam",
+   "dateMark": "27·02",
+   "displayDate": "27 tháng 2",
+   "categories": [
+    "quoc-gia"
+   ],
+   "tagline": "Tri ân người chữa bệnh.",
+   "meaning": "Ngày Thầy thuốc Việt Nam là ngày cả nước nói lời cảm ơn với người cầm dao mổ, người đêm trực phòng cấp cứu — những nghề đòi hỏi tài năng lẫn lòng nhân hậu. 'Lương y như từ mẫu' là chuẩn mực sống của nghề ấy.",
+   "traditions": [
+    {
+     "title": "Tặng hoa cho bác sĩ",
+     "text": "Hoa hồng, cẩm chướng tặng thầy thuốc, y tá quen thuộc — hành động tri ân phổ biến."
+    },
+    {
+     "title": "Lễ kỷ niệm tại viện",
+     "text": "Các bệnh viện tổ chức họp mặt, trao bằng khen cán bộ y tế tiêu biểu."
+    },
+    {
+     "title": "Khám chữa miễn phí",
+     "text": "Nhiều địa phương mở đợt khám bệnh công ích, hiến máu quanh ngày lễ."
+    },
+    {
+     "title": "Tri ân trên báo chí",
+     "text": "Báo đài đăng chuyện người thầy thuốc — nhất là vùng sâu, vùng xa."
+    }
+   ],
+   "wishes": [
+    "Kính chúc các thầy thuốc sức khỏe — để cứu chữa nhiều sinh mệnh hơn nữa!",
+    "Cảm ơn bác sĩ đã đêm trực như cha mẹ — chúc lương y lòng nhân hậu mãi mới!",
+    "Chúc những người áo trắng bình an — gia đình luôn chờ bạn về!",
+    "Tri ân nghề cao quý — chúc các thầy thuốc mạnh khỏe, tâm an!",
+    "Chúc đội ngũ y tế Việt Nam thêm vững vàng, nhân ái!"
+   ],
+   "gifts": [
+    {
+     "title": "Hoa cẩm chướng",
+     "text": "Bó cẩm chướng hồng — hoa của lòng kính trọng dành cho thầy thuốc."
+    },
+    {
+     "title": "Thiệp tri ân",
+     "text": "Thiệp tay gửi bác sĩ gia đình, phòng khám quen thuộc."
+    },
+    {
+     "title": "Quà chăm sóc sức khỏe",
+     "text": "Trà, mật ong, vitamin — quà thiết thực cho người hay trực đêm."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 2,
+    "day": 27
+   },
+   "nextOccurrence": "2027-02-26",
+   "occurrenceThisYear": "2026-02-26"
+  },
+  {
+   "slug": "ngay-bao-chi",
+   "locale": "vi",
+   "name": "Ngày Báo chí Cách mạng Việt Nam",
+   "dateMark": "21·06",
+   "displayDate": "21 tháng 6",
+   "categories": [
+    "quoc-gia"
+   ],
+   "tagline": "Tri ân người cầm bút.",
+   "meaning": "Ngày Báo chí Cách mạng Việt Nam là ngày tôn vinh người làm báo — nghề chạy ngược lũ, chui xuống hầm, ghi chép công tâm. Từ tờ Thanh Niên 1925 đến nghị trường hôm nay, báo chí vẫn là cơ quan của dân chủ xã hội.",
+   "traditions": [
+    {
+     "title": "Lễ trao giải báo chí",
+     "text": "Các giải báo chí quốc gia thường công bố gần ngày 21/6 — vinh danh tác phẩm tiêu biểu."
+    },
+    {
+     "title": "Họp mặt nhà báo",
+     "text": "Hội Nhà báo Việt Nam, các cơ quan báo chí tổ chức gặp mặt, tri ân nghề."
+    },
+    {
+     "title": "Triển lãm báo chí",
+     "text": "Nhiều nơi trưng bày trang báo lịch sử — từ Thanh Niên, Cứu Quốc đến báo mạng hôm nay."
+    },
+    {
+     "title": "Tọa đàm nghề báo",
+     "text": "Trường báo chí mở tọa đàm về đạo đức nghề và đổi mới truyền thông."
+    }
+   ],
+   "wishes": [
+    "Chúc các nhà báo giữ lửa công tâm — ngòi bút luôn vững!",
+    "Tri ân người ghi lại lịch sử — chúc các phóng viên an toàn trên đường!",
+    "Chúc báo chí Việt trung thực, nhân văn, đổi mới!",
+    "Chúc những người cầm bút cách mạng khỏe mạnh, tự do sáng tạo trong khuôn khổ sự thật!",
+    "Cảm ơn những trang tin tỉnh thức cộng đồng — chúc nghề báo mãi rực sáng!"
+   ],
+   "gifts": [
+    {
+     "title": "Sách nghề báo",
+     "text": "Sách về nghề viết, tuyển tập báo chí hay — quà cho nhà báo và người yêu chữ."
+    },
+    {
+     "title": "Bút ký tên",
+     "text": "Chiếc bút tốt — vật biểu tượng tinh tế của nghề cầm bút."
+    },
+    {
+     "title": "Hoa tri ân",
+     "text": "Bó hoa tươi gửi phóng viên, biên tập viên quen biết."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 6,
+    "day": 21
+   },
+   "nextOccurrence": "2027-06-20",
+   "occurrenceThisYear": "2026-06-20"
+  },
+  {
+   "slug": "nguoi-cao-tuoi",
+   "locale": "vi",
+   "name": "Ngày Người cao tuổi Việt Nam",
+   "dateMark": "01·10",
+   "displayDate": "1 tháng 10",
+   "categories": [
+    "quoc-gia"
+   ],
+   "tagline": "Kính lão đắc thọ.",
+   "meaning": "Ngày Người cao tuổi là ngày chúng ta cúi đầu trước những mái tóc bạc: ông bà, cha mẹ — những người đã đi qua chiến tranh, đói khổ, và dựng nên gia đình. 'Kính lão đắc thọ' không phải tục lễ mà là chuẩn sống.",
+   "traditions": [
+    {
+     "title": "Mừng thọ",
+     "text": "Gia đình tổ chức mừng thọ cho cụ ông, cụ bà — con cháu tề tựu chúc phúc."
+    },
+    {
+     "title": "Thăm hỏi người già",
+     "text": "Đoàn thể, khu phố thăm hỏi, tặng quà người cao tuổi neo đơn."
+    },
+    {
+     "title": "Hoạt động hội người cao tuổi",
+     "text": "Hội người cao tuổi tổ chức văn nghệ, khám sức khỏe, tọa đàm."
+    },
+    {
+     "title": "Con cháu về quê",
+     "text": "Nhiều gia đình chọn ngày 1/10 để các cháu xa quê về thăm ông bà."
+    }
+   ],
+   "wishes": [
+    "Kính chúc ông bà sống lâu trăm tuổi, tâm thanh thản!",
+    "Chúc cụ bà khỏe mạnh — mãi là bóng cả che chở con cháu!",
+    "Chúc cha mẹ thêm năm tháng bình yên bên con cháu!",
+    "Mừng thọ cụ — chúc ngày ngày vui, tuổi tuổi hạnh phúc!",
+    "Tri ân những mái đầu bạc — chúc người già được yêu thương, chăm sóc!"
+   ],
+   "gifts": [
+    {
+     "title": "Thực phẩm bổ dưỡng",
+     "text": "Yến sào, sữa, hạt — quà sức khỏe thiết thực cho người lớn tuổi."
+    },
+    {
+     "title": "Áo ấm, chăn mềm",
+     "text": "Áo len, chăn điện — quà ấm áp cho mùa đông của cụ."
+    },
+    {
+     "title": "Album gia đình",
+     "text": "Sách ảnh con cháu — món quà tinh thần quý giá với ông bà."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 10,
+    "day": 1
+   },
+   "nextOccurrence": "2027-09-30",
+   "occurrenceThisYear": "2026-09-30"
+  },
+  {
+   "slug": "doanh-nhan",
+   "locale": "vi",
+   "name": "Ngày Doanh nhân Việt Nam",
+   "dateMark": "13·10",
+   "displayDate": "13 tháng 10",
+   "categories": [
+    "quoc-gia"
+   ],
+   "tagline": "Tôn vinh khởi nghiệp.",
+   "meaning": "Ngày Doanh nhân Việt Nam là ngày tôn vinh người dám bắt đầu — từ tiểu thương chợ quê đến startup công nghệ. Doanh nhân không chỉ tạo của cải mà tạo việc làm, niềm tin và khí thế của một đất nước đang lớn.",
+   "traditions": [
+    {
+     "title": "Gặp mặt doanh nhân",
+     "text": "Hiệp hội doanh nghiệp, Phòng Thương mại tổ chức gặp gỡ, tôn vinh doanh nhân tiêu biểu."
+    },
+    {
+     "title": "Diễn đàn khởi nghiệp",
+     "text": "Nhiều diễn đàn, workshop khởi nghiệp, chuyển đổi số diễn ra quanh ngày 13/10."
+    },
+    {
+     "title": "Vinh danh doanh nghiệp",
+     "text": "Giải thưởng Sao Vàng đất Việt, Thánh Gióng và các giải thường trao quanh ngày lễ."
+    },
+    {
+     "title": "Hoạt động thiện nguyện",
+     "text": "Nhiều doanh nghiệp chọn ngày này làm ngày trách nhiệm xã hội, từ thiện cộng đồng."
+    }
+   ],
+   "wishes": [
+    "Chúc các doanh nhân Việt giữ lửa khởi nghiệp — kinh doanh phát đạt!",
+    "Chúc đội ngũ doanh nghiệp Việt vững bước trên trường thế giới!",
+    "Tri ân người tạo việc làm — chúc buôn may bán đắt, tâm sáng nghề vững!",
+    "Chúc startup Việt bay cao — thương hiệu Việt vang xa!",
+    "Chúc những người dám bắt đầu luôn được đền đáp xứng đáng!"
+   ],
+   "gifts": [
+    {
+     "title": "Sách kinh doanh",
+     "text": "Sách khởi nghiệp, tiểu sử doanh nhân — quà trí tuệ cho người làm ăn."
+    },
+    {
+     "title": "Cây tài lộc",
+     "text": "Cây kim ngân, cây phát tài — quà chúc may mắn theo phong tục."
+    },
+    {
+     "title": "Vật phẩm bàn làm việc",
+     "text": "Bút ký, lịch để bàn, đồng hồ — quà trang trọng cho doanh nhân."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 10,
+    "day": 13
+   },
+   "nextOccurrence": "2027-10-12",
+   "occurrenceThisYear": "2026-10-12"
+  },
+  {
+   "slug": "tet-duong-lich",
+   "locale": "en",
+   "name": "New Year's Day",
+   "dateMark": "01·01",
+   "displayDate": "January 1",
+   "categories": [
+    "quoc-te"
+   ],
+   "tagline": "The first day of the Gregorian year.",
+   "meaning": "A moment to close out the year, rest with family, and open a new chapter full of fresh intentions.",
+   "traditions": [
+    {
+     "title": "Countdown to midnight",
+     "text": "Many cities hold countdown parties and fireworks at midnight."
+    },
+    {
+     "title": "New Year wishes",
+     "text": "Exchanging cards and messages wishing health and success."
+    },
+    {
+     "title": "New Year plans",
+     "text": "Writing goals, taking a short trip, or gathering with family."
+    }
+   ],
+   "wishes": [
+    "Happy New Year — may you enjoy peace, prosperity and everything you wish for!",
+    "A new year is here — wishing you abundant health, joy and success.",
+    "Happy New Year! May all your plans come true.",
+    "Wishing your family a peaceful, together and prosperous year ahead.",
+    "A new year means 365 new chances — may you seize every one of them."
+   ],
+   "gifts": [
+    {
+     "title": "A planner",
+     "text": "A notebook or planner to start the year organized."
+    },
+    {
+     "title": "A desk calendar",
+     "text": "A practical gift for friends and colleagues."
+    },
+    {
+     "title": "A New Year dinner",
+     "text": "Book a dinner with loved ones to welcome the year."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 1,
+    "day": 1
+   },
+   "nextOccurrence": "2026-12-31",
+   "occurrenceThisYear": "2025-12-31"
+  },
+  {
+   "slug": "tet-nguyen-dan",
+   "locale": "en",
+   "name": "Lunar New Year (Tết)",
+   "dateMark": "Day One",
+   "displayDate": "1st day of the 1st lunar month",
+   "categories": [
+    "truyen-thong",
+    "quoc-gia"
+   ],
+   "tagline": "The biggest celebration of the year for Vietnamese people.",
+   "meaning": "Tết is the handover between the old year and the new — a time of reunion, filial reverence and hope.",
+   "traditions": [
+    {
+     "title": "Wrapping bánh chưng & bánh tét",
+     "text": "Families gather to wrap and simmer the sticky-rice cakes through the night before Tết."
+    },
+    {
+     "title": "Lucky money (lì xì)",
+     "text": "Elders give children red envelopes of new banknotes for luck."
+    },
+    {
+     "title": "New Year visits",
+     "text": "Day one for father's family, day two for mother's, day three for teachers."
+    },
+    {
+     "title": "Red couplets & blossoms",
+     "text": "Homes are decorated with red calligraphy and peach or apricot blossoms."
+    }
+   ],
+   "wishes": [
+    "Happy New Year — may you have peace, prosperity and everything you wish for!",
+    "Wishing your family abundant health and a house full of fortune this new year.",
+    "May your new year bring many victories and great success.",
+    "Spring brings fortune home; Tết keeps peace and happiness to stay.",
+    "May your new year be full of joy, with every family united and every person at peace."
+   ],
+   "gifts": [
+    {
+     "title": "A Tết gift basket",
+     "text": "Candied fruits, tea and wine — the most common gift."
+    },
+    {
+     "title": "Red envelopes (lì xì)",
+     "text": "New banknotes in red envelopes carrying wishes of luck."
+    },
+    {
+     "title": "Spring plants & flowers",
+     "text": "Peach, apricot and kumquat trees symbolizing a fresh start."
+    }
+   ],
+   "rule": {
+    "type": "lunar",
+    "month": 1,
+    "day": 1
+   },
+   "nextOccurrence": "2027-02-05",
+   "occurrenceThisYear": "2026-02-16"
+  },
+  {
+   "slug": "tet-nguyen-tieu",
+   "locale": "en",
+   "name": "First Full Moon Festival (Tết Nguyên Tiêu)",
+   "dateMark": "15·01",
+   "displayDate": "15th day of the 1st lunar month",
+   "categories": [
+    "truyen-thong"
+   ],
+   "tagline": "The first full moon of the year.",
+   "meaning": "The year's first full moon symbolizes completeness — a night to pray for peace in the year ahead.",
+   "traditions": [
+    {
+     "title": "Pagoda visits",
+     "text": "Burning incense and praying for health and peace at the start of the year."
+    },
+    {
+     "title": "First full-moon offerings",
+     "text": "An ancestral tray with chè trôi nước and fresh fruit."
+    },
+    {
+     "title": "Eating chè trôi nước",
+     "text": "Round ginger-scented rice balls symbolizing togetherness."
+    },
+    {
+     "title": "Lantern festivals",
+     "text": "Many places hold lantern processions and night illuminations."
+    }
+   ],
+   "wishes": [
+    "On this first full moon, may your family be whole and peaceful all year.",
+    "May your year be as full and round as tonight's moon.",
+    "May the full moon shine a light on every good thing coming your way.",
+    "On the year's first full moon, may every home be full and every person at peace.",
+    "Wishing you and your family a warm and abundant First Full Moon night."
+   ],
+   "gifts": [
+    {
+     "title": "A chè trôi nước kit",
+     "text": "Ready-to-cook ingredients for the full-moon dessert."
+    },
+    {
+     "title": "Decorative lanterns",
+     "text": "A warm accent for the first full-moon night."
+    },
+    {
+     "title": "Agarwood incense",
+     "text": "A serene gift for the family altar."
+    }
+   ],
+   "rule": {
+    "type": "lunar",
+    "month": 1,
+    "day": 15
+   },
+   "nextOccurrence": "2027-02-19",
+   "occurrenceThisYear": "2026-03-02"
+  },
+  {
+   "slug": "valentine",
+   "locale": "en",
+   "name": "Valentine's Day",
+   "dateMark": "14·02",
+   "displayDate": "February 14",
+   "categories": [
+    "quoc-te"
+   ],
+   "tagline": "The day of loving words.",
+   "meaning": "A chance to say what is hard to say — a well-timed word of love is worth more than any gift.",
+   "traditions": [
+    {
+     "title": "Giving roses",
+     "text": "Red roses for burning love, pink ones for sweetness."
+    },
+    {
+     "title": "Chocolates & cards",
+     "text": "The classic pair, finished with a handwritten note."
+    },
+    {
+     "title": "A special date",
+     "text": "A dinner, a movie or a short trip just for two."
+    }
+   ],
+   "wishes": [
+    "You are the most beautiful gift life has given me. Happy Valentine's Day!",
+    "Thank you for choosing to walk beside me every single day.",
+    "Loved you yesterday, love you today, will love you tomorrow too.",
+    "May our love always be as sweet as the first chocolate.",
+    "May every day together feel like Valentine's Day."
+   ],
+   "gifts": [
+    {
+     "title": "Roses",
+     "text": "Choose a bouquet in their favorite color."
+    },
+    {
+     "title": "Artisan chocolate",
+     "text": "A box of chocolates with a handwritten card always wins."
+    },
+    {
+     "title": "An experience for two",
+     "text": "A pottery workshop, a cooking class or a picnic for two."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 2,
+    "day": 14
+   },
+   "nextOccurrence": "2027-02-13",
+   "occurrenceThisYear": "2026-02-13"
+  },
+  {
+   "slug": "quoc-te-phu-nu",
+   "locale": "en",
+   "name": "International Women's Day",
+   "dateMark": "08·03",
+   "displayDate": "March 8",
+   "categories": [
+    "phu-nu",
+    "quoc-te"
+   ],
+   "tagline": "Honoring women all over the world.",
+   "meaning": "A day to honor women's contributions, sacrifices and equal rights — in the family and in society.",
+   "traditions": [
+    {
+     "title": "Flowers & gifts",
+     "text": "Flowers, cards and wishes for mothers, wives, sisters and colleagues."
+    },
+    {
+     "title": "A family meal",
+     "text": "The family cooks together so the women can rest."
+    },
+    {
+     "title": "Honoring women",
+     "text": "Offices and schools hold gatherings to commend outstanding women."
+    }
+   ],
+   "wishes": [
+    "Happy March 8 — may you stay radiant, happy and beautiful!",
+    "Thank you for all your quiet sacrifices. Have a wonderful March 8.",
+    "May the women of Vietnam stay healthy, beautiful, confident and successful.",
+    "On March 8 I wish you more smiles, fewer worries, and love all around.",
+    "Wishing the wonderful women in my life a brilliant March 8."
+   ],
+   "gifts": [
+    {
+     "title": "Fresh flowers",
+     "text": "Roses, lilies or carnations — a gift that never goes out of style."
+    },
+    {
+     "title": "Cosmetics & spa",
+     "text": "A practical treat for busy women."
+    },
+    {
+     "title": "A real day off",
+     "text": "Take over all the housework — the most sincere gift of all."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 3,
+    "day": 8
+   },
+   "nextOccurrence": "2027-03-07",
+   "occurrenceThisYear": "2026-03-07"
+  },
+  {
+   "slug": "gio-to-hung-vuong",
+   "locale": "en",
+   "name": "Hùng Kings' Commemoration Day",
+   "dateMark": "10·03",
+   "displayDate": "10th day of the 3rd lunar month",
+   "categories": [
+    "quoc-gia",
+    "truyen-thong"
+   ],
+   "tagline": "Wherever you roam, remember the Ancestors' death day — the tenth of the third month.",
+   "meaning": "When drinking water, remember the source — the day every Vietnamese turns toward the nation's roots.",
+   "traditions": [
+    {
+     "title": "Incense at the Hùng Temple",
+     "text": "Millions travel to Phú Thọ to burn incense in memory of the Hùng kings."
+    },
+    {
+     "title": "Palanquin processions & Xoan singing",
+     "text": "Palanquins ascend Nghĩa Lĩnh mountain to the Upper Temple."
+    },
+    {
+     "title": "Bánh chưng & bánh giầy offerings",
+     "text": "The two cakes symbolizing earth and sky on the ancestral tray."
+    }
+   ],
+   "wishes": [
+    "On this Ancestors' day, may our forebears bless your family with peace.",
+    "When drinking water, remember the source — wishing you a meaningful Giỗ Tổ.",
+    "On the tenth of the third month, we all turn back toward the nation's roots.",
+    "Remember the Hùng origins; keep the old crimson blood alive in our hearts.",
+    "This Giỗ Tổ, may the rivers and mountains endure and the descendants stay united."
+   ],
+   "gifts": [
+    {
+     "title": "A trip back to the roots",
+     "text": "Take the family to the Hùng Temple or to your ancestral homeland."
+    },
+    {
+     "title": "Bánh chưng & bánh giầy",
+     "text": "The traditional offering tray for the day at home."
+    },
+    {
+     "title": "History books",
+     "text": "Books about the Hùng era for the younger generation."
+    }
+   ],
+   "rule": {
+    "type": "lunar",
+    "month": 3,
+    "day": 10
+   },
+   "nextOccurrence": "2027-04-15",
+   "occurrenceThisYear": "2026-04-25"
+  },
+  {
+   "slug": "tet-thanh-minh",
+   "locale": "en",
+   "name": "Tết Thanh Minh (Tomb-Sweeping Day)",
+   "dateMark": "04·04–06",
+   "displayDate": "April 4–6 (varies yearly)",
+   "categories": [
+    "truyen-thong"
+   ],
+   "tagline": "The season of remembering the graves — Vietnam's tomb-sweeping festival.",
+   "meaning": "The festival of remembrance at the threshold of clear spring — when living descendants sweep the tombs, offer incense and renew the bond with their ancestors.",
+   "traditions": [
+    {
+     "title": "Tảo mộ — sweeping the tombs",
+     "text": "Families clean graves, pull weeds, repaint headstones and add fresh soil in the weeks around Thanh Minh."
+    },
+    {
+     "title": "Offering incense & flowers",
+     "text": "Incense, chrysanthemums and a modest tray are placed before the ancestors' graves and altar."
+    },
+    {
+     "title": "Family visits & spring walks",
+     "text": "Grave visits often become gentle family reunions and walks in the clear spring air."
+    },
+    {
+     "title": "Sticky-rice dishes",
+     "text": "Xôi and glutinous rice cakes are offered and shared in many regions during tảo mộ."
+    }
+   ],
+   "wishes": [
+    "On Thanh Minh, may the ancestors bless your home with peace and health.",
+    "Remembering our roots — may your family be safe, whole and serene this Thanh Minh.",
+    "In this clear bright season, may your heart be light and your home at peace.",
+    "Wishing you a gentle Thanh Minh — honoring the past, treasuring the present.",
+    "May the ancestors watch over you and yours all year round."
+   ],
+   "gifts": [
+    {
+     "title": "Fresh flowers for the grave",
+     "text": "Chrysanthemums, lilies or roses for the ancestors' graves and altar."
+    },
+    {
+     "title": "Incense & candles",
+     "text": "A respectful bundle for the family tảo mộ visit."
+    },
+    {
+     "title": "Xôi & glutinous cakes",
+     "text": "Traditional offerings many regions prepare for tomb-sweeping."
+    }
+   ],
+   "rule": {
+    "type": "qingming"
+   },
+   "nextOccurrence": "2027-04-04",
+   "occurrenceThisYear": "2026-04-04"
+  },
+  {
+   "slug": "giai-phong-mien-nam",
+   "locale": "en",
+   "name": "Reunification Day (April 30)",
+   "dateMark": "30·04",
+   "displayDate": "April 30",
+   "categories": [
+    "quoc-gia"
+   ],
+   "tagline": "The day the country was reunified.",
+   "meaning": "A day of independence, reunification, and gratitude to the generations who sacrificed for the country.",
+   "traditions": [
+    {
+     "title": "Flying the flag",
+     "text": "Homes and streets turn red with gold-star flags."
+    },
+    {
+     "title": "Commemorations & parades",
+     "text": "Round anniversaries bring national-level military parades."
+    },
+    {
+     "title": "Back to the roots",
+     "text": "Visiting historical sites and paying tribute to fallen heroes."
+    }
+   ],
+   "wishes": [
+    "Proud of April 30 — may our country forever enjoy peace and prosperity.",
+    "Honoring those who fell for the independence we have today.",
+    "May our country stay united and stride firmly into the future.",
+    "April 30 — the day the rivers and mountains became one again. Forever proud.",
+    "Today's peace is a promise to tomorrow. Happy Reunification Day."
+   ],
+   "gifts": [
+    {
+     "title": "A national flag",
+     "text": "A small gold-star flag for the balcony on the big day."
+    },
+    {
+     "title": "A heritage trip",
+     "text": "The Independence Palace or the Củ Chi tunnels for a trip back to the roots."
+    },
+    {
+     "title": "History books & films",
+     "text": "Materials on the Hồ Chí Minh Campaign for the family."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 4,
+    "day": 30
+   },
+   "nextOccurrence": "2027-04-29",
+   "occurrenceThisYear": "2026-04-29"
+  },
+  {
+   "slug": "quoc-te-lao-dong",
+   "locale": "en",
+   "name": "International Workers' Day (May 1)",
+   "dateMark": "01·05",
+   "displayDate": "May 1",
+   "categories": [
+    "quoc-gia",
+    "quoc-te"
+   ],
+   "tagline": "Honoring workers around the world.",
+   "meaning": "A day recognizing the value of labor and the rightful rights of working people.",
+   "traditions": [
+    {
+     "title": "The April 30–May 1 break",
+     "text": "Many families travel or return home for the long weekend."
+    },
+    {
+     "title": "Honoring outstanding workers",
+     "text": "Companies and unions commend exemplary employees."
+    }
+   ],
+   "wishes": [
+    "Wishing every worker a May 1 of real rest and real joy.",
+    "Grateful to the hands that build every value. Have a meaningful May Day!",
+    "May your work go smoothly and always be fairly rewarded.",
+    "Labor is glory — may you be rightly honored today.",
+    "May every diligent pair of hands harvest the sweetest fruit."
+   ],
+   "gifts": [
+    {
+     "title": "A short getaway",
+     "text": "Make the most of the early-May break."
+    },
+    {
+     "title": "Health gifts",
+     "text": "A massage pillow or a health check voucher for a worker."
+    },
+    {
+     "title": "A word of thanks",
+     "text": "Sometimes a well-timed word of recognition is the best gift."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 5,
+    "day": 1
+   },
+   "nextOccurrence": "2027-04-30",
+   "occurrenceThisYear": "2026-04-30"
+  },
+  {
+   "slug": "ngay-cua-me",
+   "locale": "en",
+   "name": "Mother's Day",
+   "dateMark": "Sun·2",
+   "displayDate": "2nd Sunday of May",
+   "categories": [
+    "phu-nu",
+    "quoc-te"
+   ],
+   "tagline": "One day of the year reserved just for Mom.",
+   "meaning": "A day to say the words of love to Mom — the person standing behind every step we take.",
+   "traditions": [
+    {
+     "title": "Carnations for Mom",
+     "text": "The carnation is the classic emblem of the day."
+    },
+    {
+     "title": "A meal cooked by the kids",
+     "text": "Taking over the kitchen for a day — the simplest gift."
+    },
+    {
+     "title": "A call home",
+     "text": "For those far from home, a long phone call is the gift."
+    }
+   ],
+   "wishes": [
+    "Mom, you are the whole sky that shelters me. Happy Mother's Day!",
+    "May you always be healthy, peaceful and live long beside us.",
+    "Thank you, Mom, for giving me the whole world and asking nothing back.",
+    "On Mother's Day, I only wish you keep smiling as brightly as today.",
+    "Mom, I've grown up — but I still feel small in your arms."
+   ],
+   "gifts": [
+    {
+     "title": "Carnations",
+     "text": "Red for love, white for remembrance."
+    },
+    {
+     "title": "Silk scarves & áo dài",
+     "text": "A traditional gift every mother loves."
+    },
+    {
+     "title": "A full day off",
+     "text": "Take over all the housework so Mom can truly rest."
+    }
+   ],
+   "rule": {
+    "type": "nth-weekday",
+    "month": 5,
+    "weekday": 0,
+    "nth": 2
+   },
+   "nextOccurrence": "2027-05-08",
+   "occurrenceThisYear": "2026-05-09"
+  },
+  {
+   "slug": "quoc-te-thieu-nhi",
+   "locale": "en",
+   "name": "International Children's Day",
+   "dateMark": "01·06",
+   "displayDate": "June 1",
+   "categories": [
+    "quoc-te"
+   ],
+   "tagline": "The day of little ones.",
+   "meaning": "A day reminding society to protect, love and invest in the next generation.",
+   "traditions": [
+    {
+     "title": "Fun at school",
+     "text": "Performances, folk games and schoolyards full of balloons."
+    },
+    {
+     "title": "Gifts for kids",
+     "text": "Toys, storybooks and new clothes for the little ones."
+    },
+    {
+     "title": "Charitable activities",
+     "text": "Gifts for children in hardship and orphans."
+    }
+   ],
+   "wishes": [
+    "Happy June 1 — may you have fun, stay good and study well, little ones!",
+    "Wishing our little love health and lots of laughter every day.",
+    "Childhood comes only once — may yours be a Children's Day to remember.",
+    "May every little one be loved and free to be themselves.",
+    "Have a wonderful June 1 — today the whole world belongs to you, kids."
+   ],
+   "gifts": [
+    {
+     "title": "Picture & story books",
+     "text": "A gift that's both fun and builds a reading habit."
+    },
+    {
+     "title": "Creative toys",
+     "text": "Blocks, crafts and art supplies for little hands."
+    },
+    {
+     "title": "A day out",
+     "text": "The park, the zoo or the movies with the whole family."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 6,
+    "day": 1
+   },
+   "nextOccurrence": "2027-05-31",
+   "occurrenceThisYear": "2026-05-31"
+  },
+  {
+   "slug": "ngay-gia-dinh-viet-nam",
+   "locale": "en",
+   "name": "Vietnamese Family Day",
+   "dateMark": "28·06",
+   "displayDate": "June 28",
+   "categories": [
+    "quoc-gia"
+   ],
+   "tagline": "Every Vietnamese person's warm nest.",
+   "meaning": "A reminder to treasure your warm nest — the place where every journey begins and returns.",
+   "traditions": [
+    {
+     "title": "A family dinner",
+     "text": "The whole family eats and talks together — screens put away."
+    },
+    {
+     "title": "Family photos",
+     "text": "Taking a shared set of photos each year to remember."
+    },
+    {
+     "title": "Stories across generations",
+     "text": "Grandparents tell the children about the family line and homeland."
+    }
+   ],
+   "wishes": [
+    "May our family always stay close, loving and at peace.",
+    "Home is where we return — may your warm nest always be cozy.",
+    "On Family Day, may every home be full of laughter.",
+    "May your nest always have someone waiting and a hot meal ready.",
+    "Family is the anchor — may our home stay warm forever."
+   ],
+   "gifts": [
+    {
+     "title": "A family photo album",
+     "text": "Print the shared moments into something you can hold."
+    },
+    {
+     "title": "A full dinner",
+     "text": "Book a table or cook a complete family meal at home."
+    },
+    {
+     "title": "A trip together",
+     "text": "A nearby weekend picnic for the whole family."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 6,
+    "day": 28
+   },
+   "nextOccurrence": "2027-06-27",
+   "occurrenceThisYear": "2026-06-27"
+  },
+  {
+   "slug": "thuong-binh-liet-si",
+   "locale": "en",
+   "name": "War Invalids & Martyrs' Day",
+   "dateMark": "27·07",
+   "displayDate": "July 27",
+   "categories": [
+    "quoc-gia"
+   ],
+   "tagline": "Repaying the debt of gratitude.",
+   "meaning": "A day to honor those who traded blood and bone for today's peace.",
+   "traditions": [
+    {
+     "title": "Visiting martyrs' cemeteries",
+     "text": "Lighting incense and laying flowers at cemeteries and memorials."
+    },
+    {
+     "title": "Visiting policy families",
+     "text": "Calling on war invalids and Heroic Vietnamese Mothers."
+    },
+    {
+     "title": "Candles of gratitude",
+     "text": "Candle-lighting ceremonies for the martyrs on the night of July 26."
+    }
+   ],
+   "wishes": [
+    "Forever grateful to the heroic martyrs of our nation.",
+    "There is peace today because yesterday there were those who never came home.",
+    "Repaying the debt of gratitude — respectfully honoring people of merit.",
+    "We bow our heads to the sacrifices that gave today the name 'peace'.",
+    "Gratitude is never enough — honoring our nation's heroes."
+   ],
+   "gifts": [
+    {
+     "title": "Care gifts",
+     "text": "Rice, milk and supplements for a war-invalid family nearby."
+    },
+    {
+     "title": "Flowers for the memorial",
+     "text": "A wreath or bouquet laid at the local martyrs' memorial."
+    },
+    {
+     "title": "Donations to gratitude funds",
+     "text": "Helping build 'houses of gratitude' for people of merit."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 7,
+    "day": 27
+   },
+   "nextOccurrence": "2027-07-26",
+   "occurrenceThisYear": "2026-07-26"
+  },
+  {
+   "slug": "vu-lan",
+   "locale": "en",
+   "name": "Vu Lan Festival",
+   "dateMark": "15·07",
+   "displayDate": "15th day of the 7th lunar month",
+   "categories": [
+    "truyen-thong",
+    "phu-nu"
+   ],
+   "tagline": "The season of filial devotion.",
+   "meaning": "A season to remember the debt to one's parents and repay those who gave us life.",
+   "traditions": [
+    {
+     "title": "Pinning a rose on the chest",
+     "text": "A red rose while your mother lives, white when she has passed — the most moving rite."
+    },
+    {
+     "title": "Vu Lan at the pagoda",
+     "text": "Hearing the sutras of filial devotion and praying for both parents."
+    },
+    {
+     "title": "7th-month full-moon offerings",
+     "text": "Ancestral trays, offerings to wandering souls, and releasing living creatures."
+    }
+   ],
+   "wishes": [
+    "This Vu Lan season, may your parents always be healthy and at peace.",
+    "As long as Mom and Dad live, we have the whole world — treasure every day beside them.",
+    "May the debt of birth and raising be repaid with filial love each day.",
+    "Vu Lan returns — praying for those who gave us life.",
+    "In this season of devotion, may your parents always be safe and well."
+   ],
+   "gifts": [
+    {
+     "title": "A Vu Lan rose",
+     "text": "A small red rose to pin on your chest on the day."
+    },
+    {
+     "title": "A filial gift",
+     "text": "Supplements, milk — or simply a visit home."
+    },
+    {
+     "title": "Vegetarian sweets",
+     "text": "Light treats for the meatless full-moon tray."
+    }
+   ],
+   "rule": {
+    "type": "lunar",
+    "month": 7,
+    "day": 15
+   },
+   "nextOccurrence": "2027-08-15",
+   "occurrenceThisYear": "2026-08-26"
+  },
+  {
+   "slug": "quoc-khanh",
+   "locale": "en",
+   "name": "Vietnam National Day (September 2)",
+   "dateMark": "02·09",
+   "displayDate": "September 2",
+   "categories": [
+    "quoc-gia"
+   ],
+   "tagline": "The day the nation was born.",
+   "meaning": "A day of national pride and the aspiration for peace and development.",
+   "traditions": [
+    {
+     "title": "September 2 parades",
+     "text": "Round anniversaries bring military parades and marches at Ba Đình."
+    },
+    {
+     "title": "Fireworks",
+     "text": "Hanoi, Ho Chi Minh City and many provinces launch fireworks on the night of September 2."
+    },
+    {
+     "title": "Streets of flags",
+     "text": "The whole country turns red with gold-star flags for the holiday."
+    }
+   ],
+   "wishes": [
+    "Proud to be Vietnamese! Happy National Day, September 2.",
+    "May our country forever keep its independence, freedom and happiness.",
+    "Celebrating the day the Fatherland was born — united and firm toward the future.",
+    "From Ba Đình that day to today — proud of Vietnam.",
+    "May our brocade land stay forever majestic and flourishing."
+   ],
+   "gifts": [
+    {
+     "title": "Flags & September 2 gear",
+     "text": "Small flags and red flag t-shirts for the parade day."
+    },
+    {
+     "title": "A trip to the roots",
+     "text": "Visit the Imperial Citadel, the Hồ Chí Minh Mausoleum, or his homeland in Nghệ An."
+    },
+    {
+     "title": "Books about Uncle Hồ",
+     "text": "Meaningful historical materials for the younger generation."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 9,
+    "day": 2
+   },
+   "nextOccurrence": "2027-09-01",
+   "occurrenceThisYear": "2026-09-01"
+  },
+  {
+   "slug": "trung-thu",
+   "locale": "en",
+   "name": "Mid-Autumn Festival",
+   "dateMark": "15·08",
+   "displayDate": "15th day of the 8th lunar month",
+   "categories": [
+    "truyen-thong"
+   ],
+   "tagline": "The reunion festival under the moon.",
+   "meaning": "The full-moon night of togetherness — adults missing home, children dreaming of star lanterns.",
+   "traditions": [
+    {
+     "title": "Breaking the feast under the moon",
+     "text": "A tray of mooncakes, pomelo and persimmons set under the moonlit yard."
+    },
+    {
+     "title": "Star-lantern parades",
+     "text": "Children carry lanterns and star lanterns through the streets."
+    },
+    {
+     "title": "Lion dances",
+     "text": "The sound of lion-dance drums fills the full-moon nights."
+    }
+   ],
+   "wishes": [
+    "Happy Mid-Autumn! May your family be reunited under the full moon.",
+    "Wishing the little ones a season bright with star lanterns.",
+    "The moon is round, the people are gathered — wishing you a warm Mid-Autumn.",
+    "May this moon season bring you fullness, like the light of the full moon.",
+    "Mid-Autumn is here — may every home gather and every child laugh."
+   ],
+   "gifts": [
+    {
+     "title": "Mooncakes",
+     "text": "Baked or snow-skin cakes with lotus seed or green tea filling are classics."
+    },
+    {
+     "title": "A lantern for the kids",
+     "text": "Handmade star lanterns and carp lanterns."
+    },
+    {
+     "title": "Lotus tea",
+     "text": "A tea-and-cake pair for the moonlit reunion."
+    }
+   ],
+   "rule": {
+    "type": "lunar",
+    "month": 8,
+    "day": 15
+   },
+   "nextOccurrence": "2027-09-14",
+   "occurrenceThisYear": "2026-09-24"
+  },
+  {
+   "slug": "phu-nu-viet-nam",
+   "locale": "en",
+   "name": "Vietnamese Women's Day",
+   "dateMark": "20·10",
+   "displayDate": "October 20",
+   "categories": [
+    "phu-nu",
+    "quoc-gia"
+   ],
+   "tagline": "Honoring the women of Vietnam.",
+   "meaning": "The day reserved for Vietnamese women — honoring their sacrifices, resilience and beauty.",
+   "traditions": [
+    {
+     "title": "Flowers & gifts",
+     "text": "Colleagues and loved ones send flowers and wishes to the women around them."
+    },
+    {
+     "title": "Honoring exemplary women",
+     "text": "Women's unions hold gatherings and commendations."
+    },
+    {
+     "title": "Men in the kitchen",
+     "text": "The 'men cook on 20/10' custom grows more popular every year."
+    }
+   ],
+   "wishes": [
+    "Happy October 20 — may you always be beautiful, happy and loved!",
+    "20/10 — may the women of Vietnam stay radiant and successful.",
+    "Thank you to the wonderful women in my life.",
+    "Wishing you an October 20 full of nothing but flowers, gifts and laughter.",
+    "20/10 — may you always be the most beautiful flower in Vietnam's garden."
+   ],
+   "gifts": [
+    {
+     "title": "Fresh flowers",
+     "text": "A bouquet with a handwritten card is always the first choice."
+    },
+    {
+     "title": "An áo dài",
+     "text": "The flowing tunic — the symbol of Vietnamese women's beauty."
+    },
+    {
+     "title": "Self-care gifts",
+     "text": "A spa session, cosmetics, or a dinner date."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 10,
+    "day": 20
+   },
+   "nextOccurrence": "2027-10-19",
+   "occurrenceThisYear": "2026-10-19"
+  },
+  {
+   "slug": "nha-giao-viet-nam",
+   "locale": "en",
+   "name": "Vietnamese Teachers' Day",
+   "dateMark": "20·11",
+   "displayDate": "November 20",
+   "categories": [
+    "quoc-gia"
+   ],
+   "tagline": "Respecting teachers and the way of learning.",
+   "meaning": "One letter learned, a teacher for life — the day to remember those who guided us.",
+   "traditions": [
+    {
+     "title": "Students giving flowers",
+     "text": "Flowers and handmade cards for teachers at a special flag ceremony."
+    },
+    {
+     "title": "Alumni visits",
+     "text": "Past generations return to their old schools to see aging teachers."
+    },
+    {
+     "title": "Messages of thanks",
+     "text": "Grateful messages sent to former teachers everywhere."
+    }
+   ],
+   "wishes": [
+    "Wishing teachers a November 20 of health, happiness and lasting devotion.",
+    "Thank you, teachers, for lighting the fire of knowledge in me.",
+    "On Teachers' Day, I respectfully wish you stay forever young and joyful.",
+    "The debt of teaching is heavy as a long river — wishing you health, teachers.",
+    "May those who grow people harvest sweet fruit all their lives."
+   ],
+   "gifts": [
+    {
+     "title": "Flowers & thank-you cards",
+     "text": "Simple, sincere and true to tradition."
+    },
+    {
+     "title": "Books & a fine pen",
+     "text": "Gifts that suit the profession of growing people."
+    },
+    {
+     "title": "A surprise visit",
+     "text": "Drop in on an old teacher — a gift everyone treasures."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 11,
+    "day": 20
+   },
+   "nextOccurrence": "2026-11-19",
+   "occurrenceThisYear": "2026-11-19"
+  },
+  {
+   "slug": "quan-doi-nhan-dan",
+   "locale": "en",
+   "name": "Vietnam People's Army Day",
+   "dateMark": "22·12",
+   "displayDate": "December 22",
+   "categories": [
+    "quoc-gia"
+   ],
+   "tagline": "The traditional day of a heroic army.",
+   "meaning": "Honoring the soldiers who have kept — and keep — the country's independence and sovereignty.",
+   "traditions": [
+    {
+     "title": "Traditional reunions",
+     "text": "Units and veterans gather to mark the founding anniversary."
+    },
+    {
+     "title": "Commending soldiers",
+     "text": "Awarding exemplary servicemen and women."
+    },
+    {
+     "title": "Border activities",
+     "text": "Visiting border posts and remote garrisons."
+    }
+   ],
+   "wishes": [
+    "Happy Vietnam People's Army Day, December 22!",
+    "Honoring the soldiers who stand guard over the nation's peaceful sleep.",
+    "Respectfully wishing our servicemen strength under calm skies and seas.",
+    "Thank you to those who traded their youth for the Fatherland's peace.",
+    "22/12 — may our heroic army stay forever steadfast and loyal."
+   ],
+   "gifts": [
+    {
+     "title": "Flowers & letters",
+     "text": "Send thanks to loved ones serving in the military."
+    },
+    {
+     "title": "Gifts for far-away soldiers",
+     "text": "Food and handwritten letters to troops on the borders and islands."
+    },
+    {
+     "title": "Military history books",
+     "text": "Materials on the nation's heroic campaigns."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 12,
+    "day": 22
+   },
+   "nextOccurrence": "2026-12-21",
+   "occurrenceThisYear": "2026-12-21"
+  },
+  {
+   "slug": "giang-sinh",
+   "locale": "en",
+   "name": "Christmas",
+   "dateMark": "25·12",
+   "displayDate": "December 24–25",
+   "categories": [
+    "quoc-te",
+    "truyen-thong"
+   ],
+   "tagline": "The warmest, most peaceful season of the year.",
+   "meaning": "The season of giving, peace and warm moments beside loved ones.",
+   "traditions": [
+    {
+     "title": "Church on Christmas Eve",
+     "text": "Midnight mass on December 24 and nativity scenes at the big churches."
+    },
+    {
+     "title": "Exchanging gifts",
+     "text": "Santa brings gifts for children on the night before Christmas."
+    },
+    {
+     "title": "Decorating the tree",
+     "text": "Christmas trees, twinkling lights and holly wreaths."
+    }
+   ],
+   "wishes": [
+    "Merry Christmas! Wishing you a peaceful, warm Christmas.",
+    "May the season bring you plenty of joy.",
+    "A peaceful Christmas — may every good thing come to your family.",
+    "A peaceful Noel — may you be embraced by the people who love you.",
+    "May your holiday season be warm enough to carry you through winter."
+   ],
+   "gifts": [
+    {
+     "title": "Christmas gifts for kids",
+     "text": "Wrapped toys left under the tree."
+    },
+    {
+     "title": "Wool scarves & gloves",
+     "text": "Warm gifts for the chilly end of the year."
+    },
+    {
+     "title": "Cookies & chocolate",
+     "text": "A sweet gift box for friends and colleagues."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 12,
+    "day": 25
+   },
+   "nextOccurrence": "2026-12-24",
+   "occurrenceThisYear": "2026-12-24"
+  },
+  {
+   "slug": "ong-cong-ong-tao",
+   "locale": "en",
+   "name": "Kitchen Gods' Day (Ông Công Ông Táo)",
+   "dateMark": "23·12",
+   "displayDate": "23rd day of the 12th lunar month",
+   "categories": [
+    "truyen-thong"
+   ],
+   "tagline": "Sending the Kitchen Gods back to heaven.",
+   "meaning": "Kitchen Gods' Day is the handover between the old year and the new — the day families tidy the hearth, honor the flame that kept them warm all year, and trust that good deeds will be carried to heaven. It is also a reminder to live kindly inside our own homes.",
+   "traditions": [
+    {
+     "title": "Seeing off the Táo quân",
+     "text": "Tidying the kitchen altar, offering a tray, Táo hats and paper effigy items for the gods' journey to heaven."
+    },
+    {
+     "title": "Releasing carp",
+     "text": "Releasing carp into ponds and rivers — the vehicle that carries the gods to heaven; many families release them on the afternoon of the 23rd."
+    },
+    {
+     "title": "Cleaning the house",
+     "text": "After the ceremony, the whole household begins sweeping, dusting and repairing for Tết."
+    },
+    {
+     "title": "Offerings to the Earth God",
+     "text": "On the same tray, many homes also honor ông Địa — the earth deity governing the household's land."
+    }
+   ],
+   "wishes": [
+    "May your home's hearth stay warm and full of love all year!",
+    "The Táo quân fly to heaven with good news — wishing your family peace as Tết arrives!",
+    "Carp leaping the dragon gate — may everything flow smoothly in the new year!",
+    "May grandparents and parents stay healthy, and every home gather at year's end!",
+    "May next year's hearth always burn warm and the rice bowl stay full!",
+    "Send the Táo to the sky, welcome fortune home — wishing a prosperous new year!"
+   ],
+   "gifts": [
+    {
+     "title": "A Táo quân offering set",
+     "text": "Táo hats and a vegetarian or meat tray — the main offerings of the 23rd of the last month."
+    },
+    {
+     "title": "Carp to release",
+     "text": "Live carp to release into ponds — the day's most spiritual item."
+    },
+    {
+     "title": "Gifts for the family",
+     "text": "Mai or đào blossoms and Tết sweets — the Tết atmosphere begins today."
+    }
+   ],
+   "rule": {
+    "type": "lunar",
+    "month": 12,
+    "day": 23
+   },
+   "nextOccurrence": "2027-01-29",
+   "occurrenceThisYear": "2027-01-29"
+  },
+  {
+   "slug": "tet-han-thuc",
+   "locale": "en",
+   "name": "Tết Hàn Thực (Cold Food Festival)",
+   "dateMark": "03·03",
+   "displayDate": "3rd day of the 3rd lunar month",
+   "categories": [
+    "truyen-thong"
+   ],
+   "tagline": "The festival of floating-rice and mung-bean cakes.",
+   "meaning": "Tết Hàn thực is a day of vegetarian food, remembering one's roots and practicing purity in the new year — a quiet note in the string of post-Tết festivals, when people offer their ancestors little round cakes of sweet clarity.",
+   "traditions": [
+    {
+     "title": "Cooking bánh trôi & bánh chay",
+     "text": "Sugar-filled floating cakes and mung-bean cakes — the two signature pure cakes."
+    },
+    {
+     "title": "Ancestor offerings",
+     "text": "A tray of bánh trôi chay set on the family altar on the 3rd of the 3rd month."
+    },
+    {
+     "title": "A vegetarian day",
+     "text": "Many families keep the day meat-free for a tranquil early spring."
+    },
+    {
+     "title": "Pagoda visits",
+     "text": "People often go to the pagoda to pray for peace after the spring festivals."
+    }
+   ],
+   "wishes": [
+    "Wishing your family a sweet and serene Hàn thực day!",
+    "Round bánh trôi — may your life be full and sweet!",
+    "May grandparents and parents stay healthy and warm through every spring!",
+    "May every home grow closer and every heart grow kinder!",
+    "A peaceful Hàn thực — wishing you a year of safety and quiet mind!"
+   ],
+   "gifts": [
+    {
+     "title": "Bánh trôi & bánh chay",
+     "text": "A box of floating and mung-bean cakes — the traditional gift for the 3rd of the 3rd month."
+    },
+    {
+     "title": "Lotus tea & vegetarian sweets",
+     "text": "Lotus-scented tea and pure sweets suiting a vegetarian day."
+    },
+    {
+     "title": "Offering flowers",
+     "text": "A lotus or white chrysanthemum bouquet for the family altar."
+    }
+   ],
+   "rule": {
+    "type": "lunar",
+    "month": 3,
+    "day": 3
+   },
+   "nextOccurrence": "2027-04-08",
+   "occurrenceThisYear": "2026-04-18"
+  },
+  {
+   "slug": "tet-doan-ngo",
+   "locale": "en",
+   "name": "Tết Đoan Ngọ (Pest-Killing Festival)",
+   "dateMark": "05·05",
+   "displayDate": "5th day of the 5th lunar month",
+   "categories": [
+    "truyen-thong"
+   ],
+   "tagline": "High noon at its peak — the pest-killing festival.",
+   "meaning": "Tết Đoan Ngọ is Vietnam's folk answer to the turn of summer: a day of cleansing the body, protecting health, and staying close to mothers and children — for the pest-killing custom is also the custom of preserving the home's vitality.",
+   "traditions": [
+    {
+     "title": "Eating sour fruits",
+     "text": "Green mango, plum, lychee — the early-summer sours believed to 'kill the pests' inside."
+    },
+    {
+     "title": "Glutinous-rice wine",
+     "text": "Fermented nếp cái hoa vàng rice — the signature dish of Đoan Ngọ."
+    },
+    {
+     "title": "Gathering noon herbs",
+     "text": "At exactly noon, people of old gathered wild herbs — believed most potent at that hour."
+    },
+    {
+     "title": "Burning vía & five-color threads",
+     "text": "Burning vía and tying five-color thread on children — driving off pests and misfortune."
+    }
+   ],
+   "wishes": [
+    "A healthy Đoan Ngọ — may your family have a happy, ailment-free summer!",
+    "The fruits ripen in season — may your life ripen sweet and full!",
+    "Wishing Mom good health — a child's devotion circles you always!",
+    "At noon at its peak — may your energy overflow and illness retreat!",
+    "May every home stay cool and every heart peaceful in mid-summer!"
+   ],
+   "gifts": [
+    {
+     "title": "A fresh fruit basket",
+     "text": "Lychee, plum, green mango — the exact ritual of pest-killing."
+    },
+    {
+     "title": "Cơm rượu nếp",
+     "text": "A box of homemade fermented rice — a meaningful traditional dish."
+    },
+    {
+     "title": "A five-color thread bracelet",
+     "text": "A little traditional charm for children to ward off evil."
+    }
+   ],
+   "rule": {
+    "type": "lunar",
+    "month": 5,
+    "day": 5
+   },
+   "nextOccurrence": "2027-06-08",
+   "occurrenceThisYear": "2026-06-18"
+  },
+  {
+   "slug": "ngay-thay-thuoc",
+   "locale": "en",
+   "name": "Vietnamese Doctors' Day",
+   "dateMark": "27·02",
+   "displayDate": "February 27",
+   "categories": [
+    "quoc-gia"
+   ],
+   "tagline": "Honoring those who heal.",
+   "meaning": "Vietnamese Doctors' Day is when the whole country says thank you to those who hold the scalpel and those who keep the night watch in emergency rooms — professions demanding both talent and compassion. 'A good physician must be like a loving mother' is that profession's living standard.",
+   "traditions": [
+    {
+     "title": "Flowers for doctors",
+     "text": "Roses and carnations for familiar doctors and nurses — the most common tribute."
+    },
+    {
+     "title": "Ceremonies at hospitals",
+     "text": "Hospitals hold gatherings and award outstanding health workers."
+    },
+    {
+     "title": "Free clinics",
+     "text": "Many localities open free check-ups and blood drives around the day."
+    },
+    {
+     "title": "Tributes in the press",
+     "text": "Media features stories of healers — especially in remote regions."
+    }
+   ],
+   "wishes": [
+    "Wishing our healers health — to save even more lives!",
+    "Thank you, doctors, for watching the nights like parents — may your kind hearts stay ever fresh!",
+    "May the white-coat people be safe — your families always wait for you!",
+    "Honoring a noble profession — may our healers be healthy and peaceful!",
+    "May Vietnam's health sector grow ever stronger and more compassionate!"
+   ],
+   "gifts": [
+    {
+     "title": "Carnations",
+     "text": "A pink carnation bouquet — the flower of respect for healers."
+    },
+    {
+     "title": "A thank-you card",
+     "text": "A handwritten card to the family doctor or familiar clinic."
+    },
+    {
+     "title": "Wellness gifts",
+     "text": "Tea, honey, vitamins — practical gifts for those who keep the night shifts."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 2,
+    "day": 27
+   },
+   "nextOccurrence": "2027-02-26",
+   "occurrenceThisYear": "2026-02-26"
+  },
+  {
+   "slug": "ngay-bao-chi",
+   "locale": "en",
+   "name": "Vietnam Revolutionary Press Day",
+   "dateMark": "21·06",
+   "displayDate": "June 21",
+   "categories": [
+    "quoc-gia"
+   ],
+   "tagline": "Honoring those who wield the pen.",
+   "meaning": "Vietnam Revolutionary Press Day honors the journalist — the profession that runs against the flood, goes down into the tunnels and writes with fairness. From the 1925 Thanh Niên newspaper to today's parliament, the press remains an organ of social democracy.",
+   "traditions": [
+    {
+     "title": "Press awards",
+     "text": "National press awards are usually announced around June 21 — honoring outstanding works."
+    },
+    {
+     "title": "Journalists' gatherings",
+     "text": "The Vietnam Journalists' Association and newsrooms hold reunions honoring the profession."
+    },
+    {
+     "title": "Press exhibitions",
+     "text": "Many places display historic front pages — from Thanh Niên and Cứu Quốc to today's online papers."
+    },
+    {
+     "title": "Talks on the craft",
+     "text": "Journalism schools hold discussions on ethics and media innovation."
+    }
+   ],
+   "wishes": [
+    "May our journalists keep the fire of fairness — may the pen stay firm!",
+    "Honoring those who record history — may our reporters stay safe on the road!",
+    "May Vietnamese press stay truthful, humane and ever-renewing!",
+    "Wishing the revolutionary pen-wielders health and creative freedom within the bounds of truth!",
+    "Thank you for the pages that keep a community awake — may journalism shine on!"
+   ],
+   "gifts": [
+    {
+     "title": "Journalism books",
+     "text": "Books on the writing craft and fine press collections — for journalists and lovers of words."
+    },
+    {
+     "title": "A signature pen",
+     "text": "A fine pen — the elegant symbol of the writing profession."
+    },
+    {
+     "title": "Flowers of tribute",
+     "text": "A fresh bouquet for the reporters and editors you know."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 6,
+    "day": 21
+   },
+   "nextOccurrence": "2027-06-20",
+   "occurrenceThisYear": "2026-06-20"
+  },
+  {
+   "slug": "nguoi-cao-tuoi",
+   "locale": "en",
+   "name": "Vietnamese Senior Citizens' Day",
+   "dateMark": "01·10",
+   "displayDate": "October 1",
+   "categories": [
+    "quoc-gia"
+   ],
+   "tagline": "Respect the old, receive long life.",
+   "meaning": "Senior Citizens' Day is when we bow before the silver-haired: grandparents, parents — the people who walked through war and hardship and built our families. 'Respect the old, receive long life' is not a ritual but a standard of living.",
+   "traditions": [
+    {
+     "title": "Longevity celebrations",
+     "text": "Families hold mừng thọ for elderly grandparents — children gathering to wish them well."
+    },
+    {
+     "title": "Visiting the elderly",
+     "text": "Organizations and neighborhoods visit and gift lonely seniors."
+    },
+    {
+     "title": "Senior club activities",
+     "text": "The Elderly Association holds performances, health checks and talks."
+    },
+    {
+     "title": "Children coming home",
+     "text": "Many families pick October 1 for far-away children to visit their grandparents."
+    }
+   ],
+   "wishes": [
+    "Wishing our grandparents a hundred years of life and a tranquil heart!",
+    "May you stay healthy, Grandmother — forever the sheltering tree of your grandchildren!",
+    "Wishing our parents more peaceful years beside their children!",
+    "Happy longevity — may every day be joyful and every year be happy!",
+    "Honoring the silver-haired — may the elderly be loved and cared for!"
+   ],
+   "gifts": [
+    {
+     "title": "Nutritious foods",
+     "text": "Bird's nest, milk, nuts — practical health gifts for the elderly."
+    },
+    {
+     "title": "Warm clothes & blankets",
+     "text": "Sweaters and warm blankets for the elders' winter."
+    },
+    {
+     "title": "A family album",
+     "text": "A photo book of the children — the most precious spiritual gift for grandparents."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 10,
+    "day": 1
+   },
+   "nextOccurrence": "2027-09-30",
+   "occurrenceThisYear": "2026-09-30"
+  },
+  {
+   "slug": "doanh-nhan",
+   "locale": "en",
+   "name": "Vietnamese Entrepreneurs' Day",
+   "dateMark": "13·10",
+   "displayDate": "October 13",
+   "categories": [
+    "quoc-gia"
+   ],
+   "tagline": "Honoring the spirit of enterprise.",
+   "meaning": "Vietnamese Entrepreneurs' Day honors those who dare to begin — from the market-stall trader to the tech founder. Entrepreneurs create not only wealth but jobs, confidence and the momentum of a country on the rise.",
+   "traditions": [
+    {
+     "title": "Business gatherings",
+     "text": "Business associations and the Chamber of Commerce host meetings honoring outstanding entrepreneurs."
+    },
+    {
+     "title": "Startup forums",
+     "text": "Many startup and digital-transformation events happen around October 13."
+    },
+    {
+     "title": "Company awards",
+     "text": "The Sao Vàng đất Việt and Thánh Gióng awards are presented around the day."
+    },
+    {
+     "title": "Charitable work",
+     "text": "Many businesses pick this day as their corporate social responsibility day."
+    }
+   ],
+   "wishes": [
+    "May Vietnamese entrepreneurs keep the startup fire — prosperous business ahead!",
+    "May Vietnam's business community stride firmly on the world stage!",
+    "Honoring the job-makers — may you trade well and keep a bright heart!",
+    "May Vietnamese startups fly high and Vietnamese brands resound far!",
+    "May those who dare to begin always be fairly rewarded!"
+   ],
+   "gifts": [
+    {
+     "title": "Business books",
+     "text": "Startup books and founder biographies — intellectual gifts for people in business."
+    },
+    {
+     "title": "Lucky plants",
+     "text": "Money trees and 'fortune' plants — traditional gifts of luck."
+    },
+    {
+     "title": "Desk items",
+     "text": "A signature pen, desk calendar or watch — formal gifts for entrepreneurs."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 10,
+    "day": 13
+   },
+   "nextOccurrence": "2027-10-12",
+   "occurrenceThisYear": "2026-10-12"
+  }
+ ]
+}
