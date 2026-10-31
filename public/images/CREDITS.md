@@ -196,3 +196,28 @@ Photos from Wikimedia Commons contributors; see per-file license and description
 | tet-thanh-minh/gallery1.webp | Zhang Zeduan (1085–1145) | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Qingming_Festival_Detail_10.jpg) |
 | tet-thanh-minh/gallery2.webp | Zhang Zeduan (1085–1145) | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Qingming_Festival_Detail_11.jpg) |
 | tet-thanh-minh/gallery3.webp | Jacklee. | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Five_coloured_papers_on_a_grave_mound,_Bukit_Brown_Cemetery,_Singapore_-_20110326-01.jpg) |
+| ngay-thanh-lap-dang/hero.webp | Duykien | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Capture_communist_flags_in_Long_Hai_hills,_1968.jpg) |
+| ngay-thanh-lap-dang/card.webp | Vuong Tri Binh | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Flag_of_the_Communist_Party_of_Vietnam_at_the_Dien_Bien_Phu_street_in_2015_01.jpg) |
+| ngay-thanh-lap-dang/gallery1.webp | Vuong Tri Binh | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Flag_of_the_Communist_Party_of_Vietnam_at_the_Dien_Bien_Phu_street_in_2015_02.jpg) |
+| ngay-thanh-lap-dang/gallery2.webp | Jp16103 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Communist_Party_of_Vietnam_Poster_in_Hanoi.jpg) |
+| ngay-thanh-lap-dang/gallery3.webp | Orignal SVG see File:Flag of Vietnam.svg, Animation: MichaelFrey (talk) | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Flag_of_Vietnam-Animated.gif) |
+| ngay-dien-bien-phu/hero.webp | Pilip from Hanoi, Vietnam | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Dien_Bien_Phu,_statue.jpg) |
+| ngay-dien-bien-phu/card.webp | Ioe2015 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:The_Victory_Monument_of_Dien_Bien_Phu_(front).jpg) |
+| ngay-dien-bien-phu/gallery1.webp | Ioe2015 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:The_Victory_Monument_of_Dien_Bien_Phu_(far).jpg) |
+| ngay-dien-bien-phu/gallery2.webp | Ioe2015 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:The_Victory_Monument_of_Dien_Bien_Phu_(front)_v2.jpg) |
+| ngay-dien-bien-phu/gallery3.webp | Adam Jones from Kelowna, BC, Canada | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Detail_of_Victory_Monument_-_Dien_Bien_Phu_-_Vietnam_(48159143826).jpg) |
+| ngay-sinh-nhat-bac/hero.webp | Gregor Dodson | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ho_chi_minh_mausoleum.jpg) |
+| ngay-sinh-nhat-bac/card.webp | CEphoto, Uwe Aranas | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Hanoi_Vietnam_Mausoleum-of-Ho-Chi-Minh-01.jpg) |
+| ngay-sinh-nhat-bac/gallery1.webp | CEphoto, Uwe Aranas | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Hanoi_Vietnam_Mausoleum-of-Ho-Chi-Minh-02.jpg) |
+| ngay-sinh-nhat-bac/gallery2.webp | CEphoto, Uwe Aranas | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Hanoi_Vietnam_Mausoleum-of-Ho-Chi-Minh-03.jpg) |
+| ngay-sinh-nhat-bac/gallery3.webp | Syced | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_mausoleum_in_2003.jpg) |
+| ngay-cach-mang-thang-tam/hero.webp | Adam Jones Adam63 | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Opera_House_-_Hanoi_-_Vietnam.JPG) |
+| ngay-cach-mang-thang-tam/card.webp | Benoît Prieur | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Hanoi_Opera_House_-_2003.jpg) |
+| ngay-cach-mang-thang-tam/gallery1.webp | Nam-ho Park | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Hanoi_Opera_House_-_detail.jpg) |
+| ngay-cach-mang-thang-tam/gallery2.webp | Dennis G. Jarvis | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Hanoi_Opera_House_1.jpg) |
+| ngay-cach-mang-thang-tam/gallery3.webp | Schwede66 | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Hanoi_Opera_House_15.JPG) |
+| ngay-giai-phong-thu-do/hero.webp | Chinasaur | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Flag_tower,_Hanoi.jpg) |
+| ngay-giai-phong-thu-do/card.webp | Jorge Láscar from Australia | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lascar_Flag_Tower_of_Hanoi_(4550324293).jpg) |
+| ngay-giai-phong-thu-do/gallery1.webp | Vuong Tri Binh | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Flag_Tower_of_Hanoi_viewed_from_the_museum_in_2014.jpg) |
+| ngay-giai-phong-thu-do/gallery2.webp | Richard Mortel from Riyadh, Saudi Arabia | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Flag_Tower_of_Hanoi,_1812_(2)_(37608528975).jpg) |
+| ngay-giai-phong-thu-do/gallery3.webp | Richard Mortel from Riyadh, Saudi Arabia | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Flag_Tower_of_Hanoi,_1812_(3)_(37608503235).jpg) |

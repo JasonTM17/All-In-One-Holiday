@@ -3,17 +3,18 @@ import type { StoryEntry } from "./stories";
 /**
  * English mirror of `stories.ts`. Same keys; English story titles/bodies,
  * English outlet labels and links to the corresponding English Wikipedia /
- * Britannica articles (the link checker validates every URL).
+ * reputable articles (the link checker validates every URL — keep to outlets
+ * that do not bot-block, e.g. Wikipedia, History.com, UN, Smithsonian).
  */
 const W = "https://en.wikipedia.org/wiki/";
-const B = "https://www.britannica.com/";
+const H = "https://www.history.com/";
 
 export const storiesEn: Record<string, StoryEntry> = {
   "tet-duong-lich": {
     sources: [
       { outlet: "Wikipedia", title: "New Year's Day", url: `${W}New_Year%27s_Day`, summary: "January 1 on the Gregorian calendar — a public holiday in Vietnam, marked by midnight countdowns and fireworks in major cities." },
       { outlet: "Wikipedia", title: "New Year's Eve", url: `${W}New_Year%27s_Eve`, summary: "The night of December 31 — countdown parties and fireworks that open Vietnam's festive season ahead of Tết." },
-      { outlet: "Britannica", title: "Gregorian calendar", url: `${B}topic/Gregorian-calendar`, summary: "The calendar reform of 1582 that gave the world January 1 as the modern New Year's Day." },
+      { outlet: "Wikipedia", title: "Gregorian calendar", url: `${W}Gregorian_calendar`, summary: "The calendar reform of 1582 that gave the world January 1 as the modern New Year's Day." },
     ],
     story: { title: "The night before the new year", body: "New Year's Eve in Vietnam belongs to the young: crowds pour into city centers while families gather around a warm meal. In big cities fireworks bloom at the exact moment the clock touches midnight — the instant everyone turns to each other with wishes of a peaceful year. Unlike Tết, which belongs to ancestors and spirits, New Year's Day is a festival of beginnings: a fresh notebook, new plans, and a small promise made to oneself." },
   },
@@ -21,7 +22,7 @@ export const storiesEn: Record<string, StoryEntry> = {
     sources: [
       { outlet: "Wikipedia", title: "Tết", url: `${W}T%E1%BA%BFt`, summary: "Vietnam's most important celebration — the lunar new year, tied to ancestor worship, family reunion and age-old rites." },
       { outlet: "Wikipedia", title: "Bánh chưng", url: `${W}B%C3%A1nh_ch%C6%B0ng`, summary: "The square sticky-rice cake symbolizing the earth — inseparable from northern Tết and the legend of Prince Lang Liêu." },
-      { outlet: "Britannica", title: "Chinese New Year", url: `${B}topic/Chinese-New-Year`, summary: "The lunisolar new year shared across East Asia — of which Vietnam's Tết is a distinct, beloved branch." },
+      { outlet: "History.com", title: "Chinese New Year", url: `${H}topics/holidays/chinese-new-year`, summary: "The lunisolar new year shared across East Asia — of which Vietnam's Tết is a distinct, beloved branch." },
     ],
     story: { title: "The cakes of earth and sky", body: "When the king opened a contest to choose his heir, the Hùng king asked each prince to bring an offering worthy of the ancestors. Lang Liêu, the poorest son, could offer only two rice cakes: a square one for the earth (bánh chưng) and a round one for the sky (bánh giầy), made of glutinous rice and mung beans — the grain that feeds a people. The Hùng king passed him the throne, and the two cakes became the emblems of Tết, reminding descendants to be grateful to earth, sky and ancestors." },
   },
@@ -37,7 +38,7 @@ export const storiesEn: Record<string, StoryEntry> = {
     sources: [
       { outlet: "Wikipedia", title: "Valentine's Day", url: `${W}Valentine%27s_Day`, summary: "February 14 — the feast of Saint Valentine that became the world's day of love, flowers and cards." },
       { outlet: "Wikipedia", title: "Saint Valentine", url: `${W}Saint_Valentine`, summary: "The 3rd-century Roman priest behind the legend — said to have secretly married young lovers." },
-      { outlet: "Britannica", title: "Valentine's Day", url: `${B}topic/Valentines-Day`, summary: "How a Roman feast day became the modern festival of love — from Chaucer to commercial cards." },
+      { outlet: "History.com", title: "Valentine's Day", url: `${H}topics/valentines-day`, summary: "How a Roman feast day became the modern festival of love — from Chaucer to commercial cards." },
     ],
     story: { title: "The saint and the little notes", body: "Legend tells of Saint Valentine, a Roman priest imprisoned for secretly wedding soldiers and young lovers. Before his execution, he supposedly sent a message to the girl he had cared for, signed 'your Valentine' — the first card. However much the tale has grown, from that day February 14 became the occasion when people trade secret, then open, words of love — turning a saint's feast into the festival of love itself." },
   },
@@ -45,7 +46,7 @@ export const storiesEn: Record<string, StoryEntry> = {
     sources: [
       { outlet: "Wikipedia", title: "International Women's Day", url: `${W}International_Women%27s_Day`, summary: "March 8 — rooted in early 20th-century women's labor movements and marked by the UN since 1975." },
       { outlet: "Wikipedia", title: "Trưng sisters", url: `${W}Tr%C6%B0ng_sisters`, summary: "The sisters who led Vietnam's first independence uprising in 40 AD — remembered on March 8 as an early emblem of women's power." },
-      { outlet: "Britannica", title: "International Women's Day", url: `${B}topic/International-Womens-Day`, summary: "The history of the day — from Clara Zetkin's 1910 proposal to global observance." },
+      { outlet: "United Nations", title: "International Women's Day", url: "https://www.un.org/en/observances/womens-day", summary: "The UN's observance page — from Clara Zetkin's 1910 proposal to today's global themes." },
     ],
     story: { title: "The Trưng sisters are still with us", body: "In the year 40, Trưng Trắc and Trưng Nhị rose in revolt and set up their court at Mê Linh, becoming the first women to hold power in Vietnamese history. Ancient records praised the Mê Linh women who 'carried the nation's mountains and rivers'. Nearly two thousand years later, every rose handed over on March 8 recalls that story: Vietnamese women have long been masters of their own land." },
   },
@@ -77,7 +78,7 @@ export const storiesEn: Record<string, StoryEntry> = {
     sources: [
       { outlet: "Wikipedia", title: "International Workers' Day", url: `${W}International_Workers%27_Day`, summary: "May 1 — born of the 1886 movement for the eight-hour day, now a public holiday in more than 80 countries." },
       { outlet: "Wikipedia", title: "Haymarket affair", url: `${W}Haymarket_affair`, summary: "The 1886 Chicago events that made May 1 the world's symbol of labor struggle." },
-      { outlet: "Britannica", title: "May Day", url: `${B}topic/May-Day-workers-holiday`, summary: "How the workers' holiday of May 1 grew out of the fight for shorter working hours." },
+      { outlet: "Wikipedia", title: "Eight-hour day", url: `${W}Eight-hour_day`, summary: "The '8-8-8' demand at the heart of the original May Day strikes." },
     ],
     story: { title: "Eight hours to live", body: "In May 1886, hundreds of thousands of Chicago workers stopped their machines to demand '8 hours of work — 8 hours of rest — 8 hours for what we will'. The Haymarket events showed the world the price of labor rights. Three years later the International chose May 1 as International Workers' Day. Today Vietnam's April 30–May 1 break still carries the shape of that right: the right to rest, and to have one's work honored." },
   },
@@ -85,7 +86,7 @@ export const storiesEn: Record<string, StoryEntry> = {
     sources: [
       { outlet: "Wikipedia", title: "Mother's Day", url: `${W}Mother%27s_Day`, summary: "Most widely kept on the second Sunday of May — started by Anna Jarvis's campaign in the United States in 1908." },
       { outlet: "Wikipedia", title: "Anna Jarvis", url: `${W}Anna_Jarvis`, summary: "The founder of Mother's Day — who later fought its commercialization." },
-      { outlet: "Britannica", title: "Mother's Day", url: `${B}topic/Mothers-Day`, summary: "The origins and customs of the day honoring mothers, from America to the world." },
+      { outlet: "History.com", title: "Mother's Day", url: `${H}topics/holidays/mothers-day`, summary: "The origins and customs of the day honoring mothers, from America to the world." },
     ],
     story: { title: "Anna's carnation", body: "In 1905 Anna Jarvis lost her mother. Three years later she held a memorial service and handed out 500 white carnations — her mother's favorite flower. Her campaigning led President Wilson to proclaim Mother's Day on the second Sunday of May in 1914. Ironically, Anna spent her later years fighting the holiday's commercialization — she wanted it to remain a heartfelt thank-you, not a shopping spree." },
   },
@@ -93,7 +94,7 @@ export const storiesEn: Record<string, StoryEntry> = {
     sources: [
       { outlet: "Wikipedia", title: "Children's Day", url: `${W}Children%27s_Day`, summary: "June 1 — chosen in 1949 to protect and care for the youngest generation, marked in many countries." },
       { outlet: "Wikipedia", title: "Lidice", url: `${W}Lidice`, summary: "The Czech village destroyed in 1942 — the tragedy that June 1 was chosen to remember." },
-      { outlet: "Britannica", title: "Universal Children's Day", url: `${B}topic/Universal-Childrens-Day`, summary: "The world's days for children — and the rights they were created to protect." },
+      { outlet: "United Nations", title: "World Children's Day", url: "https://www.un.org/en/observances/world-childrens-day", summary: "The UN's day for children (November 20) — while Vietnam and many countries mark International Children's Day on June 1." },
     ],
     story: { title: "For the little ones", body: "In June 1942, Nazi Germany killed 88 children in the Czech village of Lidice — one of the war's most chilling crimes. After the war, the Women's International Democratic Federation chose June 1 as the day for all humanity to remember: children have the right to live and to be loved. In Vietnam, every summer begins with candles for Lidice — and a season of celebration for the little ones." },
   },
@@ -165,7 +166,7 @@ export const storiesEn: Record<string, StoryEntry> = {
     sources: [
       { outlet: "Wikipedia", title: "Christmas", url: `${W}Christmas`, summary: "December 24–25 — the celebration of the birth of Jesus that became a global festival of light." },
       { outlet: "Wikipedia", title: "Santa Claus", url: `${W}Santa_Claus`, summary: "The gift-bringer descended from Saint Nicholas of Myra." },
-      { outlet: "Britannica", title: "Christmas", url: `${B}topic/Christmas`, summary: "The history of the holiday — from the first recorded celebration in 336 to today's worldwide festival." },
+      { outlet: "History.com", title: "Christmas", url: `${H}topics/christmas`, summary: "The history of the holiday — from the first recorded celebration in 336 to today's worldwide festival." },
     ],
     story: { title: "A Bethlehem night in the city", body: "Hanoi's Hàng Mã street turns into a river of light at year's end; the great cathedral glows on the night of December 24 as tens of thousands arrive at the same hour. Many are not religious, but Christmas in Vietnam long ago became a festival of family — and of young people wanting one warm night at the end of the year. Pagoda and cathedral stand near each other like that — and Noel has become a holiday everyone may enter." },
   },
@@ -224,5 +225,45 @@ export const storiesEn: Record<string, StoryEntry> = {
       { outlet: "Wikipedia", title: "Đổi Mới", url: `${W}%C4%90%E1%BB%95i_M%E1%BB%9Bi`, summary: "The 1986 reforms that first recognized entrepreneurs as a force of the nation." },
     ],
     story: { title: "Those who dare to begin", body: "In 2004 the state chose October 13 as a day of its own for entrepreneurs — the first time in history that the trading profession was recognized as nation-building work. From a small alley café to an exporting tech company, every Vietnamese entrepreneur carries a story of beginning: some left state jobs in the renovation years, some started in a student rented room. Entrepreneurs' Day reminds us that commerce is not only money — it is jobs for hundreds of families, trust on every invoice, and the courage to be responsible for a whole team." },
+  },
+  "ngay-thanh-lap-dang": {
+    sources: [
+      { outlet: "Wikipedia", title: "Communist Party of Vietnam", url: `${W}Communist_Party_of_Vietnam`, summary: "The party's full arc — from the 1930 unification conference through its name changes and congresses." },
+      { outlet: "Wikipedia", title: "Indochinese Communist Party", url: `${W}Indochinese_Communist_Party`, summary: "The name the party took in October 1930 — eight months after its founding as the Communist Party of Vietnam." },
+      { outlet: "Wikipedia", title: "Ho Chi Minh", url: `${W}Ho_Chi_Minh`, summary: "Nguyễn Ái Quốc — the Comintern envoy who chaired the unification conference in Hong Kong." },
+    ],
+    story: { title: "A rented room in Kowloon", body: "In early 1930, in a rented room in Kowloon, Nguyễn Ái Quốc sat three feuding communist delegations down at one table. The question put to them was simple: why not one organization? On February 3 the three currents merged into one — the Communist Party of Vietnam was born, with a Brief Political Platform he had drafted the night before. From that room abroad a long road began: eight months later the party renamed itself the Indochinese Communist Party, fifteen years later came the August uprising. Every February 3, the country remembers the small room where history turned." },
+  },
+  "ngay-dien-bien-phu": {
+    sources: [
+      { outlet: "Wikipedia", title: "Battle of Dien Bien Phu", url: `${W}Battle_of_Dien_Bien_Phu`, summary: "The 56-day campaign — from the opening assault on Béatrice to the flag over De Castries' bunker." },
+      { outlet: "Wikipedia", title: "Võ Nguyên Giáp", url: `${W}Vo_Nguyen_Giap`, summary: "The general who commanded the campaign — from history teacher to victor of a decisive strategic battle." },
+      { outlet: "Wikipedia", title: "Geneva Conference (1954)", url: `${W}Geneva_Conference_(1954)`, summary: "The accords that ended the First Indochina War — signed only after Điện Biên Phủ fell." },
+    ],
+    story: { title: "The road of artillery through the jungle", body: "The French calculated that no one could move heavy guns over the passes of the Northwest. They had not counted on a hundred thousand shoulders: porters carrying rice, cargo bicycles laden with shells, gun crews dragging cannons meter by meter through nights of red mud. By the time the opening shot fired on March 13, 1954, Việt Minh artillery was sighted down into the basin from four walls of mountains. Fifty-six days later, on the afternoon of May 7, the 'Determined to Fight' flag rose over De Castries' bunker — and the world learned to say 'Dien Bien Phu'. That day proved it: bare hands can move mountains." },
+  },
+  "ngay-sinh-nhat-bac": {
+    sources: [
+      { outlet: "Wikipedia", title: "Ho Chi Minh", url: `${W}Ho_Chi_Minh`, summary: "His life — from Hoàng Trù village in Nghệ An to thirty years abroad seeking a path to independence." },
+      { outlet: "Wikipedia", title: "Ho Chi Minh Mausoleum", url: `${W}Ho_Chi_Minh_Mausoleum`, summary: "The granite mausoleum in Ba Đình Square where tens of thousands pay respects around May 19." },
+      { outlet: "Wikipedia", title: "Ho Chi Minh Museum", url: `${W}Ho_Chi_Minh_Museum`, summary: "The Hanoi museum holding the largest archive of material on his life and revolutionary work." },
+    ],
+    story: { title: "The ship that left Nhà Rồng Wharf", body: "On the morning of June 5, 1911, a 21-year-old galley hand named Văn Ba boarded the Amiral Latouche-Tréville and sailed out of Saigon — carrying a few saved coins and one large question: how does a nation win its freedom? Thirty years later that man returned under the name Hồ Chí Minh, and the world came to know him as the face of a whole people. Every May 19, from village schools to big cities, Vietnamese retell the story of that ship — one person went searching for a road, and a nation followed." },
+  },
+  "ngay-cach-mang-thang-tam": {
+    sources: [
+      { outlet: "Wikipedia", title: "August Revolution", url: `${W}August_Revolution`, summary: "The General Uprising of August 14–25, 1945 — a revolution that took power nationwide almost without bloodshed." },
+      { outlet: "Wikipedia", title: "Viet Minh", url: `${W}Viet_Minh`, summary: "The united front that led the uprising — issuing the nationwide order from the Tân Trào base." },
+      { outlet: "Wikipedia", title: "Proclamation of Independence of the Democratic Republic of Vietnam", url: `${W}Proclamation_of_Independence_of_the_Democratic_Republic_of_Vietnam`, summary: "The September 2, 1945 declaration — the culmination of the August Revolution in Ba Đình Square." },
+    ],
+    story: { title: "Noon at the Opera House square", body: "At noon on August 19, 1945, the square before the Hanoi Opera House was packed shoulder to shoulder. The red flag with its gold star rippled over the crowd, slogans rising in waves. Just hours later, revolutionary troops entered the Tonkin Resident-Superior's office — the nerve center of colonial power in the North — and a Việt Minh flag replaced the old one on the roof. Almost no shots were fired. From Hanoi the uprising spread to Huế and Saigon; two weeks later Emperor Bảo Đại abdicated. Hanoians still tell it: that day the whole city seemed to stand up at once." },
+  },
+  "ngay-giai-phong-thu-do": {
+    sources: [
+      { outlet: "Wikipedia", title: "Hanoi", url: `${W}Hanoi`, summary: "The thousand-year capital — where October 10 became one of the city's greatest dates." },
+      { outlet: "Wikipedia", title: "First Indochina War", url: `${W}First_Indochina_War`, summary: "The nine-year resistance of 1946–1954 that ended with the takeover of the capital." },
+      { outlet: "Wikipedia", title: "Flag Tower of Hanoi", url: `${W}Flag_Tower_of_Hanoi`, summary: "The 1812 Kỳ đài where the national flag was raised on the evening of October 10, 1954." },
+    ],
+    story: { title: "Five gates, one morning", body: "On the morning of October 10, 1954, at a single hour, troops entered Hanoi from five directions: Cầu Giấy, Ô Cầu Dền, Hàng Đậu, Long Biên and Bạch Mai. Residents had lined the streets since before dawn, flowers in hand, eyes red from nine years of waiting. That evening, before the Cộng Hòa sports ground, the red flag with gold star rose slowly up the citadel's flag tower — the old saw again the flag they had greeted in 1945, the young saw for the first time a capital wholly their own. That day, Hanoi officially came home." },
   },
 };

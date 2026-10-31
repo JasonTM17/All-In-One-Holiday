@@ -652,4 +652,124 @@ DTEND;VALUE=DATE:20281014
 SUMMARY:Ngày Doanh nhân Việt Nam
 DESCRIPTION:Tôn vinh khởi nghiệp.
 END:VEVENT
+BEGIN:VEVENT
+UID:ngay-thanh-lap-dang-2026@ngayleviet
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20260203
+DTEND;VALUE=DATE:20260204
+SUMMARY:Ngày thành lập Đảng Cộng sản Việt Nam
+DESCRIPTION:Ngày ra đời của tổ chức lãnh đạo cách mạng Việt Nam.
+END:VEVENT
+BEGIN:VEVENT
+UID:ngay-thanh-lap-dang-2027@ngayleviet
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20270203
+DTEND;VALUE=DATE:20270204
+SUMMARY:Ngày thành lập Đảng Cộng sản Việt Nam
+DESCRIPTION:Ngày ra đời của tổ chức lãnh đạo cách mạng Việt Nam.
+END:VEVENT
+BEGIN:VEVENT
+UID:ngay-thanh-lap-dang-2028@ngayleviet
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20280203
+DTEND;VALUE=DATE:20280204
+SUMMARY:Ngày thành lập Đảng Cộng sản Việt Nam
+DESCRIPTION:Ngày ra đời của tổ chức lãnh đạo cách mạng Việt Nam.
+END:VEVENT
+BEGIN:VEVENT
+UID:ngay-dien-bien-phu-2026@ngayleviet
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20260507
+DTEND;VALUE=DATE:20260508
+SUMMARY:Ngày Chiến thắng Điện Biên Phủ
+DESCRIPTION:Chiến thắng 'lừng lẫy năm châu\, chấn động địa cầu'.
+END:VEVENT
+BEGIN:VEVENT
+UID:ngay-dien-bien-phu-2027@ngayleviet
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20270507
+DTEND;VALUE=DATE:20270508
+SUMMARY:Ngày Chiến thắng Điện Biên Phủ
+DESCRIPTION:Chiến thắng 'lừng lẫy năm châu\, chấn động địa cầu'.
+END:VEVENT
+BEGIN:VEVENT
+UID:ngay-dien-bien-phu-2028@ngayleviet
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20280507
+DTEND;VALUE=DATE:20280508
+SUMMARY:Ngày Chiến thắng Điện Biên Phủ
+DESCRIPTION:Chiến thắng 'lừng lẫy năm châu\, chấn động địa cầu'.
+END:VEVENT
+BEGIN:VEVENT
+UID:ngay-sinh-nhat-bac-2026@ngayleviet
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20260519
+DTEND;VALUE=DATE:20260520
+SUMMARY:Ngày sinh Chủ tịch Hồ Chí Minh
+DESCRIPTION:Ngày sinh của Người — Bác Hồ trong lòng dân tộc.
+END:VEVENT
+BEGIN:VEVENT
+UID:ngay-sinh-nhat-bac-2027@ngayleviet
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20270519
+DTEND;VALUE=DATE:20270520
+SUMMARY:Ngày sinh Chủ tịch Hồ Chí Minh
+DESCRIPTION:Ngày sinh của Người — Bác Hồ trong lòng dân tộc.
+END:VEVENT
+BEGIN:VEVENT
+UID:ngay-sinh-nhat-bac-2028@ngayleviet
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20280519
+DTEND;VALUE=DATE:20280520
+SUMMARY:Ngày sinh Chủ tịch Hồ Chí Minh
+DESCRIPTION:Ngày sinh của Người — Bác Hồ trong lòng dân tộc.
+END:VEVENT
+BEGIN:VEVENT
+UID:ngay-cach-mang-thang-tam-2026@ngayleviet
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20260819
+DTEND;VALUE=DATE:20260820
+SUMMARY:Ngày Cách mạng tháng Tám
+DESCRIPTION:Ngày Hà Nội giành lại chính quyền\, mở ra kỷ nguyên độc lập.
+END:VEVENT
+BEGIN:VEVENT
+UID:ngay-cach-mang-thang-tam-2027@ngayleviet
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20270819
+DTEND;VALUE=DATE:20270820
+SUMMARY:Ngày Cách mạng tháng Tám
+DESCRIPTION:Ngày Hà Nội giành lại chính quyền\, mở ra kỷ nguyên độc lập.
+END:VEVENT
+BEGIN:VEVENT
+UID:ngay-cach-mang-thang-tam-2028@ngayleviet
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20280819
+DTEND;VALUE=DATE:20280820
+SUMMARY:Ngày Cách mạng tháng Tám
+DESCRIPTION:Ngày Hà Nội giành lại chính quyền\, mở ra kỷ nguyên độc lập.
+END:VEVENT
+BEGIN:VEVENT
+UID:ngay-giai-phong-thu-do-2026@ngayleviet
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:Ngày Giải phóng Thủ đô
+DESCRIPTION:Ngày cờ đỏ sao vàng bay trở lại trên nóc thành Hà Nội.
+END:VEVENT
+BEGIN:VEVENT
+UID:ngay-giai-phong-thu-do-2027@ngayleviet
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20271010
+DTEND;VALUE=DATE:20271011
+SUMMARY:Ngày Giải phóng Thủ đô
+DESCRIPTION:Ngày cờ đỏ sao vàng bay trở lại trên nóc thành Hà Nội.
+END:VEVENT
+BEGIN:VEVENT
+UID:ngay-giai-phong-thu-do-2028@ngayleviet
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20281010
+DTEND;VALUE=DATE:20281011
+SUMMARY:Ngày Giải phóng Thủ đô
+DESCRIPTION:Ngày cờ đỏ sao vàng bay trở lại trên nóc thành Hà Nội.
+END:VEVENT
 END:VCALENDAR

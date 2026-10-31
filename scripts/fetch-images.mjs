@@ -39,6 +39,11 @@ const QUERIES = {
   "nha-giao-viet-nam": ["teacher desk books", "school blackboard", "chalk letters board"],
   "quan-doi-nhan-dan": ["Vietnam soldiers parade", "army honor guard", "flag raising ceremony"],
   "giang-sinh": ["Christmas tree decorations", "Christmas lights", "Noel tree"],
+  "ngay-thanh-lap-dang": ["Vietnam communist flag", "Communist Party of Vietnam flag", "Vietnamese flag red star", "Hanoi flag crowd"],
+  "ngay-dien-bien-phu": ["Dien Bien Phu monument", "Dien Bien Phu statue Vietnam", "De Castries bunker", "Dien Bien Phu victory monument"],
+  "ngay-sinh-nhat-bac": ["Ho Chi Minh Mausoleum", "Ba Dinh square Hanoi", "Kim Lien Nghe An", "lotus Vietnam temple"],
+  "ngay-cach-mang-thang-tam": ["Hanoi Opera House", "August Revolution Square Hanoi", "Ba Dinh square", "Vietnam flag parade"],
+  "ngay-giai-phong-thu-do": ["Flag Tower of Hanoi", "Ky Dai Hanoi flag", "Hanoi citadel tower", "Thang Long citadel Hanoi"],
 };
 const EXTRA = {
   "home-hero": ["Hoi An lanterns night", "Vietnam festival"],

@@ -27,9 +27,9 @@ function shapeOf(v: unknown, path = ""): string[] {
 }
 
 describe("EN holiday data parity", () => {
-  it("has the same 27 slugs in the same order", () => {
+  it("has the same 32 slugs in the same order", () => {
     expect(enSlugs).toEqual(viSlugs);
-    expect(enSlugs.length).toBe(27);
+    expect(enSlugs.length).toBe(32);
   });
 
   it("every EN entry has complete content sections", () => {

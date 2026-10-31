@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-31T11:38:48.986Z",
+ "generatedAt": "2026-10-31T13:17:22.054Z",
  "locales": [
   "vi",
   "en"
  ],
- "count": 27,
+ "count": 32,
  "holidays": [
   {
    "slug": "tet-duong-lich",
@@ -1509,6 +1509,276 @@
    "occurrenceThisYear": "2026-10-12"
   },
   {
+   "slug": "ngay-thanh-lap-dang",
+   "locale": "vi",
+   "name": "Ngày thành lập Đảng Cộng sản Việt Nam",
+   "dateMark": "03·02",
+   "displayDate": "3 tháng 2",
+   "categories": [
+    "quoc-gia"
+   ],
+   "tagline": "Ngày ra đời của tổ chức lãnh đạo cách mạng Việt Nam.",
+   "meaning": "Dấu mốc thống nhất phong trào cộng sản Việt Nam — từ đây cách mạng có một đảng lãnh đạo duy nhất.",
+   "traditions": [
+    {
+     "title": "Lễ kỷ niệm",
+     "text": "Cấp trung ương và địa phương tổ chức lễ kỷ niệm, đặc biệt long trọng vào các năm tròn chẵn."
+    },
+    {
+     "title": "Kết nạp đảng viên",
+     "text": "Nhiều chi bộ chọn dịp này đứng ra kết nạp đảng viên mới trước cờ Đảng."
+    },
+    {
+     "title": "Hoạt động thiện nguyện",
+     "text": "Đoàn thể tổ chức ra quân vệ sinh, xây nhà tình nghĩa, đền ơn đáp nghĩa."
+    }
+   ],
+   "wishes": [
+    "Nhân ngày thành lập Đảng 3/2, chúc đất nước đoàn kết, thịnh vượng.",
+    "Tự hào ngày 3/2 — chúc non sông liền một dải, nhân dân một lòng.",
+    "Chúc tổ chức Đảng nơi bạn công tác ngày càng trong sạch, vững mạnh.",
+    "Ngày 3/2 — nhớ lời thề dưới cờ, giữ lửa lý tưởng năm xưa.",
+    "Chúc đất nước ta đi lên theo con đường đã chọn, mùa xuân nào cũng rực rỡ."
+   ],
+   "gifts": [
+    {
+     "title": "Sách lịch sử Đảng",
+     "text": "Tài liệu, hồi ký về chặng đường 1930 và các kỳ đại hội."
+    },
+    {
+     "title": "Huy hiệu lá cờ",
+     "text": "Huy hiệu quốc kỳ hoặc cờ Đảng cho người mới vào Đảng."
+    },
+    {
+     "title": "Chuyến thăm di tích",
+     "text": "Thăm khu di tích liên quan đến hội nghị thành lập hoặc nhà lưu niệm các lãnh đạo đầu tiên."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 2,
+    "day": 3
+   },
+   "nextOccurrence": "2027-02-02",
+   "occurrenceThisYear": "2026-02-02"
+  },
+  {
+   "slug": "ngay-dien-bien-phu",
+   "locale": "vi",
+   "name": "Ngày Chiến thắng Điện Biên Phủ",
+   "dateMark": "07·05",
+   "displayDate": "7 tháng 5",
+   "categories": [
+    "quoc-gia"
+   ],
+   "tagline": "Chiến thắng 'lừng lẫy năm châu, chấn động địa cầu'.",
+   "meaning": "Biểu tượng của ý chí độc lập — trận đánh khiến một cường quốc thực dân phải ngồi vào bàn đàm phán.",
+   "traditions": [
+    {
+     "title": "Viếng nghĩa trang A1",
+     "text": "Đồi A1 tại TP. Điện Biên Phủ — nơi hàng nghìn liệt sĩ an nghỉ, luôn đông hương khói dịp 7/5."
+    },
+    {
+     "title": "Lễ kỷ niệm tại Điện Biên",
+     "text": "Các năm tròn chẵn tổ chức lễ mít tinh, diễu binh và lễ hội lớn tại nơi diễn ra chiến dịch."
+    },
+    {
+     "title": "Tư liệu và triển lãm",
+     "text": "Báo chí, bảo tàng mở lại bản đồ tác chiến, ảnh tư liệu về 56 ngày đêm khoét núi."
+    }
+   ],
+   "wishes": [
+    "7/5 — tự hào Điện Biên, tự hào những người đã kéo pháo qua rừng.",
+    "Nhớ ơn thế hệ anh hùng Điện Biên Phủ — năm châu lừng lẫy, địa cầu chấn động.",
+    "Chúc đất nước giữ vững hòa bình mà cha anh đã đổi bằng sinh mạng.",
+    "56 ngày đêm một dải sơn hà — chúc tinh thần Điện Biên sống mãi.",
+    "Biết ơn quá khứ để xứng đáng tương lai — chúc 7/5 ý nghĩa."
+   ],
+   "gifts": [
+    {
+     "title": "Sách, phim về chiến dịch",
+     "text": "'Điện Biên Phủ — điểm hẹn lịch sử', tư liệu Đại tướng Võ Nguyên Giáp."
+    },
+    {
+     "title": "Chuyến về Điện Biên",
+     "text": "Thăm đồi A1, hầm De Castries, nghĩa trang liệt sĩ — món quà trải nghiệm cho người trẻ."
+    },
+    {
+     "title": "Hoa viếng liệt sĩ",
+     "text": "Dâng hoa tại đài tưởng niệm hoặc nghĩa trang liệt sĩ gần nơi bạn sống."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 5,
+    "day": 7
+   },
+   "nextOccurrence": "2027-05-06",
+   "occurrenceThisYear": "2026-05-06"
+  },
+  {
+   "slug": "ngay-sinh-nhat-bac",
+   "locale": "vi",
+   "name": "Ngày sinh Chủ tịch Hồ Chí Minh",
+   "dateMark": "19·05",
+   "displayDate": "19 tháng 5",
+   "categories": [
+    "quoc-gia"
+   ],
+   "tagline": "Ngày sinh của Người — Bác Hồ trong lòng dân tộc.",
+   "meaning": "Ngày cả nước quay về Kim Liên trong lòng — tri ân con người đã đi tìm đường cho dân tộc.",
+   "traditions": [
+    {
+     "title": "Viếng lăng Bác",
+     "text": "Hàng vạn người vào Ba Đình viếng lăng Chủ tịch Hồ Chí Minh trong tuần quanh 19/5."
+    },
+    {
+     "title": "Về nguồn Kim Liên",
+     "text": "Làng Hoàng Trù — Chùa Chung, Nam Đàn, Nghệ An đón đoàn đại biểu và du khách về dâng hương."
+    },
+    {
+     "title": "Văn nghệ về Bác",
+     "text": "Ca khúc, đêm thơ và triển lãm tư liệu tưởng nhớ cuộc đời Người."
+    }
+   ],
+   "wishes": [
+    "Kính nhớ Bác — người dạy ta biết yêu đất nước bằng cả cuộc đời mình.",
+    "19/5 — chúc tinh thần 'không có gì quý hơn độc lập, tự do' mãi sáng trong mỗi người Việt.",
+    "Làm theo lời Bác: cần, kiệm, liêm, chính, chí công vô tư — chúc ngày 19/5 ý nghĩa.",
+    "Tự hào dân tộc có Người — sinh nhật Bác, xin nhớ lời Người dặn.",
+    "Chúc mỗi người trẻ Việt Nam đều có chút 'ý chí vươn lên' của Bác Hồ."
+   ],
+   "gifts": [
+    {
+     "title": "Chuyến thăm lăng Bác",
+     "text": "Đưa người thân, học sinh vào Ba Đình viếng lăng và khu di tích Phủ Chủ tịch."
+    },
+    {
+     "title": "Sách về Bác",
+     "text": "Nhật ký trong tù, tuyển thơ, sách về cuộc đời Người — quà ý nghĩa cho thế hệ trẻ."
+    },
+    {
+     "title": "Vé xem biểu diễn kỷ niệm",
+     "text": "Chương trình nghệ thuật, đêm thơ nhân ngày 19/5 tại Nhà hát Lớn hoặc các tỉnh."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 5,
+    "day": 19
+   },
+   "nextOccurrence": "2027-05-18",
+   "occurrenceThisYear": "2026-05-18"
+  },
+  {
+   "slug": "ngay-cach-mang-thang-tam",
+   "locale": "vi",
+   "name": "Ngày Cách mạng tháng Tám",
+   "dateMark": "19·08",
+   "displayDate": "19 tháng 8",
+   "categories": [
+    "quoc-gia"
+   ],
+   "tagline": "Ngày Hà Nội giành lại chính quyền, mở ra kỷ nguyên độc lập.",
+   "meaning": "Khoảnh khắc chuyển giao của lịch sử — từ hơn tám mươi năm thuộc địa sang nền độc lập của dân tộc.",
+   "traditions": [
+    {
+     "title": "Lễ kỷ niệm tại Nhà hát Lớn",
+     "text": "Quảng trường Cách mạng tháng Tám trước Nhà hát Lớn Hà Nội — nơi diễn ra cuộc mít tinh lịch sử 19/8/1945."
+    },
+    {
+     "title": "Diễu hành và treo cờ",
+     "text": "Phố phường treo cờ Tổ quốc; các năm tròn chẵn có lễ diễu binh, diễu hành lớn."
+    },
+    {
+     "title": "Sinh hoạt truyền thống",
+     "text": "19/8 cũng là ngày truyền thống của lực lượng Công an nhân dân — nhiều hoạt động gắn đôi hai sự kiện."
+    }
+   ],
+   "wishes": [
+    "Tự hào tháng Tám! Chúc đất nước mãi giữ được ngọn cờ độc lập năm xưa.",
+    "19/8 — nhớ ngày Hà Nội đứng dậy, chúc non sông mãi bình an.",
+    "Cách mạng tháng Tám dạy ta: dân tộc muốn đứng dậy thì không gì cản nổi — chúc ngày kỷ niệm ý nghĩa.",
+    "Chúc thế hệ trẻ hôm nay xứng đáng với những người đã giành lại đất nước năm 1945.",
+    "Một ngày 19/8 nữa — kính dâng lời tri ân tới những người đi trước."
+   ],
+   "gifts": [
+    {
+     "title": "Sách về Cách mạng tháng Tám",
+     "text": "Tư liệu về Tổng khởi nghĩa, Tân Trào và những ngày lịch sử cuối tháng 8/1945."
+    },
+    {
+     "title": "Tham quan Nhà hát Lớn",
+     "text": "Chuyến đi tới quảng trường Cách mạng tháng Tám — nơi diễn ra mít tinh 19/8."
+    },
+    {
+     "title": "Bộ sưu tập ảnh Hà Nội 1945",
+     "text": "Ảnh tư liệu đen trắng về ngày Hà Nội giành chính quyền — quà cho người yêu lịch sử."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 8,
+    "day": 19
+   },
+   "nextOccurrence": "2027-08-18",
+   "occurrenceThisYear": "2026-08-18"
+  },
+  {
+   "slug": "ngay-giai-phong-thu-do",
+   "locale": "vi",
+   "name": "Ngày Giải phóng Thủ đô",
+   "dateMark": "10·10",
+   "displayDate": "10 tháng 10",
+   "categories": [
+    "quoc-gia"
+   ],
+   "tagline": "Ngày cờ đỏ sao vàng bay trở lại trên nóc thành Hà Nội.",
+   "meaning": "Ngày Hà Nội trở về tay dân tộc — kết thúc một trang sử để mở trang mới của Thủ đô và đất nước.",
+   "traditions": [
+    {
+     "title": "Lễ kỷ niệm tại Hà Nội",
+     "text": "Các năm tròn chẵn (60, 70 năm) tổ chức lễ kỷ niệm cấp quốc gia với diễu binh và lễ hội đường phố."
+    },
+    {
+     "title": "Treo cờ rực phố",
+     "text": "Phố phường Hà Nội rợp cờ đỏ; điểm chụp hình truyền thống là cột cờ thành Hà Nội."
+    },
+    {
+     "title": "Triển lãm 'Hà Nội nhớ'",
+     "text": "Bảo tàng Hà Nội, các trường đại học mở triển lãm ảnh về ngày tiếp quản 10/10/1954."
+    }
+   ],
+   "wishes": [
+    "10/10 — chúc Hà Nội mãi là trái tim kiêu hãnh của đất nước.",
+    "Nhớ ngày cờ đỏ phủ kín phố — chúc Thủ đô thêm hoa, đất nước thêm yên bình.",
+    "Giải phóng Thủ đô 10/10 — tri ân những người lính tiếp quản năm xưa.",
+    "Chúc Hà Nội nghìn năm văn hiến luôn giữ vẻ hào hoa, thanh bình.",
+    "Tự hào là người con Thủ đô — chúc ngày 10/10 thật ý nghĩa."
+   ],
+   "gifts": [
+    {
+     "title": "Sách và bản đồ Hà Nội xưa",
+     "text": "Tư liệu về tiếp quản Thủ đô, bản đồ Hà Nội 1954, ảnh tư liệu năm cửa ô."
+    },
+    {
+     "title": "Đi thăm cột cờ thành Hà Nội",
+     "text": "Kỳ đài trong khu di tích Hoàng thành Thăng Long — nơi cờ Tổ quốc kéo lên ngày 10/10."
+    },
+    {
+     "title": "Chương trình nghệ thuật 10/10",
+     "text": "Vé xem hòa nhạc, vở kịch, phim chiếu kỷ niệm ngày giải phóng Thủ đô."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 10,
+    "day": 10
+   },
+   "nextOccurrence": "2027-10-09",
+   "occurrenceThisYear": "2026-10-09"
+  },
+  {
    "slug": "tet-duong-lich",
    "locale": "en",
    "name": "New Year's Day",
@@ -3009,6 +3279,276 @@
    },
    "nextOccurrence": "2027-10-12",
    "occurrenceThisYear": "2026-10-12"
+  },
+  {
+   "slug": "ngay-thanh-lap-dang",
+   "locale": "en",
+   "name": "Vietnamese Communist Party Founding Day",
+   "dateMark": "03·02",
+   "displayDate": "February 3",
+   "categories": [
+    "quoc-gia"
+   ],
+   "tagline": "The founding of the party that has led Vietnam's revolution.",
+   "meaning": "The milestone that unified Vietnam's communist movement under a single leading party.",
+   "traditions": [
+    {
+     "title": "Anniversary ceremonies",
+     "text": "Central and local ceremonies mark the date, with major celebrations in round-number years."
+    },
+    {
+     "title": "New member induction",
+     "text": "Many party cells choose this occasion to induct new members before the party flag."
+    },
+    {
+     "title": "Volunteer campaigns",
+     "text": "Mass organizations launch clean-ups, charity house-building and gratitude activities."
+    }
+   ],
+   "wishes": [
+    "On the Party's founding day, may Vietnam stay united and prosperous.",
+    "Proud on February 3 — one nation, one spirit.",
+    "Wishing your party organization ever cleaner and stronger.",
+    "February 3 — remembering the oath beneath the flag, keeping the founding flame.",
+    "May the country keep rising on the path it chose, brilliant every spring."
+   ],
+   "gifts": [
+    {
+     "title": "Party history books",
+     "text": "Documents and memoirs about the 1930 founding and the party congresses."
+    },
+    {
+     "title": "Flag pin",
+     "text": "A national or party flag pin for a newly inducted member."
+    },
+    {
+     "title": "Heritage visit",
+     "text": "A trip to sites tied to the founding conference or memorial houses of early leaders."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 2,
+    "day": 3
+   },
+   "nextOccurrence": "2027-02-02",
+   "occurrenceThisYear": "2026-02-02"
+  },
+  {
+   "slug": "ngay-dien-bien-phu",
+   "locale": "en",
+   "name": "Điện Biên Phủ Victory Day",
+   "dateMark": "07·05",
+   "displayDate": "May 7",
+   "categories": [
+    "quoc-gia"
+   ],
+   "tagline": "The victory that 'resounded across five continents and shook the earth'.",
+   "meaning": "A symbol of the will to independence — the battle that brought a colonial power to the negotiating table.",
+   "traditions": [
+    {
+     "title": "Visiting A1 cemetery",
+     "text": "Hill A1 in Điện Biên Phủ city — resting place of thousands of soldiers — fills with incense every May 7."
+    },
+    {
+     "title": "Ceremonies in Điện Biên",
+     "text": "Round-number anniversaries bring rallies, parades and festivals on the old battlefield."
+    },
+    {
+     "title": "Archives and exhibitions",
+     "text": "Media and museums reopen campaign maps and photographs of the 56 days and nights."
+    }
+   ],
+   "wishes": [
+    "May 7 — proud of Điện Biên, proud of those who hauled cannons through jungle.",
+    "Honoring the heroic generation of Điện Biên Phủ — famed across five continents.",
+    "May the nation keep the peace its forebears bought with their lives.",
+    "56 days and nights for one mountain range — may the Điện Biên spirit live on.",
+    "Grateful for the past, worthy of the future — a meaningful May 7."
+   ],
+   "gifts": [
+    {
+     "title": "Books and films on the campaign",
+     "text": "'Điện Biên Phủ — a historic rendezvous' and material on General Võ Nguyên Giáp."
+    },
+    {
+     "title": "A trip to Điện Biên",
+     "text": "Hill A1, De Castries' bunker, the war cemetery — an experience gift for the young."
+    },
+    {
+     "title": "Flowers for fallen soldiers",
+     "text": "Lay flowers at a war memorial or martyrs' cemetery near you."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 5,
+    "day": 7
+   },
+   "nextOccurrence": "2027-05-06",
+   "occurrenceThisYear": "2026-05-06"
+  },
+  {
+   "slug": "ngay-sinh-nhat-bac",
+   "locale": "en",
+   "name": "President Hồ Chí Minh's Birthday",
+   "dateMark": "19·05",
+   "displayDate": "May 19",
+   "categories": [
+    "quoc-gia"
+   ],
+   "tagline": "The birthday of Uncle Hồ — beloved leader of the nation.",
+   "meaning": "The day the nation turns its heart toward Kim Liên — honoring the man who went to find a road for his people.",
+   "traditions": [
+    {
+     "title": "Mausoleum visits",
+     "text": "Tens of thousands enter Ba Đình to visit the Hồ Chí Minh Mausoleum in the week around May 19."
+    },
+    {
+     "title": "Pilgrimage to Kim Liên",
+     "text": "Hoàng Trù village in Nam Đàn, Nghệ An welcomes delegations and travelers coming to offer incense."
+    },
+    {
+     "title": "Arts honoring him",
+     "text": "Songs, poetry nights and archival exhibitions recall his life."
+    }
+   ],
+   "wishes": [
+    "Honoring Uncle Hồ — the man who taught us to love our country with his whole life.",
+    "May 19 — may the spirit of 'nothing is more precious than independence and freedom' stay bright in every Vietnamese.",
+    "Live by his words: diligence, thrift, integrity, selflessness — a meaningful May 19.",
+    "Proud that our nation had Him — on his birthday, remember his teachings.",
+    "May every young Vietnamese carry some of Uncle Hồ's will to rise."
+   ],
+   "gifts": [
+    {
+     "title": "A mausoleum visit",
+     "text": "Take family or students to Ba Đình to visit the mausoleum and the Presidential Palace grounds."
+    },
+    {
+     "title": "Books about him",
+     "text": "Prison Diary, his poetry, biographies — meaningful gifts for the young."
+    },
+    {
+     "title": "Tickets to commemorative shows",
+     "text": "Art programs and poetry nights for May 19 at the Hanoi Opera House and in the provinces."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 5,
+    "day": 19
+   },
+   "nextOccurrence": "2027-05-18",
+   "occurrenceThisYear": "2026-05-18"
+  },
+  {
+   "slug": "ngay-cach-mang-thang-tam",
+   "locale": "en",
+   "name": "August Revolution Day",
+   "dateMark": "19·08",
+   "displayDate": "August 19",
+   "categories": [
+    "quoc-gia"
+   ],
+   "tagline": "The day Hanoi seized power, opening the era of independence.",
+   "meaning": "History's handover moment — from more than eighty years of colonization to national independence.",
+   "traditions": [
+    {
+     "title": "Ceremonies at the Opera House",
+     "text": "August Revolution Square in front of the Hanoi Opera House — where the historic rally of August 19, 1945 took place."
+    },
+    {
+     "title": "Parades and flags",
+     "text": "Streets hang the national flag; round-number years bring large parades."
+    },
+    {
+     "title": "Traditional activities",
+     "text": "August 19 is also the traditional day of the People's Public Security force — many events mark both."
+    }
+   ],
+   "wishes": [
+    "Proud of August! May the nation forever keep the flag of independence raised then.",
+    "August 19 — remembering the day Hanoi rose; wishing the land everlasting peace.",
+    "The August Revolution teaches: when a nation rises, nothing can stop it — a meaningful anniversary.",
+    "May today's youth be worthy of those who won back the country in 1945.",
+    "Another August 19 — respectfully offering gratitude to those who went before."
+   ],
+   "gifts": [
+    {
+     "title": "Books on the August Revolution",
+     "text": "Material on the General Uprising, Tân Trào and the historic days of late August 1945."
+    },
+    {
+     "title": "Opera House visit",
+     "text": "A trip to August Revolution Square — the site of the August 19 rally."
+    },
+    {
+     "title": "Hanoi 1945 photo sets",
+     "text": "Black-and-white archival photos of the day Hanoi seized power — a gift for history lovers."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 8,
+    "day": 19
+   },
+   "nextOccurrence": "2027-08-18",
+   "occurrenceThisYear": "2026-08-18"
+  },
+  {
+   "slug": "ngay-giai-phong-thu-do",
+   "locale": "en",
+   "name": "Hanoi Liberation Day",
+   "dateMark": "10·10",
+   "displayDate": "October 10",
+   "categories": [
+    "quoc-gia"
+   ],
+   "tagline": "The day the red flag with gold star flew again over Hanoi's citadel.",
+   "meaning": "The day Hanoi returned to the nation's hands — closing one page of history to open a new one for the capital and the country.",
+   "traditions": [
+    {
+     "title": "Ceremonies in Hanoi",
+     "text": "Round-number years (60th, 70th) bring state ceremonies with parades and street festivals."
+    },
+    {
+     "title": "Streets ablaze with flags",
+     "text": "Hanoi's streets turn red with flags; the Flag Tower is the traditional photo spot."
+    },
+    {
+     "title": "'Hanoi remembers' exhibitions",
+     "text": "The Hanoi Museum and universities open photo exhibitions about the takeover of October 10, 1954."
+    }
+   ],
+   "wishes": [
+    "October 10 — may Hanoi forever be the nation's proud heart.",
+    "Remembering the day flags covered every street — wishing the capital more flowers, the country more peace.",
+    "Hanoi Liberation Day — gratitude to the soldiers who took over the city that year.",
+    "May thousand-year Hanoi keep its elegance and serenity.",
+    "Proud to be a child of the capital — a meaningful October 10."
+   ],
+   "gifts": [
+    {
+     "title": "Books and old maps of Hanoi",
+     "text": "Material on the takeover, 1954 maps of Hanoi, archival photos of the five gates."
+    },
+    {
+     "title": "Visit the Flag Tower",
+     "text": "The Kỳ đài inside the Thăng Long Imperial Citadel — where the flag rose on October 10."
+    },
+    {
+     "title": "October 10 art programs",
+     "text": "Tickets to concerts, plays and film screenings marking Liberation Day."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 10,
+    "day": 10
+   },
+   "nextOccurrence": "2027-10-09",
+   "occurrenceThisYear": "2026-10-09"
   }
  ]
 }

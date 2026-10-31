@@ -1796,5 +1796,240 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "source": "Wikimedia Commons",
       "alt": "\"Five coloured papers\" placed on the mound of a grave in Bukit Brown Cemetery, Singapore, during Qingming Festival. Ther"
     }
+  ],
+  "ngay-thanh-lap-dang": [
+    {
+      "file": "ngay-thanh-lap-dang/hero.webp",
+      "photographer": "Duykien",
+      "profile": "https://commons.wikimedia.org/wiki/File:Capture_communist_flags_in_Long_Hai_hills,_1968.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Capture_communist_flags_in_Long_Hai_hills,_1968.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "The flags of Vietnam People's Revolutionary Party and Vietnam People's Revolutionary Youth Union, both used since 1962 t"
+    },
+    {
+      "file": "ngay-thanh-lap-dang/card.webp",
+      "photographer": "Vuong Tri Binh",
+      "profile": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Communist_Party_of_Vietnam_at_the_Dien_Bien_Phu_street_in_2015_01.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Communist_Party_of_Vietnam_at_the_Dien_Bien_Phu_street_in_2015_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Flag of the Communist Party of Vietnam at the Dien Bien Phu street in 2015."
+    },
+    {
+      "file": "ngay-thanh-lap-dang/gallery1.webp",
+      "photographer": "Vuong Tri Binh",
+      "profile": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Communist_Party_of_Vietnam_at_the_Dien_Bien_Phu_street_in_2015_02.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Communist_Party_of_Vietnam_at_the_Dien_Bien_Phu_street_in_2015_02.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Flag of the Communist Party of Vietnam at the Dien Bien Phu street in 2015."
+    },
+    {
+      "file": "ngay-thanh-lap-dang/gallery2.webp",
+      "photographer": "Jp16103",
+      "profile": "https://commons.wikimedia.org/wiki/File:Communist_Party_of_Vietnam_Poster_in_Hanoi.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Communist_Party_of_Vietnam_Poster_in_Hanoi.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Communist Party of Vietnam Poster in Hanoi: Text Reads: HÀ NỘI - THÀNH PHỐ VÌ HOÀ BÌNH"
+    },
+    {
+      "file": "ngay-thanh-lap-dang/gallery3.webp",
+      "photographer": "Orignal SVG see File:Flag of Vietnam.svg, Animation: MichaelFrey (talk)",
+      "profile": "https://commons.wikimedia.org/wiki/File:Flag_of_Vietnam-Animated.gif",
+      "photo": "https://commons.wikimedia.org/wiki/File:Flag_of_Vietnam-Animated.gif",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Flag of Vietnam, Plag of Vietnam"
+    }
+  ],
+  "ngay-dien-bien-phu": [
+    {
+      "file": "ngay-dien-bien-phu/hero.webp",
+      "photographer": "Pilip from Hanoi, Vietnam",
+      "profile": "https://commons.wikimedia.org/wiki/File:Dien_Bien_Phu,_statue.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Dien_Bien_Phu,_statue.jpg",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Weekend dans ce lieu historique. Au programme, beau temps, rencontres, moto, et un peu d'histoire."
+    },
+    {
+      "file": "ngay-dien-bien-phu/card.webp",
+      "photographer": "Ioe2015",
+      "profile": "https://commons.wikimedia.org/wiki/File:The_Victory_Monument_of_Dien_Bien_Phu_(front).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:The_Victory_Monument_of_Dien_Bien_Phu_(front).jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Front view of The Victory Monument of Dien Bien Phu, Dien Bien, Vietnam"
+    },
+    {
+      "file": "ngay-dien-bien-phu/gallery1.webp",
+      "photographer": "Ioe2015",
+      "profile": "https://commons.wikimedia.org/wiki/File:The_Victory_Monument_of_Dien_Bien_Phu_(far).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:The_Victory_Monument_of_Dien_Bien_Phu_(far).jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "The Victory Monument of Dien Bien Phu from afar"
+    },
+    {
+      "file": "ngay-dien-bien-phu/gallery2.webp",
+      "photographer": "Ioe2015",
+      "profile": "https://commons.wikimedia.org/wiki/File:The_Victory_Monument_of_Dien_Bien_Phu_(front)_v2.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:The_Victory_Monument_of_Dien_Bien_Phu_(front)_v2.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Front view of The Victory Monument of Điện Biên Phủ, Điện Biên, Vietnam"
+    },
+    {
+      "file": "ngay-dien-bien-phu/gallery3.webp",
+      "photographer": "Adam Jones from Kelowna, BC, Canada",
+      "profile": "https://commons.wikimedia.org/wiki/File:Detail_of_Victory_Monument_-_Dien_Bien_Phu_-_Vietnam_(48159143826).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Detail_of_Victory_Monument_-_Dien_Bien_Phu_-_Vietnam_(48159143826).jpg",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Detail of Victory Monument - Dien Bien Phu - Vietnam"
+    }
+  ],
+  "ngay-sinh-nhat-bac": [
+    {
+      "file": "ngay-sinh-nhat-bac/hero.webp",
+      "photographer": "Gregor Dodson",
+      "profile": "https://commons.wikimedia.org/wiki/File:Ho_chi_minh_mausoleum.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Ho_chi_minh_mausoleum.jpg",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Ho Chi Minh Mausoleum"
+    },
+    {
+      "file": "ngay-sinh-nhat-bac/card.webp",
+      "photographer": "CEphoto, Uwe Aranas",
+      "profile": "https://commons.wikimedia.org/wiki/File:Hanoi_Vietnam_Mausoleum-of-Ho-Chi-Minh-01.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Hanoi_Vietnam_Mausoleum-of-Ho-Chi-Minh-01.jpg",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "Hanoi, Vietnam: Mausoleum of Ho Chi Minh"
+    },
+    {
+      "file": "ngay-sinh-nhat-bac/gallery1.webp",
+      "photographer": "CEphoto, Uwe Aranas",
+      "profile": "https://commons.wikimedia.org/wiki/File:Hanoi_Vietnam_Mausoleum-of-Ho-Chi-Minh-02.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Hanoi_Vietnam_Mausoleum-of-Ho-Chi-Minh-02.jpg",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "Hanoi, Vietnam: Soldiers on guard at the mausoleum of Ho Chi Minh and two gardeners taking care of the adjacent park"
+    },
+    {
+      "file": "ngay-sinh-nhat-bac/gallery2.webp",
+      "photographer": "CEphoto, Uwe Aranas",
+      "profile": "https://commons.wikimedia.org/wiki/File:Hanoi_Vietnam_Mausoleum-of-Ho-Chi-Minh-03.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Hanoi_Vietnam_Mausoleum-of-Ho-Chi-Minh-03.jpg",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "Hanoi, Vietnam: Mausoleum of Ho Chi Minh. View from park side."
+    },
+    {
+      "file": "ngay-sinh-nhat-bac/gallery3.webp",
+      "photographer": "Syced",
+      "profile": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_mausoleum_in_2003.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_mausoleum_in_2003.jpg",
+      "license": "CC0",
+      "source": "Wikimedia Commons",
+      "alt": "Ho Chi Minh mausoleum in 2003"
+    }
+  ],
+  "ngay-cach-mang-thang-tam": [
+    {
+      "file": "ngay-cach-mang-thang-tam/hero.webp",
+      "photographer": "Adam Jones Adam63",
+      "profile": "https://commons.wikimedia.org/wiki/File:Opera_House_-_Hanoi_-_Vietnam.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:Opera_House_-_Hanoi_-_Vietnam.JPG",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "Opera House, Hanoi, Vietnam. June 2009."
+    },
+    {
+      "file": "ngay-cach-mang-thang-tam/card.webp",
+      "photographer": "Benoît Prieur",
+      "profile": "https://commons.wikimedia.org/wiki/File:Hanoi_Opera_House_-_2003.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Hanoi_Opera_House_-_2003.jpg",
+      "license": "CC0",
+      "source": "Wikimedia Commons",
+      "alt": "Hanoi Opera House."
+    },
+    {
+      "file": "ngay-cach-mang-thang-tam/gallery1.webp",
+      "photographer": "Nam-ho Park",
+      "profile": "https://commons.wikimedia.org/wiki/File:Hanoi_Opera_House_-_detail.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Hanoi_Opera_House_-_detail.jpg",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Hanoi Opera House"
+    },
+    {
+      "file": "ngay-cach-mang-thang-tam/gallery2.webp",
+      "photographer": "Dennis G. Jarvis",
+      "profile": "https://commons.wikimedia.org/wiki/File:Hanoi_Opera_House_1.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Hanoi_Opera_House_1.jpg",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Hanoi Opera House"
+    },
+    {
+      "file": "ngay-cach-mang-thang-tam/gallery3.webp",
+      "photographer": "Schwede66",
+      "profile": "https://commons.wikimedia.org/wiki/File:Hanoi_Opera_House_15.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:Hanoi_Opera_House_15.JPG",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "Hanoi Opera House in December 2012."
+    }
+  ],
+  "ngay-giai-phong-thu-do": [
+    {
+      "file": "ngay-giai-phong-thu-do/hero.webp",
+      "photographer": "Chinasaur",
+      "profile": "https://commons.wikimedia.org/wiki/File:Flag_tower,_Hanoi.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Flag_tower,_Hanoi.jpg",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Flag tower at the site of the Military History Museum, Hanoi. This tower was built in 1812. Since the current flag of th"
+    },
+    {
+      "file": "ngay-giai-phong-thu-do/card.webp",
+      "photographer": "Jorge Láscar from Australia",
+      "profile": "https://commons.wikimedia.org/wiki/File:Lascar_Flag_Tower_of_Hanoi_(4550324293).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Lascar_Flag_Tower_of_Hanoi_(4550324293).jpg",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "The Flag Tower of Hanoi is a tower in Hanoi, Vietnam, which is one of the symbols of the city. Its height is 33.4 m (41 "
+    },
+    {
+      "file": "ngay-giai-phong-thu-do/gallery1.webp",
+      "photographer": "Vuong Tri Binh",
+      "profile": "https://commons.wikimedia.org/wiki/File:Flag_Tower_of_Hanoi_viewed_from_the_museum_in_2014.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Flag_Tower_of_Hanoi_viewed_from_the_museum_in_2014.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "The Flag Tower of Hanoi viewed from the museum in 2014."
+    },
+    {
+      "file": "ngay-giai-phong-thu-do/gallery2.webp",
+      "photographer": "Richard Mortel from Riyadh, Saudi Arabia",
+      "profile": "https://commons.wikimedia.org/wiki/File:Flag_Tower_of_Hanoi,_1812_(2)_(37608528975).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Flag_Tower_of_Hanoi,_1812_(2)_(37608528975).jpg",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Flag Tower of Hanoi, 1812 (2)"
+    },
+    {
+      "file": "ngay-giai-phong-thu-do/gallery3.webp",
+      "photographer": "Richard Mortel from Riyadh, Saudi Arabia",
+      "profile": "https://commons.wikimedia.org/wiki/File:Flag_Tower_of_Hanoi,_1812_(3)_(37608503235).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Flag_Tower_of_Hanoi,_1812_(3)_(37608503235).jpg",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Flag Tower of Hanoi, 1812 (3)"
+    }
   ]
 };

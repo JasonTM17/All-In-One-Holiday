@@ -234,6 +234,44 @@ export const stories: Record<string, StoryEntry> = {
     ],
     story: { title: "Người dám bắt đầu", body: "Năm 2004, Nhà nước chọn 13/10 làm ngày riêng cho doanh nhân — lần đầu trong lịch sử, nghề buôn được công nhận là một vai trò xây dựng đất nước. Từ quán cà phê hẻm nhỏ đến công ty công nghệ xuất khẩu, mỗi doanh nhân Việt đều mang một câu chuyện bắt đầu: có người bỏ việc nhà nước năm đổi mới, có người khởi nghiệp từ phòng trọ sinh viên. Ngày Doanh nhân là lời nhắc rằng thương trường không chỉ là tiền — mà là việc làm cho hàng trăm gia đình, là chữ tín trên hóa đơn, là khi dám chịu trách nhiệm với cả một đội ngũ." },
   },
-  
-
+  "ngay-thanh-lap-dang": {
+    sources: [
+      { outlet: "Wikipedia", title: "Đảng Cộng sản Việt Nam", url: "https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam", summary: "Toàn cảnh lịch sử Đảng — từ hội nghị hợp nhất 1930 qua các lần đổi tên và các kỳ đại hội." },
+      { outlet: "Wikipedia", title: "Nguyễn Ái Quốc", url: "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_%C3%81i_Qu%E1%BB%91c", summary: "Người chủ trì hội nghị hợp nhất — phái viên Quốc tế Cộng sản từ Xiêm về Hồng Kông đầu năm 1930." },
+      { outlet: "Đảng Cộng sản Việt Nam", title: "Cổng thông tin điện tử", url: "https://dangcongsan.vn/", summary: "Trang tin chính thức của Đảng — nguồn tư liệu về lịch sử và các kỳ kỷ niệm ngày thành lập." },
+    ],
+    story: { title: "Căn phòng ở Cửu Long", body: "Đầu năm 1930, trong một căn phòng thuê ở Cửu Long, Nguyễn Ái Quốc đặt ba phái đoàn cộng sản đang cãi nhau về đường lối ngồi vào một bàn. Câu hỏi đặt ra chỉ một: hay là cùng một tổ chức? Ngày 3/2, ba dòng chảy ấy hợp thành một — Đảng Cộng sản Việt Nam ra đời, với Chính cương vắn tắt ông soạn đêm trước. Từ căn phòng nước ngoài ấy, một đường dài bắt đầu: năm tháng sau Đảng đổi tên Đông Dương, mười lăm năm sau là Tổng khởi nghĩa tháng Tám. Ngày 3/2 hằng năm, người ta nhắc lại căn phòng nhỏ nơi lịch sử rẽ hướng." },
+  },
+  "ngay-dien-bien-phu": {
+    sources: [
+      { outlet: "Wikipedia", title: "Chiến dịch Điện Biên Phủ", url: "https://vi.wikipedia.org/wiki/Chi%E1%BA%BFn_d%E1%BB%8Bch_%C4%90i%E1%BB%87n_Bi%C3%AAn_Ph%E1%BB%A7", summary: "56 ngày đêm của chiến dịch — từ trận mở màn đồn Beatrice đến lá cờ trên nóc hầm De Castries." },
+      { outlet: "Wikipedia", title: "Võ Nguyên Giáp", url: "https://vi.wikipedia.org/wiki/V%C3%B5_Nguy%C3%AAn_Gi%C3%A1p", summary: "Đại tướng chỉ huy chiến dịch — từ nhà giáo dạy sử đến tư lệnh trận quyết chiến chiến lược." },
+      { outlet: "Wikipedia", title: "Hiệp định Genève 1954", url: "https://vi.wikipedia.org/wiki/Hi%E1%BB%87p_%C4%91%E1%BB%8Bnh_Gen%C3%A8ve,_1954", summary: "Hiệp định kết thúc chiến tranh Đông Dương — được ký sau khi Điện Biên Phủ thất thủ." },
+    ],
+    story: { title: "Đường kéo pháo qua rừng", body: "Người Pháp tính rằng không ai đưa pháo lớn qua được những con đèo Tây Bắc. Họ không tính đến hàng trăm nghìn vai người: dân công gùi gạo, xe đạp thồ chở đạn, đội kéo pháo lê từng mét qua đêm mưa đất đỏ. Đến khi trận mở màn nổ 13/3/1954, pháo Việt Minh đã ngắm thẳng xuống lưu vực từ bốn phía núi. 56 ngày đêm sau, chiều 7/5, lá cờ 'Quyết chiến quyết thắng' tung trên nóc hầm De Castries — và thế giới bắt đầu gọi đó là 'Điện Biên Phủ'. Ngày ấy là bằng chứng: bàn tay trần có thể chuyển cả núi." },
+  },
+  "ngay-sinh-nhat-bac": {
+    sources: [
+      { outlet: "Wikipedia", title: "Hồ Chí Minh", url: "https://vi.wikipedia.org/wiki/H%E1%BB%93_Ch%C3%AD_Minh", summary: "Cuộc đời Người — từ làng Hoàng Trù, Nghệ An đến ba mươi năm bôn ba tìm đường cứu nước." },
+      { outlet: "Wikipedia", title: "Lăng Chủ tịch Hồ Chí Minh", url: "https://vi.wikipedia.org/wiki/L%C4%83ng_Ch%E1%BB%A7_t%E1%BB%8Bch_H%E1%BB%93_Ch%C3%AD_Minh", summary: "Nơi hàng vạn người vào viếng mỗi dịp 19/5 — công trình khánh thành 1975 tại quảng trường Ba Đình." },
+      { outlet: "Wikipedia", title: "Bảo tàng Hồ Chí Minh", url: "https://vi.wikipedia.org/wiki/B%E1%BA%A3o_t%C3%A0ng_H%E1%BB%93_Ch%C3%AD_Minh", summary: "Bảo tàng lớn nhất về Người — nơi lưu giữ tư liệu cuộc đời và sự nghiệp cách mạng." },
+    ],
+    story: { title: "Chuyến đò rời Bến Nhà Rồng", body: "Sáng 5/6/1911, một phụ bếp trẻ 21 tuổi tên Văn Ba bước lên tàu Amiral Latouche-Tréville rời Sài Gòn — mang theo vài đồng tiền tiết kiệm và một câu hỏi lớn: làm sao để đất nước được độc lập? Ba mươi năm sau người ấy trở về với cái tên Hồ Chí Minh, và thế giới biết đến ông như biểu tượng của cả một dân tộc. Mỗi 19/5, từ trường làng đến thành phố, người Việt nhắc nhau câu chuyện chuyến đò năm ấy — rằng một người đi tìm đường, và cả dân tộc theo sau." },
+  },
+  "ngay-cach-mang-thang-tam": {
+    sources: [
+      { outlet: "Wikipedia", title: "Cách mạng tháng Tám", url: "https://vi.wikipedia.org/wiki/C%C3%A1ch_m%E1%BA%A1ng_th%C3%A1ng_T%C3%A1m", summary: "Tổng khởi nghĩa 14–25/8/1945 — cuộc cách mạng giành chính quyền trên cả nước gần như không đổ máu." },
+      { outlet: "Wikipedia", title: "Việt Minh", url: "https://vi.wikipedia.org/wiki/Vi%E1%BB%87t_Minh", summary: "Mặt trận đoàn kết dẫn đầu Tổng khởi nghĩa — từ căn cứ Tân Trào ra lệnh khởi nghĩa toàn quốc." },
+      { outlet: "Wikipedia", title: "Tuyên ngôn độc lập", url: "https://vi.wikipedia.org/wiki/Tuy%C3%AAn_ng%C3%B4n_%C4%91%E1%BB%99c_l%E1%BA%ADp_(Vi%E1%BB%87t_Nam_D%C3%A2n_ch%E1%BB%A7_C%E1%BB%99ng_h%C3%B2a)", summary: "Bản Tuyên ngôn 2/9/1945 — lời kết tinh của Cách mạng tháng Tám tại quảng trường Ba Đình." },
+    ],
+    story: { title: "Buổi trưa quảng trường Nhà hát Lớn", body: "Trưa 19/8/1945, quảng trường trước Nhà hát Lớn chật kín người. Cờ đỏ sao vàng phủ lên dòng người, khẩu hiệu vang từng đợt. Chỉ vài giờ sau, đoàn quân cách mạng tiến vào Ty Bắc bộ — trung tâm quyền lực thực dân ở Bắc Kỳ — và lá cờ Việt Minh thay cờ cũ trên nóc tòa nhà. Gần như không một viên đạn. Từ Hà Nội, sóng khởi nghĩa lan ra Huế, Sài Gòn; hai tuần sau vua Bảo Đại thoái vị. Người Hà Nội kể lại: hôm ấy cả thành phố như cùng đứng dậy một lúc." },
+  },
+  "ngay-giai-phong-thu-do": {
+    sources: [
+      { outlet: "Wikipedia", title: "Giải phóng Thủ đô", url: "https://vi.wikipedia.org/wiki/Gi%E1%BA%A3i_ph%C3%B3ng_Th%E1%BB%A7_%C4%91%C3%B4", summary: "Ngày 10/10/1954 — quân tiếp quản vào Hà Nội qua năm cửa ô sau Hiệp định Genève." },
+      { outlet: "Wikipedia", title: "Chiến tranh Đông Dương", url: "https://vi.wikipedia.org/wiki/Chi%E1%BA%BFn_tranh_%C4%90%C3%B4ng_D%C6%B0%C6%A1ng", summary: "Chín năm kháng chiến 1946–1954 kết thúc bằng ngày tiếp quản Thủ đô." },
+      { outlet: "Wikipedia", title: "Hà Nội", url: "https://vi.wikipedia.org/wiki/H%C3%A0_N%E1%BB%99i", summary: "Thủ đô ngàn năm — nơi ngày 10/10 trở thành một trong những dấu son lớn nhất của thành phố." },
+    ],
+    story: { title: "Năm cửa ô một buổi sáng", body: "Sáng 10/10/1954, cùng một giờ, quân đội tiến vào Hà Nội từ năm hướng: Cầu Giấy, Ô Cầu Dền, Hàng Đậu, Long Biên, Bạch Mai. Người dân đứng hai bên đường từ trước bình minh, tay cầm hoa, mắt đỏ vì chờ đợi chín năm. Chiều hôm ấy, trước sân vận động Cộng hòa, lá cờ đỏ sao vàng chậm rãi kéo lên cột cờ thành — người già thấy lại lá cờ họ từng chào năm 1945, người trẻ lần đầu được thấy Thủ đô hoàn toàn của mình. Ngày ấy, Hà Nội chính thức về nhà." },
+  },
 };
