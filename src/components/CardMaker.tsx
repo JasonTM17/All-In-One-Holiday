@@ -2,7 +2,15 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useSearchParams } from "next/navigation";
-import { holidays } from "@/data/holidays";
+
+/** Slim per-holiday shape the card maker needs (serialized from the server page). */
+export interface CardHoliday {
+  slug: string;
+  name: string;
+  dateMark: string;
+  wishes: string[];
+  theme: { from: string; to: string };
+}
 
 const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 const SIZES = [
@@ -41,13 +49,13 @@ const wrapText = (
   return lines.slice(0, 8);
 };
 
-export default function CardMaker() {
+export default function CardMaker({ items }: { items: CardHoliday[] }) {
   const params = useSearchParams();
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const imgRef = useRef<HTMLImageElement | null>(null);
 
   const [slug, setSlug] = useState(
-    () => params.get("holiday") ?? holidays[0]?.slug ?? "",
+    () => params.get("holiday") ?? items[0]?.slug ?? "",
   );
   const [tplId, setTplId] = useState(() => Number(params.get("t") ?? 0) || 0);
   const [sizeId, setSizeId] = useState<(typeof SIZES)[number]["id"]>("portrait");
@@ -58,8 +66,8 @@ export default function CardMaker() {
   const [copied, setCopied] = useState(false);
 
   const h = useMemo(
-    () => holidays.find((x) => x.slug === slug) ?? holidays[0],
-    [slug],
+    () => items.find((x) => x.slug === slug) ?? items[0],
+    [items, slug],
   );
   const tpl: Tpl = TEMPLATES[tplId] ?? TEMPLATES[0];
   const size = SIZES.find((s) => s.id === sizeId) ?? SIZES[0];
@@ -259,7 +267,7 @@ export default function CardMaker() {
             onChange={(e) => setSlug(e.target.value)}
             className="mt-1 w-full rounded-xl border border-[var(--color-line)] bg-[var(--color-card)] px-3 py-2.5 text-[var(--color-ink)] outline-none focus:border-[var(--color-brand)]"
           >
-            {holidays.map((x) => (
+            {items.map((x) => (
               <option key={x.slug} value={x.slug}>
                 {x.name}
               </option>
@@ -277,7 +285,7 @@ export default function CardMaker() {
                 aria-pressed={tplId === t.id}
                 className={`min-h-11 rounded-xl px-3 text-xs font-bold transition focus-visible:outline-2 ${
                   tpl.id === t.id
-                    ? "bg-[var(--color-brand)] text-white"
+                    ? "bg-[var(--color-brand)] text-[var(--color-on-brand)]"
                     : "border border-[var(--color-line)] hover:bg-[var(--color-soft)]"
                 }`}
               >
@@ -348,7 +356,7 @@ export default function CardMaker() {
                 aria-pressed={sizeId === s.id}
                 className={`min-h-11 rounded-xl px-3 text-xs font-bold transition focus-visible:outline-2 ${
                   sizeId === s.id
-                    ? "bg-[var(--color-brand)] text-white"
+                    ? "bg-[var(--color-brand)] text-[var(--color-on-brand)]"
                     : "border border-[var(--color-line)] hover:bg-[var(--color-soft)]"
                 }`}
               >
@@ -360,7 +368,7 @@ export default function CardMaker() {
             type="button"
             onClick={download}
             data-testid="thiep-download"
-            className="min-h-11 rounded-full bg-[var(--color-brand)] px-5 text-sm font-bold text-white hover:bg-[var(--color-brand-deep)] focus-visible:outline-2"
+            className="min-h-11 rounded-full bg-[var(--color-brand)] px-5 text-sm font-bold text-[var(--color-on-brand)] hover:bg-[var(--color-brand-deep)] focus-visible:outline-2"
           >
             Tải PNG
           </button>

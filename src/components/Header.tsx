@@ -35,7 +35,7 @@ export default function Header() {
           <PwaRegister />
           <Link
             href="/birthday/"
-            className="inline-flex min-h-11 items-center rounded-full bg-[var(--color-brand-deep)] px-5 py-2.5 text-sm font-bold text-white transition-colors hover:brightness-110"
+            className="inline-flex min-h-11 items-center rounded-full bg-[var(--color-brand-deep)] px-5 py-2.5 text-sm font-bold text-[var(--color-on-brand)] transition-colors hover:brightness-110"
           >
             Tạo thiệp sinh nhật
           </Link>

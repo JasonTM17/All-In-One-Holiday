@@ -2,12 +2,15 @@
 import { heroSrcSet } from "./HImg";
 
 import { useMemo, useState } from "react";
+import dynamic from "next/dynamic";
 import { useRouter, useSearchParams } from "next/navigation";
 import { nextBirthday, turningAge, daysUntil } from "@/lib/dates";
 import { formatFull } from "@/lib/format";
-import Confetti from "./Confetti";
 import CopyButton from "./CopyButton";
 import Motif from "./Motif";
+
+// Purely decorative — loaded after hydration, only when a card is shown.
+const Confetti = dynamic(() => import("./Confetti"), { ssr: false });
 
 const THEMES = [
   { key: "hoa-hong", label: "Hoa hồng", from: "#be123c", to: "#7c3aed" },
@@ -166,7 +169,7 @@ export default function BirthdayCard() {
           <button
             type="button"
             onClick={() => router.push("/birthday/")}
-            className="min-h-11 rounded-full bg-[var(--color-brand)] px-6 py-2.5 text-sm font-bold text-white hover:bg-[var(--color-brand-deep)]"
+            className="min-h-11 rounded-full bg-[var(--color-brand)] px-6 py-2.5 text-sm font-bold text-[var(--color-on-brand)] hover:bg-[var(--color-brand-deep)]"
           >
             Tạo thiệp khác
           </button>
@@ -286,7 +289,7 @@ export default function BirthdayCard() {
         )}
         <button
           type="submit"
-          className="min-h-12 w-full rounded-full bg-[var(--color-brand)] py-3 font-bold text-white transition-colors hover:bg-[var(--color-brand-deep)]"
+          className="min-h-12 w-full rounded-full bg-[var(--color-brand)] py-3 font-bold text-[var(--color-on-brand)] transition-colors hover:bg-[var(--color-brand-deep)]"
         >
           Tạo thiệp
         </button>

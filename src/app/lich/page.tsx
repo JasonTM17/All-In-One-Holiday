@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Calendar from "@/components/Calendar";
+import { holidays } from "@/data/holidays";
 import { siteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -25,7 +26,15 @@ export default function LichPage() {
         Ngày dương, ngày âm và tất cả lễ hội trong năm — lọc theo loại hoặc đăng ký cả lịch về máy.
       </p>
       <div className="mt-8">
-        <Calendar />
+        <Calendar
+          items={holidays.map((h) => ({
+            slug: h.slug,
+            name: h.name,
+            categories: h.categories,
+            rule: h.rule,
+            theme: { from: h.theme.from },
+          }))}
+        />
       </div>
     </section>
   );

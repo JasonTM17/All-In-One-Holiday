@@ -1,13 +1,8 @@
 import type { DateRule } from "../lib/dates.js";
+import type { HolidayCategory } from "./categories";
 
-export type HolidayCategory = "phu-nu" | "quoc-gia" | "truyen-thong" | "quoc-te";
-
-export const CATEGORY_LABELS: Record<HolidayCategory, string> = {
-  "phu-nu": "Phụ nữ",
-  "quoc-gia": "Quốc gia",
-  "truyen-thong": "Truyền thống",
-  "quoc-te": "Quốc tế",
-};
+export type { HolidayCategory } from "./categories";
+export { CATEGORY_LABELS } from "./categories";
 
 export interface HolidayTheme {
   /** CSS gradient stops for the hero */

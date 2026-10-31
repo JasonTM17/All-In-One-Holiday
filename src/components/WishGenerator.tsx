@@ -1,13 +1,18 @@
 "use client";
 
 import { useState } from "react";
-import type { Holiday } from "@/data/holidays";
-import { TONE_LABEL, makeWishes, tonesFor, type Tone } from "@/lib/wishes-gen";
+import {
+  TONE_LABEL,
+  makeWishes,
+  tonesFor,
+  type Tone,
+  type WishHoliday,
+} from "@/lib/wishes-gen";
 import CopyButton from "./CopyButton";
 
 const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
-export default function WishGenerator({ holiday }: { holiday: Holiday }) {
+export default function WishGenerator({ holiday }: { holiday: WishHoliday }) {
   const tones = tonesFor(holiday);
   const [tone, setTone] = useState<Tone>(tones[0]);
   const [name, setName] = useState("");
@@ -25,7 +30,7 @@ export default function WishGenerator({ holiday }: { holiday: Holiday }) {
             aria-pressed={tone === t}
             className={`min-h-11 rounded-full px-4 text-sm font-bold transition focus-visible:outline-2 ${
               tone === t
-                ? "bg-[var(--color-brand)] text-white"
+                ? "bg-[var(--color-brand)] text-[var(--color-on-brand)]"
                 : "border border-[var(--color-line)] hover:bg-[var(--color-soft)]"
             }`}
           >

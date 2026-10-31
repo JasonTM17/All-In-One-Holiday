@@ -6,19 +6,46 @@ const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
 type BipEvent = Event & { prompt: () => Promise<void> };
 
-/** Registers sw.js; shows "Cài đặt ứng dụng" only when the browser offers install. */
+const onIdle = (cb: () => void) => {
+  const ric = (
+    window as {
+      requestIdleCallback?: (
+        cb: () => void,
+        opts?: { timeout: number },
+      ) => number;
+    }
+  ).requestIdleCallback;
+  if (ric) ric(cb, { timeout: 4000 });
+  else window.setTimeout(cb, 2000);
+};
+
+/**
+ * Shows "Cài đặt ứng dụng" only when the browser offers install.
+ * Service-worker registration is deferred to post-load idle time so it never
+ * competes with first paint or hydration.
+ */
 export default function PwaRegister() {
   const [installEvt, setInstallEvt] = useState<BipEvent | null>(null);
 
   useEffect(() => {
-    if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register(`${BASE}/sw.js`, { scope: `${BASE}/` }).catch(() => {});
-    }
     const onBip = (e: Event) => {
       e.preventDefault();
       setInstallEvt(e as BipEvent);
     };
     window.addEventListener("beforeinstallprompt", onBip);
+
+    const register = () => {
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker
+          .register(`${BASE}/sw.js`, { scope: `${BASE}/` })
+          .catch(() => {});
+      }
+    };
+    if (document.readyState === "complete") {
+      onIdle(register);
+    } else {
+      window.addEventListener("load", () => onIdle(register), { once: true });
+    }
     return () => window.removeEventListener("beforeinstallprompt", onBip);
   }, []);
 

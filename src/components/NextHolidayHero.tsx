@@ -76,7 +76,7 @@ export default function NextHolidayHero({
             <RuleCountdown rule={next.item.rule} />
             <Link
               href={`/${next.item.slug}/`}
-              className="mt-auto inline-flex w-fit items-center gap-2 rounded-full bg-white/95 px-5 py-2.5 text-sm font-bold text-[var(--color-brand-deep)] transition-transform hover:scale-[1.03]"
+              className="mt-auto inline-flex w-fit items-center gap-2 rounded-full bg-white/95 px-5 py-2.5 text-sm font-bold text-[var(--color-brand-ink)] transition-transform hover:scale-[1.03]"
             >
               Xem chi tiết →
             </Link>

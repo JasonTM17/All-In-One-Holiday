@@ -1,7 +1,8 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { holidays, type HolidayCategory } from "@/data/holidays";
+import type { HolidayCategory } from "@/data/categories";
+import type { DateRule } from "@/lib/dates";
 import { occurrenceInYear, solarToLunar } from "@/lib/dates";
 
 const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
@@ -14,14 +15,23 @@ const CATS: { id: HolidayCategory | "all"; label: string }[] = [
   { id: "phu-nu", label: "Phụ nữ" },
 ];
 
+/** Slim per-holiday shape the calendar needs (serialized from the server page). */
+export interface CalItem {
+  slug: string;
+  name: string;
+  categories: HolidayCategory[];
+  rule: DateRule;
+  theme: { from: string };
+}
+
 type DayCell = {
   date: Date;
   inMonth: boolean;
   lunar: { month: number; day: number };
-  hols: typeof holidays;
+  hols: CalItem[];
 };
 
-export default function Calendar() {
+export default function Calendar({ items }: { items: CalItem[] }) {
   const today = new Date();
   const [year, setYear] = useState(today.getFullYear());
   const [month, setMonth] = useState(today.getMonth());
@@ -30,8 +40,8 @@ export default function Calendar() {
   const weeks = useMemo(() => {
     const first = new Date(year, month, 1);
     const start = new Date(year, month, 1 - first.getDay());
-    const map = new Map<string, typeof holidays>();
-    for (const h of holidays) {
+    const map = new Map<string, CalItem[]>();
+    for (const h of items) {
       if (cat !== "all" && !h.categories.includes(cat)) continue;
       for (const y of [year - 1, year, year + 1]) {
         const d = occurrenceInYear(h.rule, y);
@@ -54,7 +64,7 @@ export default function Calendar() {
       out.push(row);
     }
     return out;
-  }, [year, month, cat]);
+  }, [items, year, month, cat]);
 
   const agenda = useMemo(
     () => weeks.flat().filter((c) => c.inMonth && c.hols.length > 0),
@@ -110,7 +120,7 @@ export default function Calendar() {
         <a
           href={`${BASE}/ngay-le-viet.ics`}
           download
-          className="min-h-11 rounded-xl bg-[var(--color-brand)] px-4 py-3 text-sm font-bold text-white hover:brightness-110 focus-visible:outline-2"
+          className="min-h-11 rounded-xl bg-[var(--color-brand)] px-4 py-3 text-sm font-bold text-[var(--color-on-brand)] hover:brightness-110 focus-visible:outline-2"
         >
           Đăng ký lịch (.ics)
         </a>
@@ -123,7 +133,7 @@ export default function Calendar() {
               aria-pressed={cat === c.id}
               className={`min-h-11 rounded-full px-3 text-xs font-bold transition focus-visible:outline-2 ${
                 cat === c.id
-                  ? "bg-[var(--color-brand)] text-white"
+                  ? "bg-[var(--color-brand)] text-[var(--color-on-brand)]"
                   : "border border-[var(--color-line)] hover:bg-[var(--color-soft)]"
               }`}
             >

@@ -1,4 +1,4 @@
-import type { Holiday } from "@/data/holidays";
+import type { Holiday } from "../data/holidays.js";
 
 /** Normalize Vietnamese text for diacritic-insensitive matching. */
 export function fold(s: string): string {
@@ -11,17 +11,26 @@ export function fold(s: string): string {
     .trim();
 }
 
-export type SearchHit = {
-  holiday: Holiday;
+/** The minimal holiday shape the search index (and the palette) needs. */
+export type Searchable = Pick<
+  Holiday,
+  "slug" | "name" | "dateMark" | "displayDate" | "tagline" | "wishes"
+> & { theme: Pick<Holiday["theme"], "from" | "to"> };
+
+export type SearchHit<T extends Searchable = Searchable> = {
+  holiday: T;
   score: number;
   why: string;
 };
 
 /** Fuzzy-ish search: folded substring match on name, tagline, wishes. */
-export function searchHolidays(holidays: Holiday[], query: string): SearchHit[] {
+export function searchHolidays<T extends Searchable>(
+  holidays: T[],
+  query: string,
+): SearchHit<T>[] {
   const q = fold(query);
   if (!q) return [];
-  const hits: SearchHit[] = [];
+  const hits: SearchHit<T>[] = [];
   for (const h of holidays) {
     let score = 0;
     let why = "";

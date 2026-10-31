@@ -2,15 +2,13 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import {
-  CATEGORY_LABELS,
-  type HolidayCategory,
-  type MotifName,
-} from "@/data/holidays";
+import { CATEGORY_LABELS, type HolidayCategory } from "@/data/categories";
+import type { MotifName } from "@/data/holidays";
 import { nextOccurrence, daysUntil, type DateRule } from "@/lib/dates";
 import { formatDayMonth, formatFull } from "@/lib/format";
 import { useNow } from "@/hooks/useNow";
 import Motif from "./Motif";
+import { thumbSrcSet } from "./HImg";
 
 const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
@@ -75,7 +73,7 @@ export default function HolidayGrid({ items }: { items: GridItem[] }) {
             onClick={() => setFilter(f.key)}
             className={`min-h-11 rounded-full border px-5 py-2.5 text-sm font-bold transition-colors ${
               filter === f.key
-                ? "border-[var(--color-brand)] bg-[var(--color-brand)] text-white"
+                ? "border-[var(--color-brand)] bg-[var(--color-brand)] text-[var(--color-on-brand)]"
                 : "border-[var(--color-line)] bg-[var(--color-card)] text-[var(--color-muted)] hover:border-[var(--color-brand)] hover:text-[var(--color-brand-deep)]"
             }`}
           >
@@ -102,6 +100,8 @@ export default function HolidayGrid({ items }: { items: GridItem[] }) {
                 >
                   <img
                     src={`${base}/images/holidays/${h.slug}/card.webp`}
+                    srcSet={thumbSrcSet(h.slug, "card")}
+                    sizes="(min-width: 1024px) 380px, (min-width: 640px) 46vw, 92vw"
                     alt=""
                     width={800}
                     height={600}

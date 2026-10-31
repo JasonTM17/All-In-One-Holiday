@@ -1,4 +1,7 @@
-import type { Holiday } from "@/data/holidays";
+import type { Holiday } from "../data/holidays.js";
+
+/** The minimal holiday shape the generator needs — keeps client props small. */
+export type WishHoliday = Pick<Holiday, "slug" | "name" | "wishes">;
 
 export type Tone = "trong" | "vui" | "lang-man" | "gui-me" | "gui-co";
 
@@ -11,7 +14,7 @@ export const TONE_LABEL: Record<Tone, string> = {
 };
 
 /** Which tones make sense for a holiday. */
-export function tonesFor(h: Holiday): Tone[] {
+export function tonesFor(h: WishHoliday): Tone[] {
   const t: Tone[] = ["trong", "vui"];
   if (["valentine"].includes(h.slug)) t.push("lang-man");
   if (
@@ -34,7 +37,7 @@ const TEMPLATE: Record<Tone, string> = {
 
 /** Template-based wish variants for a holiday + tone. */
 export function makeWishes(
-  h: Holiday,
+  h: WishHoliday,
   tone: Tone,
   name: string,
   rel: string,
