@@ -49,6 +49,49 @@ describe("nextOccurrence — lunar", () => {
   });
 });
 
+describe("lunar table parity with lunar-typescript", () => {
+  it("every lunar month-1 day-1 matches, 1900–2100", async () => {
+    const { Lunar, LunarYear } = await import("lunar-typescript");
+    const { lunarToSolar } = await import("./dates");
+    for (let y = 1900; y <= 2100; y++) {
+      const months = LunarYear.fromYear(y)
+        .getMonths()
+        .filter((m) => m.getYear() === y)
+        .map((m) => m.getMonth());
+      for (const m of months) {
+        const lib = Lunar.fromYmd(y, m, 1).getSolar();
+        const mine = lunarToSolar(y, m, 1);
+        expect(
+          `${mine.getFullYear()}-${mine.getMonth() + 1}-${mine.getDate()}`,
+          `lunar ${y}/${m}/1`,
+        ).toBe(`${lib.getYear()}-${lib.getMonth()}-${lib.getDay()}`);
+      }
+    }
+  });
+  it("solarToLunar matches for a sample of days incl. leap months", async () => {
+    const { Solar } = await import("lunar-typescript");
+    const { solarToLunar } = await import("./dates");
+    // Every 37th day over 51 years — crosses Tết boundaries and leap months.
+    for (
+      let t = Date.UTC(1980, 0, 1);
+      t < Date.UTC(2031, 0, 1);
+      t += 37 * 86400000
+    ) {
+      const d = new Date(t);
+      const lib = Solar.fromYmd(
+        d.getFullYear(),
+        d.getMonth() + 1,
+        d.getDate(),
+      ).getLunar();
+      const mine = solarToLunar(d);
+      expect(
+        `${mine.month}/${mine.day}`,
+        `solar ${d.getFullYear()}-${d.getMonth() + 1}-${d.getDate()}`,
+      ).toBe(`${lib.getMonth()}/${lib.getDay()}`);
+    }
+  });
+});
+
 describe("nextOccurrence — Mother's Day", () => {
   it("next Mother's Day after Jan 1 2026 is May 10 2026", () => {
     expect(nextOccurrence(MOTHERS_DAY, D(2026, 1, 1))).toEqual(D(2026, 5, 10));

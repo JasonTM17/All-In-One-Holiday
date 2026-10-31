@@ -10,10 +10,11 @@
     "test:e2e": "playwright test",
     "check:links": "node scripts/check-links.mjs",
     "typecheck": "tsc --noEmit",
-    "prebuild": "node scripts/gen-ics.mjs"
+    "gen:lunar": "node scripts/gen-lunar-table.mjs",
+    "gen:data": "node scripts/gen-lunar-table.mjs && node scripts/gen-ics.mjs",
+    "prebuild": "node scripts/gen-lunar-table.mjs && node scripts/gen-ics.mjs"
   },
   "dependencies": {
-    "lunar-typescript": "1.8.6",
     "next": "16.4.2",
     "react": "19.3.1",
     "react-dom": "19.3.1"
@@ -36,6 +37,14 @@
     "sharp": "0.35.5",
     "tailwindcss": "4.3.3",
     "typescript": "5.9.3",
-    "vitest": "5.0.5"
-  }
+    "vitest": "5.0.5",
+    "lunar-typescript": "1.8.6"
+  },
+  "browserslist": [
+    "chrome >= 105",
+    "edge >= 105",
+    "firefox >= 110",
+    "safari >= 15.6",
+    "ios_saf >= 15.6"
+  ]
 }

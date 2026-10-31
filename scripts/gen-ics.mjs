@@ -1,6 +1,12 @@
 // Build-time ICS generation: compiles the needed TS chain to .ics-tmp, runs it.
 import { execFileSync } from "node:child_process";
-import { rmSync } from "node:fs";
+import {
+  readdirSync,
+  readFileSync,
+  rmSync,
+  statSync,
+  writeFileSync,
+} from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 
@@ -12,9 +18,12 @@ execFileSync(
   [
     tscCli,
     "scripts/gen-ics-entry.ts",
+    "scripts/gen-search-entry.ts",
     "src/lib/dates.ts",
     "src/lib/ics.ts",
+    "src/lib/search.ts",
     "src/data/holidays.ts",
+    "src/data/lunar-table.ts",
     "--outDir",
     ".ics-tmp",
     "--module",
@@ -27,7 +36,31 @@ execFileSync(
   ],
   { cwd: root, stdio: "inherit" },
 );
+
+// Emitted ES modules keep their specifiers verbatim; append ".js" to
+// extensionless relative imports so Node ESM can resolve them.
+function fixSpecifiers(dir) {
+  for (const name of readdirSync(dir)) {
+    const p = join(dir, name);
+    if (statSync(p).isDirectory()) {
+      fixSpecifiers(p);
+    } else if (name.endsWith(".js")) {
+      const s = readFileSync(p, "utf8");
+      const fixed = s.replace(
+        /from "(\.[^"]*?)"/g,
+        (m, spec) => (/\.(js|json)$/.test(spec) ? m : `from "${spec}.js"`),
+      );
+      if (fixed !== s) writeFileSync(p, fixed);
+    }
+  }
+}
+fixSpecifiers(join(root, ".ics-tmp"));
+
 execFileSync(process.execPath, [".ics-tmp/scripts/gen-ics-entry.js"], {
+  cwd: root,
+  stdio: "inherit",
+});
+execFileSync(process.execPath, [".ics-tmp/scripts/gen-search-entry.js"], {
   cwd: root,
   stdio: "inherit",
 });
@@ -35,7 +68,6 @@ rmSync(".ics-tmp", { recursive: true, force: true });
 
 // PWA icons from the SVG app icon (devDep sharp).
 const { default: sharp } = await import("sharp");
-const { readFileSync } = await import("node:fs");
 const svg = readFileSync("src/app/icon.svg");
 for (const [size, name, pad] of [
   [192, "icon-192.png", 0],
