@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
 import CardMaker from "@/components/CardMaker";
+import { holidays } from "@/data/holidays";
 
 export const metadata: Metadata = {
   title: "Tạo thiệp",
@@ -19,8 +20,27 @@ export default function ThiepPage() {
         Chọn ngày lễ, kiểu thiệp và lời nhắn — tải về dạng PNG.
       </p>
       <div className="mt-8">
-        <Suspense fallback={null}>
-          <CardMaker />
+        <Suspense
+          fallback={
+            // Sized like the maker UI so the client mount doesn't shift layout.
+            <div
+              aria-hidden="true"
+              className="grid animate-pulse gap-8 lg:grid-cols-[1fr_1.1fr]"
+            >
+              <div className="h-[34rem] rounded-2xl bg-[var(--color-soft)]/60" />
+              <div className="aspect-[1080/1350] max-h-[34rem] w-full rounded-2xl bg-[var(--color-soft)]/60" />
+            </div>
+          }
+        >
+          <CardMaker
+            items={holidays.map((h) => ({
+              slug: h.slug,
+              name: h.name,
+              dateMark: h.dateMark,
+              wishes: h.wishes,
+              theme: { from: h.theme.from, to: h.theme.to },
+            }))}
+          />
         </Suspense>
       </div>
     </section>

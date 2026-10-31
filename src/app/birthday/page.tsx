@@ -26,7 +26,7 @@ export default function BirthdayPage() {
           fallback={
             <div
               aria-hidden="true"
-              className="mx-auto h-96 max-w-lg animate-pulse rounded-3xl bg-[var(--color-line)]/60"
+              className="mx-auto h-[30rem] max-w-lg animate-pulse rounded-3xl bg-[var(--color-line)]/60"
             />
           }
         >

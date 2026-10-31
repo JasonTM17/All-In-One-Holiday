@@ -12,6 +12,10 @@
   --color-line: #e9e3da;
   --color-brand: #be123c;
   --color-brand-deep: #9f1239;
+  /* Text color on top of brand backgrounds (white pills in dark mode flip). */
+  --color-on-brand: #ffffff;
+  /* Brand-colored text on white pills — stays dark in both color schemes. */
+  --color-brand-ink: #9f1239;
   --color-gold: #b45309;
   --color-band: #faf6ef;
   --color-soft: #f1eae0;
@@ -28,6 +32,8 @@ html.dark {
   --color-line: #3d3630;
   --color-brand: #fb7185;
   --color-brand-deep: #fda4af;
+  --color-on-brand: #4c0519;
+  --color-brand-ink: #9f1239;
   --color-gold: #fbbf24;
   --color-band: #1e1813;
   --color-soft: #32291f;
@@ -139,19 +145,18 @@ button.card:hover,
 }
 
 /* ---------- Scroll reveal (JS adds rv-prep before paint; content visible without JS) ---------- */
+/* opacity-only: visibility:hidden would remove the block from the
+   accessibility tree (heading navigation, axe heading-order). */
 .rv-prep {
   opacity: 0;
-  visibility: hidden;
   transform: translateY(16px);
 }
 .rv-in {
   opacity: 1;
-  visibility: visible;
   transform: none;
   transition:
     opacity 0.6s var(--ease-out-quint),
-    transform 0.6s var(--ease-out-quint),
-    visibility 0.6s;
+    transform 0.6s var(--ease-out-quint);
 }
 
 /* ---------- Floating ornaments ---------- */
@@ -253,6 +258,22 @@ button.card:hover,
 .u-link:hover::after,
 .u-link:focus-visible::after {
   right: 0;
+}
+
+/* ---------- Deferred rendering for below-fold blocks ---------- */
+/* Sections far below the fold skip style/layout/paint until near the
+   viewport. `auto` in contain-intrinsic-size remembers the real size after
+   first render; 480px is only the pre-render placeholder. */
+@supports (content-visibility: auto) {
+  .cv-auto {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 480px;
+  }
+  /* Very tall blocks (full holiday grid) get a bigger pre-render estimate. */
+  .cv-tall {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 2600px;
+  }
 }
 
 /* ---------- Countdown tiles ---------- */

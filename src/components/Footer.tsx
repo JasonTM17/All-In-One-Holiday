@@ -8,7 +8,7 @@ export default function Footer() {
     .filter((h) => h !== undefined);
 
   return (
-    <footer className="dot-pattern-ink border-t border-[var(--color-line)] bg-[var(--color-band)]">
+    <footer className="cv-auto dot-pattern-ink border-t border-[var(--color-line)] bg-[var(--color-band)]">
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-12 sm:grid-cols-3 sm:px-6">
         <div>
           <p className="flex items-center gap-2 font-display text-xl font-extrabold text-[var(--color-brand-deep)]">
@@ -27,7 +27,7 @@ export default function Footer() {
               <li key={h.slug}>
                 <Link
                   href={`/${h.slug}/`}
-                  className="u-link font-medium text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]"
+                  className="u-link font-semibold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]"
                 >
                   {h.name}
                 </Link>
@@ -39,32 +39,32 @@ export default function Footer() {
           <p className="eyebrow text-[var(--color-faint)]">Khám phá</p>
           <ul className="mt-4 space-y-2.5 text-sm">
             <li>
-              <Link href="/" className="u-link font-medium text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
+              <Link href="/" className="u-link font-semibold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
                 Trang chủ
               </Link>
             </li>
             <li>
-              <Link href="/#danh-sach" className="u-link font-medium text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
+              <Link href="/#danh-sach" className="u-link font-semibold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
                 Tất cả ngày lễ
               </Link>
             </li>
             <li>
-              <Link href="/credits/" className="u-link font-medium text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
+              <Link href="/credits/" className="u-link font-semibold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
                 Nguồn ảnh
               </Link>
             </li>
             <li>
-              <Link href="/lich/" className="u-link font-medium text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
+              <Link href="/lich/" className="u-link font-semibold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
                 Lịch ngày lễ
               </Link>
             </li>
             <li>
-              <Link href="/thiep/" className="u-link font-medium text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
+              <Link href="/thiep/" className="u-link font-semibold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
                 Tạo thiệp
               </Link>
             </li>
             <li>
-              <Link href="/birthday/" className="u-link font-medium text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
+              <Link href="/birthday/" className="u-link font-semibold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
                 Thiệp sinh nhật
               </Link>
             </li>

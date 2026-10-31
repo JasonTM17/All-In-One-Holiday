@@ -11,7 +11,7 @@ import Faq from "@/components/Faq";
 import Motif from "@/components/Motif";
 import Reveal from "@/components/Reveal";
 import HolidayActions from "@/components/HolidayActions";
-import HImg, { heroSrcSet } from "@/components/HImg";
+import HImg, { heroSrcSet, thumbSrcSet } from "@/components/HImg";
 import { stories } from "@/data/stories";
 
 export function generateStaticParams() {
@@ -90,7 +90,7 @@ export default async function HolidayPage({
         <link
           rel="preload"
           as="image"
-          href={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/holidays/${h.slug}/hero-800.webp`}
+          href={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/holidays/${h.slug}/hero.webp`}
           imageSrcSet={heroSrcSet(h.slug)}
           imageSizes="100vw"
           fetchPriority="high"
@@ -181,7 +181,7 @@ export default async function HolidayPage({
 
       {/* ---------- Body ---------- */}
       <div className="mx-auto max-w-4xl space-y-20 px-4 py-16 sm:px-6">
-        <Reveal>
+        <Reveal className="cv-auto">
           <section aria-labelledby="nguon-goc">
             <h2
               id="nguon-goc"
@@ -202,7 +202,7 @@ export default async function HolidayPage({
           </section>
         </Reveal>
 
-        <Reveal>
+        <Reveal className="cv-auto">
           <figure
             className="relative overflow-hidden rounded-2xl px-8 py-8 text-white sm:px-10"
             style={{
@@ -228,7 +228,7 @@ export default async function HolidayPage({
           </figure>
         </Reveal>
 
-        <Reveal>
+        <Reveal className="cv-auto">
           <section aria-labelledby="phong-tuc">
             <h2
               id="phong-tuc"
@@ -261,7 +261,7 @@ export default async function HolidayPage({
           </section>
         </Reveal>
 
-        <Reveal>
+        <Reveal className="cv-auto">
           <section
             aria-labelledby="doc-tron"
             className="relative overflow-hidden rounded-3xl border border-[var(--color-line)] bg-[var(--color-card)] p-6 sm:p-10"
@@ -371,7 +371,7 @@ export default async function HolidayPage({
       {/* ---------- Wishes marquee + cards ---------- */}
       <section
         aria-labelledby="loi-chuc"
-        className="dot-pattern-ink border-y border-[var(--color-line)] bg-[var(--color-band)]"
+        className="cv-auto dot-pattern-ink border-y border-[var(--color-line)] bg-[var(--color-band)]"
       >
         <div className="mx-auto max-w-4xl px-4 py-16 sm:px-6">
           <Reveal>
@@ -405,15 +405,19 @@ export default async function HolidayPage({
               </li>
             ))}
           </ul>
-          <h3 className="mt-10 font-display text-xl font-extrabold text-[var(--color-ink)]">
-            Gợi ý lời chúc
-          </h3>
-          <WishGenerator holiday={h} />
+          <Reveal>
+            <h3 className="mt-10 font-display text-xl font-extrabold text-[var(--color-ink)]">
+              Gợi ý lời chúc
+            </h3>
+            <WishGenerator
+              holiday={{ slug: h.slug, name: h.name, wishes: h.wishes }}
+            />
+          </Reveal>
         </div>
       </section>
 
       <div className="mx-auto max-w-4xl space-y-20 px-4 py-16 sm:px-6">
-        <Reveal>
+        <Reveal className="cv-auto">
           <section aria-labelledby="qua-tang">
             <h2
               id="qua-tang"
@@ -441,7 +445,7 @@ export default async function HolidayPage({
           </section>
         </Reveal>
 
-        <Reveal>
+        <Reveal className="cv-auto">
           <section aria-labelledby="hinh-anh">
             <h2
               id="hinh-anh"
@@ -454,6 +458,8 @@ export default async function HolidayPage({
                 <HImg
                   key={n}
                   src={`${h.slug}/gallery${n}.webp`}
+                  srcSet={thumbSrcSet(h.slug, `gallery${n}`)}
+                  sizes="(min-width: 1024px) 320px, (min-width: 640px) 30vw, 92vw"
                   alt={`${h.name} — ảnh ${n}`}
                   width={800}
                   height={600}
@@ -468,7 +474,7 @@ export default async function HolidayPage({
           const st = stories[h.slug];
           if (!st) return null;
           return (
-            <Reveal>
+            <Reveal className="cv-auto">
               <section aria-labelledby="cau-chuyen">
                 <p className="eyebrow text-[var(--color-brand)]">Câu chuyện</p>
                 <h2
@@ -508,7 +514,7 @@ export default async function HolidayPage({
           );
         })()}
 
-        <Reveal>
+        <Reveal className="cv-auto">
           <section aria-labelledby="faq">
             <h2
               id="faq"

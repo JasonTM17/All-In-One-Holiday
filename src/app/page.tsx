@@ -5,7 +5,7 @@ import { siteUrl } from "@/lib/site";
 import HolidayGrid from "@/components/HolidayGrid";
 import NextHolidayHero from "@/components/NextHolidayHero";
 import Reveal from "@/components/Reveal";
-import { heroSrcSet } from "@/components/HImg";
+import { heroSrcSet, thumbSrcSet } from "@/components/HImg";
 import { nextOccurrence } from "@/lib/dates";
 import Motif from "@/components/Motif";
 
@@ -18,7 +18,8 @@ export const metadata: Metadata = {
 export default function Home() {
   const wishCount = holidays.reduce((s, h) => s + h.wishes.length, 0);
   const traditionCount = holidays.reduce((s, h) => s + h.traditions.length, 0);
-  const allWishes = holidays.flatMap((h) => h.wishes.slice(0, 2));
+  // ~20 chips are plenty for a continuous marquee (track ×2 ≫ viewport).
+  const allWishes = holidays.flatMap((h) => h.wishes.slice(0, 2)).slice(0, 20);
 
   const gridItems = holidays.map((h) => ({
     slug: h.slug,
@@ -32,14 +33,7 @@ export default function Home() {
     tagline: h.tagline,
   }));
 
-  const heroItems = holidays.map((h) => ({
-    slug: h.slug,
-    name: h.name,
-    dateMark: h.dateMark,
-    motif: h.motif,
-    rule: h.rule,
-    theme: { from: h.theme.from, to: h.theme.to },
-  }));
+
 
   const now = new Date();
   const next90 = holidays
@@ -69,7 +63,7 @@ export default function Home() {
       <link
         rel="preload"
         as="image"
-        href={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/holidays/scenery/hero-800.webp`}
+        href={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/holidays/scenery/hero.webp`}
         imageSrcSet={heroSrcSet("scenery")}
         imageSizes="100vw"
         fetchPriority="high"
@@ -84,7 +78,7 @@ export default function Home() {
           height={1280}
           loading="eager"
           fetchPriority="high"
-          decoding="async"
+          decoding="sync"
           className="absolute inset-0 h-full w-full object-cover opacity-55"
         />
         <div
@@ -113,7 +107,7 @@ export default function Home() {
             <div className="mt-9 flex flex-wrap gap-3">
               <a
                 href="#danh-sach"
-                className="rounded-full bg-white px-7 py-3.5 font-bold text-[var(--color-brand-deep)] transition-transform hover:scale-[1.03]"
+                className="rounded-full bg-white px-7 py-3.5 font-bold text-[var(--color-brand-ink)] transition-transform hover:scale-[1.03]"
               >
                 Xem các ngày lễ
               </a>
@@ -125,7 +119,9 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <NextHolidayHero items={heroItems} />
+          {/* NextHolidayHero uses a subset of GridItem — sharing the array
+              means the flight payload serializes it only once. */}
+          <NextHolidayHero items={gridItems} />
         </div>
 
         {/* Stats strip fused into hero edge */}
@@ -150,7 +146,7 @@ export default function Home() {
       </section>
 
       {/* ---------- Tools row ---------- */}
-      <section aria-label="Công cụ" className="border-b border-[var(--color-line)] bg-[var(--color-surface)]">
+      <section aria-label="Công cụ" className="cv-auto border-b border-[var(--color-line)] bg-[var(--color-surface)]">
         <div className="mx-auto grid max-w-6xl gap-3 px-4 py-8 sm:grid-cols-3 sm:px-6">
           {[
             { href: "/lich/", t: "Lịch ngày lễ", d: "Ngày dương, ngày âm, đăng ký .ics" },
@@ -191,7 +187,7 @@ export default function Home() {
       {/* ---------- Vietnam scenery strip ---------- */}
       <section
         aria-labelledby="viet-nam"
-        className="border-b border-[var(--color-line)] bg-[var(--color-band)]"
+        className="cv-auto border-b border-[var(--color-line)] bg-[var(--color-band)]"
       >
         <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
           <Reveal>
@@ -205,12 +201,12 @@ export default function Home() {
           </Reveal>
           <ul className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
             {[
-              ["scenery/hero.webp", "Vịnh Hạ Long"],
-              ["scenery/gallery1.webp", "Miền Tây sông nước"],
-              ["home-hero/gallery2.webp", "Hội An rực đèn"],
-              ["scenery/gallery3.webp", "Đảo đá vôi"],
-              ["scenery/card.webp", "Đà Lạt về đêm"],
-              ["gio-to-hung-vuong/hero.webp", "Đền Hùng, Phú Thọ"],
+              ["scenery/hero-480.webp", "Vịnh Hạ Long"],
+              ["scenery/gallery1-480.webp", "Miền Tây sông nước"],
+              ["home-hero/gallery2-480.webp", "Hội An rực đèn"],
+              ["scenery/gallery3-480.webp", "Đảo đá vôi"],
+              ["scenery/card-480.webp", "Đà Lạt về đêm"],
+              ["gio-to-hung-vuong/hero-480.webp", "Đền Hùng, Phú Thọ"],
             ].map(([src, cap]) => (
               <li key={src} className="group relative overflow-hidden rounded-2xl">
                 <img
@@ -234,7 +230,7 @@ export default function Home() {
       {/* ---------- Women's days band ---------- */}
       <section
         aria-labelledby="phai-dep"
-        className="dot-pattern-ink border-b border-[var(--color-line)] bg-[var(--color-band)]"
+        className="cv-auto dot-pattern-ink border-b border-[var(--color-line)] bg-[var(--color-band)]"
       >
         <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
           <Reveal>
@@ -263,6 +259,8 @@ export default function Home() {
                     >
                       <img
                         src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/holidays/${h.slug}/card.webp`}
+                        srcSet={thumbSrcSet(h.slug, "card")}
+                        sizes="(min-width: 1024px) 270px, (min-width: 640px) 46vw, 92vw"
                         alt=""
                         width={800}
                         height={600}
@@ -296,7 +294,7 @@ export default function Home() {
       {/* ---------- Next 90 days timeline ---------- */}
       <section
         aria-labelledby="sap-toi"
-        className="border-b border-[var(--color-line)] bg-[var(--color-surface)]"
+        className="cv-auto border-b border-[var(--color-line)] bg-[var(--color-surface)]"
       >
         <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
           <Reveal>
@@ -346,7 +344,7 @@ export default function Home() {
       <section
         id="danh-sach"
         aria-labelledby="danh-sach-title"
-        className="mx-auto max-w-6xl scroll-mt-24 px-4 py-16 sm:px-6"
+        className="cv-tall mx-auto max-w-6xl scroll-mt-24 px-4 py-16 sm:px-6"
       >
         <Reveal>
           <h2
@@ -364,7 +362,7 @@ export default function Home() {
       </section>
 
       {/* ---------- Birthday CTA ---------- */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-rose-800 to-violet-800 text-white">
+      <section className="cv-auto relative overflow-hidden bg-gradient-to-br from-rose-800 to-violet-800 text-white">
         <div className="dot-pattern absolute inset-0" aria-hidden="true" />
         <Motif
           name="balloon"
@@ -385,7 +383,7 @@ export default function Home() {
           </p>
           <Link
             href="/birthday/"
-            className="rounded-full bg-white px-8 py-3.5 font-bold text-[var(--color-brand-deep)] transition-transform hover:scale-[1.04]"
+            className="rounded-full bg-white px-8 py-3.5 font-bold text-[var(--color-brand-ink)] transition-transform hover:scale-[1.04]"
           >
             Tạo thiệp ngay
           </Link>

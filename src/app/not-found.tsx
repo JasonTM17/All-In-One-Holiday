@@ -9,7 +9,7 @@ export default function NotFound() {
       </h1>
       <Link
         href="/"
-        className="mt-8 rounded-full bg-[var(--color-brand)] px-6 py-3 font-semibold text-white hover:bg-[var(--color-brand-deep)]"
+        className="mt-8 rounded-full bg-[var(--color-brand)] px-6 py-3 font-semibold text-[var(--color-on-brand)] hover:bg-[var(--color-brand-deep)]"
       >
         Về trang chủ
       </Link>

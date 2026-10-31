@@ -9,13 +9,17 @@ const display = Playfair_Display({
   weight: ["600", "700", "800", "900"],
   variable: "--font-playfair",
   display: "swap",
+  // No <link rel=preload>: two ~30KB woff2 files competing with the LCP image
+  // on first paint costs more than the metric-matched fallback flash.
+  preload: false,
 });
 
 const sans = Be_Vietnam_Pro({
   subsets: ["latin", "vietnamese"],
-  weight: ["400", "500", "600", "700"],
+  weight: ["400", "600", "700"],
   variable: "--font-be-vietnam",
   display: "swap",
+  preload: false,
 });
 
 import { siteUrl } from "@/lib/site";
