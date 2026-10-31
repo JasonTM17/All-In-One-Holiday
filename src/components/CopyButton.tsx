@@ -5,10 +5,12 @@ import { useState } from "react";
 export default function CopyButton({
   text,
   label = "Sao chép",
+  copiedLabel = "Đã sao chép",
   className = "",
 }: {
   text: string;
   label?: string;
+  copiedLabel?: string;
   className?: string;
 }) {
   const [copied, setCopied] = useState(false);
@@ -34,7 +36,7 @@ export default function CopyButton({
       onClick={copy}
       className={`min-h-11 shrink-0 rounded-full border border-[var(--color-line)] bg-[var(--color-card)] px-4 py-2 text-sm font-bold text-[var(--color-muted)] transition-colors hover:border-[var(--color-brand)] hover:text-[var(--color-brand-deep)] ${className}`}
     >
-      <span aria-live="polite">{copied ? "Đã sao chép" : label}</span>
+      <span aria-live="polite">{copied ? copiedLabel : label}</span>
     </button>
   );
 }

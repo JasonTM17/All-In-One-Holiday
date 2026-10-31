@@ -1,6 +1,7 @@
 "use client";
 
 import { useSyncExternalStore } from "react";
+import { getStrings, type Locale } from "@/i18n";
 
 const isDark = () => document.documentElement.classList.contains("dark");
 const subscribe = (cb: () => void) => {
@@ -13,7 +14,8 @@ const subscribe = (cb: () => void) => {
 };
 
 /** Dark/light toggle; persists only the theme choice in localStorage. */
-export default function ThemeToggle() {
+export default function ThemeToggle({ locale }: { locale: Locale }) {
+  const t = getStrings(locale);
   const dark = useSyncExternalStore(subscribe, isDark, () => false);
 
   function toggle() {
@@ -28,7 +30,7 @@ export default function ThemeToggle() {
     <button
       type="button"
       onClick={toggle}
-      aria-label={dark ? "Chuyển sang giao diện sáng" : "Chuyển sang giao diện tối"}
+      aria-label={dark ? t.nav.themeToLight : t.nav.themeToDark}
       aria-pressed={dark}
       className="flex min-h-11 min-w-11 items-center justify-center rounded-full border border-[var(--color-line)] text-[var(--color-muted)] hover:bg-[var(--color-soft)] focus-visible:outline-2"
     >

@@ -1,9 +1,10 @@
-import { LUNAR_TABLE } from "../data/lunar-table";
+import { LUNAR_TABLE, QINGMING_TABLE } from "../data/lunar-table";
 
 export type DateRule =
   | { type: "solar"; month: number; day: number }
   | { type: "lunar"; month: number; day: number }
-  | { type: "nth-weekday"; month: number; weekday: number; nth: number };
+  | { type: "nth-weekday"; month: number; weekday: number; nth: number }
+  | { type: "qingming" };
 
 function atMidnight(d: Date): Date {
   return new Date(d.getFullYear(), d.getMonth(), d.getDate());
@@ -124,6 +125,15 @@ export function solarToLunar(d: Date): { month: number; day: number } {
   return { month: 0, day: 0 };
 }
 
+/** Solar date of the Qingming solar term (Tết Thanh minh) in a year. */
+function qingmingInYear(year: number): Date {
+  const doy = QINGMING_TABLE[year];
+  if (!doy) {
+    throw new RangeError(`Qingming year ${year} outside supported table range`);
+  }
+  return new Date(year, 0, doy);
+}
+
 /** Occurrence of a rule in a given calendar year (lunar year for lunar rules). */
 export function occurrenceInYear(rule: DateRule, year: number): Date {
   switch (rule.type) {
@@ -133,6 +143,8 @@ export function occurrenceInYear(rule: DateRule, year: number): Date {
       return lunarToSolar(year, rule.month, rule.day);
     case "nth-weekday":
       return nthWeekdayOfMonth(year, rule.month, rule.weekday, rule.nth);
+    case "qingming":
+      return qingmingInYear(year);
   }
 }
 

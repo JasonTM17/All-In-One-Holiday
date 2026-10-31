@@ -4,6 +4,7 @@ import { buildIcs, eventLine, icsDate } from "@/lib/ics";
 import { occurrenceInYear, solarToLunar } from "@/lib/dates";
 import { fold, searchHolidays } from "@/lib/search";
 import { makeWishes, tonesFor } from "@/lib/wishes-gen";
+import { getStrings } from "@/i18n";
 
 describe("diacritic-insensitive search", () => {
   it("folds Vietnamese diacritics", () => {
@@ -89,6 +90,7 @@ describe("lunar calendar helpers", () => {
 describe("wish generator", () => {
   const tet = holidays.find((h) => h.slug === "tet-nguyen-dan")!;
   const me = holidays.find((h) => h.slug === "ngay-cua-me")!;
+  const wishGen = getStrings("vi").wishGen;
 
   it("relevant tone subsets per holiday", () => {
     expect(tonesFor(me)).toContain("gui-me");
@@ -97,13 +99,13 @@ describe("wish generator", () => {
     expect(tonesFor(tet)).toContain("vui");
   });
   it("produces personalized wishes", () => {
-    const ws = makeWishes(tet, "trong", "Lan", "cô");
+    const ws = makeWishes(tet, "trong", "Lan", "cô", wishGen);
     expect(ws.length).toBeGreaterThanOrEqual(2);
     expect(ws[0]).toContain("Lan");
     expect(ws[0]).toContain("Tết Nguyên Đán");
   });
   it("falls back when name empty", () => {
-    const ws = makeWishes(tet, "vui", "", "");
+    const ws = makeWishes(tet, "vui", "", "", wishGen);
     expect(ws[0].length).toBeGreaterThan(20);
   });
 });

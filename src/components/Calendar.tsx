@@ -4,16 +4,9 @@ import { useMemo, useState } from "react";
 import type { HolidayCategory } from "@/data/categories";
 import type { DateRule } from "@/lib/dates";
 import { occurrenceInYear, solarToLunar } from "@/lib/dates";
+import { getStrings, localePrefix, type Locale } from "@/i18n";
 
 const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
-const WEEKDAYS = ["CN", "T2", "T3", "T4", "T5", "T6", "T7"];
-const CATS: { id: HolidayCategory | "all"; label: string }[] = [
-  { id: "all", label: "Tất cả" },
-  { id: "truyen-thong", label: "Truyền thống" },
-  { id: "quoc-gia", label: "Quốc gia" },
-  { id: "quoc-te", label: "Quốc tế" },
-  { id: "phu-nu", label: "Phụ nữ" },
-];
 
 /** Slim per-holiday shape the calendar needs (serialized from the server page). */
 export interface CalItem {
@@ -31,7 +24,23 @@ type DayCell = {
   hols: CalItem[];
 };
 
-export default function Calendar({ items }: { items: CalItem[] }) {
+export default function Calendar({
+  items,
+  locale = "vi",
+}: {
+  items: CalItem[];
+  locale?: Locale;
+}) {
+  const t = getStrings(locale);
+  const prefix = `${BASE}${localePrefix(locale)}`;
+  const WEEKDAYS = t.calendar.weekdays;
+  const CATS: { id: HolidayCategory | "all"; label: string }[] = [
+    { id: "all", label: t.calendar.all },
+    { id: "truyen-thong", label: t.calendar.categories["truyen-thong"] },
+    { id: "quoc-gia", label: t.calendar.categories["quoc-gia"] },
+    { id: "quoc-te", label: t.calendar.categories["quoc-te"] },
+    { id: "phu-nu", label: t.calendar.categories["phu-nu"] },
+  ];
   const today = new Date();
   const [year, setYear] = useState(today.getFullYear());
   const [month, setMonth] = useState(today.getMonth());
@@ -93,7 +102,7 @@ export default function Calendar({ items }: { items: CalItem[] }) {
           <button
             type="button"
             onClick={() => shift(-1)}
-            aria-label="Tháng trước"
+            aria-label={t.calendar.prevMonth}
             className="min-h-11 min-w-11 rounded-xl border border-[var(--color-line)] text-lg font-bold hover:bg-[var(--color-soft)] focus-visible:outline-2"
           >
             ‹
@@ -101,30 +110,30 @@ export default function Calendar({ items }: { items: CalItem[] }) {
           <button
             type="button"
             onClick={() => shift(1)}
-            aria-label="Tháng sau"
+            aria-label={t.calendar.nextMonth}
             className="min-h-11 min-w-11 rounded-xl border border-[var(--color-line)] text-lg font-bold hover:bg-[var(--color-soft)] focus-visible:outline-2"
           >
             ›
           </button>
         </div>
         <h2 className="font-display text-xl font-extrabold text-[var(--color-ink)]">
-          Tháng {month + 1}/{year}
+          {t.calendar.monthTitle(month + 1, year)}
         </h2>
         <button
           type="button"
           onClick={goToday}
           className="min-h-11 rounded-xl border border-[var(--color-line)] px-4 text-sm font-bold hover:bg-[var(--color-soft)] focus-visible:outline-2"
         >
-          Hôm nay
+          {t.calendar.today}
         </button>
         <a
           href={`${BASE}/ngay-le-viet.ics`}
           download
           className="min-h-11 rounded-xl bg-[var(--color-brand)] px-4 py-3 text-sm font-bold text-[var(--color-on-brand)] hover:brightness-110 focus-visible:outline-2"
         >
-          Đăng ký lịch (.ics)
+          {t.calendar.subscribe}
         </a>
-        <div className="ml-auto flex flex-wrap gap-1" role="group" aria-label="Lọc loại ngày lễ">
+        <div className="ml-auto flex flex-wrap gap-1" role="group" aria-label={t.calendar.filterAria}>
           {CATS.map((c) => (
             <button
               key={c.id}
@@ -144,7 +153,7 @@ export default function Calendar({ items }: { items: CalItem[] }) {
       </div>
 
       {/* Month grid */}
-      <div role="grid" aria-label={`Lịch tháng ${month + 1} năm ${year}`} className="mt-6 hidden sm:block">
+      <div role="grid" aria-label={t.calendar.gridAria(month + 1, year)} className="mt-6 hidden sm:block">
         <div role="row" className="grid grid-cols-7 gap-1">
           {WEEKDAYS.map((w) => (
             <div role="columnheader" key={w} className="pb-2 text-center text-xs font-extrabold text-[var(--color-faint)]">
@@ -167,14 +176,14 @@ export default function Calendar({ items }: { items: CalItem[] }) {
                     {c.date.getDate()}
                   </span>
                   <span className="text-[10px] text-[var(--color-faint)]">
-                    {c.lunar.day}/{c.lunar.month}ÂL
+                    {c.lunar.day}/{c.lunar.month}{t.calendar.lunarAbbr}
                   </span>
                 </div>
                 <div className="mt-1 space-y-0.5">
                   {c.hols.map((h) => (
                     <a
                       key={h.slug}
-                      href={`${BASE}/${h.slug}/`}
+                      href={`${prefix}/${h.slug}/`}
                       className="block truncate rounded px-1.5 py-0.5 text-[10px] font-bold text-white hover:brightness-110 focus-visible:outline-2"
                       style={{ background: h.theme.from }}
                       title={h.name}
@@ -190,22 +199,22 @@ export default function Calendar({ items }: { items: CalItem[] }) {
       </div>
 
       {/* Mobile agenda */}
-      <ul className="mt-6 space-y-2 sm:hidden" aria-label="Các ngày lễ trong tháng">
+      <ul className="mt-6 space-y-2 sm:hidden" aria-label={t.calendar.agendaAria}>
         {agenda.length === 0 && (
           <li className="rounded-xl border border-[var(--color-line)] p-4 text-sm text-[var(--color-faint)]">
-            Không có ngày lễ nào trong tháng này.
+            {t.calendar.noHolidays}
           </li>
         )}
         {agenda.map((c) => (
           <li key={c.date.toISOString()} className="rounded-xl border border-[var(--color-line)] p-3">
             <p className="text-xs font-bold text-[var(--color-faint)]">
-              {c.date.getDate()}/{month + 1} · ÂL {c.lunar.day}/{c.lunar.month}
+              {c.date.getDate()}/{month + 1} · {t.calendar.lunarAbbr} {c.lunar.day}/{c.lunar.month}
             </p>
             <div className="mt-1.5 flex flex-wrap gap-1.5">
               {c.hols.map((h) => (
                 <a
                   key={h.slug}
-                  href={`${BASE}/${h.slug}/`}
+                  href={`${prefix}/${h.slug}/`}
                   className="rounded-full px-3 py-1.5 text-xs font-bold text-white"
                   style={{ background: h.theme.from }}
                 >

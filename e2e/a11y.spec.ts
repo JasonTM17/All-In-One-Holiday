@@ -1,7 +1,19 @@
 import { test, expect } from "@playwright/test";
 import { AxeBuilder } from "@axe-core/playwright";
 
-const PAGES = ["/", "/tet-nguyen-dan/", "/phu-nu-viet-nam/", "/trung-thu/", "/birthday/", "/lich/", "/thiep/"];
+const PAGES = [
+  "/",
+  "/tet-nguyen-dan/",
+  "/phu-nu-viet-nam/",
+  "/trung-thu/",
+  "/birthday/",
+  "/lich/",
+  "/thiep/",
+  "/en/",
+  "/en/tet-nguyen-dan/",
+  "/en/lich/",
+  "/en/thiep/",
+];
 
 for (const path of PAGES) {
   test(`axe: no serious+ violations on ${path}`, async ({ page }) => {

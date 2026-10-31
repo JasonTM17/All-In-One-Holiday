@@ -1,21 +1,30 @@
-const fmtFull = new Intl.DateTimeFormat("vi-VN", {
-  day: "numeric",
-  month: "long",
-  year: "numeric",
-  weekday: "long",
-});
+import { intlLocale, type Locale } from "@/i18n";
 
-const fmtShort = new Intl.DateTimeFormat("vi-VN", {
-  day: "numeric",
-  month: "numeric",
-});
+const fmtFull: Partial<Record<Locale, Intl.DateTimeFormat>> = {};
+const fmtShort: Partial<Record<Locale, Intl.DateTimeFormat>> = {};
 
-/** "Thứ ba, ngày 17 tháng 2 năm 2026" */
-export function formatFull(d: Date): string {
-  return fmtFull.format(d);
+function fullFmt(locale: Locale): Intl.DateTimeFormat {
+  return (fmtFull[locale] ??= new Intl.DateTimeFormat(intlLocale(locale), {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+    weekday: "long",
+  }));
 }
 
-/** "17/2" */
-export function formatDayMonth(d: Date): string {
-  return fmtShort.format(d);
+function shortFmt(locale: Locale): Intl.DateTimeFormat {
+  return (fmtShort[locale] ??= new Intl.DateTimeFormat(intlLocale(locale), {
+    day: "numeric",
+    month: "numeric",
+  }));
+}
+
+/** VI: "Thứ ba, ngày 17 tháng 2 năm 2026" · EN: "Tuesday, February 17, 2026" */
+export function formatFull(d: Date, locale: Locale = "vi"): string {
+  return fullFmt(locale).format(d);
+}
+
+/** "17/2" (VI) · "2/17" (EN) */
+export function formatDayMonth(d: Date, locale: Locale = "vi"): string {
+  return shortFmt(locale).format(d);
 }

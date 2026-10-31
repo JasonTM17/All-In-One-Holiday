@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useState } from "react";
 import dynamic from "next/dynamic";
+import { getStrings, type Locale } from "@/i18n";
 
 // The dialog (and its search-index data) ships in a separate chunk, fetched on
 // first intent: click, ⌘K, or an idle-time prefetch — never at page load.
@@ -13,7 +14,8 @@ const warm = () => {
   void import("./SearchPaletteDialog");
 };
 
-export default function SearchPalette() {
+export default function SearchPalette({ locale }: { locale: Locale }) {
+  const t = getStrings(locale);
   const [open, setOpen] = useState(false);
 
   const close = useCallback(() => setOpen(false), []);
@@ -63,18 +65,18 @@ export default function SearchPalette() {
         onClick={() => setOpen(true)}
         onMouseEnter={warm}
         onFocus={warm}
-        aria-label="Tìm ngày lễ (Ctrl+K)"
+        aria-label={t.nav.searchAria}
         className="flex min-h-11 items-center gap-2 rounded-full border border-[var(--color-line)] px-4 text-sm font-bold text-[var(--color-faint)] hover:bg-[var(--color-soft)] focus-visible:outline-2"
       >
         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
           <circle cx="7" cy="7" r="5" />
           <path d="m11 11 3 3" />
         </svg>
-        <span className="hidden sm:inline">Tìm lễ</span>
+        <span className="hidden sm:inline">{t.nav.search}</span>
         <kbd className="hidden rounded bg-[var(--color-soft)] px-1.5 text-[10px] sm:inline">⌘K</kbd>
       </button>
 
-      {open && <PaletteDialog onClose={close} />}
+      {open && <PaletteDialog onClose={close} locale={locale} />}
     </>
   );
 }

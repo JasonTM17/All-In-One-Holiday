@@ -289,10 +289,52 @@ button.card:hover,
 
 /* ---------- Print ---------- */
 @media print {
+  /* Chrome, motion and decorative elements are screen-only. */
   header,
   footer,
-  .skip-link {
+  .skip-link,
+  .marquee,
+  .floaty,
+  .floaty-slow,
+  .dot-pattern,
+  .dot-pattern-ink {
     display: none !important;
+  }
+
+  /* Content-visibility sections must render fully when printing. */
+  .cv-auto,
+  .cv-tall {
+    content-visibility: visible !important;
+  }
+
+  /* Clean document typography on paper. */
+  body {
+    background: #fff !important;
+    color: #111 !important;
+  }
+  .card,
+  .glass,
+  .tile {
+    box-shadow: none !important;
+    border: 1px solid #ddd !important;
+    background: #fff !important;
+    color: #111 !important;
+  }
+  section {
+    break-inside: avoid-page;
+  }
+  h1,
+  h2,
+  h3 {
+    break-after: avoid-page;
+    color: #111 !important;
+  }
+  a {
+    color: #111 !important;
+    text-decoration: none;
+  }
+  img {
+    max-width: 100% !important;
   }
 }
 

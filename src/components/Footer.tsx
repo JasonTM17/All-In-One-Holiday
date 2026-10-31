@@ -1,11 +1,15 @@
 import Link from "next/link";
-import { holidays } from "@/data/holidays";
 import Motif from "./Motif";
+import { getStrings, localePath, type Locale } from "@/i18n";
+import { holidaysOf } from "@/i18n/data";
 
-export default function Footer() {
+export default function Footer({ locale }: { locale: Locale }) {
+  const t = getStrings(locale);
+  const holidays = holidaysOf(locale);
   const featured = ["tet-nguyen-dan", "quoc-te-phu-nu", "phu-nu-viet-nam", "trung-thu"]
     .map((s) => holidays.find((h) => h.slug === s))
     .filter((h) => h !== undefined);
+  const lp = (p: string) => localePath(locale, p);
 
   return (
     <footer className="cv-auto dot-pattern-ink border-t border-[var(--color-line)] bg-[var(--color-band)]">
@@ -16,18 +20,17 @@ export default function Footer() {
             Ngày Lễ Việt
           </p>
           <p className="mt-3 max-w-xs text-sm leading-relaxed text-[var(--color-muted)]">
-            Lịch lễ hội Việt Nam và quốc tế — ý nghĩa, phong tục và lời chúc
-            cho từng dịp trong năm.
+            {t.footer.tagline}
           </p>
         </div>
-        <nav aria-label="Ngày lễ nổi bật">
-          <p className="eyebrow text-[var(--color-faint)]">Ngày lễ nổi bật</p>
+        <nav aria-label={t.footer.featuredAria}>
+          <p className="eyebrow text-[var(--color-faint)]">{t.footer.featured}</p>
           <ul className="mt-4 space-y-2.5 text-sm">
             {featured.map((h) => (
               <li key={h.slug}>
                 <Link
                   prefetch={false}
-                  href={`/${h.slug}/`}
+                  href={lp(`/${h.slug}/`)}
                   className="u-link font-semibold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]"
                 >
                   {h.name}
@@ -36,37 +39,37 @@ export default function Footer() {
             ))}
           </ul>
         </nav>
-        <nav aria-label="Liên kết khác">
-          <p className="eyebrow text-[var(--color-faint)]">Khám phá</p>
+        <nav aria-label={t.footer.exploreAria}>
+          <p className="eyebrow text-[var(--color-faint)]">{t.footer.explore}</p>
           <ul className="mt-4 space-y-2.5 text-sm">
             <li>
-              <Link prefetch={false} href="/" className="u-link font-semibold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
-                Trang chủ
+              <Link prefetch={false} href={lp("/")} className="u-link font-semibold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
+                {t.footer.home}
               </Link>
             </li>
             <li>
-              <Link prefetch={false} href="/#danh-sach" className="u-link font-semibold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
-                Tất cả ngày lễ
+              <Link prefetch={false} href={`${lp("/")}#danh-sach`} className="u-link font-semibold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
+                {t.footer.allHolidays}
               </Link>
             </li>
             <li>
-              <Link prefetch={false} href="/credits/" className="u-link font-semibold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
-                Nguồn ảnh
+              <Link prefetch={false} href={lp("/credits/")} className="u-link font-semibold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
+                {t.footer.credits}
               </Link>
             </li>
             <li>
-              <Link prefetch={false} href="/lich/" className="u-link font-semibold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
-                Lịch ngày lễ
+              <Link prefetch={false} href={lp("/lich/")} className="u-link font-semibold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
+                {t.footer.calendar}
               </Link>
             </li>
             <li>
-              <Link prefetch={false} href="/thiep/" className="u-link font-semibold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
-                Tạo thiệp
+              <Link prefetch={false} href={lp("/thiep/")} className="u-link font-semibold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
+                {t.footer.cardMaker}
               </Link>
             </li>
             <li>
-              <Link prefetch={false} href="/birthday/" className="u-link font-semibold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
-                Thiệp sinh nhật
+              <Link prefetch={false} href={lp("/birthday/")} className="u-link font-semibold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
+                {t.footer.birthday}
               </Link>
             </li>
           </ul>
@@ -74,7 +77,7 @@ export default function Footer() {
       </div>
       <div className="border-t border-[var(--color-line)]">
         <p className="mx-auto max-w-6xl px-4 py-5 text-center text-xs text-[var(--color-faint)] sm:px-6">
-          Mẫu trang cộng đồng — dữ liệu chỉ phục vụ tham khảo.
+          {t.footer.disclaimer}
         </p>
       </div>
     </footer>

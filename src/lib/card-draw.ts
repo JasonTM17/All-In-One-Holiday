@@ -22,6 +22,9 @@ export interface DrawCardOptions {
   msg: string;
   displayFont: string;
   sansFont: string;
+  /** Painted field labels, e.g. "Gửi:" / "To:" — locale-aware. */
+  toLabel?: string;
+  fromLabel?: string;
 }
 
 export const wrapText = (
@@ -118,7 +121,7 @@ export function drawCard(canvas: HTMLCanvasElement, o: DrawCardOptions): void {
 
   if (to) {
     ctx.font = `600 ${Math.round(ch * 0.032)}px ${sans}`;
-    ctx.fillText(`Gửi: ${to}`, cx, textTop + ch * 0.19);
+    ctx.fillText(`${o.toLabel ?? "Gửi"}: ${to}`, cx, textTop + ch * 0.19);
   }
   if (msg) {
     ctx.font = `400 ${Math.round(ch * 0.03)}px ${sans}`;
@@ -129,7 +132,7 @@ export function drawCard(canvas: HTMLCanvasElement, o: DrawCardOptions): void {
   if (from) {
     ctx.font = `600 ${Math.round(ch * 0.028)}px ${sans}`;
     ctx.globalAlpha = 0.85;
-    ctx.fillText(`Từ: ${from}`, cx, ch * 0.9);
+    ctx.fillText(`${o.fromLabel ?? "Từ"}: ${from}`, cx, ch * 0.9);
     ctx.globalAlpha = 1;
   }
   ctx.font = `700 ${Math.round(ch * 0.024)}px ${sans}`;

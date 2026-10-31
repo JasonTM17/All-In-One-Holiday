@@ -1,13 +1,14 @@
 # Ngày Lễ Việt
 
-Trang tĩnh (static) về các ngày lễ Việt Nam và quốc tế, bằng tiếng Việt — đọc một trang là hiểu trọn ngày lễ. Next.js App Router + Tailwind CSS, xuất ra HTML tĩnh (`output: 'export'`).
+Trang tĩnh (static) về các ngày lễ Việt Nam và quốc tế — **song ngữ Việt/English** — đọc một trang là hiểu trọn ngày lễ. Next.js App Router + Tailwind CSS, xuất ra HTML tĩnh (`output: 'export'`).
 
-**Live:** https://jasontm17.github.io/All-In-One-Holiday/
+**Live:** https://jasontm17.github.io/All-In-One-Holiday/ · **English:** https://jasontm17.github.io/All-In-One-Holiday/en/
 
 ## Tính năng
 
-- `/` — trang chủ: hero ảnh, đếm ngược, lịch trình 90 ngày, công cụ nhanh, băng ảnh Việt Nam, lưới 26 ngày lễ.
-- `/[slug]/` — 26 trang lễ: đếm ngược, lịch sử, ý nghĩa, phong tục, quà tặng, 5+ lời chúc, câu chuyện & nguồn, **Gợi ý lời chúc** (tạo câu chúc theo tông), và mục **"Hiểu trọn"** — nguồn gốc chi tiết, phong tục & nghi lễ, ẩm thực & lễ vật, và sự thật thú vị.
+- **Hai ngôn ngữ** — tiếng Việt tại root (`/`), tiếng Anh dưới `/en/`; chuyển ngôn ngữ bằng nút `VI|EN` trên header (giữ nguyên trang đang xem). Canonical + `hreflang` đầy đủ.
+- `/` — trang chủ: hero ảnh, đếm ngược, lịch trình 90 ngày, công cụ nhanh, băng ảnh Việt Nam, lưới 27 ngày lễ.
+- `/[slug]/` — 27 trang lễ ×2 ngôn ngữ: đếm ngược, lịch sử, ý nghĩa, phong tục, quà tặng, 5+ lời chúc, câu chuyện & nguồn, **Gợi ý lời chúc** (tạo câu chúc theo tông), và mục **"Hiểu trọn"** — nguồn gốc chi tiết, phong tục & nghi lễ, ẩm thực & lễ vật, và sự thật thú vị.
 - `/lich/` — lịch cả năm: ô ngày dương + âm, chip ngày lễ, lọc theo loại, agenda mobile, đăng ký/tải `ngay-le-viet.ics` (3 năm).
 - `/thiep/` — tạo thiệp: 6 mẫu, tùy chỉnh người nhận/người gửi/lời chúc, tải PNG (1080×1350, 1200×630), chia sẻ (noindex).
 - `/birthday/` — thiệp sinh nhật qua URL (noindex, không lưu dữ liệu).
@@ -15,7 +16,7 @@ Trang tĩnh (static) về các ngày lễ Việt Nam và quốc tế, bằng ti�
 - Chế độ tối (system + toggle, lưu localStorage), PWA (manifest + service worker, cài được, xem offline).
 - `/credits/` — nguồn ảnh theo giấy phép.
 
-## 26 ngày lễ
+## 27 ngày lễ
 
 | Ngày lễ | Thời điểm | Quy tắc |
 | --- | --- | --- |
@@ -27,6 +28,7 @@ Trang tĩnh (static) về các ngày lễ Việt Nam và quốc tế, bằng ti�
 | [Quốc tế Phụ nữ 8/3](https://jasontm17.github.io/All-In-One-Holiday/quoc-te-phu-nu/) | 8 tháng 3 | Dương lịch |
 | [Tết Hàn thực](https://jasontm17.github.io/All-In-One-Holiday/tet-han-thuc/) | 3/3 Âm lịch | Âm lịch |
 | [Giỗ Tổ Hùng Vương](https://jasontm17.github.io/All-In-One-Holiday/gio-to-hung-vuong/) | 10/3 Âm lịch | Âm lịch |
+| [Tết Thanh minh](https://jasontm17.github.io/All-In-One-Holiday/tet-thanh-minh/) | ~4–5 tháng 4 | Tiết khí (Thanh minh) |
 | [Ngày Giải phóng miền Nam 30/4](https://jasontm17.github.io/All-In-One-Holiday/giai-phong-mien-nam/) | 30 tháng 4 | Dương lịch |
 | [Quốc tế Lao động 1/5](https://jasontm17.github.io/All-In-One-Holiday/quoc-te-lao-dong/) | 1 tháng 5 | Dương lịch |
 | [Ngày của Mẹ](https://jasontm17.github.io/All-In-One-Holiday/ngay-cua-me/) | Chủ nhật thứ 2 tháng 5 | Thứ trong tháng |
@@ -46,11 +48,48 @@ Trang tĩnh (static) về các ngày lễ Việt Nam và quốc tế, bằng ti�
 | [Ông Công Ông Táo](https://jasontm17.github.io/All-In-One-Holiday/ong-cong-ong-tao/) | 23/12 Âm lịch | Âm lịch |
 | [Giáng sinh](https://jasontm17.github.io/All-In-One-Holiday/giang-sinh/) | 24–25 tháng 12 | Dương lịch |
 
-Ngày âm lịch được quy đổi sang dương lịch từng năm tự động (`src/lib/dates.ts`).
+Ngày âm lịch được quy đổi sang dương lịch từng năm tự động (`src/lib/dates.ts`); Tết Thanh minh theo tiết khí Thanh minh (bảng `QINGMING_TABLE`, 1900–2100).
+
+## English version
+
+The whole site is mirrored in English under `/en/` — every holiday page, the calendar (`/en/lich/`), card maker (`/en/thiep/`), birthday card (`/en/birthday/`) and credits (`/en/credits/`). English content lives in `src/data/holidays-en.ts` + `src/data/stories-en.ts`; UI strings in `src/i18n/en.ts`. See [CONTRIBUTING.md](CONTRIBUTING.md#bilingual-architecture--the-one-rule-that-matters) for the architecture rules.
+
+## Public JSON API
+
+`public/api/holidays.json` is regenerated at build time (`npm run gen:api` — also runs inside `npm run build` via `prebuild`). Shape:
+
+```jsonc
+{
+  "generatedAt": "…ISO…",
+  "locales": ["vi", "en"],
+  "count": 27,
+  "holidays": [
+    {
+      "slug": "tet-nguyen-dan",
+      "locale": "vi" | "en",
+      "name": "…",
+      "dateMark": "…",
+      "displayDate": "…",
+      "categories": ["truyen-thong", "quoc-gia"],
+      "tagline": "…",
+      "meaning": "…",
+      "traditions": [{ "title": "…", "text": "…" }],
+      "wishes": ["…"],
+      "gifts": [{ "title": "…", "text": "…" }],
+      "rule": { "type": "lunar", "month": 1, "day": 1 },
+      "nextOccurrence": "YYYY-MM-DD",
+      "occurrenceThisYear": "YYYY-MM-DD"
+    }
+    // …54 entries (27 holidays × 2 locales)
+  ]
+}
+```
+
+Date rules: `solar` (Gregorian month/day), `lunar` (Vietnamese lunar month/day), `nth-weekday` (e.g. 2nd Sunday of May), `qingming` (Qingming solar term).
 
 ### Theo nhóm
 
-- **Truyền thống:** Tết Nguyên Đán, Tết Nguyên Tiêu, Giỗ Tổ Hùng Vương, Lễ Vu Lan, Tết Trung thu, Ông Công Ông Táo, Tết Hàn thực, Tết Đoan Ngọ, Giáng sinh.
+- **Truyền thống:** Tết Nguyên Đán, Tết Nguyên Tiêu, Giỗ Tổ Hùng Vương, Tết Thanh minh, Lễ Vu Lan, Tết Trung thu, Ông Công Ông Táo, Tết Hàn thực, Tết Đoan Ngọ, Giáng sinh.
 - **Quốc gia:** Giải phóng miền Nam, Quốc tế Lao động, Gia đình Việt Nam, Thương binh Liệt sĩ, Quốc khánh, Phụ nữ Việt Nam, Nhà giáo Việt Nam, Quân đội Nhân dân, Thầy thuốc, Báo chí Cách mạng, Người cao tuổi, Doanh nhân.
 - **Quốc tế:** Tết Dương lịch, Lễ Tình nhân, Quốc tế Phụ nữ 8/3, Quốc tế Lao động, Ngày của Mẹ, Quốc tế Thiếu nhi, Giáng sinh.
 - **Phụ nữ & gia đình:** Quốc tế Phụ nữ 8/3, Ngày của Mẹ, Phụ nữ Việt Nam, Lễ Vu Lan, Gia đình Việt Nam.
@@ -94,12 +133,15 @@ Chi tiết nghiên cứu + token đầy đủ: [`docs/design-references.md`](doc
 
 ## Thêm một ngày lễ
 
-1. Mở `src/data/holidays.ts`, thêm một object `Holiday` vào mảng `holidays`:
-   - `slug` — đường dẫn `/<slug>/`
-   - `rule` — `{ type: 'solar', month, day }` (dương lịch), `{ type: 'lunar', month, day }` (âm lịch, tự quy đổi), hoặc `{ type: 'nth-weekday', month, weekday, nth }` (vd. Chủ nhật thứ 2 tháng 5)
+Chi tiết đầy đủ: [CONTRIBUTING.md — Adding a holiday](CONTRIBUTING.md#adding-a-holiday).
+
+1. Thêm entry vào `src/data/holidays.ts` (VI) **và** `src/data/holidays-en.ts` (EN) — cùng `slug`, cùng vị trí.
+   - `rule` — `{ type: 'solar', month, day }`, `{ type: 'lunar', month, day }`, `{ type: 'nth-weekday', month, weekday, nth }`, hoặc `{ type: 'qingming' }`
    - `motif` — tên ornament trong `Motif.tsx`
-   - `theme`, `history`, `traditions`, `wishes` (≥5), `gifts`, `faq`, và `deep` (`ongNguon`, `phongTuc`, `amThuc`, `facts`)
-2. Không cần thêm route — trang `/<slug>/`, OG image, sitemap và grid tự sinh. Test dữ liệu trong `src/data/holidays.test.ts` sẽ kiểm tra đủ trường.
+   - `theme`, `history`, `traditions`, `wishes` (≥5), `gifts`, `faq`, và `deep`
+2. Thêm story trong `src/data/stories.ts` + `src/data/stories-en.ts` (≥3 nguồn https; nguồn tiếng Anh cho EN).
+3. Ảnh qua `scripts/fetch-images.mjs <slug> --fill` + `scripts/gen-thumbs.mjs`, credits tự ghi vào `image-credits.ts`.
+4. `npm run gen:data && npm test` — parity + data-integrity tests sẽ kiểm tra đủ trường. Không cần thêm route.
 
 ## Triển khai
 
@@ -113,6 +155,8 @@ Chi tiết nghiên cứu + token đầy đủ: [`docs/design-references.md`](doc
 `/birthday/?name=<tên>&date=<YYYY-MM-DD>&msg=<lời nhắn>&from=<người gửi>&theme=<hoa-hong|hoang-hon|dai-duong|rung-xanh>` — không lưu trữ dữ liệu cá nhân; trang `noindex`.
 
 ## Đóng góp
+
+Xem [CONTRIBUTING.md](CONTRIBUTING.md). Các file cộng đồng: [SECURITY.md](SECURITY.md), [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
 
 - Branch mới từ `main`, conventional commits (`feat:`, `fix:`…).
 - Trước khi mở PR: `npm run lint && npx tsc --noEmit && npm test && npm run build && npm run test:e2e` phải xanh.

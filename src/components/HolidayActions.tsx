@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import { nextOccurrence, type DateRule } from "@/lib/dates";
 import { formatFull } from "@/lib/format";
+import { getStrings, type Locale } from "@/i18n";
 
 function pad(n: number): string {
   return String(n).padStart(2, "0");
@@ -24,13 +25,16 @@ export default function HolidayActions({
   displayDate,
   tagline,
   rule,
+  locale = "vi",
 }: {
   name: string;
   slug: string;
   displayDate: string;
   tagline: string;
   rule: DateRule;
+  locale?: Locale;
 }) {
+  const t = getStrings(locale);
   const [copied, setCopied] = useState(false);
 
   const canShare = useMemo(
@@ -89,17 +93,17 @@ export default function HolidayActions({
         onClick={share}
         className="glass rounded-full px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-white/25"
       >
-        <span aria-live="polite">{copied ? "Đã sao chép liên kết" : "Chia sẻ"}</span>
+        <span aria-live="polite">{copied ? t.actions.copiedLink : t.actions.share}</span>
       </button>
       <button
         type="button"
         onClick={downloadIcs}
         className="glass rounded-full px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-white/25"
       >
-        Thêm vào lịch
+        {t.actions.addToCalendar}
       </button>
       <span className="sr-only">
-        Ngày lễ gần nhất: {formatFull(nextOccurrence(rule))}
+        {t.holiday.nearest(formatFull(nextOccurrence(rule), locale))}
       </span>
     </div>
   );

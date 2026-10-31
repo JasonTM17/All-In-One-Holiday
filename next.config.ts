@@ -7,6 +7,8 @@ const nextConfig: NextConfig = {
   trailingSlash: true,
   basePath,
   assetPrefix: basePath || undefined,
+  // Two root layouts ((vi) + /en): global-not-found covers unmatched URLs.
+  experimental: { globalNotFound: true },
 };
 
 export default nextConfig;

@@ -25,6 +25,7 @@ const QUERIES = {
   "valentine": ["rose flower red", "single red rose", "rose petals"],
   "quoc-te-phu-nu": ["roses flowers pink", "tulips bouquet", "flowers women"],
   "gio-to-hung-vuong": ["Hung Kings temple", "Phu Tho temple", "Nghia Linh mountain"],
+  "tet-thanh-minh": ["Qingming tomb sweeping", "Tomb-Sweeping Day cemetery", "Thanh Minh Vietnam", "grave offering Qingming"],
   "giai-phong-mien-nam": ["Ho Chi Minh City", "Saigon skyline", "Ben Thanh market"],
   "quoc-te-lao-dong": ["rice field Vietnam farmer", "Vietnam farmers", "dong lua"],
   "ngay-cua-me": ["carnation", "dianthus flower", "flowers pink bloom"],

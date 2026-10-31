@@ -5,6 +5,7 @@ import Link from "next/link";
 import { nextOccurrence, type DateRule } from "@/lib/dates";
 import { formatFull } from "@/lib/format";
 import { useNow } from "@/hooks/useNow";
+import { getStrings, localePath, type Locale } from "@/i18n";
 import Motif from "./Motif";
 import RuleCountdown from "./RuleCountdown";
 import type { MotifName } from "@/data/holidays";
@@ -29,6 +30,7 @@ export interface NextHolidayInitial {
 export default function NextHolidayHero({
   items,
   initial,
+  locale,
 }: {
   items: NextHolidayItem[];
   /**
@@ -37,7 +39,10 @@ export default function NextHolidayHero({
    * it once the clock starts ticking and only swaps when it truly differs.
    */
   initial: NextHolidayInitial;
+  locale?: Locale;
 }) {
+  const t = getStrings(locale ?? "vi");
+  const loc = locale ?? "vi";
   const now = useNow(60_000);
   const next = useMemo(() => {
     if (!now) {
@@ -80,23 +85,23 @@ export default function NextHolidayHero({
           />
           <div className="relative flex h-full flex-col gap-4">
             <p className="eyebrow flex items-center justify-between text-white/75">
-              Ngày lễ sắp tới
+              {t.hero.nextHoliday}
               <span className="rounded-full border border-white/30 px-2.5 py-0.5 text-[10px] tracking-widest">
-                {formatFull(next.date)}
+                {formatFull(next.date, loc)}
               </span>
             </p>
             <Link
-              href={`/${next.item.slug}/`}
+              href={localePath(loc, `/${next.item.slug}/`)}
               className="font-display text-4xl font-extrabold leading-tight sm:text-[2.6rem]"
             >
               {next.item.name}
             </Link>
-            <RuleCountdown rule={next.item.rule} />
+            <RuleCountdown rule={next.item.rule} locale={loc} />
             <Link
-              href={`/${next.item.slug}/`}
+              href={localePath(loc, `/${next.item.slug}/`)}
               className="mt-auto inline-flex w-fit items-center gap-2 rounded-full bg-white/95 px-5 py-2.5 text-sm font-bold text-[var(--color-brand-ink)] transition-transform hover:scale-[1.03]"
             >
-              Xem chi tiết →
+              {t.hero.viewDetails} →
             </Link>
           </div>
         </div>

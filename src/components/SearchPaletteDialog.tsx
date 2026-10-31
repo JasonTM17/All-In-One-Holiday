@@ -3,22 +3,29 @@
 import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { searchIndex } from "@/data/search-index";
+import { searchIndexEn } from "@/data/search-index-en";
 import { searchHolidays } from "@/lib/search";
+import { getStrings, localePrefix, type Locale } from "@/i18n";
 
 const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
 /** Modal search dialog — lazy chunk; mounts only when the palette is open. */
 export default function SearchPaletteDialog({
   onClose,
+  locale,
 }: {
   onClose: () => void;
+  locale: Locale;
 }) {
+  const t = getStrings(locale);
+  const index = locale === "en" ? searchIndexEn : searchIndex;
+  const prefix = `${BASE}${localePrefix(locale)}`;
   const [q, setQ] = useState("");
   const [active, setActive] = useState(0);
   const inputRef = useRef<HTMLInputElement>(null);
   const boxRef = useRef<HTMLDivElement>(null);
   const router = useRouter();
-  const hits = searchHolidays(searchIndex, q);
+  const hits = searchHolidays(index, q);
 
   useEffect(() => {
     inputRef.current?.focus();
@@ -46,7 +53,7 @@ export default function SearchPaletteDialog({
       e.preventDefault();
       setActive((a) => Math.max(a - 1, 0));
     } else if (e.key === "Enter" && hits[active]) {
-      router.push(`${BASE}/${hits[active].holiday.slug}/`);
+      router.push(`${prefix}/${hits[active].holiday.slug}/`);
       onClose();
     }
   }
@@ -63,7 +70,7 @@ export default function SearchPaletteDialog({
         ref={boxRef}
         role="dialog"
         aria-modal="true"
-        aria-label="Tìm kiếm ngày lễ"
+        aria-label={t.search.dialogAria}
         onKeyDown={onTrap}
         className="w-full max-w-lg overflow-hidden rounded-2xl bg-[var(--color-card)] shadow-2xl"
       >
@@ -79,22 +86,22 @@ export default function SearchPaletteDialog({
             setQ(e.target.value);
             setActive(0);
           }}
-          placeholder="Nhập tên ngày lễ, lời chúc…"
+          placeholder={t.search.placeholder}
           className="w-full border-b border-[var(--color-line)] px-5 py-4 text-lg outline-none"
         />
         <ul id="search-list" role="listbox" className="max-h-80 overflow-auto p-2">
           {q && hits.length === 0 && (
-            <li className="p-4 text-sm text-[var(--color-faint)]">Không tìm thấy “{q}”.</li>
+            <li className="p-4 text-sm text-[var(--color-faint)]">{t.search.empty(q)}</li>
           )}
           {!q && (
             <li className="p-4 text-sm text-[var(--color-faint)]">
-              Gõ để tìm — không cần dấu: “tet”, “phu nu”, “sinh nhat”…
+              {t.search.hint}
             </li>
           )}
           {hits.map((h, i) => (
             <li key={h.holiday.slug} role="option" id={`hit-${h.holiday.slug}`} aria-selected={i === active}>
               <a
-                href={`${BASE}/${h.holiday.slug}/`}
+                href={`${prefix}/${h.holiday.slug}/`}
                 onClick={onClose}
                 className={`flex items-center gap-3 rounded-xl px-3 py-3 focus-visible:outline-2 ${
                   i === active ? "bg-[var(--color-brand)]/10" : "hover:bg-[var(--color-soft)]"
@@ -109,7 +116,9 @@ export default function SearchPaletteDialog({
                   <span className="block truncate text-sm font-bold text-[var(--color-ink)]">{h.holiday.name}</span>
                   <span className="block truncate text-xs text-[var(--color-faint)]">
                     {h.holiday.displayDate}
-                    {h.why ? ` · khớp ${h.why}` : ""}
+                    {h.why
+                      ? ` · ${h.why === "wish" ? t.search.whyWish : t.search.whyDate}`
+                      : ""}
                   </span>
                 </span>
               </a>
@@ -117,7 +126,7 @@ export default function SearchPaletteDialog({
           ))}
         </ul>
         <p className="border-t border-[var(--color-line)] px-4 py-2 text-[10px] text-[var(--color-faint)]">
-          ↑↓ chọn · Enter mở · Esc đóng
+          {t.search.footer}
         </p>
       </div>
     </div>

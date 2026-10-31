@@ -3,6 +3,7 @@
 import dynamic from "next/dynamic";
 import { useEffect, useRef, useState } from "react";
 import type { CardHoliday } from "./CardMaker";
+import type { Locale } from "@/i18n";
 
 // The maker is the only heavy island on /thiep. It stays out of the static
 // HTML (ssr:false) and is only mounted once the placeholder scrolls near the
@@ -26,7 +27,13 @@ export function CardMakerSkeleton() {
   );
 }
 
-export default function CardMakerLazy({ items }: { items: CardHoliday[] }) {
+export default function CardMakerLazy({
+  items,
+  locale = "vi",
+}: {
+  items: CardHoliday[];
+  locale?: Locale;
+}) {
   const ref = useRef<HTMLDivElement>(null);
   const [show, setShow] = useState(false);
 
@@ -67,6 +74,6 @@ export default function CardMakerLazy({ items }: { items: CardHoliday[] }) {
   }, []);
 
   return (
-    <div ref={ref}>{show ? <CardMaker items={items} /> : <CardMakerSkeleton />}</div>
+    <div ref={ref}>{show ? <CardMaker items={items} locale={locale} /> : <CardMakerSkeleton />}</div>
   );
 }

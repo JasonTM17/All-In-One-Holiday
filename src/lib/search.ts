@@ -43,10 +43,10 @@ export function searchHolidays<T extends Searchable>(
       const wi = h.wishes.findIndex((w) => fold(w).includes(q));
       if (wi >= 0) {
         score = 25;
-        why = "lời chúc";
+        why = "wish";
       } else if (fold(h.displayDate).includes(q) || fold(h.dateMark.replace("·", "/")).includes(q)) {
         score = 30;
-        why = "ngày";
+        why = "date";
       }
     }
     if (score > 0) hits.push({ holiday: h, score, why });

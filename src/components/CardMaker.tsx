@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { drawCard } from "@/lib/card-draw";
+import { getStrings, localePath, type Locale } from "@/i18n";
 
 /** Slim per-holiday shape the card maker needs (serialized from the server page). */
 export interface CardHoliday {
@@ -19,19 +20,27 @@ const SIZES = [
   { id: "wide", w: 1200, h: 630, label: "1200×630" },
 ] as const;
 
-// 6 layout templates.
+// 6 layout templates (labels come from the locale's message bundle).
 const TEMPLATES = [
-  { id: 0, label: "Giữa", align: "center" as const, photoMode: "bg" },
-  { id: 1, label: "Trái", align: "left" as const, photoMode: "bg" },
-  { id: 2, label: "Ảnh trên", align: "center" as const, photoMode: "top" },
-  { id: 3, label: "Tối giản", align: "center" as const, photoMode: "none" },
-  { id: 4, label: "Khung ảnh", align: "center" as const, photoMode: "frame" },
-  { id: 5, label: "Đảo ngược", align: "right" as const, photoMode: "bg-inv" },
+  { id: 0, align: "center" as const, photoMode: "bg" },
+  { id: 1, align: "left" as const, photoMode: "bg" },
+  { id: 2, align: "center" as const, photoMode: "top" },
+  { id: 3, align: "center" as const, photoMode: "none" },
+  { id: 4, align: "center" as const, photoMode: "frame" },
+  { id: 5, align: "right" as const, photoMode: "bg-inv" },
 ] as const;
 
 type Tpl = (typeof TEMPLATES)[number];
 
-export default function CardMaker({ items }: { items: CardHoliday[] }) {
+export default function CardMaker({
+  items,
+  locale = "vi",
+}: {
+  items: CardHoliday[];
+  locale?: Locale;
+}) {
+  const t = getStrings(locale);
+  const prefix = `${BASE}${localePath(locale, "/thiep/")}`;
   const params = useSearchParams();
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const imgRef = useRef<HTMLImageElement | null>(null);
@@ -80,6 +89,8 @@ export default function CardMaker({ items }: { items: CardHoliday[] }) {
         msg,
         displayFont: display,
         sansFont: sans,
+        toLabel: t.thiep.toLabel,
+        fromLabel: t.thiep.fromLabel,
       });
     };
   });
@@ -115,7 +126,7 @@ export default function CardMaker({ items }: { items: CardHoliday[] }) {
   });
 
   const shareUrl = () => {
-    const u = new URL(`${location.origin}${BASE}/thiep/`);
+    const u = new URL(`${location.origin}${prefix}`);
     u.searchParams.set("holiday", slug);
     u.searchParams.set("t", String(tplId));
     if (to) u.searchParams.set("to", to.slice(0, 40));
@@ -145,7 +156,7 @@ export default function CardMaker({ items }: { items: CardHoliday[] }) {
       : null;
     if (file && navigator.canShare?.({ files: [file] })) {
       try {
-        await navigator.share({ files: [file], title: `${h.name} — Ngày Lễ Việt` });
+        await navigator.share({ files: [file], title: t.thiep.shareTitle(h.name) });
         return;
       } catch {
         return;
@@ -162,7 +173,7 @@ export default function CardMaker({ items }: { items: CardHoliday[] }) {
     <div className="grid gap-8 lg:grid-cols-[1fr_1.1fr]">
       <div className="space-y-5">
         <label className="block text-sm font-bold text-[var(--color-muted)]">
-          Ngày lễ
+          {t.thiep.holidayLabel}
           <select
             value={slug}
             onChange={(e) => setSlug(e.target.value)}
@@ -176,27 +187,27 @@ export default function CardMaker({ items }: { items: CardHoliday[] }) {
           </select>
         </label>
         <div>
-          <p className="text-sm font-bold text-[var(--color-muted)]">Kiểu thiệp</p>
+          <p className="text-sm font-bold text-[var(--color-muted)]">{t.thiep.styleLabel}</p>
           <div className="mt-1 flex flex-wrap gap-1.5">
-            {TEMPLATES.map((t) => (
+            {TEMPLATES.map((tp) => (
               <button
-                key={t.id}
+                key={tp.id}
                 type="button"
-                onClick={() => setTplId(t.id)}
-                aria-pressed={tplId === t.id}
+                onClick={() => setTplId(tp.id)}
+                aria-pressed={tplId === tp.id}
                 className={`min-h-11 rounded-xl px-3 text-xs font-bold transition focus-visible:outline-2 ${
-                  tpl.id === t.id
+                  tpl.id === tp.id
                     ? "bg-[var(--color-brand)] text-[var(--color-on-brand)]"
                     : "border border-[var(--color-line)] hover:bg-[var(--color-soft)]"
                 }`}
               >
-                {t.label}
+                {t.thiep.templates[tp.id]}
               </button>
             ))}
           </div>
         </div>
         <label className="block text-sm font-bold text-[var(--color-muted)]">
-          Gửi đến
+          {t.thiep.toLabel}
           <input
             type="text"
             value={to}
@@ -206,7 +217,7 @@ export default function CardMaker({ items }: { items: CardHoliday[] }) {
           />
         </label>
         <label className="block text-sm font-bold text-[var(--color-muted)]">
-          Từ
+          {t.thiep.fromLabel}
           <input
             type="text"
             value={from}
@@ -216,7 +227,7 @@ export default function CardMaker({ items }: { items: CardHoliday[] }) {
           />
         </label>
         <label className="block text-sm font-bold text-[var(--color-muted)]">
-          Lời nhắn
+          {t.thiep.msgLabel}
           <textarea
             value={msg}
             maxLength={200}
@@ -226,7 +237,7 @@ export default function CardMaker({ items }: { items: CardHoliday[] }) {
           />
         </label>
         <label className="block text-sm font-bold text-[var(--color-muted)]">
-          Chọn từ lời chúc
+          {t.thiep.pickWishLabel}
           <select
             onChange={(e) => {
               const i = Number(e.target.value);
@@ -236,7 +247,7 @@ export default function CardMaker({ items }: { items: CardHoliday[] }) {
             defaultValue={-1}
             className="mt-1 w-full rounded-xl border border-[var(--color-line)] bg-[var(--color-card)] px-3 py-2.5 text-[var(--color-ink)] outline-none focus:border-[var(--color-brand)]"
           >
-            <option value={-1}>Chọn một lời chúc…</option>
+            <option value={-1}>{t.thiep.chooseWish}</option>
             {h.wishes.map((w, i) => (
               <option key={i} value={i}>
                 {w.length > 60 ? w.slice(0, 57) + "…" : w}
@@ -271,14 +282,14 @@ export default function CardMaker({ items }: { items: CardHoliday[] }) {
             data-testid="thiep-download"
             className="min-h-11 rounded-full bg-[var(--color-brand)] px-5 text-sm font-bold text-[var(--color-on-brand)] hover:bg-[var(--color-brand-deep)] focus-visible:outline-2"
           >
-            Tải PNG
+            {t.thiep.download}
           </button>
           <button
             type="button"
             onClick={share}
             className="min-h-11 rounded-full border border-[var(--color-line)] px-4 text-sm font-bold text-[var(--color-muted)] hover:bg-[var(--color-soft)] focus-visible:outline-2"
           >
-            {copied ? "Đã sao chép liên kết" : "Chia sẻ"}
+            {copied ? t.thiep.copiedLink : t.thiep.share}
           </button>
         </div>
         <canvas
@@ -288,7 +299,7 @@ export default function CardMaker({ items }: { items: CardHoliday[] }) {
           style={{ aspectRatio: `${size.w}/${size.h}` }}
         />
         {!fontsReady && (
-          <p className="mt-2 text-xs text-[var(--color-faint)]">Đang tải phông chữ…</p>
+          <p className="mt-2 text-xs text-[var(--color-faint)]">{t.thiep.fontsLoading}</p>
         )}
       </div>
     </div>

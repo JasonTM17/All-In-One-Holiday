@@ -11,8 +11,13 @@ test.describe("r7 features", () => {
   });
   test("command palette opens, searches without diacritics, navigates", async ({ page }) => {
     await page.goto("/");
-    await page.keyboard.press("Control+k");
-    await expect(page.getByPlaceholder(/Nhập tên ngày lễ/)).toBeVisible();
+    // The ⌘K listener attaches at hydration; retry until the dialog opens.
+    await expect(async () => {
+      await page.keyboard.press("Control+k");
+      await expect(
+        page.getByPlaceholder(/Nhập tên ngày lễ/),
+      ).toBeVisible({ timeout: 1500 });
+    }).toPass();
     await page.keyboard.type("tet nguyen dan");
     const hit = page.getByRole("link", { name: /Tết Nguyên Đán/ }).first();
     await expect(hit).toBeVisible();

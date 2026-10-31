@@ -2,7 +2,10 @@
 import { chromium } from "playwright";
 
 const BASE = "http://localhost:3200";
-const PAGES = ["", "tet-nguyen-dan", "thiep", "lich", "birthday"];
+// Optional argv: page paths to shoot (e.g. `node scripts/shots.mjs en en/lich`).
+const PAGES = process.argv.slice(2);
+if (PAGES.length === 0)
+  PAGES.push("", "tet-nguyen-dan", "thiep", "lich", "birthday");
 
 const browser = await chromium.launch();
 for (const theme of ["light", "dark"]) {
@@ -12,7 +15,7 @@ for (const theme of ["light", "dark"]) {
   });
   const page = await ctx.newPage();
   for (const p of PAGES) {
-    const name = p === "" ? "home" : p;
+    const name = (p === "" ? "home" : p).replaceAll("/", "-");
     await page.goto(`${BASE}/${p}`, { waitUntil: "networkidle" });
     if (theme === "dark") {
       await page.evaluate(() => {

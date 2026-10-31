@@ -2,11 +2,12 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import { CATEGORY_LABELS, type HolidayCategory } from "@/data/categories";
+import { type HolidayCategory } from "@/data/categories";
 import type { MotifName } from "@/data/holidays";
 import { nextOccurrence, daysUntil, type DateRule } from "@/lib/dates";
 import { formatDayMonth, formatFull } from "@/lib/format";
 import { useNow } from "@/hooks/useNow";
+import { getStrings, localePath, type Locale } from "@/i18n";
 import Motif from "./Motif";
 import HImg from "./HImg";
 
@@ -24,15 +25,21 @@ export interface GridItem {
 
 type Filter = "all" | HolidayCategory;
 
-const FILTERS: { key: Filter; label: string }[] = [
-  { key: "all", label: "Tất cả" },
-  { key: "phu-nu", label: CATEGORY_LABELS["phu-nu"] },
-  { key: "quoc-gia", label: CATEGORY_LABELS["quoc-gia"] },
-  { key: "truyen-thong", label: CATEGORY_LABELS["truyen-thong"] },
-  { key: "quoc-te", label: CATEGORY_LABELS["quoc-te"] },
-];
-
-export default function HolidayGrid({ items }: { items: GridItem[] }) {
+export default function HolidayGrid({
+  items,
+  locale = "vi",
+}: {
+  items: GridItem[];
+  locale?: Locale;
+}) {
+  const t = getStrings(locale);
+  const FILTERS: { key: Filter; label: string }[] = [
+    { key: "all", label: t.grid.all },
+    { key: "phu-nu", label: t.grid.categories["phu-nu"] },
+    { key: "quoc-gia", label: t.grid.categories["quoc-gia"] },
+    { key: "truyen-thong", label: t.grid.categories["truyen-thong"] },
+    { key: "quoc-te", label: t.grid.categories["quoc-te"] },
+  ];
   const [filter, setFilter] = useState<Filter>("all");
   const now = useNow();
 
@@ -60,7 +67,7 @@ export default function HolidayGrid({ items }: { items: GridItem[] }) {
     <div>
       <div
         role="group"
-        aria-label="Lọc ngày lễ theo nhóm"
+        aria-label={t.grid.filterAria}
         className="mb-10 flex flex-wrap gap-2"
       >
         {FILTERS.map((f) => (
@@ -87,7 +94,7 @@ export default function HolidayGrid({ items }: { items: GridItem[] }) {
           return (
             <li key={h.slug}>
               <Link
-                href={`/${h.slug}/`}
+                href={localePath(locale, `/${h.slug}/`)}
                 className="card group block h-full overflow-hidden"
               >
                 <div
@@ -129,13 +136,13 @@ export default function HolidayGrid({ items }: { items: GridItem[] }) {
                       dateTime={
                         next ? next.toISOString().slice(0, 10) : undefined
                       }
-                      title={next ? formatFull(next) : undefined}
+                      title={next ? formatFull(next, locale) : undefined}
                     >
-                      {next ? formatDayMonth(next) : h.displayDate}
+                      {next ? formatDayMonth(next, locale) : h.displayDate}
                     </time>
                     {days !== null && (
                       <span className="text-[var(--color-brand)]">
-                        {days === 0 ? "· Hôm nay" : `· Còn ${days} ngày`}
+                        {days === 0 ? t.grid.today : t.grid.daysLeft(days)}
                       </span>
                     )}
                   </p>

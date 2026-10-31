@@ -25,8 +25,12 @@ function walk(dir) {
       } else {
         walk(p);
       }
-    } else if (name === "opengraph-image") {
-      const png = `${p}.png`;
+    } else if (name === "opengraph-image" || name.startsWith("opengraph-image-")) {
+      // Next dedupes same-named metadata files across route groups by hashing
+      // one of them (`opengraph-image-XXXX`); the canonical og:image URL is
+      // always `<route>/opengraph-image.png`, so copy the hashed variant to it.
+      const png =
+        name === "opengraph-image" ? `${p}.png` : join(dir, "opengraph-image.png");
       copyFileSync(p, png);
       copied++;
     }

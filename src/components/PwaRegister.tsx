@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { getStrings, type Locale } from "@/i18n";
 
 const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
@@ -24,7 +25,8 @@ const onIdle = (cb: () => void) => {
  * Service-worker registration is deferred to post-load idle time so it never
  * competes with first paint or hydration.
  */
-export default function PwaRegister() {
+export default function PwaRegister({ locale }: { locale: Locale }) {
+  const t = getStrings(locale);
   const [installEvt, setInstallEvt] = useState<BipEvent | null>(null);
 
   useEffect(() => {
@@ -56,7 +58,7 @@ export default function PwaRegister() {
       onClick={() => installEvt.prompt().then(() => setInstallEvt(null))}
       className="min-h-11 rounded-full border border-[var(--color-line)] px-4 text-sm font-bold text-[var(--color-muted)] hover:bg-[var(--color-soft)] focus-visible:outline-2"
     >
-      Cài đặt ứng dụng
+      {t.nav.installApp}
     </button>
   );
 }
