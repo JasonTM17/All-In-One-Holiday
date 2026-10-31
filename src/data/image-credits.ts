@@ -525,24 +525,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Exhibit in the Vietnamese Women's Museum, Hanoi, Vietnam. Photography was permitted in the museum without restriction."
     },
     {
-      "file": "phu-nu-viet-nam/gallery4.webp",
-      "photographer": "Akasumoto",
-      "profile": "https://commons.wikimedia.org/wiki/File:Ao_dai_trang_3.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Ao_dai_trang_3.jpg",
-      "license": "CC BY 2.0",
-      "source": "Wikimedia Commons",
-      "alt": "Student girl with white ao dai"
-    },
-    {
-      "file": "phu-nu-viet-nam/gallery5.webp",
-      "photographer": "Chen Mei (陳枚), Sun Hu (孫祜), Jin Kun (金昆), Dai Hong (戴洪) and Cheng Zhidao (程志道), five court painters under the Qianlong Emperor.",
-      "profile": "https://commons.wikimedia.org/wiki/File:Along_the_River_7-119-3.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Along_the_River_7-119-3.jpg",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "ao dai silk"
-    },
-    {
       "file": "phu-nu-viet-nam/gallery6.webp",
       "photographer": "ManishNegi513",
       "profile": "https://commons.wikimedia.org/wiki/File:Traditional_Vietnamese_dress.jpg",
@@ -550,6 +532,24 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 4.0",
       "source": "Wikimedia Commons",
       "alt": "Traditional costumes of Hmong people in Vietnam."
+    },
+    {
+      "file": "phu-nu-viet-nam/gallery4.webp",
+      "photographer": "Dang  Lam",
+      "profile": "https://www.flickr.com/photos/danglamhn/30176026341/",
+      "photo": "https://www.flickr.com/photos/danglamhn/30176026341/",
+      "license": "CC0/PDM",
+      "source": "Wikimedia Commons",
+      "alt": "phu nu viet nam"
+    },
+    {
+      "file": "phu-nu-viet-nam/gallery5.webp",
+      "photographer": "Tuan Le",
+      "profile": "https://www.flickr.com/photos/destinywings_veno/23268478806/",
+      "photo": "https://www.flickr.com/photos/destinywings_veno/23268478806/",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "vietnam woman flowers"
     }
   ],
   "nha-giao-viet-nam": [
@@ -590,15 +590,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "The new stadium within Chu Văn An High School campus."
     },
     {
-      "file": "nha-giao-viet-nam/gallery4.webp",
-      "photographer": "Thomas Taylor Hammond (1920-1993)",
-      "profile": "https://commons.wikimedia.org/wiki/File:1964_Hammond_Slides_Student_Raising_Hand.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:1964_Hammond_Slides_Student_Raising_Hand.jpg",
-      "license": "CC BY-SA 4.0",
-      "source": "Wikimedia Commons",
-      "alt": "The images are part of the Hammond Collection, taken in or near Moscow in the winter of 1964. This specific image featur"
-    },
-    {
       "file": "nha-giao-viet-nam/gallery5.webp",
       "photographer": "Anneli Salo",
       "profile": "https://commons.wikimedia.org/wiki/File:Kirsti_M%C3%A4kinen_IMG_5884_C.JPG",
@@ -624,6 +615,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "Public domain",
       "source": "Wikimedia Commons",
       "alt": "Dong A IT Program graduates celebrate in Danang. Photo: CRS First Group of Students with Disabilities Graduates from IT "
+    },
+    {
+      "file": "nha-giao-viet-nam/gallery4.webp",
+      "photographer": "Orange County Archives",
+      "profile": "https://www.flickr.com/photos/ocarchives/25258534014/",
+      "photo": "https://www.flickr.com/photos/ocarchives/25258534014/",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "vietnam teacher classroom"
     }
   ],
   "quan-doi-nhan-dan": [
@@ -848,15 +848,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "City hall, Ho Chi Minh City, Vietnam."
     },
     {
-      "file": "giai-phong-mien-nam/gallery4.webp",
-      "photographer": "Clay Gilliland",
-      "profile": "https://commons.wikimedia.org/wiki/File:Independence_Palace_or_Reunification_Palace_(12110973526).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Independence_Palace_or_Reunification_Palace_(12110973526).jpg",
-      "license": "CC BY-SA 2.0",
-      "source": "Wikimedia Commons",
-      "alt": "Independence Palace (Dinh Độc Lập), also known as Reunification Palace (Vietnamese: Dinh Thống Nhất), built on the site "
-    },
-    {
       "file": "giai-phong-mien-nam/gallery5.webp",
       "photographer": "Balon Greyjoy",
       "profile": "https://commons.wikimedia.org/wiki/File:20190923_Independence_Palace-10.jpg",
@@ -873,6 +864,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY 2.0",
       "source": "Wikimedia Commons",
       "alt": "Ho Chi Minh City view from Thu Duc city"
+    },
+    {
+      "file": "giai-phong-mien-nam/gallery4.webp",
+      "photographer": "VanLap Hoàng",
+      "profile": "https://www.flickr.com/photos/vanlaphoang1945/9736843791/",
+      "photo": "https://www.flickr.com/photos/vanlaphoang1945/9736843791/",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "sai gon 1975"
     }
   ],
   "quoc-te-lao-dong": [
@@ -1061,15 +1061,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Bắt đầu là hạt Rồi sau thành mầm Gặp hạt mưa xuân Xoè ra lá nhỏ Lớn thêm chút nữa Vươn lên bầu trời Cái hạt bé xíu Thành"
     },
     {
-      "file": "quoc-te-thieu-nhi/hero.webp",
-      "photographer": "Benh LIEU SONG (Flickr)",
-      "profile": "https://commons.wikimedia.org/wiki/File:Cappadocia_Balloon_Inflating_Wikimedia_Commons.JPG",
-      "photo": "https://commons.wikimedia.org/wiki/File:Cappadocia_Balloon_Inflating_Wikimedia_Commons.JPG",
-      "license": "CC BY-SA 3.0",
-      "source": "Wikimedia Commons",
-      "alt": "A hot air balloon being inflated before air trip over Cappadocia, central Turkey, as seen from inside."
-    },
-    {
       "file": "quoc-te-thieu-nhi/gallery4.webp",
       "photographer": "TAPAS KUMAR HALDER",
       "profile": "https://commons.wikimedia.org/wiki/File:Funny_hard_boiled_eggs-_Kolkata_-_West_Bengal_-_DSC_0003.jpg",
@@ -1095,6 +1086,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC0",
       "source": "Wikimedia Commons",
       "alt": "Artwork: \"Children of South Vietnam\" Artist: Earl Thollander"
+    },
+    {
+      "file": "quoc-te-thieu-nhi/hero.webp",
+      "photographer": "upyernoz",
+      "profile": "https://www.flickr.com/photos/upyernoz/33709943/",
+      "photo": "https://www.flickr.com/photos/upyernoz/33709943/",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "vietnam children playing"
     }
   ],
   "ngay-gia-dinh-viet-nam": [
@@ -1792,15 +1792,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Nursery Pond, Hazlecourt Fish Pond - Llysworney Once used to breed a variety of decorative and exotic aquarium fish, the"
     },
     {
-      "file": "ong-cong-ong-tao/gallery2.webp",
-      "photographer": "Ermell",
-      "profile": "https://commons.wikimedia.org/wiki/File:Weisendorf_carp_pond_17RM1668-PSD.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Weisendorf_carp_pond_17RM1668-PSD.jpg",
-      "license": "CC BY-SA 4.0",
-      "source": "Wikimedia Commons",
-      "alt": "Fish pond near Weisendorf in Aischgrund"
-    },
-    {
       "file": "ong-cong-ong-tao/gallery3.webp",
       "photographer": "Acabashi",
       "profile": "https://commons.wikimedia.org/wiki/File:Highdown_Gardens,_Worthing,_Cave_Pond_carp_1.jpg",
@@ -1880,6 +1871,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 3.0",
       "source": "Wikimedia Commons",
       "alt": "Lăng ngài Mạc Cửu cùng phu nhân và các hậu duệ tại Hà Tiên, Kiên Giang"
+    },
+    {
+      "file": "ong-cong-ong-tao/gallery2.webp",
+      "photographer": "lightwrite",
+      "profile": "https://www.flickr.com/photos/lightwrite/14362261867/",
+      "photo": "https://www.flickr.com/photos/lightwrite/14362261867/",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "vietnam carp pond"
     }
   ],
   "tet-han-thuc": [
@@ -2159,12 +2159,12 @@ export const imageCredits: Record<string, ImageCredit[]> = {
     },
     {
       "file": "ngay-thay-thuoc/gallery4.webp",
-      "photographer": "U.S. Navy photo by Lt. Cmdr. Arwen Consaul",
-      "profile": "https://commons.wikimedia.org/wiki/File:US_Navy_100604-N-0827C-001_Dentists_remove_a_tooth_from_a_Vietnamese_patient_during_a_Pacific_Partnership_2010_medical_community_service_project.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:US_Navy_100604-N-0827C-001_Dentists_remove_a_tooth_from_a_Vietnamese_patient_during_a_Pacific_Partnership_2010_medical_community_service_project.jpg",
-      "license": "Public domain",
+      "photographer": "Michael Coghlan",
+      "profile": "https://www.flickr.com/photos/mikecogh/16792899393/",
+      "photo": "https://www.flickr.com/photos/mikecogh/16792899393/",
+      "license": "CC BY-SA 2.0",
       "source": "Wikimedia Commons",
-      "alt": "QUY NHON, Vietnam (June 4, 2010) Japan Maritime Self-Defense Force Lt. Takashi Miyamoto, a dentist, and Hideyuki Fukui, "
+      "alt": "vietnamese doctors"
     }
   ],
   "ngay-bao-chi": [
@@ -2324,15 +2324,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Statue on the frontage of Oriel &amp; Hardie House, Bootle of a loving elderly couple. Sadly their dancing days appear t"
     },
     {
-      "file": "nguoi-cao-tuoi/gallery5.webp",
-      "photographer": "Rudolf Eickemeyer, Jr.",
-      "profile": "https://commons.wikimedia.org/wiki/File:(Man_praying_over_meal)_by_Rudolf_Eickemeyer.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:(Man_praying_over_meal)_by_Rudolf_Eickemeyer.jpg",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "[Man praying over meal]; Rudolf Eickemeyer, Jr. (American, 1862 - 1932); about 1900–1915; Gelatin silver print; 40.5 × 5"
-    },
-    {
       "file": "nguoi-cao-tuoi/gallery6.webp",
       "photographer": "McKay Savage from London, UK",
       "profile": "https://commons.wikimedia.org/wiki/File:Vietnam_08_-_082_-_My_smiling_tour_saleswoman_(3184027481).jpg",
@@ -2340,6 +2331,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY 2.0",
       "source": "Wikimedia Commons",
       "alt": "The lady in Vinh Long who happily sold me a \"homestay\" on the Binh Hoa Phuoc island for $10 USD and a morning boat tour "
+    },
+    {
+      "file": "nguoi-cao-tuoi/gallery5.webp",
+      "photographer": "EU Civil Protection and Humanitarian Aid",
+      "profile": "https://www.flickr.com/photos/eu_echo/6975550309/",
+      "photo": "https://www.flickr.com/photos/eu_echo/6975550309/",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "vietnam elderly portrait"
     }
   ],
   "doanh-nhan": [
@@ -2454,15 +2454,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Close-up detail of the Chinese cityscape handscroll Along the River During Qingming Festival, ink and colors on silk, 25"
     },
     {
-      "file": "tet-thanh-minh/gallery3.webp",
-      "photographer": "Jacklee.",
-      "profile": "https://commons.wikimedia.org/wiki/File:Five_coloured_papers_on_a_grave_mound,_Bukit_Brown_Cemetery,_Singapore_-_20110326-01.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Five_coloured_papers_on_a_grave_mound,_Bukit_Brown_Cemetery,_Singapore_-_20110326-01.jpg",
-      "license": "CC BY-SA 3.0",
-      "source": "Wikimedia Commons",
-      "alt": "\"Five coloured papers\" placed on the mound of a grave in Bukit Brown Cemetery, Singapore, during Qingming Festival. Ther"
-    },
-    {
       "file": "tet-thanh-minh/amthuc-xoi.webp",
       "photographer": "Thang Nguyen from Nottingham, United Kingdom",
       "profile": "https://commons.wikimedia.org/wiki/File:X%C3%B4i_c%C3%BAc.jpg",
@@ -2515,6 +2506,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY 3.0",
       "source": "Wikimedia Commons",
       "alt": "Nghĩa trang LS Trảng Bơm"
+    },
+    {
+      "file": "tet-thanh-minh/gallery3.webp",
+      "photographer": "Thanh Liêm",
+      "profile": "https://www.flickr.com/photos/98726873@N04/14172099511/",
+      "photo": "https://www.flickr.com/photos/98726873@N04/14172099511/",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "nghia trang viet nam"
     }
   ],
   "ngay-thanh-lap-dang": [

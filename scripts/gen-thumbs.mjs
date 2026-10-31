@@ -41,15 +41,18 @@ async function widthOf(path) {
   return m.width;
 }
 
-// Re-encode `buf` into `dst` at width `w` unless dst already exists at w.
-async function derive(buf, dst, w, format, quality) {
-  if (existsSync(dst) && (await widthOf(dst)) === w) return;
+// Re-encode `buf` into `dst` at width `w` unless dst already exists at w and is
+// newer than `srcMtime` (a replaced source must force re-encoding).
+async function derive(buf, dst, w, format, quality, srcMtime) {
+  if (existsSync(dst) && statSync(dst).mtimeMs >= srcMtime && (await widthOf(dst)) === w) return;
   await sharp(buf)
     .resize(w, null, { withoutEnlargement: true })
     [format]({ quality })
     .toFile(dst);
   written++;
 }
+
+const stale=(dst,m)=>!existsSync(dst)||statSync(dst).mtimeMs<m;
 
 for (const slug of readdirSync(DIR)) {
   const dir = join(DIR, slug);
@@ -70,24 +73,25 @@ for (const slug of readdirSync(DIR)) {
     const buf = readFileSync(src);
     const { width: srcW } = await sharp(buf).metadata();
     const w = Math.min(THUMB_W, srcW);
+    const srcM = statSync(src).mtimeMs;
     const webp480 = join(dir, `${base}-${THUMB_W}.webp`);
     const avif480 = join(dir, `${base}-${THUMB_W}.avif`);
     const avifFull = join(dir, `${base}.avif`);
-    if (!existsSync(webp480)) {
+    if (stale(webp480, srcM)) {
       await sharp(buf)
         .resize(w, null, { withoutEnlargement: true })
         .webp({ quality: WEBP_THUMB_Q })
         .toFile(webp480);
       written++;
     }
-    if (!existsSync(avif480)) {
+    if (stale(avif480, srcM)) {
       await sharp(buf)
         .resize(w, null, { withoutEnlargement: true })
         .avif({ quality: AVIF_Q })
         .toFile(avif480);
       written++;
     }
-    if (!existsSync(avifFull)) {
+    if (stale(avifFull, srcM)) {
       await sharp(buf).avif({ quality: AVIF_Q }).toFile(avifFull);
       written++;
     }
@@ -101,24 +105,25 @@ for (const slug of readdirSync(DIR)) {
     const base = f.replace(/\.webp$/, "");
     const src = join(dir, f);
     const buf = readFileSync(src);
+    const srcM = statSync(src).mtimeMs;
     const webp480 = join(dir, `${base}-${THUMB_W}.webp`);
     const avif480 = join(dir, `${base}-${THUMB_W}.avif`);
     const avifFull = join(dir, `${base}.avif`);
-    if (!existsSync(webp480)) {
+    if (stale(webp480, srcM)) {
       await sharp(buf)
         .resize(THUMB_W, null, { withoutEnlargement: true })
         .webp({ quality: WEBP_THUMB_Q })
         .toFile(webp480);
       written++;
     }
-    if (!existsSync(avif480)) {
+    if (stale(avif480, srcM)) {
       await sharp(buf)
         .resize(THUMB_W, null, { withoutEnlargement: true })
         .avif({ quality: AVIF_Q })
         .toFile(avif480);
       written++;
     }
-    if (!existsSync(avifFull)) {
+    if (stale(avifFull, srcM)) {
       await sharp(buf).avif({ quality: AVIF_Q }).toFile(avifFull);
       written++;
     }
@@ -130,6 +135,7 @@ for (const slug of readdirSync(DIR)) {
     const buf = readFileSync(hero);
     const { width: srcW } = await sharp(buf).metadata();
     heroSizes[slug] = srcW;
+    const srcM = statSync(hero).mtimeMs;
 
     // Inline placeholder + dominant tint for eager hero images.
     const tiny = await sharp(buf)
@@ -144,12 +150,12 @@ for (const slug of readdirSync(DIR)) {
     // Rungs smaller than the source (hero-{w}); the source itself is the top rung.
     for (const w of HERO_WIDTHS) {
       if (w >= srcW) continue;
-      await derive(buf, join(dir, `hero-${w}.webp`), w, "webp", WEBP_HERO_Q);
-      await derive(buf, join(dir, `hero-${w}.avif`), w, "avif", AVIF_Q);
+      await derive(buf, join(dir, `hero-${w}.webp`), w, "webp", WEBP_HERO_Q, srcM);
+      await derive(buf, join(dir, `hero-${w}.avif`), w, "avif", AVIF_Q, srcM);
     }
     // hero.avif is the full-width avif twin of hero.webp.
     const avifFull = join(dir, "hero.avif");
-    if (!existsSync(avifFull)) {
+    if (stale(avifFull, srcM)) {
       await sharp(buf).avif({ quality: AVIF_Q }).toFile(avifFull);
       written++;
     }

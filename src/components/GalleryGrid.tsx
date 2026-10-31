@@ -87,7 +87,13 @@ export default function GalleryGrid({
             />
             <span
               aria-hidden="true"
-              className="absolute bottom-2 right-2 flex h-8 w-8 items-center justify-center rounded-lg bg-black/45 text-white opacity-0 transition-opacity group-hover:opacity-100 group-focus-visible:opacity-100"
+              className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent px-3 pb-2.5 pt-10 text-left text-xs font-medium leading-snug text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100 group-focus-visible:opacity-100"
+            >
+              {it.alt}
+            </span>
+            <span
+              aria-hidden="true"
+              className="absolute right-2 top-2 flex h-8 w-8 items-center justify-center rounded-lg bg-black/45 text-white opacity-0 transition-opacity group-hover:opacity-100 group-focus-visible:opacity-100"
             >
               <svg
                 viewBox="0 0 24 24"
