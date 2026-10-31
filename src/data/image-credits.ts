@@ -1836,12 +1836,12 @@ export const imageCredits: Record<string, ImageCredit[]> = {
     },
     {
       "file": "ngay-thanh-lap-dang/gallery3.webp",
-      "photographer": "Orignal SVG see File:Flag of Vietnam.svg, Animation: MichaelFrey (talk)",
-      "profile": "https://commons.wikimedia.org/wiki/File:Flag_of_Vietnam-Animated.gif",
-      "photo": "https://commons.wikimedia.org/wiki/File:Flag_of_Vietnam-Animated.gif",
-      "license": "Public domain",
+      "photographer": "Thornfield Hall",
+      "profile": "https://commons.wikimedia.org/wiki/File:Vietnamese_Communist_Party_Flag.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Vietnamese_Communist_Party_Flag.jpg",
+      "license": "CC BY-SA 4.0",
       "source": "Wikimedia Commons",
-      "alt": "Flag of Vietnam, Plag of Vietnam"
+      "alt": "Embroidered flag of the Communist Party of Vietnam — golden hammer and sickle on red silk, displayed in a frame."
     }
   ],
   "ngay-dien-bien-phu": [

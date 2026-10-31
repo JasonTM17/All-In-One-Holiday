@@ -200,7 +200,7 @@ Photos from Wikimedia Commons contributors; see per-file license and description
 | ngay-thanh-lap-dang/card.webp | Vuong Tri Binh | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Flag_of_the_Communist_Party_of_Vietnam_at_the_Dien_Bien_Phu_street_in_2015_01.jpg) |
 | ngay-thanh-lap-dang/gallery1.webp | Vuong Tri Binh | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Flag_of_the_Communist_Party_of_Vietnam_at_the_Dien_Bien_Phu_street_in_2015_02.jpg) |
 | ngay-thanh-lap-dang/gallery2.webp | Jp16103 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Communist_Party_of_Vietnam_Poster_in_Hanoi.jpg) |
-| ngay-thanh-lap-dang/gallery3.webp | Orignal SVG see File:Flag of Vietnam.svg, Animation: MichaelFrey (talk) | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Flag_of_Vietnam-Animated.gif) |
+| ngay-thanh-lap-dang/gallery3.webp | Thornfield Hall | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Vietnamese_Communist_Party_Flag.jpg) |
 | ngay-dien-bien-phu/hero.webp | Pilip from Hanoi, Vietnam | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Dien_Bien_Phu,_statue.jpg) |
 | ngay-dien-bien-phu/card.webp | Ioe2015 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:The_Victory_Monument_of_Dien_Bien_Phu_(front).jpg) |
 | ngay-dien-bien-phu/gallery1.webp | Ioe2015 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:The_Victory_Monument_of_Dien_Bien_Phu_(far).jpg) |
