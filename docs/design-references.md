@@ -23,27 +23,42 @@ pages** (see `docs/images/`).
 
 ### Per-holiday palettes & white-text contrast
 
+All 32 holidays, white-text WCAG contrast (relative luminance) on each stop:
+
 | Holiday | from → to | Contrast (white on from / to) |
 |---|---|---|
-| Tết Dương lịch | `#312e81 → #7c3aed` | 8.7 / 4.0 |
-| Tết Nguyên Đán | `#991b1b → #b45309` | 7.0 / 4.4 |
-| Tết Nguyên Tiêu | `#7f1d1d → #ea580c` | 7.5 / 3.2 |
-| Valentine | `#9f1239 → #e11d48` | 7.4 / 4.4 |
-| Quốc tế Phụ nữ | `#be185d → #db2777` | 6.1 / 4.6 |
-| Giỗ Tổ Hùng Vương | `#854d0e → #166534` | 4.9 / 6.6 |
-| 30/4 Giải phóng | `#b91c1c → #b45309` | 6.5 / 4.4 |
-| 1/5 Lao động | `#9a3412 → #0369a1` | 4.9 / 5.8 |
-| Ngày của Mẹ | `#be123c → #db2777` | 6.4 / 4.6 |
-| 1/6 Thiếu nhi | `#0369a1 → #b45309` | 5.8 / 4.4 |
-| Gia đình VN | `#065f46 → #c2410c` | 7.2 / 3.9 |
-| Thương binh Liệt sĩ | `#881337 → #292524` | 7.3 / 12.4 |
-| Vu Lan | `#4c1d95 → #b45309` | 9.1 / 4.4 |
-| Quốc khánh | `#b91c1c → #b45309` | 6.5 / 4.4 |
-| Trung thu | `#7c2d12 → #7c3aed` | 6.8 / 4.0 |
-| Phụ nữ VN 20/10 | `#be123c → #a21caf` | 6.4 / 6.3 |
-| Nhà giáo VN | `#065f46 → #4d7c0f` | 7.2 / 4.1 |
-| Quân đội 22/12 | `#14532d → #a16207` | 7.5 / 4.0 |
-| Giáng sinh | `#14532d → #b91c1c` | 7.5 / 6.5 |
+| Tết Dương lịch | `#312e81 → #7c3aed` | 11.4 / 5.7 |
+| Tết Nguyên Đán | `#991b1b → #b45309` | 8.3 / 5.0 |
+| Tết Nguyên Tiêu | `#7f1d1d → #ea580c` | 10.0 / 3.6 |
+| Ngày thành lập Đảng Cộng sản Việt Nam | `#7f1d1d → #b45309` | 10.0 / 5.0 |
+| Lễ Tình nhân | `#9f1239 → #e11d48` | 8.0 / 4.7 |
+| Ngày Thầy thuốc Việt Nam | `#0f766e → #0369a1` | 5.5 / 5.9 |
+| Quốc tế Phụ nữ 8/3 | `#be185d → #db2777` | 6.0 / 4.6 |
+| Tết Hàn thực | `#166534 → #0f766e` | 7.1 / 5.5 |
+| Giỗ Tổ Hùng Vương | `#854d0e → #166534` | 6.9 / 7.1 |
+| Tết Thanh minh | `#3f6212 → #0f766e` | 7.1 / 5.5 |
+| Ngày Giải phóng miền Nam 30/4 | `#b91c1c → #b45309` | 6.5 / 5.0 |
+| Quốc tế Lao động 1/5 | `#9a3412 → #0369a1` | 7.3 / 5.9 |
+| Ngày Chiến thắng Điện Biên Phủ | `#14532d → #7f1d1d` | 9.1 / 10.0 |
+| Ngày của Mẹ | `#be123c → #db2777` | 6.3 / 4.6 |
+| Ngày sinh Chủ tịch Hồ Chí Minh | `#7f1d1d → #166534` | 10.0 / 7.1 |
+| Tết Đoan Ngọ | `#c2410c → #be123c` | 5.2 / 6.3 |
+| Quốc tế Thiếu nhi 1/6 | `#0369a1 → #b45309` | 5.9 / 5.0 |
+| Ngày Báo chí Cách mạng Việt Nam | `#1e40af → #334155` | 8.7 / 10.4 |
+| Ngày Gia đình Việt Nam | `#065f46 → #c2410c` | 7.7 / 5.2 |
+| Lễ Vu Lan | `#4c1d95 → #b45309` | 11.0 / 5.0 |
+| Ngày Thương binh Liệt sĩ | `#881337 → #292524` | 9.6 / 15.2 |
+| Ngày Cách mạng tháng Tám | `#991b1b → #dc2626` | 8.3 / 4.8 |
+| Tết Trung thu | `#7c2d12 → #7c3aed` | 9.4 / 5.7 |
+| Quốc khánh 2/9 | `#b91c1c → #b45309` | 6.5 / 5.0 |
+| Ngày Người cao tuổi Việt Nam | `#7c2d12 → #a16207` | 9.4 / 4.9 |
+| Ngày Giải phóng Thủ đô | `#7f1d1d → #1e3a8a` | 10.0 / 10.4 |
+| Ngày Doanh nhân Việt Nam | `#1e3a8a → #0f766e` | 10.4 / 5.5 |
+| Ngày Phụ nữ Việt Nam 20/10 | `#be123c → #a21caf` | 6.3 / 6.3 |
+| Ngày Nhà giáo Việt Nam | `#065f46 → #4d7c0f` | 7.7 / 5.0 |
+| Ngày Quân đội Nhân dân VN | `#14532d → #a16207` | 9.1 / 4.9 |
+| Ông Công Ông Táo | `#9a3412 → #b91c1c` | 7.3 / 6.5 |
+| Giáng sinh | `#14532d → #b91c1c` | 9.1 / 6.5 |
 
 Rule: both stops keep white ≥3:1 (large display text ≥18px/bold). Neutral ramp lives in
 `globals.css @theme`: `--color-ink #1c1917`, `--color-muted #57534e`,
@@ -73,7 +88,7 @@ Rule: both stops keep white ≥3:1 (large display text ≥18px/bold). Neutral ra
 
 - Easing token `--ease-out-quint: cubic-bezier(0.22,1,0.36,1)`; 150–300ms
   interactions, ~600ms reveals.
-- Reveal on scroll via `IntersectionObserver` (`Reveal.tsx`) — content is
+- Reveal on scroll via `IntersectionObserver` (`Reveals.tsx`) — content is
   visible without JS; hidden pre-paint only when JS runs.
 - Max 1 marquee per page, pauses on hover/focus; `floaty` ornaments 7–11s.
 - `prefers-reduced-motion` collapses everything (marquee becomes static wrap,
