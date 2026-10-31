@@ -10,18 +10,33 @@ const OUT = "out";
 let copied = 0;
 let flattened = 0;
 
+function flattenPayload(dir, name) {
+  // Recursively flatten every file under `<dir>/<name>/...` to
+  // `<dir>/<name>.<joined path>.<file>` — the client router requests the
+  // payload at the dotted URL, e.g. `__next.<id>.<route>.__PAGE__.txt`.
+  const base = join(dir, name);
+  function rec(rel) {
+    const abs = join(base, rel);
+    for (const f of readdirSync(abs)) {
+      const sub = rel ? `${rel}/${f}` : f;
+      const src = join(abs, f);
+      if (statSync(src).isDirectory()) {
+        rec(sub);
+      } else {
+        copyFileSync(src, join(dir, `${name}.${sub.split("/").join(".")}`));
+        flattened++;
+      }
+    }
+  }
+  rec("");
+}
+
 function walk(dir) {
   for (const name of readdirSync(dir)) {
     const p = join(dir, name);
     if (statSync(p).isDirectory()) {
       if (name.startsWith("__next.")) {
-        for (const file of readdirSync(p)) {
-          const src = join(p, file);
-          if (statSync(src).isFile()) {
-            copyFileSync(src, join(dir, `${name}.${file}`));
-            flattened++;
-          }
-        }
+        flattenPayload(dir, name);
       } else {
         walk(p);
       }
