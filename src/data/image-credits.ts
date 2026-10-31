@@ -539,7 +539,7 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "profile": "https://www.flickr.com/photos/danglamhn/30176026341/",
       "photo": "https://www.flickr.com/photos/danglamhn/30176026341/",
       "license": "CC0/PDM",
-      "source": "Wikimedia Commons",
+      "source": "Flickr",
       "alt": "phu nu viet nam"
     },
     {
@@ -548,7 +548,7 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "profile": "https://www.flickr.com/photos/destinywings_veno/23268478806/",
       "photo": "https://www.flickr.com/photos/destinywings_veno/23268478806/",
       "license": "CC BY-SA 2.0",
-      "source": "Wikimedia Commons",
+      "source": "Flickr",
       "alt": "vietnam woman flowers"
     }
   ],
@@ -622,7 +622,7 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "profile": "https://www.flickr.com/photos/ocarchives/25258534014/",
       "photo": "https://www.flickr.com/photos/ocarchives/25258534014/",
       "license": "CC BY 2.0",
-      "source": "Wikimedia Commons",
+      "source": "Flickr",
       "alt": "vietnam teacher classroom"
     }
   ],
@@ -871,7 +871,7 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "profile": "https://www.flickr.com/photos/vanlaphoang1945/9736843791/",
       "photo": "https://www.flickr.com/photos/vanlaphoang1945/9736843791/",
       "license": "CC BY 2.0",
-      "source": "Wikimedia Commons",
+      "source": "Flickr",
       "alt": "sai gon 1975"
     }
   ],
@@ -1019,7 +1019,7 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "profile": "https://www.flickr.com/photos/rod_waddington/47245903241/",
       "photo": "https://www.flickr.com/photos/rod_waddington/47245903241/",
       "license": "CC BY-SA 2.0",
-      "source": "Wikimedia Commons",
+      "source": "Flickr",
       "alt": "vietnam mother child"
     }
   ],
@@ -1084,7 +1084,7 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "profile": "https://www.flickr.com/photos/40129895@N03/46844865145/",
       "photo": "https://www.flickr.com/photos/40129895@N03/46844865145/",
       "license": "CC BY 2.0",
-      "source": "Wikimedia Commons",
+      "source": "Flickr",
       "alt": "trẻ em vui chơi"
     },
     {
@@ -1093,7 +1093,7 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "profile": "https://www.flickr.com/photos/upyernoz/33709943/",
       "photo": "https://www.flickr.com/photos/upyernoz/33709943/",
       "license": "CC BY 2.0",
-      "source": "Wikimedia Commons",
+      "source": "Flickr",
       "alt": "vietnam children playing"
     }
   ],
@@ -1878,7 +1878,7 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "profile": "https://www.flickr.com/photos/lightwrite/14362261867/",
       "photo": "https://www.flickr.com/photos/lightwrite/14362261867/",
       "license": "CC BY-SA 2.0",
-      "source": "Wikimedia Commons",
+      "source": "Flickr",
       "alt": "vietnam carp pond"
     }
   ],
@@ -2163,7 +2163,7 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "profile": "https://www.flickr.com/photos/mikecogh/16792899393/",
       "photo": "https://www.flickr.com/photos/mikecogh/16792899393/",
       "license": "CC BY-SA 2.0",
-      "source": "Wikimedia Commons",
+      "source": "Flickr",
       "alt": "vietnamese doctors"
     }
   ],
@@ -2338,7 +2338,7 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "profile": "https://www.flickr.com/photos/eu_echo/6975550309/",
       "photo": "https://www.flickr.com/photos/eu_echo/6975550309/",
       "license": "CC BY-SA 2.0",
-      "source": "Wikimedia Commons",
+      "source": "Flickr",
       "alt": "vietnam elderly portrait"
     }
   ],
@@ -2513,7 +2513,7 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "profile": "https://www.flickr.com/photos/98726873@N04/14172099511/",
       "photo": "https://www.flickr.com/photos/98726873@N04/14172099511/",
       "license": "CC BY 2.0",
-      "source": "Wikimedia Commons",
+      "source": "Flickr",
       "alt": "nghia trang viet nam"
     }
   ],

@@ -124,7 +124,7 @@ if (process.argv.includes("--promote")) {
       profile: m.photo,
       photo: m.photo,
       license: m.license,
-      source: "Wikimedia Commons",
+      source: m.source ?? "Wikimedia Commons",
       alt: m.alt,
     };
     credits[slug] = (credits[slug] ?? []).filter((c) => c.file !== entry.file);
@@ -150,7 +150,8 @@ export const imageCredits: Record<string, ImageCredit[]> = ${JSON.stringify(cred
     seen.add(c.file);
     return true;
   });
-  const md = ["# Image credits", "", "Photos from Wikimedia Commons contributors; see per-file license and description pages.", "", "| File | Author | License | Source |", "|---|---|---|---|", ...rows.map((c) => `| ${c.file} | ${c.photographer} | ${c.license} | [Commons](${c.photo}) |`), ""].join("\n");
+  const short = (s) => (s === "Flickr" ? "Flickr" : "Commons");
+  const md = ["# Image credits", "", "Photos from Wikimedia Commons and Flickr contributors; see per-file license and description pages.", "", "| File | Author | License | Source |", "|---|---|---|---|", ...rows.map((c) => `| ${c.file} | ${c.photographer} | ${c.license} | [${short(c.source)}](${c.photo}) |`), ""].join("\n");
   writeFileSync("public/images/CREDITS.md", md);
   console.log(`promoted ${Object.keys(picks).length}, deduped credit rows -> ${rows.length}`);
   process.exit(0);
