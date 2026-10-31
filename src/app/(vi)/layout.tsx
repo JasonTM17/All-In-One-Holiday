@@ -1,49 +1,9 @@
 import type { Metadata, Viewport } from "next";
-import { Be_Vietnam_Pro, Playfair_Display } from "next/font/google";
-import "./globals.css";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import "../globals.css";
+import SiteRoot from "@/components/SiteRoot";
+import { rootMetadata } from "@/lib/metadata";
 
-const display = Playfair_Display({
-  subsets: ["latin", "vietnamese"],
-  weight: ["600", "700", "800", "900"],
-  variable: "--font-playfair",
-  display: "swap",
-  // No <link rel=preload>: two ~30KB woff2 files competing with the LCP image
-  // on first paint costs more than the metric-matched fallback flash.
-  preload: false,
-});
-
-const sans = Be_Vietnam_Pro({
-  subsets: ["latin", "vietnamese"],
-  weight: ["400", "600", "700"],
-  variable: "--font-be-vietnam",
-  display: "swap",
-  preload: false,
-});
-
-import { siteUrl } from "@/lib/site";
-
-export const metadata: Metadata = {
-  metadataBase: new URL(siteUrl() + "/"),
-  title: {
-    default: "Ngày Lễ Việt — Lịch lễ hội & lời chúc",
-    template: "%s | Ngày Lễ Việt",
-  },
-  description:
-    "Lịch các ngày lễ Việt Nam và quốc tế: đếm ngược, ý nghĩa, phong tục, lời chúc và ý tưởng quà tặng. Tạo thiệp sinh nhật cá nhân miễn phí.",
-  openGraph: {
-    type: "website",
-    locale: "vi_VN",
-    siteName: "Ngày Lễ Việt",
-    url: "/",
-    images: [`${siteUrl()}/opengraph-image.png`],
-  },
-  twitter: {
-    card: "summary_large_image",
-  },
-  alternates: { canonical: "/" },
-};
+export const metadata: Metadata = rootMetadata("vi");
 
 export const viewport: Viewport = {
   themeColor: "#be123c",
@@ -52,23 +12,5 @@ export const viewport: Viewport = {
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
-  return (
-    <html lang="vi" className={`${display.variable} ${sans.variable}`}>
-      <body>
-        {/* Set theme before paint: localStorage theme or system preference. No flash. */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html:
-              "try{var t=localStorage.getItem('theme');var d=t?t==='dark':matchMedia('(prefers-color-scheme: dark)').matches;document.documentElement.classList.toggle('dark',d)}catch(e){}",
-          }}
-        />
-        <a href="#noi-dung" className="skip-link">
-          Bỏ qua đến nội dung
-        </a>
-        <Header />
-        <main id="noi-dung">{children}</main>
-        <Footer />
-      </body>
-    </html>
-  );
+  return <SiteRoot locale="vi">{children}</SiteRoot>;
 }

@@ -1,39 +1,8 @@
 import type { Metadata } from "next";
-import { Suspense } from "react";
-import BirthdayCard from "@/components/BirthdayCard";
-import { HERO_LQIP } from "@/data/hero-lqip";
+import BirthdayPage, { birthdayMetadata } from "@/components/pages/birthday";
 
-export const metadata: Metadata = {
-  title: "Thiệp sinh nhật",
-  description:
-    "Tạo thiệp sinh nhật cá nhân trong vài giây: đếm ngược, lời nhắn và liên kết chia sẻ.",
-  robots: { index: false, follow: false },
-  openGraph: {
-    title: "Thiệp sinh nhật",
-    description: "Tạo thiệp sinh nhật cá nhân trong vài giây.",
-  },
-};
+export const metadata: Metadata = birthdayMetadata("vi");
 
-export default function BirthdayPage() {
-  return (
-    <section className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
-      <div className="mx-auto mb-10 max-w-xl text-center">
-        <h1 className="font-display text-3xl font-extrabold text-[var(--color-ink)] sm:text-4xl">
-          Thiệp sinh nhật
-        </h1>
-      </div>
-      <div className="mx-auto max-w-3xl">
-        <Suspense
-          fallback={
-            <div
-              aria-hidden="true"
-              className="mx-auto h-[30rem] max-w-lg animate-pulse rounded-3xl bg-[var(--color-line)]/60"
-            />
-          }
-        >
-          <BirthdayCard lqip={HERO_LQIP.birthday} />
-        </Suspense>
-      </div>
-    </section>
-  );
+export default function Page() {
+  return <BirthdayPage locale="vi" />;
 }
