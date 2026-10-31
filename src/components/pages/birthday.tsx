@@ -39,7 +39,7 @@ export default function BirthdayPage({ locale }: { locale: Locale }) {
           fallback={
             <div
               aria-hidden="true"
-              className="mx-auto h-[30rem] max-w-lg animate-pulse rounded-3xl bg-[var(--color-line)]/60"
+              className="mx-auto h-[30rem] max-w-lg animate-pulse rounded-2xl bg-[var(--color-line)]/60"
             />
           }
         >
