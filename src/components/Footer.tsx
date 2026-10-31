@@ -26,6 +26,7 @@ export default function Footer() {
             {featured.map((h) => (
               <li key={h.slug}>
                 <Link
+                  prefetch={false}
                   href={`/${h.slug}/`}
                   className="u-link font-semibold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]"
                 >
@@ -39,32 +40,32 @@ export default function Footer() {
           <p className="eyebrow text-[var(--color-faint)]">Khám phá</p>
           <ul className="mt-4 space-y-2.5 text-sm">
             <li>
-              <Link href="/" className="u-link font-semibold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
+              <Link prefetch={false} href="/" className="u-link font-semibold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
                 Trang chủ
               </Link>
             </li>
             <li>
-              <Link href="/#danh-sach" className="u-link font-semibold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
+              <Link prefetch={false} href="/#danh-sach" className="u-link font-semibold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
                 Tất cả ngày lễ
               </Link>
             </li>
             <li>
-              <Link href="/credits/" className="u-link font-semibold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
+              <Link prefetch={false} href="/credits/" className="u-link font-semibold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
                 Nguồn ảnh
               </Link>
             </li>
             <li>
-              <Link href="/lich/" className="u-link font-semibold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
+              <Link prefetch={false} href="/lich/" className="u-link font-semibold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
                 Lịch ngày lễ
               </Link>
             </li>
             <li>
-              <Link href="/thiep/" className="u-link font-semibold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
+              <Link prefetch={false} href="/thiep/" className="u-link font-semibold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
                 Tạo thiệp
               </Link>
             </li>
             <li>
-              <Link href="/birthday/" className="u-link font-semibold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
+              <Link prefetch={false} href="/birthday/" className="u-link font-semibold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
                 Thiệp sinh nhật
               </Link>
             </li>

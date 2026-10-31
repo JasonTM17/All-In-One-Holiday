@@ -4,10 +4,13 @@ import { holidays } from "@/data/holidays";
 import { siteUrl } from "@/lib/site";
 import HolidayGrid from "@/components/HolidayGrid";
 import NextHolidayHero from "@/components/NextHolidayHero";
-import Reveal from "@/components/Reveal";
-import { heroSrcSet, thumbSrcSet } from "@/components/HImg";
+import Reveals from "@/components/Reveals";
+import HImg from "@/components/HImg";
 import { nextOccurrence } from "@/lib/dates";
 import Motif from "@/components/Motif";
+import { homeJsonLd } from "@/lib/jsonld";
+import { HERO_LQIP } from "@/data/hero-lqip";
+import { HERO_TINT } from "@/data/hero-sizes";
 
 export const metadata: Metadata = {
   openGraph: {
@@ -41,15 +44,7 @@ export default function Home() {
     .filter((x) => x.date.getTime() - now.getTime() <= 90 * 86400000)
     .sort((a, b) => a.date.getTime() - b.date.getTime());
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    name: "Ngày Lễ Việt",
-    url: `${siteUrl()}/`,
-    description:
-      "Lịch các ngày lễ Việt Nam và quốc tế: đếm ngược, ý nghĩa, phong tục và lời chúc.",
-    inLanguage: "vi",
-  };
+  const jsonLd = homeJsonLd();
 
   return (
     <>
@@ -58,26 +53,26 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
+      {/* One hydration root owns every scroll-reveal below (`data-rv` markers)
+          instead of a client component per section. */}
+      <Reveals>
       {/* ---------- Hero ---------- */}
       {}
-      <link
-        rel="preload"
-        as="image"
-        href={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/holidays/scenery/hero.webp`}
-        imageSrcSet={heroSrcSet("scenery")}
-        imageSizes="100vw"
-        fetchPriority="high"
-      />
+      {/* No <link rel=preload>: the eager img is the first thing the parser
+          sees below the header, and a page-level preload leaks onto every
+          route via <Link> prefetch of the home payload (measured: a 27KB
+          scenery hero fetch fired on holiday pages). */}
       <section className="relative overflow-hidden bg-gradient-to-br from-rose-950 via-rose-800 to-amber-700 text-white">
-        <img
-          src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/holidays/scenery/hero.webp`}
-          srcSet={heroSrcSet("scenery")}
+        <HImg
+          src="scenery/hero.webp"
+          hero="scenery"
+          lqip={HERO_LQIP.scenery}
+          tint={HERO_TINT.scenery}
           sizes="100vw"
           alt=""
           width={1920}
           height={1280}
-          loading="eager"
-          fetchPriority="high"
+          eager
           decoding="sync"
           className="absolute inset-0 h-full w-full object-cover opacity-55"
         />
@@ -120,8 +115,15 @@ export default function Home() {
             </div>
           </div>
           {/* NextHolidayHero uses a subset of GridItem — sharing the array
-              means the flight payload serializes it only once. */}
-          <NextHolidayHero items={gridItems} />
+              means the flight payload serializes it only once. `initial`
+              lets the card render real content in the static HTML. */}
+          <NextHolidayHero
+            items={gridItems}
+            initial={{
+              slug: next90[0]?.h.slug ?? holidays[0].slug,
+              dateISO: (next90[0]?.date ?? nextOccurrence(holidays[0].rule, now)).toISOString(),
+            }}
+          />
         </div>
 
         {/* Stats strip fused into hero edge */}
@@ -190,7 +192,7 @@ export default function Home() {
         className="cv-auto border-b border-[var(--color-line)] bg-[var(--color-band)]"
       >
         <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
-          <Reveal>
+          <div data-rv>
             <p className="eyebrow text-[var(--color-brand)]">Việt Nam</p>
             <h2
               id="viet-nam"
@@ -198,7 +200,7 @@ export default function Home() {
             >
               Đất nước của những lễ hội
             </h2>
-          </Reveal>
+          </div>
           <ul className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
             {[
               ["scenery/hero-480.webp", "Vịnh Hạ Long"],
@@ -209,13 +211,11 @@ export default function Home() {
               ["gio-to-hung-vuong/hero-480.webp", "Đền Hùng, Phú Thọ"],
             ].map(([src, cap]) => (
               <li key={src} className="group relative overflow-hidden rounded-2xl">
-                <img
-                  src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/holidays/${src}`}
+                <HImg
+                  src={src}
                   alt={cap}
                   width={800}
                   height={600}
-                  loading="lazy"
-                  decoding="async"
                   className="aspect-[4/5] h-auto w-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
                 <span className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-3 pt-8 text-xs font-bold text-white">
@@ -233,7 +233,7 @@ export default function Home() {
         className="cv-auto dot-pattern-ink border-b border-[var(--color-line)] bg-[var(--color-band)]"
       >
         <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
-          <Reveal>
+          <div data-rv>
             <p className="eyebrow text-[var(--color-brand)]">Dành cho phái đẹp</p>
             <h2
               id="phai-dep"
@@ -241,7 +241,7 @@ export default function Home() {
             >
               Những ngày tôn vinh phụ nữ
             </h2>
-          </Reveal>
+          </div>
           <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {holidays
               .filter((h) => h.categories.includes("phu-nu"))
@@ -257,15 +257,13 @@ export default function Home() {
                         background: `linear-gradient(135deg, ${h.theme.from}, ${h.theme.to})`,
                       }}
                     >
-                      <img
-                        src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/holidays/${h.slug}/card.webp`}
-                        srcSet={thumbSrcSet(h.slug, "card")}
-                        sizes="(min-width: 1024px) 270px, (min-width: 640px) 46vw, 92vw"
+                      <HImg
+                        src={`${h.slug}/card.webp`}
+                        thumb={{ slug: h.slug, base: "card" }}
+                        sizes="(min-width: 1184px) 264px, (min-width: 1024px) 22vw, (min-width: 640px) 46vw, 92vw"
                         alt=""
                         width={800}
                         height={600}
-                        loading="lazy"
-                        decoding="async"
                         className="absolute inset-0 h-full w-full object-cover opacity-50"
                       />
                       <Motif
@@ -297,7 +295,7 @@ export default function Home() {
         className="cv-auto border-b border-[var(--color-line)] bg-[var(--color-surface)]"
       >
         <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
-          <Reveal>
+          <div data-rv>
             <p className="eyebrow text-[var(--color-brand)]">Sắp tới</p>
             <h2
               id="sap-toi"
@@ -305,7 +303,7 @@ export default function Home() {
             >
               Trong 90 ngày tới
             </h2>
-          </Reveal>
+          </div>
           <ol className="mt-8 space-y-0">
             {next90.map(({ h, date }) => (
               <li key={h.slug} className="group relative flex gap-5 pb-8 last:pb-0">
@@ -346,7 +344,7 @@ export default function Home() {
         aria-labelledby="danh-sach-title"
         className="cv-tall mx-auto max-w-6xl scroll-mt-24 px-4 py-16 sm:px-6"
       >
-        <Reveal>
+        <div data-rv>
           <h2
             id="danh-sach-title"
             className="font-display text-[clamp(1.8rem,3vw,2.6rem)] font-extrabold text-[var(--color-ink)]"
@@ -357,7 +355,7 @@ export default function Home() {
             Sắp xếp theo ngày gần nhất — bấm vào từng ngày lễ để xem ý nghĩa,
             phong tục và lời chúc.
           </p>
-        </Reveal>
+        </div>
         <HolidayGrid items={gridItems} />
       </section>
 
@@ -389,6 +387,7 @@ export default function Home() {
           </Link>
         </div>
       </section>
+      </Reveals>
     </>
   );
 }

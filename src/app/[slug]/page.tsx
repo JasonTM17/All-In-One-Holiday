@@ -3,16 +3,18 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getHoliday, holidays, CATEGORY_LABELS } from "@/data/holidays";
 import { siteUrl } from "@/lib/site";
-import { occurrenceInYear } from "@/lib/dates";
+import { holidayJsonLd } from "@/lib/jsonld";
 import RuleCountdown from "@/components/RuleCountdown";
 import CopyButton from "@/components/CopyButton";
 import WishGenerator from "@/components/WishGenerator";
 import Faq from "@/components/Faq";
 import Motif from "@/components/Motif";
-import Reveal from "@/components/Reveal";
+import Reveals from "@/components/Reveals";
 import HolidayActions from "@/components/HolidayActions";
-import HImg, { heroSrcSet, thumbSrcSet } from "@/components/HImg";
+import HImg from "@/components/HImg";
 import { stories } from "@/data/stories";
+import { HERO_LQIP } from "@/data/hero-lqip";
+import { HERO_TINT } from "@/data/hero-sizes";
 
 export function generateStaticParams() {
   return holidays.map((h) => ({ slug: h.slug }));
@@ -63,18 +65,7 @@ export default async function HolidayPage({
   const next = holidays[(idx + 1) % holidays.length];
   const eventYear = new Date().getFullYear();
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Event",
-    name: h.name,
-    description: `${h.name} — ${h.displayDate}. ${h.tagline}`,
-    startDate: occurrenceInYear(h.rule, eventYear)
-      .toISOString()
-      .slice(0, 10),
-    eventStatus: "https://schema.org/EventScheduled",
-    location: { "@type": "Country", name: "Việt Nam" },
-    url: `${siteUrl()}/${h.slug}/`,
-  };
+  const jsonLd = holidayJsonLd(h, eventYear);
 
   return (
     <>
@@ -82,26 +73,28 @@ export default async function HolidayPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      {/* One hydration root owns every scroll-reveal below (`data-rv` markers)
+          instead of a client component per section. */}
+      <Reveals>
       {/* ---------- Hero ---------- */}
       <section
         className="relative overflow-hidden text-white"
         style={{ background: heroBackground(h.theme.from, h.theme.to) }}
       >
-        <link
-          rel="preload"
-          as="image"
-          href={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/holidays/${h.slug}/hero.webp`}
-          imageSrcSet={heroSrcSet(h.slug)}
-          imageSizes="100vw"
-          fetchPriority="high"
-        />
+        {/* No <link rel=preload> here: the eager img below is already the
+            first discoverable element after the header, and a page-level
+            preload leaks onto every other route via <Link> prefetch
+            (React registers preload links found in prefetched payloads). */}
         <HImg
           src={`${h.slug}/hero.webp`}
           hero={h.slug}
+          lqip={HERO_LQIP[h.slug]}
+          tint={HERO_TINT[h.slug]}
           alt={`${h.name} — ảnh minh họa`}
           width={1920}
           height={1280}
           eager
+          decoding="sync"
           className="absolute inset-0 h-full w-full object-cover opacity-45"
         />
         <div
@@ -181,7 +174,7 @@ export default async function HolidayPage({
 
       {/* ---------- Body ---------- */}
       <div className="mx-auto max-w-4xl space-y-20 px-4 py-16 sm:px-6">
-        <Reveal className="cv-auto">
+        <div data-rv className="cv-auto">
           <section aria-labelledby="nguon-goc">
             <h2
               id="nguon-goc"
@@ -200,9 +193,9 @@ export default async function HolidayPage({
               ))}
             </div>
           </section>
-        </Reveal>
+        </div>
 
-        <Reveal className="cv-auto">
+        <div data-rv className="cv-auto">
           <figure
             className="relative overflow-hidden rounded-2xl px-8 py-8 text-white sm:px-10"
             style={{
@@ -226,9 +219,9 @@ export default async function HolidayPage({
               Ý nghĩa
             </figcaption>
           </figure>
-        </Reveal>
+        </div>
 
-        <Reveal className="cv-auto">
+        <div data-rv className="cv-auto">
           <section aria-labelledby="phong-tuc">
             <h2
               id="phong-tuc"
@@ -259,9 +252,9 @@ export default async function HolidayPage({
               ))}
             </ul>
           </section>
-        </Reveal>
+        </div>
 
-        <Reveal className="cv-auto">
+        <div data-rv className="cv-auto">
           <section
             aria-labelledby="doc-tron"
             className="relative overflow-hidden rounded-3xl border border-[var(--color-line)] bg-[var(--color-card)] p-6 sm:p-10"
@@ -365,7 +358,7 @@ export default async function HolidayPage({
               </ol>
             </div>
           </section>
-        </Reveal>
+        </div>
       </div>
 
       {/* ---------- Wishes marquee + cards ---------- */}
@@ -374,14 +367,14 @@ export default async function HolidayPage({
         className="cv-auto dot-pattern-ink border-y border-[var(--color-line)] bg-[var(--color-band)]"
       >
         <div className="mx-auto max-w-4xl px-4 py-16 sm:px-6">
-          <Reveal>
+          <div data-rv>
             <h2
               id="loi-chuc"
               className="font-display text-3xl font-extrabold text-[var(--color-ink)]"
             >
               Lời chúc
             </h2>
-          </Reveal>
+          </div>
           <div aria-hidden="true" className="marquee mt-8">
             <div className="marquee-track">
               {[...h.wishes, ...h.wishes].map((w, i) => (
@@ -405,19 +398,19 @@ export default async function HolidayPage({
               </li>
             ))}
           </ul>
-          <Reveal>
+          <div data-rv>
             <h3 className="mt-10 font-display text-xl font-extrabold text-[var(--color-ink)]">
               Gợi ý lời chúc
             </h3>
             <WishGenerator
               holiday={{ slug: h.slug, name: h.name, wishes: h.wishes }}
             />
-          </Reveal>
+          </div>
         </div>
       </section>
 
       <div className="mx-auto max-w-4xl space-y-20 px-4 py-16 sm:px-6">
-        <Reveal className="cv-auto">
+        <div data-rv className="cv-auto">
           <section aria-labelledby="qua-tang">
             <h2
               id="qua-tang"
@@ -443,9 +436,9 @@ export default async function HolidayPage({
               ))}
             </ul>
           </section>
-        </Reveal>
+        </div>
 
-        <Reveal className="cv-auto">
+        <div data-rv className="cv-auto">
           <section aria-labelledby="hinh-anh">
             <h2
               id="hinh-anh"
@@ -458,8 +451,8 @@ export default async function HolidayPage({
                 <HImg
                   key={n}
                   src={`${h.slug}/gallery${n}.webp`}
-                  srcSet={thumbSrcSet(h.slug, `gallery${n}`)}
-                  sizes="(min-width: 1024px) 320px, (min-width: 640px) 30vw, 92vw"
+                  thumb={{ slug: h.slug, base: `gallery${n}` }}
+                  sizes="(min-width: 944px) 272px, (min-width: 640px) 29vw, 92vw"
                   alt={`${h.name} — ảnh ${n}`}
                   width={800}
                   height={600}
@@ -468,13 +461,13 @@ export default async function HolidayPage({
               ))}
             </div>
           </section>
-        </Reveal>
+        </div>
 
         {(() => {
           const st = stories[h.slug];
           if (!st) return null;
           return (
-            <Reveal className="cv-auto">
+            <div data-rv className="cv-auto">
               <section aria-labelledby="cau-chuyen">
                 <p className="eyebrow text-[var(--color-brand)]">Câu chuyện</p>
                 <h2
@@ -510,11 +503,11 @@ export default async function HolidayPage({
                   ))}
                 </ul>
               </section>
-            </Reveal>
+            </div>
           );
         })()}
 
-        <Reveal className="cv-auto">
+        <div data-rv className="cv-auto">
           <section aria-labelledby="faq">
             <h2
               id="faq"
@@ -526,7 +519,7 @@ export default async function HolidayPage({
               <Faq items={h.faq} />
             </div>
           </section>
-        </Reveal>
+        </div>
 
         <nav
           aria-label="Ngày lễ khác"
@@ -558,6 +551,7 @@ export default async function HolidayPage({
           ))}
         </nav>
       </div>
+      </Reveals>
     </>
   );
 }

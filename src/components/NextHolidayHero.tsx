@@ -8,7 +8,8 @@ import { useNow } from "@/hooks/useNow";
 import Motif from "./Motif";
 import RuleCountdown from "./RuleCountdown";
 import type { MotifName } from "@/data/holidays";
-import { heroSrcSet } from "./HImg";
+import { HERO_TINT } from "@/data/hero-sizes";
+import HImg from "./HImg";
 
 export interface NextHolidayItem {
   slug: string;
@@ -19,21 +20,39 @@ export interface NextHolidayItem {
   theme: { from: string; to: string };
 }
 
+export interface NextHolidayInitial {
+  slug: string;
+  /** ISO date of the next occurrence as computed on the server. */
+  dateISO: string;
+}
+
 export default function NextHolidayHero({
   items,
+  initial,
 }: {
   items: NextHolidayItem[];
+  /**
+   * Server-computed "next holiday" so the card renders real content in the
+   * static HTML instead of a post-hydration skeleton. The client re-derives
+   * it once the clock starts ticking and only swaps when it truly differs.
+   */
+  initial: NextHolidayInitial;
 }) {
   const now = useNow(60_000);
   const next = useMemo(() => {
-    if (!now) return null;
+    if (!now) {
+      const item = items.find((x) => x.slug === initial.slug) ?? items[0];
+      return item
+        ? { item, date: new Date(initial.dateISO) }
+        : null;
+    }
     let best: { item: NextHolidayItem; date: Date } | null = null;
     for (const item of items) {
       const date = nextOccurrence(item.rule, now);
       if (!best || date < best.date) best = { item, date };
     }
     return best;
-  }, [items, now]);
+  }, [items, now, initial]);
 
   return (
     <div className="min-h-[22rem]">
@@ -44,15 +63,14 @@ export default function NextHolidayHero({
             background: `linear-gradient(140deg, ${next.item.theme.from}, ${next.item.theme.to})`,
           }}
         >
-          <img
-            src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/holidays/${next.item.slug}/hero.webp`}
-            srcSet={heroSrcSet(next.item.slug)}
-            sizes="(min-width: 1024px) 50vw, 100vw"
+          <HImg
+            src={`${next.item.slug}/hero.webp`}
+            hero={next.item.slug}
+            tint={HERO_TINT[next.item.slug]}
+            sizes="(min-width: 1184px) 507px, (min-width: 1024px) 45vw, 100vw"
             alt=""
             width={1920}
             height={1280}
-            loading="lazy"
-            decoding="async"
             className="absolute inset-0 h-full w-full object-cover opacity-35"
           />
           <div className="dot-pattern absolute inset-0" aria-hidden="true" />

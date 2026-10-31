@@ -12,6 +12,7 @@ export default function Header() {
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
         <Link
           href="/"
+          prefetch={false}
           className="flex items-center gap-2 font-display text-xl font-extrabold tracking-tight text-[var(--color-brand-deep)]"
         >
           <Motif name="lantern" className="h-7 w-7" filled />
@@ -20,12 +21,14 @@ export default function Header() {
         <nav aria-label="Điều hướng chính" className="flex items-center gap-2 sm:gap-5">
           <Link
             href="/#danh-sach"
+            prefetch={false}
             className="u-link hidden min-h-11 items-center px-2 text-sm font-bold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)] sm:inline-flex"
           >
             Tất cả ngày lễ
           </Link>
           <Link
             href="/lich/"
+            prefetch={false}
             className="u-link hidden min-h-11 items-center px-2 text-sm font-bold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)] sm:inline-flex"
           >
             Lịch
@@ -35,6 +38,7 @@ export default function Header() {
           <PwaRegister />
           <Link
             href="/birthday/"
+            prefetch={false}
             className="inline-flex min-h-11 items-center rounded-full bg-[var(--color-brand-deep)] px-5 py-2.5 text-sm font-bold text-[var(--color-on-brand)] transition-colors hover:brightness-110"
           >
             Tạo thiệp sinh nhật
