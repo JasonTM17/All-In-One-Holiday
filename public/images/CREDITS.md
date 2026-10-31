@@ -111,16 +111,16 @@ Photos from Wikimedia Commons contributors; see per-file license and description
 | ngay-cua-me/card.webp | Alvesgaspar | CC BY 2.5 | [Commons](https://commons.wikimedia.org/wiki/File:Flower_and_bud_of_yellow_chamomile_(Anthemis_tinctoria).jpg) |
 | ngay-cua-me/gallery1.webp | Marc | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:%22We_Love_Our_Daughter_and_Her_Wife%22.jpg) |
 | ngay-cua-me/hero.webp | Darkone (talk · contribs) | CC BY-SA 1.0 | [Commons](https://commons.wikimedia.org/wiki/File:Gartennelke_1.jpg) |
-| ngay-cua-me/gallery5.webp | USAID Vietnam | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:A_child_accompanies_his_mother,_a_teacher,_who_attends_a_USAID-funded_intensive_training_course_in_Kon_Ray_Ethnic_Minority_Boarding_School_(7188772377).jpg) |
 | ngay-cua-me/gallery6.webp | R Kong edwise | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Romantic_Bouquet_(Unsplash).jpg) |
 | ngay-cua-me/gallery4.webp | USMC Archives from Quantico, USA | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Vietnamese_Mother_and_Child,_1969_(14895394946).jpg) |
+| ngay-cua-me/gallery5.webp | Rod Waddington | CC BY-SA 2.0 | [Commons](https://www.flickr.com/photos/rod_waddington/47245903241/) |
 | quoc-te-thieu-nhi/card.webp | Thomas Schoch | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Children_in_Middle_Vietnam.jpg) |
 | quoc-te-thieu-nhi/gallery1.webp | Boberger | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Children_Hanoi_Vietnam.JPG) |
 | quoc-te-thieu-nhi/gallery2.webp | Adam Jones Adam63 | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Hanoi_-_Vietnam_-_Children.JPG) |
 | quoc-te-thieu-nhi/gallery3.webp | Nhi Dang | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Little_Children_in_Vietnam.jpg) |
 | quoc-te-thieu-nhi/gallery4.webp | TAPAS KUMAR HALDER | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Funny_hard_boiled_eggs-_Kolkata_-_West_Bengal_-_DSC_0003.jpg) |
 | quoc-te-thieu-nhi/gallery5.webp | PattayaPatrol | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:DSCF0663_Evening_lights_and_spinning_balloons_-_a_colorful_carnival_ride_comes_to_life_at_dusk.jpg) |
-| quoc-te-thieu-nhi/gallery6.webp | Earl Thollander | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Children-of-south-vietnam-by-Earl-Thollander.jpg) |
+| quoc-te-thieu-nhi/gallery6.webp | nhadatvideo | CC BY 2.0 | [Commons](https://www.flickr.com/photos/40129895@N03/46844865145/) |
 | quoc-te-thieu-nhi/hero.webp | upyernoz | CC BY 2.0 | [Commons](https://www.flickr.com/photos/upyernoz/33709943/) |
 | ngay-gia-dinh-viet-nam/gallery2.webp | Thang Nguyen from Nottingham, United Kingdom | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Vietnamese_Ancestors_Altar.jpg) |
 | ngay-gia-dinh-viet-nam/gallery3.webp | Rungbachduong | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Distribution_of_Vietnamese_family_names.png) |

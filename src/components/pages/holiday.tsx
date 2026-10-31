@@ -881,14 +881,25 @@ export default function HolidayPage({
                   background: `linear-gradient(90deg, ${o.theme.from}, ${o.theme.to})`,
                 }}
               />
-              <span className="eyebrow text-[var(--color-faint)]">
-                {i === 0 ? t.holiday.prev : t.holiday.next}
-              </span>
-              <span className="mt-2 flex items-center justify-between gap-3">
-                <span className="font-display text-xl font-bold text-[var(--color-ink)] group-hover:text-[var(--color-brand-deep)]">
-                  {o.name}
+              <span className="mt-3 flex items-center gap-4">
+                <HImg
+                  src={`${o.slug}/card.webp`}
+                  thumb={{ slug: o.slug, base: "card" }}
+                  alt={o.name}
+                  width={480}
+                  height={480}
+                  sizes="80px"
+                  className="h-16 w-16 shrink-0 rounded-xl object-cover shadow-md transition-transform duration-300 group-hover:scale-105"
+                />
+                <span className="min-w-0">
+                  <span className="eyebrow block text-[var(--color-faint)]">
+                    {i === 0 ? t.holiday.prev : t.holiday.next}
+                  </span>
+                  <span className="mt-1 block truncate font-display text-xl font-bold text-[var(--color-ink)] group-hover:text-[var(--color-brand-deep)]">
+                    {o.name}
+                  </span>
                 </span>
-                <Motif name={o.motif} className="h-9 w-9 shrink-0 text-[var(--color-faint)]" />
+                <Motif name={o.motif} className="ml-auto h-9 w-9 shrink-0 text-[var(--color-faint)]" />
               </span>
             </Link>
           ))}

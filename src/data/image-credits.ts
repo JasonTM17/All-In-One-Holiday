@@ -996,15 +996,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Beschreibung: Gartennelke (Dianthus caryophyllus) Fotograf/Bearbeitung: Darkone, 17./31. August / 18. September 2004"
     },
     {
-      "file": "ngay-cua-me/gallery5.webp",
-      "photographer": "USAID Vietnam",
-      "profile": "https://commons.wikimedia.org/wiki/File:A_child_accompanies_his_mother,_a_teacher,_who_attends_a_USAID-funded_intensive_training_course_in_Kon_Ray_Ethnic_Minority_Boarding_School_(7188772377).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:A_child_accompanies_his_mother,_a_teacher,_who_attends_a_USAID-funded_intensive_training_course_in_Kon_Ray_Ethnic_Minority_Boarding_School_(7188772377).jpg",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "Photo: USAID/Vietnam"
-    },
-    {
       "file": "ngay-cua-me/gallery6.webp",
       "photographer": "R Kong edwise",
       "profile": "https://commons.wikimedia.org/wiki/File:Romantic_Bouquet_(Unsplash).jpg",
@@ -1021,6 +1012,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY 2.0",
       "source": "Wikimedia Commons",
       "alt": "\"Mixed Emotion: Concern for the future of her child and herself is mirrored in this Vietnamese mother’s face. She has ju"
+    },
+    {
+      "file": "ngay-cua-me/gallery5.webp",
+      "photographer": "Rod Waddington",
+      "profile": "https://www.flickr.com/photos/rod_waddington/47245903241/",
+      "photo": "https://www.flickr.com/photos/rod_waddington/47245903241/",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "vietnam mother child"
     }
   ],
   "quoc-te-thieu-nhi": [
@@ -1080,12 +1080,12 @@ export const imageCredits: Record<string, ImageCredit[]> = {
     },
     {
       "file": "quoc-te-thieu-nhi/gallery6.webp",
-      "photographer": "Earl Thollander",
-      "profile": "https://commons.wikimedia.org/wiki/File:Children-of-south-vietnam-by-Earl-Thollander.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Children-of-south-vietnam-by-Earl-Thollander.jpg",
-      "license": "CC0",
+      "photographer": "nhadatvideo",
+      "profile": "https://www.flickr.com/photos/40129895@N03/46844865145/",
+      "photo": "https://www.flickr.com/photos/40129895@N03/46844865145/",
+      "license": "CC BY 2.0",
       "source": "Wikimedia Commons",
-      "alt": "Artwork: \"Children of South Vietnam\" Artist: Earl Thollander"
+      "alt": "trẻ em vui chơi"
     },
     {
       "file": "quoc-te-thieu-nhi/hero.webp",

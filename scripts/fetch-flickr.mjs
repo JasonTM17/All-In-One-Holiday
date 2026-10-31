@@ -11,25 +11,17 @@ const UA = { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKi
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 // slug/stem -> queries (Vietnamese-first where possible).
+// Round 2: only slots still weak after the first promotion pass.
 const FIX = {
-  "nguoi-cao-tuoi/gallery5": ["vietnam elderly portrait", "cu ba viet nam", "old woman vietnam face", "nguoi gia viet nam"],
-  "quoc-te-thieu-nhi/hero": ["vietnam children playing", "tre em viet nam", "vietnam kids happy playing"],
-  "tet-duong-lich/gallery6": ["fireworks vietnam new year", "phao hoa viet nam", "saigon fireworks countdown"],
-  "ngay-thay-thuoc/gallery1": ["vietnam hospital", "benh vien viet nam", "vietnam doctor patient"],
-  "ngay-thay-thuoc/gallery4": ["vietnamese doctors", "vietnam medical staff", "y te viet nam"],
-  "ngay-bao-chi/gallery3": ["doc bao viet nam", "vietnam newspaper reader", "sap bao ha noi"],
-  "ngay-gia-dinh-viet-nam/hero": ["gia dinh viet nam", "vietnam family meal", "vietnamese family together"],
-  "trung-thu/hero": ["trung thu viet nam", "mid autumn vietnam", "den long trung thu"],
-  "trung-thu/gallery4": ["trung thu viet nam lanterns", "vietnam mid autumn children", "hoi an trung thu"],
-  "tet-thanh-minh/gallery3": ["nghia trang viet nam", "vietnam cemetery", "tao mo viet nam"],
-  "ong-cong-ong-tao/gallery2": ["ca chep viet nam", "vietnam carp pond", "tha ca chep"],
-  "phu-nu-viet-nam/gallery4": ["ao dai viet nam women", "vietnamese women ao dai", "phu nu viet nam"],
-  "phu-nu-viet-nam/gallery5": ["vietnam woman flowers", "ao dai vietnam portrait", "women vietnam market"],
-  "nha-giao-viet-nam/gallery4": ["vietnam teacher classroom", "lop hoc viet nam", "giao vien viet nam"],
-  "nguoi-cao-tuoi/gallery6": ["vietnam old man smiling", "cu ong viet nam", "elderly couple vietnam"],
-  "ngay-cua-me/gallery5": ["me viet nam con", "vietnamese mother daughter", "mother vietnam flowers"],
-  "giai-phong-mien-nam/gallery4": ["sai gon 1975", "ho chi minh city celebration", "vietnam reunification day"],
-  "quoc-khanh/gallery4": ["quoc khanh viet nam", "vietnam national day flags", "ha noi quoc khanh"],
+  "ngay-bao-chi/gallery3": ["phóng viên việt nam", "vietnam journalist camera", "sạp báo hà nội", "báo chí"],
+  "tet-duong-lich/gallery6": ["pháo hoa", "fireworks vietnam", "danang fireworks", "new year countdown fireworks"],
+  "trung-thu/hero": ["đèn lồng trung thu", "mid autumn festival vietnam", "trung thu lantern street", "múa lân trung thu"],
+  "trung-thu/gallery4": ["đèn ông sao", "vietnam star lantern", "trung thu children lantern"],
+  "quoc-khanh/gallery4": ["cờ đỏ sao vàng", "vietnam flag crowd", "ba dinh hanoi", "vietnam national day"],
+  "ngay-cua-me/gallery5": ["mẹ và con việt nam", "vietnam mother child", "vietnamese mother baby"],
+  "ngay-gia-dinh-viet-nam/hero": ["gia đình sum họp", "vietnamese family dinner", "family meal vietnam"],
+  "quoc-te-thieu-nhi/gallery6": ["trẻ em vui chơi", "vietnam children school", "kids laughing vietnam"],
+  "nguoi-cao-tuoi/gallery6": ["vietnam grandparents", "cụ già hạnh phúc", "old couple vietnam smiling"],
 };
 
 mkdirSync(STAGE, { recursive: true });
