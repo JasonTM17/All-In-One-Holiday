@@ -290,14 +290,15 @@ button.card:hover,
 /* ---------- Print ---------- */
 @media print {
   /* Chrome, motion and decorative elements are screen-only. */
+  /* dot-pattern(-ink) are background-image utilities; backgrounds never
+     print anyway, and hiding them would blank content sections that use
+     the class as a texture (wishes section, home bands). */
   header,
   footer,
   .skip-link,
   .marquee,
   .floaty,
-  .floaty-slow,
-  .dot-pattern,
-  .dot-pattern-ink {
+  .floaty-slow {
     display: none !important;
   }
 
@@ -305,6 +306,29 @@ button.card:hover,
   .cv-auto,
   .cv-tall {
     content-visibility: visible !important;
+  }
+
+  /* Scroll-reveal elements that never intersected must not stay
+     transparent on paper. */
+  .rv-prep {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  /* The holiday hero is white-on-gradient; on paper (no backgrounds) it
+     must flip to plain dark text. The hero photo, decorative motifs and
+     action buttons are hidden via print:hidden. */
+  .holiday-hero {
+    background: none !important;
+  }
+  .holiday-hero,
+  .holiday-hero p,
+  .holiday-hero span {
+    color: #111 !important;
+    border-color: #999 !important;
+  }
+  .holiday-hero .glass {
+    color: #111 !important;
   }
 
   /* Clean document typography on paper. */

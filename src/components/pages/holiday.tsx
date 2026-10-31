@@ -88,7 +88,7 @@ export default function HolidayPage({
       <Reveals>
       {/* ---------- Hero ---------- */}
       <section
-        className="relative overflow-hidden text-white"
+        className="holiday-hero relative overflow-hidden text-white"
         style={{ background: heroBackground(h.theme.from, h.theme.to) }}
       >
         <HImg
@@ -101,7 +101,7 @@ export default function HolidayPage({
           height={1280}
           eager
           decoding="sync"
-          className="absolute inset-0 h-full w-full object-cover opacity-45"
+          className="absolute inset-0 h-full w-full object-cover opacity-45 print:hidden"
         />
         <div
           className="absolute inset-0"
@@ -143,7 +143,7 @@ export default function HolidayPage({
             <p className="mt-5 max-w-md text-lg text-white/85">{h.tagline}</p>
             <p
               aria-hidden="true"
-              className="pointer-events-none -mb-8 mt-8 select-none font-display text-[clamp(4.5rem,12vw,9rem)] font-black leading-none text-white/15 lg:-mb-10"
+              className="pointer-events-none -mb-8 mt-8 select-none font-display text-[clamp(4.5rem,12vw,9rem)] font-black leading-none text-white/15 lg:-mb-10 print:hidden"
             >
               {h.dateMark}
             </p>
@@ -155,7 +155,7 @@ export default function HolidayPage({
               <div className="mt-4">
                 <RuleCountdown rule={h.rule} locale={locale} />
               </div>
-              <div className="mt-5 border-t border-white/20 pt-4">
+              <div className="mt-5 border-t border-white/20 pt-4 print:hidden">
                 <HolidayActions
                   name={h.name}
                   slug={h.slug}
@@ -171,7 +171,7 @@ export default function HolidayPage({
 
         <svg
           aria-hidden="true"
-          className="absolute bottom-0 left-0 h-10 w-full text-[var(--color-surface)] sm:h-14"
+          className="absolute bottom-0 left-0 h-10 w-full text-[var(--color-surface)] sm:h-14 print:hidden"
           viewBox="0 0 1200 60"
           preserveAspectRatio="none"
         >
