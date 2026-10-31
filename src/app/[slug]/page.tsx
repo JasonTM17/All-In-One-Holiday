@@ -260,12 +260,118 @@ export default async function HolidayPage({
             </ul>
           </section>
         </Reveal>
+
+        <Reveal>
+          <section
+            aria-labelledby="doc-tron"
+            className="relative overflow-hidden rounded-3xl border border-[var(--color-line)] bg-[var(--color-card)] p-6 sm:p-10"
+          >
+            <div
+              aria-hidden="true"
+              className="pointer-events-none absolute inset-0"
+              style={{
+                background: `linear-gradient(140deg, ${h.theme.from}14, transparent 42%, transparent 62%, ${h.theme.to}14)`,
+              }}
+            />
+            <div className="relative">
+              <p className="eyebrow text-[var(--color-brand)]">
+                Đọc trọn ngày lễ
+              </p>
+              <h2
+                id="doc-tron"
+                className="mt-2 font-display text-3xl font-extrabold text-[var(--color-ink)]"
+              >
+                Hiểu trọn {h.name}
+              </h2>
+              <div className="mt-6 max-w-3xl space-y-4">
+                {h.deep.ongNguon.map((p) => (
+                  <p
+                    key={p.slice(0, 24)}
+                    className="leading-relaxed text-[var(--color-muted)]"
+                  >
+                    {p}
+                  </p>
+                ))}
+              </div>
+
+              <h3 className="mt-10 font-display text-xl font-extrabold text-[var(--color-ink)]">
+                Phong tục &amp; nghi lễ
+              </h3>
+              <ol className="mt-6 space-y-4">
+                {h.deep.phongTuc.map((t, i) => (
+                  <li key={t.title} className="flex gap-4">
+                    <span
+                      aria-hidden="true"
+                      className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full font-display text-sm font-black text-white"
+                      style={{
+                        background: `linear-gradient(135deg, ${h.theme.from}, ${h.theme.to})`,
+                      }}
+                    >
+                      {i + 1}
+                    </span>
+                    <div>
+                      <p className="font-bold text-[var(--color-ink)]">
+                        {t.title}
+                      </p>
+                      <p className="mt-1 text-sm leading-relaxed text-[var(--color-muted)]">
+                        {t.text}
+                      </p>
+                    </div>
+                  </li>
+                ))}
+              </ol>
+
+              {h.deep.amThuc.length > 0 && (
+                <>
+                  <h3 className="mt-10 font-display text-xl font-extrabold text-[var(--color-ink)]">
+                    Ẩm thực &amp; lễ vật
+                  </h3>
+                  <ul className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                    {h.deep.amThuc.map((a) => (
+                      <li
+                        key={a.title}
+                        className="rounded-2xl border border-[var(--color-line)] bg-[var(--color-surface)] p-5"
+                      >
+                        <p className="font-bold text-[var(--color-ink)]">
+                          {a.title}
+                        </p>
+                        <p className="mt-1 text-sm leading-relaxed text-[var(--color-muted)]">
+                          {a.text}
+                        </p>
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              )}
+
+              <h3 className="mt-10 font-display text-xl font-extrabold text-[var(--color-ink)]">
+                Bạn có biết?
+              </h3>
+              <ol className="mt-6 space-y-4">
+                {h.deep.facts.map((f, i) => (
+                  <li key={f.slice(0, 24)} className="flex gap-4">
+                    <span
+                      aria-hidden="true"
+                      className="font-display text-3xl font-black leading-none"
+                      style={{ color: h.theme.to }}
+                    >
+                      {String(i + 1).padStart(2, "0")}
+                    </span>
+                    <p className="text-sm leading-relaxed text-[var(--color-muted)] sm:text-base">
+                      {f}
+                    </p>
+                  </li>
+                ))}
+              </ol>
+            </div>
+          </section>
+        </Reveal>
       </div>
 
       {/* ---------- Wishes marquee + cards ---------- */}
       <section
         aria-labelledby="loi-chuc"
-        className="dot-pattern-ink border-y border-[var(--color-line)] bg-[#faf6ef]"
+        className="dot-pattern-ink border-y border-[var(--color-line)] bg-[var(--color-band)]"
       >
         <div className="mx-auto max-w-4xl px-4 py-16 sm:px-6">
           <Reveal>
@@ -281,7 +387,7 @@ export default async function HolidayPage({
               {[...h.wishes, ...h.wishes].map((w, i) => (
                 <span
                   key={i}
-                  className="whitespace-nowrap rounded-full border border-[var(--color-line)] bg-white px-5 py-2.5 text-sm text-[var(--color-muted)] shadow-sm"
+                  className="whitespace-nowrap rounded-full border border-[var(--color-line)] bg-[var(--color-card)] px-5 py-2.5 text-sm text-[var(--color-muted)] shadow-sm"
                 >
                   {w}
                 </span>
@@ -440,7 +546,7 @@ export default async function HolidayPage({
                 <span className="font-display text-xl font-bold text-[var(--color-ink)] group-hover:text-[var(--color-brand-deep)]">
                   {o.name}
                 </span>
-                <Motif name={o.motif} className="h-9 w-9 shrink-0 text-stone-400" />
+                <Motif name={o.motif} className="h-9 w-9 shrink-0 text-[var(--color-faint)]" />
               </span>
             </Link>
           ))}

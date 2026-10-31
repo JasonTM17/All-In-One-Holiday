@@ -8,7 +8,7 @@ export default function Footer() {
     .filter((h) => h !== undefined);
 
   return (
-    <footer className="dot-pattern-ink border-t border-[var(--color-line)] bg-[#f5f0e8]">
+    <footer className="dot-pattern-ink border-t border-[var(--color-line)] bg-[var(--color-band)]">
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-12 sm:grid-cols-3 sm:px-6">
         <div>
           <p className="flex items-center gap-2 font-display text-xl font-extrabold text-[var(--color-brand-deep)]">
@@ -57,9 +57,13 @@ export default function Footer() {
               <Link href="/lich/" className="u-link font-medium text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
                 Lịch ngày lễ
               </Link>
+            </li>
+            <li>
               <Link href="/thiep/" className="u-link font-medium text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
                 Tạo thiệp
               </Link>
+            </li>
+            <li>
               <Link href="/birthday/" className="u-link font-medium text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
                 Thiệp sinh nhật
               </Link>

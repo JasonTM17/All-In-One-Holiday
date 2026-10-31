@@ -149,7 +149,7 @@ export default function BirthdayCard() {
           <button
             type="button"
             onClick={share}
-            className="min-h-11 rounded-full border border-[var(--color-line)] bg-white px-5 py-2.5 text-sm font-bold text-[var(--color-ink)] hover:border-[var(--color-brand)] hover:text-[var(--color-brand-deep)]"
+            className="min-h-11 rounded-full border border-[var(--color-line)] bg-[var(--color-card)] px-5 py-2.5 text-sm font-bold text-[var(--color-ink)] hover:border-[var(--color-brand)] hover:text-[var(--color-brand-deep)]"
           >
             <span aria-live="polite">
               {copied ? "Đã sao chép liên kết" : "Chia sẻ thiệp"}
@@ -159,7 +159,7 @@ export default function BirthdayCard() {
           <button
             type="button"
             onClick={() => window.print()}
-            className="min-h-11 rounded-full border border-[var(--color-line)] bg-white px-5 py-2.5 text-sm font-bold text-[var(--color-ink)] hover:border-[var(--color-brand)] hover:text-[var(--color-brand-deep)]"
+            className="min-h-11 rounded-full border border-[var(--color-line)] bg-[var(--color-card)] px-5 py-2.5 text-sm font-bold text-[var(--color-ink)] hover:border-[var(--color-brand)] hover:text-[var(--color-brand-deep)]"
           >
             In thiệp
           </button>
@@ -263,7 +263,7 @@ export default function BirthdayCard() {
                 className={`flex min-h-14 flex-col items-center justify-center gap-1 rounded-xl border-2 px-2 py-2 text-xs font-bold transition-colors ${
                   fTheme === t.key
                     ? "border-[var(--color-brand)]"
-                    : "border-[var(--color-line)] hover:border-stone-300"
+                    : "border-[var(--color-line)] hover:border-[var(--color-faint)]"
                 }`}
               >
                 <span

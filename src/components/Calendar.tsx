@@ -149,7 +149,7 @@ export default function Calendar() {
                 role="gridcell"
                 key={c.date.toISOString()}
                 className={`min-h-24 rounded-xl border p-1.5 text-left align-top transition ${
-                  c.inMonth ? "border-[var(--color-line)] bg-white" : "border-transparent bg-[var(--color-soft)]/50 text-[var(--color-faint)]"
+                  c.inMonth ? "border-[var(--color-line)] bg-[var(--color-card)]" : "border-transparent bg-[var(--color-soft)]/50 text-[var(--color-faint)]"
                 } ${isToday(c.date) ? "ring-2 ring-[var(--color-brand)]" : ""}`}
               >
                 <div className="flex items-baseline justify-between">

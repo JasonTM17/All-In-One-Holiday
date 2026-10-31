@@ -175,12 +175,12 @@ export default function Home() {
       </section>
 
       {/* ---------- Wishes marquee ---------- */}
-      <div aria-hidden="true" className="marquee border-b border-[var(--color-line)] bg-[#faf6ef] py-5">
+      <div aria-hidden="true" className="marquee border-b border-[var(--color-line)] bg-[var(--color-band)] py-5">
         <div className="marquee-track">
           {[...allWishes, ...allWishes].map((w, i) => (
             <span
               key={i}
-              className="whitespace-nowrap rounded-full border border-[var(--color-line)] bg-white px-5 py-2 text-sm text-[var(--color-muted)] shadow-sm"
+              className="whitespace-nowrap rounded-full border border-[var(--color-line)] bg-[var(--color-card)] px-5 py-2 text-sm text-[var(--color-muted)] shadow-sm"
             >
               {w}
             </span>
@@ -191,7 +191,7 @@ export default function Home() {
       {/* ---------- Vietnam scenery strip ---------- */}
       <section
         aria-labelledby="viet-nam"
-        className="border-b border-[var(--color-line)] bg-[#faf6ef]"
+        className="border-b border-[var(--color-line)] bg-[var(--color-band)]"
       >
         <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
           <Reveal>
@@ -234,7 +234,7 @@ export default function Home() {
       {/* ---------- Women's days band ---------- */}
       <section
         aria-labelledby="phai-dep"
-        className="dot-pattern-ink border-b border-[var(--color-line)] bg-[#faf6ef]"
+        className="dot-pattern-ink border-b border-[var(--color-line)] bg-[var(--color-band)]"
       >
         <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
           <Reveal>

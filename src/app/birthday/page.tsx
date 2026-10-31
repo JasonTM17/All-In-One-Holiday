@@ -17,7 +17,7 @@ export default function BirthdayPage() {
   return (
     <section className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
       <div className="mx-auto mb-10 max-w-xl text-center">
-        <h1 className="font-display text-3xl font-extrabold text-stone-900 sm:text-4xl">
+        <h1 className="font-display text-3xl font-extrabold text-[var(--color-ink)] sm:text-4xl">
           Thiệp sinh nhật
         </h1>
       </div>
@@ -26,7 +26,7 @@ export default function BirthdayPage() {
           fallback={
             <div
               aria-hidden="true"
-              className="mx-auto h-96 max-w-lg animate-pulse rounded-3xl bg-stone-200/60"
+              className="mx-auto h-96 max-w-lg animate-pulse rounded-3xl bg-[var(--color-line)]/60"
             />
           }
         >

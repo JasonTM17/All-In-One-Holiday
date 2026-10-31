@@ -94,7 +94,7 @@ export default function SearchPalette() {
             aria-modal="true"
             aria-label="Tìm kiếm ngày lễ"
             onKeyDown={onTrap}
-            className="w-full max-w-lg overflow-hidden rounded-2xl bg-white shadow-2xl"
+            className="w-full max-w-lg overflow-hidden rounded-2xl bg-[var(--color-card)] shadow-2xl"
           >
             <input
               ref={inputRef}

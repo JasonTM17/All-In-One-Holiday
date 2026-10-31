@@ -1,5 +1,17 @@
 import { test, expect } from "@playwright/test";
 
+// Step-scroll through the page so every IntersectionObserver reveal fires.
+async function revealAll(page: import("@playwright/test").Page) {
+  await page.evaluate(async () => {
+    const step = window.innerHeight * 0.8;
+    for (let y = 0; y < document.body.scrollHeight; y += step) {
+      window.scrollTo(0, y);
+      await new Promise((r) => setTimeout(r, 60));
+    }
+    window.scrollTo(0, document.body.scrollHeight);
+  });
+}
+
 test("home renders hero and filters holidays", async ({ page }) => {
   await page.goto("/");
   await expect(
@@ -23,13 +35,12 @@ test("holiday page renders sections and copies a wish", async ({
   context,
 }) => {
   await context.grantPermissions(["clipboard-read", "clipboard-write"]);
+  await page.emulateMedia({ reducedMotion: "reduce" });
   await page.goto("/trung-thu/");
   await expect(
     page.getByRole("heading", { level: 1, name: "Tết Trung thu" }),
   ).toBeVisible();
-  await page.evaluate(() =>
-    window.scrollTo(0, document.body.scrollHeight),
-  );
+  await revealAll(page);
   await expect(
     page.getByRole("heading", { name: "Phong tục & hoạt động" }),
   ).toBeVisible();

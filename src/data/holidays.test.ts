@@ -34,6 +34,44 @@ describe("holiday data integrity", () => {
     }
   });
 
+  it("every holiday has a complete 'đọc trọn ngày lễ' deep section", () => {
+    for (const h of holidays) {
+      const d = h.deep;
+      expect(d, `${h.slug} missing deep`).toBeDefined();
+
+      // ongNguon: 1–3 paragraphs totaling ~120–200 words
+      expect(d.ongNguon.length).toBeGreaterThanOrEqual(1);
+      expect(d.ongNguon.length).toBeLessThanOrEqual(3);
+      const words = d.ongNguon.join(" ").split(/\s+/).filter(Boolean).length;
+      expect(words, `${h.slug} ongNguon has ${words} words`).toBeGreaterThanOrEqual(110);
+      expect(words, `${h.slug} ongNguon has ${words} words`).toBeLessThanOrEqual(220);
+      for (const p of d.ongNguon) expect(p.length).toBeGreaterThan(60);
+
+      // phongTuc: 5–8 items, title + explanation
+      expect(d.phongTuc.length, `${h.slug} phongTuc`).toBeGreaterThanOrEqual(5);
+      expect(d.phongTuc.length, `${h.slug} phongTuc`).toBeLessThanOrEqual(8);
+      for (const t of d.phongTuc) {
+        expect(t.title.length).toBeGreaterThan(2);
+        expect(t.text.length).toBeGreaterThan(40);
+      }
+
+      // amThuc: empty (hidden gracefully) or 3–5 items
+      expect(
+        d.amThuc.length === 0 || (d.amThuc.length >= 3 && d.amThuc.length <= 5),
+        `${h.slug} amThuc has ${d.amThuc.length} items`,
+      ).toBe(true);
+      for (const a of d.amThuc) {
+        expect(a.title.length).toBeGreaterThan(2);
+        expect(a.text.length).toBeGreaterThan(20);
+      }
+
+      // facts: 4–6 "Bạn có biết?" items
+      expect(d.facts.length, `${h.slug} facts`).toBeGreaterThanOrEqual(4);
+      expect(d.facts.length, `${h.slug} facts`).toBeLessThanOrEqual(6);
+      for (const f of d.facts) expect(f.length).toBeGreaterThan(30);
+    }
+  });
+
   it("every holiday resolves a future occurrence", () => {
     const from = new Date();
     for (const h of holidays) {

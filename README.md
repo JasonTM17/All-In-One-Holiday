@@ -1,6 +1,73 @@
 # Ngày Lễ Việt
 
-Trang tĩnh (static) đa landing-page về các ngày lễ Việt Nam và quốc tế, bằng tiếng Việt. Next.js App Router + Tailwind CSS, xuất ra HTML tĩnh (`output: 'export'`).
+Trang tĩnh (static) về các ngày lễ Việt Nam và quốc tế, bằng tiếng Việt — đọc một trang là hiểu trọn ngày lễ. Next.js App Router + Tailwind CSS, xuất ra HTML tĩnh (`output: 'export'`).
+
+**Live:** https://jasontm17.github.io/All-In-One-Holiday/
+
+## Tính năng
+
+- `/` — trang chủ: hero ảnh, đếm ngược, lịch trình 90 ngày, công cụ nhanh, băng ảnh Việt Nam, lưới 26 ngày lễ.
+- `/[slug]/` — 26 trang lễ: đếm ngược, lịch sử, ý nghĩa, phong tục, quà tặng, 5+ lời chúc, câu chuyện & nguồn, **Gợi ý lời chúc** (tạo câu chúc theo tông), và mục **"Hiểu trọn"** — nguồn gốc chi tiết, phong tục & nghi lễ, ẩm thực & lễ vật, và sự thật thú vị.
+- `/lich/` — lịch cả năm: ô ngày dương + âm, chip ngày lễ, lọc theo loại, agenda mobile, đăng ký/tải `ngay-le-viet.ics` (3 năm).
+- `/thiep/` — tạo thiệp: 6 mẫu, tùy chỉnh người nhận/người gửi/lời chúc, tải PNG (1080×1350, 1200×630), chia sẻ (noindex).
+- `/birthday/` — thiệp sinh nhật qua URL (noindex, không lưu dữ liệu).
+- `Ctrl/⌘+K` — tìm ngày lễ không cần dấu.
+- Chế độ tối (system + toggle, lưu localStorage), PWA (manifest + service worker, cài được, xem offline).
+- `/credits/` — nguồn ảnh theo giấy phép.
+
+## 26 ngày lễ
+
+| Ngày lễ | Thời điểm | Quy tắc |
+| --- | --- | --- |
+| [Tết Dương lịch](https://jasontm17.github.io/All-In-One-Holiday/tet-duong-lich/) | 1 tháng 1 | Dương lịch |
+| [Tết Nguyên Đán](https://jasontm17.github.io/All-In-One-Holiday/tet-nguyen-dan/) | 1/1 Âm lịch | Âm lịch |
+| [Tết Nguyên Tiêu](https://jasontm17.github.io/All-In-One-Holiday/tet-nguyen-tieu/) | 15/1 Âm lịch | Âm lịch |
+| [Lễ Tình nhân](https://jasontm17.github.io/All-In-One-Holiday/valentine/) | 14 tháng 2 | Dương lịch |
+| [Ngày Thầy thuốc Việt Nam](https://jasontm17.github.io/All-In-One-Holiday/ngay-thay-thuoc/) | 27 tháng 2 | Dương lịch |
+| [Quốc tế Phụ nữ 8/3](https://jasontm17.github.io/All-In-One-Holiday/quoc-te-phu-nu/) | 8 tháng 3 | Dương lịch |
+| [Tết Hàn thực](https://jasontm17.github.io/All-In-One-Holiday/tet-han-thuc/) | 3/3 Âm lịch | Âm lịch |
+| [Giỗ Tổ Hùng Vương](https://jasontm17.github.io/All-In-One-Holiday/gio-to-hung-vuong/) | 10/3 Âm lịch | Âm lịch |
+| [Ngày Giải phóng miền Nam 30/4](https://jasontm17.github.io/All-In-One-Holiday/giai-phong-mien-nam/) | 30 tháng 4 | Dương lịch |
+| [Quốc tế Lao động 1/5](https://jasontm17.github.io/All-In-One-Holiday/quoc-te-lao-dong/) | 1 tháng 5 | Dương lịch |
+| [Ngày của Mẹ](https://jasontm17.github.io/All-In-One-Holiday/ngay-cua-me/) | Chủ nhật thứ 2 tháng 5 | Thứ trong tháng |
+| [Tết Đoan Ngọ](https://jasontm17.github.io/All-In-One-Holiday/tet-doan-ngo/) | 5/5 Âm lịch | Âm lịch |
+| [Quốc tế Thiếu nhi 1/6](https://jasontm17.github.io/All-In-One-Holiday/quoc-te-thieu-nhi/) | 1 tháng 6 | Dương lịch |
+| [Ngày Báo chí Cách mạng Việt Nam](https://jasontm17.github.io/All-In-One-Holiday/ngay-bao-chi/) | 21 tháng 6 | Dương lịch |
+| [Ngày Gia đình Việt Nam](https://jasontm17.github.io/All-In-One-Holiday/ngay-gia-dinh-viet-nam/) | 28 tháng 6 | Dương lịch |
+| [Lễ Vu Lan](https://jasontm17.github.io/All-In-One-Holiday/vu-lan/) | 15/7 Âm lịch | Âm lịch |
+| [Ngày Thương binh Liệt sĩ](https://jasontm17.github.io/All-In-One-Holiday/thuong-binh-liet-si/) | 27 tháng 7 | Dương lịch |
+| [Tết Trung thu](https://jasontm17.github.io/All-In-One-Holiday/trung-thu/) | 15/8 Âm lịch | Âm lịch |
+| [Quốc khánh 2/9](https://jasontm17.github.io/All-In-One-Holiday/quoc-khanh/) | 2 tháng 9 | Dương lịch |
+| [Ngày Người cao tuổi Việt Nam](https://jasontm17.github.io/All-In-One-Holiday/nguoi-cao-tuoi/) | 1 tháng 10 | Dương lịch |
+| [Ngày Doanh nhân Việt Nam](https://jasontm17.github.io/All-In-One-Holiday/doanh-nhan/) | 13 tháng 10 | Dương lịch |
+| [Ngày Phụ nữ Việt Nam 20/10](https://jasontm17.github.io/All-In-One-Holiday/phu-nu-viet-nam/) | 20 tháng 10 | Dương lịch |
+| [Ngày Nhà giáo Việt Nam](https://jasontm17.github.io/All-In-One-Holiday/nha-giao-viet-nam/) | 20 tháng 11 | Dương lịch |
+| [Ngày Quân đội Nhân dân VN](https://jasontm17.github.io/All-In-One-Holiday/quan-doi-nhan-dan/) | 22 tháng 12 | Dương lịch |
+| [Ông Công Ông Táo](https://jasontm17.github.io/All-In-One-Holiday/ong-cong-ong-tao/) | 23/12 Âm lịch | Âm lịch |
+| [Giáng sinh](https://jasontm17.github.io/All-In-One-Holiday/giang-sinh/) | 24–25 tháng 12 | Dương lịch |
+
+Ngày âm lịch được quy đổi sang dương lịch từng năm tự động (`src/lib/dates.ts`).
+
+### Theo nhóm
+
+- **Truyền thống:** Tết Nguyên Đán, Tết Nguyên Tiêu, Giỗ Tổ Hùng Vương, Lễ Vu Lan, Tết Trung thu, Ông Công Ông Táo, Tết Hàn thực, Tết Đoan Ngọ, Giáng sinh.
+- **Quốc gia:** Giải phóng miền Nam, Quốc tế Lao động, Gia đình Việt Nam, Thương binh Liệt sĩ, Quốc khánh, Phụ nữ Việt Nam, Nhà giáo Việt Nam, Quân đội Nhân dân, Thầy thuốc, Báo chí Cách mạng, Người cao tuổi, Doanh nhân.
+- **Quốc tế:** Tết Dương lịch, Lễ Tình nhân, Quốc tế Phụ nữ 8/3, Quốc tế Lao động, Ngày của Mẹ, Quốc tế Thiếu nhi, Giáng sinh.
+- **Phụ nữ & gia đình:** Quốc tế Phụ nữ 8/3, Ngày của Mẹ, Phụ nữ Việt Nam, Lễ Vu Lan, Gia đình Việt Nam.
+
+## Ảnh chụp
+
+| Trang chủ | Tết Nguyên Đán | Lịch cả năm |
+| --- | --- | --- |
+| ![Trang chủ](docs/images/home-desktop.jpg) | ![Tết Nguyên Đán](docs/images/tet-nguyen-dan-desktop.jpg) | ![Lịch](docs/images/lich-desktop.jpg) |
+
+| Tạo thiệp | Trung thu | Giáng sinh |
+| --- | --- | --- |
+| ![Tạo thiệp](docs/images/thiep-desktop.jpg) | ![Trung thu](docs/images/trung-thu-desktop.jpg) | ![Giáng sinh](docs/images/giang-sinh-desktop.jpg) |
+
+| 8/3 | Sinh nhật | Mobile |
+| --- | --- | --- |
+| ![Quốc tế Phụ nữ](docs/images/quoc-te-phu-nu-desktop.jpg) | ![Sinh nhật](docs/images/birthday-desktop.jpg) | ![Mobile](docs/images/home-mobile.jpg) |
 
 ## Chạy
 
@@ -11,30 +78,19 @@ npm run build      # xuất site tĩnh ra thư mục out/
 npm test           # test logic ngày tháng + dữ liệu (vitest)
 npm run test:e2e   # e2e + axe a11y (Playwright, cần build trước)
 npm run lint
+npm run check:links # kiểm tra link nguồn trong stories
 ```
-
-## Tính năng
-
-- `/` — trang chủ: hero ảnh, đếm ngược, lịch trình 90 ngày, công cụ nhanh, băng ảnh Việt Nam, lưới 26 ngày lễ.
-- `/[slug]/` — 26 trang lễ: đếm ngược, lịch sử, ý nghĩa, phong tục, quà tặng, 5+ lời chúc, câu chuyện & nguồn, **Gợi ý lời chúc** (tạo câu chúc theo tông).
-- `/lich/` — lịch cả năm: ô ngày dương + âm, chip ngày lễ, lọc loại, agenda mobile, tải `ngay-le-viet.ics` (3 năm).
-- `/thiep/` — tạo thiệp: 6 mẫu, tùy chỉnh người nhận/người gửi/lời chúc, tải PNG (1080×1350, 1200×630), chia sẻ (noindex).
-- `/birthday/` — thiệp sinh nhật qua URL (noindex, không lưu dữ liệu).
-- `Ctrl/⌘+K` — tìm ngày lễ không cần dấu.
-- Chế độ tối (system + toggle, lưu localStorage), PWA (manifest + service worker, cài được).
-- `/credits/` — nguồn ảnh theo giấy phép.
-- Live: https://jasontm17.github.io/All-In-One-Holiday/
 
 ## Design system
 
 Chi tiết nghiên cứu + token đầy đủ: [`docs/design-references.md`](docs/design-references.md).
 
 - **Hướng thẩm mỹ**: festive editorial — hero "drenched" theo màu riêng của từng ngày lễ, nội dung trung tính ấm tối giản.
-- **Màu**: token trong `@theme` ở `src/app/globals.css` (`--color-ink/muted/faint/surface/line/brand`). Mỗi holiday có `theme.from/to` gradient riêng.
+- **Màu**: token trong `@theme` ở `src/app/globals.css` (`--color-ink/muted/faint/surface/card/line/band/soft/brand`), có bản dark trong `html.dark`. Mỗi holiday có `theme.from/to` gradient riêng.
 - **Chữ**: Playfair Display (tiêu đề, có subset Vietnamese) + Be Vietnam Pro (nội dung). Nhạy số: `tabular-nums`.
 - **Bố cục**: radius thống nhất 16px card / pill nút; chiều sâu = hairline + một lớp shadow tint; motif SVG riêng mỗi ngày lễ (`src/components/Motif.tsx`).
 - **Motion**: IntersectionObserver reveal (`Reveal.tsx`), marquee, float ornaments; tôn trọng `prefers-reduced-motion`; countdown `aria-hidden` với nhãn tĩnh.
-- **Không** dùng ảnh ngoài, emoji, hay asset có bản quyền.
+- **Ảnh**: lấy từ nguồn mở (Unsplash/Wikimedia…), tối ưu thành WebP đa kích thước trong `public/images/holidays/`, ghi nguồn đầy đủ tại `/credits/` và `src/data/image-credits.ts`. Không dùng emoji hay asset có bản quyền chưa rõ.
 
 ## Thêm một ngày lễ
 
@@ -42,15 +98,15 @@ Chi tiết nghiên cứu + token đầy đủ: [`docs/design-references.md`](doc
    - `slug` — đường dẫn `/<slug>/`
    - `rule` — `{ type: 'solar', month, day }` (dương lịch), `{ type: 'lunar', month, day }` (âm lịch, tự quy đổi), hoặc `{ type: 'nth-weekday', month, weekday, nth }` (vd. Chủ nhật thứ 2 tháng 5)
    - `motif` — tên ornament trong `Motif.tsx`
-   - `theme`, `history`, `traditions`, `wishes` (≥5), `gifts`, `faq`…
-2. Không cần thêm route — trang `/<slug>/`, OG image, sitemap và grid tự sinh.
+   - `theme`, `history`, `traditions`, `wishes` (≥5), `gifts`, `faq`, và `deep` (`ongNguon`, `phongTuc`, `amThuc`, `facts`)
+2. Không cần thêm route — trang `/<slug>/`, OG image, sitemap và grid tự sinh. Test dữ liệu trong `src/data/holidays.test.ts` sẽ kiểm tra đủ trường.
 
 ## Triển khai
 
 `npm run build` → nội dung trong `out/` đẩy lên bất kỳ static host nào.
 
 - **Custom domain**: build mặc định (không env).
-- **GitHub Pages** (`user.github.io/All-In-One-Holiday/`): build với `NEXT_PUBLIC_BASE_PATH=/All-In-One-Holiday` và `NEXT_PUBLIC_SITE_URL=https://<user>.github.io/All-In-One-Holiday`. Workflow `.github/workflows/pages.yml` đã cấu hình sẵn cho repo này.
+- **GitHub Pages** (`<user>.github.io/All-In-One-Holiday/`): build với `NEXT_PUBLIC_BASE_PATH=/All-In-One-Holiday` và `NEXT_PUBLIC_SITE_URL=https://<user>.github.io/All-In-One-Holiday`. Workflow `.github/workflows/pages.yml` đã cấu hình sẵn cho repo này; bật Pages → Source: GitHub Actions.
 
 ## Thiệp sinh nhật
 

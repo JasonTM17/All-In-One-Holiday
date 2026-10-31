@@ -12,12 +12,12 @@ const SIZES = [
 
 // 6 layout templates.
 const TEMPLATES = [
-  { id: 0, label: "Centrado", align: "center" as const, photoMode: "bg" },
-  { id: 1, label: "Izquierda", align: "left" as const, photoMode: "bg" },
-  { id: 2, label: "Foto superior", align: "center" as const, photoMode: "top" },
-  { id: 3, label: "Minimal", align: "center" as const, photoMode: "none" },
-  { id: 4, label: "Polaroid", align: "center" as const, photoMode: "frame" },
-  { id: 5, label: "Invertido", align: "right" as const, photoMode: "bg-inv" },
+  { id: 0, label: "Giữa", align: "center" as const, photoMode: "bg" },
+  { id: 1, label: "Trái", align: "left" as const, photoMode: "bg" },
+  { id: 2, label: "Ảnh trên", align: "center" as const, photoMode: "top" },
+  { id: 3, label: "Tối giản", align: "center" as const, photoMode: "none" },
+  { id: 4, label: "Khung ảnh", align: "center" as const, photoMode: "frame" },
+  { id: 5, label: "Đảo ngược", align: "right" as const, photoMode: "bg-inv" },
 ] as const;
 
 type Tpl = (typeof TEMPLATES)[number];
@@ -147,7 +147,7 @@ export default function CardMaker() {
 
     if (to) {
       ctx.font = `600 ${Math.round(ch * 0.032)}px ${sans}`;
-      ctx.fillText(`Para: ${to}`, cx, textTop + ch * 0.19);
+      ctx.fillText(`Gửi: ${to}`, cx, textTop + ch * 0.19);
     }
     if (msg) {
       ctx.font = `400 ${Math.round(ch * 0.03)}px ${sans}`;
@@ -158,7 +158,7 @@ export default function CardMaker() {
     if (from) {
       ctx.font = `600 ${Math.round(ch * 0.028)}px ${sans}`;
       ctx.globalAlpha = 0.85;
-      ctx.fillText(`De: ${from}`, cx, ch * 0.9);
+      ctx.fillText(`Từ: ${from}`, cx, ch * 0.9);
       ctx.globalAlpha = 1;
     }
     ctx.font = `700 ${Math.round(ch * 0.024)}px ${sans}`;
@@ -253,7 +253,7 @@ export default function CardMaker() {
     <div className="grid gap-8 lg:grid-cols-[1fr_1.1fr]">
       <div className="space-y-5">
         <label className="block text-sm font-bold text-[var(--color-muted)]">
-          Día festivo
+          Ngày lễ
           <select
             value={slug}
             onChange={(e) => setSlug(e.target.value)}
@@ -267,7 +267,7 @@ export default function CardMaker() {
           </select>
         </label>
         <div>
-          <p className="text-sm font-bold text-[var(--color-muted)]">Plantilla</p>
+          <p className="text-sm font-bold text-[var(--color-muted)]">Kiểu thiệp</p>
           <div className="mt-1 flex flex-wrap gap-1.5">
             {TEMPLATES.map((t) => (
               <button
@@ -287,7 +287,7 @@ export default function CardMaker() {
           </div>
         </div>
         <label className="block text-sm font-bold text-[var(--color-muted)]">
-          Para
+          Gửi đến
           <input
             type="text"
             value={to}
@@ -297,7 +297,7 @@ export default function CardMaker() {
           />
         </label>
         <label className="block text-sm font-bold text-[var(--color-muted)]">
-          De
+          Từ
           <input
             type="text"
             value={from}
@@ -307,7 +307,7 @@ export default function CardMaker() {
           />
         </label>
         <label className="block text-sm font-bold text-[var(--color-muted)]">
-          Mensaje
+          Lời nhắn
           <textarea
             value={msg}
             maxLength={200}
@@ -316,8 +316,8 @@ export default function CardMaker() {
             className="mt-1 w-full rounded-xl border border-[var(--color-line)] bg-[var(--color-card)] px-3 py-2.5 text-[var(--color-ink)] outline-none focus:border-[var(--color-brand)]"
           />
         </label>
-        <div>
-          <p className="text-sm font-bold text-[var(--color-muted)]">Desde los deseos</p>
+        <label className="block text-sm font-bold text-[var(--color-muted)]">
+          Chọn từ lời chúc
           <select
             onChange={(e) => {
               const i = Number(e.target.value);
@@ -327,14 +327,14 @@ export default function CardMaker() {
             defaultValue={-1}
             className="mt-1 w-full rounded-xl border border-[var(--color-line)] bg-[var(--color-card)] px-3 py-2.5 text-[var(--color-ink)] outline-none focus:border-[var(--color-brand)]"
           >
-            <option value={-1}>Elegir un deseo…</option>
+            <option value={-1}>Chọn một lời chúc…</option>
             {h.wishes.map((w, i) => (
               <option key={i} value={i}>
                 {w.length > 60 ? w.slice(0, 57) + "…" : w}
               </option>
             ))}
           </select>
-        </div>
+        </label>
       </div>
 
       <div>
@@ -362,14 +362,14 @@ export default function CardMaker() {
             data-testid="thiep-download"
             className="min-h-11 rounded-full bg-[var(--color-brand)] px-5 text-sm font-bold text-white hover:bg-[var(--color-brand-deep)] focus-visible:outline-2"
           >
-            Descargar PNG
+            Tải PNG
           </button>
           <button
             type="button"
             onClick={share}
             className="min-h-11 rounded-full border border-[var(--color-line)] px-4 text-sm font-bold text-[var(--color-muted)] hover:bg-[var(--color-soft)] focus-visible:outline-2"
           >
-            {copied ? "¡Enlace copiado!" : "Compartir"}
+            {copied ? "Đã sao chép liên kết" : "Chia sẻ"}
           </button>
         </div>
         <canvas
@@ -379,7 +379,7 @@ export default function CardMaker() {
           style={{ aspectRatio: `${size.w}/${size.h}` }}
         />
         {!fontsReady && (
-          <p className="mt-2 text-xs text-[var(--color-faint)]">Cargando fuentes…</p>
+          <p className="mt-2 text-xs text-[var(--color-faint)]">Đang tải phông chữ…</p>
         )}
       </div>
     </div>
