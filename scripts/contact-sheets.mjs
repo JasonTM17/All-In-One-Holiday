@@ -1,10 +1,13 @@
 // Build labeled contact sheets of all downloaded images for curation.
+// Usage: node scripts/contact-sheets.mjs [srcDir] [dstSuffix]
+// Defaults to public/images/holidays -> screenshots/contact.
+// For staged candidates: node scripts/contact-sheets.mjs staging stage
 import { readdirSync, mkdirSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import sharp from "sharp";
 
-const OUT = "public/images/holidays";
-const DST = "screenshots/contact";
+const OUT = process.argv[2] ?? "public/images/holidays";
+const DST = join("screenshots/contact", process.argv[3] ?? "");
 if (!existsSync(DST)) mkdirSync(DST, { recursive: true });
 
 const COLS = 4, TW = 340, TH = 227, LH = 24;

@@ -56,7 +56,15 @@ for (const slug of readdirSync(DIR)) {
   if (!statSync(dir, { throwIfNoEntry: false })?.isDirectory()) continue;
 
   // ---- card / gallery thumbs ----
-  for (const base of ["card", "gallery1", "gallery2", "gallery3"]) {
+  for (const base of [
+    "card",
+    "gallery1",
+    "gallery2",
+    "gallery3",
+    "gallery4",
+    "gallery5",
+    "gallery6",
+  ]) {
     const src = join(dir, `${base}.webp`);
     if (!existsSync(src)) continue;
     const buf = readFileSync(src);
@@ -75,6 +83,37 @@ for (const slug of readdirSync(DIR)) {
     if (!existsSync(avif480)) {
       await sharp(buf)
         .resize(w, null, { withoutEnlargement: true })
+        .avif({ quality: AVIF_Q })
+        .toFile(avif480);
+      written++;
+    }
+    if (!existsSync(avifFull)) {
+      await sharp(buf).avif({ quality: AVIF_Q }).toFile(avifFull);
+      written++;
+    }
+  }
+
+  // ---- deep-section photos (amthuc-*, phongtuc-*) ----
+  // Any extra 4:3 photo stem gets the same -480 webp/avif + full avif twins.
+  for (const f of readdirSync(dir)) {
+    const m = f.match(/^(amthuc|phongtuc)-.+\.webp$/);
+    if (!m || f.endsWith(`-${THUMB_W}.webp`)) continue;
+    const base = f.replace(/\.webp$/, "");
+    const src = join(dir, f);
+    const buf = readFileSync(src);
+    const webp480 = join(dir, `${base}-${THUMB_W}.webp`);
+    const avif480 = join(dir, `${base}-${THUMB_W}.avif`);
+    const avifFull = join(dir, `${base}.avif`);
+    if (!existsSync(webp480)) {
+      await sharp(buf)
+        .resize(THUMB_W, null, { withoutEnlargement: true })
+        .webp({ quality: WEBP_THUMB_Q })
+        .toFile(webp480);
+      written++;
+    }
+    if (!existsSync(avif480)) {
+      await sharp(buf)
+        .resize(THUMB_W, null, { withoutEnlargement: true })
         .avif({ quality: AVIF_Q })
         .toFile(avif480);
       written++;

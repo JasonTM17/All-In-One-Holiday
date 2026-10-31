@@ -22,6 +22,8 @@ export default defineConfig([
     ".claude/**",
     ".codex/**",
     ".devin/**",
+    // ad-hoc `_`-prefixed scratch helpers are never shipped
+    "scripts/_*",
     "next-env.d.ts",
   ]),
 ]);

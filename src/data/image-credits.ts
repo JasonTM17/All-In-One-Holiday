@@ -54,6 +54,33 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 4.0",
       "source": "Wikimedia Commons",
       "alt": "Kiss of the Sea show featuring a spectacular fireworks display above the illuminated semicircular open-air theater on th"
+    },
+    {
+      "file": "tet-duong-lich/gallery6.webp",
+      "photographer": "PattayaPatrol",
+      "profile": "https://commons.wikimedia.org/wiki/File:DFC_3850_A_crowd_gathers_along_the_shore_as_fireworks_burst_and_reflect_across_the_water_lighting_up_the_night_sky_and_sending_plumes_of_smoke_into_the_air.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:DFC_3850_A_crowd_gathers_along_the_shore_as_fireworks_burst_and_reflect_across_the_water_lighting_up_the_night_sky_and_sending_plumes_of_smoke_into_the_air.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "This photo shows a spectacular nighttime fireworks display over a body of water. Multiple colorful fireworks are explodi"
+    },
+    {
+      "file": "tet-duong-lich/gallery4.webp",
+      "photographer": "trungydang",
+      "profile": "https://commons.wikimedia.org/wiki/File:Nam_moi_2015,ban_phao_hoa_Saigon_Vietnam_-_panoramio.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Nam_moi_2015,ban_phao_hoa_Saigon_Vietnam_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "Nam moi 2015,ban phao hoa Saigon Vietnam"
+    },
+    {
+      "file": "tet-duong-lich/gallery5.webp",
+      "photographer": "trungydang",
+      "profile": "https://commons.wikimedia.org/wiki/File:Ban_phao_hoa_giao_thua_,_2015._Saigon_vietnam_-_panoramio.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Ban_phao_hoa_giao_thua_,_2015._Saigon_vietnam_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "New Year's Eve fireworks"
     }
   ],
   "tet-nguyen-dan": [
@@ -103,13 +130,76 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Mai trắng, một giống lai của mai vàng"
     },
     {
-      "file": "tet-nguyen-dan/card.webp",
-      "photographer": "Prenn",
-      "profile": "https://commons.wikimedia.org/wiki/File:Ochna_integerrima_01.JPG",
-      "photo": "https://commons.wikimedia.org/wiki/File:Ochna_integerrima_01.JPG",
+      "file": "tet-nguyen-dan/amthuc-banh-chung.webp",
+      "photographer": "vi:user:Viethavvh",
+      "profile": "https://commons.wikimedia.org/wiki/File:Banh_chung_vuong.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Banh_chung_vuong.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "en:Bánh chưng"
+    },
+    {
+      "file": "tet-nguyen-dan/amthuc-mut-tet.webp",
+      "photographer": "Banhtrung1",
+      "profile": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_m%E1%BB%A9t_k%E1%BA%B9o.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_m%E1%BB%A9t_k%E1%BA%B9o.jpg",
       "license": "CC BY-SA 3.0",
       "source": "Wikimedia Commons",
-      "alt": "Mai vàng nhiều cánh"
+      "alt": "Bánh mứt kẹo dùng trong dịp Tết Nguyên đán."
+    },
+    {
+      "file": "tet-nguyen-dan/amthuc-thit-kho-trung.webp",
+      "photographer": "Memberofc1",
+      "profile": "https://commons.wikimedia.org/wiki/File:Th%E1%BB%8Bt_kho_ch%E1%BB%89.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Th%E1%BB%8Bt_kho_ch%E1%BB%89.jpg",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "Vietnamese braised meat"
+    },
+    {
+      "file": "tet-nguyen-dan/amthuc-nem-ran.webp",
+      "photographer": "Phó Nháy",
+      "profile": "https://commons.wikimedia.org/wiki/File:Nem_ran_cat.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Nem_ran_cat.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Chả giò"
+    },
+    {
+      "file": "tet-nguyen-dan/amthuc-thit-dong.webp",
+      "photographer": "Viethavvh",
+      "profile": "https://commons.wikimedia.org/wiki/File:Gi%C3%B2_th%E1%BB%A7.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Gi%C3%B2_th%E1%BB%A7.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Một đĩa giò thủ"
+    },
+    {
+      "file": "tet-nguyen-dan/gallery5.webp",
+      "photographer": "PEAK99",
+      "profile": "https://commons.wikimedia.org/wiki/File:%E0%B8%8A%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%A7_Ochna_integerrima_(Lour.)_Merr_(1).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:%E0%B8%8A%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%A7_Ochna_integerrima_(Lour.)_Merr_(1).jpg",
+      "license": "CC BY 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "Ochna integerrima (Lour.) Merr"
+    },
+    {
+      "file": "tet-nguyen-dan/gallery6.webp",
+      "photographer": "Willyvu",
+      "profile": "https://commons.wikimedia.org/wiki/File:C%C3%A0nh_hoa_mai_gi%E1%BA%A3_%C4%91%C3%B3ng_th%C3%B9ng_carton_%C4%91%E1%BB%83_g%E1%BB%ADi_%C4%91i_xa.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:C%C3%A0nh_hoa_mai_gi%E1%BA%A3_%C4%91%C3%B3ng_th%C3%B9ng_carton_%C4%91%E1%BB%83_g%E1%BB%ADi_%C4%91i_xa.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Artificial apricot blossom branches are used to make the apricot trees for decoration purposes in the Lunar Tet in Vietn"
+    },
+    {
+      "file": "tet-nguyen-dan/gallery4.webp",
+      "photographer": "This is Thảo",
+      "profile": "https://commons.wikimedia.org/wiki/File:Tet_holiday_in_Vietnam.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Tet_holiday_in_Vietnam.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "A Vietnamese family is making bánh tét (or bánh đòn, Vietnamese sticky rice cake) on the biggest traditional holiday of "
     }
   ],
   "tet-nguyen-tieu": [
@@ -121,15 +211,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "Public domain",
       "source": "Wikimedia Commons",
       "alt": "Vietnamese children celebrating Tết Trung Thu in a traditional lantern procession."
-    },
-    {
-      "file": "tet-nguyen-tieu/card.webp",
-      "photographer": "tkjh105212",
-      "profile": "https://commons.wikimedia.org/wiki/File:2017_TLF_New_Immigrants_Lantern_Area.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:2017_TLF_New_Immigrants_Lantern_Area.jpg",
-      "license": "CC BY 2.0",
-      "source": "Wikimedia Commons",
-      "alt": "Vietnam Exhibition area, Huwei Main Lantern Area –New Immigrants, 2017 Taiwan Lantern Festival"
     },
     {
       "file": "tet-nguyen-tieu/gallery1.webp",
@@ -157,6 +238,69 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 4.0",
       "source": "Wikimedia Commons",
       "alt": "Lanterns on the Thu Bon River during the Hoi An Full Moon Festival."
+    },
+    {
+      "file": "tet-nguyen-tieu/amthuc-che-troi-nuoc.webp",
+      "photographer": "Phương Huy",
+      "profile": "https://commons.wikimedia.org/wiki/File:M%C3%B3n_ch%C3%A8_%E1%BB%9F_B%C3%ACnh_Long_n%C4%83m_2020.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:M%C3%B3n_ch%C3%A8_%E1%BB%9F_B%C3%ACnh_Long_n%C4%83m_2020.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Món chè, chè trôi nước"
+    },
+    {
+      "file": "tet-nguyen-tieu/amthuc-co-chay.webp",
+      "photographer": "own work",
+      "profile": "https://commons.wikimedia.org/wiki/File:Rice_with_vegetarian_meat_stew.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:Rice_with_vegetarian_meat_stew.JPG",
+      "license": "CC BY 2.5",
+      "source": "Wikimedia Commons",
+      "alt": "​素魯飯"
+    },
+    {
+      "file": "tet-nguyen-tieu/amthuc-xoi-che.webp",
+      "photographer": "Terence Ong",
+      "profile": "https://commons.wikimedia.org/wiki/File:Mango_with_glutinous_rice.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Mango_with_glutinous_rice.jpg",
+      "license": "CC BY 2.5",
+      "source": "Wikimedia Commons",
+      "alt": "Thai mango with glutinous rice."
+    },
+    {
+      "file": "tet-nguyen-tieu/gallery4.webp",
+      "photographer": "Mig Gilbert from Brighton",
+      "profile": "https://commons.wikimedia.org/wiki/File:Lanterns_in_Hoi_An_(40542858941).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Lanterns_in_Hoi_An_(40542858941).jpg",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Lanterns in Hoi An"
+    },
+    {
+      "file": "tet-nguyen-tieu/gallery6.webp",
+      "photographer": "Nguoivietbao",
+      "profile": "https://commons.wikimedia.org/wiki/File:C%C3%A1c_%C4%91%E1%BA%A1i_bi%E1%BB%83u_v%C3%A0_ng%C6%B0%E1%BB%9Di_d%C3%A2n_d%C3%A2ng_h%C6%B0%C6%A1ng_t%E1%BA%A1i_L%E1%BB%85_h%E1%BB%99i_truy%E1%BB%81n_th%E1%BB%91ng_%C4%90%C3%ACnh_-_%C4%90%E1%BB%81n_-_Ch%C3%B9a_B%E1%BA%A3o_S%C3%A0i,_ph%C6%B0%E1%BB%9Dng_Ph%E1%BA%A1m_Ng%C5%A9_L%C3%A3o,_th%C3%A0nh_ph%E1%BB%91_H%E1%BA%A3i_D%C6%B0%C6%A1ng,_t%E1%BB%89nh_H%E1%BA%A3i_D%C6%B0%C6%A1ng.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:C%C3%A1c_%C4%91%E1%BA%A1i_bi%E1%BB%83u_v%C3%A0_ng%C6%B0%E1%BB%9Di_d%C3%A2n_d%C3%A2ng_h%C6%B0%C6%A1ng_t%E1%BA%A1i_L%E1%BB%85_h%E1%BB%99i_truy%E1%BB%81n_th%E1%BB%91ng_%C4%90%C3%ACnh_-_%C4%90%E1%BB%81n_-_Ch%C3%B9a_B%E1%BA%A3o_S%C3%A0i,_ph%C6%B0%E1%BB%9Dng_Ph%E1%BA%A1m_Ng%C5%A9_L%C3%A3o,_th%C3%A0nh_ph%E1%BB%91_H%E1%BA%A3i_D%C6%B0%C6%A1ng,_t%E1%BB%89nh_H%E1%BA%A3i_D%C6%B0%C6%A1ng.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Delegates and people offer incense at the traditional festival of Bao Sai Communal House - Temple - Pagoda, Pham Ngu Lao"
+    },
+    {
+      "file": "tet-nguyen-tieu/card.webp",
+      "photographer": "Kuroczynski",
+      "profile": "https://commons.wikimedia.org/wiki/File:Boats_with_lanterns_on_the_Thu_Bon_river_IMG_3864.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Boats_with_lanterns_on_the_Thu_Bon_river_IMG_3864.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Hoi An - Boats with lanterns on the Thu Bon river in the night"
+    },
+    {
+      "file": "tet-nguyen-tieu/gallery5.webp",
+      "photographer": "Phương Huy",
+      "profile": "https://commons.wikimedia.org/wiki/File:%C4%90%C3%A8n_%C4%91%C3%A1_ki%E1%BB%83u_Vi%E1%BB%87t_Nam_v%C3%A0_l%C6%B0_h%C6%B0%C6%A1ng_%C4%91%C3%A1_b%E1%BA%B1ng_c%E1%BA%A9m_th%E1%BA%A1ch_t%E1%BA%A1i_Ch%C3%B9a_B%E1%BB%ADu_Th%E1%BA%AFng,_T%C3%A2n_Ph%C3%BA,_th%C3%A1ng_5_n%C4%83m_2021_(16).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:%C4%90%C3%A8n_%C4%91%C3%A1_ki%E1%BB%83u_Vi%E1%BB%87t_Nam_v%C3%A0_l%C6%B0_h%C6%B0%C6%A1ng_%C4%91%C3%A1_b%E1%BA%B1ng_c%E1%BA%A9m_th%E1%BA%A1ch_t%E1%BA%A1i_Ch%C3%B9a_B%E1%BB%ADu_Th%E1%BA%AFng,_T%C3%A2n_Ph%C3%BA,_th%C3%A1ng_5_n%C4%83m_2021_(16).jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Pagodas in Ho Chi Minh City"
     }
   ],
   "valentine": [
@@ -204,6 +348,60 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY 3.0",
       "source": "Wikimedia Commons",
       "alt": "ബെംഗളൂരിലെ ലാൽ‌ബാഗിലെ റോസ് ഗാർഡനിൽ നിന്ന് ഒരു റോസ് പുഷ്പം"
+    },
+    {
+      "file": "valentine/amthuc-socola.webp",
+      "photographer": "fimb",
+      "profile": "https://commons.wikimedia.org/wiki/File:Pralines_Chocolate_Tasting_Club.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Pralines_Chocolate_Tasting_Club.jpg",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Pralines in a box"
+    },
+    {
+      "file": "valentine/amthuc-dau-socola.webp",
+      "photographer": "Robin Zebrowski",
+      "profile": "https://commons.wikimedia.org/wiki/File:ChocolateCoveredStrawberries.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:ChocolateCoveredStrawberries.jpg",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Chocolate-covered strawberries"
+    },
+    {
+      "file": "valentine/amthuc-banh-tim.webp",
+      "photographer": "Danielle Elder from Palm Beach, United States",
+      "profile": "https://commons.wikimedia.org/wiki/File:Chocolate_cake_heart.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Chocolate_cake_heart.jpg",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "This is the cake I made for my mom on mothers day."
+    },
+    {
+      "file": "valentine/gallery4.webp",
+      "photographer": "James Valentine Jelley",
+      "profile": "https://commons.wikimedia.org/wiki/File:James_Valentine_Jelley_-_Christmas_Roses_(11536880793).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:James_Valentine_Jelley_-_Christmas_Roses_(11536880793).jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Christmas Roses"
+    },
+    {
+      "file": "valentine/gallery5.webp",
+      "photographer": "Chrys Omori from Sao Paulo, Brazil",
+      "profile": "https://commons.wikimedia.org/wiki/File:Chocolate_gift.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Chocolate_gift.jpg",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Ok, not exactly the gift, but something for her to remember I didn't forget her birthday^v' (09/30)"
+    },
+    {
+      "file": "valentine/gallery6.webp",
+      "photographer": "Paolo Gamba from Paris, France",
+      "profile": "https://commons.wikimedia.org/wiki/File:Red_roses_(32337990087).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Red_roses_(32337990087).jpg",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "firsts test with my new toy: apo-telyt-M 135"
     }
   ],
   "quoc-te-phu-nu": [
@@ -251,6 +449,33 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 4.0",
       "source": "Wikimedia Commons",
       "alt": "Pink roses at birthday reception, Dortmund"
+    },
+    {
+      "file": "quoc-te-phu-nu/gallery4.webp",
+      "photographer": "Khương Việt Hà",
+      "profile": "https://commons.wikimedia.org/wiki/File:Mot_so_kieu_ao_dai_le_hoi.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:Mot_so_kieu_ao_dai_le_hoi.JPG",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Festival ao dai in Vietnam"
+    },
+    {
+      "file": "quoc-te-phu-nu/gallery5.webp",
+      "photographer": "Susanne Nilsson",
+      "profile": "https://commons.wikimedia.org/wiki/File:Tulip_(33161282930).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Tulip_(33161282930).jpg",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Tulip"
+    },
+    {
+      "file": "quoc-te-phu-nu/gallery6.webp",
+      "photographer": "Judgefloro",
+      "profile": "https://commons.wikimedia.org/wiki/File:JfAngat0192Mimosapudicafvf_01.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:JfAngat0192Mimosapudicafvf_01.JPG",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "In Paltoc, Angat, Bulacan beside Niugan, Angat, Bulacan is the Mimosa pudica from Latin: pudica \"shy, bashful or shrinki"
     }
   ],
   "phu-nu-viet-nam": [
@@ -291,15 +516,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Beautiful student girl with ao dai"
     },
     {
-      "file": "phu-nu-viet-nam/hero.webp",
-      "photographer": "Phát Trương",
-      "profile": "https://commons.wikimedia.org/wiki/File:%C3%81o_d%C3%A0i_hoa_ph%C6%B0%E1%BB%A3ng_-_Ph%C3%A1t_Tr%C6%B0%C6%A1ng_-_51231007393_(extend_cropped).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:%C3%81o_d%C3%A0i_hoa_ph%C6%B0%E1%BB%A3ng_-_Ph%C3%A1t_Tr%C6%B0%C6%A1ng_-_51231007393_(extend_cropped).jpg",
-      "license": "CC BY-SA 2.0",
-      "source": "Wikimedia Commons",
-      "alt": "Cô gái ở TP. Hồ Chí Minh mặc áo dài, trên tay cầm hoa phượng đỏ."
-    },
-    {
       "file": "phu-nu-viet-nam/gallery2.webp",
       "photographer": "Daderot",
       "profile": "https://commons.wikimedia.org/wiki/File:Ao_dai_collection_-_Vietnamese_Women%27s_Museum_-_Hanoi,_Vietnam_-_DSC04141.JPG",
@@ -307,6 +523,33 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC0",
       "source": "Wikimedia Commons",
       "alt": "Exhibit in the Vietnamese Women's Museum, Hanoi, Vietnam. Photography was permitted in the museum without restriction."
+    },
+    {
+      "file": "phu-nu-viet-nam/gallery4.webp",
+      "photographer": "Akasumoto",
+      "profile": "https://commons.wikimedia.org/wiki/File:Ao_dai_trang_3.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Ao_dai_trang_3.jpg",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Student girl with white ao dai"
+    },
+    {
+      "file": "phu-nu-viet-nam/gallery5.webp",
+      "photographer": "Chen Mei (陳枚), Sun Hu (孫祜), Jin Kun (金昆), Dai Hong (戴洪) and Cheng Zhidao (程志道), five court painters under the Qianlong Emperor.",
+      "profile": "https://commons.wikimedia.org/wiki/File:Along_the_River_7-119-3.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Along_the_River_7-119-3.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "ao dai silk"
+    },
+    {
+      "file": "phu-nu-viet-nam/gallery6.webp",
+      "photographer": "ManishNegi513",
+      "profile": "https://commons.wikimedia.org/wiki/File:Traditional_Vietnamese_dress.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Traditional_Vietnamese_dress.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Traditional costumes of Hmong people in Vietnam."
     }
   ],
   "nha-giao-viet-nam": [
@@ -338,33 +581,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Students with disabilities are integrated into all classrooms for inclusive education at Nguyen Ding Chieu School. Hanoi"
     },
     {
-      "file": "nha-giao-viet-nam/gallery3.webp",
-      "photographer": "USAID Vietnam",
-      "profile": "https://commons.wikimedia.org/wiki/File:AA_Stivers_visit_to_Nguyen_Ding_Chieu_School_(16974689245).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:AA_Stivers_visit_to_Nguyen_Ding_Chieu_School_(16974689245).jpg",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "AA Stivers speaks with students who learn in an inclusive education environment where students with disabilities are int"
-    },
-    {
-      "file": "nha-giao-viet-nam/gallery1.webp",
-      "photographer": "Jones, Michael John",
-      "profile": "https://commons.wikimedia.org/wiki/File:South_Vietnamese_students_at_a_military_hospital.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:South_Vietnamese_students_at_a_military_hospital.jpg",
-      "license": "CC0",
-      "source": "Wikimedia Commons",
-      "alt": "Hue, South Vietnam. September 1970. In the classroom, Vietnamese students wait for instruction as Warrant Officer Class "
-    },
-    {
-      "file": "nha-giao-viet-nam/gallery3.webp",
-      "photographer": "Anne and David from Kent, England UK",
-      "profile": "https://commons.wikimedia.org/wiki/File:Cambodia._Phnom_Penh._The_Tuol_Sleng_Genocide_Museum._Known_as_S-21._(Security_prison_21)._Bou_Meng_one_of_two_adult_survivors._Signing_copies_of_his_book._(40041285514).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Cambodia._Phnom_Penh._The_Tuol_Sleng_Genocide_Museum._Known_as_S-21._(Security_prison_21)._Bou_Meng_one_of_two_adult_survivors._Signing_copies_of_his_book._(40041285514).jpg",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "The Tuol Sleng Genocide Museum (Khmer: សារមន្ទីរឧក្រិដ្ឋកម្មប្រល័យពូជសាសន៍ទួលស្លែង) is a museum in Phnom Penh, the capit"
-    },
-    {
       "file": "nha-giao-viet-nam/hero.webp",
       "photographer": "AxitTDTbenzoic",
       "profile": "https://commons.wikimedia.org/wiki/File:Chu_V%C4%83n_An_High_School,_New_Stadium.jpg",
@@ -372,45 +588,45 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 4.0",
       "source": "Wikimedia Commons",
       "alt": "The new stadium within Chu Văn An High School campus."
+    },
+    {
+      "file": "nha-giao-viet-nam/gallery4.webp",
+      "photographer": "Thomas Taylor Hammond (1920-1993)",
+      "profile": "https://commons.wikimedia.org/wiki/File:1964_Hammond_Slides_Student_Raising_Hand.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:1964_Hammond_Slides_Student_Raising_Hand.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "The images are part of the Hammond Collection, taken in or near Moscow in the winter of 1964. This specific image featur"
+    },
+    {
+      "file": "nha-giao-viet-nam/gallery5.webp",
+      "photographer": "Anneli Salo",
+      "profile": "https://commons.wikimedia.org/wiki/File:Kirsti_M%C3%A4kinen_IMG_5884_C.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:Kirsti_M%C3%A4kinen_IMG_5884_C.JPG",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "Finnish non-fiction writer and teacher Kirsti Mäkinen is reading her book on World Book Day in Helsinki in 2012"
+    },
+    {
+      "file": "nha-giao-viet-nam/gallery6.webp",
+      "photographer": "Rc1959",
+      "profile": "https://commons.wikimedia.org/wiki/File:Vietnam_1999.Hanoi_(13).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Vietnam_1999.Hanoi_(13).jpg",
+      "license": "CC BY 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Vietnam 1999.Hanoi"
+    },
+    {
+      "file": "nha-giao-viet-nam/gallery3.webp",
+      "photographer": "USAID Vietnam",
+      "profile": "https://commons.wikimedia.org/wiki/File:Dong_A_University_IT_Program_for_Students_with_Disabilities.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Dong_A_University_IT_Program_for_Students_with_Disabilities.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Dong A IT Program graduates celebrate in Danang. Photo: CRS First Group of Students with Disabilities Graduates from IT "
     }
   ],
   "quan-doi-nhan-dan": [
-    {
-      "file": "quan-doi-nhan-dan/hero.webp",
-      "photographer": "Department of Defense. Defense Audiovisual Agency; Scene Camera Operator: Mickey Sanborn",
-      "profile": "https://commons.wikimedia.org/wiki/File:World_War_I_veteran_Joseph_Ambrose,_86,_at_the_dedication_day_parade_for_the_Vietnam_Veterans_Memorial_in_1982.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:World_War_I_veteran_Joseph_Ambrose,_86,_at_the_dedication_day_parade_for_the_Vietnam_Veterans_Memorial_in_1982.jpg",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "Joseph Ambrose, an 86-year-old World War I veteran, attends the dedication day parade for the Vietnam Veterans Memorial "
-    },
-    {
-      "file": "quan-doi-nhan-dan/card.webp",
-      "photographer": "Randy Young.",
-      "profile": "https://commons.wikimedia.org/wiki/File:Flag_of_the_471st_Truck_Transportation_Division_-_Vietnam_People%27s_Army_-_Randy_Young_(8_July_2016).gif",
-      "photo": "https://commons.wikimedia.org/wiki/File:Flag_of_the_471st_Truck_Transportation_Division_-_Vietnam_People%27s_Army_-_Randy_Young_(8_July_2016).gif",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "A flag of a military division of the Vietnam People's Army."
-    },
-    {
-      "file": "quan-doi-nhan-dan/gallery1.webp",
-      "photographer": "Fairley, John Geoffrey",
-      "profile": "https://commons.wikimedia.org/wiki/File:AATTV_parade_at_Vung_Tau,_September_1970.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:AATTV_parade_at_Vung_Tau,_September_1970.jpg",
-      "license": "CC0",
-      "source": "Wikimedia Commons",
-      "alt": "Official guests and spectators stand as the members and ex-members of the Australian Army Training Team Vietnam (AATTV) "
-    },
-    {
-      "file": "quan-doi-nhan-dan/gallery2.webp",
-      "photographer": "Seattle Municipal Archives from Seattle, WA",
-      "profile": "https://commons.wikimedia.org/wiki/File:Seattle_-_Parade_of_Army_troops_returning_from_Vietnam,_1969_(52491386560).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Seattle_-_Parade_of_Army_troops_returning_from_Vietnam,_1969_(52491386560).jpg",
-      "license": "CC BY 2.0",
-      "source": "Wikimedia Commons",
-      "alt": "Parade of Army troops returning from Vietnam, Seattle, Washington, U.S., 1969. This is looking north on Fourth Avenue. T"
-    },
     {
       "file": "quan-doi-nhan-dan/gallery3.webp",
       "photographer": "SP5 Allan K. Holm",
@@ -421,40 +637,67 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "On 1 November 1965, the present government of the Republic of Vietnam held a parade in Saigon, Vietnam, commemorating th"
     },
     {
+      "file": "quan-doi-nhan-dan/hero.webp",
+      "photographer": "Poncahot",
+      "profile": "https://commons.wikimedia.org/wiki/File:Duyet_binh.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Duyet_binh.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "PAVN soldiers during a parade in 2015."
+    },
+    {
       "file": "quan-doi-nhan-dan/card.webp",
-      "photographer": "Unknown authorUnknown author",
-      "profile": "https://commons.wikimedia.org/wiki/File:Soldier_in_Camouflage_in_1917.JPEG",
-      "photo": "https://commons.wikimedia.org/wiki/File:Soldier_in_Camouflage_in_1917.JPEG",
-      "license": "Public domain",
+      "photographer": "Adam Jones Adam63",
+      "profile": "https://commons.wikimedia.org/wiki/File:Women_Soldiers_at_Ho_Chi_Minh_Museum_-_Hanoi_-_Vietnam.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:Women_Soldiers_at_Ho_Chi_Minh_Museum_-_Hanoi_-_Vietnam.JPG",
+      "license": "CC BY-SA 3.0",
       "source": "Wikimedia Commons",
-      "alt": "Soldier in black and white uniform to conceal him while climbing trees. He stands in front of a house camouflaged to rep"
+      "alt": "Student Policewomen at Ho Chi Minh Museum, Hanoi, Vietnam. June 2009."
     },
     {
-      "file": "quan-doi-nhan-dan/hero.webp",
-      "photographer": "en (talk · contribs)",
-      "profile": "https://commons.wikimedia.org/wiki/File:Southafrica1.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Southafrica1.jpg",
+      "file": "quan-doi-nhan-dan/gallery1.webp",
+      "photographer": "UnknownUnknown",
+      "profile": "https://commons.wikimedia.org/wiki/File:1stIndochinaWar005.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:1stIndochinaWar005.jpg",
       "license": "Public domain",
       "source": "Wikimedia Commons",
-      "alt": "Camouflage used by South African National Defence Force"
-    },
-    {
-      "file": "quan-doi-nhan-dan/hero.webp",
-      "photographer": "Christopher John Bellis",
-      "profile": "https://commons.wikimedia.org/wiki/File:9_RAR_soldiers_during_their_farewell_parade_from_South_Vietnam_in_November_1969.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:9_RAR_soldiers_during_their_farewell_parade_from_South_Vietnam_in_November_1969.jpg",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "AWM image BEL/69/0788/VN. Nui Dat, South Vietnam. 1969-11. Line up of soldiers of 9th Battalion, The Royal Australian Re"
+      "alt": "« October 9, 1954. Waving to the city's populace, joyous Viet Minh troops enjoy a \"parade of victory\" through the street"
     },
     {
       "file": "quan-doi-nhan-dan/gallery2.webp",
-      "photographer": "Fairley, John Geoffrey",
-      "profile": "https://commons.wikimedia.org/wiki/File:General_Abrams_inspects_Australian_soldiers_at_St_Kilda_helicopter_pad.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:General_Abrams_inspects_Australian_soldiers_at_St_Kilda_helicopter_pad.jpg",
-      "license": "CC0",
+      "photographer": "SP4 Clifford Roe",
+      "profile": "https://commons.wikimedia.org/wiki/File:Flag_bearers_present_colors_at_the_dedication_ceremony_for_the_Vietnamese_Tomb_of_the_Unknown_Soldier.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Flag_bearers_present_colors_at_the_dedication_ceremony_for_the_Vietnamese_Tomb_of_the_Unknown_Soldier.jpg",
+      "license": "Public domain",
       "source": "Wikimedia Commons",
-      "alt": "Commander of the United States Military Assistance Command, Vietnam, General Creighton W. Abrams, inspects the soldiers "
+      "alt": "Flag bearers present colors at the dedication ceremony for the Vietnamese Tomb of the Unknown Soldier. NARA"
+    },
+    {
+      "file": "quan-doi-nhan-dan/gallery4.webp",
+      "photographer": "Fernand Nadal",
+      "profile": "https://commons.wikimedia.org/wiki/File:Saigon,_14_juillet_1929._Le_d%C3%A9fil%C3%A9_est_termin%C3%A9,_Boulevard_Norodom.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Saigon,_14_juillet_1929._Le_d%C3%A9fil%C3%A9_est_termin%C3%A9,_Boulevard_Norodom.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "14 juillet 1929. Le défilé est terminé. Boulevard Noradom. Au fond le Palais du gouverneur général;"
+    },
+    {
+      "file": "quan-doi-nhan-dan/gallery5.webp",
+      "photographer": "Taitamtinh",
+      "profile": "https://commons.wikimedia.org/wiki/File:Vietnamese_People%27s_Army_Barracks_Vector.png",
+      "photo": "https://commons.wikimedia.org/wiki/File:Vietnamese_People%27s_Army_Barracks_Vector.png",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Vietnamese People's Army Barracks Vector"
+    },
+    {
+      "file": "quan-doi-nhan-dan/gallery6.webp",
+      "photographer": "PFC Jose C. Rivera, DASPO",
+      "profile": "https://commons.wikimedia.org/wiki/File:NARA_111-CCV-50-CC22785_Army_of_the_Republic_of_Vietnam_4th_Armored_Cavalry_Squadron_M113_crossing_river_in_training_1963.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:NARA_111-CCV-50-CC22785_Army_of_the_Republic_of_Vietnam_4th_Armored_Cavalry_Squadron_M113_crossing_river_in_training_1963.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "M-113 Recon vehicle making river crossing during exercise conducted by 4th AC Squadron in Vietnam"
     }
   ],
   "gio-to-hung-vuong": [
@@ -502,6 +745,60 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "Public domain",
       "source": "Wikimedia Commons",
       "alt": "Den Hung, Ho Chi Minh City"
+    },
+    {
+      "file": "gio-to-hung-vuong/amthuc-banh-giay.webp",
+      "photographer": "Nguyễn Thanh Quang",
+      "profile": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_gi%E1%BA%A7y_gi%C3%B2.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_gi%E1%BA%A7y_gi%C3%B2.JPG",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "white, flat, round glutinous rice cake with tough, chewy texture served with Vietnamese sausage (Giò lụa)"
+    },
+    {
+      "file": "gio-to-hung-vuong/amthuc-xoi-ga.webp",
+      "photographer": "Yuichi Kosio",
+      "profile": "https://commons.wikimedia.org/wiki/File:X%C3%B4i_g%C3%A0.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:X%C3%B4i_g%C3%A0.jpg",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Glutinous rice with chicken from Hồ Chí Minh City"
+    },
+    {
+      "file": "gio-to-hung-vuong/amthuc-banh-chung.webp",
+      "photographer": "Yun Huang Yong",
+      "profile": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_ch%C6%B0ng_v%C3%A0_gi%C3%B2_l%E1%BB%A5a.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_ch%C6%B0ng_v%C3%A0_gi%C3%B2_l%E1%BB%A5a.jpg",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Bánh chưng và giò lụa."
+    },
+    {
+      "file": "gio-to-hung-vuong/gallery4.webp",
+      "photographer": "trungydang",
+      "profile": "https://commons.wikimedia.org/wiki/File:Suoi_Tien,_den_tho_Vua_Hung_-_panoramio.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Suoi_Tien,_den_tho_Vua_Hung_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "Suoi Tien, den tho Vua Hung"
+    },
+    {
+      "file": "gio-to-hung-vuong/gallery5.webp",
+      "photographer": "Zde",
+      "profile": "https://commons.wikimedia.org/wiki/File:Dong_Son_Drum,_Bronze,_Vietnam_or_China,_2nd%E2%80%931st_c_BC,_temp_Prague_Kinsky,_NG_Vu_517,_142199.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Dong_Son_Drum,_Bronze,_Vietnam_or_China,_2nd%E2%80%931st_c_BC,_temp_Prague_Kinsky,_NG_Vu_517,_142199.jpg",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "Dong Son Drum. Bronze. Northern Vietnam or southern China, probably 2nd – 1st century BC. NG Vu 517."
+    },
+    {
+      "file": "gio-to-hung-vuong/gallery6.webp",
+      "photographer": "Xuannguyen1133",
+      "profile": "https://commons.wikimedia.org/wiki/File:%C4%90%E1%BB%81n_Th%E1%BB%9D_H%C3%B9ng_V%C6%B0%C6%A1ng_-_Su%E1%BB%91i_Ti%C3%AAn.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:%C4%90%E1%BB%81n_Th%E1%BB%9D_H%C3%B9ng_V%C6%B0%C6%A1ng_-_Su%E1%BB%91i_Ti%C3%AAn.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Với chủ đề “Trở về cội nguồn văn hóa dân tộc”, DLVH Suối Tiên đã xây dựng đền thờ Quốc Tổ Hùng Vương để thể hiện lòng bi"
     }
   ],
   "giai-phong-mien-nam": [
@@ -551,13 +848,31 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "City hall, Ho Chi Minh City, Vietnam."
     },
     {
-      "file": "giai-phong-mien-nam/hero.webp",
-      "photographer": "Diego Delso",
-      "profile": "https://commons.wikimedia.org/wiki/File:Puente_Mong,_Ciudad_Ho_Chi_Minh,_Vietnam,_2013-08-14,_DD_01.JPG",
-      "photo": "https://commons.wikimedia.org/wiki/File:Puente_Mong,_Ciudad_Ho_Chi_Minh,_Vietnam,_2013-08-14,_DD_01.JPG",
-      "license": "CC BY-SA 3.0",
+      "file": "giai-phong-mien-nam/gallery4.webp",
+      "photographer": "Clay Gilliland",
+      "profile": "https://commons.wikimedia.org/wiki/File:Independence_Palace_or_Reunification_Palace_(12110973526).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Independence_Palace_or_Reunification_Palace_(12110973526).jpg",
+      "license": "CC BY-SA 2.0",
       "source": "Wikimedia Commons",
-      "alt": "Mong Bridge, Ho Chi Minh City, Vietnam"
+      "alt": "Independence Palace (Dinh Độc Lập), also known as Reunification Palace (Vietnamese: Dinh Thống Nhất), built on the site "
+    },
+    {
+      "file": "giai-phong-mien-nam/gallery5.webp",
+      "photographer": "Balon Greyjoy",
+      "profile": "https://commons.wikimedia.org/wiki/File:20190923_Independence_Palace-10.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:20190923_Independence_Palace-10.jpg",
+      "license": "CC0",
+      "source": "Wikimedia Commons",
+      "alt": "The view of the front of Independence Palace in Ho Chi Minh City in Vietnam."
+    },
+    {
+      "file": "giai-phong-mien-nam/gallery6.webp",
+      "photographer": "Viet Phi",
+      "profile": "https://commons.wikimedia.org/wiki/File:20210616_Ho_Chi_Minh_City_view_from_Thu_Duc_city.png",
+      "photo": "https://commons.wikimedia.org/wiki/File:20210616_Ho_Chi_Minh_City_view_from_Thu_Duc_city.png",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Ho Chi Minh City view from Thu Duc city"
     }
   ],
   "quoc-te-lao-dong": [
@@ -605,6 +920,33 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 4.0",
       "source": "Wikimedia Commons",
       "alt": "Rice farmer posing in front of the rice fields he's been working on."
+    },
+    {
+      "file": "quoc-te-lao-dong/gallery4.webp",
+      "photographer": "Lusi Lindwurm",
+      "profile": "https://commons.wikimedia.org/wiki/File:Vie12-292_Seidenfabrik.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Vie12-292_Seidenfabrik.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Silk factory, throwing: female workers gain filaments from silk moth pupas and combine them to treads wound on weels wit"
+    },
+    {
+      "file": "quoc-te-lao-dong/gallery5.webp",
+      "photographer": "Basile Morin",
+      "profile": "https://commons.wikimedia.org/wiki/File:Woman_in_the_shadow_of_a_conical_hat_made_of_repurposed_bags_of_laundry_detergent_in_Don_Det_Laos.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Woman_in_the_shadow_of_a_conical_hat_made_of_repurposed_bags_of_laundry_detergent_in_Don_Det_Laos.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Woman in the shadow of a conical hat made of repurposed plastic wraps of laundry detergent sewn together and used as wat"
+    },
+    {
+      "file": "quoc-te-lao-dong/gallery6.webp",
+      "photographer": "Basile Morin",
+      "profile": "https://commons.wikimedia.org/wiki/File:Two_farmers_driving_a_tractor_towing_a_raft_loaded_with_green_rice_sheaves_to_be_planted_in_a_paddy_field_surrounded_by_mist_in_Vang_Vieng_Laos.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Two_farmers_driving_a_tractor_towing_a_raft_loaded_with_green_rice_sheaves_to_be_planted_in_a_paddy_field_surrounded_by_mist_in_Vang_Vieng_Laos.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Two male farmers driving a tractor towing a raft loaded with green rice sheaves to be planted in a paddy field surrounde"
     }
   ],
   "ngay-cua-me": [
@@ -654,40 +996,31 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Beschreibung: Gartennelke (Dianthus caryophyllus) Fotograf/Bearbeitung: Darkone, 17./31. August / 18. September 2004"
     },
     {
-      "file": "ngay-cua-me/hero.webp",
-      "photographer": "Forest & Kim Starr",
-      "profile": "https://commons.wikimedia.org/wiki/File:Starr_070730-7932_Dianthus_caryophyllus.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Starr_070730-7932_Dianthus_caryophyllus.jpg",
-      "license": "CC BY 3.0",
+      "file": "ngay-cua-me/gallery5.webp",
+      "photographer": "USAID Vietnam",
+      "profile": "https://commons.wikimedia.org/wiki/File:A_child_accompanies_his_mother,_a_teacher,_who_attends_a_USAID-funded_intensive_training_course_in_Kon_Ray_Ethnic_Minority_Boarding_School_(7188772377).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:A_child_accompanies_his_mother,_a_teacher,_who_attends_a_USAID-funded_intensive_training_course_in_Kon_Ray_Ethnic_Minority_Boarding_School_(7188772377).jpg",
+      "license": "Public domain",
       "source": "Wikimedia Commons",
-      "alt": "Dianthus caryophyllus (flowers red). Location: Maui, Foodland Pukalani"
+      "alt": "Photo: USAID/Vietnam"
     },
     {
-      "file": "ngay-cua-me/gallery1.webp",
-      "photographer": "Wikimedia Commons",
-      "profile": "https://commons.wikimedia.org/wiki/File:Three_flowers;_a_carnation_(Dianthus_caryophyllus)_and_two_l_Wellcome_V0044446.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Three_flowers;_a_carnation_(Dianthus_caryophyllus)_and_two_l_Wellcome_V0044446.jpg",
-      "license": "CC BY 4.0",
+      "file": "ngay-cua-me/gallery6.webp",
+      "photographer": "R Kong edwise",
+      "profile": "https://commons.wikimedia.org/wiki/File:Romantic_Bouquet_(Unsplash).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Romantic_Bouquet_(Unsplash).jpg",
+      "license": "CC0",
       "source": "Wikimedia Commons",
-      "alt": "Three flowers: a carnation (Dianthus caryophyllus) and two large Compositae species. Coloured aquatint by A. Adlard, c. "
+      "alt": "R Kong 2014"
     },
     {
-      "file": "ngay-cua-me/gallery2.webp",
-      "photographer": "Cann66",
-      "profile": "https://commons.wikimedia.org/wiki/File:Yabani_Karanfil_%C3%87i%C3%A7e%C4%9Fi_(Dianthus_caryophyllus).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Yabani_Karanfil_%C3%87i%C3%A7e%C4%9Fi_(Dianthus_caryophyllus).jpg",
-      "license": "CC BY 4.0",
+      "file": "ngay-cua-me/gallery4.webp",
+      "photographer": "USMC Archives from Quantico, USA",
+      "profile": "https://commons.wikimedia.org/wiki/File:Vietnamese_Mother_and_Child,_1969_(14895394946).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Vietnamese_Mother_and_Child,_1969_(14895394946).jpg",
+      "license": "CC BY 2.0",
       "source": "Wikimedia Commons",
-      "alt": "Yabani Karanfil Çiçeği (Dianthus caryophyllus)"
-    },
-    {
-      "file": "ngay-cua-me/gallery3.webp",
-      "photographer": "Krzysztof Ziarnek, Kenraiz",
-      "profile": "https://commons.wikimedia.org/wiki/File:Dianthus_caryophyllus_%27Cornelia%27_kz02.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Dianthus_caryophyllus_%27Cornelia%27_kz02.jpg",
-      "license": "CC BY-SA 4.0",
-      "source": "Wikimedia Commons",
-      "alt": "Dianthus caryophyllus 'Cornelia' in Jardín Botánico La Concepción, Malaga"
+      "alt": "\"Mixed Emotion: Concern for the future of her child and herself is mirrored in this Vietnamese mother’s face. She has ju"
     }
   ],
   "quoc-te-thieu-nhi": [
@@ -737,61 +1070,34 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "A hot air balloon being inflated before air trip over Cappadocia, central Turkey, as seen from inside."
     },
     {
-      "file": "quoc-te-thieu-nhi/card.webp",
-      "photographer": "Hans Braxmeier",
-      "profile": "https://commons.wikimedia.org/wiki/File:Balloons_Colorful_Shooting_Gallery_Folk_Festival.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Balloons_Colorful_Shooting_Gallery_Folk_Festival.jpg",
+      "file": "quoc-te-thieu-nhi/gallery4.webp",
+      "photographer": "TAPAS KUMAR HALDER",
+      "profile": "https://commons.wikimedia.org/wiki/File:Funny_hard_boiled_eggs-_Kolkata_-_West_Bengal_-_DSC_0003.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Funny_hard_boiled_eggs-_Kolkata_-_West_Bengal_-_DSC_0003.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Parents want the best for their kids. We want them to do well in school, we want them to find their way in life, and—abo"
+    },
+    {
+      "file": "quoc-te-thieu-nhi/gallery5.webp",
+      "photographer": "PattayaPatrol",
+      "profile": "https://commons.wikimedia.org/wiki/File:DSCF0663_Evening_lights_and_spinning_balloons_-_a_colorful_carnival_ride_comes_to_life_at_dusk.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:DSCF0663_Evening_lights_and_spinning_balloons_-_a_colorful_carnival_ride_comes_to_life_at_dusk.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "This photo shows a colorful carnival or amusement park at dusk. In the foreground, there's a ride with blue and white ba"
+    },
+    {
+      "file": "quoc-te-thieu-nhi/gallery6.webp",
+      "photographer": "Earl Thollander",
+      "profile": "https://commons.wikimedia.org/wiki/File:Children-of-south-vietnam-by-Earl-Thollander.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Children-of-south-vietnam-by-Earl-Thollander.jpg",
       "license": "CC0",
       "source": "Wikimedia Commons",
-      "alt": "Some colorful balloons"
-    },
-    {
-      "file": "quoc-te-thieu-nhi/gallery1.webp",
-      "photographer": "Ibrahim Husain Meraj",
-      "profile": "https://commons.wikimedia.org/wiki/File:Colorful_balloons_01.JPG",
-      "photo": "https://commons.wikimedia.org/wiki/File:Colorful_balloons_01.JPG",
-      "license": "CC BY-SA 4.0",
-      "source": "Wikimedia Commons",
-      "alt": "Colorful balloons"
-    },
-    {
-      "file": "quoc-te-thieu-nhi/gallery2.webp",
-      "photographer": "Ibrahim Husain Meraj",
-      "profile": "https://commons.wikimedia.org/wiki/File:Colorful_balloons_02.JPG",
-      "photo": "https://commons.wikimedia.org/wiki/File:Colorful_balloons_02.JPG",
-      "license": "CC BY-SA 4.0",
-      "source": "Wikimedia Commons",
-      "alt": "Colorful balloons"
-    },
-    {
-      "file": "quoc-te-thieu-nhi/gallery3.webp",
-      "photographer": "Ibrahim Husain Meraj",
-      "profile": "https://commons.wikimedia.org/wiki/File:Colorful_balloons_03.JPG",
-      "photo": "https://commons.wikimedia.org/wiki/File:Colorful_balloons_03.JPG",
-      "license": "CC BY-SA 4.0",
-      "source": "Wikimedia Commons",
-      "alt": "Colorful balloons"
+      "alt": "Artwork: \"Children of South Vietnam\" Artist: Earl Thollander"
     }
   ],
   "ngay-gia-dinh-viet-nam": [
-    {
-      "file": "ngay-gia-dinh-viet-nam/hero.webp",
-      "photographer": "Unknown authorUnknown author",
-      "profile": "https://commons.wikimedia.org/wiki/File:Saami_Family_1900.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Saami_Family_1900.jpg",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "A Sami indigenous northern European family in Norway around 1900. The picture was probably taken in 1896 around the Kans"
-    },
-    {
-      "file": "ngay-gia-dinh-viet-nam/gallery1.webp",
-      "photographer": "Clear Path International",
-      "profile": "https://commons.wikimedia.org/wiki/File:Vietnamese_shrine_for_dead_youth.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Vietnamese_shrine_for_dead_youth.jpg",
-      "license": "CC BY 2.0",
-      "source": "Wikimedia Commons",
-      "alt": "Shrine with picture of a youth, as well as flowers, incense, fruit and a bowl with chop sticks on it."
-    },
     {
       "file": "ngay-gia-dinh-viet-nam/gallery2.webp",
       "photographer": "Thang Nguyen from Nottingham, United Kingdom",
@@ -811,60 +1117,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Distribution of Vietnamese family names"
     },
     {
-      "file": "ngay-gia-dinh-viet-nam/hero.webp",
-      "photographer": "Pete Souza",
-      "profile": "https://commons.wikimedia.org/wiki/File:Obama_family_in_mist_in_Rio_de_Janeiro.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Obama_family_in_mist_in_Rio_de_Janeiro.jpg",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "United States President Barack Obama, First Lady Michelle Obama, and daughters Sasha and Malia, tour the Christ the Rede"
-    },
-    {
-      "file": "ngay-gia-dinh-viet-nam/gallery1.webp",
-      "photographer": "Zde",
-      "profile": "https://commons.wikimedia.org/wiki/File:Vietnamese_Painting,_Hall_of_Family_Ancestors,_1945,_NG_Vm_5819,_142201.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Vietnamese_Painting,_Hall_of_Family_Ancestors,_1945,_NG_Vm_5819,_142201.jpg",
-      "license": "CC BY-SA 3.0",
-      "source": "Wikimedia Commons",
-      "alt": "Hall of Ancestors (家先堂 Gia Tiên Đường). Ink and colours on paper. Northern Vietnam, 1945. NG Vm 5819. The 2nd line reads"
-    },
-    {
-      "file": "ngay-gia-dinh-viet-nam/gallery2.webp",
-      "photographer": "Hoangkid",
-      "profile": "https://commons.wikimedia.org/wiki/File:Vietnamese_family_daily_meal.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Vietnamese_family_daily_meal.jpg",
-      "license": "CC BY-SA 4.0",
-      "source": "Wikimedia Commons",
-      "alt": "A modern daily Vietnamese meal presented on an aluminium round tray. From top left to right: vegetarian soup of Basella "
-    },
-    {
-      "file": "ngay-gia-dinh-viet-nam/gallery3.webp",
-      "photographer": "Shirley Aley Campbell",
-      "profile": "https://commons.wikimedia.org/wiki/File:Vietnamese_Family_by_Shirley_Aley_Campbell.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Vietnamese_Family_by_Shirley_Aley_Campbell.jpg",
-      "license": "CC BY 2.5",
-      "source": "Wikimedia Commons",
-      "alt": "Vietnamese Family by Shirley Aley Campbell"
-    },
-    {
-      "file": "ngay-gia-dinh-viet-nam/gallery1.webp",
-      "photographer": "Dina Said",
-      "profile": "https://commons.wikimedia.org/wiki/File:Egyptian_food_Koshary.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Egyptian_food_Koshary.jpg",
-      "license": "CC BY-SA 4.0",
-      "source": "Wikimedia Commons",
-      "alt": "This is an image of food from"
-    },
-    {
-      "file": "ngay-gia-dinh-viet-nam/gallery3.webp",
-      "photographer": "Carrotkit",
-      "profile": "https://commons.wikimedia.org/wiki/File:Vietnamese_chicken_wings.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Vietnamese_chicken_wings.jpg",
-      "license": "CC BY-SA 4.0",
-      "source": "Wikimedia Commons",
-      "alt": "​Vietnamese chicken wings"
-    },
-    {
       "file": "ngay-gia-dinh-viet-nam/card.webp",
       "photographer": "Hoangkid",
       "profile": "https://commons.wikimedia.org/wiki/File:Vietnamese_family_daily_meal.jpg",
@@ -872,71 +1124,125 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 4.0",
       "source": "Wikimedia Commons",
       "alt": "A modern daily Vietnamese meal presented on an aluminium round tray. From top left to right: vegetarian soup of Basella "
+    },
+    {
+      "file": "ngay-gia-dinh-viet-nam/gallery4.webp",
+      "photographer": "Unknown authorUnknown author",
+      "profile": "https://commons.wikimedia.org/wiki/File:Three_generations_of_the_Gladfelter_Family_on_a_Picnic.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Three_generations_of_the_Gladfelter_Family_on_a_Picnic.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Title: Three generations of the Gladfelter Family on a Picnic."
+    },
+    {
+      "file": "ngay-gia-dinh-viet-nam/gallery5.webp",
+      "photographer": "Peachyeung316",
+      "profile": "https://commons.wikimedia.org/wiki/File:A_Square_shaped_Vietnamese_Rice_Dumpling.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:A_Square_shaped_Vietnamese_Rice_Dumpling.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "A Square Shaped Vietnamese Rice Dumpling at the table in Food Shop at Sham Shui Po"
+    },
+    {
+      "file": "ngay-gia-dinh-viet-nam/hero.webp",
+      "photographer": "Chiku dsc",
+      "profile": "https://commons.wikimedia.org/wiki/File:Mother_and_child_love.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Mother_and_child_love.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "A newly born child brings alot of happiness and joy in every family and makes the family complete. Love and care of a mo"
+    },
+    {
+      "file": "ngay-gia-dinh-viet-nam/gallery1.webp",
+      "photographer": "Russell Lee",
+      "profile": "https://commons.wikimedia.org/wiki/File:The_family_of_John_R._Blaney_eating_supper._Mr._Blaney_has_worked_for_the_company_for_twenty-four_years._Mullens..._-_NARA_-_540956.tif",
+      "photo": "https://commons.wikimedia.org/wiki/File:The_family_of_John_R._Blaney_eating_supper._Mr._Blaney_has_worked_for_the_company_for_twenty-four_years._Mullens..._-_NARA_-_540956.tif",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Vietnamese family eating"
+    },
+    {
+      "file": "ngay-gia-dinh-viet-nam/gallery6.webp",
+      "photographer": "Donald Trung",
+      "profile": "https://commons.wikimedia.org/wiki/File:Personal_in-home_altar_for_deceased_family_members_in_Viet_Nam.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Personal_in-home_altar_for_deceased_family_members_in_Viet_Nam.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Many Vietnamese families build altars like these in their houses to pray 🙏🏻 for their family members."
     }
   ],
   "thuong-binh-liet-si": [
     {
-      "file": "thuong-binh-liet-si/gallery2.webp",
-      "photographer": "JFVelasquez Floro",
-      "profile": "https://commons.wikimedia.org/wiki/File:7801Easter_Vigil_Ascencion_Church_of_Santo_Cristo,_Pulilan_37.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:7801Easter_Vigil_Ascencion_Church_of_Santo_Cristo,_Pulilan_37.jpg",
-      "license": "CC0",
-      "source": "Wikimedia Commons",
-      "alt": "Blessing of the Easter Vigil Fire and Paschal Candle Roman Catholic Diocese of Malolos (Established 2017) Holy Saturday "
-    },
-    {
-      "file": "thuong-binh-liet-si/gallery3.webp",
-      "photographer": "JFVelasquez Floro",
-      "profile": "https://commons.wikimedia.org/wiki/File:7696Easter_Vigil_Ascencion_Church_of_Santo_Cristo,_Pulilan_01.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:7696Easter_Vigil_Ascencion_Church_of_Santo_Cristo,_Pulilan_01.jpg",
-      "license": "CC0",
-      "source": "Wikimedia Commons",
-      "alt": "Roman Catholic Diocese of Malolos (Established 2017) Holy Saturday Great and Holy Saturday (Holy and Great Saturday), th"
-    },
-    {
       "file": "thuong-binh-liet-si/hero.webp",
-      "photographer": "U.S. Customs and Border Protection",
-      "profile": "https://commons.wikimedia.org/wiki/File:National_Law_Enforcement_Officers_Memorial_Candle_Light_Vigil_2015_(17612293106).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:National_Law_Enforcement_Officers_Memorial_Candle_Light_Vigil_2015_(17612293106).jpg",
-      "license": "Public domain",
+      "photographer": "Linhcandng (thảo luận)",
+      "profile": "https://commons.wikimedia.org/wiki/File:Ngh%C4%A9a_trang_Li%E1%BB%87t_s%C4%A9_H%E1%BA%A3i_D%C6%B0%C6%A1ng.jpeg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Ngh%C4%A9a_trang_Li%E1%BB%87t_s%C4%A9_H%E1%BA%A3i_D%C6%B0%C6%A1ng.jpeg",
+      "license": "CC BY-SA 3.0",
       "source": "Wikimedia Commons",
-      "alt": "At the National Law Enforcement Officers Memorial Candle Light Vigil of 2015 in Washington D.C. individuals pay personal"
+      "alt": "Nghĩa trang Liệt sĩ Hải Dương"
     },
     {
       "file": "thuong-binh-liet-si/card.webp",
-      "photographer": "U.S. Customs and Border Protection",
-      "profile": "https://commons.wikimedia.org/wiki/File:National_Law_Enforcement_Officers_Memorial_Candle_Light_Vigil_2015_(17018225833).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:National_Law_Enforcement_Officers_Memorial_Candle_Light_Vigil_2015_(17018225833).jpg",
-      "license": "Public domain",
+      "photographer": "Liftold (thảo luận)",
+      "profile": "https://commons.wikimedia.org/wiki/File:Ngh%C4%A9a_trang_li%E1%BB%87t_s%C4%A9_Tr%C6%A1%E1%BB%9Dng_S%C6%A1n_2.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:Ngh%C4%A9a_trang_li%E1%BB%87t_s%C4%A9_Tr%C6%A1%E1%BB%9Dng_S%C6%A1n_2.JPG",
+      "license": "CC BY-SA 3.0",
       "source": "Wikimedia Commons",
-      "alt": "At the National Law Enforcement Officers Memorial Candle Light Vigil of 2015 in Washington D.C. individuals pay personal"
+      "alt": "Nghĩa trang liệt sĩ 2"
     },
     {
       "file": "thuong-binh-liet-si/gallery1.webp",
-      "photographer": "U.S. Customs and Border Protection",
-      "profile": "https://commons.wikimedia.org/wiki/File:National_Law_Enforcement_Officers_Memorial_Candle_Light_Vigil_2015_(17638382845).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:National_Law_Enforcement_Officers_Memorial_Candle_Light_Vigil_2015_(17638382845).jpg",
-      "license": "Public domain",
+      "photographer": "Gonzo Gooner",
+      "profile": "https://commons.wikimedia.org/wiki/File:Truong_Son_National_Cemetery_-_panoramio.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Truong_Son_National_Cemetery_-_panoramio.jpg",
+      "license": "CC BY 3.0",
       "source": "Wikimedia Commons",
-      "alt": "At the National Law Enforcement Officers Memorial Candle Light Vigil of 2015 in Washington D.C. individuals pay personal"
+      "alt": "Truong Son National Cemetery, Vietnam"
     },
     {
-      "file": "thuong-binh-liet-si/hero.webp",
-      "photographer": "U.S. Customs and Border Protection",
-      "profile": "https://commons.wikimedia.org/wiki/File:National_Law_Enforcement_Officers_Memorial_Candle_Light_Vigil_2015_(17612331396).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:National_Law_Enforcement_Officers_Memorial_Candle_Light_Vigil_2015_(17612331396).jpg",
-      "license": "Public domain",
+      "file": "thuong-binh-liet-si/gallery2.webp",
+      "photographer": "Nguyễn Thanh Quang",
+      "profile": "https://commons.wikimedia.org/wiki/File:%C4%90%C3%A0i_li%E1%BB%87t_s%E1%BB%B9_002_(Ba_%C4%90%C3%ACnh).JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:%C4%90%C3%A0i_li%E1%BB%87t_s%E1%BB%B9_002_(Ba_%C4%90%C3%ACnh).JPG",
+      "license": "CC BY-SA 3.0",
       "source": "Wikimedia Commons",
-      "alt": "Border Patrol Agents participate in the National Law Enforcement Officers Memorial Candle Light Vigil of 2015 in Washing"
+      "alt": "Memorial to the Revolutionary Martyrs, Ba Đình Square, Hanoi."
     },
     {
-      "file": "thuong-binh-liet-si/card.webp",
-      "photographer": "U.S. Customs and Border Protection",
-      "profile": "https://commons.wikimedia.org/wiki/File:National_Law_Enforcement_Officers_Memorial_Candle_Light_Vigil_2015_(17016097354).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:National_Law_Enforcement_Officers_Memorial_Candle_Light_Vigil_2015_(17016097354).jpg",
+      "file": "thuong-binh-liet-si/gallery3.webp",
+      "photographer": "Capon (thảo luận)",
+      "profile": "https://commons.wikimedia.org/wiki/File:C%E1%BB%95ng_ngh%C4%A9a_trang_li%E1%BB%87t_s%E1%BB%B9_Tam_%C4%90i%E1%BB%87p.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:C%E1%BB%95ng_ngh%C4%A9a_trang_li%E1%BB%87t_s%E1%BB%B9_Tam_%C4%90i%E1%BB%87p.jpg",
       "license": "Public domain",
       "source": "Wikimedia Commons",
-      "alt": "Border Patrol Agents participate in the National Law Enforcement Officers Memorial Candle Light Vigil of 2015 in Washing"
+      "alt": "Cổng ngoài nghĩa trang liệt sỹ- Trung Sơn- Tam Điệp- Ninh Bình"
+    },
+    {
+      "file": "thuong-binh-liet-si/gallery4.webp",
+      "photographer": "Mike Fernwood from Santa Cruz, California, United States",
+      "profile": "https://commons.wikimedia.org/wiki/File:B%E1%BA%BFn_D%C6%B0%E1%BB%A3c_temple.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:B%E1%BA%BFn_D%C6%B0%E1%BB%A3c_temple.jpg",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Ben Duoc Temple in Cu Chi, Ho Chi Minh City."
+    },
+    {
+      "file": "thuong-binh-liet-si/gallery5.webp",
+      "photographer": "trungydang",
+      "profile": "https://commons.wikimedia.org/wiki/File:Nghia_trang_liet_si,Vung_Tau_Vietnam_-_panoramio.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Nghia_trang_liet_si,Vung_Tau_Vietnam_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "Nghia trang liet si,Vung Tau Vietnam"
+    },
+    {
+      "file": "thuong-binh-liet-si/gallery6.webp",
+      "photographer": "trungydang",
+      "profile": "https://commons.wikimedia.org/wiki/File:Duong_Hoang_Dieu,Dai_tuong_niem_cac_liet_si_vodanh,Hanoi_-_panoramio.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Duong_Hoang_Dieu,Dai_tuong_niem_cac_liet_si_vodanh,Hanoi_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "Duong Hoang Dieu,Dai tuong niem cac liet si vodanh,Hanoi"
     }
   ],
   "vu-lan": [
@@ -984,6 +1290,69 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 3.0",
       "source": "Wikimedia Commons",
       "alt": "Nelumbo nucifera identified by label at Bergianska trädgården"
+    },
+    {
+      "file": "vu-lan/amthuc-chao-trang.webp",
+      "photographer": "Memberofc1",
+      "profile": "https://commons.wikimedia.org/wiki/File:Ch%C3%A1o_tr%E1%BA%AFng_h%E1%BB%99t_v%E1%BB%8Bt_mu%E1%BB%91i.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:Ch%C3%A1o_tr%E1%BA%AFng_h%E1%BB%99t_v%E1%BB%8Bt_mu%E1%BB%91i.JPG",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "Vietnamese porridge and salted egg"
+    },
+    {
+      "file": "vu-lan/phongtuc-bong-hong.webp",
+      "photographer": "No machine-readable author provided. Ingrid Kamratowski~commonswiki assumed (based on copyright claims).",
+      "profile": "https://commons.wikimedia.org/wiki/File:Rosa_Rose_auf_wei%C3%9Fem_Tisch.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Rosa_Rose_auf_wei%C3%9Fem_Tisch.jpg",
+      "license": "CC BY 2.5",
+      "source": "Wikimedia Commons",
+      "alt": "a single rose on a white table, my own picture, Ingrid Kamratowski"
+    },
+    {
+      "file": "vu-lan/amthuc-mam-co-chay.webp",
+      "photographer": "Phương Huy",
+      "profile": "https://commons.wikimedia.org/wiki/File:M%C3%B3n_%C4%83n_T%E1%BA%BFt_2023_(b%E1%BB%AFa_c%C6%A1m_gia_%C4%91%C3%ACnh,_m%C3%A2m_c%C6%A1m,_m%C3%B3n_chay)_(1).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:M%C3%B3n_%C4%83n_T%E1%BA%BFt_2023_(b%E1%BB%AFa_c%C6%A1m_gia_%C4%91%C3%ACnh,_m%C3%A2m_c%C6%A1m,_m%C3%B3n_chay)_(1).jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Meals in Vietnam"
+    },
+    {
+      "file": "vu-lan/amthuc-dang-phat.webp",
+      "photographer": "BigDom",
+      "profile": "https://commons.wikimedia.org/wiki/File:H%E1%BA%A3i_Ph%C3%B2ng_-_Thousand-armed_Avalokitsvara_altar_at_D%C6%B0_H%C3%A0ng_Pagoda_Feb_2024.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:H%E1%BA%A3i_Ph%C3%B2ng_-_Thousand-armed_Avalokitsvara_altar_at_D%C6%B0_H%C3%A0ng_Pagoda_Feb_2024.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Sculpture of the Thousand-Armed Avalokitsvara along with offerings of fruit and sunflowers on an altar at Chùa Dư Hàng ("
+    },
+    {
+      "file": "vu-lan/gallery4.webp",
+      "photographer": "PattayaPatrol",
+      "profile": "https://commons.wikimedia.org/wiki/File:DZ6_2454_A_peaceful_pond_dotted_with_pink_water_lilies_framed_by_palm_trees_and_bright_blue_sky.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:DZ6_2454_A_peaceful_pond_dotted_with_pink_water_lilies_framed_by_palm_trees_and_bright_blue_sky.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "This is a beautiful landscape photograph of a serene pond or small lake filled with water lilies or lotus flowers bloomi"
+    },
+    {
+      "file": "vu-lan/gallery5.webp",
+      "photographer": "shankar s. from Dubai, united arab emirates",
+      "profile": "https://commons.wikimedia.org/wiki/File:Majestic_arch_leading_to_the_temple_behind_Thien_Mu_pagoda_(31764632176).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Majestic_arch_leading_to_the_temple_behind_Thien_Mu_pagoda_(31764632176).jpg",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "A wide gate leads to a temple behind the Thien Mu pagoda. The three-arch gate is another standard feature in several Vie"
+    },
+    {
+      "file": "vu-lan/gallery6.webp",
+      "photographer": "Karthik jeyaraman",
+      "profile": "https://commons.wikimedia.org/wiki/File:Lotus_flower_blooming_in_a_village_lake_waters_of_Ramanathapuram_Tamilnadu_india.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Lotus_flower_blooming_in_a_village_lake_waters_of_Ramanathapuram_Tamilnadu_india.jpg",
+      "license": "CC BY 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Lotus flower"
     }
   ],
   "quoc-khanh": [
@@ -1033,40 +1402,31 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Spectacular Ha Long Bay (Halong Bay) in North Vietnam, a UNESCO World Heritage Site."
     },
     {
-      "file": "quoc-khanh/hero.webp",
-      "photographer": "shunei1506",
-      "profile": "https://commons.wikimedia.org/wiki/File:Ba_Dinh_Square.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Ba_Dinh_Square.jpg",
-      "license": "CC BY 2.0",
-      "source": "Wikimedia Commons",
-      "alt": "Ho Chi Minh Mausoleum at Ba Dinh Square."
-    },
-    {
-      "file": "quoc-khanh/gallery1.webp",
-      "photographer": "Rungbachduong",
-      "profile": "https://commons.wikimedia.org/wiki/File:Ba_Dinh_Square_2007.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Ba_Dinh_Square_2007.jpg",
+      "file": "quoc-khanh/gallery4.webp",
+      "photographer": "Grenouille vert",
+      "profile": "https://commons.wikimedia.org/wiki/File:Ba_Dinh_Square_panorama.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Ba_Dinh_Square_panorama.jpg",
       "license": "CC BY-SA 3.0",
       "source": "Wikimedia Commons",
-      "alt": "Quảng trường Ba Đình, Hà Nội, Việt Nam"
+      "alt": "A 360-degree view of the en:Ba Dinh Square in Hanoi, Vietnam"
     },
     {
-      "file": "quoc-khanh/card.webp",
-      "photographer": "The original uploader was Casablanca1911 at Vietnamese Wikipedia.",
-      "profile": "https://commons.wikimedia.org/wiki/File:The_Ba_Dinh_meeting-hall.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:The_Ba_Dinh_meeting-hall.jpg",
-      "license": "CC BY-SA 3.0",
+      "file": "quoc-khanh/gallery5.webp",
+      "photographer": "Syced",
+      "profile": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_mausoleum_in_2003_2.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_mausoleum_in_2003_2.jpg",
+      "license": "CC0",
       "source": "Wikimedia Commons",
-      "alt": "The Ba Dinh meeting-hall of Vietnam National Assembly"
+      "alt": "Ho Chi Minh mausoleum in 2003"
     },
     {
-      "file": "quoc-khanh/gallery2.webp",
-      "photographer": "joxeankoret",
-      "profile": "https://commons.wikimedia.org/wiki/File:Ba_Dinh_Hall_1462359227_71b04ee08a.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Ba_Dinh_Hall_1462359227_71b04ee08a.jpg",
+      "file": "quoc-khanh/gallery6.webp",
+      "photographer": "rusticus80",
+      "profile": "https://commons.wikimedia.org/wiki/File:Vietnamese_flag_in_Halong_Bay.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Vietnamese_flag_in_Halong_Bay.jpg",
       "license": "CC BY-SA 2.0",
       "source": "Wikimedia Commons",
-      "alt": "Ba Đình Hall in Hanoi"
+      "alt": "Vietnamese flag in Halong Bay"
     }
   ],
   "trung-thu": [
@@ -1107,22 +1467,94 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "HK CWB Causeway Bay 維園 Victoria Park 中秋節燈匯 Mid-autumn Festival Lantern Carnival in September 2026"
     },
     {
-      "file": "trung-thu/hero.webp",
-      "photographer": "Junelee",
-      "profile": "https://commons.wikimedia.org/wiki/File:Mooncake1.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Mooncake1.jpg",
-      "license": "CC BY-SA 1.0",
+      "file": "trung-thu/amthuc-banh-nuong.webp",
+      "photographer": "Binh Giang",
+      "profile": "https://commons.wikimedia.org/wiki/File:Vietnam_Grilled_moon_cake.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:Vietnam_Grilled_moon_cake.JPG",
+      "license": "Public domain",
       "source": "Wikimedia Commons",
-      "alt": "Mooncake"
+      "alt": "A grilled moon cake in Vietnam."
+    },
+    {
+      "file": "trung-thu/amthuc-banh-deo.webp",
+      "photographer": "Khương Việt Hà",
+      "profile": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_trung_thu.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_trung_thu.JPG",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Vietnamese mooncakes."
+    },
+    {
+      "file": "trung-thu/amthuc-tra.webp",
+      "photographer": "VuThiAnh",
+      "profile": "https://commons.wikimedia.org/wiki/File:Tra_sen_-_Vietnamese_Lotus_Tea.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:Tra_sen_-_Vietnamese_Lotus_Tea.JPG",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Vietnamese lotus tea. The photo was taken in Ha Noi, Viet Nam."
+    },
+    {
+      "file": "trung-thu/amthuc-mam-trai-cay.webp",
+      "photographer": "Nguyenmanhhung3831",
+      "profile": "https://commons.wikimedia.org/wiki/File:Mam_Ngu_Qua_1.tif",
+      "photo": "https://commons.wikimedia.org/wiki/File:Mam_Ngu_Qua_1.tif",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Mam Ngu Qua 1"
+    },
+    {
+      "file": "trung-thu/amthuc-banh-in.webp",
+      "photographer": "Viethavvh",
+      "profile": "https://commons.wikimedia.org/wiki/File:C%E1%BB%97_trung_thu.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:C%E1%BB%97_trung_thu.JPG",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Phá cỗ trung thu trong không gian gia đình ở Hà Nội, Việt Nam với một số đồ ăn cơ bản: chuối tiêu chín ăn với cốm Vòng; "
+    },
+    {
+      "file": "trung-thu/phongtuc-den-ong-sao.webp",
+      "photographer": "Newone",
+      "profile": "https://commons.wikimedia.org/wiki/File:%C4%90%C3%A8n_l%E1%BB%93ng_th%E1%BB%8F_Trung_Thu_kh%E1%BB%95ng_l%E1%BB%93_Times_City.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:%C4%90%C3%A8n_l%E1%BB%93ng_th%E1%BB%8F_Trung_Thu_kh%E1%BB%95ng_l%E1%BB%93_Times_City.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Đèn lồng thỏ khổng lồ đạt kỷ lục Guinness Việt Nam 2016."
+    },
+    {
+      "file": "trung-thu/gallery4.webp",
+      "photographer": "Shajinss",
+      "profile": "https://commons.wikimedia.org/wiki/File:Night_sky_with_beautiful_moon.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Night_sky_with_beautiful_moon.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "night sky"
     },
     {
       "file": "trung-thu/hero.webp",
-      "photographer": "Ting W. Chang from Taipei, Taiwan",
-      "profile": "https://commons.wikimedia.org/wiki/File:2008_Taiwan_Lantern_Festival_is_held_at_Tainan_County.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:2008_Taiwan_Lantern_Festival_is_held_at_Tainan_County.jpg",
-      "license": "CC BY 2.0",
+      "photographer": "doctorho",
+      "profile": "https://commons.wikimedia.org/wiki/File:Lanterns_at_Mid-Autumn_Festival,_Hong_Kong;_September_2013_(03).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Lanterns_at_Mid-Autumn_Festival,_Hong_Kong;_September_2013_(03).jpg",
+      "license": "CC BY-SA 2.0",
       "source": "Wikimedia Commons",
-      "alt": "First Full Moon Festival(Taiwanese Lantern Festival) in Taiwan is called Guân-siau(元宵 / 元宵暝) 、 Siōng-guân-mê（上元暝）or Tsia"
+      "alt": "The Mid-Autumn Festival, also known as the Moon Festival or Mooncake Festival, is a traditional festival celebrated in m"
+    },
+    {
+      "file": "trung-thu/gallery5.webp",
+      "photographer": "Dragfyre",
+      "profile": "https://commons.wikimedia.org/wiki/File:Mid-Autumn_Star_DN.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:Mid-Autumn_Star_DN.JPG",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "A decorative star hangs from the ceiling of a kindergarten in Da Nang during the Tết Trung Thu."
+    },
+    {
+      "file": "trung-thu/gallery6.webp",
+      "photographer": "Violetbonmua",
+      "profile": "https://commons.wikimedia.org/wiki/File:Star-shape_lanterns_in_Vietnam.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Star-shape_lanterns_in_Vietnam.jpg",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "Star-shaped lanterns free making for children at Tết Trung Thu in Kon Tum Province, Vietnam."
     }
   ],
   "giang-sinh": [
@@ -1134,15 +1566,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 3.0",
       "source": "Wikimedia Commons",
       "alt": "Originally uploaded as de:File:Rockefeller_Center_Weihnachten.JPG. Rockefeller Center in New York City at Christmas time"
-    },
-    {
-      "file": "giang-sinh/gallery1.webp",
-      "photographer": "Benh LIEU SONG (Flickr)",
-      "profile": "https://commons.wikimedia.org/wiki/File:Galerie_Lafayette_Haussmann_Dome.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Galerie_Lafayette_Haussmann_Dome.jpg",
-      "license": "CC BY-SA 3.0",
-      "source": "Wikimedia Commons",
-      "alt": "Dome and balconies of Galeries Lafayette store, lady section, in boulevard Haussmann, Paris, with Christmas decorations."
     },
     {
       "file": "giang-sinh/gallery2.webp",
@@ -1163,13 +1586,85 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "A golden Christmas tree ornament next to a red bow and ribbon."
     },
     {
-      "file": "giang-sinh/hero.webp",
-      "photographer": "Kim Hansen",
-      "profile": "https://commons.wikimedia.org/wiki/File:Viborg_Christmas_street_illumination_2010-11-30.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Viborg_Christmas_street_illumination_2010-11-30.jpg",
+      "file": "giang-sinh/amthuc-ga-nuong.webp",
+      "photographer": "Qualit-E at English Wikipedia",
+      "profile": "https://commons.wikimedia.org/wiki/File:ChristmasDinnerScotland.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:ChristmasDinnerScotland.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Plate of: roast turkey, roast potatoes, mashed potatoes, mashed turnip, chipolatas, Brussels sprouts, bread sauce, redcu"
+    },
+    {
+      "file": "giang-sinh/amthuc-buche.webp",
+      "photographer": "Vi..Cult...",
+      "profile": "https://commons.wikimedia.org/wiki/File:Buche_de_Noel_decoree.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Buche_de_Noel_decoree.jpg",
       "license": "CC BY-SA 3.0",
       "source": "Wikimedia Commons",
-      "alt": "Christmas illumination in Sct. Mathias Gade, Viborg, Denmark. The street lightning is new and based on LEDs. Some facts "
+      "alt": "Bûche de Noël"
+    },
+    {
+      "file": "giang-sinh/amthuc-lau.webp",
+      "photographer": "Green Mostaza",
+      "profile": "https://commons.wikimedia.org/wiki/File:Hot_pot_(1),_AA_Yau_Tsim_Mong_2013.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Hot_pot_(1),_AA_Yau_Tsim_Mong_2013.jpg",
+      "license": "CC BY 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Hot pot"
+    },
+    {
+      "file": "giang-sinh/amthuc-banh-quy-gung.webp",
+      "photographer": "Gaetan Lee",
+      "profile": "https://commons.wikimedia.org/wiki/File:Gingerbread_men.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Gingerbread_men.jpg",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Two gingerbread men in a basket of cookies"
+    },
+    {
+      "file": "giang-sinh/gallery4.webp",
+      "photographer": "Chris Olszewski",
+      "profile": "https://commons.wikimedia.org/wiki/File:Christmas_decorations_in_Queen_Street_Mall,_Brisbane,_2025,_02.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Christmas_decorations_in_Queen_Street_Mall,_Brisbane,_2025,_02.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Christmas decorations in Queen Street Mall, Brisbane, 2025"
+    },
+    {
+      "file": "giang-sinh/gallery6.webp",
+      "photographer": "midnightbreakfastcafe",
+      "profile": "https://commons.wikimedia.org/wiki/File:Christmas_lights_and_Xinzhongshan_Stage_20201230.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Christmas_lights_and_Xinzhongshan_Stage_20201230.jpg",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "​耶誕節期間，心中山線形公園心中山舞台背側燈飾。"
+    },
+    {
+      "file": "giang-sinh/hero.webp",
+      "photographer": "Peter Addor from underway; mailnly Switzerland, Italy and Sri Lanka, world",
+      "profile": "https://commons.wikimedia.org/wiki/File:Xmas_Eve_in_front_of_the_St._Joseph_Cathedral_in_Hanoi_(39251039582).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Xmas_Eve_in_front_of_the_St._Joseph_Cathedral_in_Hanoi_(39251039582).jpg",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Xmas Eve in front of the St. Joseph Cathedral in Hanoi"
+    },
+    {
+      "file": "giang-sinh/gallery1.webp",
+      "photographer": "Bùi Thụy Đào Nguyên",
+      "profile": "https://commons.wikimedia.org/wiki/File:Nh%C3%A0_th%E1%BB%9D_C%C3%A1i_%C4%90%C3%B4i.png",
+      "photo": "https://commons.wikimedia.org/wiki/File:Nh%C3%A0_th%E1%BB%9D_C%C3%A1i_%C4%90%C3%B4i.png",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Đây là một nhà cổ của Giáo xứ Cái Đôi; nay thuộc ấp An Lương, xã Hòa Bình, huyện Chợ Mới, tỉnh An Giang, Việt Nam."
+    },
+    {
+      "file": "giang-sinh/gallery5.webp",
+      "photographer": "Vuong Tri Binh",
+      "profile": "https://commons.wikimedia.org/wiki/File:Christmas_decorations_in_Ecopark_for_2014_02.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Christmas_decorations_in_Ecopark_for_2014_02.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Christmas decorations in Ecopark for 2014."
     }
   ],
   "home-hero": [
@@ -1228,15 +1723,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY 2.0",
       "source": "Wikimedia Commons",
       "alt": "Lady Bug"
-    },
-    {
-      "file": "birthday/hero.webp",
-      "photographer": "Geoffreyrabbit",
-      "profile": "https://commons.wikimedia.org/wiki/File:Mother%27s_birthday_cake_in_birthday_dinner.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Mother%27s_birthday_cake_in_birthday_dinner.jpg",
-      "license": "CC BY-SA 4.0",
-      "source": "Wikimedia Commons",
-      "alt": "My mother's birthday cake celebrate with her friend at vegetarian restaurant in Tsim Sha Tsui"
     }
   ],
   "scenery": [
@@ -1284,15 +1770,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 4.0",
       "source": "Wikimedia Commons",
       "alt": "Hạ Long Bay (Vietnam), World Heritage Site – Ti Top Island – panoramic view"
-    },
-    {
-      "file": "scenery/hero.webp",
-      "photographer": "Thomas Hirsch / User:Ravn",
-      "profile": "https://commons.wikimedia.org/wiki/File:Halong_Bay_in_Vietnam.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Halong_Bay_in_Vietnam.jpg",
-      "license": "CC BY-SA 3.0",
-      "source": "Wikimedia Commons",
-      "alt": "Hạ Long Bay, in Vietnam."
     }
   ],
   "ong-cong-ong-tao": [
@@ -1315,15 +1792,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Nursery Pond, Hazlecourt Fish Pond - Llysworney Once used to breed a variety of decorative and exotic aquarium fish, the"
     },
     {
-      "file": "ong-cong-ong-tao/gallery1.webp",
-      "photographer": "Acabashi",
-      "profile": "https://commons.wikimedia.org/wiki/File:City_of_London_Cemetery_-_Koi_carp_in_the_new_crematorium_pond_01.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:City_of_London_Cemetery_-_Koi_carp_in_the_new_crematorium_pond_01.jpg",
-      "license": "CC BY-SA 4.0",
-      "source": "Wikimedia Commons",
-      "alt": "A Koi carp in the new crematorium pond at the City of London Cemetery, Newham, England.Camera: Canon EOS 6D with Canon E"
-    },
-    {
       "file": "ong-cong-ong-tao/gallery2.webp",
       "photographer": "Ermell",
       "profile": "https://commons.wikimedia.org/wiki/File:Weisendorf_carp_pond_17RM1668-PSD.jpg",
@@ -1342,13 +1810,76 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Koi carp in the Cave Pond (constructed in 1910) which extends into a cave which was an earlier lime kiln, next to The Ch"
     },
     {
-      "file": "ong-cong-ong-tao/hero.webp",
-      "photographer": "Wikimedia Commons",
-      "profile": "https://commons.wikimedia.org/wiki/File:Japanese_water_garden_with_carp.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Japanese_water_garden_with_carp.jpg",
-      "license": "CC BY-SA 2.0",
+      "file": "ong-cong-ong-tao/amthuc-mam-com-tao.webp",
+      "photographer": "Bùi Thụy Đào Nguyên",
+      "profile": "https://commons.wikimedia.org/wiki/File:B%C3%A0n_th%E1%BB%9D_%C4%90%E1%BB%97_C%C3%B4ng_T%C6%B0%E1%BB%9Dng.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:B%C3%A0n_th%E1%BB%9D_%C4%90%E1%BB%97_C%C3%B4ng_T%C6%B0%E1%BB%9Dng.jpg",
+      "license": "CC BY-SA 3.0",
       "source": "Wikimedia Commons",
-      "alt": "koi carp water"
+      "alt": "Bàn thờ ông bà Đỗ Công Tường trong đền thờ tại chợ TP. Cao Lãnh, tỉnh Đồng Tháp."
+    },
+    {
+      "file": "ong-cong-ong-tao/amthuc-ca-chep.webp",
+      "photographer": "Dezidor",
+      "profile": "https://commons.wikimedia.org/wiki/File:Cyprinus_carpio.jpeg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Cyprinus_carpio.jpeg",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "Kapr obecný"
+    },
+    {
+      "file": "ong-cong-ong-tao/amthuc-vang-ma.webp",
+      "photographer": "Phương Huy",
+      "profile": "https://commons.wikimedia.org/wiki/File:V%C3%A0ng_m%C3%A3_c%C3%BAng_t%E1%BA%A5t_ni%C3%AAn_M%E1%BA%ADu_Tu%E1%BA%A5t_2018.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:V%C3%A0ng_m%C3%A3_c%C3%BAng_t%E1%BA%A5t_ni%C3%AAn_M%E1%BA%ADu_Tu%E1%BA%A5t_2018.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Objects of Vietnam"
+    },
+    {
+      "file": "ong-cong-ong-tao/amthuc-che-xoi.webp",
+      "photographer": "Phương Huy",
+      "profile": "https://commons.wikimedia.org/wiki/File:T%E1%BA%BFt_2023_(m%C3%A2m_c%C3%BAng_giao_th%E1%BB%ABa,_x%C3%B4i_g%E1%BA%A5c_v%C3%A0_ch%C3%A8_%C4%91%E1%BA%ADu_xanh_%C4%91%C3%A1nh)_(4).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:T%E1%BA%BFt_2023_(m%C3%A2m_c%C3%BAng_giao_th%E1%BB%ABa,_x%C3%B4i_g%E1%BA%A5c_v%C3%A0_ch%C3%A8_%C4%91%E1%BA%ADu_xanh_%C4%91%C3%A1nh)_(4).jpg",
+      "license": "CC0",
+      "source": "Wikimedia Commons",
+      "alt": "Offerings in Vietnam"
+    },
+    {
+      "file": "ong-cong-ong-tao/gallery5.webp",
+      "photographer": "Yaroslava Kotenko",
+      "profile": "https://commons.wikimedia.org/wiki/File:Goldf.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Goldf.jpg",
+      "license": "CC BY 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "The goldfish (Carassius auratus) is a freshwater fish in the family Cyprinidae of order Cypriniformes. It is one of the "
+    },
+    {
+      "file": "ong-cong-ong-tao/gallery1.webp",
+      "photographer": "Bùi Thụy Đào Nguyên",
+      "profile": "https://commons.wikimedia.org/wiki/File:C%C3%A1_Ch%C3%A9p_tr%C3%AAn_n%C3%BAi_C%E1%BA%A5m.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:C%C3%A1_Ch%C3%A9p_tr%C3%AAn_n%C3%BAi_C%E1%BA%A5m.jpg",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "Cá phóng sinh (nhiều nhất là cá chép) trong hồ Thủy Liêm trên đỉnh núi Cấm (Tịnh Biên, An Giang, Việt Nam)."
+    },
+    {
+      "file": "ong-cong-ong-tao/gallery4.webp",
+      "photographer": "Phương Huy",
+      "profile": "https://commons.wikimedia.org/wiki/File:%C4%90%E1%BB%93_%C4%91%E1%BB%91t_v%C3%A0ng_m%C3%A3_v%C3%A0o_r%E1%BA%B1mg_th7,_ng24th8n2022.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:%C4%90%E1%BB%93_%C4%91%E1%BB%91t_v%C3%A0ng_m%C3%A3_v%C3%A0o_r%E1%BA%B1mg_th7,_ng24th8n2022.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Offerings in Vietnam"
+    },
+    {
+      "file": "ong-cong-ong-tao/gallery6.webp",
+      "photographer": "Tho nau at Vietnamese Wikipedia",
+      "profile": "https://commons.wikimedia.org/wiki/File:L%C4%83ng_M%E1%BA%A1c_C%E1%BB%ADu.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:L%C4%83ng_M%E1%BA%A1c_C%E1%BB%ADu.JPG",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "Lăng ngài Mạc Cửu cùng phu nhân và các hậu duệ tại Hà Tiên, Kiên Giang"
     }
   ],
   "tet-han-thuc": [
@@ -1389,24 +1920,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Bánh trôi nước, one of Hồ Xuân Hương's most famous poems is shown here with chữ Hán Nôm and chữ Quốc ngữ (Vietnamese alp"
     },
     {
-      "file": "tet-han-thuc/gallery2.webp",
-      "photographer": "Lachy70",
-      "profile": "https://commons.wikimedia.org/wiki/File:HanNomKhaiSample.png",
-      "photo": "https://commons.wikimedia.org/wiki/File:HanNomKhaiSample.png",
-      "license": "CC BY-SA 4.0",
-      "source": "Wikimedia Commons",
-      "alt": "This picture shows the Vietnamese alphabet and Nôm text in the font Hán Nôm Khai. The text reads \"風𡨸漢喃楷\" and \"永\". It al"
-    },
-    {
-      "file": "tet-han-thuc/gallery2.webp",
-      "photographer": "Violetbonmua",
-      "profile": "https://commons.wikimedia.org/wiki/File:Sunset_4.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Sunset_4.jpg",
-      "license": "CC BY-SA 3.0",
-      "source": "Wikimedia Commons",
-      "alt": "Sunset at Đăk Glei, Kon Tum Province, Vietnam. Children of minority ethnic group and volunteer youth of the \"Mùa hè xanh"
-    },
-    {
       "file": "tet-han-thuc/gallery3.webp",
       "photographer": "Lachy70",
       "profile": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_tr%C3%B4i_n%C6%B0%E1%BB%9Bc.png",
@@ -1414,18 +1927,63 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 4.0",
       "source": "Wikimedia Commons",
       "alt": "Bánh trôi nước, one of Hồ Xuân Hương's most famous poems is shown here with chữ Hán Nôm and chữ Quốc ngữ (Vietnamese alp"
+    },
+    {
+      "file": "tet-han-thuc/amthuc-banh-troi.webp",
+      "photographer": "Lachy70",
+      "profile": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_Tr%C3%B4i_N%C6%B0%E1%BB%9Bc.png",
+      "photo": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_Tr%C3%B4i_N%C6%B0%E1%BB%9Bc.png",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Bánh Trôi Nước"
+    },
+    {
+      "file": "tet-han-thuc/amthuc-mam-cung.webp",
+      "photographer": "Phương Huy (thảo luận)",
+      "profile": "https://commons.wikimedia.org/wiki/File:C%C3%BAng_giao_th%E1%BB%ABa_n%C4%83m_2010_(4).JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:C%C3%BAng_giao_th%E1%BB%ABa_n%C4%83m_2010_(4).JPG",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Cúng giao thừa năm 2010"
+    },
+    {
+      "file": "tet-han-thuc/amthuc-banh-chay.webp",
+      "photographer": "Conbo at vi.wikipedia",
+      "profile": "https://commons.wikimedia.org/wiki/File:Banhchay.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:Banhchay.JPG",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "A bowl of bánh chay"
+    },
+    {
+      "file": "tet-han-thuc/gallery4.webp",
+      "photographer": "Junyu-K",
+      "profile": "https://commons.wikimedia.org/wiki/File:202501_%E6%A1%82%E8%8A%B1%E8%9C%9C%E7%B6%9C%E5%90%88%E6%B9%AF%E5%9C%93%E5%88%A8%E5%86%B0,Aka_%E5%86%B0%E7%81%AB%E6%B9%AF%E5%9C%93.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:202501_%E6%A1%82%E8%8A%B1%E8%9C%9C%E7%B6%9C%E5%90%88%E6%B9%AF%E5%9C%93%E5%88%A8%E5%86%B0,Aka_%E5%86%B0%E7%81%AB%E6%B9%AF%E5%9C%93.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Osmanthus syrup shaved ice + 5 hot tangyuan (stuffed sticky rice balls) The source of repast : Yu Pin Yuan Iced and Hot "
+    },
+    {
+      "file": "tet-han-thuc/gallery6.webp",
+      "photographer": "Benh LIEU SONG",
+      "profile": "https://commons.wikimedia.org/wiki/File:Saint_Chely_Tarn.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Saint_Chely_Tarn.jpg",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "View over the cirque of Pougnadoires and Saint-Chély-du-Tarn village, in the Tarn Gorges, from the cirque of Saint-Chély"
+    },
+    {
+      "file": "tet-han-thuc/gallery5.webp",
+      "photographer": "Phương Huy (thảo luận)",
+      "profile": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_bao_chay_ng%E1%BB%8Dt_c%C3%BAng_t%E1%BA%A5t_ni%C3%AAn_nh%C3%A0_m%E1%BB%87_2018.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_bao_chay_ng%E1%BB%8Dt_c%C3%BAng_t%E1%BA%A5t_ni%C3%AAn_nh%C3%A0_m%E1%BB%87_2018.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Bánh bao chay ngọt cúng tất niên"
     }
   ],
   "tet-doan-ngo": [
-    {
-      "file": "tet-doan-ngo/hero.webp",
-      "photographer": "Matt @ PEK from Taipei, Taiwan",
-      "profile": "https://commons.wikimedia.org/wiki/File:In_suite_breakfast_experience_(3119861609).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:In_suite_breakfast_experience_(3119861609).jpg",
-      "license": "CC BY-SA 2.0",
-      "source": "Wikimedia Commons",
-      "alt": "St. Regis Bali Resort in Bali, Indonesia selections from breakfast menu: Freshly Squeezed vitamin Drinks -apple and cele"
-    },
     {
       "file": "tet-doan-ngo/card.webp",
       "photographer": "babinbubun",
@@ -1461,6 +2019,78 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC0",
       "source": "Wikimedia Commons",
       "alt": "The still photograph titled \"Exotic Lychee Cluster By Raju C Reddy \" captures the enchanting beauty of a bunch of fresh "
+    },
+    {
+      "file": "tet-doan-ngo/amthuc-trung-luoc.webp",
+      "photographer": "Wikisearcher",
+      "profile": "https://commons.wikimedia.org/wiki/File:Boiled_eggs,_increasing_in_boiling_time_from_left_to_right.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Boiled_eggs,_increasing_in_boiling_time_from_left_to_right.jpg",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "Boiled eggs. Boiling time from left to right: 4 minutes, 7 minutes, 9 minutes."
+    },
+    {
+      "file": "tet-doan-ngo/amthuc-com-ruou.webp",
+      "photographer": "Jess Lander from Los Angeles, CA, USA",
+      "profile": "https://commons.wikimedia.org/wiki/File:Comruou.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Comruou.jpg",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "I think this is some sort of sweet dough....but I don't know."
+    },
+    {
+      "file": "tet-doan-ngo/amthuc-banh-tro.webp",
+      "photographer": "Viethavvh (thảo luận)",
+      "profile": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_tro_m%E1%BA%ADt_m%C3%ADa.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_tro_m%E1%BA%ADt_m%C3%ADa.jpg",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "Bánh tro (bánh gio, bánh nẳng) chấm mật mía sánh đặc."
+    },
+    {
+      "file": "tet-doan-ngo/amthuc-trai-cay-chua.webp",
+      "photographer": "Carlquist, Sherwin John, 1930-2021",
+      "profile": "https://commons.wikimedia.org/wiki/File:(Litchi_chinensis_fruit_in_Lihue,_United_States)_-_DPLA_-_31bdd4d2bf6efcdd3475ff9577fcf1fb.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:(Litchi_chinensis_fruit_in_Lihue,_United_States)_-_DPLA_-_31bdd4d2bf6efcdd3475ff9577fcf1fb.jpg",
+      "license": "CC BY 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Photograph of Litchi chinensis (lychee) fruit in Lihue, United States. The image displays two ripe red fruits attached t"
+    },
+    {
+      "file": "tet-doan-ngo/gallery4.webp",
+      "photographer": "PattayaPatrol",
+      "profile": "https://commons.wikimedia.org/wiki/File:DSCF0844_A_colorful_pile_of_fresh_rambutans_with_hairy_red-and-green_shells.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:DSCF0844_A_colorful_pile_of_fresh_rambutans_with_hairy_red-and-green_shells.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "This photo shows a collection of rambutan fruits. These distinctive tropical fruits have a vibrant appearance with spiky"
+    },
+    {
+      "file": "tet-doan-ngo/gallery5.webp",
+      "photographer": "Phương Huy",
+      "profile": "https://commons.wikimedia.org/wiki/File:R%C6%B0%E1%BB%A3u_n%E1%BA%BFp_c%C3%A1i_hoa_v%C3%A0ng_%E1%BB%9F_%C4%90%C3%B4ng_H%C3%A0,_T%E1%BA%BFt_n%C4%83m_2019_(2).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:R%C6%B0%E1%BB%A3u_n%E1%BA%BFp_c%C3%A1i_hoa_v%C3%A0ng_%E1%BB%9F_%C4%90%C3%B4ng_H%C3%A0,_T%E1%BA%BFt_n%C4%83m_2019_(2).jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Cuisine of Vietnam"
+    },
+    {
+      "file": "tet-doan-ngo/hero.webp",
+      "photographer": "Bùi Thụy Đào Nguyên",
+      "profile": "https://commons.wikimedia.org/wiki/File:M%E1%BB%99t_s%E1%BB%91_tr%C3%A1i_c%C3%A2y_Vi%E1%BB%87t_Nam.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:M%E1%BB%99t_s%E1%BB%91_tr%C3%A1i_c%C3%A2y_Vi%E1%BB%87t_Nam.jpg",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "Thuyền bán trái cây trên vịnh Hạ Long (Quảng Ninh, Việt Nam)."
+    },
+    {
+      "file": "tet-doan-ngo/gallery6.webp",
+      "photographer": "Donald Trung",
+      "profile": "https://commons.wikimedia.org/wiki/File:Food_offerings_for_the_Mid-Autumn_festival_in_Ecopark_(2017).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Food_offerings_for_the_Mid-Autumn_festival_in_Ecopark_(2017).jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Various food items being sacrificed for the wandering souls."
     }
   ],
   "ngay-thay-thuoc": [
@@ -1483,15 +2113,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "The Death of Nelson, 21 October 1805 The scene in the cockpit on the 'Victory', 100 guns, as Nelson lay dying during the"
     },
     {
-      "file": "ngay-thay-thuoc/gallery1.webp",
-      "photographer": "Wikimedia Commons",
-      "profile": "https://commons.wikimedia.org/wiki/File:White_Coats_for_Black_Lives_demonstration_-_DPLA_-_f6c5939a0a0114cce310a82f836cc8f8.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:White_Coats_for_Black_Lives_demonstration_-_DPLA_-_f6c5939a0a0114cce310a82f836cc8f8.jpg",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "Grant Hospital doctors, nurses and staff particpated in the White Coats for Black Lives demostration on the lawn of Main"
-    },
-    {
       "file": "ngay-thay-thuoc/gallery2.webp",
       "photographer": "Wikimedia Commons",
       "profile": "https://commons.wikimedia.org/wiki/File:White_Coats_for_Black_Lives_demonstration_-_DPLA_-_961dc2c03002624c35c616ad2bd432ba.jpg",
@@ -1510,31 +2131,40 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "A view of a male doctor, wearing a white lab coat, using a stethoscope to check on the patient who was the 1,000th open-"
     },
     {
-      "file": "ngay-thay-thuoc/hero.webp",
-      "photographer": "Nenad Stojkovic",
-      "profile": "https://commons.wikimedia.org/wiki/File:Female_doctor_putting_protective_medical_gloves_closeup._(51404981053).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Female_doctor_putting_protective_medical_gloves_closeup._(51404981053).jpg",
+      "file": "ngay-thay-thuoc/gallery5.webp",
+      "photographer": "Shixart1985",
+      "profile": "https://commons.wikimedia.org/wiki/File:Child_receiving_a_medical_checkup_in_a_clinic_with_a_doctor_using_a_stethoscope.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Child_receiving_a_medical_checkup_in_a_clinic_with_a_doctor_using_a_stethoscope.jpg",
       "license": "CC BY 2.0",
       "source": "Wikimedia Commons",
-      "alt": "Female doctor putting protective medical gloves closeup."
+      "alt": "A doctor checks a child's heartbeat in a clinic setting. The child sits on a chair with a doctor's hand touching the ste"
     },
     {
-      "file": "ngay-thay-thuoc/card.webp",
-      "photographer": "Benlisquare",
-      "profile": "https://commons.wikimedia.org/wiki/File:Loss,_in_first-person_view.png",
-      "photo": "https://commons.wikimedia.org/wiki/File:Loss,_in_first-person_view.png",
+      "file": "ngay-thay-thuoc/gallery6.webp",
+      "photographer": "Bùi Thụy Đào Nguyên",
+      "profile": "https://commons.wikimedia.org/wiki/File:M%E1%BB%99t_ph%C3%B2ng_thu%E1%BB%91c_Nam.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:M%E1%BB%99t_ph%C3%B2ng_thu%E1%BB%91c_Nam.jpg",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "Một phòng thuốc Nam miễn phí do tín đồ đạo Phật giáo Hòa Hảo tự tổ chức."
+    },
+    {
+      "file": "ngay-thay-thuoc/gallery1.webp",
+      "photographer": "Petty Officer 1st Class trevor andersen",
+      "profile": "https://commons.wikimedia.org/wiki/File:Navy_doctors_from_USNS_Mercy_perform_joint_replacement_surgery_in_Vietnam_during_Pacific_Partnership_2015_150818-N-UQ938-107.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Navy_doctors_from_USNS_Mercy_perform_joint_replacement_surgery_in_Vietnam_during_Pacific_Partnership_2015_150818-N-UQ938-107.jpg",
       "license": "Public domain",
       "source": "Wikimedia Commons",
-      "alt": "A collection of four algorithmically-generated AI artwork panels serving as a parody of \"Loss\" by Tim Buckley, depicting"
+      "alt": "DA NANG, Vietnam (Aug. 18, 2015) Navy doctors from the hospital ship USNS Mercy (T-AH 19) perform a joint replacement su"
     },
     {
-      "file": "ngay-thay-thuoc/card.webp",
-      "photographer": "ernstl",
-      "profile": "https://commons.wikimedia.org/wiki/File:Stethoscope_1.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Stethoscope_1.jpg",
-      "license": "CC BY-SA 2.0",
+      "file": "ngay-thay-thuoc/gallery4.webp",
+      "photographer": "U.S. Navy photo by Lt. Cmdr. Arwen Consaul",
+      "profile": "https://commons.wikimedia.org/wiki/File:US_Navy_100604-N-0827C-001_Dentists_remove_a_tooth_from_a_Vietnamese_patient_during_a_Pacific_Partnership_2010_medical_community_service_project.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:US_Navy_100604-N-0827C-001_Dentists_remove_a_tooth_from_a_Vietnamese_patient_during_a_Pacific_Partnership_2010_medical_community_service_project.jpg",
+      "license": "Public domain",
       "source": "Wikimedia Commons",
-      "alt": "Stethoscope"
+      "alt": "QUY NHON, Vietnam (June 4, 2010) Japan Maritime Self-Defense Force Lt. Takashi Miyamoto, a dentist, and Hideyuki Fukui, "
     }
   ],
   "ngay-bao-chi": [
@@ -1557,67 +2187,58 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Visit to The Chronicle & The Sunday News office in Bulawayo, Zimbabwe."
     },
     {
-      "file": "ngay-bao-chi/gallery1.webp",
-      "photographer": "George S. Turnbull",
-      "profile": "https://commons.wikimedia.org/wiki/File:First_newspaper_press_in_the_American_west.png",
-      "photo": "https://commons.wikimedia.org/wiki/File:First_newspaper_press_in_the_American_west.png",
-      "license": "Public domain",
+      "file": "ngay-bao-chi/gallery4.webp",
+      "photographer": "Wikimedia Commons",
+      "profile": "https://commons.wikimedia.org/wiki/File:The_rotary_press_of_newspaper_Hufvudstadsbladet_1927_(Numeroimaton;_JOKAHBL3A_A01-19).tif",
+      "photo": "https://commons.wikimedia.org/wiki/File:The_rotary_press_of_newspaper_Hufvudstadsbladet_1927_(Numeroimaton;_JOKAHBL3A_A01-19).tif",
+      "license": "CC BY 4.0",
       "source": "Wikimedia Commons",
-      "alt": "First newspaper press in the [American] west. (Washington hand press). Used on Oregon Spectator, 1846. Preserved in the "
+      "alt": "Premises of newspaper Hufvudstadsbladet in Helsinki 1927. HBL's new 64-page-rotation press."
     },
     {
-      "file": "ngay-bao-chi/gallery2.webp",
-      "photographer": "ScribblingAl",
-      "profile": "https://commons.wikimedia.org/wiki/File:City_Press_newspaper_logo.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:City_Press_newspaper_logo.jpg",
+      "file": "ngay-bao-chi/gallery5.webp",
+      "photographer": "New York-air",
+      "profile": "https://commons.wikimedia.org/wiki/File:Newsroom_ARD-aktuell.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Newsroom_ARD-aktuell.jpg",
       "license": "CC BY-SA 4.0",
       "source": "Wikimedia Commons",
-      "alt": "The official logo of the City Press news publication in South Africa."
+      "alt": "Newsroom der ARD-aktuell (Tagesschau). Das Bild entstand beim Besuch des Wikimedia-Projekts Wiki Loves Broadcast (WLB) a"
     },
     {
-      "file": "ngay-bao-chi/gallery3.webp",
-      "photographer": "Newspapers.com",
-      "profile": "https://commons.wikimedia.org/wiki/File:Etching_of_newspaper_printing_press_in_use_United_States_1878.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Etching_of_newspaper_printing_press_in_use_United_States_1878.jpg",
-      "license": "Public domain",
+      "file": "ngay-bao-chi/gallery6.webp",
+      "photographer": "Matti Blume",
+      "profile": "https://commons.wikimedia.org/wiki/File:Mille_Miglia_2018_press_conference,_Le_Grand-Saconnex_(1X7A9542).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Mille_Miglia_2018_press_conference,_Le_Grand-Saconnex_(1X7A9542).jpg",
+      "license": "CC BY-SA 4.0",
       "source": "Wikimedia Commons",
-      "alt": "Etching of newspaper printing press in use United States 1878"
-    },
-    {
-      "file": "ngay-bao-chi/hero.webp",
-      "photographer": "Daniel R. Blume from Orange County, California, USA",
-      "profile": "https://commons.wikimedia.org/wiki/File:A_stack_of_newspapers_(cropped).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:A_stack_of_newspapers_(cropped).jpg",
-      "license": "CC BY-SA 2.0",
-      "source": "Wikimedia Commons",
-      "alt": "LA Times"
+      "alt": "Franco Gussalli Beretta at the Mille Miglia 2018 press announcement"
     },
     {
       "file": "ngay-bao-chi/gallery1.webp",
-      "photographer": "Daniel R. Blume from Orange County, California, USA",
-      "profile": "https://commons.wikimedia.org/wiki/File:A_stack_of_newspapers.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:A_stack_of_newspapers.jpg",
-      "license": "CC BY-SA 2.0",
+      "photographer": "Ngô Trung",
+      "profile": "https://commons.wikimedia.org/wiki/File:S%E1%BA%A1p_b%C3%A1o.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:S%E1%BA%A1p_b%C3%A1o.JPG",
+      "license": "CC BY-SA 3.0",
       "source": "Wikimedia Commons",
-      "alt": "LA Times"
+      "alt": "A news-stand on Phạm Ngọc Thạch street, District 3, Hồ Chí Minh City. Saigonese often keep themselves informed by readin"
     },
     {
       "file": "ngay-bao-chi/gallery2.webp",
-      "photographer": "Globalimmigrantnews",
-      "profile": "https://commons.wikimedia.org/wiki/File:Newspaper_stack.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Newspaper_stack.jpg",
-      "license": "CC BY-SA 3.0",
+      "photographer": "TaiwaneseWaveVN",
+      "profile": "https://commons.wikimedia.org/wiki/File:S%E1%BA%A1p_b%C3%A1o_110A1_%C4%91%C6%B0%E1%BB%9Dng_Gi%E1%BA%A3ng_V%C3%B5,_qu%E1%BA%ADn_Ba_%C4%90%C3%ACnh,_H%C3%A0_N%E1%BB%99i_(A_newspaper_kiosk_at_110A1_Giang_Vo_Road,_Ba_Dinh_District,_Hanoi,_Vietnam).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:S%E1%BA%A1p_b%C3%A1o_110A1_%C4%91%C6%B0%E1%BB%9Dng_Gi%E1%BA%A3ng_V%C3%B5,_qu%E1%BA%ADn_Ba_%C4%90%C3%ACnh,_H%C3%A0_N%E1%BB%99i_(A_newspaper_kiosk_at_110A1_Giang_Vo_Road,_Ba_Dinh_District,_Hanoi,_Vietnam).jpg",
+      "license": "CC BY-SA 4.0",
       "source": "Wikimedia Commons",
-      "alt": "global immigrant news"
+      "alt": "A newspaper kiosk located at 110A1 Giang Vo Road, Giang Vo Ward, Ba Dinh District, Hanoi, Vietnam."
     },
     {
       "file": "ngay-bao-chi/gallery3.webp",
-      "photographer": "ElCapitanBSC",
-      "profile": "https://commons.wikimedia.org/wiki/File:Newspaper_Cones_2009_(3890107375).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Newspaper_Cones_2009_(3890107375).jpg",
-      "license": "CC BY-SA 2.0",
+      "photographer": "Unknown authorship, published before 1945.",
+      "profile": "https://commons.wikimedia.org/wiki/File:King_Bao_Dai_visited_the_Archives_and_Library_of_Indochina_in_1933_(taken_at_the_Central_Library).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:King_Bao_Dai_visited_the_Archives_and_Library_of_Indochina_in_1933_(taken_at_the_Central_Library).jpg",
+      "license": "Public domain",
       "source": "Wikimedia Commons",
-      "alt": "Uploaded through Desktop Flickr Organizer."
+      "alt": "A photograph related to the modernisation of the Imperial Archives of the Nguyễn Dynasty by Paul Boudet."
     }
   ],
   "nguoi-cao-tuoi": [
@@ -1667,40 +2288,58 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Six groups of three persons (wife, husband, and lover) arranged in two rows, their words (not transcribed) etched above "
     },
     {
-      "file": "nguoi-cao-tuoi/hero.webp",
-      "photographer": "Onderwijsgek",
-      "profile": "https://commons.wikimedia.org/wiki/File:Bench_autumn.JPG",
-      "photo": "https://commons.wikimedia.org/wiki/File:Bench_autumn.JPG",
-      "license": "CC BY-SA 2.5 nl",
+      "file": "nguoi-cao-tuoi/amthuc-xoi-gac.webp",
+      "photographer": "Nguyễn Thanh Quang 07:20, 3 December 2007 (UTC)",
+      "profile": "https://commons.wikimedia.org/wiki/File:X%C3%B4i_g%E1%BA%A5c.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:X%C3%B4i_g%E1%BA%A5c.JPG",
+      "license": "Public domain",
       "source": "Wikimedia Commons",
-      "alt": "Bankje in de herfst bij de begraafplaats in Oudewater."
+      "alt": "Glutious rice made with extraction from ripe fruits of Momordica cochinchinensis, vietnamese style"
     },
     {
-      "file": "nguoi-cao-tuoi/card.webp",
-      "photographer": "Onderwijsgek",
-      "profile": "https://commons.wikimedia.org/wiki/File:Bench_autumn_02.JPG",
-      "photo": "https://commons.wikimedia.org/wiki/File:Bench_autumn_02.JPG",
-      "license": "CC BY-SA 2.5 nl",
+      "file": "nguoi-cao-tuoi/amthuc-che-tra.webp",
+      "photographer": "Khương Việt Hà",
+      "profile": "https://commons.wikimedia.org/wiki/File:Trap_che_an_hoi_(Vietnam).JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:Trap_che_an_hoi_(Vietnam).JPG",
+      "license": "Public domain",
       "source": "Wikimedia Commons",
-      "alt": "Bankje in de herfst bij de begraafplaats in Oudewater."
+      "alt": "tráp đựng chè trong lễ vật ăn hỏi"
     },
     {
-      "file": "nguoi-cao-tuoi/gallery2.webp",
-      "photographer": "Onderwijsgek",
-      "profile": "https://commons.wikimedia.org/wiki/File:Bench_autumn_03.JPG",
-      "photo": "https://commons.wikimedia.org/wiki/File:Bench_autumn_03.JPG",
-      "license": "CC BY-SA 2.5 nl",
+      "file": "nguoi-cao-tuoi/amthuc-mung-tho.webp",
+      "photographer": "Nhan Lương (thảo luận)",
+      "profile": "https://commons.wikimedia.org/wiki/File:B%C3%A0i_tr%C3%AD_cho_L%E1%BB%85_th%C6%B0%E1%BB%A3ng_th%E1%BB%8D.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:B%C3%A0i_tr%C3%AD_cho_L%E1%BB%85_th%C6%B0%E1%BB%A3ng_th%E1%BB%8D.JPG",
+      "license": "Public domain",
       "source": "Wikimedia Commons",
-      "alt": "Bankje in de herfst bij de begraafplaats in Oudewater."
+      "alt": "tự chụp, minh họa cho bài viết"
     },
     {
-      "file": "nguoi-cao-tuoi/gallery3.webp",
-      "photographer": "Johan Jönsson (Julle)",
-      "profile": "https://commons.wikimedia.org/wiki/File:Park_bench,_Stralau.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Park_bench,_Stralau.jpg",
+      "file": "nguoi-cao-tuoi/gallery4.webp",
+      "photographer": "Rodhullandemu",
+      "profile": "https://commons.wikimedia.org/wiki/File:Frontage_statues,_Oriel_%26_Hardie_House.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Frontage_statues,_Oriel_%26_Hardie_House.jpg",
       "license": "CC BY-SA 4.0",
       "source": "Wikimedia Commons",
-      "alt": "Park bench in autumn, Stralau."
+      "alt": "Statue on the frontage of Oriel &amp; Hardie House, Bootle of a loving elderly couple. Sadly their dancing days appear t"
+    },
+    {
+      "file": "nguoi-cao-tuoi/gallery5.webp",
+      "photographer": "Rudolf Eickemeyer, Jr.",
+      "profile": "https://commons.wikimedia.org/wiki/File:(Man_praying_over_meal)_by_Rudolf_Eickemeyer.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:(Man_praying_over_meal)_by_Rudolf_Eickemeyer.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "[Man praying over meal]; Rudolf Eickemeyer, Jr. (American, 1862 - 1932); about 1900–1915; Gelatin silver print; 40.5 × 5"
+    },
+    {
+      "file": "nguoi-cao-tuoi/gallery6.webp",
+      "photographer": "McKay Savage from London, UK",
+      "profile": "https://commons.wikimedia.org/wiki/File:Vietnam_08_-_082_-_My_smiling_tour_saleswoman_(3184027481).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Vietnam_08_-_082_-_My_smiling_tour_saleswoman_(3184027481).jpg",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "The lady in Vinh Long who happily sold me a \"homestay\" on the Binh Hoa Phuoc island for $10 USD and a morning boat tour "
     }
   ],
   "doanh-nhan": [
@@ -1714,15 +2353,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "A panoramic view of the Sydney skyline as viewed across Sydney Harbour from Kirribilli. Taken by myself with a Canon 5D "
     },
     {
-      "file": "doanh-nhan/card.webp",
-      "photographer": "Andrew McMillan.",
-      "profile": "https://commons.wikimedia.org/wiki/File:Central_Business_District_skyline,_Singapore,_at_night.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Central_Business_District_skyline,_Singapore,_at_night.jpg",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "A view of the Central Business District skyline of Singapore at night."
-    },
-    {
       "file": "doanh-nhan/gallery1.webp",
       "photographer": "Hpeterswald",
       "profile": "https://commons.wikimedia.org/wiki/File:Sydney_City_Business_District.jpg",
@@ -1732,22 +2362,58 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Sydney City Business District"
     },
     {
-      "file": "doanh-nhan/gallery2.webp",
-      "photographer": "ProjectManhattan.",
-      "profile": "https://commons.wikimedia.org/wiki/File:Skyline_of_the_Central_Business_District,_Singapore,_featuring_Asia_Square_-_20131121.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Skyline_of_the_Central_Business_District,_Singapore,_featuring_Asia_Square_-_20131121.jpg",
-      "license": "CC0",
+      "file": "doanh-nhan/gallery4.webp",
+      "photographer": "Richard Allaway",
+      "profile": "https://commons.wikimedia.org/wiki/File:Freshwater_and_Urban_Environments_-_Port_and_shipyard_next_to_the_Central_Business_District_(CBD)_of_Ho_Chi_Minh_City,_Vietnam.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Freshwater_and_Urban_Environments_-_Port_and_shipyard_next_to_the_Central_Business_District_(CBD)_of_Ho_Chi_Minh_City,_Vietnam.jpg",
+      "license": "CC BY 2.0",
       "source": "Wikimedia Commons",
-      "alt": "Skyline of the Central Business District of Singapore, featuring Asia Square on the left. The anchor tenant of Tower 1 o"
+      "alt": "Port and shipyard next to the Central Business District (CBD) of Ho Chi Minh City, Vietnam"
+    },
+    {
+      "file": "doanh-nhan/card.webp",
+      "photographer": "Diego Delso",
+      "profile": "https://commons.wikimedia.org/wiki/File:Bitexco_Financial_Tower,_Ciudad_Ho_Chi_Minh,_Vietnam,_2013-08-14,_DD_01.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:Bitexco_Financial_Tower,_Ciudad_Ho_Chi_Minh,_Vietnam,_2013-08-14,_DD_01.JPG",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "Bitexco Financial Tower, Ho Chi Minh City, Vietnam"
+    },
+    {
+      "file": "doanh-nhan/gallery2.webp",
+      "photographer": "calflier001",
+      "profile": "https://commons.wikimedia.org/wiki/File:BEN_THANH_MARKET_SAIGON_VIETNAM_JAN_2012_(6966716295).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:BEN_THANH_MARKET_SAIGON_VIETNAM_JAN_2012_(6966716295).jpg",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "BEN THANH MARKET SAIGON VIETNAM JAN 2012"
     },
     {
       "file": "doanh-nhan/gallery3.webp",
-      "photographer": "RM Bulseco from Davao City, Philippines.",
-      "profile": "https://commons.wikimedia.org/wiki/File:Central_Business_District_skyline,_Singapore,_at_night_-_20140215-03.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Central_Business_District_skyline,_Singapore,_at_night_-_20140215-03.jpg",
-      "license": "CC BY 2.0",
+      "photographer": "Vu Linh",
+      "profile": "https://commons.wikimedia.org/wiki/File:Cau_Thu_thiem-tac_gia_concuarangme.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Cau_Thu_thiem-tac_gia_concuarangme.jpg",
+      "license": "CC0",
       "source": "Wikimedia Commons",
-      "alt": "The skyline of the Central Business District of Singapore at night."
+      "alt": "Thu Thiem Bridge"
+    },
+    {
+      "file": "doanh-nhan/gallery5.webp",
+      "photographer": "namisito",
+      "profile": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz-Vietnam_factory_workers_management.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz-Vietnam_factory_workers_management.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Celebration of first GLC SUV assembled in Vietnam plant"
+    },
+    {
+      "file": "doanh-nhan/gallery6.webp",
+      "photographer": "Cuong Tran",
+      "profile": "https://commons.wikimedia.org/wiki/File:Thu_Thiem_2_Bridge_construction.png",
+      "photo": "https://commons.wikimedia.org/wiki/File:Thu_Thiem_2_Bridge_construction.png",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Thu Thiem 2 Bridge construction"
     }
   ],
   "tet-thanh-minh": [
@@ -1795,18 +2461,63 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 3.0",
       "source": "Wikimedia Commons",
       "alt": "\"Five coloured papers\" placed on the mound of a grave in Bukit Brown Cemetery, Singapore, during Qingming Festival. Ther"
+    },
+    {
+      "file": "tet-thanh-minh/amthuc-xoi.webp",
+      "photographer": "Thang Nguyen from Nottingham, United Kingdom",
+      "profile": "https://commons.wikimedia.org/wiki/File:X%C3%B4i_c%C3%BAc.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:X%C3%B4i_c%C3%BAc.jpg",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Xôi cúc."
+    },
+    {
+      "file": "tet-thanh-minh/amthuc-banh-nep.webp",
+      "photographer": "Viethavvh",
+      "profile": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_gi%E1%BA%A7y_ng%C5%A9_s%E1%BA%AFc.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_gi%E1%BA%A7y_ng%C5%A9_s%E1%BA%AFc.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Bánh giầy ngũ sắc được làm từ gạo nếp nương và các loại lá cẩm để tạo thành 4 màu đỏ, xanh, vàng, tím cộng với màu trắng"
+    },
+    {
+      "file": "tet-thanh-minh/amthuc-hoa-qua.webp",
+      "photographer": "Phương Huy (thảo luận)",
+      "profile": "https://commons.wikimedia.org/wiki/File:Hoa_qu%E1%BA%A3_c%C3%BAng_1_T%E1%BA%BFt_%E1%BB%9F_nh%C3%A0_m%E1%BB%87,_T%E1%BA%BFt_2018.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Hoa_qu%E1%BA%A3_c%C3%BAng_1_T%E1%BA%BFt_%E1%BB%9F_nh%C3%A0_m%E1%BB%87,_T%E1%BA%BFt_2018.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Hoa quả cúng 1 Tết ở nhà mệ, Tết 2018"
+    },
+    {
+      "file": "tet-thanh-minh/gallery4.webp",
+      "photographer": "Ethan Doyle White",
+      "profile": "https://commons.wikimedia.org/wiki/File:Incense_Sticks_at_Jogyesa.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Incense_Sticks_at_Jogyesa.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Incense sticks burning at Jogyesa."
+    },
+    {
+      "file": "tet-thanh-minh/gallery5.webp",
+      "photographer": "Dennis G. Jarvis",
+      "profile": "https://commons.wikimedia.org/wiki/File:DGJ_0435_-_Dead_Man%27s_House_(3347317859).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:DGJ_0435_-_Dead_Man%27s_House_(3347317859).jpg",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Taken through the bus window. Although Buddhists usually cremate their dead in Vietnam it is more traditional to be buri"
+    },
+    {
+      "file": "tet-thanh-minh/gallery6.webp",
+      "photographer": "ChieuTimViet",
+      "profile": "https://commons.wikimedia.org/wiki/File:Ngh%C4%A9a_trang_LS_Tr%E1%BA%A3ng_B%C6%A1m_-_panoramio.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Ngh%C4%A9a_trang_LS_Tr%E1%BA%A3ng_B%C6%A1m_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "Nghĩa trang LS Trảng Bơm"
     }
   ],
   "ngay-thanh-lap-dang": [
-    {
-      "file": "ngay-thanh-lap-dang/hero.webp",
-      "photographer": "Duykien",
-      "profile": "https://commons.wikimedia.org/wiki/File:Capture_communist_flags_in_Long_Hai_hills,_1968.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Capture_communist_flags_in_Long_Hai_hills,_1968.jpg",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "The flags of Vietnam People's Revolutionary Party and Vietnam People's Revolutionary Youth Union, both used since 1962 t"
-    },
     {
       "file": "ngay-thanh-lap-dang/card.webp",
       "photographer": "Vuong Tri Binh",
@@ -1842,6 +2553,42 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 4.0",
       "source": "Wikimedia Commons",
       "alt": "Embroidered flag of the Communist Party of Vietnam — golden hammer and sickle on red silk, displayed in a frame."
+    },
+    {
+      "file": "ngay-thanh-lap-dang/hero.webp",
+      "photographer": "Indochinese Communist Party committee of Ninh Binh. Redrawn by Nghia7554",
+      "profile": "https://commons.wikimedia.org/wiki/File:Communist_flag_on_Non_Nuoc_Mountain,_Ninh_Binh_(1929).png",
+      "photo": "https://commons.wikimedia.org/wiki/File:Communist_flag_on_Non_Nuoc_Mountain,_Ninh_Binh_(1929).png",
+      "license": "CC BY 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Communist flag of Indochinese Communist Party committee in Ninh Binh. Luong Van Tuy and Nguyen Van Hoan put the flag on "
+    },
+    {
+      "file": "ngay-thanh-lap-dang/gallery4.webp",
+      "photographer": "Nguyễn Thanh Quang",
+      "profile": "https://commons.wikimedia.org/wiki/File:%C4%90%C3%A0i_li%E1%BB%87t_s%E1%BB%B9_001_(Ba_%C4%90%C3%ACnh).JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:%C4%90%C3%A0i_li%E1%BB%87t_s%E1%BB%B9_001_(Ba_%C4%90%C3%ACnh).JPG",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "Memorial to the Revolutionary Martyrs, Ba Đình Square, Hanoi."
+    },
+    {
+      "file": "ngay-thanh-lap-dang/gallery5.webp",
+      "photographer": "Zennysmile",
+      "profile": "https://commons.wikimedia.org/wiki/File:Lung_Cu_Flag_Tower.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Lung_Cu_Flag_Tower.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Lung Cu Flag Tower"
+    },
+    {
+      "file": "ngay-thanh-lap-dang/gallery6.webp",
+      "photographer": "CEphoto, Uwe Aranas",
+      "profile": "https://commons.wikimedia.org/wiki/File:Hanoi_Vietnam_Ho-Chi-Minh-Museum-02.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Hanoi_Vietnam_Ho-Chi-Minh-Museum-02.jpg",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "Hanoi, Vietnam: The Statue of Ho Chi Minh in Ho Chi Minh Museum"
     }
   ],
   "ngay-dien-bien-phu": [
@@ -1889,6 +2636,33 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 2.0",
       "source": "Wikimedia Commons",
       "alt": "Detail of Victory Monument - Dien Bien Phu - Vietnam"
+    },
+    {
+      "file": "ngay-dien-bien-phu/gallery4.webp",
+      "photographer": "Adam Jones from Kelowna, BC, Canada",
+      "profile": "https://commons.wikimedia.org/wiki/File:Detail_of_Inscription_near_Victory_Monument_on_Hill_D1_(Dominique_2)_-_Dien_Bien_Phu_-_Vietnam_(48168823082).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Detail_of_Inscription_near_Victory_Monument_on_Hill_D1_(Dominique_2)_-_Dien_Bien_Phu_-_Vietnam_(48168823082).jpg",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Detail of Inscription near Victory Monument on Hill D1 (Dominique 2) - Dien Bien Phu - Vietnam"
+    },
+    {
+      "file": "ngay-dien-bien-phu/gallery5.webp",
+      "photographer": "Adam Jones from Kelowna, BC, Canada",
+      "profile": "https://commons.wikimedia.org/wiki/File:Concrete_Sign_for_Hill_D1_-_Near_Victory_Monument_-_Dien_Bien_Phu_-_Vietnam_(48168797266).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Concrete_Sign_for_Hill_D1_-_Near_Victory_Monument_-_Dien_Bien_Phu_-_Vietnam_(48168797266).jpg",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Concrete Sign for Hill D1 - Near Victory Monument - Dien Bien Phu - Vietnam"
+    },
+    {
+      "file": "ngay-dien-bien-phu/gallery6.webp",
+      "photographer": "Adam Jones from Kelowna, BC, Canada",
+      "profile": "https://commons.wikimedia.org/wiki/File:Panorama_of_Dien_Bien_Phu_Exhibit_-_Vietnam_Military_History_Museum_-_Hanoi_-_Vietnam_(48072104916).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Panorama_of_Dien_Bien_Phu_Exhibit_-_Vietnam_Military_History_Museum_-_Hanoi_-_Vietnam_(48072104916).jpg",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Panorama of Dien Bien Phu Exhibit - Vietnam Military History Museum - Hanoi - Vietnam"
     }
   ],
   "ngay-sinh-nhat-bac": [
@@ -1936,6 +2710,33 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC0",
       "source": "Wikimedia Commons",
       "alt": "Ho Chi Minh mausoleum in 2003"
+    },
+    {
+      "file": "ngay-sinh-nhat-bac/gallery4.webp",
+      "photographer": "Unknown authorUnknown author.",
+      "profile": "https://commons.wikimedia.org/wiki/File:Statues_of_fairies,_and_a_fairy_riding_a_dragon_(17th_century),_Vietnam_National_Museum_of_Fine_Arts,_Hanoi,_Vietnam_-_20131030.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:Statues_of_fairies,_and_a_fairy_riding_a_dragon_(17th_century),_Vietnam_National_Museum_of_Fine_Arts,_Hanoi,_Vietnam_-_20131030.JPG",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "lang Bac Ba Dinh"
+    },
+    {
+      "file": "ngay-sinh-nhat-bac/gallery5.webp",
+      "photographer": "Phương Huy (thảo luận)",
+      "profile": "https://commons.wikimedia.org/wiki/File:H%E1%BB%93_sen_trung_t%C3%A2m_%E1%BB%9F_C%C3%B4ng_vi%C3%AAn_%C4%90%E1%BA%A7m_Sen_(1).JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:H%E1%BB%93_sen_trung_t%C3%A2m_%E1%BB%9F_C%C3%B4ng_vi%C3%AAn_%C4%90%E1%BA%A7m_Sen_(1).JPG",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Hồ sen trung tâm ở Công viên Đầm Sen"
+    },
+    {
+      "file": "ngay-sinh-nhat-bac/gallery6.webp",
+      "photographer": "Richard Mortel from Riyadh, Saudi Arabia",
+      "profile": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh%27s_Stilt_House,_Hanoi_(2)_(24622695398).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh%27s_Stilt_House,_Hanoi_(2)_(24622695398).jpg",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Ho Chi Minh's Stilt House, Hanoi (2)"
     }
   ],
   "ngay-cach-mang-thang-tam": [
@@ -1983,6 +2784,33 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 3.0",
       "source": "Wikimedia Commons",
       "alt": "Hanoi Opera House in December 2012."
+    },
+    {
+      "file": "ngay-cach-mang-thang-tam/gallery4.webp",
+      "photographer": "Richard Mortel from Riyadh, Saudi Arabia",
+      "profile": "https://commons.wikimedia.org/wiki/File:Hanoi_Opera_House,_1901-11_(2)_(37608221545).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Hanoi_Opera_House,_1901-11_(2)_(37608221545).jpg",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Hanoi Opera House, 1901-11 (2)"
+    },
+    {
+      "file": "ngay-cach-mang-thang-tam/gallery5.webp",
+      "photographer": "shankar s. from Dubai, united arab emirates",
+      "profile": "https://commons.wikimedia.org/wiki/File:HCM_Mausoleum-_closed_as_his_preserved_body_wan%27t_it_(31454165115).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:HCM_Mausoleum-_closed_as_his_preserved_body_wan%27t_it_(31454165115).jpg",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "So this then is the de facto symbol of Hanoi, the Ho Chi Minh Mausoleum in Ba Dinh Square of the city. This is one of th"
+    },
+    {
+      "file": "ngay-cach-mang-thang-tam/gallery6.webp",
+      "photographer": "The Hanoian",
+      "profile": "https://commons.wikimedia.org/wiki/File:Nh%C3%A0_h%C3%A1t_L%E1%BB%9Bn_H%C3%A0_N%E1%BB%99i_-_2022-09-02_01.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Nh%C3%A0_h%C3%A1t_L%E1%BB%9Bn_H%C3%A0_N%E1%BB%99i_-_2022-09-02_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Hanoi Opera House, Hanoi, Vietnam."
     }
   ],
   "ngay-giai-phong-thu-do": [
@@ -2030,6 +2858,33 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY 2.0",
       "source": "Wikimedia Commons",
       "alt": "Flag Tower of Hanoi, 1812 (3)"
+    },
+    {
+      "file": "ngay-giai-phong-thu-do/gallery4.webp",
+      "photographer": "Richard Mortel from Riyadh, Saudi Arabia",
+      "profile": "https://commons.wikimedia.org/wiki/File:Flag_Tower_of_Hanoi,_1812_(4)_(24623083838).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Flag_Tower_of_Hanoi,_1812_(4)_(24623083838).jpg",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Flag Tower of Hanoi, 1812 (4)"
+    },
+    {
+      "file": "ngay-giai-phong-thu-do/gallery5.webp",
+      "photographer": "katiebordner",
+      "profile": "https://commons.wikimedia.org/wiki/File:Central_Sector_of_the_Imperial_Citadel_of_Thang_Long_-_Hanoi.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Central_Sector_of_the_Imperial_Citadel_of_Thang_Long_-_Hanoi.jpg",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Central Sector of the Imperial Citadel of Thang Long - Hanoi"
+    },
+    {
+      "file": "ngay-giai-phong-thu-do/gallery6.webp",
+      "photographer": "Takeshi Aida from Hong Kong, Hong Kong",
+      "profile": "https://commons.wikimedia.org/wiki/File:Hoan_Kiem_Lake,_Turtle_Tower,_Daytime_(20231223)_(53489228584).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Hoan_Kiem_Lake,_Turtle_Tower,_Daytime_(20231223)_(53489228584).jpg",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Hoan Kiem Lake, Turtle Tower, Daytime (20231223)"
     }
   ]
 };

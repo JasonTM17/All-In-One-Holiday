@@ -68,6 +68,23 @@ describe("EN holiday data parity", () => {
     }
   });
 
+  it("EN deep items mirror the VI photo stems (img parity by index)", () => {
+    for (let i = 0; i < holidays.length; i++) {
+      const viD = holidays[i].deep;
+      const enD = holidaysEn[i].deep;
+      expect(enD.amThuc.length, holidays[i].slug).toBe(viD.amThuc.length);
+      expect(enD.phongTuc.length, holidays[i].slug).toBe(viD.phongTuc.length);
+      viD.amThuc.forEach((a, j) =>
+        expect(enD.amThuc[j].img, `${holidays[i].slug} amThuc[${j}]`).toBe(a.img),
+      );
+      viD.phongTuc.forEach((x, j) =>
+        expect(enD.phongTuc[j].img, `${holidays[i].slug} phongTuc[${j}]`).toBe(
+          x.img,
+        ),
+      );
+    }
+  });
+
   it("EN text is actually English (no un-translated VI phrases)", () => {
     // Proper nouns keep their diacritics (Tết, Đà Nẵng…) — instead look for
     // multi-word Vietnamese phrases that signal an un-translated passage.

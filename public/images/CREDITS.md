@@ -9,215 +9,310 @@ Photos from Wikimedia Commons contributors; see per-file license and description
 | tet-duong-lich/gallery1.webp | Violetbonmua | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Da_Lat_Flower_Festival_2012_Fireworks_-_23.JPG) |
 | tet-duong-lich/gallery2.webp | Vivu Vietnam | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Fireworks_Campanile_Scenic_Observatory_night_Phu_Quoc_Vietnam.jpg) |
 | tet-duong-lich/gallery3.webp | Vivu Vietnam | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Kiss_of_the_Sea_show_outdoor_theater_fireworks_night_Phu_Quoc_Island_Vietnam.jpg) |
+| tet-duong-lich/gallery6.webp | PattayaPatrol | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:DFC_3850_A_crowd_gathers_along_the_shore_as_fireworks_burst_and_reflect_across_the_water_lighting_up_the_night_sky_and_sending_plumes_of_smoke_into_the_air.jpg) |
+| tet-duong-lich/gallery4.webp | trungydang | CC BY 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Nam_moi_2015,ban_phao_hoa_Saigon_Vietnam_-_panoramio.jpg) |
+| tet-duong-lich/gallery5.webp | trungydang | CC BY 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ban_phao_hoa_giao_thua_,_2015._Saigon_vietnam_-_panoramio.jpg) |
 | tet-nguyen-dan/hero.webp | Nhanvo at Vietnamese Wikipedia | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Hoa_mai.jpg) |
 | tet-nguyen-dan/card.webp | Hoa_mai.jpg: Original uploader was Nhanvo at vi.wikipedia Later version(s) were uploaded by Lưu Ly, Casablanca1911, Tdangkhoa at vi.wikipedia. derivative work: Minh Nguyễn (talk, contribs) | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Ochna_integerrima_Vietnamese_New_Year_background.png) |
 | tet-nguyen-dan/gallery1.webp | Prenn | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ochna_integerrima_(2).JPG) |
 | tet-nguyen-dan/gallery2.webp | Prenn | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ochna_integerrima_(3).JPG) |
 | tet-nguyen-dan/gallery3.webp | Prenn | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ochna_integerrima_var..JPG) |
-| tet-nguyen-dan/card.webp | Prenn | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ochna_integerrima_01.JPG) |
+| tet-nguyen-dan/amthuc-banh-chung.webp | vi:user:Viethavvh | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Banh_chung_vuong.jpg) |
+| tet-nguyen-dan/amthuc-mut-tet.webp | Banhtrung1 | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:B%C3%A1nh_m%E1%BB%A9t_k%E1%BA%B9o.jpg) |
+| tet-nguyen-dan/amthuc-thit-kho-trung.webp | Memberofc1 | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Th%E1%BB%8Bt_kho_ch%E1%BB%89.jpg) |
+| tet-nguyen-dan/amthuc-nem-ran.webp | Phó Nháy | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Nem_ran_cat.jpg) |
+| tet-nguyen-dan/amthuc-thit-dong.webp | Viethavvh | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Gi%C3%B2_th%E1%BB%A7.jpg) |
+| tet-nguyen-dan/gallery5.webp | PEAK99 | CC BY 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:%E0%B8%8A%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%A7_Ochna_integerrima_(Lour.)_Merr_(1).jpg) |
+| tet-nguyen-dan/gallery6.webp | Willyvu | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:C%C3%A0nh_hoa_mai_gi%E1%BA%A3_%C4%91%C3%B3ng_th%C3%B9ng_carton_%C4%91%E1%BB%83_g%E1%BB%ADi_%C4%91i_xa.jpg) |
+| tet-nguyen-dan/gallery4.webp | This is Thảo | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Tet_holiday_in_Vietnam.jpg) |
 | tet-nguyen-tieu/hero.webp | vi:Thành viên:Viethavvh | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Den_ong_sao.JPG) |
-| tet-nguyen-tieu/card.webp | tkjh105212 | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:2017_TLF_New_Immigrants_Lantern_Area.jpg) |
 | tet-nguyen-tieu/gallery1.webp | Christophe95 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lantern_Shop_in_Hoi_An_1.jpg) |
 | tet-nguyen-tieu/gallery2.webp | Christophe95 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lantern_Shop_in_Hoi_An_2.jpg) |
 | tet-nguyen-tieu/gallery3.webp | Christophe95 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Hoi_An_Full_Moon_Festival.jpg) |
+| tet-nguyen-tieu/amthuc-che-troi-nuoc.webp | Phương Huy | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:M%C3%B3n_ch%C3%A8_%E1%BB%9F_B%C3%ACnh_Long_n%C4%83m_2020.jpg) |
+| tet-nguyen-tieu/amthuc-co-chay.webp | own work | CC BY 2.5 | [Commons](https://commons.wikimedia.org/wiki/File:Rice_with_vegetarian_meat_stew.JPG) |
+| tet-nguyen-tieu/amthuc-xoi-che.webp | Terence Ong | CC BY 2.5 | [Commons](https://commons.wikimedia.org/wiki/File:Mango_with_glutinous_rice.jpg) |
+| tet-nguyen-tieu/gallery4.webp | Mig Gilbert from Brighton | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lanterns_in_Hoi_An_(40542858941).jpg) |
+| tet-nguyen-tieu/gallery6.webp | Nguoivietbao | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:C%C3%A1c_%C4%91%E1%BA%A1i_bi%E1%BB%83u_v%C3%A0_ng%C6%B0%E1%BB%9Di_d%C3%A2n_d%C3%A2ng_h%C6%B0%C6%A1ng_t%E1%BA%A1i_L%E1%BB%85_h%E1%BB%99i_truy%E1%BB%81n_th%E1%BB%91ng_%C4%90%C3%ACnh_-_%C4%90%E1%BB%81n_-_Ch%C3%B9a_B%E1%BA%A3o_S%C3%A0i,_ph%C6%B0%E1%BB%9Dng_Ph%E1%BA%A1m_Ng%C5%A9_L%C3%A3o,_th%C3%A0nh_ph%E1%BB%91_H%E1%BA%A3i_D%C6%B0%C6%A1ng,_t%E1%BB%89nh_H%E1%BA%A3i_D%C6%B0%C6%A1ng.jpg) |
+| tet-nguyen-tieu/card.webp | Kuroczynski | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Boats_with_lanterns_on_the_Thu_Bon_river_IMG_3864.jpg) |
+| tet-nguyen-tieu/gallery5.webp | Phương Huy | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:%C4%90%C3%A8n_%C4%91%C3%A1_ki%E1%BB%83u_Vi%E1%BB%87t_Nam_v%C3%A0_l%C6%B0_h%C6%B0%C6%A1ng_%C4%91%C3%A1_b%E1%BA%B1ng_c%E1%BA%A9m_th%E1%BA%A1ch_t%E1%BA%A1i_Ch%C3%B9a_B%E1%BB%ADu_Th%E1%BA%AFng,_T%C3%A2n_Ph%C3%BA,_th%C3%A1ng_5_n%C4%83m_2021_(16).jpg) |
 | valentine/hero.webp | Rosendahl | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Wedding_bouquet_red_reses.jpg) |
 | valentine/card.webp | Juppi | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Bouquet-of-Red-Roses.png) |
 | valentine/gallery2.webp | Montanabw | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Red_roses_from_bouquet.jpg) |
 | valentine/gallery3.webp | Montanabw | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Red_roses_from_bouquet_2.jpg) |
 | valentine/gallery1.webp | Rameshng at Malayalam Wikipedia | CC BY 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Rose_flower_at_the_Lalbaghgarden_Bangalore.jpg) |
+| valentine/amthuc-socola.webp | fimb | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Pralines_Chocolate_Tasting_Club.jpg) |
+| valentine/amthuc-dau-socola.webp | Robin Zebrowski | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:ChocolateCoveredStrawberries.jpg) |
+| valentine/amthuc-banh-tim.webp | Danielle Elder from Palm Beach, United States | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Chocolate_cake_heart.jpg) |
+| valentine/gallery4.webp | James Valentine Jelley | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:James_Valentine_Jelley_-_Christmas_Roses_(11536880793).jpg) |
+| valentine/gallery5.webp | Chrys Omori from Sao Paulo, Brazil | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Chocolate_gift.jpg) |
+| valentine/gallery6.webp | Paolo Gamba from Paris, France | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Red_roses_(32337990087).jpg) |
 | quoc-te-phu-nu/hero.webp | Alvesgaspar | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Colored_flowers_e.jpg) |
 | quoc-te-phu-nu/card.webp | Acabashi | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Pink_climbing_rose_and_trellis_at_Boreham,_Essex,_England.jpg) |
 | quoc-te-phu-nu/gallery1.webp | Acabashi | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Pink_rose_bloom_of_a_climbing_rose_at_Boreham,_Essex,_England_1.jpg) |
 | quoc-te-phu-nu/gallery2.webp | Gaurav_Dhwaj_Khadka | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Pink_Roses_1.jpg) |
 | quoc-te-phu-nu/gallery3.webp | Gerda Arendt | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Pink_roses_at_reception,_Dortmund.jpg) |
+| quoc-te-phu-nu/gallery4.webp | Khương Việt Hà | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Mot_so_kieu_ao_dai_le_hoi.JPG) |
+| quoc-te-phu-nu/gallery5.webp | Susanne Nilsson | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Tulip_(33161282930).jpg) |
+| quoc-te-phu-nu/gallery6.webp | Judgefloro | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:JfAngat0192Mimosapudicafvf_01.JPG) |
 | phu-nu-viet-nam/hero.webp | Lucas Jans from USA | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:%C3%81o_d%C3%A0i_dancers.jpg) |
 | phu-nu-viet-nam/card.webp | Pauloleong2002 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Woman_wearing_Ao_Dai.jpg) |
 | phu-nu-viet-nam/gallery1.webp | PA | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:VN_-_bonzes_et_%C3%A1o_d%C3%A0i.jpg) |
 | phu-nu-viet-nam/gallery3.webp | HidoLX | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ao_dai_12.2022.jpg) |
-| phu-nu-viet-nam/hero.webp | Phát Trương | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:%C3%81o_d%C3%A0i_hoa_ph%C6%B0%E1%BB%A3ng_-_Ph%C3%A1t_Tr%C6%B0%C6%A1ng_-_51231007393_(extend_cropped).jpg) |
 | phu-nu-viet-nam/gallery2.webp | Daderot | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Ao_dai_collection_-_Vietnamese_Women%27s_Museum_-_Hanoi,_Vietnam_-_DSC04141.JPG) |
+| phu-nu-viet-nam/gallery4.webp | Akasumoto | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ao_dai_trang_3.jpg) |
+| phu-nu-viet-nam/gallery5.webp | Chen Mei (陳枚), Sun Hu (孫祜), Jin Kun (金昆), Dai Hong (戴洪) and Cheng Zhidao (程志道), five court painters under the Qianlong Emperor. | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Along_the_River_7-119-3.jpg) |
+| phu-nu-viet-nam/gallery6.webp | ManishNegi513 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Traditional_Vietnamese_dress.jpg) |
 | nha-giao-viet-nam/card.webp | Biswarup Ganguly | CC BY 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Auditorium_-_Teacher-Student_Center_-_University_of_Dhaka_-_Dhaka_2015-05-31_2428.JPG) |
 | nha-giao-viet-nam/gallery1.webp | USAID Vietnam | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Launch_of_the_smart_classroom_in_Ho_Chi_Minh_City_(29396857950).jpg) |
 | nha-giao-viet-nam/gallery2.webp | USAID Vietnam | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:AA_Stivers_visits_Nguyen_Ding_Chieu_School_(16787033668).jpg) |
-| nha-giao-viet-nam/gallery3.webp | USAID Vietnam | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:AA_Stivers_visit_to_Nguyen_Ding_Chieu_School_(16974689245).jpg) |
-| nha-giao-viet-nam/gallery1.webp | Jones, Michael John | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:South_Vietnamese_students_at_a_military_hospital.jpg) |
-| nha-giao-viet-nam/gallery3.webp | Anne and David from Kent, England UK | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Cambodia._Phnom_Penh._The_Tuol_Sleng_Genocide_Museum._Known_as_S-21._(Security_prison_21)._Bou_Meng_one_of_two_adult_survivors._Signing_copies_of_his_book._(40041285514).jpg) |
 | nha-giao-viet-nam/hero.webp | AxitTDTbenzoic | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Chu_V%C4%83n_An_High_School,_New_Stadium.jpg) |
-| quan-doi-nhan-dan/hero.webp | Department of Defense. Defense Audiovisual Agency; Scene Camera Operator: Mickey Sanborn | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:World_War_I_veteran_Joseph_Ambrose,_86,_at_the_dedication_day_parade_for_the_Vietnam_Veterans_Memorial_in_1982.jpg) |
-| quan-doi-nhan-dan/card.webp | Randy Young. | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Flag_of_the_471st_Truck_Transportation_Division_-_Vietnam_People%27s_Army_-_Randy_Young_(8_July_2016).gif) |
-| quan-doi-nhan-dan/gallery1.webp | Fairley, John Geoffrey | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:AATTV_parade_at_Vung_Tau,_September_1970.jpg) |
-| quan-doi-nhan-dan/gallery2.webp | Seattle Municipal Archives from Seattle, WA | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Seattle_-_Parade_of_Army_troops_returning_from_Vietnam,_1969_(52491386560).jpg) |
+| nha-giao-viet-nam/gallery4.webp | Thomas Taylor Hammond (1920-1993) | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:1964_Hammond_Slides_Student_Raising_Hand.jpg) |
+| nha-giao-viet-nam/gallery5.webp | Anneli Salo | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Kirsti_M%C3%A4kinen_IMG_5884_C.JPG) |
+| nha-giao-viet-nam/gallery6.webp | Rc1959 | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Vietnam_1999.Hanoi_(13).jpg) |
+| nha-giao-viet-nam/gallery3.webp | USAID Vietnam | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Dong_A_University_IT_Program_for_Students_with_Disabilities.jpg) |
 | quan-doi-nhan-dan/gallery3.webp | SP5 Allan K. Holm | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:US_Army_vehicles_in_Saigon_parade_marking_2nd_anniversary_of_overthrow_of_the_Diem_regime.jpg) |
-| quan-doi-nhan-dan/card.webp | Unknown authorUnknown author | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Soldier_in_Camouflage_in_1917.JPEG) |
-| quan-doi-nhan-dan/hero.webp | en (talk · contribs) | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Southafrica1.jpg) |
-| quan-doi-nhan-dan/hero.webp | Christopher John Bellis | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:9_RAR_soldiers_during_their_farewell_parade_from_South_Vietnam_in_November_1969.jpg) |
-| quan-doi-nhan-dan/gallery2.webp | Fairley, John Geoffrey | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:General_Abrams_inspects_Australian_soldiers_at_St_Kilda_helicopter_pad.jpg) |
+| quan-doi-nhan-dan/hero.webp | Poncahot | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Duyet_binh.jpg) |
+| quan-doi-nhan-dan/card.webp | Adam Jones Adam63 | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Women_Soldiers_at_Ho_Chi_Minh_Museum_-_Hanoi_-_Vietnam.JPG) |
+| quan-doi-nhan-dan/gallery1.webp | UnknownUnknown | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:1stIndochinaWar005.jpg) |
+| quan-doi-nhan-dan/gallery2.webp | SP4 Clifford Roe | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Flag_bearers_present_colors_at_the_dedication_ceremony_for_the_Vietnamese_Tomb_of_the_Unknown_Soldier.jpg) |
+| quan-doi-nhan-dan/gallery4.webp | Fernand Nadal | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Saigon,_14_juillet_1929._Le_d%C3%A9fil%C3%A9_est_termin%C3%A9,_Boulevard_Norodom.jpg) |
+| quan-doi-nhan-dan/gallery5.webp | Taitamtinh | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Vietnamese_People%27s_Army_Barracks_Vector.png) |
+| quan-doi-nhan-dan/gallery6.webp | PFC Jose C. Rivera, DASPO | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:NARA_111-CCV-50-CC22785_Army_of_the_Republic_of_Vietnam_4th_Armored_Cavalry_Squadron_M113_crossing_river_in_training_1963.jpg) |
 | gio-to-hung-vuong/card.webp | Thang Nguyen from Nottingham, United Kingdom | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:%C4%90%E1%BB%81n_H%C3%B9ng,_%C4%91%E1%BB%81n_H%E1%BA%A1.jpg) |
 | gio-to-hung-vuong/gallery1.webp | Thang Nguyen from Nottingham, United Kingdom | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:%C4%90%E1%BB%81n_H%C3%B9ng,_%C4%91%E1%BB%81n_Th%C6%B0%E1%BB%A3ng.jpg) |
 | gio-to-hung-vuong/gallery2.webp | Thang Nguyen from Nottingham, United Kingdom | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:%C4%90%E1%BB%81n_H%C3%B9ng,_%C4%91%E1%BB%81n_H%E1%BA%A1,_c%C3%A2y_v%E1%BA%A1n_tu%E1%BA%BF.jpg) |
 | gio-to-hung-vuong/gallery3.webp | Viethavvh at vi.wikipedia | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Mausoleum_of_Hung_King.JPG) |
 | gio-to-hung-vuong/hero.webp | Daaé | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Den_Hung,_Ho_Chi_Minh_City.jpg) |
+| gio-to-hung-vuong/amthuc-banh-giay.webp | Nguyễn Thanh Quang | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:B%C3%A1nh_gi%E1%BA%A7y_gi%C3%B2.JPG) |
+| gio-to-hung-vuong/amthuc-xoi-ga.webp | Yuichi Kosio | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:X%C3%B4i_g%C3%A0.jpg) |
+| gio-to-hung-vuong/amthuc-banh-chung.webp | Yun Huang Yong | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:B%C3%A1nh_ch%C6%B0ng_v%C3%A0_gi%C3%B2_l%E1%BB%A5a.jpg) |
+| gio-to-hung-vuong/gallery4.webp | trungydang | CC BY 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Suoi_Tien,_den_tho_Vua_Hung_-_panoramio.jpg) |
+| gio-to-hung-vuong/gallery5.webp | Zde | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Dong_Son_Drum,_Bronze,_Vietnam_or_China,_2nd%E2%80%931st_c_BC,_temp_Prague_Kinsky,_NG_Vu_517,_142199.jpg) |
+| gio-to-hung-vuong/gallery6.webp | Xuannguyen1133 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:%C4%90%E1%BB%81n_Th%E1%BB%9D_H%C3%B9ng_V%C6%B0%C6%A1ng_-_Su%E1%BB%91i_Ti%C3%AAn.jpg) |
 | giai-phong-mien-nam/hero.webp | Diego Delso | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lib%C3%A9lula_(Orthetrum_sabina)_sobre_un_Gymnocalicium_mihanowichii,_Ciudad_Ho_Chi_Minh,_Vietnam,_2013-08-14,_DD_02.jpg) |
 | giai-phong-mien-nam/card.webp | Diego Delso | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Palacio_de_la_Reunificaci%C3%B3n,_Ciudad_Ho_Chi_Minh,_Vietnam,_2013-08-14,_DD_37.JPG) |
 | giai-phong-mien-nam/gallery1.webp | Diego Delso | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Parque_Tao_Dan,_Ciudad_Ho_Chi_Minh,_Vietnam,_2013-08-15,_DD_05.JPG) |
 | giai-phong-mien-nam/gallery2.webp | Diego Delso | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Adarga_(Nymphaea_alba),_Ciudad_Ho_Chi_Minh,_Vietnam,_2013-08-14,_DD_01.jpg) |
 | giai-phong-mien-nam/gallery3.webp | Diego Delso | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ayuntamiento,_Ciudad_Ho_Chi_Minh,_Vietnam,_2013-08-14,_DD_08.JPG) |
-| giai-phong-mien-nam/hero.webp | Diego Delso | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Puente_Mong,_Ciudad_Ho_Chi_Minh,_Vietnam,_2013-08-14,_DD_01.JPG) |
+| giai-phong-mien-nam/gallery4.webp | Clay Gilliland | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Independence_Palace_or_Reunification_Palace_(12110973526).jpg) |
+| giai-phong-mien-nam/gallery5.webp | Balon Greyjoy | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:20190923_Independence_Palace-10.jpg) |
+| giai-phong-mien-nam/gallery6.webp | Viet Phi | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:20210616_Ho_Chi_Minh_City_view_from_Thu_Duc_city.png) |
 | quoc-te-lao-dong/hero.webp | Thomas Schoch | CC BY-SA 2.5 | [Commons](https://commons.wikimedia.org/wiki/File:Rice_Cultivation_Vietnam.1024x768.jpg) |
 | quoc-te-lao-dong/card.webp | Thomas Schoch | CC BY-SA 2.5 | [Commons](https://commons.wikimedia.org/wiki/File:Rice_Cultivation_Vietnam_farmers.1024x768.jpg) |
 | quoc-te-lao-dong/gallery1.webp | larouche.sebastien | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Rizi%C3%A8re_vietnam.jpg) |
 | quoc-te-lao-dong/gallery2.webp | Wayne77 | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Rizi%C3%A8re_au_Vietnam-03.JPG) |
 | quoc-te-lao-dong/gallery3.webp | Christopher Crouzet | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Rice_Farmer_in_Hoi_An,_Vietnam.jpg) |
+| quoc-te-lao-dong/gallery4.webp | Lusi Lindwurm | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Vie12-292_Seidenfabrik.jpg) |
+| quoc-te-lao-dong/gallery5.webp | Basile Morin | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Woman_in_the_shadow_of_a_conical_hat_made_of_repurposed_bags_of_laundry_detergent_in_Don_Det_Laos.jpg) |
+| quoc-te-lao-dong/gallery6.webp | Basile Morin | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Two_farmers_driving_a_tractor_towing_a_raft_loaded_with_green_rice_sheaves_to_be_planted_in_a_paddy_field_surrounded_by_mist_in_Vang_Vieng_Laos.jpg) |
 | ngay-cua-me/gallery2.webp | Janis Rozentāls (1866 - 1916) – Creator (Latvian) Details on Google Art Project | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Janis_Rozent%C4%81ls_-_Mother_and_Child_-_Google_Art_Project.jpg) |
 | ngay-cua-me/gallery3.webp | Christian Krohg | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Christian_Krohg_-_Mother_and_Child_-_Google_Art_Project.jpg) |
 | ngay-cua-me/card.webp | Alvesgaspar | CC BY 2.5 | [Commons](https://commons.wikimedia.org/wiki/File:Flower_and_bud_of_yellow_chamomile_(Anthemis_tinctoria).jpg) |
 | ngay-cua-me/gallery1.webp | Marc | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:%22We_Love_Our_Daughter_and_Her_Wife%22.jpg) |
 | ngay-cua-me/hero.webp | Darkone (talk · contribs) | CC BY-SA 1.0 | [Commons](https://commons.wikimedia.org/wiki/File:Gartennelke_1.jpg) |
-| ngay-cua-me/hero.webp | Forest &amp; Kim Starr | CC BY 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Starr_070730-7932_Dianthus_caryophyllus.jpg) |
-| ngay-cua-me/gallery1.webp | Wikimedia Commons | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Three_flowers;_a_carnation_(Dianthus_caryophyllus)_and_two_l_Wellcome_V0044446.jpg) |
-| ngay-cua-me/gallery2.webp | Cann66 | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Yabani_Karanfil_%C3%87i%C3%A7e%C4%9Fi_(Dianthus_caryophyllus).jpg) |
-| ngay-cua-me/gallery3.webp | Krzysztof Ziarnek, Kenraiz | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Dianthus_caryophyllus_%27Cornelia%27_kz02.jpg) |
+| ngay-cua-me/gallery5.webp | USAID Vietnam | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:A_child_accompanies_his_mother,_a_teacher,_who_attends_a_USAID-funded_intensive_training_course_in_Kon_Ray_Ethnic_Minority_Boarding_School_(7188772377).jpg) |
+| ngay-cua-me/gallery6.webp | R Kong edwise | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Romantic_Bouquet_(Unsplash).jpg) |
+| ngay-cua-me/gallery4.webp | USMC Archives from Quantico, USA | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Vietnamese_Mother_and_Child,_1969_(14895394946).jpg) |
 | quoc-te-thieu-nhi/card.webp | Thomas Schoch | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Children_in_Middle_Vietnam.jpg) |
 | quoc-te-thieu-nhi/gallery1.webp | Boberger | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Children_Hanoi_Vietnam.JPG) |
 | quoc-te-thieu-nhi/gallery2.webp | Adam Jones Adam63 | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Hanoi_-_Vietnam_-_Children.JPG) |
 | quoc-te-thieu-nhi/gallery3.webp | Nhi Dang | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Little_Children_in_Vietnam.jpg) |
 | quoc-te-thieu-nhi/hero.webp | Benh LIEU SONG (Flickr) | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Cappadocia_Balloon_Inflating_Wikimedia_Commons.JPG) |
-| quoc-te-thieu-nhi/card.webp | Hans Braxmeier | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Balloons_Colorful_Shooting_Gallery_Folk_Festival.jpg) |
-| quoc-te-thieu-nhi/gallery1.webp | Ibrahim Husain Meraj | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Colorful_balloons_01.JPG) |
-| quoc-te-thieu-nhi/gallery2.webp | Ibrahim Husain Meraj | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Colorful_balloons_02.JPG) |
-| quoc-te-thieu-nhi/gallery3.webp | Ibrahim Husain Meraj | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Colorful_balloons_03.JPG) |
-| ngay-gia-dinh-viet-nam/hero.webp | Unknown authorUnknown author | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Saami_Family_1900.jpg) |
-| ngay-gia-dinh-viet-nam/gallery1.webp | Clear Path International | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Vietnamese_shrine_for_dead_youth.jpg) |
+| quoc-te-thieu-nhi/gallery4.webp | TAPAS KUMAR HALDER | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Funny_hard_boiled_eggs-_Kolkata_-_West_Bengal_-_DSC_0003.jpg) |
+| quoc-te-thieu-nhi/gallery5.webp | PattayaPatrol | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:DSCF0663_Evening_lights_and_spinning_balloons_-_a_colorful_carnival_ride_comes_to_life_at_dusk.jpg) |
+| quoc-te-thieu-nhi/gallery6.webp | Earl Thollander | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Children-of-south-vietnam-by-Earl-Thollander.jpg) |
 | ngay-gia-dinh-viet-nam/gallery2.webp | Thang Nguyen from Nottingham, United Kingdom | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Vietnamese_Ancestors_Altar.jpg) |
 | ngay-gia-dinh-viet-nam/gallery3.webp | Rungbachduong | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Distribution_of_Vietnamese_family_names.png) |
-| ngay-gia-dinh-viet-nam/hero.webp | Pete Souza | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Obama_family_in_mist_in_Rio_de_Janeiro.jpg) |
-| ngay-gia-dinh-viet-nam/gallery1.webp | Zde | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Vietnamese_Painting,_Hall_of_Family_Ancestors,_1945,_NG_Vm_5819,_142201.jpg) |
-| ngay-gia-dinh-viet-nam/gallery2.webp | Hoangkid | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Vietnamese_family_daily_meal.jpg) |
-| ngay-gia-dinh-viet-nam/gallery3.webp | Shirley Aley Campbell | CC BY 2.5 | [Commons](https://commons.wikimedia.org/wiki/File:Vietnamese_Family_by_Shirley_Aley_Campbell.jpg) |
-| ngay-gia-dinh-viet-nam/gallery1.webp | Dina Said | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Egyptian_food_Koshary.jpg) |
-| ngay-gia-dinh-viet-nam/gallery3.webp | Carrotkit | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Vietnamese_chicken_wings.jpg) |
 | ngay-gia-dinh-viet-nam/card.webp | Hoangkid | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Vietnamese_family_daily_meal.jpg) |
-| thuong-binh-liet-si/gallery2.webp | JFVelasquez Floro | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:7801Easter_Vigil_Ascencion_Church_of_Santo_Cristo,_Pulilan_37.jpg) |
-| thuong-binh-liet-si/gallery3.webp | JFVelasquez Floro | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:7696Easter_Vigil_Ascencion_Church_of_Santo_Cristo,_Pulilan_01.jpg) |
-| thuong-binh-liet-si/hero.webp | U.S. Customs and Border Protection | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:National_Law_Enforcement_Officers_Memorial_Candle_Light_Vigil_2015_(17612293106).jpg) |
-| thuong-binh-liet-si/card.webp | U.S. Customs and Border Protection | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:National_Law_Enforcement_Officers_Memorial_Candle_Light_Vigil_2015_(17018225833).jpg) |
-| thuong-binh-liet-si/gallery1.webp | U.S. Customs and Border Protection | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:National_Law_Enforcement_Officers_Memorial_Candle_Light_Vigil_2015_(17638382845).jpg) |
-| thuong-binh-liet-si/hero.webp | U.S. Customs and Border Protection | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:National_Law_Enforcement_Officers_Memorial_Candle_Light_Vigil_2015_(17612331396).jpg) |
-| thuong-binh-liet-si/card.webp | U.S. Customs and Border Protection | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:National_Law_Enforcement_Officers_Memorial_Candle_Light_Vigil_2015_(17016097354).jpg) |
+| ngay-gia-dinh-viet-nam/gallery4.webp | Unknown authorUnknown author | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Three_generations_of_the_Gladfelter_Family_on_a_Picnic.jpg) |
+| ngay-gia-dinh-viet-nam/gallery5.webp | Peachyeung316 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:A_Square_shaped_Vietnamese_Rice_Dumpling.jpg) |
+| ngay-gia-dinh-viet-nam/hero.webp | Chiku dsc | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Mother_and_child_love.jpg) |
+| ngay-gia-dinh-viet-nam/gallery1.webp | Russell Lee | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:The_family_of_John_R._Blaney_eating_supper._Mr._Blaney_has_worked_for_the_company_for_twenty-four_years._Mullens..._-_NARA_-_540956.tif) |
+| ngay-gia-dinh-viet-nam/gallery6.webp | Donald Trung | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Personal_in-home_altar_for_deceased_family_members_in_Viet_Nam.jpg) |
+| thuong-binh-liet-si/hero.webp | Linhcandng (thảo luận) | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ngh%C4%A9a_trang_Li%E1%BB%87t_s%C4%A9_H%E1%BA%A3i_D%C6%B0%C6%A1ng.jpeg) |
+| thuong-binh-liet-si/card.webp | Liftold (thảo luận) | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ngh%C4%A9a_trang_li%E1%BB%87t_s%C4%A9_Tr%C6%A1%E1%BB%9Dng_S%C6%A1n_2.JPG) |
+| thuong-binh-liet-si/gallery1.webp | Gonzo Gooner | CC BY 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Truong_Son_National_Cemetery_-_panoramio.jpg) |
+| thuong-binh-liet-si/gallery2.webp | Nguyễn Thanh Quang | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:%C4%90%C3%A0i_li%E1%BB%87t_s%E1%BB%B9_002_(Ba_%C4%90%C3%ACnh).JPG) |
+| thuong-binh-liet-si/gallery3.webp | Capon (thảo luận) | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:C%E1%BB%95ng_ngh%C4%A9a_trang_li%E1%BB%87t_s%E1%BB%B9_Tam_%C4%90i%E1%BB%87p.jpg) |
+| thuong-binh-liet-si/gallery4.webp | Mike Fernwood from Santa Cruz, California, United States | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:B%E1%BA%BFn_D%C6%B0%E1%BB%A3c_temple.jpg) |
+| thuong-binh-liet-si/gallery5.webp | trungydang | CC BY 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Nghia_trang_liet_si,Vung_Tau_Vietnam_-_panoramio.jpg) |
+| thuong-binh-liet-si/gallery6.webp | trungydang | CC BY 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Duong_Hoang_Dieu,Dai_tuong_niem_cac_liet_si_vodanh,Hanoi_-_panoramio.jpg) |
 | vu-lan/hero.webp | Peripitus | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Nelumno_nucifera_open_flower_-_botanic_garden_adelaide2.jpg) |
 | vu-lan/card.webp | Thachan.makan | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Indian_lotus_flowers.jpg) |
 | vu-lan/gallery1.webp | H. Zell | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Nelumbo_nucifera_002.JPG) |
 | vu-lan/gallery2.webp | C T Johansson | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Nelumbo_nucifera-IMG_3511.jpg) |
 | vu-lan/gallery3.webp | C T Johansson | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Nelumbo_nucifera-IMG_3511-1.jpg) |
+| vu-lan/amthuc-chao-trang.webp | Memberofc1 | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ch%C3%A1o_tr%E1%BA%AFng_h%E1%BB%99t_v%E1%BB%8Bt_mu%E1%BB%91i.JPG) |
+| vu-lan/phongtuc-bong-hong.webp | No machine-readable author provided. Ingrid Kamratowski~commonswiki assumed (based on copyright claims). | CC BY 2.5 | [Commons](https://commons.wikimedia.org/wiki/File:Rosa_Rose_auf_wei%C3%9Fem_Tisch.jpg) |
+| vu-lan/amthuc-mam-co-chay.webp | Phương Huy | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:M%C3%B3n_%C4%83n_T%E1%BA%BFt_2023_(b%E1%BB%AFa_c%C6%A1m_gia_%C4%91%C3%ACnh,_m%C3%A2m_c%C6%A1m,_m%C3%B3n_chay)_(1).jpg) |
+| vu-lan/amthuc-dang-phat.webp | BigDom | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:H%E1%BA%A3i_Ph%C3%B2ng_-_Thousand-armed_Avalokitsvara_altar_at_D%C6%B0_H%C3%A0ng_Pagoda_Feb_2024.jpg) |
+| vu-lan/gallery4.webp | PattayaPatrol | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:DZ6_2454_A_peaceful_pond_dotted_with_pink_water_lilies_framed_by_palm_trees_and_bright_blue_sky.jpg) |
+| vu-lan/gallery5.webp | shankar s. from Dubai, united arab emirates | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Majestic_arch_leading_to_the_temple_behind_Thien_Mu_pagoda_(31764632176).jpg) |
+| vu-lan/gallery6.webp | Karthik jeyaraman | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lotus_flower_blooming_in_a_village_lake_waters_of_Ramanathapuram_Tamilnadu_india.jpg) |
 | quoc-khanh/hero.webp | Based on File:Flag of the Empire of Vietnam (1945).svg by Gunter Küchler | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Flag_of_the_Empire_of_Vietnam_(1945).png) |
 | quoc-khanh/card.webp | Tran The Vinh | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Flag_of_Vietnam_(construction).png) |
 | quoc-khanh/gallery1.webp | Gabrielconstantin | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Vietnam_Asia_Express.jpg) |
 | quoc-khanh/gallery2.webp | Vivian Bloomsberg | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Vietnam-26834_1280.png) |
 | quoc-khanh/gallery3.webp | Vyacheslav Argenberg | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Vietnamese_flag_in_Ha_Long_Bay,_Vietnam.jpg) |
-| quoc-khanh/hero.webp | shunei1506 | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ba_Dinh_Square.jpg) |
-| quoc-khanh/gallery1.webp | Rungbachduong | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ba_Dinh_Square_2007.jpg) |
-| quoc-khanh/card.webp | The original uploader was Casablanca1911 at Vietnamese Wikipedia. | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:The_Ba_Dinh_meeting-hall.jpg) |
-| quoc-khanh/gallery2.webp | joxeankoret | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ba_Dinh_Hall_1462359227_71b04ee08a.jpg) |
+| quoc-khanh/gallery4.webp | Grenouille vert | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ba_Dinh_Square_panorama.jpg) |
+| quoc-khanh/gallery5.webp | Syced | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_mausoleum_in_2003_2.jpg) |
+| quoc-khanh/gallery6.webp | rusticus80 | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Vietnamese_flag_in_Halong_Bay.jpg) |
 | trung-thu/card.webp | YaEeBondZ 002 | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:HK_CWB_Causeway_Bay_%E7%B6%AD%E5%9C%92_Victoria_Park_%E4%B8%AD%E7%A7%8B%E7%AF%80%E7%87%88%E5%8C%AF_Mid-autumn_Festival_Lantern_Carnival_September_2026_N13P_201.jpg) |
 | trung-thu/gallery1.webp | YaEeBondZ 002 | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:HK_CWB_Causeway_Bay_%E7%B6%AD%E5%9C%92_Victoria_Park_%E4%B8%AD%E7%A7%8B%E7%AF%80%E7%87%88%E5%8C%AF_Mid-autumn_Festival_Lantern_Carnival_September_2026_N13P_203.jpg) |
 | trung-thu/gallery2.webp | YaEeBondZ 002 | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:HK_CWB_Causeway_Bay_%E7%B6%AD%E5%9C%92_Victoria_Park_%E4%B8%AD%E7%A7%8B%E7%AF%80%E7%87%88%E5%8C%AF_Mid-autumn_Festival_Lantern_Carnival_September_2026_N13P_208.jpg) |
 | trung-thu/gallery3.webp | YaEeBondZ 002 | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:HK_CWB_Causeway_Bay_%E7%B6%AD%E5%9C%92_Victoria_Park_%E4%B8%AD%E7%A7%8B%E7%AF%80%E7%87%88%E5%8C%AF_Mid-autumn_Festival_Lantern_Carnival_September_2026_N13P_209.jpg) |
-| trung-thu/hero.webp | Junelee | CC BY-SA 1.0 | [Commons](https://commons.wikimedia.org/wiki/File:Mooncake1.jpg) |
-| trung-thu/hero.webp | Ting W. Chang from Taipei, Taiwan | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:2008_Taiwan_Lantern_Festival_is_held_at_Tainan_County.jpg) |
+| trung-thu/amthuc-banh-nuong.webp | Binh Giang | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Vietnam_Grilled_moon_cake.JPG) |
+| trung-thu/amthuc-banh-deo.webp | Khương Việt Hà | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:B%C3%A1nh_trung_thu.JPG) |
+| trung-thu/amthuc-tra.webp | VuThiAnh | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Tra_sen_-_Vietnamese_Lotus_Tea.JPG) |
+| trung-thu/amthuc-mam-trai-cay.webp | Nguyenmanhhung3831 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Mam_Ngu_Qua_1.tif) |
+| trung-thu/amthuc-banh-in.webp | Viethavvh | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:C%E1%BB%97_trung_thu.JPG) |
+| trung-thu/phongtuc-den-ong-sao.webp | Newone | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:%C4%90%C3%A8n_l%E1%BB%93ng_th%E1%BB%8F_Trung_Thu_kh%E1%BB%95ng_l%E1%BB%93_Times_City.jpg) |
+| trung-thu/gallery4.webp | Shajinss | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Night_sky_with_beautiful_moon.jpg) |
+| trung-thu/hero.webp | doctorho | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lanterns_at_Mid-Autumn_Festival,_Hong_Kong;_September_2013_(03).jpg) |
+| trung-thu/gallery5.webp | Dragfyre | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Mid-Autumn_Star_DN.JPG) |
+| trung-thu/gallery6.webp | Violetbonmua | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Star-shape_lanterns_in_Vietnam.jpg) |
 | giang-sinh/card.webp | Lechhansl | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Rockefeller_Center_christmas_tree.jpg) |
-| giang-sinh/gallery1.webp | Benh LIEU SONG (Flickr) | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Galerie_Lafayette_Haussmann_Dome.jpg) |
 | giang-sinh/gallery2.webp | Noah Wulf | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Christmas_Tree_Angel.jpg) |
 | giang-sinh/gallery3.webp | Noah Wulf | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Golden_Christmas_Tree_Ornament.jpg) |
-| giang-sinh/hero.webp | Kim Hansen | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Viborg_Christmas_street_illumination_2010-11-30.jpg) |
+| giang-sinh/amthuc-ga-nuong.webp | Qualit-E at English Wikipedia | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:ChristmasDinnerScotland.jpg) |
+| giang-sinh/amthuc-buche.webp | Vi..Cult... | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Buche_de_Noel_decoree.jpg) |
+| giang-sinh/amthuc-lau.webp | Green Mostaza | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Hot_pot_(1),_AA_Yau_Tsim_Mong_2013.jpg) |
+| giang-sinh/amthuc-banh-quy-gung.webp | Gaetan Lee | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Gingerbread_men.jpg) |
+| giang-sinh/gallery4.webp | Chris Olszewski | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Christmas_decorations_in_Queen_Street_Mall,_Brisbane,_2025,_02.jpg) |
+| giang-sinh/gallery6.webp | midnightbreakfastcafe | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Christmas_lights_and_Xinzhongshan_Stage_20201230.jpg) |
+| giang-sinh/hero.webp | Peter Addor from underway; mailnly Switzerland, Italy and Sri Lanka, world | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Xmas_Eve_in_front_of_the_St._Joseph_Cathedral_in_Hanoi_(39251039582).jpg) |
+| giang-sinh/gallery1.webp | Bùi Thụy Đào Nguyên | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Nh%C3%A0_th%E1%BB%9D_C%C3%A1i_%C4%90%C3%B4i.png) |
+| giang-sinh/gallery5.webp | Vuong Tri Binh | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Christmas_decorations_in_Ecopark_for_2014_02.jpg) |
 | home-hero/card.webp | Christophe95 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lanterns_in_Hoi_An_2.jpg) |
 | home-hero/gallery1.webp | Christophe95 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lanterns_in_Hoi_An_3.jpg) |
 | home-hero/gallery2.webp | Christophe95 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lanterns_in_Hoi_An_1.jpg) |
 | home-hero/gallery3.webp | Christophe95 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lanterns_in_Hoi_An_4.jpg) |
 | home-hero/hero.webp | Christophe95 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lanterns_in_Hoi_An_5.jpg) |
 | birthday/hero.webp | Prayitno / Thank you for (12 millions +) view from Los Angeles, USA | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lady_bug_birthday_cake.jpg) |
-| birthday/hero.webp | Geoffreyrabbit | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Mother%27s_birthday_cake_in_birthday_dinner.jpg) |
-| scenery/hero.webp | Łukasz Golowanow &amp; Maciek Hypś, Konflikty.pl | Attribution | [Commons](https://commons.wikimedia.org/wiki/File:F-16_Solo_Display_Team_Radom_2009_b.JPG) |
+| scenery/hero.webp | Łukasz Golowanow & Maciek Hypś, Konflikty.pl | Attribution | [Commons](https://commons.wikimedia.org/wiki/File:F-16_Solo_Display_Team_Radom_2009_b.JPG) |
 | scenery/card.webp | Daniel Schwen | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Seattle_3.jpg) |
 | scenery/gallery1.webp | Steven C. Price | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ha-Long-Bay5.jpg) |
 | scenery/gallery2.webp | Steven C. Price | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ha-Long-Bay3.jpg) |
 | scenery/gallery3.webp | Steffen Schmitz (more photos) | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:H%E1%BA%A1_Long_Bay,_Ti_T%E1%BB%91p_Island,_2020-01_CN-01.jpg) |
-| scenery/hero.webp | Thomas Hirsch / User:Ravn | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Halong_Bay_in_Vietnam.jpg) |
 | ong-cong-ong-tao/hero.webp | Ian Simons | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Carp_Pond_-_geograph.org.uk_-_651649.jpg) |
 | ong-cong-ong-tao/card.webp | Mick Lobb | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Nursery_Pond,_Hazlecourt_Fish_Pond_-_Llysworney_-_geograph.org.uk_-_1264196.jpg) |
-| ong-cong-ong-tao/gallery1.webp | Acabashi | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:City_of_London_Cemetery_-_Koi_carp_in_the_new_crematorium_pond_01.jpg) |
 | ong-cong-ong-tao/gallery2.webp | Ermell | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Weisendorf_carp_pond_17RM1668-PSD.jpg) |
 | ong-cong-ong-tao/gallery3.webp | Acabashi | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Highdown_Gardens,_Worthing,_Cave_Pond_carp_1.jpg) |
-| ong-cong-ong-tao/hero.webp | Wikimedia Commons | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Japanese_water_garden_with_carp.jpg) |
+| ong-cong-ong-tao/amthuc-mam-com-tao.webp | Bùi Thụy Đào Nguyên | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:B%C3%A0n_th%E1%BB%9D_%C4%90%E1%BB%97_C%C3%B4ng_T%C6%B0%E1%BB%9Dng.jpg) |
+| ong-cong-ong-tao/amthuc-ca-chep.webp | Dezidor | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Cyprinus_carpio.jpeg) |
+| ong-cong-ong-tao/amthuc-vang-ma.webp | Phương Huy | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:V%C3%A0ng_m%C3%A3_c%C3%BAng_t%E1%BA%A5t_ni%C3%AAn_M%E1%BA%ADu_Tu%E1%BA%A5t_2018.jpg) |
+| ong-cong-ong-tao/amthuc-che-xoi.webp | Phương Huy | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:T%E1%BA%BFt_2023_(m%C3%A2m_c%C3%BAng_giao_th%E1%BB%ABa,_x%C3%B4i_g%E1%BA%A5c_v%C3%A0_ch%C3%A8_%C4%91%E1%BA%ADu_xanh_%C4%91%C3%A1nh)_(4).jpg) |
+| ong-cong-ong-tao/gallery5.webp | Yaroslava Kotenko | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Goldf.jpg) |
+| ong-cong-ong-tao/gallery1.webp | Bùi Thụy Đào Nguyên | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:C%C3%A1_Ch%C3%A9p_tr%C3%AAn_n%C3%BAi_C%E1%BA%A5m.jpg) |
+| ong-cong-ong-tao/gallery4.webp | Phương Huy | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:%C4%90%E1%BB%93_%C4%91%E1%BB%91t_v%C3%A0ng_m%C3%A3_v%C3%A0o_r%E1%BA%B1mg_th7,_ng24th8n2022.jpg) |
+| ong-cong-ong-tao/gallery6.webp | Tho nau at Vietnamese Wikipedia | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:L%C4%83ng_M%E1%BA%A1c_C%E1%BB%ADu.JPG) |
 | tet-han-thuc/hero.webp | Titti Nguyen | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Tet_offerings,_Hue_2011.jpg) |
 | tet-han-thuc/card.webp | Conbo at vi.wikipedia | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Banhchay.JPG) |
 | tet-han-thuc/gallery1.webp | Conbo at vi.wikipedia | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Banhtroi.JPG) |
 | tet-han-thuc/gallery2.webp | Lachy70 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:B%C3%A1nh_tr%C3%B4i_n%C6%B0%E1%BB%9Bc.png) |
-| tet-han-thuc/gallery2.webp | Lachy70 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:HanNomKhaiSample.png) |
-| tet-han-thuc/gallery2.webp | Violetbonmua | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Sunset_4.jpg) |
 | tet-han-thuc/gallery3.webp | Lachy70 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:B%C3%A1nh_tr%C3%B4i_n%C6%B0%E1%BB%9Bc.png) |
-| tet-doan-ngo/hero.webp | Matt @ PEK from Taipei, Taiwan | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:In_suite_breakfast_experience_(3119861609).jpg) |
+| tet-han-thuc/amthuc-banh-troi.webp | Lachy70 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:B%C3%A1nh_Tr%C3%B4i_N%C6%B0%E1%BB%9Bc.png) |
+| tet-han-thuc/amthuc-mam-cung.webp | Phương Huy (thảo luận) | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:C%C3%BAng_giao_th%E1%BB%ABa_n%C4%83m_2010_(4).JPG) |
+| tet-han-thuc/amthuc-banh-chay.webp | Conbo at vi.wikipedia | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Banhchay.JPG) |
+| tet-han-thuc/gallery4.webp | Junyu-K | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:202501_%E6%A1%82%E8%8A%B1%E8%9C%9C%E7%B6%9C%E5%90%88%E6%B9%AF%E5%9C%93%E5%88%A8%E5%86%B0,Aka_%E5%86%B0%E7%81%AB%E6%B9%AF%E5%9C%93.jpg) |
+| tet-han-thuc/gallery6.webp | Benh LIEU SONG | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Saint_Chely_Tarn.jpg) |
+| tet-han-thuc/gallery5.webp | Phương Huy (thảo luận) | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:B%C3%A1nh_bao_chay_ng%E1%BB%8Dt_c%C3%BAng_t%E1%BA%A5t_ni%C3%AAn_nh%C3%A0_m%E1%BB%87_2018.jpg) |
 | tet-doan-ngo/card.webp | babinbubun | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Start_your_day.jpg) |
 | tet-doan-ngo/gallery1.webp | JIP | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Spring_rolls_and_lychee_juice_at_restaurant_Nam_Nam_in_Munich.jpg) |
 | tet-doan-ngo/gallery2.webp | TopTropicals.com | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Litchi_chinensis_-_Lychee_(52334448851).jpg) |
 | tet-doan-ngo/gallery3.webp | rajucreddy | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Exotic_Lychee_Cluster_By_Raju_C_Reddy.jpg) |
+| tet-doan-ngo/amthuc-trung-luoc.webp | Wikisearcher | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Boiled_eggs,_increasing_in_boiling_time_from_left_to_right.jpg) |
+| tet-doan-ngo/amthuc-com-ruou.webp | Jess Lander from Los Angeles, CA, USA | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Comruou.jpg) |
+| tet-doan-ngo/amthuc-banh-tro.webp | Viethavvh (thảo luận) | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:B%C3%A1nh_tro_m%E1%BA%ADt_m%C3%ADa.jpg) |
+| tet-doan-ngo/amthuc-trai-cay-chua.webp | Carlquist, Sherwin John, 1930-2021 | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:(Litchi_chinensis_fruit_in_Lihue,_United_States)_-_DPLA_-_31bdd4d2bf6efcdd3475ff9577fcf1fb.jpg) |
+| tet-doan-ngo/gallery4.webp | PattayaPatrol | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:DSCF0844_A_colorful_pile_of_fresh_rambutans_with_hairy_red-and-green_shells.jpg) |
+| tet-doan-ngo/gallery5.webp | Phương Huy | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:R%C6%B0%E1%BB%A3u_n%E1%BA%BFp_c%C3%A1i_hoa_v%C3%A0ng_%E1%BB%9F_%C4%90%C3%B4ng_H%C3%A0,_T%E1%BA%BFt_n%C4%83m_2019_(2).jpg) |
+| tet-doan-ngo/hero.webp | Bùi Thụy Đào Nguyên | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:M%E1%BB%99t_s%E1%BB%91_tr%C3%A1i_c%C3%A2y_Vi%E1%BB%87t_Nam.jpg) |
+| tet-doan-ngo/gallery6.webp | Donald Trung | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Food_offerings_for_the_Mid-Autumn_festival_in_Ecopark_(2017).jpg) |
 | ngay-thay-thuoc/hero.webp | Arthur William Devis | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:The_Death_of_Nelson,_21_October_1805_RMG_L8118.jpg) |
 | ngay-thay-thuoc/card.webp | Arthur William Devis | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:The_Death_of_Nelson,_21_October_1805_RMG_BHC2894.tiff) |
-| ngay-thay-thuoc/gallery1.webp | Wikimedia Commons | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:White_Coats_for_Black_Lives_demonstration_-_DPLA_-_f6c5939a0a0114cce310a82f836cc8f8.jpg) |
 | ngay-thay-thuoc/gallery2.webp | Wikimedia Commons | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:White_Coats_for_Black_Lives_demonstration_-_DPLA_-_961dc2c03002624c35c616ad2bd432ba.jpg) |
 | ngay-thay-thuoc/gallery3.webp | David E. Lucas | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:1,000th_open-heart_surgery_patient_-_DPLA_-_1f3814906333d7b97509c6770c1322eb.jpg) |
-| ngay-thay-thuoc/hero.webp | Nenad Stojkovic | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Female_doctor_putting_protective_medical_gloves_closeup._(51404981053).jpg) |
-| ngay-thay-thuoc/card.webp | Benlisquare | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Loss,_in_first-person_view.png) |
-| ngay-thay-thuoc/card.webp | ernstl | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Stethoscope_1.jpg) |
+| ngay-thay-thuoc/gallery5.webp | Shixart1985 | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Child_receiving_a_medical_checkup_in_a_clinic_with_a_doctor_using_a_stethoscope.jpg) |
+| ngay-thay-thuoc/gallery6.webp | Bùi Thụy Đào Nguyên | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:M%E1%BB%99t_ph%C3%B2ng_thu%E1%BB%91c_Nam.jpg) |
+| ngay-thay-thuoc/gallery1.webp | Petty Officer 1st Class trevor andersen | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Navy_doctors_from_USNS_Mercy_perform_joint_replacement_surgery_in_Vietnam_during_Pacific_Partnership_2015_150818-N-UQ938-107.jpg) |
+| ngay-thay-thuoc/gallery4.webp | U.S. Navy photo by Lt. Cmdr. Arwen Consaul | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:US_Navy_100604-N-0827C-001_Dentists_remove_a_tooth_from_a_Vietnamese_patient_during_a_Pacific_Partnership_2010_medical_community_service_project.jpg) |
 | ngay-bao-chi/hero.webp | Sue Clark | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Double_Octuple_Newspaper_Press.jpg) |
 | ngay-bao-chi/card.webp | David Brewer from Brookmans Park, England | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:2010_newspaper_press_Bulawayo_Zimbabwe_6423798769.jpg) |
-| ngay-bao-chi/gallery1.webp | George S. Turnbull | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:First_newspaper_press_in_the_American_west.png) |
-| ngay-bao-chi/gallery2.webp | ScribblingAl | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:City_Press_newspaper_logo.jpg) |
-| ngay-bao-chi/gallery3.webp | Newspapers.com | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Etching_of_newspaper_printing_press_in_use_United_States_1878.jpg) |
-| ngay-bao-chi/hero.webp | Daniel R. Blume from Orange County, California, USA | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:A_stack_of_newspapers_(cropped).jpg) |
-| ngay-bao-chi/gallery1.webp | Daniel R. Blume from Orange County, California, USA | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:A_stack_of_newspapers.jpg) |
-| ngay-bao-chi/gallery2.webp | Globalimmigrantnews | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Newspaper_stack.jpg) |
-| ngay-bao-chi/gallery3.webp | ElCapitanBSC | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Newspaper_Cones_2009_(3890107375).jpg) |
+| ngay-bao-chi/gallery4.webp | Wikimedia Commons | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:The_rotary_press_of_newspaper_Hufvudstadsbladet_1927_(Numeroimaton;_JOKAHBL3A_A01-19).tif) |
+| ngay-bao-chi/gallery5.webp | New York-air | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Newsroom_ARD-aktuell.jpg) |
+| ngay-bao-chi/gallery6.webp | Matti Blume | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Mille_Miglia_2018_press_conference,_Le_Grand-Saconnex_(1X7A9542).jpg) |
+| ngay-bao-chi/gallery1.webp | Ngô Trung | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:S%E1%BA%A1p_b%C3%A1o.JPG) |
+| ngay-bao-chi/gallery2.webp | TaiwaneseWaveVN | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:S%E1%BA%A1p_b%C3%A1o_110A1_%C4%91%C6%B0%E1%BB%9Dng_Gi%E1%BA%A3ng_V%C3%B5,_qu%E1%BA%ADn_Ba_%C4%90%C3%ACnh,_H%C3%A0_N%E1%BB%99i_(A_newspaper_kiosk_at_110A1_Giang_Vo_Road,_Ba_Dinh_District,_Hanoi,_Vietnam).jpg) |
+| ngay-bao-chi/gallery3.webp | Unknown authorship, published before 1945. | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:King_Bao_Dai_visited_the_Archives_and_Library_of_Indochina_in_1933_(taken_at_the_Central_Library).jpg) |
 | nguoi-cao-tuoi/hero.webp | . The original uploader was MoodyGroove at English Wikipedia. | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Clinton_health_care_elderly.jpg) |
 | nguoi-cao-tuoi/card.webp | Cpl. Cullen J. Tiernan | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:USMC-100810-M-8743T-217.jpg) |
 | nguoi-cao-tuoi/gallery1.webp | Wikimedia Commons | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Nicaraguan_Residents_Receive_Care_at_High_School_Clinic_During_Continuing_Promise_2008_DVIDS109439.jpg) |
 | nguoi-cao-tuoi/gallery2.webp | Tim Green from Bradford | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Literary_Institute,_Camborne_(9592703552).jpg) |
 | nguoi-cao-tuoi/gallery3.webp | Print made by: Isaac Cruikshank After: George Moutard Woodward Published by: S W Fores | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Symptoms_of_Crim._Con.!!_(BM_1935,0522.8.39).jpg) |
-| nguoi-cao-tuoi/hero.webp | Onderwijsgek | CC BY-SA 2.5 nl | [Commons](https://commons.wikimedia.org/wiki/File:Bench_autumn.JPG) |
-| nguoi-cao-tuoi/card.webp | Onderwijsgek | CC BY-SA 2.5 nl | [Commons](https://commons.wikimedia.org/wiki/File:Bench_autumn_02.JPG) |
-| nguoi-cao-tuoi/gallery2.webp | Onderwijsgek | CC BY-SA 2.5 nl | [Commons](https://commons.wikimedia.org/wiki/File:Bench_autumn_03.JPG) |
-| nguoi-cao-tuoi/gallery3.webp | Johan Jönsson (Julle) | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Park_bench,_Stralau.jpg) |
+| nguoi-cao-tuoi/amthuc-xoi-gac.webp | Nguyễn Thanh Quang 07:20, 3 December 2007 (UTC) | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:X%C3%B4i_g%E1%BA%A5c.JPG) |
+| nguoi-cao-tuoi/amthuc-che-tra.webp | Khương Việt Hà | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Trap_che_an_hoi_(Vietnam).JPG) |
+| nguoi-cao-tuoi/amthuc-mung-tho.webp | Nhan Lương (thảo luận) | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:B%C3%A0i_tr%C3%AD_cho_L%E1%BB%85_th%C6%B0%E1%BB%A3ng_th%E1%BB%8D.JPG) |
+| nguoi-cao-tuoi/gallery4.webp | Rodhullandemu | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Frontage_statues,_Oriel_%26_Hardie_House.jpg) |
+| nguoi-cao-tuoi/gallery5.webp | Rudolf Eickemeyer, Jr. | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:(Man_praying_over_meal)_by_Rudolf_Eickemeyer.jpg) |
+| nguoi-cao-tuoi/gallery6.webp | McKay Savage from London, UK | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Vietnam_08_-_082_-_My_smiling_tour_saleswoman_(3184027481).jpg) |
 | doanh-nhan/hero.webp | Diliff | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Sydney_skyline_at_dusk_-_Dec_2008.jpg) |
-| doanh-nhan/card.webp | Andrew McMillan. | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Central_Business_District_skyline,_Singapore,_at_night.jpg) |
 | doanh-nhan/gallery1.webp | Hpeterswald | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Sydney_City_Business_District.jpg) |
-| doanh-nhan/gallery2.webp | ProjectManhattan. | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Skyline_of_the_Central_Business_District,_Singapore,_featuring_Asia_Square_-_20131121.jpg) |
-| doanh-nhan/gallery3.webp | RM Bulseco from Davao City, Philippines. | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Central_Business_District_skyline,_Singapore,_at_night_-_20140215-03.jpg) |
+| doanh-nhan/gallery4.webp | Richard Allaway | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Freshwater_and_Urban_Environments_-_Port_and_shipyard_next_to_the_Central_Business_District_(CBD)_of_Ho_Chi_Minh_City,_Vietnam.jpg) |
+| doanh-nhan/card.webp | Diego Delso | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Bitexco_Financial_Tower,_Ciudad_Ho_Chi_Minh,_Vietnam,_2013-08-14,_DD_01.JPG) |
+| doanh-nhan/gallery2.webp | calflier001 | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:BEN_THANH_MARKET_SAIGON_VIETNAM_JAN_2012_(6966716295).jpg) |
+| doanh-nhan/gallery3.webp | Vu Linh | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Cau_Thu_thiem-tac_gia_concuarangme.jpg) |
+| doanh-nhan/gallery5.webp | namisito | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Mercedes-Benz-Vietnam_factory_workers_management.jpg) |
+| doanh-nhan/gallery6.webp | Cuong Tran | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Thu_Thiem_2_Bridge_construction.png) |
 | tet-thanh-minh/hero.webp | Zhang Zeduan (1085–1145) | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Qingming_Festival_Detail_2.jpg) |
 | tet-thanh-minh/card.webp | Zhang Zeduan (1085–1145) | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Qingming_Festival_Detail_3.jpg) |
 | tet-thanh-minh/gallery1.webp | Zhang Zeduan (1085–1145) | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Qingming_Festival_Detail_10.jpg) |
 | tet-thanh-minh/gallery2.webp | Zhang Zeduan (1085–1145) | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Qingming_Festival_Detail_11.jpg) |
 | tet-thanh-minh/gallery3.webp | Jacklee. | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Five_coloured_papers_on_a_grave_mound,_Bukit_Brown_Cemetery,_Singapore_-_20110326-01.jpg) |
-| ngay-thanh-lap-dang/hero.webp | Duykien | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Capture_communist_flags_in_Long_Hai_hills,_1968.jpg) |
+| tet-thanh-minh/amthuc-xoi.webp | Thang Nguyen from Nottingham, United Kingdom | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:X%C3%B4i_c%C3%BAc.jpg) |
+| tet-thanh-minh/amthuc-banh-nep.webp | Viethavvh | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:B%C3%A1nh_gi%E1%BA%A7y_ng%C5%A9_s%E1%BA%AFc.jpg) |
+| tet-thanh-minh/amthuc-hoa-qua.webp | Phương Huy (thảo luận) | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Hoa_qu%E1%BA%A3_c%C3%BAng_1_T%E1%BA%BFt_%E1%BB%9F_nh%C3%A0_m%E1%BB%87,_T%E1%BA%BFt_2018.jpg) |
+| tet-thanh-minh/gallery4.webp | Ethan Doyle White | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Incense_Sticks_at_Jogyesa.jpg) |
+| tet-thanh-minh/gallery5.webp | Dennis G. Jarvis | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:DGJ_0435_-_Dead_Man%27s_House_(3347317859).jpg) |
+| tet-thanh-minh/gallery6.webp | ChieuTimViet | CC BY 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ngh%C4%A9a_trang_LS_Tr%E1%BA%A3ng_B%C6%A1m_-_panoramio.jpg) |
 | ngay-thanh-lap-dang/card.webp | Vuong Tri Binh | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Flag_of_the_Communist_Party_of_Vietnam_at_the_Dien_Bien_Phu_street_in_2015_01.jpg) |
 | ngay-thanh-lap-dang/gallery1.webp | Vuong Tri Binh | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Flag_of_the_Communist_Party_of_Vietnam_at_the_Dien_Bien_Phu_street_in_2015_02.jpg) |
 | ngay-thanh-lap-dang/gallery2.webp | Jp16103 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Communist_Party_of_Vietnam_Poster_in_Hanoi.jpg) |
 | ngay-thanh-lap-dang/gallery3.webp | Thornfield Hall | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Vietnamese_Communist_Party_Flag.jpg) |
+| ngay-thanh-lap-dang/hero.webp | Indochinese Communist Party committee of Ninh Binh. Redrawn by Nghia7554 | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Communist_flag_on_Non_Nuoc_Mountain,_Ninh_Binh_(1929).png) |
+| ngay-thanh-lap-dang/gallery4.webp | Nguyễn Thanh Quang | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:%C4%90%C3%A0i_li%E1%BB%87t_s%E1%BB%B9_001_(Ba_%C4%90%C3%ACnh).JPG) |
+| ngay-thanh-lap-dang/gallery5.webp | Zennysmile | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lung_Cu_Flag_Tower.jpg) |
+| ngay-thanh-lap-dang/gallery6.webp | CEphoto, Uwe Aranas | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Hanoi_Vietnam_Ho-Chi-Minh-Museum-02.jpg) |
 | ngay-dien-bien-phu/hero.webp | Pilip from Hanoi, Vietnam | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Dien_Bien_Phu,_statue.jpg) |
 | ngay-dien-bien-phu/card.webp | Ioe2015 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:The_Victory_Monument_of_Dien_Bien_Phu_(front).jpg) |
 | ngay-dien-bien-phu/gallery1.webp | Ioe2015 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:The_Victory_Monument_of_Dien_Bien_Phu_(far).jpg) |
 | ngay-dien-bien-phu/gallery2.webp | Ioe2015 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:The_Victory_Monument_of_Dien_Bien_Phu_(front)_v2.jpg) |
 | ngay-dien-bien-phu/gallery3.webp | Adam Jones from Kelowna, BC, Canada | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Detail_of_Victory_Monument_-_Dien_Bien_Phu_-_Vietnam_(48159143826).jpg) |
+| ngay-dien-bien-phu/gallery4.webp | Adam Jones from Kelowna, BC, Canada | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Detail_of_Inscription_near_Victory_Monument_on_Hill_D1_(Dominique_2)_-_Dien_Bien_Phu_-_Vietnam_(48168823082).jpg) |
+| ngay-dien-bien-phu/gallery5.webp | Adam Jones from Kelowna, BC, Canada | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Concrete_Sign_for_Hill_D1_-_Near_Victory_Monument_-_Dien_Bien_Phu_-_Vietnam_(48168797266).jpg) |
+| ngay-dien-bien-phu/gallery6.webp | Adam Jones from Kelowna, BC, Canada | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Panorama_of_Dien_Bien_Phu_Exhibit_-_Vietnam_Military_History_Museum_-_Hanoi_-_Vietnam_(48072104916).jpg) |
 | ngay-sinh-nhat-bac/hero.webp | Gregor Dodson | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ho_chi_minh_mausoleum.jpg) |
 | ngay-sinh-nhat-bac/card.webp | CEphoto, Uwe Aranas | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Hanoi_Vietnam_Mausoleum-of-Ho-Chi-Minh-01.jpg) |
 | ngay-sinh-nhat-bac/gallery1.webp | CEphoto, Uwe Aranas | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Hanoi_Vietnam_Mausoleum-of-Ho-Chi-Minh-02.jpg) |
 | ngay-sinh-nhat-bac/gallery2.webp | CEphoto, Uwe Aranas | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Hanoi_Vietnam_Mausoleum-of-Ho-Chi-Minh-03.jpg) |
 | ngay-sinh-nhat-bac/gallery3.webp | Syced | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_mausoleum_in_2003.jpg) |
+| ngay-sinh-nhat-bac/gallery4.webp | Unknown authorUnknown author. | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Statues_of_fairies,_and_a_fairy_riding_a_dragon_(17th_century),_Vietnam_National_Museum_of_Fine_Arts,_Hanoi,_Vietnam_-_20131030.JPG) |
+| ngay-sinh-nhat-bac/gallery5.webp | Phương Huy (thảo luận) | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:H%E1%BB%93_sen_trung_t%C3%A2m_%E1%BB%9F_C%C3%B4ng_vi%C3%AAn_%C4%90%E1%BA%A7m_Sen_(1).JPG) |
+| ngay-sinh-nhat-bac/gallery6.webp | Richard Mortel from Riyadh, Saudi Arabia | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh%27s_Stilt_House,_Hanoi_(2)_(24622695398).jpg) |
 | ngay-cach-mang-thang-tam/hero.webp | Adam Jones Adam63 | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Opera_House_-_Hanoi_-_Vietnam.JPG) |
 | ngay-cach-mang-thang-tam/card.webp | Benoît Prieur | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Hanoi_Opera_House_-_2003.jpg) |
 | ngay-cach-mang-thang-tam/gallery1.webp | Nam-ho Park | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Hanoi_Opera_House_-_detail.jpg) |
 | ngay-cach-mang-thang-tam/gallery2.webp | Dennis G. Jarvis | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Hanoi_Opera_House_1.jpg) |
 | ngay-cach-mang-thang-tam/gallery3.webp | Schwede66 | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Hanoi_Opera_House_15.JPG) |
+| ngay-cach-mang-thang-tam/gallery4.webp | Richard Mortel from Riyadh, Saudi Arabia | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Hanoi_Opera_House,_1901-11_(2)_(37608221545).jpg) |
+| ngay-cach-mang-thang-tam/gallery5.webp | shankar s. from Dubai, united arab emirates | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:HCM_Mausoleum-_closed_as_his_preserved_body_wan%27t_it_(31454165115).jpg) |
+| ngay-cach-mang-thang-tam/gallery6.webp | The Hanoian | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Nh%C3%A0_h%C3%A1t_L%E1%BB%9Bn_H%C3%A0_N%E1%BB%99i_-_2022-09-02_01.jpg) |
 | ngay-giai-phong-thu-do/hero.webp | Chinasaur | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Flag_tower,_Hanoi.jpg) |
 | ngay-giai-phong-thu-do/card.webp | Jorge Láscar from Australia | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lascar_Flag_Tower_of_Hanoi_(4550324293).jpg) |
 | ngay-giai-phong-thu-do/gallery1.webp | Vuong Tri Binh | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Flag_Tower_of_Hanoi_viewed_from_the_museum_in_2014.jpg) |
 | ngay-giai-phong-thu-do/gallery2.webp | Richard Mortel from Riyadh, Saudi Arabia | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Flag_Tower_of_Hanoi,_1812_(2)_(37608528975).jpg) |
 | ngay-giai-phong-thu-do/gallery3.webp | Richard Mortel from Riyadh, Saudi Arabia | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Flag_Tower_of_Hanoi,_1812_(3)_(37608503235).jpg) |
+| ngay-giai-phong-thu-do/gallery4.webp | Richard Mortel from Riyadh, Saudi Arabia | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Flag_Tower_of_Hanoi,_1812_(4)_(24623083838).jpg) |
+| ngay-giai-phong-thu-do/gallery5.webp | katiebordner | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Central_Sector_of_the_Imperial_Citadel_of_Thang_Long_-_Hanoi.jpg) |
+| ngay-giai-phong-thu-do/gallery6.webp | Takeshi Aida from Hong Kong, Hong Kong | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Hoan_Kiem_Lake,_Turtle_Tower,_Daytime_(20231223)_(53489228584).jpg) |

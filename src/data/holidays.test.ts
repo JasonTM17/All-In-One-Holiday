@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 import { existsSync } from "node:fs";
 import { join } from "node:path";
 import { holidays, CATEGORY_LABELS } from "./holidays";
+import { holidaysEn } from "./holidays-en";
 import { nextOccurrence } from "@/lib/dates";
 import sitemap from "@/app/sitemap";
 import { imageCredits } from "./image-credits";
@@ -96,7 +97,7 @@ describe("holiday data integrity", () => {
 describe("holiday photos", () => {
   it("every holiday has hero/card/gallery images on disk in webp + avif", () => {
     for (const h of holidays) {
-      for (const kind of ["hero", "card", "gallery1", "gallery2", "gallery3"]) {
+      for (const kind of ["hero", "card", "gallery1", "gallery2", "gallery3", "gallery4", "gallery5", "gallery6"]) {
         for (const ext of ["webp", "avif"]) {
           const f = join(IMG_DIR, h.slug, `${kind}.${ext}`);
           expect(existsSync(f), `${h.slug}/${kind}.${ext} missing`).toBe(true);
@@ -116,7 +117,7 @@ describe("holiday photos", () => {
           expect(existsSync(f), `${h.slug}/hero-${w}.${ext} missing`).toBe(true);
         }
       }
-      for (const base of ["card", "gallery1", "gallery2", "gallery3"]) {
+      for (const base of ["card", "gallery1", "gallery2", "gallery3", "gallery4", "gallery5", "gallery6"]) {
         for (const ext of ["webp", "avif"]) {
           const f = join(IMG_DIR, h.slug, `${base}-480.${ext}`);
           expect(existsSync(f), `${h.slug}/${base}-480.${ext} missing`).toBe(true);
@@ -127,6 +128,41 @@ describe("holiday photos", () => {
         existsSync(join(IMG_DIR, h.slug, "hero-sm.webp")),
         `${h.slug}/hero-sm.webp should be deleted`,
       ).toBe(false);
+    }
+  });
+
+  it("every deep item img resolves to on-disk webp/avif + 480 derivatives", () => {
+    const checkImg = (slug: string, img: string, where: string) => {
+      expect(img, `${slug} ${where} img stem`).toMatch(/^[a-z0-9-]+$/);
+      for (const base of [img, `${img}-480`]) {
+        for (const ext of ["webp", "avif"]) {
+          const f = join(IMG_DIR, slug, `${base}.${ext}`);
+          expect(existsSync(f), `${slug}/${base}.${ext} missing (${where})`).toBe(
+            true,
+          );
+        }
+      }
+    };
+    for (const h of holidays) {
+      const seen = new Set<string>();
+      for (const a of h.deep.amThuc) {
+        // cuisine photo is optional (the card hides it gracefully); when
+        // present it must resolve to real derivatives and carry a credit
+        if (!a.img) continue;
+        expect(a.img!, `${h.slug} amThuc img prefix`).toMatch(/^amthuc-/);
+        expect(seen.has(a.img!), `${h.slug} dup img ${a.img}`).toBe(false);
+        seen.add(a.img!);
+        checkImg(h.slug, a.img!, `amThuc "${a.title}"`);
+        // a fetched photo must always carry attribution
+        const c = (imageCredits[h.slug] ?? []).find(
+          (c) => c.file === `${h.slug}/${a.img}.webp`,
+        );
+        expect(c, `${h.slug}/${a.img} has no credit`).toBeDefined();
+      }
+      for (const x of h.deep.phongTuc) {
+        // customs img is optional but must resolve when present
+        if (x.img) checkImg(h.slug, x.img, `phongTuc "${x.title}"`);
+      }
     }
   });
 
@@ -146,6 +182,115 @@ describe("holiday photos", () => {
       }
     }
   });
+  it("signature sections are well-formed for both locales", () => {
+    const validKinds = new Set(["steps", "meanings", "timeline", "legend"]);
+    for (const list of [holidays, holidaysEn]) {
+      for (const h of list) {
+        expect(h.signature, `${h.slug} missing signature`).toBeDefined();
+        expect(h.signature!.length).toBeGreaterThanOrEqual(1);
+        expect(h.signature!.length).toBeLessThanOrEqual(2);
+        for (const s of h.signature!) {
+          expect(validKinds.has(s.kind), `${h.slug} bad kind ${s.kind}`).toBe(
+            true,
+          );
+          expect(s.title.length).toBeGreaterThan(5);
+          if (s.kind === "steps") {
+            expect(s.steps.length).toBeGreaterThanOrEqual(3);
+            for (const st of s.steps) {
+              expect(st.icon.length).toBeGreaterThan(2);
+              expect(st.title.length).toBeGreaterThan(2);
+              expect(st.text.length).toBeGreaterThan(20);
+            }
+          } else if (s.kind === "meanings") {
+            expect(s.items.length).toBeGreaterThanOrEqual(3);
+            for (const m of s.items) {
+              expect(m.swatch).toMatch(/^#[0-9a-f]{6}$/i);
+              expect(m.title.length).toBeGreaterThan(1);
+              expect(m.text.length).toBeGreaterThan(20);
+            }
+          } else if (s.kind === "timeline") {
+            expect(s.beats.length).toBeGreaterThanOrEqual(3);
+            for (const b of s.beats) {
+              expect(b.year.length).toBeGreaterThan(0);
+              expect(b.title.length).toBeGreaterThan(2);
+              expect(b.text.length).toBeGreaterThan(20);
+            }
+          } else {
+            expect(s.lead.length).toBeGreaterThan(20);
+            expect(s.paragraphs.length).toBeGreaterThanOrEqual(1);
+            for (const p of s.paragraphs) expect(p.length).toBeGreaterThan(60);
+          }
+        }
+      }
+    }
+  });
+
+  it("quotes are always attributed; EN quotes note their translation", () => {
+    for (const h of holidays) {
+      for (const q of h.quotes ?? []) {
+        expect(q.text.length, `${h.slug} quote text`).toBeGreaterThan(8);
+        expect(q.author.length, `${h.slug} quote author`).toBeGreaterThan(1);
+      }
+    }
+    for (const h of holidaysEn) {
+      for (const q of h.quotes ?? []) {
+        expect(q.text.length, `${h.slug} quote text`).toBeGreaterThan(8);
+        expect(q.author.length, `${h.slug} quote author`).toBeGreaterThan(1);
+        expect(
+          q.note,
+          `${h.slug} EN quote needs a translation note`,
+        ).toBeDefined();
+      }
+    }
+  });
+
+  it("vi/en parity: same slugs, same signature shape, same quote count, same heroStyle", () => {
+    expect(holidaysEn.length).toBe(holidays.length);
+    for (let i = 0; i < holidays.length; i++) {
+      const v = holidays[i];
+      const e = holidaysEn[i];
+      expect(e.slug).toBe(v.slug);
+      expect((e.signature ?? []).map((s) => s.kind)).toEqual(
+        (v.signature ?? []).map((s) => s.kind),
+      );
+      expect((e.quotes ?? []).length).toBe((v.quotes ?? []).length);
+      expect(e.heroStyle ?? null).toBe(v.heroStyle ?? null);
+      // step/beat counts mirror so the layouts line up
+      for (let j = 0; j < (v.signature ?? []).length; j++) {
+        const vs = v.signature![j];
+        const es = e.signature![j];
+        const vCount =
+          vs.kind === "steps"
+            ? vs.steps.length
+            : vs.kind === "meanings"
+              ? vs.items.length
+              : vs.kind === "timeline"
+                ? vs.beats.length
+                : vs.paragraphs.length;
+        const eCount =
+          es.kind === "steps"
+            ? es.steps.length
+            : es.kind === "meanings"
+              ? es.items.length
+              : es.kind === "timeline"
+                ? es.beats.length
+                : es.paragraphs.length;
+        expect(eCount, `${v.slug} section ${j} count`).toBe(vCount);
+      }
+    }
+  });
+
+  it("heroStyle values come from the known set", () => {
+    const ok = new Set(["classic", "split", "framed", "poster"]);
+    for (const list of [holidays, holidaysEn]) {
+      for (const h of list) {
+        if (h.heroStyle) {
+          expect(ok.has(h.heroStyle), `${h.slug} bad heroStyle`).toBe(true);
+        }
+      }
+    }
+  });
+
   it("every holiday image has a credit entry", () => {
     for (const h of holidays) {
       const list = imageCredits[h.slug] ?? [];

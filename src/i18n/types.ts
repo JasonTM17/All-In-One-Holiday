@@ -94,6 +94,22 @@ export interface Messages {
     next: string;
     heroAlt: (name: string) => string;
     galleryAlt: (name: string, n: number) => string;
+    /** aria-label on a photo trigger that opens the lightbox. */
+    viewPhoto: (name: string) => string;
+    /** aria-label on the lightbox close button and backdrop. */
+    closePhoto: string;
+    /** aria-label on the lightbox previous/next buttons. */
+    prevPhoto: string;
+    nextPhoto: string;
+    /** "Photo n of total" counter template shown in the lightbox. */
+    photoOf: string;
+    /** Eyebrow labels for signature sections by kind. */
+    signatureSteps: string;
+    signatureMeanings: string;
+    signatureTimeline: string;
+    signatureLegend: string;
+    /** Heading for the attributed-quotes section. */
+    quoteTitle: string;
     /** sr-only text naming the nearest occurrence date. */
     nearest: (date: string) => string;
   };

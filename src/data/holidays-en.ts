@@ -9,6 +9,19 @@ import type { Holiday } from "./holidays";
 export const holidaysEn: Holiday[] = [
   {
     slug: "tet-duong-lich",
+    signature: [
+      {
+        kind: "steps",
+        title: "One New Year's Eve, Vietnamese style",
+        steps: [
+          { icon: "home", title: "Year-end dinner", text: "A family meal that closes the year — retelling twelve months together, the wins and the regrets." },
+          { icon: "star", title: "The ten-second countdown", text: "Squares, walking streets and living rooms all count down 10…9…8. At zero, the whole city calls the new year's name." },
+          { icon: "fireworks", title: "First fireworks", text: "The year's first display blooms over the big cities — a greeting written in light for the 365 days ahead." },
+          { icon: "heart", title: "First wishes", text: "Calls, texts and first hugs of the year — whoever sends wishes first is said to 'first-foot' joy into your home." },
+          { icon: "book", title: "New-year resolutions", text: "Write down three things to change, fold the note away — and open it at year's end to see how far you came." },
+        ],
+      },
+    ],
     motif: "fireworks",
     name: "New Year's Day",
     dateMark: "01·01",
@@ -70,6 +83,38 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "tet-nguyen-dan",
+    heroStyle: "split",
+    signature: [
+      {
+        kind: "steps",
+        title: "Wrapping bánh chưng — four hands, one cake",
+        steps: [
+          { icon: "wheat", title: "Soak the rice, wash the leaves", text: "Sticky rice soaks overnight so the grains swell evenly; dong leaves are washed and wilted until pliable." },
+          { icon: "book", title: "Layer the filling square", text: "Leaves fanned out, then rice — mung bean — pork — mung bean — rice, folded corner to corner into a tidy block." },
+          { icon: "ribbon", title: "Tie with bamboo strings", text: "Lạt strings bind it like a chessboard: tight enough to hold the square, loose enough for water to reach every grain." },
+          { icon: "candle", title: "Boil through the night", text: "Ten to twelve hours over a wood fire on New Year's Eve — when the cake is done, the new year has arrived." },
+        ],
+      },
+      {
+        kind: "meanings",
+        title: "The five-fruit tray — five fruits, one wish",
+        items: [
+          { swatch: "#4d7c0f", title: "Green banana cluster", text: "A full hand of fruit laid at the base like an open palm — the wish to gather and shelter the family." },
+          { swatch: "#ea580c", title: "Pomelo & orange", text: "Round golden fruit for wholeness; 'cam' (orange) also echoes a word of good luck." },
+          { swatch: "#dc2626", title: "Peach & persimmon", text: "The red of spring sky and earth — luck, plenty and new-year cheer." },
+          { swatch: "#65a30d", title: "Fig (sung)", text: "'Sung' sounds like 'sung túc' — plenty and sufficiency for the year ahead." },
+          { swatch: "#a16207", title: "Buddha's hand & custard apple", text: "The citron shaped like a blessing hand; 'cầu' in 'mãng cầu' means to pray for peace." },
+        ],
+      },
+    ],
+    quotes: [
+      {
+        text: "First day — Father's Tết; second day — Mother's; third day — Teacher's.",
+        author: "Folk verse (ca dao)",
+        work: "Tết counting rhyme",
+        note: "Translation of: 'Mồng một tết cha, mồng hai tết mẹ, mồng ba tết thầy.'",
+      },
+    ],
     motif: "lantern",
     name: "Lunar New Year (Tết)",
     dateMark: "Day One",
@@ -108,7 +153,7 @@ export const holidaysEn: Holiday[] = [
         "Legend says that under the sixth Hùng king, a contest of offerings was held in which Prince Lang Liêu created bánh chưng and bánh giầy — square and round cakes symbolizing earth and sky. To this day Tết remains the cultural heart of the nation: New Year's Eve rites, first-footing, lucky money and ancestral offerings — a closed circle of rituals built around one word: 'sum họp', reunion.",
       ],
       phongTuc: [
-        { title: "Wrapping and simmering cakes", text: "From the 27th–28th of the last lunar month, the whole family washes dong leaves, rinses glutinous rice and stays up all night tending the pot — the most sacred household rite of Tết." },
+        { title: "Wrapping and simmering cakes", text: "From the 27th–28th of the last lunar month, the whole family washes dong leaves, rinses glutinous rice and stays up all night tending the pot — the most sacred household rite of Tết.", img: "amthuc-banh-chung" },
         { title: "New Year's Eve offering (trừ tịch)", text: "At exactly midnight on the last night, the head of the household burns incense inviting the ancestors home for Tết. Many families also set an outdoor tray for heaven and earth." },
         { title: "First-footing (xông đất)", text: "The first person to step into the house after midnight is believed to set the family's luck for the whole year — hosts often pre-arrange a visitor of compatible age and good character." },
         { title: "Age wishes & lucky money", text: "Children offer longevity wishes to grandparents and parents; elders hand out red envelopes with new banknotes — a wish for a lucky new age." },
@@ -117,11 +162,11 @@ export const holidaysEn: Holiday[] = [
         { title: "Spring festivals", text: "From day 4–5 onwards come temple festivals, quan họ singing, wrestling and buffalo fights — 'the first month is the month of feasting and fun'." },
       ],
       amThuc: [
-        { title: "Bánh chưng (North), bánh tét (South)", text: "Square or cylindrical, sticky rice with pork and mung beans wrapped in leaves — the earth-and-sky cake at the center of the Tết altar." },
-        { title: "Caramelized pork & eggs, pickled onion (South)", text: "A pot of pork braised with eggs in coconut water eaten over the three days, with crisp pickled onion against the richness." },
-        { title: "Jellied pork, pickled shallots (North)", text: "Slices of clear jellied pork and sour pickled shallots — the cool, sharp counterpoint to a meat-heavy feast." },
-        { title: "Candied fruits & seeds", text: "A guest tray of candied ginger, coconut ribbons and red melon seeds — sweetness to open the words of blessing." },
-        { title: "Bamboo-shoot soup, giò & spring rolls", text: "Every household simmers bamboo-shoot soup with pork hock; giò lụa, chả quế and fried spring rolls fill the guest tray." },
+        { title: "Bánh chưng (North), bánh tét (South)", img: "amthuc-banh-chung", text: "Square or cylindrical, sticky rice with pork and mung beans wrapped in leaves — the earth-and-sky cake at the center of the Tết altar." },
+        { title: "Caramelized pork & eggs, pickled onion (South)", img: "amthuc-thit-kho-trung", text: "A pot of pork braised with eggs in coconut water eaten over the three days, with crisp pickled onion against the richness." },
+        { title: "Jellied pork, pickled shallots (North)", text: "Slices of clear jellied pork and sour pickled shallots — the cool, sharp counterpoint to a meat-heavy feast.", img: "amthuc-thit-dong" },
+        { title: "Candied fruits & seeds", img: "amthuc-mut-tet", text: "A guest tray of candied ginger, coconut ribbons and red melon seeds — sweetness to open the words of blessing." },
+        { title: "Bamboo-shoot soup, giò & spring rolls", img: "amthuc-nem-ran", text: "Every household simmers bamboo-shoot soup with pork hock; giò lụa, chả quế and fried spring rolls fill the guest tray." },
       ],
       facts: [
         "Legend says Prince Lang Liêu, under the sixth Hùng king, offered his father a square bánh chưng for the earth and a round bánh giầy for the sky — and won the throne with the most meaningful gift.",
@@ -140,6 +185,27 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "tet-nguyen-tieu",
+    heroStyle: "framed",
+    signature: [
+      {
+        kind: "steps",
+        title: "A first-full-moon afternoon",
+        steps: [
+          { icon: "temple", title: "First incense of the year", text: "The year's biggest full moon — from Hương Pagoda to the village temple, incense haze covers every lane." },
+          { icon: "star", title: "Star-offering rite", text: "Many families make offerings to the year's governing star, asking for smooth fortune." },
+          { icon: "heart", title: "Releasing creatures", text: "Birds to the sky, fish to the water — an early-year act of kindness toward all living things." },
+          { icon: "moonstar", title: "Chè trôi nước", text: "The rite ends with hot floating rice dumplings in ginger syrup — round and sweet like the full moon." },
+        ],
+      },
+    ],
+    quotes: [
+      {
+        text: "The first month is the month of feasting.",
+        author: "Folk saying (ngạn ngữ)",
+        work: "Months rhyme",
+        note: "Translation of: 'Tháng Giêng là tháng ăn chơi.'",
+      },
+    ],
     motif: "fullmoon",
     name: "First Full Moon Festival (Tết Nguyên Tiêu)",
     dateMark: "15·01",
@@ -180,14 +246,14 @@ export const holidaysEn: Holiday[] = [
       phongTuc: [
         { title: "Pagoda on the first full moon", text: "Temples are packed from early morning; people burn incense and pray for a peaceful year. Many families eat vegetarian food all day." },
         { title: "Ancestral offerings", text: "The full-moon tray holds xôi (sticky rice), sweet soup and fruit — offered to the ancestors as a 'closing word' to the spring rites." },
-        { title: "Eating chè trôi nước", text: "Round balls of glutinous rice with mung-bean filling in a hot ginger coconut broth. 'Trôi nước' means 'floating on water' — a symbol of completeness." },
+        { title: "Eating chè trôi nước", text: "Round balls of glutinous rice with mung-bean filling in a hot ginger coconut broth. 'Trôi nước' means 'floating on water' — a symbol of completeness.", img: "amthuc-che-troi-nuoc" },
         { title: "Admiring lanterns", text: "Hội An floats lanterns on the Hoài River and Chợ Lớn glows with lantern streets — the remaining trace of the old Nguyên Tiêu lantern fair." },
         { title: "Star-worship rites", text: "Many families hold a 'cúng sao giải hạn' ritual on the same day, praying to neutralize bad luck for the year ahead." },
       ],
       amThuc: [
-        { title: "Chè trôi nước", text: "The must-have of the first full moon: chewy rice-flour skin, mung-bean or sugar filling, in hot ginger syrup with coconut cream." },
-        { title: "A vegetarian full-moon tray", text: "Braised tofu, sautéed mushrooms, vegetable soup — many families keep the day meat-free to open a year of purity." },
-        { title: "Xôi & sweet-soup offerings", text: "A plate of sticky rice and a cup of sweet soup on the altar — the familiar offerings of every full moon in Vietnam." },
+        { title: "Chè trôi nước", img: "amthuc-che-troi-nuoc", text: "The must-have of the first full moon: chewy rice-flour skin, mung-bean or sugar filling, in hot ginger syrup with coconut cream." },
+        { title: "A vegetarian full-moon tray", img: "amthuc-co-chay", text: "Braised tofu, sautéed mushrooms, vegetable soup — many families keep the day meat-free to open a year of purity." },
+        { title: "Xôi & sweet-soup offerings", img: "amthuc-xoi-che", text: "A plate of sticky rice and a cup of sweet soup on the altar — the familiar offerings of every full moon in Vietnam." },
       ],
       facts: [
         "The name 'Nguyên Tiêu' means 'the first night' — the year's first full-moon night, when the moon is at its roundest and brightest.",
@@ -205,6 +271,21 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "valentine",
+    heroStyle: "split",
+    signature: [
+      {
+        kind: "meanings",
+        title: "The language of rose colors",
+        items: [
+          { swatch: "#e11d48", title: "Red rose", text: "Passionate love and a direct confession — the classic Valentine's bloom." },
+          { swatch: "#f472b6", title: "Pink rose", text: "Sweetness and admiration — for a feeling still blooming, not yet spoken." },
+          { swatch: "#fafaf9", title: "White rose", text: "Purity and respect; in some traditions also gentle remembrance." },
+          { swatch: "#facc15", title: "Yellow rose", text: "Friendship and care — lovely but easily misread, so choose the right person." },
+          { swatch: "#fb923c", title: "Orange rose", text: "Enthusiasm and energy — a wish for a love full of momentum." },
+          { swatch: "#a78bfa", title: "Lavender rose", text: "Fascination and adoration — often told as love at first sight." },
+        ],
+      },
+    ],
     motif: "heart",
     name: "Valentine's Day",
     dateMark: "14·02",
@@ -242,16 +323,16 @@ export const holidaysEn: Holiday[] = [
         "The poet Chaucer wrote in 1382 of 'Saint Valentine's day' as the time birds choose their mates — and from then on it became Europe's day of courtship. Mass-produced Valentine's cards appeared in 19th-century England and America. Imported into Vietnam in the late 20th century, February 14 is now the familiar day of roses and chocolate for couples.",
       ],
       phongTuc: [
-        { title: "Giving roses", text: "Red for burning love, pink for sweetness. Flower prices spike on February 14 but still sell out every year." },
+        { title: "Giving roses", text: "Red for burning love, pink for sweetness. Flower prices spike on February 14 but still sell out every year.", img: "gallery2" },
         { title: "Chocolate & handwritten cards", text: "The classic pair: a box of chocolate with a handwritten card. Many young people even make chocolates at home for their loved one." },
         { title: "Confessions & proposals", text: "Many choose February 14 to confess their love or propose — hoping for the most memorable anniversary of the year." },
         { title: "A special date", text: "Restaurants book out early; a candlelit dinner, a romantic film or a short trip reserved for two." },
         { title: "Valentine's for friends", text: "In Vietnam, close friends also gift each other on this day. Some countries also mark 'Galentine's' on February 13 — a day celebrating female friendship." },
       ],
       amThuc: [
-        { title: "Chocolate", text: "The first sweet people think of — bittersweet like love itself, usually wrapped in a heart-shaped box." },
-        { title: "Chocolate-dipped strawberries", text: "Red strawberries dipped in melted chocolate — a romantic dessert many couples make at home for their date." },
-        { title: "Heart-shaped cakes", text: "Red-and-pink heart cakes and cupcakes — the centerpiece of any couple's table." },
+        { title: "Chocolate", img: "amthuc-socola", text: "The first sweet people think of — bittersweet like love itself, usually wrapped in a heart-shaped box." },
+        { title: "Chocolate-dipped strawberries", img: "amthuc-dau-socola", text: "Red strawberries dipped in melted chocolate — a romantic dessert many couples make at home for their date." },
+        { title: "Heart-shaped cakes", img: "amthuc-banh-tim", text: "Red-and-pink heart cakes and cupcakes — the centerpiece of any couple's table." },
       ],
       facts: [
         "The first record linking February 14 to love is Chaucer's poem 'Parliament of Fowls' (1382) — before that it was only a saint's feast day.",
@@ -269,6 +350,37 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "quoc-te-phu-nu",
+    heroStyle: "split",
+    signature: [
+      {
+        kind: "timeline",
+        title: "From a New York street to the world's day",
+        beats: [
+          { year: "1908", title: "The New York march", text: "Some 15,000 garment workers — mostly women — marched for shorter hours, better pay and the vote." },
+          { year: "1910", title: "Clara Zetkin's proposal", text: "In Copenhagen, the German activist proposed a common international women's day — over 100 delegates from 17 countries agreed." },
+          { year: "1917", title: "Bread and peace", text: "Women workers struck in Petrograd on Feb 23 of the Julian calendar — March 8 in the new — opening a chain of events that changed Russia." },
+          { year: "1975", title: "UN recognition", text: "During International Women's Year, the UN formally celebrated March 8 worldwide." },
+        ],
+      },
+      {
+        kind: "meanings",
+        title: "Choosing flowers for March 8",
+        items: [
+          { swatch: "#e11d48", title: "Roses", text: "The clearest word of love and regard — for mothers, wives, sweethearts." },
+          { swatch: "#fb7185", title: "Carnations", text: "Gratitude — the flower of mothers and teachers." },
+          { swatch: "#f9a8d4", title: "Tulips", text: "Elegant and restrained — a courteous choice for colleagues and friends." },
+          { swatch: "#fbbf24", title: "Gerberas", text: "Smiles and fresh energy — the bouquet of cheerfulness." },
+        ],
+      },
+    ],
+    quotes: [
+      {
+        text: "Heroic — indomitable — faithful — capable.",
+        author: "Hồ Chí Minh",
+        work: "Eight golden words for the women of the South, March 8, 1965",
+        note: "Translation of: 'Anh hùng — Bất khuất — Trung hậu — Đảm đang.'",
+      },
+    ],
     motif: "rose",
     name: "International Women's Day",
     dateMark: "08·03",
@@ -331,6 +443,35 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "gio-to-hung-vuong",
+    heroStyle: "framed",
+    signature: [
+      {
+        kind: "legend",
+        title: "One hundred eggs — the dragon's sons, the fairy's children",
+        lead: "Lạc Long Quân, lord of the waters, married the mountain fairy Âu Cơ. She bore a pouch of one hundred eggs that hatched into one hundred sons.",
+        paragraphs: [
+          "In time Lạc Long Quân told Âu Cơ: I am of dragon kind, you of fairy kind — water and fire cannot dwell together long. They divided the children: she led fifty up the mountains, he led fifty down to the sea.",
+          "The eldest son who went with his mother was enthroned at Phong Châu as Hùng Vương — the first Hùng King, opening the Hồng Bàng era, Vietnam's dawn. Because all were born of one pouch, Vietnamese call each other đồng bào — 'of the same womb', children of dragon and fairy.",
+        ],
+      },
+      {
+        kind: "steps",
+        title: "Three beats of the Ancestral Festival",
+        steps: [
+          { icon: "temple", title: "Palanquins up Nghĩa Lĩnh", text: "At dawn on the 10th of the third lunar month, palanquin processions, flags and festival drums climb Nghĩa Lĩnh mountain to the Hùng temples." },
+          { icon: "candle", title: "Incense at the Upper Temple", text: "At Đền Thượng — where the Hùng Kings are said to have surveyed heaven and earth — the rite honors the founders of the nation." },
+          { icon: "lotus", title: "Sticky rice, chưng & giầy cakes", text: "The humblest offerings possible: sticky rice, bánh chưng, bánh giầy — the food of a rice-farming people since the first kings." },
+        ],
+      },
+    ],
+    quotes: [
+      {
+        text: "Wherever you wander, upstream or down / Remember the Ancestors' day — the tenth, third lunar moon.",
+        author: "Folk verse (ca dao)",
+        work: "Ancestral-festival verse",
+        note: "Translation of: 'Dù ai đi ngược về xuôi / Nhớ ngày Giỗ Tổ mồng Mười tháng Ba.'",
+      },
+    ],
     motif: "temple",
     name: "Hùng Kings' Commemoration Day",
     dateMark: "10·03",
@@ -376,9 +517,9 @@ export const holidaysEn: Holiday[] = [
         { title: "Trips 'back to the roots'", text: "Schools and youth unions organize pilgrimages to the Hùng Temple to learn how the nation was founded." },
       ],
       amThuc: [
-        { title: "Bánh chưng", text: "The square cake symbolizing the earth — the most sacred offering to the Hùng kings on this day." },
-        { title: "Bánh giầy", text: "Round cakes pressed from pounded sticky rice, symbolizing the sky — the inseparable partner of bánh chưng on the altar." },
-        { title: "Xôi & offering chicken", text: "Red gấc sticky rice and golden boiled chicken — the ancestors' tray in the traditional Tết style of Vietnamese offerings." },
+        { title: "Bánh chưng", text: "The square cake symbolizing the earth — the most sacred offering to the Hùng kings on this day.", img: "amthuc-banh-chung" },
+        { title: "Bánh giầy", img: "amthuc-banh-giay", text: "Round cakes pressed from pounded sticky rice, symbolizing the sky — the inseparable partner of bánh chưng on the altar." },
+        { title: "Xôi & offering chicken", img: "amthuc-xoi-ga", text: "Red gấc sticky rice and golden boiled chicken — the ancestors' tray in the traditional Tết style of Vietnamese offerings." },
       ],
       facts: [
         "The worship of the Hùng kings was recognized by UNESCO as an Intangible Cultural Heritage of Humanity in 2012.",
@@ -396,6 +537,27 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "tet-thanh-minh",
+    heroStyle: "framed",
+    signature: [
+      {
+        kind: "steps",
+        title: "Tending the graves, properly",
+        steps: [
+          { icon: "home", title: "Clear the grass, wash the stone", text: "Weeds around the grave are cleared, the headstone washed, and faded lettering touched up anew." },
+          { icon: "temple", title: "Add fresh earth, light incense", text: "New soil is heaped onto the mound — 'repairing the house' of the departed — then the first stick of incense is lit." },
+          { icon: "lotus", title: "Flowers and offerings", text: "Fresh flowers, betel, wine and the dishes the departed loved — simple offerings, a sincere heart." },
+          { icon: "heart", title: "Gather and remember", text: "Grave-tending is also a family reunion at the ancestral plot — old stories retold so the young know where they come from." },
+        ],
+      },
+    ],
+    quotes: [
+      {
+        text: "In the year there comes the Thanh Minh season / The rite is grave-tending, the festival — spring walking.",
+        author: "Nguyễn Du",
+        work: "The Tale of Kiều (Truyện Kiều)",
+        note: "Translation of: 'Trong năm có tiết thanh minh / Lễ là tảo mộ, hội là đạp thanh.'",
+      },
+    ],
     motif: "lotus",
     name: "Tết Thanh Minh (Tomb-Sweeping Day)",
     dateMark: "04·04–06",
@@ -442,9 +604,9 @@ export const holidaysEn: Holiday[] = [
         { title: "Walks in the clear season", text: "Thanh Minh is also the year's best walking weather; outings to the countryside and hometowns give the festival its gentle, springlike side." },
       ],
       amThuc: [
-        { title: "Xôi (sticky rice)", text: "Many regions offer xôi at tảo mộ — steamed sticky rice placed before the grave and on the home altar." },
-        { title: "Glutinous rice cakes", text: "Bánh khúc in the North or bánh ít and bánh phu thê elsewhere — leaf-wrapped glutinous cakes carried to the graves." },
-        { title: "Fruit, flowers, rice wine", text: "A small tray of seasonal fruit, chrysanthemums and a cup of rice wine — the simple offerings of tomb-sweeping." },
+        { title: "Xôi (sticky rice)", img: "amthuc-xoi", text: "Many regions offer xôi at tảo mộ — steamed sticky rice placed before the grave and on the home altar." },
+        { title: "Glutinous rice cakes", text: "Bánh khúc in the North or bánh ít and bánh phu thê elsewhere — leaf-wrapped glutinous cakes carried to the graves.", img: "amthuc-banh-nep" },
+        { title: "Fruit, flowers, rice wine", text: "A small tray of seasonal fruit, chrysanthemums and a cup of rice wine — the simple offerings of tomb-sweeping.", img: "amthuc-hoa-qua" },
       ],
       facts: [
         "Thanh Minh is not a lunar-calendar holiday — it follows a solar term, so its Gregorian date shifts each year between April 4 and April 6.",
@@ -463,6 +625,27 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "giai-phong-mien-nam",
+    heroStyle: "poster",
+    signature: [
+      {
+        kind: "timeline",
+        title: "The road to April 30",
+        beats: [
+          { year: "1954", title: "The Geneva Accords", text: "The country was temporarily split at the Bến Hải River: the North built socialism while the South continued the struggle." },
+          { year: "1973", title: "Paris Peace Accords", text: "American forces withdrew from the South; the balance on the battlefield shifted decisively." },
+          { year: "3·1975", title: "Spring General Offensive", text: "The Hồ Chí Minh Campaign opened: Buôn Ma Thuột, then Huế and Đà Nẵng were liberated within weeks." },
+          { year: "30·4·1975", title: "Tanks reach Saigon", text: "Near noon, tanks broke the gates of the Independence Palace — the South fully liberated, the nation reunited." },
+        ],
+      },
+    ],
+    quotes: [
+      {
+        text: "North and South, one family — no spring was ever happier.",
+        author: "Nguyễn Du",
+        work: "The Tale of Kiều (closing verse)",
+        note: "Translation of: 'Bắc Nam xum họp Xuân nào vui hơn.'",
+      },
+    ],
     motif: "star",
     name: "Reunification Day (April 30)",
     dateMark: "30·04",
@@ -524,6 +707,17 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "quoc-te-lao-dong",
+    signature: [
+      {
+        kind: "timeline",
+        title: "From Chicago to the world",
+        beats: [
+          { year: "1·5·1886", title: "The eight-hour strike", text: "Over 300,000 American workers stopped work for an eight-hour day; the Haymarket events days later became the movement's symbol." },
+          { year: "1889", title: "An international day", text: "The Second International's Paris congress chose May 1 as workers' day worldwide." },
+          { year: "1946", title: "Reaching Vietnam", text: "International Workers' Day formally entered the young republic's official holiday list." },
+        ],
+      },
+    ],
     motif: "wheat",
     name: "International Workers' Day (May 1)",
     dateMark: "01·05",
@@ -583,6 +777,27 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "ngay-cua-me",
+    heroStyle: "split",
+    signature: [
+      {
+        kind: "meanings",
+        title: "A flower for mother",
+        items: [
+          { swatch: "#e11d48", title: "Red carnation", text: "The deepest gratitude — Anna Jarvis chose the red carnation as the day's official flower in 1908." },
+          { swatch: "#f9a8d4", title: "Pink carnation", text: "Gentle and sweet — the bloom Jarvis herself gave her mother." },
+          { swatch: "#fafaf9", title: "White carnation", text: "In memory of a mother who has passed — a quiet remembrance." },
+          { swatch: "#f472b6", title: "Rose", text: "Love — fitting for a wife, a sister, or a partner newly become a mother." },
+          { swatch: "#a78bfa", title: "Orchids & gerberas", text: "Respect and brightness — a modern choice beside the carnation." },
+        ],
+      },
+    ],
+    quotes: [
+      {
+        text: "A father's labor is like Mount Thái Sơn / A mother's love like spring water flowing on.",
+        author: "Folk verse (ca dao)",
+        note: "Translation of: 'Công cha như núi Thái Sơn / Nghĩa mẹ như nước trong nguồn chảy ra.'",
+      },
+    ],
     motif: "carnation",
     name: "Mother's Day",
     dateMark: "Sun·2",
@@ -643,6 +858,26 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "quoc-te-thieu-nhi",
+    signature: [
+      {
+        kind: "steps",
+        title: "A child's day",
+        steps: [
+          { icon: "flag", title: "The opening ceremony", text: "Schools and children's palaces open wide — flags, drums, and performances staged by the children themselves." },
+          { icon: "ribbon", title: "Gifts and wishes", text: "Parents give small presents, teachers send warm words — on this day children truly are the main characters." },
+          { icon: "balloon", title: "Folk games", text: "Sack races, tug of war, tò he dough figurines — games grandparents played still live in schoolyards." },
+          { icon: "star", title: "A sweet ending", text: "Ice cream, cakes and paper firecrackers close the festival — a sweet memory every child carries into adulthood." },
+        ],
+      },
+    ],
+    quotes: [
+      {
+        text: "Children are buds on the branch / They eat, they sleep, they learn — that is being good.",
+        author: "Hồ Chí Minh",
+        work: "Poem for children",
+        note: "Translation of: 'Trẻ em như búp trên cành / Biết ăn, biết ngủ, biết học hành là ngoan.'",
+      },
+    ],
     motif: "balloon",
     name: "International Children's Day",
     dateMark: "01·06",
@@ -703,6 +938,26 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "ngay-gia-dinh-viet-nam",
+    heroStyle: "split",
+    signature: [
+      {
+        kind: "steps",
+        title: "The shared family meal",
+        steps: [
+          { icon: "home", title: "Market together", text: "Choose a dish for each person — the family meal tastes best when everyone has something chosen just for them." },
+          { icon: "heart", title: "Cook together", text: "Share the work: one picks the herbs, one tends the pot, the youngest lays the chopsticks — a busy kitchen is a warm one." },
+          { icon: "temple", title: "Wait for everyone", text: "Table manners begin here: wait until all are seated, invite the elders first — the meal teaches children their first courtesy." },
+          { icon: "book", title: "Stories of the day", text: "The table is where each person retells their day — a family holds together through very small stories." },
+        ],
+      },
+    ],
+    quotes: [
+      {
+        text: "Siblings are like hands and feet / Torn or whole, they shelter one another.",
+        author: "Folk verse (ca dao)",
+        note: "Translation of: 'Anh em như thể tay chân / Rách lành đùm bọc, dở hay đỡ đần.'",
+      },
+    ],
     motif: "home",
     name: "Vietnamese Family Day",
     dateMark: "28·06",
@@ -763,6 +1018,27 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "thuong-binh-liet-si",
+    heroStyle: "poster",
+    signature: [
+      {
+        kind: "steps",
+        title: "Candles of gratitude",
+        steps: [
+          { icon: "candle", title: "Candles at the cemeteries", text: "On the eve of July 27, candles are lit across the martyrs' cemeteries — one small light for every grave." },
+          { icon: "lotus", title: "Incense for the fallen", text: "Families and offices bring incense to graves and memorials — reading each name so none is forgotten." },
+          { icon: "heart", title: "Visiting families", text: "Real visits to wounded veterans and martyrs' mothers — asking after health, offering actual help, not just words." },
+          { icon: "book", title: "Searching and repatriating", text: "Many families still search for graves; the work of recovering martyrs' remains continues every year." },
+        ],
+      },
+    ],
+    quotes: [
+      {
+        text: "The nation and the people must know gratitude — must help those brave sons.",
+        author: "Hồ Chí Minh",
+        work: "Letter for National Wounded Soldiers' Day, July 27, 1947",
+        note: "Translation of: 'Tổ quốc, đồng bào phải biết ơn, phải giúp đỡ những người con anh dũng ấy.'",
+      },
+    ],
     motif: "candle",
     name: "War Invalids & Martyrs' Day",
     dateMark: "27·07",
@@ -824,6 +1100,34 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "vu-lan",
+    heroStyle: "framed",
+    signature: [
+      {
+        kind: "legend",
+        title: "Mục Liên saves his mother",
+        lead: "The monk Mục Kiền Liên attained enlightenment, searched for his late mother through all realms — and found her fallen among the hungry ghosts.",
+        paragraphs: [
+          "He sent down a bowl of rice, but greed had made her karma: the food turned to red coals, fire filling her mouth. Grief-stricken, Mục Liên returned to ask the Buddha for a way to free her.",
+          "The Buddha taught: one child's devotion alone is not enough. Offer a great alms to the whole monastic order as they end their retreat on the fifteenth of the seventh month — and the gathered merit will lift her from hunger. So the seventh-month full moon became Vu Lan, the season of filial devotion.",
+        ],
+      },
+      {
+        kind: "meanings",
+        title: "The rose pinned to the chest",
+        items: [
+          { swatch: "#e11d48", title: "Red rose", text: "Your parents still live — the red rose worn on the chest is a thank-you that they do." },
+          { swatch: "#fafaf9", title: "White rose", text: "Your mother has passed — the white rose reminds you to live worthy of her sacrifice." },
+          { swatch: "#facc15", title: "Yellow rose", text: "In some temples, yellow for those with only father or only mother left — half the blessing kept." },
+        ],
+      },
+    ],
+    quotes: [
+      {
+        text: "However grown a child may be, still a mother's child / Through all of life, a mother's heart follows on.",
+        author: "Folk verse (ca dao)",
+        note: "Translation of: 'Con dù lớn vẫn là con của mẹ / Đi hết đời lòng mẹ vẫn theo con.'",
+      },
+    ],
     motif: "lotus",
     name: "Vu Lan Festival",
     dateMark: "15·07",
@@ -861,7 +1165,7 @@ export const holidaysEn: Holiday[] = [
         "From India through China to Vietnam, Vu Lan merged with the folk custom of offerings to wandering souls on the 7th-month full moon — 'xá tội vong nhân' — and became the year's biggest season of filial piety. The distinctively Vietnamese touch is the ritual of pinning a rose on one's chest, started by Zen master Thích Nhất Hạnh in 1963: a red rose while your mother lives, a white one when she is gone.",
       ],
       phongTuc: [
-        { title: "Pinning a rose on the chest", text: "At the Vu Lan ceremony each attendee is pinned a rose: red for those whose mother lives, white for those whose mother has passed — the most moving moment of the festival." },
+        { title: "Pinning a rose on the chest", text: "At the Vu Lan ceremony each attendee is pinned a rose: red for those whose mother lives, white for those whose mother has passed — the most moving moment of the festival.", img: "phongtuc-bong-hong" },
         { title: "Vu Lan at the pagoda", text: "On the 15th of the 7th month, temples across the country hold grand ceremonies: chanting the Vu Lan sutra, dharma talks on motherhood, repentance and filial devotion." },
         { title: "Ancestral offerings", text: "A tray offered to grandparents and parents of both sides — praying for the living's peace and the departed's liberation." },
         { title: "Pardoning wandering souls", text: "The custom of offerings to 'cô hồn' — wandering spirits: thin rice soup, salt and fruit set in the yard for souls with no one to remember them." },
@@ -869,9 +1173,9 @@ export const holidaysEn: Holiday[] = [
         { title: "Going home to your parents", text: "Today Vu Lan is also 'Asian Mother's Day': children far from home return and hug their mothers — the simplest filial gift." },
       ],
       amThuc: [
-        { title: "A vegetarian tray", text: "Many families eat vegetarian food on the 7th-month full moon: tofu, mushrooms, vegetables, sweet soup — purity of body and mind dedicated to the parents." },
-        { title: "Thin rice soup & salt for the souls", text: "Thin rice soup, salt, rice and sweets set outside — the humble offerings of the wandering-souls tray." },
-        { title: "Fresh fruit for the Buddha", text: "Early-season fruit and lotus flowers offered on the altar — 'fruit from one's own garden' instead of lavish gifts." },
+        { title: "A vegetarian tray", text: "Many families eat vegetarian food on the 7th-month full moon: tofu, mushrooms, vegetables, sweet soup — purity of body and mind dedicated to the parents.", img: "amthuc-mam-co-chay" },
+        { title: "Thin rice soup & salt for the souls", img: "amthuc-chao-trang", text: "Thin rice soup, salt, rice and sweets set outside — the humble offerings of the wandering-souls tray." },
+        { title: "Fresh fruit for the Buddha", text: "Early-season fruit and lotus flowers offered on the altar — 'fruit from one's own garden' instead of lavish gifts.", img: "amthuc-dang-phat" },
       ],
       facts: [
         "'Vu Lan' comes from the Sanskrit Ullambana — 'rescuing those hung upside down', an image of the suffering of the hungry-ghost realm.",
@@ -889,6 +1193,42 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "quoc-khanh",
+    heroStyle: "poster",
+    signature: [
+      {
+        kind: "timeline",
+        title: "Four minutes that founded a nation",
+        beats: [
+          { year: "19·8·1945", title: "Hanoi rises", text: "The August General Uprising seized power in the capital — the whole country followed within two weeks." },
+          { year: "29·8·1945", title: "A provisional government", text: "The provisional government of the Democratic Republic of Vietnam was formed; Emperor Bảo Đại abdicated to become a citizen." },
+          { year: "2·9·1945", title: "Ba Đình, historic", text: "Before half a million people in Ba Đình Square, President Hồ Chí Minh read the Declaration of Independence — the DRV was born." },
+          { year: "2 p.m.", title: "The heard moment", text: "The Declaration was a single page — read in under four minutes — that closed eighty years of lost nationhood." },
+        ],
+      },
+      {
+        kind: "meanings",
+        title: "The new nation's 'firsts'",
+        items: [
+          { swatch: "#da251d", title: "The national flag", text: "The red flag with gold star was first recognized as the national flag of an independent Vietnam." },
+          { swatch: "#fbbf24", title: "The national anthem", text: "Văn Cao's 'Tiến quân ca' (Marching Song) was chosen as the anthem — sung that very day." },
+          { swatch: "#1d4ed8", title: "The first emblem", text: "Rice stalks for food, hoe for farmers, hammer for workers — the working people own the country." },
+        ],
+      },
+    ],
+    quotes: [
+      {
+        text: "Today, the second of September's dawn / The capital — golden flowers, Ba Đình sunlight.",
+        author: "Tố Hữu",
+        work: "Theo chân Bác (Following Uncle Hồ's Footsteps)",
+        note: "Translation of: 'Hôm nay sáng mồng Hai tháng Chín / Thủ đô hoa vàng nắng Ba Đình.'",
+      },
+      {
+        text: "Vietnam has the right to be free and independent — and in fact has become a free and independent nation.",
+        author: "Hồ Chí Minh",
+        work: "Declaration of Independence, September 2, 1945",
+        note: "Translation of: 'Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thật đã thành một nước tự do độc lập.'",
+      },
+    ],
     motif: "flag",
     name: "Vietnam National Day (September 2)",
     dateMark: "02·09",
@@ -951,6 +1291,42 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "trung-thu",
+    heroStyle: "split",
+    signature: [
+      {
+        kind: "legend",
+        title: "Chú Cuội and the hundred-year banyan",
+        lead: "Cuội owned a magic banyan whose leaves could raise the dead — but it must be watered only with clean water.",
+        paragraphs: [
+          "One day his wife watered it with dirty water, and the tree tore its roots and rose skyward. Cuội grabbed hold; man and tree landed on the moon — and ever since, every full moon shows his shape seated at the banyan root, gazing down.",
+          "Children on lantern parade look up for the dark patch in the moon: if the moon is bright tonight, Cuội is watching back.",
+        ],
+      },
+      {
+        kind: "steps",
+        title: "The moon-feast ritual",
+        steps: [
+          { icon: "moonstar", title: "Lay the tray under the moon", text: "Baked and soft mooncakes, carved pomelo, persimmons, bananas and new rice flakes — a feast set in the courtyard." },
+          { icon: "star", title: "Star-lantern parade", text: "Five-pointed star lanterns, carp lanterns, spinning 'troop' lanterns — a drumming procession of children through the streets." },
+          { icon: "heart", title: "Words made of fruit", text: "Letters are arranged on the tray from mung beans or fruit flesh — 'phúc', 'lộc', 'thọ' — a handmade prayer." },
+          { icon: "book", title: "Break the cakes, share the feast", text: "Late at night the mooncakes are split and shared — 'breaking the feast', each taking home a piece of the moon." },
+        ],
+      },
+    ],
+    quotes: [
+      {
+        text: "The star lantern — five bright wings of color.",
+        author: "Phạm Tuyên",
+        work: "Chiếc đèn ông sao (The Star Lantern), 1956",
+        note: "Translation of: 'Chiếc đèn ông sao, sao năm cánh tươi màu.'",
+      },
+      {
+        text: "Small age, small deeds — each according to their strength.",
+        author: "Hồ Chí Minh",
+        work: "Mid-Autumn letter to children, 1952",
+        note: "Translation of: 'Tuổi nhỏ làm việc nhỏ, tùy theo sức của mình.'",
+      },
+    ],
     motif: "moonstar",
     name: "Mid-Autumn Festival",
     dateMark: "15·08",
@@ -989,18 +1365,18 @@ export const holidaysEn: Holiday[] = [
       ],
       phongTuc: [
         { title: "Breaking the feast under the moon", text: "A tray is set in the moonlit yard: mooncakes, a pomelo carved into a crown, persimmons, custard apples. The family 'breaks' — shares — the feast while watching the moon." },
-        { title: "Star-lantern parades", text: "Children troop through the full-moon night with paper lanterns and star lanterns — candlelight, flashlights and the song 'rước đèn tháng tám'." },
+        { title: "Star-lantern parades", text: "Children troop through the full-moon night with paper lanterns and star lanterns — candlelight, flashlights and the song 'rước đèn tháng tám'.", img: "phongtuc-den-ong-sao" },
         { title: "Lion dances", text: "Lion-dance drums roll through the streets; troupes visit houses to dance a blessing and the children run along to watch." },
         { title: "Making lanterns", text: "Before the festival, many families and schools teach kids to make paper lanterns and star lanterns — keeping the lantern craft alive." },
-        { title: "Setting the moon tray", text: "Pomelos carved into crowns, fruit arranged into animal shapes — the Mid-Autumn tray is the folk art of presentation." },
-        { title: "Tea under the moon", text: "Adults chat over a hot pot of tea and soft snow-skin cakes — 'drinking tea and watching the moon' is the season's savor." },
+        { title: "Setting the moon tray", text: "Pomelos carved into crowns, fruit arranged into animal shapes — the Mid-Autumn tray is the folk art of presentation.", img: "amthuc-mam-trai-cay" },
+        { title: "Tea under the moon", text: "Adults chat over a hot pot of tea and soft snow-skin cakes — 'drinking tea and watching the moon' is the season's savor.", img: "amthuc-tra" },
       ],
       amThuc: [
-        { title: "Baked mooncakes (bánh nướng)", text: "Golden-brown crust with mixed, lotus-seed or salted-egg filling — the 'rich' cake of Mid-Autumn." },
-        { title: "Snow-skin mooncakes (bánh dẻo)", text: "Soft white sticky-rice-flour skin with lotus or mung-bean filling — the 'light' cake to eat with hot tea." },
-        { title: "Moon-viewing tea", text: "No tray is complete without a pot of tea — lotus or jasmine tea cuts the cakes' sweetness." },
-        { title: "The autumn fruit tray", text: "Crowned pomelo, persimmons, custard apples, bananas — the fruit tray offered to the moon, then shared." },
-        { title: "Bánh in & green-rice candy", text: "Little molded cakes shaped like carp and crabs plus cốm candy — the tiny treats in the children's tray." },
+        { title: "Baked mooncakes (bánh nướng)", img: "amthuc-banh-nuong", text: "Golden-brown crust with mixed, lotus-seed or salted-egg filling — the 'rich' cake of Mid-Autumn." },
+        { title: "Snow-skin mooncakes (bánh dẻo)", img: "amthuc-banh-deo", text: "Soft white sticky-rice-flour skin with lotus or mung-bean filling — the 'light' cake to eat with hot tea." },
+        { title: "Moon-viewing tea", img: "amthuc-tra", text: "No tray is complete without a pot of tea — lotus or jasmine tea cuts the cakes' sweetness." },
+        { title: "The autumn fruit tray", img: "amthuc-mam-trai-cay", text: "Crowned pomelo, persimmons, custard apples, bananas — the fruit tray offered to the moon, then shared." },
+        { title: "Bánh in & green-rice candy", text: "Little molded cakes shaped like carp and crabs plus cốm candy — the tiny treats in the children's tray.", img: "amthuc-banh-in" },
       ],
       facts: [
         "Mid-Autumn differs across three regions: the North favors fruit trays and lion dances; the South has boisterous lantern parades in Chợ Lớn; Tuyên Quang in the Center is the 'Mid-Autumn city' with giant lantern floats.",
@@ -1019,6 +1395,26 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "phu-nu-viet-nam",
+    heroStyle: "split",
+    signature: [
+      {
+        kind: "timeline",
+        title: "From the Trưng Sisters to today",
+        beats: [
+          { year: "40 CE", title: "The Trưng Sisters' Rising", text: "Trưng Trắc and Trưng Nhị raised the banner at Mê Linh and held self-rule — Vietnam's first women generals." },
+          { year: "1930", title: "The Women's Union is born", text: "On October 20, 1930 the Vietnam Women's Union was founded — an organization of women, for women." },
+          { year: "1965", title: "Eight golden words", text: "Hồ Chí Minh gifted southern women the banner 'Heroic — Indomitable — Faithful — Capable' — the virtues of Vietnamese women." },
+          { year: "Today", title: "A day for mothers and daughters", text: "October 20 is when Vietnamese women receive flowers, wishes and the country's regard." },
+        ],
+      },
+    ],
+    quotes: [
+      {
+        text: "Vietnam's brocaded mountains and rivers are embroidered ever more beautiful, ever more radiant — by the hands of her women, young and old.",
+        author: "Hồ Chí Minh",
+        note: "Translation of: 'Non sông gấm vóc Việt Nam do phụ nữ ta, trẻ cùng già, ra sức dệt thêu mà thêm tốt đẹp, rực rỡ.'",
+      },
+    ],
     motif: "ribbon",
     name: "Vietnamese Women's Day",
     dateMark: "20·10",
@@ -1080,6 +1476,25 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "nha-giao-viet-nam",
+    signature: [
+      {
+        kind: "steps",
+        title: "Honoring teachers",
+        steps: [
+          { icon: "book", title: "Visiting old teachers", text: "Even those who moved far away return to their first teachers — some retired for decades still remember their students' names." },
+          { icon: "heart", title: "Tea and a handwritten word", text: "Students offer tea to their teacher; the teacher writes a few words of encouragement as a keepsake." },
+          { icon: "star", title: "School performances", text: "Songs, poems and flower arranging staged by the students themselves — the schoolyard fills like a festival." },
+          { icon: "ribbon", title: "Teachers' awards and games", text: "Education departments hold commendations and sports meets — November 20 is the nation's 'thank-you' to teachers." },
+        ],
+      },
+    ],
+    quotes: [
+      {
+        text: "Without a teacher — do what you may — nothing is made of you.",
+        author: "Folk saying (tục ngữ)",
+        note: "Translation of: 'Không thầy đố mày làm nên.'",
+      },
+    ],
     motif: "book",
     name: "Vietnamese Teachers' Day",
     dateMark: "20·11",
@@ -1140,6 +1555,27 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "quan-doi-nhan-dan",
+    heroStyle: "poster",
+    signature: [
+      {
+        kind: "timeline",
+        title: "From thirty-four first soldiers",
+        beats: [
+          { year: "22·12·1944", title: "The first unit", text: "In the Trần Hưng Đạo forest of Cao Bằng, the Vietnam Propaganda Liberation Unit was formed — 34 soldiers, the seed of a revolutionary army." },
+          { year: "25·12·1944", title: "First battles", text: "The raids on Phai Khắt and Nà Ngần outposts — two victories that opened the tradition of 'fighting surely to win'." },
+          { year: "1946", title: "A people's army", text: "The armed forces were unified under the name People's Army of Vietnam — an army 'of the people, for the people'." },
+          { year: "Today", title: "Service in peacetime", text: "Flood rescue, demining, works on borders and islands — the soldier still stands where things are hardest." },
+        ],
+      },
+    ],
+    quotes: [
+      {
+        text: "Our army is loyal to the Party, devoted to the people, ready to fight and sacrifice for the nation's independence and freedom, for socialism.",
+        author: "Hồ Chí Minh",
+        work: "On the army's 20th anniversary, 1964",
+        note: "Translation of: 'Quân đội ta trung với Đảng, hiếu với dân, sẵn sàng chiến đấu hy sinh vì độc lập, tự do của Tổ quốc, vì chủ nghĩa xã hội.'",
+      },
+    ],
     motif: "medal",
     name: "Vietnam People's Army Day",
     dateMark: "22·12",
@@ -1201,6 +1637,27 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "giang-sinh",
+    heroStyle: "split",
+    signature: [
+      {
+        kind: "meanings",
+        title: "The colors and signs of Noel",
+        items: [
+          { swatch: "#dc2626", title: "Red", text: "Holly berries, Santa's coat and warm rooftops — love and giving." },
+          { swatch: "#16a34a", title: "Green", text: "The fir tree and the evergreen wreath — life that endures through winter." },
+          { swatch: "#fbbf24", title: "Gold", text: "The guiding star, candles and grotto lights — the light of Christmas night." },
+          { swatch: "#fafaf9", title: "White", text: "Snow and the Child's swaddling cloth — purity and peace." },
+          { swatch: "#92400e", title: "The grotto", text: "In Vietnam every home and parish builds a hang đá — the Bethlehem cave, as native as the holiday itself." },
+        ],
+      },
+    ],
+    quotes: [
+      {
+        text: "Glory to God in the highest / and on earth peace to people of good will.",
+        author: "Hymn of Glory (Kinh Vinh danh)",
+        note: "Translation of the Vietnamese Mass verse: 'Vinh danh Thiên Chúa trên các tầng trời / Bình an dưới thế cho người thiện tâm.'",
+      },
+    ],
     motif: "pine",
     name: "Christmas",
     dateMark: "25·12",
@@ -1246,10 +1703,10 @@ export const holidaysEn: Holiday[] = [
         { title: "Christmas dinners", text: "A year-end feast: roast chicken, hotpot, yule-log cake — in Vietnam Christmas is also the season's first reunion." },
       ],
       amThuc: [
-        { title: "Roast chicken & turkey", text: "The centerpiece of the Christmas table: honey-roasted chicken or stuffed turkey — Western in form, Vietnamese in flavor." },
-        { title: "Yule log cake (bûche de Noël)", text: "Buttercream roll shaped like a log — a French tradition that filled Vietnamese bakeries and stays every December." },
-        { title: "Winter hotpot", text: "Christmas lands in the North's chilly season — a steaming hotpot is the familiar dish of Noel gatherings." },
-        { title: "Gingerbread & candy canes", text: "Gingerbread people and red-white striped canes — the little treats placed under the tree." },
+        { title: "Roast chicken & turkey", img: "amthuc-ga-nuong", text: "The centerpiece of the Christmas table: honey-roasted chicken or stuffed turkey — Western in form, Vietnamese in flavor." },
+        { title: "Yule log cake (bûche de Noël)", img: "amthuc-buche", text: "Buttercream roll shaped like a log — a French tradition that filled Vietnamese bakeries and stays every December." },
+        { title: "Winter hotpot", img: "amthuc-lau", text: "Christmas lands in the North's chilly season — a steaming hotpot is the familiar dish of Noel gatherings." },
+        { title: "Gingerbread & candy canes", img: "amthuc-banh-quy-gung", text: "Gingerbread people and red-white striped canes — the little treats placed under the tree." },
       ],
       facts: [
         "The Bible records no date for Jesus' birth — the December 25 celebration is first recorded in Rome in 336; scholars believe it was timed to Rome's Sol Invictus festival.",
@@ -1267,6 +1724,27 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "ong-cong-ong-tao",
+    heroStyle: "framed",
+    signature: [
+      {
+        kind: "legend",
+        title: "Two men and a woman in the hearth",
+        lead: "The Táo quân are three kitchen gods — two men, one woman — who dwell in every family's stove and watch the household all year.",
+        paragraphs: [
+          "On the 23rd of the twelfth lunar month they ride carps to heaven to report the household's deeds to the Jade Emperor. Families offer betel, incense, candles — and release live carps — so the gods depart gently and the new year begins in harmony.",
+          "That is why the hearth is the holiest corner of a Vietnamese home: keeping the stove clean and the talk around it kind is itself a year-long offering.",
+        ],
+      },
+      {
+        kind: "steps",
+        title: "Bidding the Kitchen Gods farewell",
+        steps: [
+          { icon: "lotus", title: "The stove offering", text: "Betel, incense, rice and salt, plus three paper robes and hats — two men's, one woman's — set upon the stove altar." },
+          { icon: "star", title: "Releasing the carps", text: "Live carps are returned to rivers and ponds — the gods' steeds to heaven; no one eats carp on this day." },
+          { icon: "home", title: "Sweeping the hearth, cleaning the house", text: "After the send-off comes the year-end sweeping — the great house-clean begins, fittingly, at the stove." },
+        ],
+      },
+    ],
     name: "Kitchen Gods' Day (Ông Công Ông Táo)",
     dateMark: "23·12",
     displayDate: "23rd day of the 12th lunar month",
@@ -1308,17 +1786,17 @@ export const holidaysEn: Holiday[] = [
       ],
       phongTuc: [
         { title: "The farewell offering", text: "At noon or afternoon on the 23rd of the last month, the host offers a meal tray, fruit, votive paper and a set of Táo hats (two men's hats, one woman's) to send the Táo to heaven." },
-        { title: "Releasing carp", text: "After the ceremony, carp are released into ponds and rivers — the 'horse' carrying the gods to heaven. This is Vietnam's distinctive touch, unlike China's custom." },
+        { title: "Releasing carp", text: "After the ceremony, carp are released into ponds and rivers — the 'horse' carrying the gods to heaven. This is Vietnam's distinctive touch, unlike China's custom.", img: "amthuc-ca-chep" },
         { title: "Cleaning the kitchen altar", text: "Wiping the Táo altar, changing the incense bowl, sweeping the hearth — folk belief says 'a clean kitchen makes the Táo speak well'." },
         { title: "Burning votive items", text: "Hats, paper clothes and paper shoes are burned after the offering — new outfits for the three Táo to wear to heaven." },
         { title: "Starting the Tết cleaning", text: "From after the Táo rite, the house gets a full sweep — the 'opening' of Tết preparation." },
         { title: "Watching your words", text: "Folk belief holds the Táo quân records the words and deeds in the home — the rite reminds everyone to live kindly under their own roof." },
       ],
       amThuc: [
-        { title: "The Táo quân meal tray", text: "A meat or vegetarian tray by family custom — usually generous, since the Táo 'travel far' and return only on the 7th of Tết." },
-        { title: "A live carp", text: "A carp bought to release after the rite — the day's most spiritual item, tied to the legend of the carp leaping the dragon gate." },
-        { title: "Táo hats & votive paper", text: "A set of three hats (two men, one woman), shoes and paper clothes — the new wardrobe burned for the gods' journey." },
-        { title: "Sweet soup & sticky rice", text: "A cup of sweet soup and a plate of xôi beside the tray — the sweets that 'speak sweetly' on the last kitchen offering of the year." },
+        { title: "The Táo quân meal tray", img: "amthuc-mam-com-tao", text: "A meat or vegetarian tray by family custom — usually generous, since the Táo 'travel far' and return only on the 7th of Tết." },
+        { title: "A live carp", img: "amthuc-ca-chep", text: "A carp bought to release after the rite — the day's most spiritual item, tied to the legend of the carp leaping the dragon gate." },
+        { title: "Táo hats & votive paper", img: "amthuc-vang-ma", text: "A set of three hats (two men, one woman), shoes and paper clothes — the new wardrobe burned for the gods' journey." },
+        { title: "Sweet soup & sticky rice", img: "amthuc-che-xoi", text: "A cup of sweet soup and a plate of xôi beside the tray — the sweets that 'speak sweetly' on the last kitchen offering of the year." },
       ],
       facts: [
         "By legend the Táo quân are three deities: two men (Trọng Cao and Phạm Lang) and one woman (Thị Nhi) — which is why the kitchen altar holds three figures.",
@@ -1336,6 +1814,18 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "tet-han-thuc",
+    heroStyle: "framed",
+    signature: [
+      {
+        kind: "legend",
+        title: "Floating cakes, pure cakes",
+        lead: "Hàn thực means 'cold food' — an ancient rite honoring Giới Tử Thôi (Jie Zitui), the loyal minister who burned in the forest rather than take office.",
+        paragraphs: [
+          "In Vietnam the cold-food rule mellowed into two gentle sweets: bánh trôi — small rice dumplings with red-sugar hearts floating in warm ginger syrup — and bánh chay, larger ones filled with mung bean and dusted with sesame.",
+          "The two cakes carry the day's spirit: trôi — floating round and balanced amid life; chay — the heart kept pure. A white-gold plate of bánh trôi bánh chay for the ancestors on the third of the third month is the year's most quietly Vietnamese offering.",
+        ],
+      },
+    ],
     name: "Tết Hàn Thực (Cold Food Festival)",
     dateMark: "03·03",
     displayDate: "3rd day of the 3rd lunar month",
@@ -1375,16 +1865,16 @@ export const holidaysEn: Holiday[] = [
         "The custom reached Vietnam but changed character: Vietnamese people do not ban fire — they turned the 3rd of the 3rd lunar month into the festival of bánh trôi bánh chay, a pure tray offered to the ancestors. So 'Hàn thực' here is also called 'the bánh trôi festival' — a vegetarian day of remembering one's roots amid the spring festivals.",
       ],
       phongTuc: [
-        { title: "Shaping the cakes", text: "The night before the 3rd, the family rolls glutinous-rice dough into cakes: bánh trôi with sugar-cube filling, bánh chay with mung-bean paste." },
+        { title: "Shaping the cakes", text: "The night before the 3rd, the family rolls glutinous-rice dough into cakes: bánh trôi with sugar-cube filling, bánh chay with mung-bean paste.", img: "amthuc-banh-troi" },
         { title: "Offering the ancestors", text: "On the morning of the 3rd of the 3rd lunar month, a tray of bánh trôi bánh chay is set on the family altar — the pure offering of early spring." },
         { title: "A vegetarian day", text: "Many families keep the day meat-free to still the mind — 'vegetarian on Hàn thực' is a custom many northern homes still keep." },
         { title: "Pagoda visits", text: "After the first month's festival run, many choose the 3rd of the 3rd month to visit the pagoda for peace — 'a spring prayer'." },
         { title: "Simmering ginger syrup", text: "A pot of hot ginger syrup goes with the bánh trôi — the warm 'sharp' taste for a 'cold-food' festival." },
       ],
       amThuc: [
-        { title: "Bánh trôi nước", text: "Round rice-flour balls with sugar-cube filling, boiled till they float in ginger syrup with sesame — 'floating cakes' because they bob on the water." },
-        { title: "Bánh chay", text: "Flat cakes of finely pounded mung-bean filling with light sugar syrup — lighter than bánh trôi and served alongside it on the altar." },
-        { title: "The pure offering tray", text: "Bánh trôi, bánh chay, sweet soup and fruit — the pure offerings of the 3rd of the 3rd month." },
+        { title: "Bánh trôi nước", img: "amthuc-banh-troi", text: "Round rice-flour balls with sugar-cube filling, boiled till they float in ginger syrup with sesame — 'floating cakes' because they bob on the water." },
+        { title: "Bánh chay", text: "Flat cakes of finely pounded mung-bean filling with light sugar syrup — lighter than bánh trôi and served alongside it on the altar.", img: "amthuc-banh-chay" },
+        { title: "The pure offering tray", img: "amthuc-mam-cung", text: "Bánh trôi, bánh chay, sweet soup and fruit — the pure offerings of the 3rd of the 3rd month." },
       ],
       facts: [
         "By legend Hàn thực honors Jie Zitui — a Spring-and-Autumn loyalist who died in the flames of Mount Mianshan; hence the old rule banning fire.",
@@ -1402,6 +1892,18 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "tet-doan-ngo",
+    signature: [
+      {
+        kind: "steps",
+        title: "Killing the 'insects' of summer",
+        steps: [
+          { icon: "lotus", title: "Fruit and sticky-rice wine", text: "At noon on the fifth of the fifth lunar month, eat plums, lychees and rượu nếp cẩm — folk belief says it 'kills the worms' within and wards off illness." },
+          { icon: "moonstar", title: "The herbal noon bath", text: "Water boiled with grapefruit, lemongrass and mugwort leaves for a noon bath — cooling, itch-free all summer." },
+          { icon: "ribbon", title: "Gourds and five-color threads", text: "Children wear fragrant gourds and five-color thread bracelets to keep harm away — untied and set adrift on the river at the sixth-month full moon." },
+          { icon: "candle", title: "Herbs gathered at noon", text: "Herbalists pick medicinal plants exactly at noon on Đoan Ngọ — when their potency is believed to peak for the year." },
+        ],
+      },
+    ],
     name: "Tết Đoan Ngọ (Pest-Killing Festival)",
     dateMark: "05·05",
     displayDate: "5th day of the 5th lunar month",
@@ -1442,17 +1944,17 @@ export const holidaysEn: Holiday[] = [
       ],
       phongTuc: [
         { title: "Pest-killing at noon", text: "Exactly at noon on lunar 5/5, the family eats sour fruits, fermented rice and boiled eggs — 'killing the pests' in the stomach to stay healthy all summer." },
-        { title: "Early-summer sour fruits", text: "Plums, green mango, sấu drupes, lychee — the sour fruits believed to 'purge' the body at season's turn; children love it most, eating fruit to their fill." },
-        { title: "Glutinous-rice wine", text: "Fermented nếp cái hoa vàng — sweet-alcoholic and gently hot — the must-have dish of pest-killing day." },
+        { title: "Early-summer sour fruits", text: "Plums, green mango, sấu drupes, lychee — the sour fruits believed to 'purge' the body at season's turn; children love it most, eating fruit to their fill.", img: "amthuc-trai-cay-chua" },
+        { title: "Glutinous-rice wine", text: "Fermented nếp cái hoa vàng — sweet-alcoholic and gently hot — the must-have dish of pest-killing day.", img: "amthuc-com-ruou" },
         { title: "Gathering noon herbs", text: "From 11am to 1pm, people of old went to the fields to gather herbs — believing the plants' potency peaked at that hour of the year." },
         { title: "Burning vía, five-color threads", text: "Burning vía at the door to ward off evil, tying five-color thread on children — anti-epidemic customs kept in many places." },
         { title: "Noon ancestral offering", text: "A tray of fruit and fermented rice offered to the ancestors right at noon — then the family 'breaks' the pest-killing tray together." },
       ],
       amThuc: [
-        { title: "Cơm rượu nếp", text: "Nếp cái hoa vàng fermented sweet and sharp — the top of the pest-killing table." },
-        { title: "Early-summer sour fruits", text: "Green mango with salt, plums, young sấu, lychee — 'eat sour' on Đoan Ngọ to cleanse the stomach of pests." },
-        { title: "Bánh tro (bánh gio)", text: "Ash-water sticky-rice cakes, translucent and dipped in molasses — the cool taste proper to lunar 5/5." },
-        { title: "Boiled eggs", text: "Boiled chicken or duck eggs — the humble 'disinfectant' of the pest-killing tray." },
+        { title: "Cơm rượu nếp", img: "amthuc-com-ruou", text: "Nếp cái hoa vàng fermented sweet and sharp — the top of the pest-killing table." },
+        { title: "Early-summer sour fruits", text: "Green mango with salt, plums, young sấu, lychee — 'eat sour' on Đoan Ngọ to cleanse the stomach of pests.", img: "amthuc-trai-cay-chua" },
+        { title: "Bánh tro (bánh gio)", img: "amthuc-banh-tro", text: "Ash-water sticky-rice cakes, translucent and dipped in molasses — the cool taste proper to lunar 5/5." },
+        { title: "Boiled eggs", img: "amthuc-trung-luoc", text: "Boiled chicken or duck eggs — the humble 'disinfectant' of the pest-killing tray." },
       ],
       facts: [
         "The noon hour of 5/5 is seen as the year's 'yang extreme' — the sun at its peak, plants at peak potency — hence the name 'high noon at its peak' for herb-gathering.",
@@ -1470,6 +1972,25 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "ngay-thay-thuoc",
+    signature: [
+      {
+        kind: "timeline",
+        title: "From a 1955 letter",
+        beats: [
+          { year: "27·2·1955", title: "The letter to health workers", text: "Hồ Chí Minh sent a 368-word letter to the Health Cadres' Conference in Hanoi — a compact lesson in medical ethics." },
+          { year: "1985", title: "An official day", text: "The Council of Ministers made February 27 Vietnamese Doctors' Day — dated from that historic letter." },
+          { year: "Today", title: "Honoring the white coats", text: "A day for the country to thank its doctors — above all after the nameless battles they have shouldered." },
+        ],
+      },
+    ],
+    quotes: [
+      {
+        text: "A good physician must be like a loving mother.",
+        author: "Hồ Chí Minh",
+        work: "Letter to the Health Cadres' Conference, February 27, 1955",
+        note: "Translation of: 'Lương y phải như từ mẫu.'",
+      },
+    ],
     name: "Vietnamese Doctors' Day",
     dateMark: "27·02",
     displayDate: "February 27",
@@ -1532,6 +2053,25 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "ngay-bao-chi",
+    signature: [
+      {
+        kind: "timeline",
+        title: "The first newspaper",
+        beats: [
+          { year: "21·6·1925", title: "Thanh niên, first issue", text: "Nguyễn Ái Quốc founded Thanh niên (Youth) in Guangzhou — the first revolutionary Vietnamese newspaper, 'a school for every revolutionary'." },
+          { year: "1985", title: "Sixty years on", text: "From the 60th anniversary, June 21 became Vietnam Revolutionary Press Day." },
+          { year: "Today", title: "A day for journalists", text: "Gatherings and awards for journalists — and a reminder of what the pen owes the truth." },
+        ],
+      },
+    ],
+    quotes: [
+      {
+        text: "A journalist is also a revolutionary soldier.",
+        author: "Hồ Chí Minh",
+        work: "On press work",
+        note: "Translation of: 'Người cán bộ báo chí cũng là một chiến sĩ cách mạng.'",
+      },
+    ],
     name: "Vietnam Revolutionary Press Day",
     dateMark: "21·06",
     displayDate: "June 21",
@@ -1594,6 +2134,25 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "nguoi-cao-tuoi",
+    signature: [
+      {
+        kind: "steps",
+        title: "The longevity celebration",
+        steps: [
+          { icon: "home", title: "The longevity offering", text: "Children present betel, tea, wine and new robes to their elder — the mừng thọ rite on milestone lunar birthdays." },
+          { icon: "heart", title: "Four generations at table", text: "The longevity day gathers family almost as fully as Tết — four generations bowing together to wish the elder more springs." },
+          { icon: "book", title: "Listening to old stories", text: "The elderly are the family's 'great tree' — asking grandparents about their lives preserves a living history." },
+          { icon: "star", title: "A role in the community", text: "Elderly associations, study-promotion societies, health clubs — old age remains a pillar of village and ward." },
+        ],
+      },
+    ],
+    quotes: [
+      {
+        text: "Honor the old, and long life is yours.",
+        author: "Folk saying (tục ngữ)",
+        note: "Translation of: 'Kính lão đắc thọ.'",
+      },
+    ],
     name: "Vietnamese Senior Citizens' Day",
     dateMark: "01·10",
     displayDate: "October 1",
@@ -1633,16 +2192,16 @@ export const holidaysEn: Holiday[] = [
         "Vietnam also took October 1 as Vietnamese Senior Citizens' Day — joining the nation's thousand-year 'respect the old, receive long life' tradition: longevity celebrations at 70, 80, 90 and the proverb 'respect the old and the old will yield their years to you'. The day reminds the community to care for the silver-haired who built today's life.",
       ],
       phongTuc: [
-        { title: "Longevity celebrations", text: "Families choose this occasion to hold mừng thọ for elderly grandparents — children and grandchildren gathering to wish 'a hundred years of life'." },
+        { title: "Longevity celebrations", text: "Families choose this occasion to hold mừng thọ for elderly grandparents — children and grandchildren gathering to wish 'a hundred years of life'.", img: "amthuc-mung-tho" },
         { title: "Visiting the elderly", text: "The Elderly Association, unions and authorities visit and gift elderly people living alone or in hardship." },
         { title: "Free health checks", text: "Many localities open check-ups and nutrition counseling for the elderly around October 1." },
         { title: "Senior club performances", text: "The Elderly Association holds singing contests and talks on living well and living healthy — the true meaning of 'the elders' day'." },
         { title: "Children coming home", text: "The day reminds far-away children to call and visit — an occasion to remember the elders are still waiting." },
       ],
       amThuc: [
-        { title: "The longevity feast", text: "A generous tray to celebrate the elder's age: shredded chicken, giò chả, spring rolls — a full house of descendants is what makes it 'full of longevity'." },
-        { title: "Red gấc xôi", text: "A plate of red sticky rice shaped into the character 'thọ' (longevity) — the color of long life and prosperity at the center of the tray." },
-        { title: "Sweet soup & tea for guests", text: "Sweet soup, hot tea and longevity cake to treat the well-wishers — the humble sweets of a day of respect." },
+        { title: "The longevity feast", text: "A generous tray to celebrate the elder's age: shredded chicken, giò chả, spring rolls — a full house of descendants is what makes it 'full of longevity'.", img: "amthuc-mung-tho" },
+        { title: "Red gấc xôi", img: "amthuc-xoi-gac", text: "A plate of red sticky rice shaped into the character 'thọ' (longevity) — the color of long life and prosperity at the center of the tray." },
+        { title: "Sweet soup & tea for guests", img: "amthuc-che-tra", text: "Sweet soup, hot tea and longevity cake to treat the well-wishers — the humble sweets of a day of respect." },
       ],
       facts: [
         "UN resolution 45/106 (December 14, 1990) made October 1 the International Day of Older Persons from 1991.",
@@ -1660,6 +2219,25 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "doanh-nhan",
+    signature: [
+      {
+        kind: "steps",
+        title: "From shoulder-pole to enterprise",
+        steps: [
+          { icon: "wheat", title: "Trade born in the village market", text: "Vietnamese commerce grew from shoulder-pole vendors, periodic fairs and craft guilds — trust was the first line of credit." },
+          { icon: "star", title: "Guild streets, trading ports", text: "Hàng Bông, Hàng Đào streets and 17th-century Hội An — Vietnamese merchants traded with the whole world." },
+          { icon: "flag", title: "October 13", text: "Since 2004, October 13 is Vietnamese Entrepreneurs' Day — honoring those who dare to build and to employ." },
+          { icon: "book", title: "Prosperity with responsibility", text: "Today's entrepreneurs are bound to social duty — getting rich goes together with doing good for the homeland." },
+        ],
+      },
+    ],
+    quotes: [
+      {
+        text: "The marketplace is a battlefield.",
+        author: "Folk saying (ngạn ngữ)",
+        note: "Translation of: 'Thương trường là chiến trường.'",
+      },
+    ],
     name: "Vietnamese Entrepreneurs' Day",
     dateMark: "13·10",
     displayDate: "October 13",
@@ -1722,6 +2300,27 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "ngay-thanh-lap-dang",
+    heroStyle: "poster",
+    signature: [
+      {
+        kind: "timeline",
+        title: "The road to the Party's founding",
+        beats: [
+          { year: "1911", title: "Leaving to find the way", text: "The young Nguyễn Tất Thành departed from Nhà Rồng wharf — 'going out to find the path to save the nation'." },
+          { year: "1930", title: "Three groups become one", text: "In early 1930 in Hong Kong, a conference merged three communist organizations into the Communist Party of Vietnam — February 3 is kept as the founding day." },
+          { year: "1945", title: "The August Revolution", text: "The Party led the General Uprising that seized power nationwide — fifteen years after its founding." },
+          { year: "Today", title: "Over ninety years", text: "Every February 3 brings reviews and commendations of outstanding party members across the country." },
+        ],
+      },
+    ],
+    quotes: [
+      {
+        text: "Our Party is morality — is civilization.",
+        author: "Hồ Chí Minh",
+        work: "30th anniversary of the Party, 1960",
+        note: "Translation of: 'Đảng ta là đạo đức, là văn minh.'",
+      },
+    ],
     motif: "flag",
     name: "Vietnamese Communist Party Founding Day",
     dateMark: "03·02",
@@ -1784,6 +2383,27 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "ngay-dien-bien-phu",
+    heroStyle: "poster",
+    signature: [
+      {
+        kind: "timeline",
+        title: "Fifty-six days and nights",
+        beats: [
+          { year: "11·1953", title: "France digs in", text: "General Navarre dropped paratroops into the Điện Biên Phủ valley to build an 'impregnable fortress'." },
+          { year: "13·3·1954", title: "The campaign opens", text: "Vietnamese guns fired from Him Lam hill — 56 days and nights of trenches, supply porters and pack-bicycles." },
+          { year: "7·5·1954", title: "The flag over the bunker", text: "At 17:30 the command bunker of General De Castries fell — 'famed on five continents, shaking the earth'." },
+          { year: "7·1954", title: "Straight to Geneva", text: "The victory led directly to the Geneva Accords — nine years of resistance came to an end." },
+        ],
+      },
+    ],
+    quotes: [
+      {
+        text: "Determined to fight — determined to win.",
+        author: "Campaign slogan",
+        work: "The banner President Hồ Chí Minh awarded the army, 1954",
+        note: "Translation of: 'Quyết chiến, quyết thắng.'",
+      },
+    ],
     motif: "medal",
     name: "Điện Biên Phủ Victory Day",
     dateMark: "07·05",
@@ -1845,6 +2465,26 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "ngay-sinh-nhat-bac",
+    signature: [
+      {
+        kind: "timeline",
+        title: "From Sen village to Ba Đình",
+        beats: [
+          { year: "19·5·1890", title: "Born at Hoàng Trù", text: "Born in Hoàng Trù village, Kim Liên, Nam Đàn, Nghệ An — to a patriotic Confucian family." },
+          { year: "1911", title: "Setting out", text: "At twenty-one he boarded the Amiral Latouche-Tréville from Nhà Rồng wharf — thirty years abroad seeking the nation's path." },
+          { year: "1941", title: "Return to Pác Bó", text: "He came home to lead the revolution directly from the forests of Pác Bó, Cao Bằng." },
+          { year: "1945", title: "Reading the Declaration", text: "On September 2, 1945 he read the Declaration of Independence at Ba Đình — the village boy become President." },
+        ],
+      },
+    ],
+    quotes: [
+      {
+        text: "Nothing is more precious than independence and freedom.",
+        author: "Hồ Chí Minh",
+        work: "Appeal to compatriots and soldiers, July 17, 1966",
+        note: "Translation of: 'Không có gì quý hơn độc lập, tự do.'",
+      },
+    ],
     motif: "lotus",
     name: "President Hồ Chí Minh's Birthday",
     dateMark: "19·05",
@@ -1906,6 +2546,27 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "ngay-cach-mang-thang-tam",
+    heroStyle: "poster",
+    signature: [
+      {
+        kind: "timeline",
+        title: "Fourteen days that changed a nation",
+        beats: [
+          { year: "13·8·1945", title: "Order of General Uprising", text: "The National Uprising Committee issued Military Order No. 1 — the country moved to seize power." },
+          { year: "16·8", title: "The Tân Trào Congress", text: "Sixty delegates at Tân Trào adopted ten great policies and elected Hồ Chí Minh chairman of the provisional government." },
+          { year: "19·8", title: "Power seized in Hanoi", text: "Hundreds of thousands marched and took the capital — the uprising spread through the whole country." },
+          { year: "30·8", title: "The last emperor abdicates", text: "Emperor Bảo Đại handed the seal and sword to the revolutionary government — a thousand years of monarchy ended." },
+        ],
+      },
+    ],
+    quotes: [
+      {
+        text: "The armies of Vietnam march / one heart resolved to save the nation.",
+        author: "Văn Cao",
+        work: "Tiến quân ca (Marching Song), 1944",
+        note: "Translation of: 'Đoàn quân Việt Nam đi / Chung lòng cứu quốc.'",
+      },
+    ],
     motif: "star",
     name: "August Revolution Day",
     dateMark: "19·08",
@@ -1967,6 +2628,27 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "ngay-giai-phong-thu-do",
+    heroStyle: "poster",
+    signature: [
+      {
+        kind: "timeline",
+        title: "Nine years away — coming home to the city",
+        beats: [
+          { year: "20·7·1954", title: "The Geneva Accords", text: "The armistice was signed — the North fully liberated, and the army prepared to take over the capital." },
+          { year: "9·10·1954", title: "The last French post leaves", text: "French troops withdrew across Long Biên bridge — Hanoi was free of foreign soldiers after nine years." },
+          { year: "10·10·1954", title: "The soldiers return", text: "Division 308 — 'the Vanguard Division' — entered through Quan Chưởng gate; flowers and flags covered the streets home." },
+          { year: "Ever since", title: "Hanoi's own day", text: "October 10 is the capital's own anniversary — the day the thousand-year-old city came back to its people." },
+        ],
+      },
+    ],
+    quotes: [
+      {
+        text: "You go — will you remember me? / Fifteen years of love, deep and ardent.",
+        author: "Tố Hữu",
+        work: "Việt Bắc, 1954",
+        note: "Translation of: 'Mình về mình có nhớ ta / Mười lăm năm ấy thiết tha mặn nồng.'",
+      },
+    ],
     motif: "flag",
     name: "Hanoi Liberation Day",
     dateMark: "10·10",

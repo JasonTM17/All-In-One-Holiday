@@ -12,6 +12,8 @@ import Motif from "@/components/Motif";
 import Reveals from "@/components/Reveals";
 import HolidayActions from "@/components/HolidayActions";
 import HImg from "@/components/HImg";
+import LightboxImg from "@/components/LightboxImg";
+import GalleryGrid from "@/components/GalleryGrid";
 import { HERO_LQIP } from "@/data/hero-lqip";
 import { HERO_TINT } from "@/data/hero-sizes";
 import { getStrings, localePath, type Locale } from "@/i18n";
@@ -74,6 +76,7 @@ export default function HolidayPage({
   const prev = holidays[(idx - 1 + holidays.length) % holidays.length];
   const next = holidays[(idx + 1) % holidays.length];
   const eventYear = new Date().getFullYear();
+  const hero = h.heroStyle ?? "classic";
 
   const jsonLd = holidayJsonLd(h, eventYear, locale, t.footer.home);
 
@@ -101,7 +104,9 @@ export default function HolidayPage({
           height={1280}
           eager
           decoding="sync"
-          className="absolute inset-0 h-full w-full object-cover opacity-45 print:hidden"
+          className={`absolute inset-0 h-full w-full object-cover print:hidden ${
+            hero === "poster" || hero === "split" ? "opacity-30" : "opacity-45"
+          }`}
         />
         <div
           className="absolute inset-0"
@@ -111,6 +116,20 @@ export default function HolidayPage({
           aria-hidden="true"
         />
         <div className="dot-pattern absolute inset-0" aria-hidden="true" />
+        {/* Framed heroes get a double ornamental inset frame — a shrine-like
+            window. Decoration only; AA text contrast is unchanged. */}
+        {hero === "framed" && (
+          <>
+            <div
+              aria-hidden="true"
+              className="pointer-events-none absolute inset-3 rounded-2xl border border-white/30 sm:inset-5 print:hidden"
+            />
+            <div
+              aria-hidden="true"
+              className="pointer-events-none absolute inset-[18px] rounded-2xl border border-white/15 sm:inset-7 print:hidden"
+            />
+          </>
+        )}
         <Motif
           name={h.motif}
           className="floaty-slow pointer-events-none absolute -right-10 top-6 h-56 w-56 text-white/15 sm:-right-6 sm:h-80 sm:w-80"
@@ -143,13 +162,36 @@ export default function HolidayPage({
             <p className="mt-5 max-w-md text-lg text-white/85">{h.tagline}</p>
             <p
               aria-hidden="true"
-              className="pointer-events-none -mb-8 mt-8 select-none font-display text-[clamp(4.5rem,12vw,9rem)] font-black leading-none text-white/15 lg:-mb-10 print:hidden"
+              className={`pointer-events-none -mb-8 mt-8 select-none font-display font-black leading-none text-white/15 lg:-mb-10 print:hidden ${
+                hero === "poster"
+                  ? "text-[clamp(6rem,16vw,12rem)] text-white/20"
+                  : "text-[clamp(4.5rem,12vw,9rem)]"
+              }`}
             >
               {h.dateMark}
             </p>
+            {hero === "poster" && (
+              <span
+                aria-hidden="true"
+                className="mt-6 block h-px w-24 bg-white/45"
+              />
+            )}
           </div>
 
           <div className="self-center">
+            {hero === "split" && (
+              <div className="mb-5 hidden rotate-1 overflow-hidden rounded-2xl border border-white/30 shadow-2xl lg:block print:hidden">
+                <HImg
+                  src={`${h.slug}/card.webp`}
+                  thumb={{ slug: h.slug, base: "card" }}
+                  alt=""
+                  width={960}
+                  height={720}
+                  sizes="(min-width: 1024px) 30vw, 0px"
+                  className="aspect-[4/3] h-auto w-full object-cover"
+                />
+              </div>
+            )}
             <div className="glass rounded-2xl p-6 shadow-2xl sm:p-7">
               <p className="eyebrow text-white/75">{t.holiday.countdown}</p>
               <div className="mt-4">
@@ -180,7 +222,7 @@ export default function HolidayPage({
       </section>
 
       {/* ---------- Body ---------- */}
-      <div className="mx-auto max-w-4xl space-y-20 px-4 py-16 sm:px-6">
+      <div className="mx-auto max-w-4xl space-y-20 px-4 pt-16 sm:px-6">
         <div data-rv className="cv-auto">
           <section aria-labelledby="nguon-goc">
             <h2
@@ -228,20 +270,242 @@ export default function HolidayPage({
           </figure>
         </div>
 
-        <div data-rv className="cv-auto">
-          <section aria-labelledby="phong-tuc">
-            <h2
-              id="phong-tuc"
-              className="font-display text-3xl font-extrabold text-[var(--color-ink)]"
-            >
-              {t.holiday.traditions}
-            </h2>
-            <ul className="mt-8 grid gap-4 sm:grid-cols-3">
-              {h.traditions.map((x, i) => (
-                <li
-                  key={x.title}
-                  className={`card p-6 ${i === 0 ? "sm:col-span-2 sm:row-span-1" : ""}`}
+        {/* ---------- Signature sections: the crafted, per-holiday blocks.
+            Four kinds — steps / meanings / timeline / legend — each with a
+            distinct visual treatment. ---------- */}
+        {(h.signature ?? []).map((s, i) => (
+          <div data-rv className="cv-auto" key={`${h.slug}-sig-${i}`}>
+            {s.kind === "steps" && (
+              <section aria-labelledby={`sig-${h.slug}-${i}`}>
+                <p className="eyebrow" style={{ color: h.theme.to }}>
+                  {t.holiday.signatureSteps}
+                </p>
+                <h2
+                  id={`sig-${h.slug}-${i}`}
+                  className="mt-2 font-display text-3xl font-extrabold text-[var(--color-ink)]"
                 >
+                  {s.title}
+                </h2>
+                <ol className="mt-8 space-y-6">
+                  {s.steps.map((st, j) => (
+                    <li key={st.title} className="flex gap-4">
+                      <span
+                        aria-hidden="true"
+                        className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border"
+                        style={{
+                          background: `linear-gradient(135deg, ${h.theme.from}1e, ${h.theme.to}1e)`,
+                          borderColor: `${h.theme.to}40`,
+                          color: h.theme.to,
+                        }}
+                      >
+                        <Motif name={st.icon} className="h-5 w-5" />
+                      </span>
+                      <div>
+                        <p className="font-bold text-[var(--color-ink)]">
+                          <span
+                            aria-hidden="true"
+                            className="mr-2 font-display"
+                            style={{ color: h.theme.to }}
+                          >
+                            {String(j + 1).padStart(2, "0")}
+                          </span>
+                          {st.title}
+                        </p>
+                        <p className="mt-1 text-sm leading-relaxed text-[var(--color-muted)]">
+                          {st.text}
+                        </p>
+                      </div>
+                    </li>
+                  ))}
+                </ol>
+              </section>
+            )}
+
+            {s.kind === "meanings" && (
+              <section aria-labelledby={`sig-${h.slug}-${i}`}>
+                <p className="eyebrow" style={{ color: h.theme.to }}>
+                  {t.holiday.signatureMeanings}
+                </p>
+                <h2
+                  id={`sig-${h.slug}-${i}`}
+                  className="mt-2 font-display text-3xl font-extrabold text-[var(--color-ink)]"
+                >
+                  {s.title}
+                </h2>
+                <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                  {s.items.map((m) => (
+                    <li key={m.title} className="card p-5">
+                      <span
+                        aria-hidden="true"
+                        className="block h-9 w-9 rounded-full border-2 border-white shadow-inner"
+                        style={{ background: m.swatch }}
+                      />
+                      <p className="mt-3 font-bold text-[var(--color-ink)]">
+                        {m.title}
+                      </p>
+                      <p className="mt-1 text-sm leading-relaxed text-[var(--color-muted)]">
+                        {m.text}
+                      </p>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
+
+            {s.kind === "timeline" && (
+              <section aria-labelledby={`sig-${h.slug}-${i}`}>
+                <p className="eyebrow" style={{ color: h.theme.to }}>
+                  {t.holiday.signatureTimeline}
+                </p>
+                <h2
+                  id={`sig-${h.slug}-${i}`}
+                  className="mt-2 font-display text-3xl font-extrabold text-[var(--color-ink)]"
+                >
+                  {s.title}
+                </h2>
+                <ol
+                  className="mt-8 space-y-7 border-l-2 pl-6"
+                  style={{ borderColor: `${h.theme.to}55` }}
+                >
+                  {s.beats.map((b) => (
+                    <li key={`${b.year}-${b.title}`}>
+                      <span
+                        className="inline-block rounded-lg px-2.5 py-1 font-display text-sm font-extrabold text-white"
+                        style={{
+                          background: `linear-gradient(120deg, ${h.theme.from}, ${h.theme.to})`,
+                        }}
+                      >
+                        {b.year}
+                      </span>
+                      <p className="mt-2 font-bold text-[var(--color-ink)]">
+                        {b.title}
+                      </p>
+                      <p className="mt-1 text-sm leading-relaxed text-[var(--color-muted)]">
+                        {b.text}
+                      </p>
+                    </li>
+                  ))}
+                </ol>
+              </section>
+            )}
+
+            {s.kind === "legend" && (
+              <section
+                aria-labelledby={`sig-${h.slug}-${i}`}
+                className="relative overflow-hidden rounded-2xl border border-[var(--color-line)] bg-[var(--color-card)] p-6 sm:p-9"
+              >
+                <div
+                  aria-hidden="true"
+                  className="pointer-events-none absolute inset-0"
+                  style={{
+                    background: `linear-gradient(140deg, ${h.theme.from}14, transparent 45%, transparent 60%, ${h.theme.to}14)`,
+                  }}
+                />
+                <Motif
+                  name={h.motif}
+                  className="pointer-events-none absolute -right-6 -top-6 h-36 w-36 text-[var(--color-faint)] opacity-40"
+                />
+                <div className="relative">
+                  <p className="eyebrow" style={{ color: h.theme.to }}>
+                    {t.holiday.signatureLegend}
+                  </p>
+                  <h2
+                    id={`sig-${h.slug}-${i}`}
+                    className="mt-2 font-display text-3xl font-extrabold text-[var(--color-ink)]"
+                  >
+                    {s.title}
+                  </h2>
+                  <p className="mt-4 max-w-2xl font-display text-lg font-semibold leading-relaxed text-[var(--color-ink)]">
+                    {s.lead}
+                  </p>
+                  {s.paragraphs.map((p) => (
+                    <p
+                      key={p.slice(0, 24)}
+                      className="mt-4 max-w-3xl leading-relaxed text-[var(--color-muted)]"
+                    >
+                      {p}
+                    </p>
+                  ))}
+                </div>
+              </section>
+            )}
+          </div>
+        ))}
+
+        {/* ---------- Verified quotes ---------- */}
+        {(h.quotes ?? []).length > 0 && (
+          <div data-rv className="cv-auto">
+            <section aria-labelledby={`quotes-${h.slug}`}>
+              <h2
+                id={`quotes-${h.slug}`}
+                className="font-display text-3xl font-extrabold text-[var(--color-ink)]"
+              >
+                {t.holiday.quoteTitle}
+              </h2>
+              <div className="mt-8 space-y-5">
+                {h.quotes!.map((q, qi) => (
+                  <figure
+                    key={qi}
+                    className="card relative overflow-hidden p-6 sm:p-8"
+                  >
+                    <span
+                      aria-hidden="true"
+                      className="absolute left-4 top-1 select-none font-display text-5xl font-black"
+                      style={{ color: `${h.theme.to}45` }}
+                    >
+                      “
+                    </span>
+                    <blockquote className="relative max-w-2xl font-display text-lg font-semibold leading-relaxed text-[var(--color-ink)] sm:text-xl">
+                      {q.text}
+                    </blockquote>
+                    <figcaption className="mt-3 text-sm text-[var(--color-muted)]">
+                      <span className="font-bold text-[var(--color-ink)]">
+                        {q.author}
+                      </span>
+                      {q.work && (
+                        <>
+                          {" — "}
+                          <span className="italic">{q.work}</span>
+                        </>
+                      )}
+                      {q.note && (
+                        <span className="mt-1 block text-xs text-[var(--color-faint)]">
+                          {q.note}
+                        </span>
+                      )}
+                    </figcaption>
+                  </figure>
+                ))}
+              </div>
+            </section>
+          </div>
+        )}
+
+      </div>
+
+      {/* ---------- Traditions band: palette-tinted soft wash breaks the
+          cream run; each card anchors on the holiday motif pictogram. ---------- */}
+      <section
+        aria-labelledby="phong-tuc"
+        className="mt-16 border-y border-[var(--color-line)]"
+        style={{
+          background: `linear-gradient(155deg, ${h.theme.from}14, transparent 45%, transparent 55%, ${h.theme.to}12), var(--color-soft)`,
+        }}
+      >
+        <div data-rv className="mx-auto max-w-4xl px-4 py-16 sm:px-6">
+          <h2
+            id="phong-tuc"
+            className="font-display text-3xl font-extrabold text-[var(--color-ink)]"
+          >
+            {t.holiday.traditions}
+          </h2>
+          <ul className="mt-8 grid gap-4 sm:grid-cols-3">
+            {h.traditions.map((x, i) => (
+              <li
+                key={x.title}
+                className={`card p-6 ${i === 0 ? "sm:col-span-2 sm:row-span-1" : ""}`}
+              >
+                <div className="flex items-start justify-between gap-3">
                   <p
                     aria-hidden="true"
                     className="font-display text-3xl font-black"
@@ -249,17 +513,31 @@ export default function HolidayPage({
                   >
                     {String(i + 1).padStart(2, "0")}
                   </p>
-                  <p className="mt-2 font-bold text-[var(--color-ink)]">
-                    {x.title}
-                  </p>
-                  <p className="mt-1 text-sm leading-relaxed text-[var(--color-muted)]">
-                    {x.text}
-                  </p>
-                </li>
-              ))}
-            </ul>
-          </section>
+                  <span
+                    aria-hidden="true"
+                    className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border"
+                    style={{
+                      background: `${h.theme.to}14`,
+                      borderColor: `${h.theme.to}38`,
+                      color: h.theme.to,
+                    }}
+                  >
+                    <Motif name={h.motif} className="h-5 w-5" />
+                  </span>
+                </div>
+                <p className="mt-2 font-bold text-[var(--color-ink)]">
+                  {x.title}
+                </p>
+                <p className="mt-1 text-sm leading-relaxed text-[var(--color-muted)]">
+                  {x.text}
+                </p>
+              </li>
+            ))}
+          </ul>
         </div>
+      </section>
+
+      <div className="mx-auto max-w-4xl px-4 py-16 sm:px-6">
 
         <div data-rv className="cv-auto">
           <section
@@ -298,17 +576,34 @@ export default function HolidayPage({
                 {t.holiday.customs}
               </h3>
               <ol className="mt-6 space-y-4">
-                {h.deep.phongTuc.map((x, i) => (
+                {h.deep.phongTuc.map((x) => (
                   <li key={x.title} className="flex gap-4">
-                    <span
-                      aria-hidden="true"
-                      className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full font-display text-sm font-black text-white"
-                      style={{
-                        background: `linear-gradient(135deg, ${h.theme.from}, ${h.theme.to})`,
-                      }}
-                    >
-                      {i + 1}
-                    </span>
+                    {x.img ? (
+                      <span
+                        aria-hidden="true"
+                        className="h-11 w-11 shrink-0 overflow-hidden rounded-full border border-[var(--color-line)]"
+                      >
+                        <HImg
+                          src={`${h.slug}/${x.img}-480.webp`}
+                          alt=""
+                          width={480}
+                          height={360}
+                          className="h-full w-full object-cover"
+                        />
+                      </span>
+                    ) : (
+                      <span
+                        aria-hidden="true"
+                        className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border"
+                        style={{
+                          background: `linear-gradient(135deg, ${h.theme.from}1e, ${h.theme.to}1e)`,
+                          borderColor: `${h.theme.to}40`,
+                          color: h.theme.to,
+                        }}
+                      >
+                        <Motif name={h.motif} className="h-5 w-5" />
+                      </span>
+                    )}
                     <div>
                       <p className="font-bold text-[var(--color-ink)]">
                         {x.title}
@@ -330,14 +625,28 @@ export default function HolidayPage({
                     {h.deep.amThuc.map((a) => (
                       <li
                         key={a.title}
-                        className="rounded-2xl border border-[var(--color-line)] bg-[var(--color-surface)] p-5"
+                        className="overflow-hidden rounded-2xl border border-[var(--color-line)] bg-[var(--color-surface)]"
                       >
-                        <p className="font-bold text-[var(--color-ink)]">
-                          {a.title}
-                        </p>
-                        <p className="mt-1 text-sm leading-relaxed text-[var(--color-muted)]">
-                          {a.text}
-                        </p>
+                        {a.img && (
+                          <LightboxImg
+                            slug={h.slug}
+                            base={a.img}
+                            alt={a.title}
+                            caption={a.title}
+                            openLabel={t.holiday.viewPhoto(a.title)}
+                            closeLabel={t.holiday.closePhoto}
+                            sizes="(min-width: 1024px) 272px, (min-width: 640px) 42vw, 86vw"
+                            className="aspect-[4/3] h-auto w-full object-cover"
+                          />
+                        )}
+                        <div className="p-5">
+                          <p className="font-bold text-[var(--color-ink)]">
+                            {a.title}
+                          </p>
+                          <p className="mt-1 text-sm leading-relaxed text-[var(--color-muted)]">
+                            {a.text}
+                          </p>
+                        </div>
                       </li>
                     ))}
                   </ul>
@@ -422,59 +731,80 @@ export default function HolidayPage({
         </div>
       </section>
 
-      <div className="mx-auto max-w-4xl space-y-20 px-4 py-16 sm:px-6">
-        <div data-rv className="cv-auto">
-          <section aria-labelledby="qua-tang">
-            <h2
-              id="qua-tang"
-              className="font-display text-3xl font-extrabold text-[var(--color-ink)]"
-            >
-              {t.holiday.gifts}
-            </h2>
-            <ul className="mt-8 grid gap-4 sm:grid-cols-3">
-              {h.gifts.map((g, i) => (
-                <li key={g.title} className={`card p-6 ${i === 0 ? "sm:col-span-2" : ""}`}>
-                  <Motif
-                    name={h.motif}
-                    className="h-8 w-8"
-                    filled
-                  />
-                  <p className="mt-3 font-bold text-[var(--color-brand-deep)]">
-                    {g.title}
-                  </p>
-                  <p className="mt-1 text-sm leading-relaxed text-[var(--color-muted)]">
-                    {g.text}
-                  </p>
-                </li>
-              ))}
-            </ul>
-          </section>
-        </div>
-
-        <div data-rv className="cv-auto">
-          <section aria-labelledby="hinh-anh">
-            <h2
-              id="hinh-anh"
-              className="font-display text-3xl font-extrabold text-[var(--color-ink)]"
-            >
-              {t.holiday.images}
-            </h2>
-            <div className="mt-8 grid gap-4 sm:grid-cols-3">
-              {[1, 2, 3].map((n) => (
-                <HImg
-                  key={n}
-                  src={`${h.slug}/gallery${n}.webp`}
-                  thumb={{ slug: h.slug, base: `gallery${n}` }}
-                  sizes="(min-width: 944px) 272px, (min-width: 640px) 29vw, 92vw"
-                  alt={t.holiday.galleryAlt(h.name, n)}
-                  width={800}
-                  height={600}
-                  className="card aspect-[4/3] h-auto w-full object-cover"
+      {/* ---------- Gifts band: same palette-tinted soft wash as the
+          traditions band — the two card grids read as siblings. ---------- */}
+      <section
+        aria-labelledby="qua-tang"
+        className="border-b border-[var(--color-line)]"
+        style={{
+          background: `linear-gradient(205deg, ${h.theme.to}12, transparent 45%, transparent 55%, ${h.theme.from}12), var(--color-soft)`,
+        }}
+      >
+        <div data-rv className="mx-auto max-w-4xl px-4 py-16 sm:px-6">
+          <h2
+            id="qua-tang"
+            className="font-display text-3xl font-extrabold text-[var(--color-ink)]"
+          >
+            {t.holiday.gifts}
+          </h2>
+          <ul className="mt-8 grid gap-4 sm:grid-cols-3">
+            {h.gifts.map((g, i) => (
+              <li key={g.title} className={`card p-6 ${i === 0 ? "sm:col-span-2" : ""}`}>
+                <Motif
+                  name={h.motif}
+                  className="h-8 w-8"
+                  filled
                 />
-              ))}
-            </div>
-          </section>
+                <p className="mt-3 font-bold text-[var(--color-brand-deep)]">
+                  {g.title}
+                </p>
+                <p className="mt-1 text-sm leading-relaxed text-[var(--color-muted)]">
+                  {g.text}
+                </p>
+              </li>
+            ))}
+          </ul>
         </div>
+      </section>
+
+      {/* ---------- Gallery band: ink-inverted so photos glow; each opens a
+          lightbox. ---------- */}
+      <section
+        aria-labelledby="hinh-anh"
+        className="cv-auto relative overflow-hidden bg-[#221b15] print:bg-transparent"
+      >
+        <Motif
+          name={h.motif}
+          className="pointer-events-none absolute -right-8 -top-8 h-44 w-44 text-white/10 print:hidden"
+        />
+        <div data-rv className="mx-auto max-w-4xl px-4 py-16 sm:px-6">
+          <h2
+            id="hinh-anh"
+            className="font-display text-3xl font-extrabold text-white print:text-[var(--color-ink)]"
+          >
+            {t.holiday.images}
+          </h2>
+          <GalleryGrid
+            slug={h.slug}
+            items={[1, 2, 3, 4, 5, 6].map((n) => {
+              const alt = t.holiday.galleryAlt(h.name, n);
+              return {
+                base: `gallery${n}`,
+                alt,
+                openLabel: t.holiday.viewPhoto(alt),
+              };
+            })}
+            labels={{
+              closeLabel: t.holiday.closePhoto,
+              prevLabel: t.holiday.prevPhoto,
+              nextLabel: t.holiday.nextPhoto,
+              counter: t.holiday.photoOf,
+            }}
+          />
+        </div>
+      </section>
+
+      <div className="mx-auto max-w-4xl space-y-20 px-4 py-16 sm:px-6">
 
         {(() => {
           const st = stories[h.slug];

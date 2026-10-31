@@ -96,6 +96,26 @@ test.describe("English locale /en/", () => {
     ).toBeVisible();
   });
 
+  test("signature sections and quotes render in English", async ({ page }) => {
+    await page.emulateMedia({ reducedMotion: "reduce" });
+    await page.goto("/en/vu-lan/");
+    // Vu Lan ships a legend block, a meanings block and an attributed quote.
+    await expect(
+      page.getByRole("heading", { name: /Mục Liên saves his mother/ }),
+    ).toBeVisible();
+    await expect(
+      page.getByRole("heading", { name: /rose pinned to the chest/ }),
+    ).toBeVisible();
+    await expect(
+      page.getByRole("heading", { name: "Voices & verses" }),
+    ).toBeVisible();
+    // The quote figcaption carries the translated gloss; the gallery also
+    // ships figcaptions, so scope the assertion to the quote one.
+    await expect(
+      page.locator("figcaption", { hasText: "Folk verse" }),
+    ).toHaveCount(1);
+  });
+
   test("Thanh Minh holiday page renders in English", async ({ page }) => {
     await page.goto("/en/tet-thanh-minh/");
     await expect(

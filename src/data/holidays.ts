@@ -30,6 +30,12 @@ export interface Faq {
 export interface DeepItem {
   title: string;
   text: string;
+  /**
+   * Optional photo stem under public/images/holidays/<slug>/ — e.g.
+   * "amthuc-banh-chung" resolves to <stem>.webp/.avif plus the -480 thumb
+   * variants. Optional: items without a photo render the motif chip.
+   */
+  img?: string;
 }
 
 /**
@@ -46,6 +52,62 @@ export interface HolidayDeep {
   /** 4–6 sự thật thú vị đã kiểm chứng ("Bạn có biết?"). */
   facts: string[];
 }
+
+/**
+ * Signature block — the per-holiday centerpiece that gives each page its own
+ * silhouette. Four reusable layouts, all themed by the holiday palette:
+ *   steps    — numbered ritual / how-to sequence with motif icons
+ *   meanings — color / object symbolism cards
+ *   timeline — key historical beats with year markers
+ *   legend   — illustrated narrative card for myths and folk tales
+ */
+export type SignatureKind = "steps" | "meanings" | "timeline" | "legend";
+
+export interface SignatureStep {
+  title: string;
+  text: string;
+  /** Decorative icon from the shared Motif set. */
+  icon: MotifName;
+}
+
+export interface SignatureMeaningItem {
+  title: string;
+  text: string;
+  /** CSS color shown as a swatch chip, e.g. "#e11d48". */
+  swatch: string;
+}
+
+export interface SignatureBeat {
+  /** Year or short date label, e.g. "1954", "30·4·1975". */
+  year: string;
+  title: string;
+  text: string;
+}
+
+export type Signature =
+  | { kind: "steps"; title: string; steps: SignatureStep[] }
+  | { kind: "meanings"; title: string; items: SignatureMeaningItem[] }
+  | { kind: "timeline"; title: string; beats: SignatureBeat[] }
+  | { kind: "legend"; title: string; lead: string; paragraphs: string[] };
+
+/** A verified quote / poetry line with exact attribution. */
+export interface Quote {
+  text: string;
+  author: string;
+  /** Work or occasion, e.g. "Truyện Kiều", "Tuyên ngôn Độc lập 1945". */
+  work?: string;
+  /** EN only — marks the line as a translation of the Vietnamese original. */
+  note?: string;
+}
+
+/**
+ * Hero silhouette:
+ *   classic — full-bleed photo under gradient, countdown card right (default)
+ *   split   — editorial: text + countdown left, framed photo card right
+ *   framed  — centered title inside a double ornament frame, hushed photo
+ *   poster  — photo-dominant band, title anchored bottom-left
+ */
+export type HeroStyle = "classic" | "split" | "framed" | "poster";
 
 export interface Holiday {
   slug: string;
@@ -66,6 +128,12 @@ export interface Holiday {
   gifts: Gift[];
   faq: Faq[];
   deep: HolidayDeep;
+  /** 1–2 themed signature blocks — the page's distinctive centerpiece. */
+  signature?: Signature[];
+  /** Verified quotes / poetry lines with attribution; omit when none fit. */
+  quotes?: Quote[];
+  /** Hero layout variant; absent = "classic". */
+  heroStyle?: HeroStyle;
 }
 
 /** Decorative SVG ornament shown on each holiday page (see components/Motif). */
@@ -93,6 +161,19 @@ export type MotifName =
 export const holidays: Holiday[] = [
   {
     slug: "tet-duong-lich",
+    signature: [
+      {
+        kind: "steps",
+        title: "Một đêm giao thừa dương lịch",
+        steps: [
+          { icon: "home", title: "Tiệc tất niên", text: "Bữa tối sum họp cuối năm — cùng nhìn lại mười hai tháng vừa qua, vui có, tiếc cũng có." },
+          { icon: "star", title: "Đếm ngược mười giây", text: "Quảng trường, phố đi bộ và phòng khách cùng đọc ngược 10…9…8. Đúng 0 giờ, cả thành phố gọi tên năm mới." },
+          { icon: "fireworks", title: "Pháo hoa đầu năm", text: "Màn pháo đầu tiên của năm nở trên bầu trời các thành phố lớn — lời chúc bằng ánh sáng cho ba trăm sáu lăm ngày tới." },
+          { icon: "heart", title: "Lời chúc đầu tiên", text: "Cuộc gọi, tin nhắn và cái ôm đầu năm — ai gửi lời chúc trước được xem là người 'xông' niềm vui cho nhau." },
+          { icon: "book", title: "Mục tiêu năm mới", text: "Viết ra ba điều muốn thay đổi, gấp lại cất đi — đến cuối năm mở ra soi lại mình đã đi được bao xa." },
+        ],
+      },
+    ],
     motif: "fireworks",
     name: "Tết Dương lịch",
     dateMark: "01·01",
@@ -155,6 +236,33 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "tet-nguyen-dan",
+    heroStyle: "split",
+    signature: [
+      {
+        kind: "steps",
+        title: "Gói bánh chưng — bốn bàn tay, một chiếc bánh",
+        steps: [
+          { icon: "wheat", title: "Vo gạo, rửa lá", text: "Gạo nếp ngâm qua đêm cho hạt nở đều; lá dong rửa sạch, phơi héo cho mềm, dễ gói mà không rách." },
+          { icon: "book", title: "Xếp nhân vuông vức", text: "Trải lá thành hình quạt, lớp gạo — đỗ xanh — thịt lợn — đỗ xanh — gạo, rồi gấp bốn cạnh thành khối vuông chỉnh tề." },
+          { icon: "ribbon", title: "Buộc lạt khéo tay", text: "Buộc lạt tre theo ô bàn cờ: đủ chặt để bánh đứng vuông, đủ lỏng để nước luộc ngấm vào từng hạt gạo." },
+          { icon: "candle", title: "Luộc lửa củi suốt đêm", text: "Luộc 10–12 tiếng trên bếp củi, đêm giao thừa cả nhà quây quần trông nồi — chiếc bánh chín cũng là lúc năm mới về." },
+        ],
+      },
+      {
+        kind: "meanings",
+        title: "Mâm ngũ quả — năm loại quả, một lời cầu",
+        items: [
+          { swatch: "#4d7c0f", title: "Chuối xanh", text: "Nải chuối xum xuê nằm dưới cùng như bàn tay nâng đỡ — cầu sum họp, che chở con cháu." },
+          { swatch: "#ea580c", title: "Bưởi, cam", text: "Quả tròn vàng rực gợi sự viên mãn; 'cam' còn đồng âm với lời cầu mong may mắn." },
+          { swatch: "#dc2626", title: "Đào, hồng", text: "Sắc đỏ của đất trời mùa xuân — may mắn, sung túc và niềm vui đầu năm." },
+          { swatch: "#65a30d", title: "Sung", text: "'Sung' nghe như 'sung túc' — lời cầu đủ đầy, không thiếu thứ gì trong năm mới." },
+          { swatch: "#a16207", title: "Phật thủ, mãng cầu", text: "Quả phật thủ như bàn tay Phật phù hộ; 'cầu' trong mãng cầu là cầu an lành." },
+        ],
+      },
+    ],
+    quotes: [
+      { text: "Mồng một tết cha, mồng hai tết mẹ, mồng ba tết thầy.", author: "Ca dao", work: "Vè ngày Tết" },
+    ],
     motif: "lantern",
     name: "Tết Nguyên Đán",
     dateMark: "Mùng Một",
@@ -194,7 +302,7 @@ export const holidays: Holiday[] = [
         "Theo truyền thuyết, từ đời Hùng Vương thứ sáu đã có cuộc thi dâng lễ vật, nơi hoàng tử Lang Liêu sáng tạo bánh chưng bánh giầy tượng trưng đất trời. Đến nay, Tết vẫn là quả tim văn hóa của dân tộc: giao thừa, xông đất, mừng tuổi, cúng tổ tiên — một hệ nghi lễ khép kín quanh chữ 'sum họp'.",
       ],
       phongTuc: [
-        { title: "Gói bánh chưng, nấu bánh", text: "Từ 27–28 tháng Chạp, cả nhà rửa lá dong, vo nếp, gói bánh rồi thức trắng đêm trông nồi bánh. Đó là nghi lễ truyền đời thiêng liêng nhất của gia đình Việt." },
+        { title: "Gói bánh chưng, nấu bánh", text: "Từ 27–28 tháng Chạp, cả nhà rửa lá dong, vo nếp, gói bánh rồi thức trắng đêm trông nồi bánh. Đó là nghi lễ truyền đời thiêng liêng nhất của gia đình Việt.", img: "amthuc-banh-chung" },
         { title: "Cúng giao thừa (trừ tịch)", text: "Đúng 0 giờ đêm 30, gia chủ dâng hương mời tổ tiên về ăn Tết cùng con cháu. Nhiều nhà cúng thêm một mâm ngoài sân cho Thiên địa." },
         { title: "Xông đất (xông nhà)", text: "Người đầu tiên bước vào nhà sau giao thừa được tin là mang lại vận may cho cả năm. Gia chủ thường chọn trước người hợp tuổi, đức độ để 'xông'." },
         { title: "Mừng tuổi, lì xì", text: "Trẻ em chúc thọ ông bà cha mẹ; người lớn trao bao đỏ đựng tiền mới. Lì xì là mừng thêm một tuổi và cầu may cho tuổi mới." },
@@ -203,11 +311,11 @@ export const holidays: Holiday[] = [
         { title: "Hội xuân sau Tết", text: "Từ mùng 4–5 trở đi là lễ hội đền, hát quan họ, đấu vật, chọi trâu. Dân gian bảo 'tháng Giêng là tháng ăn chơi'." },
       ],
       amThuc: [
-        { title: "Bánh chưng (Bắc), bánh tét (Nam)", text: "Vuông hay tròn dài, nếp đậu thịt gói trong lá — chiếc bánh của đất trời, đặt giữa dĩa bàn thờ ngày Tết." },
-        { title: "Thịt kho trứng, củ kiệu (Nam)", text: "Nồi thịt kho trứng nước dừa ăn dần qua ba ngày Tết, đi kèm dưa kiệu chua giòn chống ngán." },
-        { title: "Thịt đông, dưa hành (Bắc)", text: "Miếng thịt đông trong vắt và củ hành muối chua — vị thanh mát 'xát' cho bữa Tết nhiều đạm." },
-        { title: "Mứt, hạt dưa, kẹo dừa", text: "Khay mứt bày khách: mứt gừng, mứt dừa, hạt dưa đỏ — vị ngọt mở đầu cho lời chúc." },
-        { title: "Canh măng, giò chả, nem rán", text: "Canh măng móng giò nhà nào cũng nấu; giò lụa, chả quế và nem rán là mâm đãi khách quen thuộc." },
+        { title: "Bánh chưng (Bắc), bánh tét (Nam)", img: "amthuc-banh-chung", text: "Vuông hay tròn dài, nếp đậu thịt gói trong lá — chiếc bánh của đất trời, đặt giữa dĩa bàn thờ ngày Tết." },
+        { title: "Thịt kho trứng, củ kiệu (Nam)", img: "amthuc-thit-kho-trung", text: "Nồi thịt kho trứng nước dừa ăn dần qua ba ngày Tết, đi kèm dưa kiệu chua giòn chống ngán." },
+        { title: "Thịt đông, dưa hành (Bắc)", text: "Miếng thịt đông trong vắt và củ hành muối chua — vị thanh mát 'xát' cho bữa Tết nhiều đạm.", img: "amthuc-thit-dong" },
+        { title: "Mứt, hạt dưa, kẹo dừa", img: "amthuc-mut-tet", text: "Khay mứt bày khách: mứt gừng, mứt dừa, hạt dưa đỏ — vị ngọt mở đầu cho lời chúc." },
+        { title: "Canh măng, giò chả, nem rán", img: "amthuc-nem-ran", text: "Canh măng móng giò nhà nào cũng nấu; giò lụa, chả quế và nem rán là mâm đãi khách quen thuộc." },
       ],
       facts: [
         "Theo truyền thuyết, hoàng tử Lang Liêu đời Hùng Vương thứ sáu dâng vua cha bánh chưng vuông tượng đất và bánh giầy tròn tượng trời — và được truyền ngôi nhờ món quà ý nghĩa nhất.",
@@ -226,6 +334,22 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "tet-nguyen-tieu",
+    heroStyle: "framed",
+    signature: [
+      {
+        kind: "steps",
+        title: "Một chiều rằm tháng Giêng",
+        steps: [
+          { icon: "temple", title: "Dâng hương đầu năm", text: "Rằm tháng Giêng là rằm lớn nhất năm — từ chùa Hương đến chùa quê, khói hương phủ kín ngõ vào." },
+          { icon: "star", title: "Cúng sao giải hạn", text: "Nhiều gia đình làm lễ dâng sao đầu năm, cầu hóa giải vận hạn và một năm bình an." },
+          { icon: "heart", title: "Phóng sinh tích đức", text: "Thả chim về trời, thả cá về nước — việc thiện đầu xuân nhắc lòng từ bi với muôn loài." },
+          { icon: "moonstar", title: "Ăn chè trôi nước", text: "Kết thúc buổi lễ bằng bát chè trôi nước nóng — viên bánh tròn trịnh, ngọt lành như trăng rằm." },
+        ],
+      },
+    ],
+    quotes: [
+      { text: "Tháng Giêng là tháng ăn chơi.", author: "Ngạn ngữ", work: "Vè bốn mùa" },
+    ],
     motif: "fullmoon",
     name: "Tết Nguyên Tiêu",
     dateMark: "15·01",
@@ -267,14 +391,14 @@ export const holidays: Holiday[] = [
       phongTuc: [
         { title: "Đi chùa rằm tháng Giêng", text: "Chùa đông nghẹt từ sáng sớm; người dân thắp hương, lễ Phật cầu một năm bình an. Nhiều nhà chọn ăn chay cả ngày rằm." },
         { title: "Cúng gia tiên", text: "Mâm cúng rằm tháng Giêng có xôi, chè, hoa quả — dâng lên ông bà như một lời 'khép' cho loạt lễ đầu xuân." },
-        { title: "Ăn chè trôi nước", text: "Viên chè tròn nhân đậu xanh trong nước cốt dừa gừng cay. 'Trôi nước' là nổi lên mặt nước — tượng sự viên mãn đầu năm." },
+        { title: "Ăn chè trôi nước", text: "Viên chè tròn nhân đậu xanh trong nước cốt dừa gừng cay. 'Trôi nước' là nổi lên mặt nước — tượng sự viên mãn đầu năm.", img: "amthuc-che-troi-nuoc" },
         { title: "Ngắm hoa đăng", text: "Hội An thả đèn hoa đăng trên sông Hoài, Chợ Lớn rực phố lồng đèn — nét còn lại của hội đèn Nguyên Tiêu xưa." },
         { title: "Cúng sao giải hạn", text: "Nhiều gia đình làm lễ cúng sao hạn đầu năm ngay trong ngày rằm Giêng, cầu hóa giải vận xấu cho cả năm." },
       ],
       amThuc: [
-        { title: "Chè trôi nước", text: "Món bắt buộc ngày rằm Giêng: vỏ nếp dai, nhân đậu xanh hoặc viên đường, nước gừng ấm nồng chan cốt dừa." },
-        { title: "Cỗ chay ngày rằm", text: "Đậu hũ kho, nấm xào, canh rau củ — nhiều nhà giữ ngày chay rằm Giêng để mở một năm thanh tịnh." },
-        { title: "Xôi, chè cúng rằm", text: "Đĩa xôi và chén chè đặt lên bàn thờ — lễ vật quen thuộc của mọi ngày rằm ở Việt Nam." },
+        { title: "Chè trôi nước", img: "amthuc-che-troi-nuoc", text: "Món bắt buộc ngày rằm Giêng: vỏ nếp dai, nhân đậu xanh hoặc viên đường, nước gừng ấm nồng chan cốt dừa." },
+        { title: "Cỗ chay ngày rằm", img: "amthuc-co-chay", text: "Đậu hũ kho, nấm xào, canh rau củ — nhiều nhà giữ ngày chay rằm Giêng để mở một năm thanh tịnh." },
+        { title: "Xôi, chè cúng rằm", img: "amthuc-xoi-che", text: "Đĩa xôi và chén chè đặt lên bàn thờ — lễ vật quen thuộc của mọi ngày rằm ở Việt Nam." },
       ],
       facts: [
         "Tên 'Nguyên Tiêu' nghĩa là 'đêm đầu' — đêm trăng rằm đầu tiên của năm, khi trăng tròn và sáng nhất chu kỳ.",
@@ -292,6 +416,21 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "valentine",
+    heroStyle: "split",
+    signature: [
+      {
+        kind: "meanings",
+        title: "Ngôn ngữ sắc hồng",
+        items: [
+          { swatch: "#e11d48", title: "Hồng đỏ", text: "Tình yêu mãnh liệt và lời tỏ tình thẳng thắn — bông hồng của ngày Valentine kinh điển." },
+          { swatch: "#f472b6", title: "Hồng phấn", text: "Ngọt ngào, cảm mến — dành cho tình cảm đang nảy nở, chưa cần nói thành lời." },
+          { swatch: "#fafaf9", title: "Hồng trắng", text: "Thuần khiết và tôn trọng; ở một số nơi còn là lời nhớ nhung dịu dàng." },
+          { swatch: "#facc15", title: "Hồng vàng", text: "Tình bạn và sự quan tâm — đẹp nhưng dễ bị hiểu nhầm, nên chọn đúng người để tặng." },
+          { swatch: "#fb923c", title: "Hồng cam", text: "Nhiệt huyết và hào hứng — lời chúc cho một tình yêu đầy năng lượng." },
+          { swatch: "#a78bfa", title: "Hồng tím lavender", text: "Mến mộ, say đắm — thường được kể là 'yêu ngay từ cái nhìn đầu tiên'." },
+        ],
+      },
+    ],
     motif: "heart",
     name: "Lễ Tình nhân",
     dateMark: "14·02",
@@ -329,16 +468,16 @@ export const holidays: Holiday[] = [
         "Nhà thơ Chaucer viết năm 1382 về 'ngày thánh Valentine' khi chim muông chọn bạn đời — từ đó ngày này thành ngày tỏ tình của Âu châu. Thiệp Valentine công nghiệp ra đời thế kỷ XIX ở Anh và Mỹ. Du nhập Việt Nam từ cuối thế kỷ XX, 14/2 nay là ngày hoa hồng và sô-cô-la quen thuộc của các cặp đôi.",
       ],
       phongTuc: [
-        { title: "Tặng hoa hồng", text: "Hồng đỏ cho tình yêu nồng cháy, hồng phấn cho sự ngọt ngào. Giá hoa ngày 14/2 thường tăng mạnh nhưng vẫn cháy hàng." },
+        { title: "Tặng hoa hồng", text: "Hồng đỏ cho tình yêu nồng cháy, hồng phấn cho sự ngọt ngào. Giá hoa ngày 14/2 thường tăng mạnh nhưng vẫn cháy hàng.", img: "gallery2" },
         { title: "Sô-cô-la và thiệp viết tay", text: "Cặp quà kinh điển: hộp sô-cô-la kèm tấm thiệp viết tay. Nhiều bạn trẻ tự làm sô-cô-la tại nhà để tặng người thương." },
         { title: "Tỏ tình, cầu hôn", text: "Ngày 14/2 được nhiều người chọn để ngỏ lời yêu hoặc cầu hôn — hi vọng có một kỷ niệm dễ nhớ nhất năm." },
         { title: "Hẹn hò đặc biệt", text: "Nhà hàng kín bàn từ sớm; bữa tối nến, một bộ phim tình cảm hay chuyến đi ngắn dành riêng cho hai người." },
         { title: "Valentine của bạn bè", text: "Ở Việt Nam bạn thân cũng tặng quà nhau ngày này. Nhiều nước còn có 'Galentine' 13/2 — ngày mừng tình bạn của phái nữ." },
       ],
       amThuc: [
-        { title: "Sô-cô-la", text: "Món quà - đồ ngọt đầu tiên người ta nghĩ đến: chocolate ngọt đắng như tình yêu, thường gói hộp hình trái tim." },
-        { title: "Dâu tây phủ sô-cô-la", text: "Trái dâu đỏ nhúng sô-cô-la tan — món tráng miệng lãng mạn nhiều bạn trẻ tự tay làm cho buổi hẹn." },
-        { title: "Bánh ngọt hình tim", text: "Bánh kem, cupcake sắc đỏ hồng hình trái tim — điểm nhấn cho bàn tiệc của các đôi lứa." },
+        { title: "Sô-cô-la", img: "amthuc-socola", text: "Món quà - đồ ngọt đầu tiên người ta nghĩ đến: chocolate ngọt đắng như tình yêu, thường gói hộp hình trái tim." },
+        { title: "Dâu tây phủ sô-cô-la", img: "amthuc-dau-socola", text: "Trái dâu đỏ nhúng sô-cô-la tan — món tráng miệng lãng mạn nhiều bạn trẻ tự tay làm cho buổi hẹn." },
+        { title: "Bánh ngọt hình tim", img: "amthuc-banh-tim", text: "Bánh kem, cupcake sắc đỏ hồng hình trái tim — điểm nhấn cho bàn tiệc của các đôi lứa." },
       ],
       facts: [
         "Bản ghi đầu tiên gắn ngày 14/2 với tình yêu là bài thơ 'Parliament of Fowls' của Chaucer năm 1382 — trước đó ngày này chỉ là lễ kính thánh.",
@@ -356,6 +495,32 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "quoc-te-phu-nu",
+    heroStyle: "split",
+    signature: [
+      {
+        kind: "timeline",
+        title: "Từ đường phố New York đến ngày của mẹ thế giới",
+        beats: [
+          { year: "1908", title: "Diễu hành ở New York", text: "Khoảng 15.000 công nhân may — phần lớn là phụ nữ — xuống đường đòi giờ làm ngắn hơn, lương cao hơn và quyền bầu cử." },
+          { year: "1910", title: "Sáng kiến Clara Zetkin", text: "Tại Copenhagen, nhà hoạt động Đức Clara Zetkin đề xuất một ngày chung của phụ nữ trên toàn thế giới — được hơn 100 đại biểu 17 nước nhất trí." },
+          { year: "1917", title: "Bánh và hòa bình", text: "Công nhân nữ ở Petrograd đình công ngày 23/2 lịch Julius — trùng 8/3 lịch mới — mở đầu chuỗi biến động làm thay đổi nước Nga." },
+          { year: "1975", title: "Liên Hợp Quốc công nhận", text: "Trong Năm Quốc tế Phụ nữ, LHQ chính thức kỷ niệm 8/3 là Ngày Quốc tế Phụ nữ trên toàn cầu." },
+        ],
+      },
+      {
+        kind: "meanings",
+        title: "Chọn hoa ngày 8/3",
+        items: [
+          { swatch: "#e11d48", title: "Hoa hồng", text: "Lời yêu thương và trân trọng rõ ràng nhất — hợp tặng mẹ, vợ, người yêu." },
+          { swatch: "#fb7185", title: "Cẩm chướng", text: "Lòng biết ơn — bông hoa của những người mẹ và cô giáo." },
+          { swatch: "#f9a8d4", title: "Tulip", text: "Thanh lịch, tinh tế — lựa chọn lịch sự cho đồng nghiệp và bạn bè." },
+          { swatch: "#fbbf24", title: "Đồng tiền", text: "Nụ cười và năng lượng tươi mới — bó hoa của sự vui vẻ." },
+        ],
+      },
+    ],
+    quotes: [
+      { text: "Anh hùng — Bất khuất — Trung hậu — Đảm đang.", author: "Hồ Chí Minh", work: "Tám chữ vàng tặng phụ nữ miền Nam, 8·3·1965" },
+    ],
     motif: "rose",
     name: "Quốc tế Phụ nữ 8/3",
     dateMark: "08·03",
@@ -418,6 +583,30 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "gio-to-hung-vuong",
+    heroStyle: "framed",
+    signature: [
+      {
+        kind: "legend",
+        title: "Bọc trăm trứng — cội nguồn con Rồng cháu Tiên",
+        lead: "Lạc Long Quân lấy Âu Cơ. Nàng sinh ra một bọc trăm trứng, nở ra một trăm người con trai.",
+        paragraphs: [
+          "Sau một thời gian, Lạc Long Quân nói với Âu Cơ: ta là giống Rồng, nàng là giống Tiên — thủy hỏa khó ở lâu bên nhau. Hai người chia nhau năm mươi người con: Âu Cơ đưa các con lên núi, Lạc Long Quân đưa các con xuống biển.",
+          "Người con cả theo mẹ lên miền đất Phong Châu được tôn làm vua, hiệu Hùng Vương — mở đầu thời đại Hồng Bàng, thời đại sơ khai của nước Việt. Vì cùng một bọc mà ra nên người Việt gọi nhau là 'đồng bào' — con Rồng cháu Tiên.",
+        ],
+      },
+      {
+        kind: "steps",
+        title: "Ba nhịp của ngày Giỗ Tổ",
+        steps: [
+          { icon: "temple", title: "Rước kiệu lên Nghĩa Lĩnh", text: "Sớm mồng 10 tháng 3 âm lịch, đoàn rước kiệu, cờ hoa và trống hội leo lên núi Nghĩa Lĩnh về đền Hùng." },
+          { icon: "candle", title: "Dâng hương tại đền Thượng", text: "Đoàn lễ vào đền Thượng — nơi các vua Hùng được cho là đứng nhìn trời đất — dâng hương bái công dựng nước." },
+          { icon: "lotus", title: "Dâng xôi, bánh chưng, bánh giầy", text: "Mâm lễ vật mộc mạc nhất có thể: xôi nếp, bánh chưng, bánh giầy — thức ăn của đời sống lúa nước từ thuở tổ tiên." },
+        ],
+      },
+    ],
+    quotes: [
+      { text: "Dù ai đi ngược về xuôi / Nhớ ngày Giỗ Tổ mồng Mười tháng Ba.", author: "Ca dao", work: "Vè Giỗ Tổ" },
+    ],
     motif: "temple",
     name: "Giỗ Tổ Hùng Vương",
     dateMark: "10·03",
@@ -463,9 +652,9 @@ export const holidays: Holiday[] = [
         { title: "Chuyến 'về nguồn'", text: "Trường học và đoàn thanh niên tổ chức chuyến đi về nguồn thăm Đền Hùng, học về thời đại dựng nước của dân tộc." },
       ],
       amThuc: [
-        { title: "Bánh chưng", text: "Bánh vuông tượng đất — lễ vật thiêng nhất dâng lên các vua Hùng trong ngày giỗ Tổ." },
-        { title: "Bánh giầy", text: "Bánh tròn ép từ nếp giã, tượng trưng bầu trời — cặp đôi bất ly với bánh chưng trong mâm cúng." },
-        { title: "Xôi và gà cúng", text: "Xôi gấc đỏ, gà luộc vàng — mâm cỗ dâng tổ theo kiểu cỗ Tết truyền thống của người Việt." },
+        { title: "Bánh chưng", text: "Bánh vuông tượng đất — lễ vật thiêng nhất dâng lên các vua Hùng trong ngày giỗ Tổ.", img: "amthuc-banh-chung" },
+        { title: "Bánh giầy", img: "amthuc-banh-giay", text: "Bánh tròn ép từ nếp giã, tượng trưng bầu trời — cặp đôi bất ly với bánh chưng trong mâm cúng." },
+        { title: "Xôi và gà cúng", img: "amthuc-xoi-ga", text: "Xôi gấc đỏ, gà luộc vàng — mâm cỗ dâng tổ theo kiểu cỗ Tết truyền thống của người Việt." },
       ],
       facts: [
         "Tín ngưỡng thờ cúng Hùng Vương được UNESCO công nhận Di sản văn hóa phi vật thể đại diện của nhân loại năm 2012.",
@@ -483,6 +672,22 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "tet-thanh-minh",
+    heroStyle: "framed",
+    signature: [
+      {
+        kind: "steps",
+        title: "Tảo mộ đúng nghi",
+        steps: [
+          { icon: "home", title: "Dọn cỏ, rửa bia", text: "Quét dọn cỏ dại quanh phần mộ, rửa sạch bia và tô điểm lại nét chữ đã mờ theo năm tháng." },
+          { icon: "temple", title: "Vun đất, thắp hương", text: "Đắp thêm đất lên phần mộ — 'vun mộ' như sửa lại nhà cho người đã khuất — rồi thắp nén hương đầu tiên." },
+          { icon: "lotus", title: "Dâng hoa, dâng lễ", text: "Hoa tươi, trầu rượu và món ăn người thân từng thích — lễ vật giản dị, lòng thành là chính." },
+          { icon: "heart", title: "Thăm hỏi, nhắc chuyện", text: "Tảo mộ cũng là ngày đại gia đình gặp nhau bên mộ tổ — kể lại chuyện cũ để người nhỏ biết mình từ đâu." },
+        ],
+      },
+    ],
+    quotes: [
+      { text: "Trong năm có tiết thanh minh / Lễ là tảo mộ, hội là đạp thanh.", author: "Nguyễn Du", work: "Truyện Kiều" },
+    ],
     motif: "lotus",
     name: "Tết Thanh minh",
     dateMark: "04·04–06",
@@ -528,9 +733,9 @@ export const holidays: Holiday[] = [
         { title: "Dạo xuân đầu năm", text: "Thanh minh cũng là thời tiết đẹp nhất để dạo chơi; những chuyến về quê cho lễ mang cả vẻ dịu dàng của mùa xuân." },
       ],
       amThuc: [
-        { title: "Xôi", text: "Nhiều miền dâng xôi trong ngày tảo mộ — đĩa xôi đặt trước mộ và trên ban thờ nhà." },
-        { title: "Bánh nếp dân gian", text: "Bánh khúc ở miền Bắc hay bánh ít, bánh phu thê nơi khác — loại bánh gói lá mang theo buổi tảo mộ." },
-        { title: "Hoa quả, rượu nhạt", text: "Mâm trái cây theo mùa, hoa cúc và chén rượu — mâm lễ giản dị của ngày tảo mộ." },
+        { title: "Xôi", img: "amthuc-xoi", text: "Nhiều miền dâng xôi trong ngày tảo mộ — đĩa xôi đặt trước mộ và trên ban thờ nhà." },
+        { title: "Bánh nếp dân gian", text: "Bánh khúc ở miền Bắc hay bánh ít, bánh phu thê nơi khác — loại bánh gói lá mang theo buổi tảo mộ.", img: "amthuc-banh-nep" },
+        { title: "Hoa quả, rượu nhạt", text: "Mâm trái cây theo mùa, hoa cúc và chén rượu — mâm lễ giản dị của ngày tảo mộ.", img: "amthuc-hoa-qua" },
       ],
       facts: [
         "Thanh minh không phải lễ âm lịch — nó theo tiết khí mặt trời, nên ngày dương dịch mỗi năm giữa 4 và 6 tháng 4.",
@@ -549,6 +754,22 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "giai-phong-mien-nam",
+    heroStyle: "poster",
+    signature: [
+      {
+        kind: "timeline",
+        title: "Con đường đến 30/4",
+        beats: [
+          { year: "1954", title: "Hiệp định Genève", text: "Đất nước tạm chia đôi bờ sông Bến Hải: miền Bắc xây dựng chủ nghĩa xã hội, miền Nam tiếp tục đấu tranh." },
+          { year: "1973", title: "Hiệp định Paris", text: "Quân đội Mỹ rút khỏi miền Nam; cục diện chiến trường bắt đầu đổi rõ rệt." },
+          { year: "3·1975", title: "Đại thắng mùa xuân", text: "Chiến dịch Hồ Chí Minh mở màn: Ban Mê Thuột, rồi Huế, Đà Nẵng giải phóng chỉ trong vài tuần." },
+          { year: "30·4·1975", title: "Xe tăng vào Sài Gòn", text: "Gần trưa, xe tăng húc đổ cổng Dinh Độc Lập — miền Nam hoàn toàn giải phóng, đất nước thống nhất." },
+        ],
+      },
+    ],
+    quotes: [
+      { text: "Bắc Nam xum họp Xuân nào vui hơn.", author: "Nguyễn Du", work: "Truyện Kiều (vế kết)" },
+    ],
     motif: "star",
     name: "Ngày Giải phóng miền Nam 30/4",
     dateMark: "30·04",
@@ -610,6 +831,17 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "quoc-te-lao-dong",
+    signature: [
+      {
+        kind: "timeline",
+        title: "Từ Chicago đến khắp thế giới",
+        beats: [
+          { year: "1·5·1886", title: "Đình công vì ngày 8 giờ", text: "Hơn 300.000 công nhân Mỹ ngừng việc đòi ngày làm 8 tiếng; vụ Haymarket vài hôm sau trở thành biểu tượng của phong trào." },
+          { year: "1889", title: "Ngày đoàn kết quốc tế", text: "Đại hội Quốc tế thứ hai tại Paris chọn 1/5 làm ngày chung của công nhân toàn thế giới." },
+          { year: "1946", title: "Về đến Việt Nam", text: "Ngày Quốc tế Lao động chính thức có tên trong danh mục ngày nghỉ lễ của nước ta từ đầu thời kỳ độc lập." },
+        ],
+      },
+    ],
     motif: "wheat",
     name: "Quốc tế Lao động 1/5",
     dateMark: "01·05",
@@ -669,6 +901,23 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "ngay-cua-me",
+    heroStyle: "split",
+    signature: [
+      {
+        kind: "meanings",
+        title: "Bông hoa gửi mẹ",
+        items: [
+          { swatch: "#e11d48", title: "Cẩm chướng đỏ", text: "Lòng biết ơn sâu nhất — từ năm 1908, Anna Jarvis chọn cẩm chướng đỏ làm hoa chính thức của ngày này." },
+          { swatch: "#f9a8d4", title: "Cẩm chướng hồng", text: "Dịu dàng và ngọt ngào — bông hoa bà Jarvis từng tặng chính mẹ mình." },
+          { swatch: "#fafaf9", title: "Cẩm chướng trắng", text: "Tưởng nhớ mẹ đã khuất — cài bông trắng là một lời nhớ lặng lẽ." },
+          { swatch: "#f472b6", title: "Hoa hồng", text: "Yêu thương — hợp tặng vợ, chị hoặc người bạn đời vừa làm mẹ." },
+          { swatch: "#a78bfa", title: "Lan, đồng tiền", text: "Sự kính trọng và vẻ tươi tắn — lựa chọn hiện đại bên cạnh cẩm chướng." },
+        ],
+      },
+    ],
+    quotes: [
+      { text: "Công cha như núi Thái Sơn / Nghĩa mẹ như nước trong nguồn chảy ra.", author: "Ca dao" },
+    ],
     motif: "carnation",
     name: "Ngày của Mẹ",
     dateMark: "CN·II",
@@ -729,6 +978,21 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "quoc-te-thieu-nhi",
+    signature: [
+      {
+        kind: "steps",
+        title: "Một ngày của bé",
+        steps: [
+          { icon: "flag", title: "Lễ khai hội", text: "Trường học và cung thiếu nhi mở cổng rộn rã — cờ hoa, trống hội và những tiết mục do chính các bé trình bày." },
+          { icon: "ribbon", title: "Quà và lời chúc", text: "Ba mẹ tặng quà nhỏ, thầy cô gửi điều hay — ngày này trẻ em là nhân vật chính thật sự." },
+          { icon: "balloon", title: "Trò chơi dân gian", text: "Nhảy bao bố, kéo co, tò he, đập đất nảy lửa — những trò chơi ông cha từng chơi vẫn sống trong sân trường." },
+          { icon: "star", title: "Tiệc ngọt kết ngày", text: "Kem, bánh và pháo bông giấy kết thúc ngày hội — kỷ niệm ngọt mà đứa trẻ nào cũng mang theo lớn lên." },
+        ],
+      },
+    ],
+    quotes: [
+      { text: "Trẻ em như búp trên cành / Biết ăn, biết ngủ, biết học hành là ngoan.", author: "Hồ Chí Minh", work: "Thơ gửi các cháu" },
+    ],
     motif: "balloon",
     name: "Quốc tế Thiếu nhi 1/6",
     dateMark: "01·06",
@@ -789,6 +1053,22 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "ngay-gia-dinh-viet-nam",
+    heroStyle: "split",
+    signature: [
+      {
+        kind: "steps",
+        title: "Mâm cơm sum họp",
+        steps: [
+          { icon: "home", title: "Cùng đi chợ", text: "Chọn món từng người thích — mâm cơm gia đình ngon nhất khi ai cũng có một món dành riêng cho mình." },
+          { icon: "heart", title: "Nấu cùng nhau", text: "Chia việc ra mà làm: người nhặt rau, người trông nồi, bé xếp đũa — bếp đông mới là bếp có Tết." },
+          { icon: "temple", title: "Đủ mặt mới động đũa", text: "Phép lịch sự đầu bàn: đợi đủ người, mời người lớn trước — mâm cơm dạy trẻ điều đầu tiên về tôn ti." },
+          { icon: "book", title: "Chuyện một ngày", text: "Bàn ăn là nơi mỗi người kể lại ngày của mình — gia đình gắn nhau bằng những câu chuyện rất nhỏ." },
+        ],
+      },
+    ],
+    quotes: [
+      { text: "Anh em như thể tay chân / Rách lành đùm bọc, dở hay đỡ đần.", author: "Ca dao" },
+    ],
     motif: "home",
     name: "Ngày Gia đình Việt Nam",
     dateMark: "28·06",
@@ -849,6 +1129,22 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "thuong-binh-liet-si",
+    heroStyle: "poster",
+    signature: [
+      {
+        kind: "steps",
+        title: "Ngọn nến tri ân",
+        steps: [
+          { icon: "candle", title: "Thắp nến ở nghĩa trang", text: "Tối 26 rạng 27/7, những ngọn nến được thắp trên khắp các nghĩa trang liệt sĩ — mỗi nấm mộ một ngọn sáng nhỏ." },
+          { icon: "lotus", title: "Dâng hương bái liệt sĩ", text: "Gia đình và cơ quan đến bia mộ, đài tưởng niệm dâng hương — đọc từng cái tên để không ai bị quên." },
+          { icon: "heart", title: "Thăm gia đình chính sách", text: "Đến tận nhà thương binh, mẹ liệt sĩ — hỏi han sức khỏe và hỗ trợ thật sự chứ không chỉ lời chúc." },
+          { icon: "book", title: "Tìm mộ, hồi hương", text: "Nhiều gia đình vẫn tìm mộ thân nhân; công tác quy tập hài cốt liệt sĩ vẫn tiếp tục mỗi năm." },
+        ],
+      },
+    ],
+    quotes: [
+      { text: "Tổ quốc, đồng bào phải biết ơn, phải giúp đỡ những người con anh dũng ấy.", author: "Hồ Chí Minh", work: "Thư ngày Thương binh toàn quốc, 27·7·1947" },
+    ],
     motif: "candle",
     name: "Ngày Thương binh Liệt sĩ",
     dateMark: "27·07",
@@ -910,6 +1206,30 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "vu-lan",
+    heroStyle: "framed",
+    signature: [
+      {
+        kind: "legend",
+        title: "Mục Liên cứu mẹ",
+        lead: "Tôn giả Mục Kiền Liên tu hành thành đạt quả, dùng thần thông tìm mẹ vừa mất — và thấy bà phải đọa kiếp ngạ quỷ.",
+        paragraphs: [
+          "Ngài dâng cơm lên cho mẹ, nhưng bà vì lòng tham đời trước nên thức ăn hóa than hồng, lửa cháy bỏng đầy miệng. Mục Liên đau đớn trở về van cầu Đức Phật chỉ đường cứu mẹ.",
+          "Phật dạy: muốn cứu một lòng hiếu cũng không đủ — hãy cúng dường chư tăng đang tự tứ mãn hạ vào rằm tháng Bảy, nhờ uy thần chúng sẽ cứu được người mẹ khỏi kiếp đói khát. Từ đó, rằm tháng Bảy thành mùa Vu Lan — mùa báo hiếu của con cháu muôn đời.",
+        ],
+      },
+      {
+        kind: "meanings",
+        title: "Bông hồng cài áo",
+        items: [
+          { swatch: "#e11d48", title: "Hồng đỏ", text: "Mẹ cha còn trên đời — cài bông đỏ lên ngực áo như lời cảm ơn có mẹ có cha." },
+          { swatch: "#fafaf9", title: "Hồng trắng", text: "Mẹ đã khuất — bông trắng nhắc mình sống sao cho xứng công sinh thành." },
+          { swatch: "#facc15", title: "Hồng vàng", text: "Ở một số chùa, bông vàng cho người chỉ còn cha hoặc còn mẹ — nửa niềm may vẫn giữ lại." },
+        ],
+      },
+    ],
+    quotes: [
+      { text: "Con dù lớn vẫn là con của mẹ / Đi hết đời lòng mẹ vẫn theo con.", author: "Ca dao" },
+    ],
     motif: "lotus",
     name: "Lễ Vu Lan",
     dateMark: "15·07",
@@ -947,7 +1267,7 @@ export const holidays: Holiday[] = [
         "Từ Ấn Độ qua Trung Hoa rồi Việt Nam, Vu Lan hòa với tục cúng cô hồn rằm tháng 7 — 'xá tội vong nhân' — và trở thành mùa báo hiếu lớn nhất năm. Nét riêng của Vu Lan Việt là nghi lễ cài bông hồng lên áo, do thiền sư Thích Nhất Hạnh khởi xướng năm 1963: hoa đỏ khi còn mẹ, hoa trắng khi mẹ đã mất.",
       ],
       phongTuc: [
-        { title: "Cài bông hồng lên áo", text: "Trong lễ Vu Lan tại chùa, người đến lễ được cài một bông hồng: đỏ cho người còn mẹ, trắng cho người đã mất mẹ — giây phút xúc động nhất của lễ." },
+        { title: "Cài bông hồng lên áo", text: "Trong lễ Vu Lan tại chùa, người đến lễ được cài một bông hồng: đỏ cho người còn mẹ, trắng cho người đã mất mẹ — giây phút xúc động nhất của lễ.", img: "phongtuc-bong-hong" },
         { title: "Đi chùa lễ Vu Lan", text: "Rằm tháng 7, chùa khắp nước tổ chức đại lễ: tụng kinh Vu Lan, nghe pháp thoại về mẹ, sám hối và báo hiếu." },
         { title: "Cúng gia tiên", text: "Mâm cỗ dâng ông bà, cha mẹ hai bên — cầu người còn sống được bình an, người đã mất được siêu thoát." },
         { title: "Xá tội vong nhân", text: "Tục cúng cô hồn: cháo trắng, muối, hoa quả đặt ngoài sân cho vong linh lang thang — lòng từ bi gửi cả những linh hồn không nơi nương tựa." },
@@ -955,9 +1275,9 @@ export const holidays: Holiday[] = [
         { title: "Về thăm cha mẹ", text: "Vu Lan ngày nay cũng là 'Ngày của Mẹ Á Đông': con xa quê về thăm, ôm mẹ một cái — món quà báo hiếu giản dị nhất." },
       ],
       amThuc: [
-        { title: "Mâm cỗ chay", text: "Nhiều nhà ăn chay rằm tháng 7: đậu hũ, nấm, rau củ, chè — thanh tịnh thân tâm để hồi hướng cha mẹ." },
-        { title: "Cháo trắng, muối cúng cô hồn", text: "Cháo loãng, muối tiêu, gạo đường — lễ vật giản dị của mâm xá tội vong nhân đặt ngoài sân." },
-        { title: "Hoa quả tươi dâng Phật", text: "Trái cây đầu mùa và hoa sen dâng lên tam bảo — 'trái cây ngoài vườn' thay cho lễ vật xa hoa." },
+        { title: "Mâm cỗ chay", text: "Nhiều nhà ăn chay rằm tháng 7: đậu hũ, nấm, rau củ, chè — thanh tịnh thân tâm để hồi hướng cha mẹ.", img: "amthuc-mam-co-chay" },
+        { title: "Cháo trắng, muối cúng cô hồn", img: "amthuc-chao-trang", text: "Cháo loãng, muối tiêu, gạo đường — lễ vật giản dị của mâm xá tội vong nhân đặt ngoài sân." },
+        { title: "Hoa quả tươi dâng Phật", text: "Trái cây đầu mùa và hoa sen dâng lên tam bảo — 'trái cây ngoài vườn' thay cho lễ vật xa hoa.", img: "amthuc-dang-phat" },
       ],
       facts: [
         "'Vu Lan' bắt nguồn từ tiếng Phạn Ullambana — nghĩa là 'cứu người bị treo ngược', hình ảnh khổ hình của kiếp ngạ quỷ.",
@@ -975,6 +1295,32 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "quoc-khanh",
+    heroStyle: "poster",
+    signature: [
+      {
+        kind: "timeline",
+        title: "Bốn phút đọc Tuyên ngôn",
+        beats: [
+          { year: "19·8·1945", title: "Thắng lợi ở Hà Nội", text: "Tổng khởi nghĩa giành chính quyền ở Thủ đô — cả nước nối gót nhau vùng dậy trong hai tuần cuối tháng Tám." },
+          { year: "29·8·1945", title: "Chính phủ lâm thời", text: "Chính phủ lâm thời nước Việt Nam Dân chủ Cộng hòa ra mắt; vua Bảo Đại thoái vị làm công dân." },
+          { year: "2·9·1945", title: "Ba Đình lịch sử", text: "Trước nửa triệu người ở quảng trường Ba Đình, Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập — nước Việt Nam Dân chủ Cộng hòa ra đời." },
+          { year: "14 giờ", title: "Khoảnh khắc nghe thấy", text: "Bản Tuyên ngôn dài vỏn vẹn một trang — đọc chưa đầy bốn phút — nhưng khép lại 80 năm mất nước." },
+        ],
+      },
+      {
+        kind: "meanings",
+        title: "Những 'ngày một' của nước non trẻ",
+        items: [
+          { swatch: "#da251d", title: "Quốc kỳ", text: "Cờ đỏ sao vàng lần đầu được công nhận là quốc kỳ chính thức của một nhà nước độc lập." },
+          { swatch: "#fbbf24", title: "Quốc tế ca", text: "Bài 'Tiến quân ca' của Văn Cao được chọn làm quốc ca — hát lên trong chính ngày Tuyên ngôn." },
+          { swatch: "#1d4ed8", title: "Cuốc và búa", text: "Quốc huy đầu tiên: lúa vàng — thức ăn, cuốc — công cụ, búa — công nhân; người lao động là chủ nước." },
+        ],
+      },
+    ],
+    quotes: [
+      { text: "Hôm nay sáng mồng Hai tháng Chín / Thủ đô hoa vàng nắng Ba Đình.", author: "Tố Hữu", work: "Theo chân Bác" },
+      { text: "Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thật đã thành một nước tự do độc lập.", author: "Hồ Chí Minh", work: "Tuyên ngôn Độc lập, 2·9·1945" },
+    ],
     motif: "flag",
     name: "Quốc khánh 2/9",
     dateMark: "02·09",
@@ -1037,6 +1383,32 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "trung-thu",
+    heroStyle: "split",
+    signature: [
+      {
+        kind: "legend",
+        title: "Chú Cuội và cây đa trăm tuổi",
+        lead: "Cuội có cây đa thần — lá nó cứu sống được cả người chết — nhưng phải tưới bằng nước sạch.",
+        paragraphs: [
+          "Một hôm vợ Cuội tưới nhầm nước bẩn, cây đa bứt rễ bay thẳng lên trời. Cuội níu gốc theo, cả người lẫn cây đậu xuống cung trăng — từ đó trăng rằm nào cũng thấy bóng dáng chú Cuội ngồi gốc đa nhìn về trần.",
+          "Trẻ con đi rước đèn trung thu đều ngẩng lên tìm vệt đen trong mặt trăng: nếu đêm nay trăng sáng, chú Cuội cũng đang ngóng chờ cùng mình.",
+        ],
+      },
+      {
+        kind: "steps",
+        title: "Phá cỗ trông trăng",
+        steps: [
+          { icon: "moonstar", title: "Bày mâm cỗ dưới trăng", text: "Bánh nướng, bánh dẻo, bưởi hồng đào, hồng, chuối và cốm đầu mùa xếp thành mâm cỗ trước sân." },
+          { icon: "star", title: "Rước đèn ông sao", text: "Đèn ông sao năm cánh, đèn cá chép, đèn kéo quân — đoàn rước đèn của trẻ con vang trống đi khắp phố." },
+          { icon: "heart", title: "Bày chữ bằng quả", text: "Trên mâm cỗ xếp chữ bằng đậu xanh hay thịt quả — 'phúc', 'lộc', 'thọ' — lời cầu nguyện làm bằng tay." },
+          { icon: "book", title: "Bẻ bánh, phá cỗ", text: "Cuối đêm bánh trung thu được bẻ ra chia nhau — 'phá cỗ' để nhận phần trăng của riêng mình." },
+        ],
+      },
+    ],
+    quotes: [
+      { text: "Chiếc đèn ông sao, sao năm cánh tươi màu.", author: "Phạm Tuyên", work: "Chiếc đèn ông sao, 1956" },
+      { text: "Tuổi nhỏ làm việc nhỏ, tùy theo sức của mình.", author: "Hồ Chí Minh", work: "Thư Trung thu gửi các cháu, 1952" },
+    ],
     motif: "moonstar",
     name: "Tết Trung thu",
     dateMark: "15·08",
@@ -1075,18 +1447,18 @@ export const holidays: Holiday[] = [
       ],
       phongTuc: [
         { title: "Phá cỗ ngắm trăng", text: "Mâm cỗ đặt dưới sân trăng: bánh trung thu, bưởi bày chóp, hồng, na. Cả nhà vừa ngắm trăng vừa 'phá' — chia — mâm cỗ." },
-        { title: "Rước đèn ông sao", text: "Trẻ em rước đèn giấy, đèn ông sao đi từng đoàn trong đêm rằm — ánh nến, đèn pin và tiếng hát 'rước đèn tháng tám'." },
+        { title: "Rước đèn ông sao", text: "Trẻ em rước đèn giấy, đèn ông sao đi từng đoàn trong đêm rằm — ánh nến, đèn pin và tiếng hát 'rước đèn tháng tám'.", img: "phongtuc-den-ong-sao" },
         { title: "Múa lân", text: "Tiếng trống lân giòn giã khắp phố; đoàn lân đến từng nhà múa chúc phúc, trẻ con ùa theo xem náo nhiệt." },
         { title: "Làm đèn lồng thủ công", text: "Trước Trung thu, nhiều nhà và trường học dạy làm đèn giấy, đèn ông sao — giữ nghề lồng đèn truyền thống." },
-        { title: "Bày mâm cỗ trăng", text: "Bày bưởi thành chóp, trái cây thành hình con vật — mâm cỗ Trung thu là nghệ thuật bày biện của dân gian." },
-        { title: "Uống trà ngắm trăng", text: "Người lớn ngồi trò chuyện bên ấm trà nóng và đĩa bánh dẻo — 'uống trà ngắm trăng' là nét thưởng thức mùa thu." },
+        { title: "Bày mâm cỗ trăng", text: "Bày bưởi thành chóp, trái cây thành hình con vật — mâm cỗ Trung thu là nghệ thuật bày biện của dân gian.", img: "amthuc-mam-trai-cay" },
+        { title: "Uống trà ngắm trăng", text: "Người lớn ngồi trò chuyện bên ấm trà nóng và đĩa bánh dẻo — 'uống trà ngắm trăng' là nét thưởng thức mùa thu.", img: "amthuc-tra" },
       ],
       amThuc: [
-        { title: "Bánh nướng", text: "Vỏ bánh màu cánh gián hồng óng, nhân thập cẩm, hạt sen, trứng muối — chiếc bánh 'đậm' của Trung thu." },
-        { title: "Bánh dẻo", text: "Vỏ bột nếp trắng mềm, nhân sen hoặc đậu xanh — bánh 'thanh' ăn cùng trà nóng." },
-        { title: "Trà ngắm trăng", text: "Không mâm cỗ nào thiếu ấm trà — trà sen, trà lài xát đi vị ngọt của bánh." },
-        { title: "Mâm trái cây mùa thu", text: "Bưởi bày chóp, hồng, na, chuối — mâm trái cây dâng trăng rồi cả nhà cùng phá cỗ." },
-        { title: "Bánh in, kẹo bò cốm", text: "Bánh in hình cá chép, con cua và kẹo bò cốm — những món 'bé tẹo' trong mâm cỗ của các cháu." },
+        { title: "Bánh nướng", img: "amthuc-banh-nuong", text: "Vỏ bánh màu cánh gián hồng óng, nhân thập cẩm, hạt sen, trứng muối — chiếc bánh 'đậm' của Trung thu." },
+        { title: "Bánh dẻo", img: "amthuc-banh-deo", text: "Vỏ bột nếp trắng mềm, nhân sen hoặc đậu xanh — bánh 'thanh' ăn cùng trà nóng." },
+        { title: "Trà ngắm trăng", img: "amthuc-tra", text: "Không mâm cỗ nào thiếu ấm trà — trà sen, trà lài xát đi vị ngọt của bánh." },
+        { title: "Mâm trái cây mùa thu", img: "amthuc-mam-trai-cay", text: "Bưởi bày chóp, hồng, na, chuối — mâm trái cây dâng trăng rồi cả nhà cùng phá cỗ." },
+        { title: "Bánh in, kẹo bò cốm", text: "Bánh in hình cá chép, con cua và kẹo bò cốm — những món 'bé tẹo' trong mâm cỗ của các cháu.", img: "amthuc-banh-in" },
       ],
       facts: [
         "Trung thu khác nhau ở ba miền: miền Bắc chuộng mâm cỗ bày trái cây và múa lân; miền Nam rước đèn náo nhiệt ở Chợ Lớn; miền Trung có Tuyên Quang — 'thành phố Trung thu' với mô hình đèn khổng lồ.",
@@ -1105,6 +1477,22 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "phu-nu-viet-nam",
+    heroStyle: "split",
+    signature: [
+      {
+        kind: "timeline",
+        title: "Hai Bà Trưng đến Hội Phụ nữ Việt Nam",
+        beats: [
+          { year: "Năm 40", title: "Khởi nghĩa Hai Bà Trưng", text: "Trưng Trắc, Trưng Nhị dựng cờ khởi nghĩa ở Mê Linh, lập chính quyền tự chủ — nữ tướng đầu tiên của sử Việt." },
+          { year: "1930", title: "Hội Phụ nữ ra đời", text: "Ngày 20/10/1930, Hội Liên hiệp Phụ nữ Việt Nam thành lập — tổ chức của phụ nữ, vì phụ nữ." },
+          { year: "1965", title: "Tám chữ vàng", text: "Bác Hồ tặng phụ nữ miền Nam bức trướng 'Anh hùng — Bất khuất — Trung hậu — Đảm đang' — thành đức tính của phụ nữ Việt." },
+          { year: "Nay", title: "Ngày của bà, mẹ, chị, em", text: "20/10 trở thành ngày phụ nữ Việt được nhận hoa, lời chúc và sự trân trọng từ cả nước." },
+        ],
+      },
+    ],
+    quotes: [
+      { text: "Non sông gấm vóc Việt Nam do phụ nữ ta, trẻ cùng già, ra sức dệt thêu mà thêm tốt đẹp, rực rỡ.", author: "Hồ Chí Minh" },
+    ],
     motif: "ribbon",
     name: "Ngày Phụ nữ Việt Nam 20/10",
     dateMark: "20·10",
@@ -1166,6 +1554,21 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "nha-giao-viet-nam",
+    signature: [
+      {
+        kind: "steps",
+        title: "Nghi thức tri ân thầy cô",
+        steps: [
+          { icon: "book", title: "Thăm thầy cũ", text: "Nhiều người đi xa vẫn về thăm thầy cô năm xưa — có thầy cô đã nghỉ hưu chục năm vẫn nhớ tên học trò." },
+          { icon: "heart", title: "Bưng trà, xin chữ", text: "Ở lớp học thêm, học trò dâng trà mời thầy — thầy viết vài chữ động viên làm kỷ niệm." },
+          { icon: "star", title: "Văn nghệ chào mừng", text: "Tiết mục hát, đọc thơ, cắm hoa do chính học sinh dàn dựng — sân trường đông như ngày hội." },
+          { icon: "ribbon", title: "Hội khoẻ thầy cô", text: "Sở giáo dục tổ chức khen thưởng, hội thao — ngày 20/11 là 'ngày trả công' cả nước dành cho nhà giáo." },
+        ],
+      },
+    ],
+    quotes: [
+      { text: "Không thầy đố mày làm nên.", author: "Tục ngữ" },
+    ],
     motif: "book",
     name: "Ngày Nhà giáo Việt Nam",
     dateMark: "20·11",
@@ -1226,6 +1629,22 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "quan-doi-nhan-dan",
+    heroStyle: "poster",
+    signature: [
+      {
+        kind: "timeline",
+        title: "Từ 34 chiến sĩ đầu tiên",
+        beats: [
+          { year: "22·12·1944", title: "Truyền thống đầu nguồn", text: "Tại rừng Trần Hưng Đạo (Cao Bằng), Đội Việt Nam Tuyên truyền Giải phóng quân ra đời với 34 chiến sĩ — hạt nhân của quân đội cách mạng." },
+          { year: "25·12·1944", title: "Trận đầu tiên", text: "Đánh phá đồn Phai Khắt và Nà Ngần — hai trận thắng mở màn truyền thống 'đánh chắc thắng'." },
+          { year: "1946", title: "Quân đội Nhân dân", text: "Lực lượng vũ trang thống nhất mang tên Quân đội Nhân dân Việt Nam — quân đội 'từ dân, vì dân'." },
+          { year: "Nay", title: "Nghĩa cử thời bình", text: "Cứu trợ lũ lụt, rà phá bom mìn, công trình nơi biên giới hải đảo — người lính vẫn ở những nơi khó khăn nhất." },
+        ],
+      },
+    ],
+    quotes: [
+      { text: "Quân đội ta trung với Đảng, hiếu với dân, sẵn sàng chiến đấu hy sinh vì độc lập, tự do của Tổ quốc, vì chủ nghĩa xã hội.", author: "Hồ Chí Minh", work: "Nhân dịp 20 năm thành lập quân đội, 1964" },
+    ],
     motif: "medal",
     name: "Ngày Quân đội Nhân dân VN",
     dateMark: "22·12",
@@ -1287,6 +1706,23 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "giang-sinh",
+    heroStyle: "split",
+    signature: [
+      {
+        kind: "meanings",
+        title: "Sắc màu và biểu tượng Noel",
+        items: [
+          { swatch: "#dc2626", title: "Đỏ", text: "Màu của trái ô rô, áo ông già Noel và mái nhà ấm — tình yêu và sự cho đi." },
+          { swatch: "#16a34a", title: "Xanh lá", text: "Cây thông và vòng nguyệt quế — sự sống xanh mãi giữa mùa đông." },
+          { swatch: "#fbbf24", title: "Vàng", text: "Ngôi sao dẫn đường, nến và đèn hang đá — ánh sáng đêm Chúa giáng sinh." },
+          { swatch: "#fafaf9", title: "Trắng", text: "Tuyết và vải gói Hài Nhi — sự tinh khiết và bình an." },
+          { swatch: "#92400e", title: "Hang đá", text: "Ở Việt Nam, mọi gia đình và giáo xứ đều dựng hang đá — máng cỏ Bêlem quen như bản thân ngày lễ." },
+        ],
+      },
+    ],
+    quotes: [
+      { text: "Vinh danh Thiên Chúa trên các tầng trời / Bình an dưới thế cho người thiện tâm.", author: "Thánh ca kinh Vinh danh" },
+    ],
     motif: "pine",
     name: "Giáng sinh",
     dateMark: "25·12",
@@ -1332,10 +1768,10 @@ export const holidays: Holiday[] = [
         { title: "Tiệc Noel gia đình, công ty", text: "Bữa tiệc cuối năm: gà nướng, lẩu, bánh khúc cây — Giáng sinh ở Việt Nam cũng là dịp sum họp đầu đông." },
       ],
       amThuc: [
-        { title: "Gà nướng, gà tây", text: "Món chính của bàn tiệc Noel: gà nướng mật ong hoặc gà tây nhồi — kiểu Âu nhưng chế biến vị Việt." },
-        { title: "Bánh khúc cây (bûche de Noël)", text: "Bánh cuộn kem bơ tạo hình khúc cây — truyền thống Pháp du nhập, bán khắp tiệm bánh mỗi độ Giáng sinh." },
-        { title: "Lẩu đêm đông", text: "Giáng sinh rơi vào mùa se lạnh miền Bắc — nồi lẩu nóng hổi là món quen thuộc của các buổi tụ họp Noel." },
-        { title: "Bánh quy gừng, kẹo gậy", text: "Người bánh gừng và cây kẹo gậy sọc đỏ trắng — những món nhỏ đặt dưới gốc cây thông." },
+        { title: "Gà nướng, gà tây", img: "amthuc-ga-nuong", text: "Món chính của bàn tiệc Noel: gà nướng mật ong hoặc gà tây nhồi — kiểu Âu nhưng chế biến vị Việt." },
+        { title: "Bánh khúc cây (bûche de Noël)", img: "amthuc-buche", text: "Bánh cuộn kem bơ tạo hình khúc cây — truyền thống Pháp du nhập, bán khắp tiệm bánh mỗi độ Giáng sinh." },
+        { title: "Lẩu đêm đông", img: "amthuc-lau", text: "Giáng sinh rơi vào mùa se lạnh miền Bắc — nồi lẩu nóng hổi là món quen thuộc của các buổi tụ họp Noel." },
+        { title: "Bánh quy gừng, kẹo gậy", img: "amthuc-banh-quy-gung", text: "Người bánh gừng và cây kẹo gậy sọc đỏ trắng — những món nhỏ đặt dưới gốc cây thông." },
       ],
       facts: [
         "Kinh Thánh không ghi ngày sinh của Giêsu — lễ 25/12 được ghi nhận đầu tiên ở Roma năm 336; các nhà nghiên cứu cho rằng ngày này trùng lễ Sol Invictus của La Mã.",
@@ -1353,6 +1789,27 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "ong-cong-ong-tao",
+    heroStyle: "framed",
+    signature: [
+      {
+        kind: "legend",
+        title: "Hai ông một bà trông bếp",
+        lead: "Táo quân gồm ba vị — hai ông một bà — ngự trong bếp mỗi gia đình, trông nom miếng cơm quanh năm.",
+        paragraphs: [
+          "Ngày 23 tháng Chạp, ba vị cưỡi cá chép về trời báo cáo Ngọc Hoàng mọi việc tốt xấu trong nhà cả năm qua. Người ta cúng trầu, cau, hương, đèn và thả cá chép sống — 'táo gia' ra đi êm thấm, năm mới mới thuận hòa.",
+          "Cũng vì thế mà bếp là nơi thiêng nhất của nhà Việt — 'cúi đầu chào ông Táo, vỗ đít choàng' là dân gian; giữ bếp sạch, nói năng vui vẻ trong nhà chính là lễ cúng quanh năm.",
+        ],
+      },
+      {
+        kind: "steps",
+        title: "Lễ tiễn Táo quân",
+        steps: [
+          { icon: "lotus", title: "Mâm cúng bếp", text: "Trầu cau, hương đèn, gạo muối và ba bộ mũ áo Táo — hai ông một bà — sắp ngay trên bàn thờ bếp." },
+          { icon: "star", title: "Thả cá chép", text: "Cá chép sống thả về sông ao — phương tiện đưa Táo quân về trời; người ta không ăn cá chép ngày này." },
+          { icon: "home", title: "Quét bếp, dọn nhà", text: "Sau khi tiễn táo quân là quét tước, tỉa tông — dọn nhà cuối năm bắt đầu từ chính cái bếp." },
+        ],
+      },
+    ],
     name: "Ông Công Ông Táo",
     dateMark: "23·12",
     displayDate: "23 tháng 12 Âm lịch",
@@ -1394,17 +1851,17 @@ export const holidays: Holiday[] = [
       ],
       phongTuc: [
         { title: "Cúng tiễn Táo quân", text: "Trưa hoặc chiều 23 tháng Chạp, gia chủ dâng mâm cơm, hoa quả, vàng mã và bộ nón Táo (hai nón ông, một nón bà) tiễn Táo về trời." },
-        { title: "Thả cá chép", text: "Sau lễ cúng, cá chép được thả xuống ao hồ sông ngòi — 'ngựa' đưa Táo quân về trời. Đây là nét riêng của Việt Nam, không giống Trung Hoa." },
+        { title: "Thả cá chép", text: "Sau lễ cúng, cá chép được thả xuống ao hồ sông ngòi — 'ngựa' đưa Táo quân về trời. Đây là nét riêng của Việt Nam, không giống Trung Hoa.", img: "amthuc-ca-chep" },
         { title: "Dọn bàn thờ bếp", text: "Lau chùi bàn thờ Táo, thay bát hương, quét tước bếp — dân gian tin 'bếp sạch thì Táo mới nói hay'." },
         { title: "Hóa vàng Táo quân", text: "Đốt nón, áo mã, giày mã sau lễ cúng — trang phục mới cho ba vị Táo lên trời trình diện." },
         { title: "Bắt đầu quét nhà đón Tết", text: "Từ sau lễ Táo quân, nhà cửa được quét dọn tổng thể — coi như 'mở mùa' chuẩn bị Tết." },
         { title: "Giữ lời ăn tiếng nói", text: "Dân gian tin Táo quân ghi lại lời nói và việc làm trong nhà — lễ cúng nhắc mỗi người sống tử tế trong chính mái ấm mình." },
       ],
       amThuc: [
-        { title: "Mâm cơm cúng Táo quân", text: "Mâm cỗ mặn hay chay tùy nhà — thường thịnh soạn vì Táo quân 'đi xa' đến mùng 7 Tết mới trở về." },
-        { title: "Cá chép sống", text: "Con cá chép mua về để thả sau lễ — vật phẩm tâm linh nhất của ngày, gắn tích 'cá chép vượt vũ môn'." },
-        { title: "Nón Táo và vàng mã", text: "Bộ ba nón (hai ông một bà), giày, áo mã — trang phục hóa vàng cho Táo quân lên trời." },
-        { title: "Chè, xôi cúng lễ", text: "Bát chè, đĩa xôi đặt cùng mâm cỗ — đồ ngọt 'nói lời ngọt' của mâm cúng bếp cuối năm." },
+        { title: "Mâm cơm cúng Táo quân", img: "amthuc-mam-com-tao", text: "Mâm cỗ mặn hay chay tùy nhà — thường thịnh soạn vì Táo quân 'đi xa' đến mùng 7 Tết mới trở về." },
+        { title: "Cá chép sống", img: "amthuc-ca-chep", text: "Con cá chép mua về để thả sau lễ — vật phẩm tâm linh nhất của ngày, gắn tích 'cá chép vượt vũ môn'." },
+        { title: "Nón Táo và vàng mã", img: "amthuc-vang-ma", text: "Bộ ba nón (hai ông một bà), giày, áo mã — trang phục hóa vàng cho Táo quân lên trời." },
+        { title: "Chè, xôi cúng lễ", img: "amthuc-che-xoi", text: "Bát chè, đĩa xôi đặt cùng mâm cỗ — đồ ngọt 'nói lời ngọt' của mâm cúng bếp cuối năm." },
       ],
       facts: [
         "Theo truyền thuyết, Táo quân gồm ba vị: hai ông (Trọng Cao và Phạm Lang) và một bà (Thị Nhi) — vì thế trên bàn thờ bếp thường cúng ba vị.",
@@ -1422,6 +1879,18 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "tet-han-thuc",
+    heroStyle: "framed",
+    signature: [
+      {
+        kind: "legend",
+        title: "Bánh trôi, bánh chay",
+        lead: "Hàn thực nghĩa là 'ăn đồ lạnh' — lễ cổ tưởng nhớ Giới Tử Thôi, kẻ sĩ chịu chết cháy trong rừng mà không chịu ra làm quan.",
+        paragraphs: [
+          "Vào Việt Nam, tục ăn đồ lạnh nhường chỗ cho hai thức bánh ngọt dịu: bánh trôi — viên bánh nhỏ nhân đường đỏ nổi lềnh phềnh trong chè gừng, và bánh chay — viên lớn hơn nhân đỗ xanh đắp vừng.",
+          "Hai thức bánh gợi đúng tình ngày lễ: trôi tròn trịnh giữa đời đạo, chay thanh khiết lòng người. Mâm bánh trôi bánh chay trắng ngà dâng tổ tiên mồng Ba tháng Ba là sự thanh tao thuần Việt nhất của cả năm.",
+        ],
+      },
+    ],
     name: "Tết Hàn thực",
     dateMark: "03·03",
     displayDate: "3 tháng 3 Âm lịch",
@@ -1461,16 +1930,16 @@ export const holidays: Holiday[] = [
         "Tục này du nhập Việt Nam nhưng đổi bản sắc: người Việt không cấm lửa, mà biến mùng 3 tháng 3 âm lịch thành tết bánh trôi bánh chay — mâm đồ thanh tịnh dâng tổ tiên. 'Hàn thực' ở ta vì vậy còn gọi 'Tết bánh trôi', ngày ăn chay nhớ cội nguồn giữa loạt lễ mùa xuân.",
       ],
       phongTuc: [
-        { title: "Nặn bánh trôi, bánh chay", text: "Tối trước mùng 3, cả nhà vo bột nếp nặn bánh: bánh trôi viên nhân đường, bánh chay nhân đậu xanh." },
+        { title: "Nặn bánh trôi, bánh chay", text: "Tối trước mùng 3, cả nhà vo bột nếp nặn bánh: bánh trôi viên nhân đường, bánh chay nhân đậu xanh.", img: "amthuc-banh-troi" },
         { title: "Dâng bánh lên tổ tiên", text: "Sáng mùng 3 tháng 3 âm lịch, mâm bánh trôi bánh chay dâng lên bàn thờ ông bà — lễ cúng thanh tịnh đầu xuân." },
         { title: "Ăn chay cả ngày", text: "Nhiều gia đình giữ ngày chay để tâm tĩnh — 'ăn chay ngày Hàn thực' là tục còn giữ ở nhiều nhà miền Bắc." },
         { title: "Đi lễ chùa", text: "Sau loạt lễ tháng Giêng, nhiều người chọn mùng 3/3 vào chùa cầu an — 'đi lễ đầu xuân'." },
         { title: "Nấu nước gừng", text: "Nồi nước đường gừng cay đi kèm bánh trôi — vị ấm 'xát' cho một 'tiết ăn lạnh'." },
       ],
       amThuc: [
-        { title: "Bánh trôi nước", text: "Viên bột nếp tròn nhân đường viên, nấu nổi trong nước đường gừng rắc vừng — 'bánh trôi' vì trôi nổi trên nước." },
-        { title: "Bánh chay", text: "Viên dẹp nhân đậu xanh giã mịn, chan nước đường phèn — nhẹ hơn bánh trôi và đi đôi với nhau khi dâng cúng." },
-        { title: "Mâm cúng thanh tịnh", text: "Bánh trôi, bánh chay, chè, hoa quả — lễ vật thanh tịnh của ngày mùng 3 tháng 3." },
+        { title: "Bánh trôi nước", img: "amthuc-banh-troi", text: "Viên bột nếp tròn nhân đường viên, nấu nổi trong nước đường gừng rắc vừng — 'bánh trôi' vì trôi nổi trên nước." },
+        { title: "Bánh chay", text: "Viên dẹp nhân đậu xanh giã mịn, chan nước đường phèn — nhẹ hơn bánh trôi và đi đôi với nhau khi dâng cúng.", img: "amthuc-banh-chay" },
+        { title: "Mâm cúng thanh tịnh", img: "amthuc-mam-cung", text: "Bánh trôi, bánh chay, chè, hoa quả — lễ vật thanh tịnh của ngày mùng 3 tháng 3." },
       ],
       facts: [
         "Theo truyền thuyết, Hàn thực tưởng nhớ Giới Tử Thôi — trung thần thời Xuân Thu bị thiêu trong rừng Miên Sơn; vì vậy lệ cũ cấm nhóm lửa.",
@@ -1488,6 +1957,18 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "tet-doan-ngo",
+    signature: [
+      {
+        kind: "steps",
+        title: "Giết sâu bọ đầu hè",
+        steps: [
+          { icon: "lotus", title: "Ăn trái cây, rượu nếp", text: "Đúng giờ ngọ ngày mồng 5 tháng 5 ăn mận, vải, rượu nếp cẩm — dân gian tin là 'giết sâu bọ' trong người, trừ bệnh tật." },
+          { icon: "moonstar", title: "Tắm lá thơm", text: "Nước lá mướp, bưởi, sả, ngải cứu đun sôi tắm trưa ngọ — khỏi ngứa ngáy, mát người cả hè." },
+          { icon: "ribbon", title: "Đeo hồ lô, chỉ ngũ sắc", text: "Trẻ con đeo hồ lô thơm và vòng chỉ năm màu trừ tà — đến đêm rằm tháng Sáu mới tháo thả xuống sông." },
+          { icon: "candle", title: "Hái thuốc giờ ngọ", text: "Người làm thuốc hái cây đúng giờ ngọ ngày Đoan Ngọ — tin rằng dược tính cỏ cây lúc đó mạnh nhất năm." },
+        ],
+      },
+    ],
     name: "Tết Đoan Ngọ",
     dateMark: "05·05",
     displayDate: "5 tháng 5 Âm lịch",
@@ -1528,17 +2009,17 @@ export const holidays: Holiday[] = [
       ],
       phongTuc: [
         { title: "Ăn giết sâu bọ giờ ngọ", text: "Đúng trưa 5/5 âm lịch, cả nhà ăn hoa quả chua, cơm rượu, trứng luộc — 'giết sâu bọ' trong bụng để khỏi đau ốm cả hè." },
-        { title: "Ăn trái cây chua đầu mùa", text: "Mận, xoài xanh, sấu, vải — trái chua được tin là 'tẩy' cơ thể chuyển mùa; trẻ con thích nhất vì được ăn trái cây no say." },
-        { title: "Uống rượu nếp, ăn cơm rượu", text: "Cơm rượu nếp cái hoa vàng — ngọt men, cay nhẹ — là món truyền thống bắt buộc của ngày giết sâu bọ." },
+        { title: "Ăn trái cây chua đầu mùa", text: "Mận, xoài xanh, sấu, vải — trái chua được tin là 'tẩy' cơ thể chuyển mùa; trẻ con thích nhất vì được ăn trái cây no say.", img: "amthuc-trai-cay-chua" },
+        { title: "Uống rượu nếp, ăn cơm rượu", text: "Cơm rượu nếp cái hoa vàng — ngọt men, cay nhẹ — là món truyền thống bắt buộc của ngày giết sâu bọ.", img: "amthuc-com-ruou" },
         { title: "Hái thuốc giờ ngọ", text: "Từ 11–13 giờ, người xưa ra đồng hái cỏ cây — tin rằng giờ này dược tính cây mạnh nhất năm." },
         { title: "Đốt vía, đeo chỉ ngũ sắc", text: "Đốt vía trước cửa xua tà, đeo vòng chỉ năm màu cho trẻ — phong tục trừ dịch còn giữ ở nhiều nơi." },
         { title: "Cúng gia tiên giữa trưa", text: "Mâm trái cây và cơm rượu dâng ông bà đúng giờ ngọ — sau đó cả nhà 'phá' mâm giết sâu bọ." },
       ],
       amThuc: [
-        { title: "Cơm rượu nếp", text: "Nếp cái hoa vàng lên men ngọt cay — món đứng đầu bảng của tết giết sâu bọ." },
-        { title: "Trái cây chua đầu mùa", text: "Xoài xanh chấm muối, mận, sấu non, vải — 'ăn chua' ngày Đoan Ngọ cho bụng dạ sạch sâu bọ." },
-        { title: "Bánh tro (bánh gio)", text: "Bánh nếp ngâm nước tro trong veo, chấm mật mía — vị thanh mát riêng của ngày 5/5 âm lịch." },
-        { title: "Trứng luộc", text: "Trứng gà, trứng vịt luộc — món 'sát trùng' giản dị trong mâm giết sâu bọ." },
+        { title: "Cơm rượu nếp", img: "amthuc-com-ruou", text: "Nếp cái hoa vàng lên men ngọt cay — món đứng đầu bảng của tết giết sâu bọ." },
+        { title: "Trái cây chua đầu mùa", text: "Xoài xanh chấm muối, mận, sấu non, vải — 'ăn chua' ngày Đoan Ngọ cho bụng dạ sạch sâu bọ.", img: "amthuc-trai-cay-chua" },
+        { title: "Bánh tro (bánh gio)", img: "amthuc-banh-tro", text: "Bánh nếp ngâm nước tro trong veo, chấm mật mía — vị thanh mát riêng của ngày 5/5 âm lịch." },
+        { title: "Trứng luộc", img: "amthuc-trung-luoc", text: "Trứng gà, trứng vịt luộc — món 'sát trùng' giản dị trong mâm giết sâu bọ." },
       ],
       facts: [
         "Giờ ngọ 5/5 được xem là thời điểm 'dương cực' của năm — mặt trời đứng bóng, cỏ cây mạnh dược tính nhất, nên tục hái thuốc gọi 'giờ ngọ chính vọng'.",
@@ -1556,6 +2037,20 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "ngay-thay-thuoc",
+    signature: [
+      {
+        kind: "timeline",
+        title: "Từ bức thư năm 1955",
+        beats: [
+          { year: "27·2·1955", title: "Bức thư gửi hội nghị y tế", text: "Chủ tịch Hồ Chí Minh gửi thư cho Hội nghị Cán bộ Y tế tại Hà Nội — bài căn dặn 368 chữ về đạo đức người thầy thuốc." },
+          { year: "1985", title: "Ngày truyền thống ngành y", text: "Hội đồng Bộ trưởng chọn 27/2 hằng năm làm Ngày Thầy thuốc Việt Nam — từ đúng văn kiện lịch sử năm ấy." },
+          { year: "Nay", title: "Tri ân áo trắng", text: "Ngày để cả nước cảm ơn thầy thuốc — nhất là sau những giai đoạn họ gánh những trận chiến không tên." },
+        ],
+      },
+    ],
+    quotes: [
+      { text: "Lương y phải như từ mẫu.", author: "Hồ Chí Minh", work: "Thư gửi Hội nghị Cán bộ Y tế, 27·2·1955" },
+    ],
     name: "Ngày Thầy thuốc Việt Nam",
     dateMark: "27·02",
     displayDate: "27 tháng 2",
@@ -1618,6 +2113,20 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "ngay-bao-chi",
+    signature: [
+      {
+        kind: "timeline",
+        title: "Tờ báo đầu tiên",
+        beats: [
+          { year: "21·6·1925", title: "Báo Thanh niên ra số đầu", text: "Nguyễn Ái Quốc sáng lập báo Thanh niên ở Quảng Châu — tờ báo cách mạng đầu tiên của người Việt, 'trường học của mỗi người cách mạng'." },
+          { year: "1985", title: "Kỷ niệm 60 năm", text: "Từ kỷ niệm tròn sáu chục năm, 21/6 chính thức trở thành Ngày Báo chí Cách mạng Việt Nam." },
+          { year: "Nay", title: "Mặt trận tư tưởng", text: "Ngày gặp mặt, khen thưởng nhà báo — và nhắc nhớ trách nhiệm của người cầm bút trong thời đại tin tức." },
+        ],
+      },
+    ],
+    quotes: [
+      { text: "Người cán bộ báo chí cũng là một chiến sĩ cách mạng.", author: "Hồ Chí Minh", work: "Về công tác báo chí" },
+    ],
     name: "Ngày Báo chí Cách mạng Việt Nam",
     dateMark: "21·06",
     displayDate: "21 tháng 6",
@@ -1680,6 +2189,21 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "nguoi-cao-tuoi",
+    signature: [
+      {
+        kind: "steps",
+        title: "Mừng thọ về già",
+        steps: [
+          { icon: "home", title: "Dâng lễ mừng thọ", text: "Con cháu dâng trầu, trà, rượu và áo mừng cho cụ — mừng thọ năm nào 'tròn' tuổi theo âm lịch." },
+          { icon: "heart", title: "Quây quần bốn thế hệ", text: "Ngày mừng thọ tụ họp đông nhất sau Tết — bốn thế hệ một nhà cùng cúi đầu chúc cụ thêm xuân." },
+          { icon: "book", title: "Nghe chuyện xưa", text: "Người cao tuổi là 'cây cổ thụ' của gia đình — hỏi ông bà chuyện đời là giữ lại sử sống." },
+          { icon: "star", title: "Vai trò trong cộng đồng", text: "Hội người cao tuổi, làng khuyên học, câu lạc bộ sức khỏe — về già vẫn là chỗ dựa của xóm làng." },
+        ],
+      },
+    ],
+    quotes: [
+      { text: "Kính lão đắc thọ.", author: "Tục ngữ" },
+    ],
     name: "Ngày Người cao tuổi Việt Nam",
     dateMark: "01·10",
     displayDate: "1 tháng 10",
@@ -1719,16 +2243,16 @@ export const holidays: Holiday[] = [
         "Việt Nam cũng lấy 1/10 làm Ngày Người cao tuổi Việt Nam — hòa với truyền thống 'kính lão đắc thọ' ngàn đời của dân tộc: lễ mừng thọ ở các tuổi 70, 80, 90 và câu ca 'kính già, già để tuổi cho'. Ngày này nhắc cộng đồng chăm sóc những mái đầu bạc đã dựng nên đời sống hôm nay.",
       ],
       phongTuc: [
-        { title: "Mừng thọ ông bà", text: "Gia đình chọn dịp này tổ chức mừng thọ cho cụ ông, cụ bà — con cháu tề tựu chúc 'sống lâu trăm tuổi'." },
+        { title: "Mừng thọ ông bà", text: "Gia đình chọn dịp này tổ chức mừng thọ cho cụ ông, cụ bà — con cháu tề tựu chúc 'sống lâu trăm tuổi'.", img: "amthuc-mung-tho" },
         { title: "Thăm hỏi người cao tuổi", text: "Hội Người cao tuổi, đoàn thể và chính quyền thăm hỏi, tặng quà các cụ neo đơn, có hoàn cảnh khó khăn." },
         { title: "Khám sức khỏe miễn phí", text: "Nhiều địa phương mở đợt khám bệnh, tư vấn dinh dưỡng và sức khỏe cho người già quanh ngày 1/10." },
         { title: "Văn nghệ hội cụ", text: "Hội Người cao tuổi tổ chức văn nghệ, thi hát, tọa đàm sống vui sống khỏe — đúng nghĩa 'ngày của các cụ'." },
         { title: "Con cháu về thăm", text: "Ngày này nhắc người con xa quê gọi điện, về thăm — một dịp để nhớ rằng các cụ vẫn đang chờ." },
       ],
       amThuc: [
-        { title: "Cỗ mừng thọ", text: "Mâm cỗ thịnh soạn mừng tuổi cụ: gà xé, giò chả, nem — đông con cháu quây quần mới là 'đầy thọ'." },
-        { title: "Xôi gấc đỏ", text: "Đĩa xôi đỏ tạo hình chữ 'thọ' — màu trường thọ phú quý đặt giữa mâm mừng thọ." },
-        { title: "Chè, trà đãi khách", text: "Chè ngọt, trà nóng và bánh mừng thọ đãi khách đến chúc — đồ mừng giản dị của ngày kính lão." },
+        { title: "Cỗ mừng thọ", text: "Mâm cỗ thịnh soạn mừng tuổi cụ: gà xé, giò chả, nem — đông con cháu quây quần mới là 'đầy thọ'.", img: "amthuc-mung-tho" },
+        { title: "Xôi gấc đỏ", img: "amthuc-xoi-gac", text: "Đĩa xôi đỏ tạo hình chữ 'thọ' — màu trường thọ phú quý đặt giữa mâm mừng thọ." },
+        { title: "Chè, trà đãi khách", img: "amthuc-che-tra", text: "Chè ngọt, trà nóng và bánh mừng thọ đãi khách đến chúc — đồ mừng giản dị của ngày kính lão." },
       ],
       facts: [
         "Nghị quyết 45/106 của Đại hội đồng Liên Hợp Quốc (14/12/1990) đặt ngày 1/10 là Ngày Quốc tế Người cao tuổi, áp dụng từ 1991.",
@@ -1746,6 +2270,21 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "doanh-nhan",
+    signature: [
+      {
+        kind: "steps",
+        title: "Từ gánh hàng rong đến doanh nhân",
+        steps: [
+          { icon: "wheat", title: "Nghề buôn trong chợ quê", text: "Thương nghiệp Việt lớn lên từ gánh hàng rong, chợ phiên và nghề thủ công — 'bán chịu' đầu tiên là lòng tin." },
+          { icon: "star", title: "Phố cổ, phường hội", text: "Phố Hàng Bông, Hàng Đào, Hội An quảng trường thế kỷ XVII — thương nhân Việt đã buôn với cả thế giới." },
+          { icon: "flag", title: "13·10 Ngày Doanh nhân", text: "Từ 2004, 13/10 là Ngày Doanh nhân Việt Nam — tôn vinh người dám khởi nghiệp và tạo việc làm." },
+          { icon: "book", title: "Trách nhiệm đi cùng", text: "Doanh nhân ngày nay gắn với trách nhiệm xã hội — làm giàu đi đôi với làm việc thiện cho quê hương." },
+        ],
+      },
+    ],
+    quotes: [
+      { text: "Thương trường là chiến trường.", author: "Ngạn ngữ" },
+    ],
     name: "Ngày Doanh nhân Việt Nam",
     dateMark: "13·10",
     displayDate: "13 tháng 10",
@@ -1808,6 +2347,22 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "ngay-thanh-lap-dang",
+    heroStyle: "poster",
+    signature: [
+      {
+        kind: "timeline",
+        title: "Con đường ra đời của Đảng",
+        beats: [
+          { year: "1911", title: "Tìm đường cứu nước", text: "Người thanh niên Nguyễn Tất Thành lên đường từ bến Nhà Rồng — 'ra đi tìm đường cứu nước'." },
+          { year: "1930", title: "Ba tổ chức hợp nhất", text: "Đầu năm 1930, tại Hương Cảng, hội nghị hợp nhất ba tổ chức cộng sản thành Đảng Cộng sản Việt Nam — ngày 3/2 được lấy làm ngày thành lập." },
+          { year: "1945", title: "Cách mạng Tháng Tám", text: "Đảng lãnh đạo Tổng khởi nghĩa giành chính quyền cả nước — 15 năm sau ngày thành lập." },
+          { year: "Nay", title: "Hơn chín mươi năm", text: "Mỗi dịp 3/2 là dịp tổng kết và khen thưởng đảng viên tiêu biểu trên cả nước." },
+        ],
+      },
+    ],
+    quotes: [
+      { text: "Đảng ta là đạo đức, là văn minh.", author: "Hồ Chí Minh", work: "Lễ kỷ niệm 30 năm thành lập Đảng, 1960" },
+    ],
     motif: "flag",
     name: "Ngày thành lập Đảng Cộng sản Việt Nam",
     dateMark: "03·02",
@@ -1870,6 +2425,22 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "ngay-dien-bien-phu",
+    heroStyle: "poster",
+    signature: [
+      {
+        kind: "timeline",
+        title: "56 ngày đêm khoét núi",
+        beats: [
+          { year: "11·1953", title: "Pháp dựng căn cứ", text: "Tướng Navarre đổ quân nhảy dù xuống thung lũng Điện Biên Phủ — muốn biến nơi đây thành pháo đài bất khả xâm phạm." },
+          { year: "13·3·1954", title: "Mở màn chiến dịch", text: "Pháo ta nổ từ đồi Him Lam — 56 ngày đêm khoét núi, ngủ hầm, huy động cả dân công lẫn xe đạp thồ." },
+          { year: "7·5·1954", title: "Cờ trên nóc hầm De Castries", text: "17 giờ 30, quân ta chiếm sở chỉ huy địch — 'lừng lẫy năm châu, chấn động địa cầu'." },
+          { year: "7·1954", title: "Hiệp định Genève", text: "Chiến thắng dẫn thẳng tới Genève — Pháp ký hiệp định, chín năm kháng chiến khép lại." },
+        ],
+      },
+    ],
+    quotes: [
+      { text: "Quyết chiến, quyết thắng.", author: "Khẩu hiệu chiến dịch", work: "Lá cờ Hồ Chủ tịch trao tặng quân đội, 1954" },
+    ],
     motif: "medal",
     name: "Ngày Chiến thắng Điện Biên Phủ",
     dateMark: "07·05",
@@ -1931,6 +2502,21 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "ngay-sinh-nhat-bac",
+    signature: [
+      {
+        kind: "timeline",
+        title: "Từ làng Sen đến Ba Đình",
+        beats: [
+          { year: "19·5·1890", title: "Sinh tại làng Hoàng Trù", text: "Người sinh tại làng Hoàng Trù, quê ngoại xã Kim Liên, Nam Đàn, Nghệ An — trong gia đình nhà nho yêu nước." },
+          { year: "1911", title: "Ra đi tìm đường", text: "21 tuổi, Người lên tàu Amiral Latouche-Tréville từ bến Nhà Rồng — ba mươi năm phiêu bạt tìm đường cứu nước." },
+          { year: "1941", title: "Trở về Pác Bó", text: "Người về nước trực tiếp lãnh đạo cách mạng từ rừng Pác Bó, Cao Bằng." },
+          { year: "1945", title: "Đọc Tuyên ngôn", text: "2/9/1945, Người đọc Tuyên ngôn Độc lập tại Ba Đình — từ đứa trẻ làng Sen thành Chủ tịch nước." },
+        ],
+      },
+    ],
+    quotes: [
+      { text: "Không có gì quý hơn độc lập, tự do.", author: "Hồ Chí Minh", work: "Lời kêu gọi đồng bào và chiến sĩ, 17·7·1966" },
+    ],
     motif: "lotus",
     name: "Ngày sinh Chủ tịch Hồ Chí Minh",
     dateMark: "19·05",
@@ -1992,6 +2578,22 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "ngay-cach-mang-thang-tam",
+    heroStyle: "poster",
+    signature: [
+      {
+        kind: "timeline",
+        title: "Mười bốn ngày đổi vận nước",
+        beats: [
+          { year: "13·8·1945", title: "Lệnh Tổng khởi nghĩa", text: "Ủy ban Khởi nghĩa toàn quốc ban hành Quân lệnh số 1 — cả nước chuyển sang khởi nghĩa giành chính quyền." },
+          { year: "16·8", title: "Quốc dân đại hội Tân Trào", text: "Đại hội 60 đại biểu ở Tân Trào thông qua 10 chính sách lớn và chọn Hồ Chí Minh làm Chủ tịch Chính phủ lâm thời." },
+          { year: "19·8", title: "Giành chính quyền Hà Nội", text: "Hàng trăm ngàn người tuần hành, giành chính quyền Thủ đô — ngọn cờ khởi nghĩa lan khắp cả nước." },
+          { year: "30·8", title: "Vua Bảo Đại thoái vị", text: "Vua cuối nhà Nguyễn thoái vị, trả ấn kiếm cho Chính phủ cách mạng — nghìn năm quân chủ chấm dứt." },
+        ],
+      },
+    ],
+    quotes: [
+      { text: "Đoàn quân Việt Nam đi / Chung lòng cứu quốc.", author: "Văn Cao", work: "Tiến quân ca, 1944" },
+    ],
     motif: "star",
     name: "Ngày Cách mạng tháng Tám",
     dateMark: "19·08",
@@ -2053,6 +2655,22 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "ngay-giai-phong-thu-do",
+    heroStyle: "poster",
+    signature: [
+      {
+        kind: "timeline",
+        title: "Chín năm kháng chiến về phố",
+        beats: [
+          { year: "20·7·1954", title: "Hiệp định Genève", text: "Ký hiệp định đình chiến — miền Bắc hoàn toàn giải phóng, bộ đội chuẩn bị tiếp quản Thủ đô." },
+          { year: "9·10·1954", title: "Trận địa cuối cùng rút", text: "Quân Pháp rút khỏi cầu Long Biên — Hà Nội hoàn toàn trống quân xâm lược sau chín năm." },
+          { year: "10·10·1954", title: "Bộ đội về phố", text: "Sư đoàn 308 — 'Sư đoàn Quân tiên phong' — từ cổng thành Quan Chưởng tiến vào phố, hoa và cờ phủ kín đường về." },
+          { year: "Mãi về sau", title: "Ngày của Hà Nội", text: "10/10 thành ngày truyền thống của riêng Thủ đô — 'Giải phóng Thủ đô' là ngày thành phố ngàn năm tuổi về với dân tộc." },
+        ],
+      },
+    ],
+    quotes: [
+      { text: "Mình về mình có nhớ ta / Mười lăm năm ấy thiết tha mặn nồng.", author: "Tố Hữu", work: "Việt Bắc, 1954" },
+    ],
     motif: "flag",
     name: "Ngày Giải phóng Thủ đô",
     dateMark: "10·10",
