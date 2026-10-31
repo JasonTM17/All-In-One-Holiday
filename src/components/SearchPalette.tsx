@@ -65,15 +65,23 @@ export default function SearchPalette({ locale }: { locale: Locale }) {
         onClick={() => setOpen(true)}
         onMouseEnter={warm}
         onFocus={warm}
-        aria-label={t.nav.searchAria}
-        className="flex min-h-11 items-center gap-2 rounded-full border border-[var(--color-line)] px-4 text-sm font-bold text-[var(--color-faint)] hover:bg-[var(--color-soft)] focus-visible:outline-2"
+        aria-keyshortcuts="Control+K Meta+K"
+        className="flex min-h-11 items-center gap-2.5 rounded-xl border border-[var(--color-line)] px-4 text-sm font-bold text-[var(--color-faint)] transition-colors hover:bg-[var(--color-soft)] focus-visible:outline-2"
       >
-        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+        <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true">
           <circle cx="7" cy="7" r="5" />
           <path d="m11 11 3 3" />
         </svg>
-        <span className="hidden sm:inline">{t.nav.search}</span>
-        <kbd className="hidden rounded bg-[var(--color-soft)] px-1.5 text-[10px] sm:inline">⌘K</kbd>
+        {/* sr-only below sm keeps an accessible name when only the icon shows;
+            visible text stays inside the computed name (WCAG 2.5.3). */}
+        <span className="sr-only sm:not-sr-only">{t.nav.search}</span>
+        <kbd
+          aria-hidden="true"
+          className="hidden items-center gap-0.5 rounded-md border border-[var(--color-line)] bg-[var(--color-soft)] px-1.5 py-1 font-sans text-[10px] font-semibold leading-none tracking-wide text-[var(--color-faint)] shadow-[0_1px_0_var(--color-line)] sm:inline-flex"
+        >
+          <span>⌘</span>
+          <span>K</span>
+        </kbd>
       </button>
 
       {open && <PaletteDialog onClose={close} locale={locale} />}

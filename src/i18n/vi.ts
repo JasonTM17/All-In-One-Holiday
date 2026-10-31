@@ -17,11 +17,10 @@ export const vi: Messages = {
     calendar: "Lịch",
     cardCta: "Tạo thiệp sinh nhật",
     search: "Tìm lễ",
-    searchAria: "Tìm ngày lễ (Ctrl+K)",
     themeToDark: "Chuyển sang giao diện tối",
     themeToLight: "Chuyển sang giao diện sáng",
     installApp: "Cài đặt ứng dụng",
-    langSwitch: "Chuyển ngôn ngữ / Switch language",
+    langSwitch: "VI | EN — switch to English",
   },
   footer: {
     tagline:

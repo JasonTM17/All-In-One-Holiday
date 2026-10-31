@@ -17,11 +17,10 @@ export const en: Messages = {
     calendar: "Calendar",
     cardCta: "Create a birthday card",
     search: "Search",
-    searchAria: "Search holidays (Ctrl+K)",
     themeToDark: "Switch to dark mode",
     themeToLight: "Switch to light mode",
     installApp: "Install app",
-    langSwitch: "Switch language / Chuyển ngôn ngữ",
+    langSwitch: "VI | EN — chuyển sang tiếng Việt",
   },
   footer: {
     tagline:

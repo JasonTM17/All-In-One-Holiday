@@ -68,13 +68,13 @@ test.describe("English locale /en/", () => {
   }) => {
     await page.goto("/en/tet-nguyen-dan/");
     await page
-      .getByRole("link", { name: /Switch language|Chuyển ngôn ngữ/ })
+      .getByRole("link", { name: /VI \| EN/ })
       .click();
     await expect(page).toHaveURL(/\/tet-nguyen-dan\/$/);
     await expect(page.locator("html")).toHaveAttribute("lang", "vi");
 
     await page
-      .getByRole("link", { name: /Switch language|Chuyển ngôn ngữ/ })
+      .getByRole("link", { name: /VI \| EN/ })
       .click();
     await expect(page).toHaveURL(/\/en\/tet-nguyen-dan\/$/);
     await expect(page.locator("html")).toHaveAttribute("lang", "en");

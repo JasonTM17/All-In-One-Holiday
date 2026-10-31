@@ -45,7 +45,11 @@ export default function SiteRoot({
           {t.meta.skipToContent}
         </a>
         <Header locale={locale} />
-        <main id="noi-dung">{children}</main>
+        {/* tabIndex=-1 lets the skip link move focus into <main>; outline-none
+            because the focus is programmatic, not a keyboard-tab stop. */}
+        <main id="noi-dung" tabIndex={-1} className="focus:outline-none">
+          {children}
+        </main>
         <Footer locale={locale} />
       </body>
     </html>

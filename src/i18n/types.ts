@@ -28,7 +28,6 @@ export interface Messages {
     calendar: string;
     cardCta: string;
     search: string;
-    searchAria: string;
     themeToDark: string;
     themeToLight: string;
     installApp: string;
