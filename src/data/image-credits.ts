@@ -642,7 +642,7 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "photo": "https://commons.wikimedia.org/wiki/File:%22We_Love_Our_Daughter_and_Her_Wife%22.jpg",
       "license": "CC BY-SA 2.0",
       "source": "Wikimedia Commons",
-      "alt": "I went down to City Hall on my lunch break on the first official full day that gay &amp; lesbian couples could get marri"
+      "alt": "I went down to City Hall on my lunch break on the first official full day that gay & lesbian couples could get marri"
     },
     {
       "file": "ngay-cua-me/hero.webp",
@@ -655,7 +655,7 @@ export const imageCredits: Record<string, ImageCredit[]> = {
     },
     {
       "file": "ngay-cua-me/hero.webp",
-      "photographer": "Forest &amp; Kim Starr",
+      "photographer": "Forest & Kim Starr",
       "profile": "https://commons.wikimedia.org/wiki/File:Starr_070730-7932_Dianthus_caryophyllus.jpg",
       "photo": "https://commons.wikimedia.org/wiki/File:Starr_070730-7932_Dianthus_caryophyllus.jpg",
       "license": "CC BY 3.0",
@@ -1242,7 +1242,7 @@ export const imageCredits: Record<string, ImageCredit[]> = {
   "scenery": [
     {
       "file": "scenery/hero.webp",
-      "photographer": "Łukasz Golowanow &amp; Maciek Hypś, Konflikty.pl",
+      "photographer": "Łukasz Golowanow & Maciek Hypś, Konflikty.pl",
       "profile": "https://commons.wikimedia.org/wiki/File:F-16_Solo_Display_Team_Radom_2009_b.JPG",
       "photo": "https://commons.wikimedia.org/wiki/File:F-16_Solo_Display_Team_Radom_2009_b.JPG",
       "license": "Attribution",
@@ -1554,7 +1554,7 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "photo": "https://commons.wikimedia.org/wiki/File:2010_newspaper_press_Bulawayo_Zimbabwe_6423798769.jpg",
       "license": "CC BY-SA 2.0",
       "source": "Wikimedia Commons",
-      "alt": "Visit to The Chronicle &amp; The Sunday News office in Bulawayo, Zimbabwe."
+      "alt": "Visit to The Chronicle & The Sunday News office in Bulawayo, Zimbabwe."
     },
     {
       "file": "ngay-bao-chi/gallery1.webp",
