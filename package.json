@@ -11,9 +11,10 @@
     "check:links": "node scripts/check-links.mjs",
     "typecheck": "tsc --noEmit",
     "gen:lunar": "node scripts/gen-lunar-table.mjs",
-    "gen:data": "node scripts/gen-lunar-table.mjs && node scripts/gen-ics.mjs && node scripts/gen-api.mjs",
+    "gen:data": "node scripts/gen-lunar-table.mjs && node scripts/gen-ics.mjs && node scripts/gen-api.mjs && node scripts/gen-feed.mjs",
     "gen:api": "node scripts/gen-api.mjs",
-    "prebuild": "node scripts/gen-lunar-table.mjs && node scripts/gen-ics.mjs && node scripts/gen-api.mjs"
+    "gen:feed": "node scripts/gen-feed.mjs",
+    "prebuild": "node scripts/gen-lunar-table.mjs && node scripts/gen-ics.mjs && node scripts/gen-api.mjs && node scripts/gen-feed.mjs"
   },
   "dependencies": {
     "next": "16.4.3",

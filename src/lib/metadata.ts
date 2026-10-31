@@ -45,6 +45,8 @@ export function rootMetadata(locale: Locale): Metadata {
     alternates: {
       canonical: home,
       languages: { vi: "/", en: "/en/", "x-default": "/" },
+      // <link rel="alternate" type="application/atom+xml"> for feed readers.
+      types: { "application/atom+xml": `${siteUrl()}/feed.xml` },
     },
   };
 }
