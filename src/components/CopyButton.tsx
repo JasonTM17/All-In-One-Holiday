@@ -34,7 +34,7 @@ export default function CopyButton({
     <button
       type="button"
       onClick={copy}
-      className={`min-h-11 shrink-0 rounded-full border border-[var(--color-line)] bg-[var(--color-card)] px-4 py-2 text-sm font-bold text-[var(--color-muted)] transition-colors hover:border-[var(--color-brand)] hover:text-[var(--color-brand-deep)] ${className}`}
+      className={`min-h-11 shrink-0 rounded-xl border border-[var(--color-line)] bg-[var(--color-card)] px-4 py-2 text-sm font-bold text-[var(--color-muted)] transition-colors hover:border-[var(--color-brand)] hover:text-[var(--color-brand-deep)] ${className}`}
     >
       <span aria-live="polite">{copied ? copiedLabel : label}</span>
     </button>

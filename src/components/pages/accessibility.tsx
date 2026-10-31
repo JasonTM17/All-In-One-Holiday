@@ -97,7 +97,7 @@ export default function AccessibilityPage({ locale }: { locale: Locale }) {
             href={ISSUES_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex min-h-11 items-center rounded-full bg-[var(--color-brand)] px-6 py-2.5 text-sm font-bold text-[var(--color-on-brand)] hover:bg-[var(--color-brand-deep)]"
+            className="inline-flex min-h-11 items-center rounded-xl bg-[var(--color-brand)] px-6 py-2.5 text-sm font-bold text-[var(--color-on-brand)] hover:bg-[var(--color-brand-deep)]"
           >
             {t.a11y.feedbackCta} ↗
           </a>

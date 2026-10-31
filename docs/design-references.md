@@ -80,7 +80,19 @@ Rule: both stops keep white ≥3:1 (large display text ≥18px/bold). Neutral ra
 ### Spacing & surfaces
 
 - 4pt scale; sections separated by 56–96px (`py-14`/`py-16`/`space-y-20`).
-- One radius system: cards 16px, pills for buttons/chips, 14px tiles.
+- One radius system — editorial, not bubbly (rev. Nov 2026 after "buttons too
+  round" feedback). Four tiers, chosen by element role and size:
+
+  | Tier | Radius | Applied to |
+  |---|---|---|
+  | Compact | 8px (`rounded-lg`; 6px `rounded-md` for ≤24px markers) | Small static tags & chips ≤~32px: hero category tags, eyebrow date badge, `daysLeft` chip, calendar agenda link-chips, gradient swatch bars |
+  | Control | 12px (`rounded-xl`) | **Every interactive control** ≥40px — buttons, CTAs, filter/toggle chips, icon buttons, lang/search switches, inputs — plus medium content chips (marquee wishes) and compact surfaces (calendar day cells, wish list rows, dialog items) |
+  | Surface | 16px (`rounded-2xl`) | Cards, feature/hero panels, dialogs, media frames, card previews |
+  | Circle | 999px | Only true circles: equal-dimension step numbers, timeline bullets |
+
+  Full pills are banned outside the Circle tier — a 44px pill reads "bubbly";
+  12px keeps controls crisp. Filter chips follow Control (12px), not a third
+  shape. Countdown `.tile` = 12px, aligned with Control.
 - One depth strategy: hairline `#e9e3da` border + single warm-tinted shadow
   (`0 12px 28px -14px rgb(120 60 40 / 0.14)`); hover lift −3px.
 

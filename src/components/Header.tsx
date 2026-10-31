@@ -43,7 +43,7 @@ export default function Header({ locale }: { locale: Locale }) {
           <Link
             href={localePath(locale, "/birthday/")}
             prefetch={false}
-            className="inline-flex min-h-11 items-center rounded-full bg-[var(--color-brand-deep)] px-5 py-2.5 text-sm font-bold text-[var(--color-on-brand)] transition-colors hover:brightness-110"
+            className="inline-flex min-h-11 items-center rounded-xl bg-[var(--color-brand-deep)] px-5 py-2.5 text-sm font-bold text-[var(--color-on-brand)] transition-colors hover:brightness-110"
           >
             {t.nav.cardCta}
           </Link>

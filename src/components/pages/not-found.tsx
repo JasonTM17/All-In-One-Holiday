@@ -12,7 +12,7 @@ export default function NotFoundPage({ locale }: { locale: Locale }) {
       </h1>
       <Link
         href={localePath(locale, "/")}
-        className="mt-8 rounded-full bg-[var(--color-brand)] px-6 py-3 font-semibold text-[var(--color-on-brand)] hover:bg-[var(--color-brand-deep)]"
+        className="mt-8 rounded-xl bg-[var(--color-brand)] px-6 py-3 font-semibold text-[var(--color-on-brand)] hover:bg-[var(--color-brand-deep)]"
       >
         {t.meta.notFoundBack}
       </Link>

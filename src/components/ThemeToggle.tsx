@@ -32,7 +32,7 @@ export default function ThemeToggle({ locale }: { locale: Locale }) {
       onClick={toggle}
       aria-label={dark ? t.nav.themeToLight : t.nav.themeToDark}
       aria-pressed={dark}
-      className="flex min-h-11 min-w-11 items-center justify-center rounded-full border border-[var(--color-line)] text-[var(--color-muted)] hover:bg-[var(--color-soft)] focus-visible:outline-2"
+      className="flex min-h-11 min-w-11 items-center justify-center rounded-xl border border-[var(--color-line)] text-[var(--color-muted)] hover:bg-[var(--color-soft)] focus-visible:outline-2"
     >
       {dark ? (
         <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">

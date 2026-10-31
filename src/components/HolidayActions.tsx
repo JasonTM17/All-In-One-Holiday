@@ -91,14 +91,14 @@ export default function HolidayActions({
       <button
         type="button"
         onClick={share}
-        className="glass rounded-full px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-white/25"
+        className="glass rounded-xl px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-white/25"
       >
         <span aria-live="polite">{copied ? t.actions.copiedLink : t.actions.share}</span>
       </button>
       <button
         type="button"
         onClick={downloadIcs}
-        className="glass rounded-full px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-white/25"
+        className="glass rounded-xl px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-white/25"
       >
         {t.actions.addToCalendar}
       </button>

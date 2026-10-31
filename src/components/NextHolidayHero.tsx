@@ -63,7 +63,7 @@ export default function NextHolidayHero({
     <div className="min-h-[22rem]">
       {next ? (
         <div
-          className="relative h-full overflow-hidden rounded-3xl p-7 text-white shadow-2xl sm:p-9"
+          className="relative h-full overflow-hidden rounded-2xl p-7 text-white shadow-2xl sm:p-9"
           style={{
             background: `linear-gradient(140deg, ${next.item.theme.from}, ${next.item.theme.to})`,
           }}
@@ -86,7 +86,7 @@ export default function NextHolidayHero({
           <div className="relative flex h-full flex-col gap-4">
             <p className="eyebrow flex items-center justify-between text-white/75">
               {t.hero.nextHoliday}
-              <span className="rounded-full border border-white/30 px-2.5 py-0.5 text-[10px] tracking-widest">
+              <span className="rounded-lg border border-white/30 px-2.5 py-0.5 text-[10px] tracking-widest">
                 {formatFull(next.date, loc)}
               </span>
             </p>
@@ -99,7 +99,7 @@ export default function NextHolidayHero({
             <RuleCountdown rule={next.item.rule} locale={loc} />
             <Link
               href={localePath(loc, `/${next.item.slug}/`)}
-              className="mt-auto inline-flex w-fit items-center gap-2 rounded-full bg-white/95 px-5 py-2.5 text-sm font-bold text-[var(--color-brand-ink)] transition-transform hover:scale-[1.03]"
+              className="mt-auto inline-flex w-fit items-center gap-2 rounded-xl bg-white/95 px-5 py-2.5 text-sm font-bold text-[var(--color-brand-ink)] transition-transform hover:scale-[1.03]"
             >
               {t.hero.viewDetails} →
             </Link>
@@ -108,7 +108,7 @@ export default function NextHolidayHero({
       ) : (
         <div
           aria-hidden="true"
-          className="h-[22rem] w-full animate-pulse rounded-3xl bg-black/10"
+          className="h-[22rem] w-full animate-pulse rounded-2xl bg-black/10"
         />
       )}
     </div>

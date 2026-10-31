@@ -149,7 +149,7 @@ export default function Calendar({
               type="button"
               onClick={() => setCat(c.id)}
               aria-pressed={cat === c.id}
-              className={`min-h-11 rounded-full px-3 text-xs font-bold transition focus-visible:outline-2 ${
+              className={`min-h-11 rounded-xl px-3 text-xs font-bold transition focus-visible:outline-2 ${
                 cat === c.id
                   ? "bg-[var(--color-brand)] text-[var(--color-on-brand)]"
                   : "border border-[var(--color-line)] hover:bg-[var(--color-soft)]"
@@ -193,7 +193,7 @@ export default function Calendar({
                     <a
                       key={h.slug}
                       href={`${prefix}/${h.slug}/`}
-                      className="block truncate rounded px-1.5 py-0.5 text-[10px] font-bold text-white hover:brightness-110 focus-visible:outline-2"
+                      className="block truncate rounded-md px-1.5 py-0.5 text-[10px] font-bold text-white hover:brightness-110 focus-visible:outline-2"
                       style={{ background: h.theme.from }}
                       title={h.name}
                     >
@@ -224,7 +224,7 @@ export default function Calendar({
                 <a
                   key={h.slug}
                   href={`${prefix}/${h.slug}/`}
-                  className="rounded-full px-3 py-1.5 text-xs font-bold text-white"
+                  className="rounded-lg px-3 py-1.5 text-xs font-bold text-white"
                   style={{ background: h.theme.from }}
                 >
                   {h.name}

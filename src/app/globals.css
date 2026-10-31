@@ -283,7 +283,7 @@ button.card:hover,
   align-items: center;
   gap: 0.15rem;
   padding: 0.9rem 0.5rem;
-  border-radius: 14px;
+  border-radius: 12px; /* Control tier — same 12px as buttons */
   font-variant-numeric: tabular-nums;
 }
 

@@ -76,7 +76,7 @@ export default function HolidayGrid({
             type="button"
             aria-pressed={filter === f.key}
             onClick={() => setFilter(f.key)}
-            className={`min-h-11 rounded-full border px-5 py-2.5 text-sm font-bold transition-colors ${
+            className={`min-h-11 rounded-xl border px-5 py-2.5 text-sm font-bold transition-colors ${
               filter === f.key
                 ? "border-[var(--color-brand)] bg-[var(--color-brand)] text-[var(--color-on-brand)]"
                 : "border-[var(--color-line)] bg-[var(--color-card)] text-[var(--color-muted)] hover:border-[var(--color-brand)] hover:text-[var(--color-brand-deep)]"

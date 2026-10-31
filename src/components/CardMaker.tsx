@@ -280,14 +280,14 @@ export default function CardMaker({
             type="button"
             onClick={download}
             data-testid="thiep-download"
-            className="min-h-11 rounded-full bg-[var(--color-brand)] px-5 text-sm font-bold text-[var(--color-on-brand)] hover:bg-[var(--color-brand-deep)] focus-visible:outline-2"
+            className="min-h-11 rounded-xl bg-[var(--color-brand)] px-5 text-sm font-bold text-[var(--color-on-brand)] hover:bg-[var(--color-brand-deep)] focus-visible:outline-2"
           >
             {t.thiep.download}
           </button>
           <button
             type="button"
             onClick={share}
-            className="min-h-11 rounded-full border border-[var(--color-line)] px-4 text-sm font-bold text-[var(--color-muted)] hover:bg-[var(--color-soft)] focus-visible:outline-2"
+            className="min-h-11 rounded-xl border border-[var(--color-line)] px-4 text-sm font-bold text-[var(--color-muted)] hover:bg-[var(--color-soft)] focus-visible:outline-2"
           >
             {copied ? t.thiep.copiedLink : t.thiep.share}
           </button>

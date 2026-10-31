@@ -36,7 +36,7 @@ export default function WishGenerator({
             type="button"
             onClick={() => setTone(x)}
             aria-pressed={tone === x}
-            className={`min-h-11 rounded-full px-4 text-sm font-bold transition focus-visible:outline-2 ${
+            className={`min-h-11 rounded-xl px-4 text-sm font-bold transition focus-visible:outline-2 ${
               tone === x
                 ? "bg-[var(--color-brand)] text-[var(--color-on-brand)]"
                 : "border border-[var(--color-line)] hover:bg-[var(--color-soft)]"
@@ -81,7 +81,7 @@ export default function WishGenerator({
               <CopyButton text={w} label={t.copy.copy} copiedLabel={t.copy.copied} />
               <a
                 href={`${thiep}?holiday=${holiday.slug}&to=${encodeURIComponent(name)}&msg=${encodeURIComponent(w)}`}
-                className="min-h-11 rounded-full border border-[var(--color-line)] px-3 py-2 text-xs font-bold text-[var(--color-muted)] hover:bg-[var(--color-card)] focus-visible:outline-2"
+                className="min-h-11 rounded-xl border border-[var(--color-line)] px-3 py-2 text-xs font-bold text-[var(--color-muted)] hover:bg-[var(--color-card)] focus-visible:outline-2"
               >
                 {t.wishGen.sendToCard}
               </a>

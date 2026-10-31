@@ -131,7 +131,7 @@ export default function HolidayPage({
               {h.categories.map((c) => (
                 <span
                   key={c}
-                  className="rounded-full border border-white/30 px-2.5 py-0.5 text-[10px] tracking-widest"
+                  className="rounded-lg border border-white/30 px-2.5 py-0.5 text-[10px] tracking-widest"
                 >
                   {t.grid.categories[c]}
                 </span>
@@ -150,7 +150,7 @@ export default function HolidayPage({
           </div>
 
           <div className="self-center">
-            <div className="glass rounded-3xl p-6 shadow-2xl sm:p-7">
+            <div className="glass rounded-2xl p-6 shadow-2xl sm:p-7">
               <p className="eyebrow text-white/75">{t.holiday.countdown}</p>
               <div className="mt-4">
                 <RuleCountdown rule={h.rule} locale={locale} />
@@ -264,7 +264,7 @@ export default function HolidayPage({
         <div data-rv className="cv-auto">
           <section
             aria-labelledby="doc-tron"
-            className="relative overflow-hidden rounded-3xl border border-[var(--color-line)] bg-[var(--color-card)] p-6 sm:p-10"
+            className="relative overflow-hidden rounded-2xl border border-[var(--color-line)] bg-[var(--color-card)] p-6 sm:p-10"
           >
             <div
               aria-hidden="true"
@@ -387,7 +387,7 @@ export default function HolidayPage({
               {[...h.wishes, ...h.wishes].map((w, i) => (
                 <span
                   key={i}
-                  className="whitespace-nowrap rounded-full border border-[var(--color-line)] bg-[var(--color-card)] px-5 py-2.5 text-sm text-[var(--color-muted)] shadow-sm"
+                  className="whitespace-nowrap rounded-xl border border-[var(--color-line)] bg-[var(--color-card)] px-5 py-2.5 text-sm text-[var(--color-muted)] shadow-sm"
                 >
                   {w}
                 </span>

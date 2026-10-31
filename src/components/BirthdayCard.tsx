@@ -172,7 +172,7 @@ export default function BirthdayCard({
         <Confetti />
         <section
           aria-label={t.birthday.cardAria}
-          className="relative overflow-hidden rounded-3xl px-6 py-16 text-center text-white shadow-2xl"
+          className="relative overflow-hidden rounded-2xl px-6 py-16 text-center text-white shadow-2xl"
           style={{
             background: `linear-gradient(135deg, ${theme.from}, ${theme.to})`,
           }}
@@ -244,7 +244,7 @@ export default function BirthdayCard({
           <button
             type="button"
             onClick={share}
-            className="min-h-11 rounded-full border border-[var(--color-line)] bg-[var(--color-card)] px-5 py-2.5 text-sm font-bold text-[var(--color-ink)] hover:border-[var(--color-brand)] hover:text-[var(--color-brand-deep)]"
+            className="min-h-11 rounded-xl border border-[var(--color-line)] bg-[var(--color-card)] px-5 py-2.5 text-sm font-bold text-[var(--color-ink)] hover:border-[var(--color-brand)] hover:text-[var(--color-brand-deep)]"
           >
             <span aria-live="polite">
               {copied ? t.copy.copied : t.birthday.shareCard}
@@ -254,14 +254,14 @@ export default function BirthdayCard({
           <button
             type="button"
             onClick={() => window.print()}
-            className="min-h-11 rounded-full border border-[var(--color-line)] bg-[var(--color-card)] px-5 py-2.5 text-sm font-bold text-[var(--color-ink)] hover:border-[var(--color-brand)] hover:text-[var(--color-brand-deep)]"
+            className="min-h-11 rounded-xl border border-[var(--color-line)] bg-[var(--color-card)] px-5 py-2.5 text-sm font-bold text-[var(--color-ink)] hover:border-[var(--color-brand)] hover:text-[var(--color-brand-deep)]"
           >
             {t.birthday.printCard}
           </button>
           <button
             type="button"
             onClick={() => router.push(home)}
-            className="min-h-11 rounded-full bg-[var(--color-brand)] px-6 py-2.5 text-sm font-bold text-[var(--color-on-brand)] hover:bg-[var(--color-brand-deep)]"
+            className="min-h-11 rounded-xl bg-[var(--color-brand)] px-6 py-2.5 text-sm font-bold text-[var(--color-on-brand)] hover:bg-[var(--color-brand-deep)]"
           >
             {t.birthday.makeAnother}
           </button>
@@ -459,7 +459,7 @@ export default function BirthdayCard({
               >
                 <span
                   aria-hidden="true"
-                  className="h-4 w-10 rounded-full"
+                  className="h-4 w-10 rounded-lg"
                   style={{
                     background: `linear-gradient(90deg, ${th.from}, ${th.to})`,
                   }}
@@ -477,7 +477,7 @@ export default function BirthdayCard({
         )}
         <button
           type="submit"
-          className="min-h-12 w-full rounded-full bg-[var(--color-brand)] py-3 font-bold text-[var(--color-on-brand)] transition-colors hover:bg-[var(--color-brand-deep)]"
+          className="min-h-12 w-full rounded-xl bg-[var(--color-brand)] py-3 font-bold text-[var(--color-on-brand)] transition-colors hover:bg-[var(--color-brand-deep)]"
         >
           {t.birthday.submit}
         </button>

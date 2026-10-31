@@ -133,13 +133,13 @@ export default function HomePage({ locale }: { locale: Locale }) {
             <div className="mt-9 flex flex-wrap gap-3">
               <a
                 href="#danh-sach"
-                className="rounded-full bg-white px-7 py-3.5 font-bold text-[var(--color-brand-ink)] transition-transform hover:scale-[1.03]"
+                className="rounded-xl bg-white px-7 py-3.5 font-bold text-[var(--color-brand-ink)] transition-transform hover:scale-[1.03]"
               >
                 {t.home.ctaHolidays}
               </a>
               <Link
                 href={lp("/birthday/")}
-                className="glass rounded-full px-7 py-3.5 font-bold text-white transition-colors hover:bg-white/25"
+                className="glass rounded-xl px-7 py-3.5 font-bold text-white transition-colors hover:bg-white/25"
               >
                 {t.home.ctaBirthday}
               </Link>
@@ -202,7 +202,7 @@ export default function HomePage({ locale }: { locale: Locale }) {
           {[...allWishes, ...allWishes].map((w, i) => (
             <span
               key={i}
-              className="whitespace-nowrap rounded-full border border-[var(--color-line)] bg-[var(--color-card)] px-5 py-2 text-sm text-[var(--color-muted)] shadow-sm"
+              className="whitespace-nowrap rounded-xl border border-[var(--color-line)] bg-[var(--color-card)] px-5 py-2 text-sm text-[var(--color-muted)] shadow-sm"
             >
               {w}
             </span>
@@ -343,7 +343,7 @@ export default function HomePage({ locale }: { locale: Locale }) {
                     <time className="text-sm font-bold text-[var(--color-faint)]">
                       {date.getDate()}/{date.getMonth() + 1}/{date.getFullYear()}
                     </time>
-                    <span className="rounded-full bg-[var(--color-soft)] px-2.5 py-0.5 text-xs font-bold text-[var(--color-muted)]">
+                    <span className="rounded-lg bg-[var(--color-soft)] px-2.5 py-0.5 text-xs font-bold text-[var(--color-muted)]">
                       {t.grid.daysLeft(Math.round((date.getTime() - now.getTime()) / 86400000))}
                     </span>
                   </div>
@@ -396,7 +396,7 @@ export default function HomePage({ locale }: { locale: Locale }) {
           </p>
           <Link
             href={lp("/birthday/")}
-            className="rounded-full bg-white px-8 py-3.5 font-bold text-[var(--color-brand-ink)] transition-transform hover:scale-[1.04]"
+            className="rounded-xl bg-white px-8 py-3.5 font-bold text-[var(--color-brand-ink)] transition-transform hover:scale-[1.04]"
           >
             {t.home.birthdayCta}
           </Link>
