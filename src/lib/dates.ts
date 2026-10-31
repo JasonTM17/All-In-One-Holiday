@@ -31,6 +31,8 @@ type LunarYearInfo = {
   offsets: number[];
   /** Month numbers in order; leap months are negative (lunar-typescript convention). */
   months: number[];
+  /** Length in days of each month (same order as `months`). */
+  lengths: number[];
 };
 
 const lunarYearCache = new Map<number, LunarYearInfo>();
@@ -57,18 +59,21 @@ function lunarYearInfo(lunarYear: number): LunarYearInfo {
   const count = leapPos > 0 ? 13 : 12;
   const months: number[] = [];
   const offsets: number[] = [];
+  const lengths: number[] = [];
   let acc = 0;
   let next = 1;
   for (let i = 0; i < count; i++) {
     offsets.push(acc);
-    acc += bits & (1 << i) ? 30 : 29;
+    const len = bits & (1 << i) ? 30 : 29;
+    lengths.push(len);
+    acc += len;
     if (leapPos === i + 1) {
       months.push(-(i)); // leap month repeats the previous month number
     } else {
       months.push(next++);
     }
   }
-  info = { start, offsets, months };
+  info = { start, offsets, months, lengths };
   lunarYearCache.set(lunarYear, info);
   return info;
 }
@@ -123,6 +128,59 @@ export function solarToLunar(d: Date): { month: number; day: number } {
   }
   // Unreachable when the table covers the year.
   return { month: 0, day: 0 };
+}
+
+/**
+ * Does this lunar date exist in the given lunar year? Months 1–12 always
+ * exist; day 30 fails in 29-day months (the lunar "Feb 29" situation).
+ * Leap months are never matched — birthdays use the regular month only.
+ */
+export function lunarDayExists(
+  lunarYear: number,
+  lunarMonth: number,
+  lunarDay: number,
+): boolean {
+  const row = LUNAR_TABLE[lunarYear];
+  if (!row) return false;
+  const info = lunarYearInfo(lunarYear);
+  const i = info.months.indexOf(lunarMonth); // positive = regular month only
+  if (i < 0) return false;
+  return lunarDay >= 1 && lunarDay <= info.lengths[i];
+}
+
+/**
+ * Next Gregorian occurrence of a lunar birthday, calendar-day precision.
+ * Birthdays recur every lunar year on the regular (non-leap) month; years
+ * where the date does not exist (e.g. day 30 of a 29-day month) are skipped.
+ * Returns the Gregorian date and the lunar year it falls in — the year is
+ * needed for age math when a lunar birth year is given. `null` only when no
+ * occurrence exists inside the scanned table range.
+ */
+export function nextLunarBirthday(
+  lunarMonth: number,
+  lunarDay: number,
+  from: Date = new Date(),
+): { date: Date; lunarYear: number } | null {
+  if (!Number.isInteger(lunarMonth) || lunarMonth < 1 || lunarMonth > 12) {
+    return null;
+  }
+  if (!Number.isInteger(lunarDay) || lunarDay < 1 || lunarDay > 30) {
+    return null;
+  }
+  const today = atMidnight(from);
+  const year = from.getFullYear();
+  // Lunar year Y starts in Jan/Feb of Gregorian Y and spills into Y+1, so
+  // start one year back to catch birthdays falling in early January.
+  // Scan the whole remaining table: a date that exists only in ~30-day
+  // months (e.g. 30/12 — "đêm giao thừa") can skip several consecutive
+  // lunar years (2024–2028 all lack 30/12).
+  for (let y = year - 1; y <= 2100; y++) {
+    if (!LUNAR_TABLE[y]) break;
+    if (!lunarDayExists(y, lunarMonth, lunarDay)) continue;
+    const date = lunarToSolar(y, lunarMonth, lunarDay);
+    if (date >= today) return { date, lunarYear: y };
+  }
+  return null;
 }
 
 /** Solar date of the Qingming solar term (Tết Thanh minh) in a year. */

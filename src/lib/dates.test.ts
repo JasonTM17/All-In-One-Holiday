@@ -1,7 +1,9 @@
 import { describe, expect, it } from "vitest";
 import {
   daysUntil,
+  lunarDayExists,
   nextBirthday,
+  nextLunarBirthday,
   nextOccurrence,
   nthWeekdayOfMonth,
   turningAge,
@@ -127,5 +129,107 @@ describe("turningAge", () => {
   it("age at next birthday", () => {
     expect(turningAge(D(2000, 5, 10), D(2026, 1, 1))).toBe(26);
     expect(turningAge(D(2000, 5, 10), D(2026, 5, 10))).toBe(26);
+  });
+});
+
+describe("nextLunarBirthday", () => {
+  it("converts the next lunar 15/8 occurrence to the same Gregorian date as lunar-typescript", async () => {
+    const { Lunar } = await import("lunar-typescript");
+    const res = nextLunarBirthday(8, 15, D(2026, 1, 1));
+    expect(res).not.toBeNull();
+    const lib = Lunar.fromYmd(res!.lunarYear, 8, 15).getSolar();
+    expect(res!.date).toEqual(
+      D(lib.getYear(), lib.getMonth(), lib.getDay()),
+    );
+    // 15/8 âm 2026 already passed by Nov 2026 → must roll to lunar 2027.
+    const res2 = nextLunarBirthday(8, 15, D(2026, 11, 1));
+    expect(res2!.lunarYear).toBe(2027);
+  });
+
+  it("samples across months match lunar-typescript conversions", async () => {
+    const { Lunar } = await import("lunar-typescript");
+    for (const [m, d] of [
+      [1, 1],
+      [2, 29],
+      [5, 5],
+      [7, 15],
+      [12, 23],
+    ] as const) {
+      const res = nextLunarBirthday(m, d, D(2026, 2, 20));
+      expect(res, `lunar ${m}/${d}`).not.toBeNull();
+      const lib = Lunar.fromYmd(res!.lunarYear, m, d).getSolar();
+      expect(res!.date, `lunar ${m}/${d} of year ${res!.lunarYear}`).toEqual(
+        D(lib.getYear(), lib.getMonth(), lib.getDay()),
+      );
+    }
+  });
+
+  it("today's lunar birthday returns today", async () => {
+    const { Solar } = await import("lunar-typescript");
+    const today = D(2026, 6, 15);
+    const l = Solar.fromYmd(2026, 6, 15).getLunar();
+    const res = nextLunarBirthday(l.getMonth(), l.getDay(), today);
+    expect(res!.date).toEqual(today);
+  });
+
+  it("uses the regular month, not the leap month, in leap years", async () => {
+    const { Lunar } = await import("lunar-typescript");
+    // 2025 has a leap month 6 — a 6/X birthday must land on the regular one.
+    const res = nextLunarBirthday(6, 1, D(2025, 1, 15));
+    expect(res!.lunarYear).toBe(2025);
+    const regular = Lunar.fromYmd(2025, 6, 1).getSolar();
+    const leap = Lunar.fromYmd(2025, -6, 1).getSolar();
+    expect(res!.date).toEqual(
+      D(regular.getYear(), regular.getMonth(), regular.getDay()),
+    );
+    expect(res!.date).not.toEqual(
+      D(leap.getYear(), leap.getMonth(), leap.getDay()),
+    );
+  });
+
+  it("skips years where the lunar date doesn't exist (the lunar Feb-29)", async () => {
+    const { lunarToSolar } = await import("./dates");
+    // Find a month that has only 29 days in some year of this decade.
+    let missing: { y: number; m: number } | null = null;
+    for (let y = 2024; y <= 2032 && !missing; y++) {
+      for (let m = 1; m <= 12; m++) {
+        if (!lunarDayExists(y, m, 30)) missing = { y, m };
+      }
+    }
+    expect(missing, "expected some 29-day month in 2024–2032").not.toBeNull();
+    // Anchor `from` at the start of the 29-day month itself: the 30th-day
+    // birthday has no occurrence in that lunar year, so it must skip ahead.
+    const from = lunarToSolar(missing!.y, missing!.m, 1);
+    const res = nextLunarBirthday(missing!.m, 30, from);
+    expect(res).not.toBeNull();
+    expect(res!.lunarYear).toBeGreaterThan(missing!.y);
+    expect(lunarDayExists(res!.lunarYear, missing!.m, 30)).toBe(true);
+  });
+
+  it("a 30th-day birthday always lands on a year where day 30 exists", () => {
+    for (let m = 1; m <= 12; m++) {
+      const res = nextLunarBirthday(m, 30, D(2026, 10, 31));
+      expect(res, `month ${m}`).not.toBeNull();
+      expect(lunarDayExists(res!.lunarYear, m, 30), `month ${m}`).toBe(true);
+    }
+  });
+
+  it("rejects out-of-range input", () => {
+    expect(nextLunarBirthday(0, 15)).toBeNull();
+    expect(nextLunarBirthday(13, 15)).toBeNull();
+    expect(nextLunarBirthday(8, 0)).toBeNull();
+    expect(nextLunarBirthday(8, 31)).toBeNull();
+    expect(nextLunarBirthday(2.5, 10)).toBeNull();
+  });
+
+  it("lunarDayExists bounds checks", () => {
+    expect(lunarDayExists(2026, 1, 1)).toBe(true);
+    expect(lunarDayExists(2026, 1, 30)).toBe(
+      // month 1 of lunar 2026 has 30 days in the generated table
+      true,
+    );
+    expect(lunarDayExists(2026, 13, 1)).toBe(false);
+    expect(lunarDayExists(2026, 1, 0)).toBe(false);
+    expect(lunarDayExists(1850, 1, 1)).toBe(false); // outside table range
   });
 });

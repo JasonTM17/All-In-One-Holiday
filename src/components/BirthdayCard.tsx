@@ -5,7 +5,12 @@ import HImg from "./HImg";
 import { useMemo, useState } from "react";
 import dynamic from "next/dynamic";
 import { useRouter, useSearchParams } from "next/navigation";
-import { nextBirthday, turningAge, daysUntil } from "@/lib/dates";
+import {
+  nextBirthday,
+  nextLunarBirthday,
+  turningAge,
+  daysUntil,
+} from "@/lib/dates";
 import { formatFull } from "@/lib/format";
 import { getStrings, localePath, type Locale } from "@/i18n";
 import CopyButton from "./CopyButton";
@@ -32,6 +37,30 @@ function parseDate(v: string | null): Date | null {
     : null;
 }
 
+const LUNAR_MONTHS = Array.from({ length: 12 }, (_, i) => i + 1);
+const LUNAR_DAYS = Array.from({ length: 30 }, (_, i) => i + 1);
+
+type CalKind = "solar" | "lunar";
+
+type LunarBirth = {
+  month: number;
+  day: number;
+  /** Optional lunar birth year — enables the age line. */
+  year: number | null;
+};
+
+/** Validate ?cal=lunar&lmonth=&lday=&lyear= params; null when incomplete. */
+function parseLunar(params: { get(name: string): string | null }): LunarBirth | null {
+  const m = Number(params.get("lmonth"));
+  const d = Number(params.get("lday"));
+  const yRaw = (params.get("lyear") ?? "").trim();
+  const y = yRaw ? Number(yRaw) : null;
+  if (!Number.isInteger(m) || m < 1 || m > 12) return null;
+  if (!Number.isInteger(d) || d < 1 || d > 30) return null;
+  if (y !== null && (!Number.isInteger(y) || y < 1900 || y > 2100)) return null;
+  return { month: m, day: d, year: y };
+}
+
 export default function BirthdayCard({
   lqip,
   locale = "vi",
@@ -45,14 +74,27 @@ export default function BirthdayCard({
   const router = useRouter();
 
   const name = (params.get("name") ?? "").trim().slice(0, 40);
+  const cal: CalKind = params.get("cal") === "lunar" ? "lunar" : "solar";
   const birth = useMemo(() => parseDate(params.get("date")), [params]);
+  const lunar = useMemo(
+    () => (cal === "lunar" ? parseLunar(params) : null),
+    [params, cal],
+  );
+  const lunarNext = useMemo(
+    () => (lunar ? nextLunarBirthday(lunar.month, lunar.day) : null),
+    [lunar],
+  );
   const msg = (params.get("msg") ?? "").trim().slice(0, 200);
   const from = (params.get("from") ?? "").trim().slice(0, 40);
   const themeKey = (params.get("theme") ?? "hoa-hong") as ThemeKey;
   const theme = THEMES.find((t) => t.key === themeKey) ?? THEMES[0];
 
   const [fName, setFName] = useState("");
+  const [fCal, setFCal] = useState<CalKind>("solar");
   const [fDate, setFDate] = useState("");
+  const [fLMonth, setFLMonth] = useState("");
+  const [fLDay, setFLDay] = useState("");
+  const [fLYear, setFLYear] = useState("");
   const [fMsg, setFMsg] = useState("");
   const [fFrom, setFFrom] = useState("");
   const [fTheme, setFTheme] = useState<ThemeKey>("hoa-hong");
@@ -65,8 +107,30 @@ export default function BirthdayCard({
     e.preventDefault();
     const n = fName.trim().slice(0, 40);
     if (!n) return setError(t.birthday.errName);
-    if (!parseDate(fDate)) return setError(t.birthday.errDate);
-    const q = new URLSearchParams({ name: n, date: fDate });
+    const q = new URLSearchParams({ name: n });
+    if (fCal === "lunar") {
+      const m = Number(fLMonth);
+      const d = Number(fLDay);
+      const y = fLYear.trim() ? Number(fLYear.trim()) : null;
+      if (
+        !Number.isInteger(m) ||
+        m < 1 ||
+        m > 12 ||
+        !Number.isInteger(d) ||
+        d < 1 ||
+        d > 30 ||
+        (y !== null && (!Number.isInteger(y) || y < 1900 || y > 2100))
+      ) {
+        return setError(t.birthday.errLunar);
+      }
+      q.set("cal", "lunar");
+      q.set("lmonth", String(m));
+      q.set("lday", String(d));
+      if (y !== null) q.set("lyear", String(y));
+    } else {
+      if (!parseDate(fDate)) return setError(t.birthday.errDate);
+      q.set("date", fDate);
+    }
     if (fMsg.trim()) q.set("msg", fMsg.trim().slice(0, 200));
     if (fFrom.trim()) q.set("from", fFrom.trim().slice(0, 40));
     if (fTheme !== "hoa-hong") q.set("theme", fTheme);
@@ -95,9 +159,13 @@ export default function BirthdayCard({
     }
   }
 
-  if (name && birth) {
-    const next = nextBirthday(birth);
-    const age = turningAge(birth);
+  if (name && (birth || (lunar && lunarNext))) {
+    const next = birth ? nextBirthday(birth) : lunarNext!.date;
+    const age = birth
+      ? turningAge(birth)
+      : lunar!.year !== null
+        ? lunarNext!.lunarYear - lunar!.year!
+        : null;
     const days = daysUntil(next);
     return (
       <div>
@@ -138,9 +206,22 @@ export default function BirthdayCard({
             </h2>
             <p className="mt-5 text-lg text-white/90">
               {days === 0
-                ? t.birthday.turnsToday(name, age)
-                : t.birthday.turnsOn(age, formatFull(next, locale))}
+                ? age !== null
+                  ? t.birthday.turnsToday(name, age)
+                  : t.birthday.todayNoAge(name)
+                : age !== null
+                  ? t.birthday.turnsOn(age, formatFull(next, locale))
+                  : t.birthday.nextOn(formatFull(next, locale))}
             </p>
+            {lunar && (
+              <p className="mt-1.5 text-sm font-semibold text-white/80">
+                {t.birthday.lunarLine(
+                  lunar.day,
+                  lunar.month,
+                  formatFull(next, locale),
+                )}
+              </p>
+            )}
             {days > 0 && (
               <p className="mt-2 text-sm text-white/75">
                 {t.birthday.daysLeft(days)}
@@ -213,22 +294,118 @@ export default function BirthdayCard({
             autoComplete="off"
           />
         </div>
-        <div>
-          <label
-            htmlFor="bd-date"
-            className="mb-1.5 block text-sm font-bold text-[var(--color-ink)]"
-          >
-            {t.birthday.dateLabel} <span aria-hidden="true" className="text-[var(--color-brand)]">*</span>
-          </label>
-          <input
-            id="bd-date"
-            type="date"
-            required
-            value={fDate}
-            onChange={(e) => setFDate(e.target.value)}
-            className="min-h-11 w-full rounded-xl border border-[var(--color-line)] px-4 py-2.5 text-base"
-          />
-        </div>
+        <fieldset>
+          <legend className="mb-2 text-sm font-bold text-[var(--color-ink)]">
+            {t.birthday.calLegend}
+          </legend>
+          <div className="grid grid-cols-2 gap-2">
+            {(["solar", "lunar"] as const).map((c) => (
+              <button
+                key={c}
+                type="button"
+                aria-pressed={fCal === c}
+                onClick={() => setFCal(c)}
+                className={`min-h-11 rounded-xl border-2 px-3 py-2 text-sm font-bold transition-colors ${
+                  fCal === c
+                    ? "border-[var(--color-brand)] text-[var(--color-ink)]"
+                    : "border-[var(--color-line)] text-[var(--color-muted)] hover:border-[var(--color-faint)]"
+                }`}
+              >
+                {c === "solar" ? t.birthday.calSolar : t.birthday.calLunar}
+              </button>
+            ))}
+          </div>
+        </fieldset>
+
+        {fCal === "solar" ? (
+          <div>
+            <label
+              htmlFor="bd-date"
+              className="mb-1.5 block text-sm font-bold text-[var(--color-ink)]"
+            >
+              {t.birthday.dateLabel} <span aria-hidden="true" className="text-[var(--color-brand)]">*</span>
+            </label>
+            <input
+              id="bd-date"
+              type="date"
+              required
+              value={fDate}
+              onChange={(e) => setFDate(e.target.value)}
+              className="min-h-11 w-full rounded-xl border border-[var(--color-line)] px-4 py-2.5 text-base"
+            />
+          </div>
+        ) : (
+          <div className="grid grid-cols-3 gap-3">
+            <div>
+              <label
+                htmlFor="bd-lmonth"
+                className="mb-1.5 block text-sm font-bold text-[var(--color-ink)]"
+              >
+                {t.birthday.lmonthLabel} <span aria-hidden="true" className="text-[var(--color-brand)]">*</span>
+              </label>
+              <select
+                id="bd-lmonth"
+                required
+                value={fLMonth}
+                onChange={(e) => setFLMonth(e.target.value)}
+                className="min-h-11 w-full rounded-xl border border-[var(--color-line)] bg-[var(--color-card)] px-3 py-2.5 text-base"
+              >
+                <option value="" disabled>
+                  —
+                </option>
+                {LUNAR_MONTHS.map((m) => (
+                  <option key={m} value={m}>
+                    {m}
+                  </option>
+                ))}
+              </select>
+            </div>
+            <div>
+              <label
+                htmlFor="bd-lday"
+                className="mb-1.5 block text-sm font-bold text-[var(--color-ink)]"
+              >
+                {t.birthday.ldayLabel} <span aria-hidden="true" className="text-[var(--color-brand)]">*</span>
+              </label>
+              <select
+                id="bd-lday"
+                required
+                value={fLDay}
+                onChange={(e) => setFLDay(e.target.value)}
+                className="min-h-11 w-full rounded-xl border border-[var(--color-line)] bg-[var(--color-card)] px-3 py-2.5 text-base"
+              >
+                <option value="" disabled>
+                  —
+                </option>
+                {LUNAR_DAYS.map((d) => (
+                  <option key={d} value={d}>
+                    {d}
+                  </option>
+                ))}
+              </select>
+            </div>
+            <div>
+              <label
+                htmlFor="bd-lyear"
+                className="mb-1.5 block text-sm font-bold text-[var(--color-ink)]"
+              >
+                {t.birthday.lyearLabel}
+              </label>
+              <input
+                id="bd-lyear"
+                type="number"
+                inputMode="numeric"
+                min={1900}
+                max={2100}
+                value={fLYear}
+                onChange={(e) => setFLYear(e.target.value)}
+                className="min-h-11 w-full rounded-xl border border-[var(--color-line)] px-3 py-2.5 text-base"
+                placeholder="—"
+                autoComplete="off"
+              />
+            </div>
+          </div>
+        )}
         <div>
           <label
             htmlFor="bd-msg"
