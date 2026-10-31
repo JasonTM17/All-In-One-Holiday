@@ -156,6 +156,7 @@ export interface Messages {
     nextMonth: string;
     today: string;
     subscribe: string;
+    subscribeWebcal: string;
     filterAria: string;
     monthTitle: (month: number, year: number) => string;
     gridAria: (month: number, year: number) => string;

@@ -181,6 +181,7 @@ export const en: Messages = {
     nextMonth: "Next month",
     today: "Today",
     subscribe: "Subscribe (.ics)",
+    subscribeWebcal: "Subscribe (webcal)",
     filterAria: "Filter holiday type",
     monthTitle: (m, y) => `${m}/${y}`,
     gridAria: (m, y) => `Calendar for ${m}/${y}`,

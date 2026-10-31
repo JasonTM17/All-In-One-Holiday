@@ -5,8 +5,11 @@ import type { HolidayCategory } from "@/data/categories";
 import type { DateRule } from "@/lib/dates";
 import { occurrenceInYear, solarToLunar } from "@/lib/dates";
 import { getStrings, localePrefix, type Locale } from "@/i18n";
+import { siteUrl } from "@/lib/site";
 
 const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+/** Live-subscription URL: same file as the .ics download, webcal scheme. */
+const WEBCAL = `${siteUrl().replace(/^https?/, "webcal")}/ngay-le-viet.ics`;
 
 /** Slim per-holiday shape the calendar needs (serialized from the server page). */
 export interface CalItem {
@@ -132,6 +135,12 @@ export default function Calendar({
           className="min-h-11 rounded-xl bg-[var(--color-brand)] px-4 py-3 text-sm font-bold text-[var(--color-on-brand)] hover:brightness-110 focus-visible:outline-2"
         >
           {t.calendar.subscribe}
+        </a>
+        <a
+          href={WEBCAL}
+          className="min-h-11 rounded-xl border border-[var(--color-line)] px-4 py-3 text-sm font-bold text-[var(--color-muted)] hover:bg-[var(--color-soft)] focus-visible:outline-2"
+        >
+          {t.calendar.subscribeWebcal}
         </a>
         <div className="ml-auto flex flex-wrap gap-1" role="group" aria-label={t.calendar.filterAria}>
           {CATS.map((c) => (

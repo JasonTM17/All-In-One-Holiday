@@ -181,6 +181,7 @@ export const vi: Messages = {
     nextMonth: "Tháng sau",
     today: "Hôm nay",
     subscribe: "Đăng ký lịch (.ics)",
+    subscribeWebcal: "Theo dõi (webcal)",
     filterAria: "Lọc loại ngày lễ",
     monthTitle: (m, y) => `Tháng ${m}/${y}`,
     gridAria: (m, y) => `Lịch tháng ${m} năm ${y}`,
