@@ -17,6 +17,8 @@ const PAGES = [
   "/en/lich/",
   "/en/thiep/",
   "/en/accessibility/",
+  "/credits/",
+  "/en/credits/",
 ];
 
 for (const path of PAGES) {
