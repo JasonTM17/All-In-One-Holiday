@@ -44,6 +44,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...tool("/lich/", 0.7),
     ...tool("/thiep/", 0.5),
     ...tool("/credits/", 0.3),
+    ...tool("/accessibility/", 0.2),
     ...holidays.flatMap((h) => {
       const path = `/${h.slug}/`;
       return [

@@ -3,6 +3,8 @@ import Motif from "./Motif";
 import { getStrings, localePath, type Locale } from "@/i18n";
 import { holidaysOf } from "@/i18n/data";
 
+const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 export default function Footer({ locale }: { locale: Locale }) {
   const t = getStrings(locale);
   const holidays = holidaysOf(locale);
@@ -71,6 +73,16 @@ export default function Footer({ locale }: { locale: Locale }) {
               <Link prefetch={false} href={lp("/birthday/")} className="u-link font-semibold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
                 {t.footer.birthday}
               </Link>
+            </li>
+            <li>
+              <Link prefetch={false} href={lp("/accessibility/")} className="u-link font-semibold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
+                {t.footer.accessibility}
+              </Link>
+            </li>
+            <li>
+              <a href={`${BASE}/feed.xml`} className="u-link font-semibold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
+                {t.footer.feed}
+              </a>
             </li>
           </ul>
         </nav>

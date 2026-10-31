@@ -47,6 +47,8 @@ export interface Messages {
     calendar: string;
     cardMaker: string;
     birthday: string;
+    accessibility: string;
+    feed: string;
     disclaimer: string;
   };
   countdown: {
@@ -195,7 +197,12 @@ export interface Messages {
     cardAria: string;
     happyBirthday: string;
     turnsToday: (name: string, age: number) => string;
+    todayNoAge: (name: string) => string;
     turnsOn: (age: number, date: string) => string;
+    /** Birthday date line when no birth year is given: "Sinh nhật sắp tới — <date>". */
+    nextOn: (date: string) => string;
+    /** Dual-date line for lunar birthdays: "âm 15/8 — dương <date>". */
+    lunarLine: (day: number, month: number, date: string) => string;
     daysLeft: (days: number) => string;
     fromSender: (from: string) => string;
     shareCard: string;
@@ -204,6 +211,12 @@ export interface Messages {
     makeAnother: string;
     nameLabel: string;
     dateLabel: string;
+    calLegend: string;
+    calSolar: string;
+    calLunar: string;
+    lmonthLabel: string;
+    ldayLabel: string;
+    lyearLabel: string;
     msgLabel: string;
     fromLabel: string;
     themeLegend: string;
@@ -211,6 +224,7 @@ export interface Messages {
     submit: string;
     errName: string;
     errDate: string;
+    errLunar: string;
     shareTitle: (name: string) => string;
     shareText: (name: string) => string;
   };
@@ -234,5 +248,22 @@ export interface Messages {
     metaDescription: string;
     homeLabel: string;
     birthdayLabel: string;
+  };
+  /** /accessibility/ statement page. */
+  a11y: {
+    eyebrow: string;
+    h1: string;
+    intro: string;
+    metaTitle: string;
+    metaDescription: string;
+    intentTitle: string;
+    intentText: string;
+    doTitle: string;
+    doItems: string[];
+    limitsTitle: string;
+    limitItems: string[];
+    feedbackTitle: string;
+    feedbackText: string;
+    feedbackCta: string;
   };
 }

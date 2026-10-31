@@ -6,13 +6,17 @@ const PAGES = [
   "/tet-nguyen-dan/",
   "/phu-nu-viet-nam/",
   "/trung-thu/",
+  "/ngay-sinh-nhat-bac/",
+  "/ngay-dien-bien-phu/",
   "/birthday/",
   "/lich/",
   "/thiep/",
+  "/accessibility/",
   "/en/",
   "/en/tet-nguyen-dan/",
   "/en/lich/",
   "/en/thiep/",
+  "/en/accessibility/",
 ];
 
 for (const path of PAGES) {
