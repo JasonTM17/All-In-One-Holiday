@@ -1,14 +1,16 @@
 /* Service worker — cache shell + visited pages for offline. BasePath-aware via scope. */
-const VERSION = "nlv-v1";
+const VERSION = "nlv-v2";
 const SHELL = VERSION + "-shell";
 const PAGES = VERSION + "-pages";
+const SCOPE = self.registration.scope;
+const OFFLINE = SCOPE + "offline.html";
 
 self.addEventListener("install", (e) => {
   e.waitUntil(
     caches
       .open(SHELL)
       .then((c) =>
-        c.addAll([self.registration.scope, self.registration.scope + "manifest.webmanifest"]),
+        c.addAll([SCOPE, SCOPE + "manifest.webmanifest", OFFLINE]),
       )
       .then(() => self.skipWaiting()),
   );
@@ -28,9 +30,10 @@ self.addEventListener("activate", (e) => {
 self.addEventListener("fetch", (e) => {
   const url = new URL(e.request.url);
   if (e.request.method !== "GET" || url.origin !== location.origin) return;
-  if (!url.pathname.startsWith(new URL(self.registration.scope).pathname)) return;
+  if (!url.pathname.startsWith(new URL(SCOPE).pathname)) return;
 
-  // Pages: network-first, fall back to cache (offline visits still work).
+  // Pages: network-first, fall back to cache (offline visits still work),
+  // then to the precached offline page for never-visited routes.
   if (e.request.mode === "navigate") {
     e.respondWith(
       fetch(e.request)
@@ -39,7 +42,9 @@ self.addEventListener("fetch", (e) => {
           caches.open(PAGES).then((c) => c.put(e.request, copy));
           return res;
         })
-        .catch(() => caches.match(e.request)),
+        .catch(() =>
+          caches.match(e.request).then((hit) => hit || caches.match(OFFLINE)),
+        ),
     );
     return;
   }
