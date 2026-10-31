@@ -12,7 +12,6 @@ export function birthdayMetadata(locale: Locale): Metadata {
   return {
     title: t.birthday.metaTitle,
     description: t.birthday.metaDescription,
-    robots: { index: false, follow: false },
     alternates: languageAlternates(locale, "/birthday/"),
     openGraph: {
       title: `${t.birthday.metaTitle} — Ngày Lễ Việt`,

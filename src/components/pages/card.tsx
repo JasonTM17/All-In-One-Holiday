@@ -13,7 +13,6 @@ export function cardMetadata(locale: Locale): Metadata {
   return {
     title: t.thiep.metaTitle,
     description: t.thiep.metaDescription,
-    robots: { index: false, follow: false },
     alternates: languageAlternates(locale, "/thiep/"),
     openGraph: {
       title: `${t.thiep.metaTitle} — Ngày Lễ Việt`,
