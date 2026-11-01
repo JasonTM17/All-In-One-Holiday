@@ -1025,15 +1025,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
   ],
   "quoc-te-thieu-nhi": [
     {
-      "file": "quoc-te-thieu-nhi/card.webp",
-      "photographer": "Thomas Schoch",
-      "profile": "https://commons.wikimedia.org/wiki/File:Children_in_Middle_Vietnam.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Children_in_Middle_Vietnam.jpg",
-      "license": "CC BY-SA 3.0",
-      "source": "Wikimedia Commons",
-      "alt": "Children in Middle-Vietnam"
-    },
-    {
       "file": "quoc-te-thieu-nhi/gallery1.webp",
       "photographer": "Boberger",
       "profile": "https://commons.wikimedia.org/wiki/File:Children_Hanoi_Vietnam.JPG",
@@ -1095,6 +1086,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY 2.0",
       "source": "Flickr",
       "alt": "vietnam children playing"
+    },
+    {
+      "file": "quoc-te-thieu-nhi/card.webp",
+      "photographer": "nhadatvideo",
+      "profile": "https://www.flickr.com/photos/40129895@N03/46844865145/",
+      "photo": "https://www.flickr.com/photos/40129895@N03/46844865145/",
+      "license": "CC BY 2.0",
+      "source": "Flickr",
+      "alt": "trẻ em vui chơi"
     }
   ],
   "ngay-gia-dinh-viet-nam": [
@@ -2418,42 +2418,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
   ],
   "tet-thanh-minh": [
     {
-      "file": "tet-thanh-minh/hero.webp",
-      "photographer": "Zhang Zeduan (1085–1145)",
-      "profile": "https://commons.wikimedia.org/wiki/File:Qingming_Festival_Detail_2.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Qingming_Festival_Detail_2.jpg",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "Close-up detail of the Chinese cityscape handscroll Along the River During Qingming Festival, ink and colors on silk, 25"
-    },
-    {
-      "file": "tet-thanh-minh/card.webp",
-      "photographer": "Zhang Zeduan (1085–1145)",
-      "profile": "https://commons.wikimedia.org/wiki/File:Qingming_Festival_Detail_3.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Qingming_Festival_Detail_3.jpg",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "Close-up detail of the Chinese cityscape handscroll Along the River During Qingming Festival, ink and colors on silk, 25"
-    },
-    {
-      "file": "tet-thanh-minh/gallery1.webp",
-      "photographer": "Zhang Zeduan (1085–1145)",
-      "profile": "https://commons.wikimedia.org/wiki/File:Qingming_Festival_Detail_10.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Qingming_Festival_Detail_10.jpg",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "Close-up detail of the Chinese cityscape handscroll Along the River During Qingming Festival, ink and colors on silk, 25"
-    },
-    {
-      "file": "tet-thanh-minh/gallery2.webp",
-      "photographer": "Zhang Zeduan (1085–1145)",
-      "profile": "https://commons.wikimedia.org/wiki/File:Qingming_Festival_Detail_11.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Qingming_Festival_Detail_11.jpg",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "Close-up detail of the Chinese cityscape handscroll Along the River During Qingming Festival, ink and colors on silk, 25"
-    },
-    {
       "file": "tet-thanh-minh/amthuc-xoi.webp",
       "photographer": "Thang Nguyen from Nottingham, United Kingdom",
       "profile": "https://commons.wikimedia.org/wiki/File:X%C3%B4i_c%C3%BAc.jpg",
@@ -2481,24 +2445,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Hoa quả cúng 1 Tết ở nhà mệ, Tết 2018"
     },
     {
-      "file": "tet-thanh-minh/gallery4.webp",
-      "photographer": "Ethan Doyle White",
-      "profile": "https://commons.wikimedia.org/wiki/File:Incense_Sticks_at_Jogyesa.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Incense_Sticks_at_Jogyesa.jpg",
-      "license": "CC BY-SA 4.0",
-      "source": "Wikimedia Commons",
-      "alt": "Incense sticks burning at Jogyesa."
-    },
-    {
-      "file": "tet-thanh-minh/gallery5.webp",
-      "photographer": "Dennis G. Jarvis",
-      "profile": "https://commons.wikimedia.org/wiki/File:DGJ_0435_-_Dead_Man%27s_House_(3347317859).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:DGJ_0435_-_Dead_Man%27s_House_(3347317859).jpg",
-      "license": "CC BY-SA 2.0",
-      "source": "Wikimedia Commons",
-      "alt": "Taken through the bus window. Although Buddhists usually cremate their dead in Vietnam it is more traditional to be buri"
-    },
-    {
       "file": "tet-thanh-minh/gallery6.webp",
       "photographer": "ChieuTimViet",
       "profile": "https://commons.wikimedia.org/wiki/File:Ngh%C4%A9a_trang_LS_Tr%E1%BA%A3ng_B%C6%A1m_-_panoramio.jpg",
@@ -2515,6 +2461,60 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY 2.0",
       "source": "Flickr",
       "alt": "nghia trang viet nam"
+    },
+    {
+      "file": "tet-thanh-minh/hero.webp",
+      "photographer": "ChieuTimViet",
+      "profile": "https://commons.wikimedia.org/wiki/File:Ngh%C4%A9a_trang_LS_Tr%E1%BA%A3ng_B%C6%A1m_-_panoramio.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Ngh%C4%A9a_trang_LS_Tr%E1%BA%A3ng_B%C6%A1m_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "Nghĩa trang LS Trảng Bơm"
+    },
+    {
+      "file": "tet-thanh-minh/card.webp",
+      "photographer": "trungydang",
+      "profile": "https://commons.wikimedia.org/wiki/File:Cao_Lanh-_nghia_trang_liet_sy,_quoc_lo_30_-_panoramio.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Cao_Lanh-_nghia_trang_liet_sy,_quoc_lo_30_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "Cao Lanh- nghia trang liet sy, quoc lo 30"
+    },
+    {
+      "file": "tet-thanh-minh/gallery1.webp",
+      "photographer": "Thanh Liêm",
+      "profile": "https://www.flickr.com/photos/98726873@N04/14172099511/",
+      "photo": "https://www.flickr.com/photos/98726873@N04/14172099511/",
+      "license": "CC BY 2.0",
+      "source": "Flickr",
+      "alt": "nghia trang viet nam"
+    },
+    {
+      "file": "tet-thanh-minh/gallery2.webp",
+      "photographer": "Diocthang",
+      "profile": "https://commons.wikimedia.org/wiki/File:Anh-dep-nghia-trang-thien-duc-01290416.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Anh-dep-nghia-trang-thien-duc-01290416.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Gate to Thien Duc Cemetery"
+    },
+    {
+      "file": "tet-thanh-minh/gallery4.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/chrisgold/8456903227",
+      "photo": "https://www.flickr.com/photos/chrisgold/8456903227",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "Common Sight in Hanoi: A Shrine with Incense on a Tree - H… | Flickr"
+    },
+    {
+      "file": "tet-thanh-minh/gallery5.webp",
+      "photographer": "clib.psu.ac.th",
+      "profile": "https://clib.psu.ac.th/southerninfo/content/1/fed36e4d",
+      "photo": "https://clib.psu.ac.th/southerninfo/content/1/fed36e4d",
+      "license": "CC (xem nguồn)",
+      "source": "Web (clib.psu.ac.th)",
+      "alt": "ฐานข้อมูลท้องถิ่น ภาคใต้ สำนักทรัพยากรการเรียนรู้คุณหญิงหลงฯ ม.อ. ..."
     }
   ],
   "ngay-thanh-lap-dang": [
@@ -2676,15 +2676,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Ho Chi Minh Mausoleum"
     },
     {
-      "file": "ngay-sinh-nhat-bac/card.webp",
-      "photographer": "CEphoto, Uwe Aranas",
-      "profile": "https://commons.wikimedia.org/wiki/File:Hanoi_Vietnam_Mausoleum-of-Ho-Chi-Minh-01.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Hanoi_Vietnam_Mausoleum-of-Ho-Chi-Minh-01.jpg",
-      "license": "CC BY-SA 3.0",
-      "source": "Wikimedia Commons",
-      "alt": "Hanoi, Vietnam: Mausoleum of Ho Chi Minh"
-    },
-    {
       "file": "ngay-sinh-nhat-bac/gallery1.webp",
       "photographer": "CEphoto, Uwe Aranas",
       "profile": "https://commons.wikimedia.org/wiki/File:Hanoi_Vietnam_Mausoleum-of-Ho-Chi-Minh-02.jpg",
@@ -2737,6 +2728,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY 2.0",
       "source": "Wikimedia Commons",
       "alt": "Ho Chi Minh's Stilt House, Hanoi (2)"
+    },
+    {
+      "file": "ngay-sinh-nhat-bac/card.webp",
+      "photographer": "blog.aladin.co.kr",
+      "profile": "https://blog.aladin.co.kr/759779161/11138444",
+      "photo": "https://blog.aladin.co.kr/759779161/11138444",
+      "license": "CC (xem nguồn)",
+      "source": "Web (blog.aladin.co.kr)",
+      "alt": "[알라딘서재]제1차 인도차이나 전쟁(The First Indochina War)"
     }
   ],
   "ngay-cach-mang-thang-tam": [
