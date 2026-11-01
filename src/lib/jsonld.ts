@@ -112,6 +112,30 @@ export function toolBreadcrumbJsonLd(
   };
 }
 
+/** BreadcrumbList + ItemList of every holiday for the /lich/ calendar page. */
+export function calendarJsonLd(locale: Locale, name: string, homeLabel: string) {
+  const prefix = localePrefix(locale);
+  const list = holidaysOf(locale);
+  const [breadcrumb] = toolBreadcrumbJsonLd(locale, "/lich/", name, homeLabel)["@graph"];
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      breadcrumb,
+      {
+        "@type": "ItemList",
+        "@id": `${siteUrl()}${prefix}/lich/#list`,
+        numberOfItems: list.length,
+        itemListElement: list.map((h, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          name: h.name,
+          url: `${siteUrl()}${prefix}/${h.slug}/`,
+        })),
+      },
+    ],
+  };
+}
+
 /** WebSite + CollectionPage (with the full holiday ItemList) for a home page. */
 export function homeJsonLd(locale: Locale = "vi") {
   const base = siteUrl();

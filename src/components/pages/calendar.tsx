@@ -5,7 +5,7 @@ import { getStrings, localePath, type Locale } from "@/i18n";
 import { holidaysOf } from "@/i18n/data";
 import { siteUrl } from "@/lib/site";
 import { languageAlternates } from "@/lib/metadata";
-import { toolBreadcrumbJsonLd } from "@/lib/jsonld";
+import { calendarJsonLd } from "@/lib/jsonld";
 
 export function calendarMetadata(locale: Locale): Metadata {
   const t = getStrings(locale);
@@ -27,7 +27,7 @@ export function calendarMetadata(locale: Locale): Metadata {
 export default function CalendarPage({ locale }: { locale: Locale }) {
   const t = getStrings(locale);
   const holidays = holidaysOf(locale);
-  const jsonLd = toolBreadcrumbJsonLd(locale, "/lich/", t.calendar.h1, t.footer.home);
+  const jsonLd = calendarJsonLd(locale, t.calendar.h1, t.footer.home);
   return (
     <>
       <script

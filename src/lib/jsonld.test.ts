@@ -3,6 +3,7 @@ import { holidays } from "@/data/holidays";
 import { siteUrl } from "@/lib/site";
 import {
   breadcrumbJsonLd,
+  calendarJsonLd,
   eventJsonLd,
   faqJsonLd,
   holidayJsonLd,
@@ -90,6 +91,28 @@ describe("tool breadcrumb JSON-LD", () => {
         name: "Lịch ngày lễ",
         item: `${siteUrl()}${prefix}/lich/`,
       });
+    }
+  });
+});
+
+describe("calendar JSON-LD", () => {
+  it("emits BreadcrumbList + ItemList covering every holiday in both locales", () => {
+    for (const [locale, prefix, homeLabel] of [
+      ["vi", "", "Trang chủ"],
+      ["en", "/en", "Home"],
+    ] as const) {
+      const parsed = JSON.parse(
+        JSON.stringify(calendarJsonLd(locale, "Lịch", homeLabel)),
+      );
+      const types = parsed["@graph"].map((n: { "@type": string }) => n["@type"]);
+      expect(types).toEqual(["BreadcrumbList", "ItemList"]);
+      const list = parsed["@graph"][1];
+      expect(list.numberOfItems).toBe(holidays.length);
+      expect(list.itemListElement).toHaveLength(holidays.length);
+      expect(list.itemListElement[0].item).toBeUndefined();
+      expect(list.itemListElement[0].url).toBe(
+        `${siteUrl()}${prefix}/${holidays[0].slug}/`,
+      );
     }
   });
 });
