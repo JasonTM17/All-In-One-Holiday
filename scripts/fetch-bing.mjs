@@ -13,18 +13,14 @@ const UA = {
 };
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-// Round 5: last flagged slots from the full-image audit.
+// Round 6: amthuc audit findings + gallery diversification.
 const FIX = {
-  "tet-nguyen-tieu/gallery5": ["đèn hoa đăng hội an", "vietnam lantern festival night", "đèn lồng rằm tháng giêng", "hội đèn lồng việt nam"],
-  "tet-duong-lich/gallery3": ["giao thừa hà nội", "new year eve vietnam crowd", "đếm ngược năm mới việt nam"],
-  "tet-duong-lich/gallery4": ["pháo hoa hồ gươm", "fireworks ho guom hanoi", "ha noi new year night"],
-  "ngay-bao-chi/gallery6": ["nhà báo việt nam", "báo điện tử việt nam", "vietnam press conference", "họp báo việt nam"],
-  "nguoi-cao-tuoi/gallery1": ["người già việt nam", "chăm sóc người cao tuổi việt nam", "cụ già việt nam gia đình"],
-  "giai-phong-mien-nam/gallery2": ["sài gòn giải phóng 1975", "xe tăng dinh độc lập 1975", "thành phố hồ chí minh lễ hội"],
-  "nha-giao-viet-nam/gallery6": ["sân trường việt nam học sinh", "trường học việt nam", "học sinh việt nam chào cờ"],
-  "giang-sinh/gallery1": ["giáng sinh phố việt nam", "noel việt nam đường phố", "christmas hanoi street", "hang ma giang sinh"],
-  "tet-thanh-minh/hero": ["tảo mộ việt nam", "nghĩa trang việt nam hoa", "thanh minh việt nam", "mộ phần việt nam"],
-  "vu-lan/card": ["vu lan hoa hồng cài áo", "lễ vu lan báo hiếu việt nam", "bông hồng cài áo vu lan"],
+  "tet-han-thuc/amthuc-banh-troi": ["bánh trôi nước tết hàn thực", "banh troi nuoc vietnam", "chè trôi nước việt nam"],
+  "trung-thu/amthuc-mam-trai-cay": ["mâm ngũ quả trung thu", "mâm cỗ trung thu việt nam", "trái cây mâm ngũ quả"],
+  "tet-nguyen-dan/gallery5": ["chợ hoa tết việt nam", "tet flower market vietnam", "phố đi bộ tết nguyên đán"],
+  "tet-nguyen-dan/gallery6": ["câu đối đỏ tết việt nam", "ông đồ tết nguyên đán", "li xi red envelope tet"],
+  "ngay-cach-mang-thang-tam/gallery6": ["quảng trường ba đình hà nội", "ba dinh square hanoi", "lễ chào cờ ba đình"],
+  "ngay-cach-mang-thang-tam/gallery5": ["lăng hồ chí minh đêm", "ho chi minh mausoleum night", "ha noi di tich lich su"],
 };
 
 mkdirSync(STAGE, { recursive: true });

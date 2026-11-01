@@ -22,9 +22,9 @@ Photos from Wikimedia Commons and Flickr contributors; see per-file license and 
 | tet-nguyen-dan/amthuc-thit-kho-trung.webp | Memberofc1 | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Th%E1%BB%8Bt_kho_ch%E1%BB%89.jpg) |
 | tet-nguyen-dan/amthuc-nem-ran.webp | Phó Nháy | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Nem_ran_cat.jpg) |
 | tet-nguyen-dan/amthuc-thit-dong.webp | Viethavvh | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Gi%C3%B2_th%E1%BB%A7.jpg) |
-| tet-nguyen-dan/gallery5.webp | PEAK99 | CC BY 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:%E0%B8%8A%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%A7_Ochna_integerrima_(Lour.)_Merr_(1).jpg) |
 | tet-nguyen-dan/gallery6.webp | Willyvu | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:C%C3%A0nh_hoa_mai_gi%E1%BA%A3_%C4%91%C3%B3ng_th%C3%B9ng_carton_%C4%91%E1%BB%83_g%E1%BB%ADi_%C4%91i_xa.jpg) |
 | tet-nguyen-dan/gallery4.webp | This is Thảo | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Tet_holiday_in_Vietnam.jpg) |
+| tet-nguyen-dan/gallery5.webp | justinsomnia.org | CC (xem nguồn) | [Commons](https://justinsomnia.org/2011/02/ok-where-next/) |
 | tet-nguyen-tieu/hero.webp | vi:Thành viên:Viethavvh | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Den_ong_sao.JPG) |
 | tet-nguyen-tieu/gallery1.webp | Christophe95 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lantern_Shop_in_Hoi_An_1.jpg) |
 | tet-nguyen-tieu/gallery2.webp | Christophe95 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lantern_Shop_in_Hoi_An_2.jpg) |
@@ -161,7 +161,6 @@ Photos from Wikimedia Commons and Flickr contributors; see per-file license and 
 | trung-thu/amthuc-banh-nuong.webp | Binh Giang | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Vietnam_Grilled_moon_cake.JPG) |
 | trung-thu/amthuc-banh-deo.webp | Khương Việt Hà | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:B%C3%A1nh_trung_thu.JPG) |
 | trung-thu/amthuc-tra.webp | VuThiAnh | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Tra_sen_-_Vietnamese_Lotus_Tea.JPG) |
-| trung-thu/amthuc-mam-trai-cay.webp | Nguyenmanhhung3831 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Mam_Ngu_Qua_1.tif) |
 | trung-thu/amthuc-banh-in.webp | Viethavvh | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:C%E1%BB%97_trung_thu.JPG) |
 | trung-thu/phongtuc-den-ong-sao.webp | Newone | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:%C4%90%C3%A8n_l%E1%BB%93ng_th%E1%BB%8F_Trung_Thu_kh%E1%BB%95ng_l%E1%BB%93_Times_City.jpg) |
 | trung-thu/gallery4.webp | Shajinss | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Night_sky_with_beautiful_moon.jpg) |
@@ -172,6 +171,7 @@ Photos from Wikimedia Commons and Flickr contributors; see per-file license and 
 | trung-thu/gallery1.webp | lvcorner.blogspot.com | CC (xem nguồn) | [Commons](https://lvcorner.blogspot.com/2011/08/trung-thu-long-en-hoa-sen-giay.html) |
 | trung-thu/gallery2.webp | flickr.com | CC (xem nguồn) | [Commons](https://www.flickr.com/photos/elrentaplats/5643063244) |
 | trung-thu/gallery3.webp | flickr.com | CC (xem nguồn) | [Commons](https://www.flickr.com/photos/vanlaphoang1945/9307528508) |
+| trung-thu/amthuc-mam-trai-cay.webp | umakemehungry.com | CC (xem nguồn) | [Commons](https://www.umakemehungry.com/2020/09/fruits-delivery-singapore-media-invite.html) |
 | giang-sinh/gallery2.webp | Noah Wulf | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Christmas_Tree_Angel.jpg) |
 | giang-sinh/gallery3.webp | Noah Wulf | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Golden_Christmas_Tree_Ornament.jpg) |
 | giang-sinh/amthuc-ga-nuong.webp | Qualit-E at English Wikipedia | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:ChristmasDinnerScotland.jpg) |
@@ -212,12 +212,12 @@ Photos from Wikimedia Commons and Flickr contributors; see per-file license and 
 | tet-han-thuc/gallery1.webp | Conbo at vi.wikipedia | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Banhtroi.JPG) |
 | tet-han-thuc/gallery2.webp | Lachy70 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:B%C3%A1nh_tr%C3%B4i_n%C6%B0%E1%BB%9Bc.png) |
 | tet-han-thuc/gallery3.webp | Lachy70 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:B%C3%A1nh_tr%C3%B4i_n%C6%B0%E1%BB%9Bc.png) |
-| tet-han-thuc/amthuc-banh-troi.webp | Lachy70 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:B%C3%A1nh_Tr%C3%B4i_N%C6%B0%E1%BB%9Bc.png) |
 | tet-han-thuc/amthuc-mam-cung.webp | Phương Huy (thảo luận) | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:C%C3%BAng_giao_th%E1%BB%ABa_n%C4%83m_2010_(4).JPG) |
 | tet-han-thuc/amthuc-banh-chay.webp | Conbo at vi.wikipedia | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Banhchay.JPG) |
 | tet-han-thuc/gallery4.webp | Junyu-K | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:202501_%E6%A1%82%E8%8A%B1%E8%9C%9C%E7%B6%9C%E5%90%88%E6%B9%AF%E5%9C%93%E5%88%A8%E5%86%B0,Aka_%E5%86%B0%E7%81%AB%E6%B9%AF%E5%9C%93.jpg) |
 | tet-han-thuc/gallery6.webp | Benh LIEU SONG | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Saint_Chely_Tarn.jpg) |
 | tet-han-thuc/gallery5.webp | Phương Huy (thảo luận) | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:B%C3%A1nh_bao_chay_ng%E1%BB%8Dt_c%C3%BAng_t%E1%BA%A5t_ni%C3%AAn_nh%C3%A0_m%E1%BB%87_2018.jpg) |
+| tet-han-thuc/amthuc-banh-troi.webp | fr.wikipedia.org | CC (xem nguồn) | [Commons](https://fr.wikipedia.org/wiki/Songpyeon) |
 | tet-doan-ngo/card.webp | babinbubun | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Start_your_day.jpg) |
 | tet-doan-ngo/gallery1.webp | JIP | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Spring_rolls_and_lychee_juice_at_restaurant_Nam_Nam_in_Munich.jpg) |
 | tet-doan-ngo/gallery2.webp | TopTropicals.com | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Litchi_chinensis_-_Lychee_(52334448851).jpg) |
@@ -306,8 +306,8 @@ Photos from Wikimedia Commons and Flickr contributors; see per-file license and 
 | ngay-cach-mang-thang-tam/gallery2.webp | Dennis G. Jarvis | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Hanoi_Opera_House_1.jpg) |
 | ngay-cach-mang-thang-tam/gallery3.webp | Schwede66 | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Hanoi_Opera_House_15.JPG) |
 | ngay-cach-mang-thang-tam/gallery4.webp | Richard Mortel from Riyadh, Saudi Arabia | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Hanoi_Opera_House,_1901-11_(2)_(37608221545).jpg) |
-| ngay-cach-mang-thang-tam/gallery5.webp | shankar s. from Dubai, united arab emirates | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:HCM_Mausoleum-_closed_as_his_preserved_body_wan%27t_it_(31454165115).jpg) |
-| ngay-cach-mang-thang-tam/gallery6.webp | The Hanoian | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Nh%C3%A0_h%C3%A1t_L%E1%BB%9Bn_H%C3%A0_N%E1%BB%99i_-_2022-09-02_01.jpg) |
+| ngay-cach-mang-thang-tam/gallery5.webp | motogo.vn | CC (xem nguồn) | [Commons](https://motogo.vn/du-lich-ha-noi/) |
+| ngay-cach-mang-thang-tam/gallery6.webp | flickr.com | CC (xem nguồn) | [Commons](https://www.flickr.com/photos/dgmckelvey/6914584864) |
 | ngay-giai-phong-thu-do/hero.webp | Chinasaur | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Flag_tower,_Hanoi.jpg) |
 | ngay-giai-phong-thu-do/card.webp | Jorge Láscar from Australia | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lascar_Flag_Tower_of_Hanoi_(4550324293).jpg) |
 | ngay-giai-phong-thu-do/gallery1.webp | Vuong Tri Binh | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Flag_Tower_of_Hanoi_viewed_from_the_museum_in_2014.jpg) |

@@ -175,15 +175,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Một đĩa giò thủ"
     },
     {
-      "file": "tet-nguyen-dan/gallery5.webp",
-      "photographer": "PEAK99",
-      "profile": "https://commons.wikimedia.org/wiki/File:%E0%B8%8A%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%A7_Ochna_integerrima_(Lour.)_Merr_(1).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:%E0%B8%8A%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%A7_Ochna_integerrima_(Lour.)_Merr_(1).jpg",
-      "license": "CC BY 3.0",
-      "source": "Wikimedia Commons",
-      "alt": "Ochna integerrima (Lour.) Merr"
-    },
-    {
       "file": "tet-nguyen-dan/gallery6.webp",
       "photographer": "Willyvu",
       "profile": "https://commons.wikimedia.org/wiki/File:C%C3%A0nh_hoa_mai_gi%E1%BA%A3_%C4%91%C3%B3ng_th%C3%B9ng_carton_%C4%91%E1%BB%83_g%E1%BB%ADi_%C4%91i_xa.jpg",
@@ -200,6 +191,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 4.0",
       "source": "Wikimedia Commons",
       "alt": "A Vietnamese family is making bánh tét (or bánh đòn, Vietnamese sticky rice cake) on the biggest traditional holiday of "
+    },
+    {
+      "file": "tet-nguyen-dan/gallery5.webp",
+      "photographer": "justinsomnia.org",
+      "profile": "https://justinsomnia.org/2011/02/ok-where-next/",
+      "photo": "https://justinsomnia.org/2011/02/ok-where-next/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (justinsomnia.org)",
+      "alt": "Ok, where next? - Justinsomnia"
     }
   ],
   "tet-nguyen-tieu": [
@@ -1458,15 +1458,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Vietnamese lotus tea. The photo was taken in Ha Noi, Viet Nam."
     },
     {
-      "file": "trung-thu/amthuc-mam-trai-cay.webp",
-      "photographer": "Nguyenmanhhung3831",
-      "profile": "https://commons.wikimedia.org/wiki/File:Mam_Ngu_Qua_1.tif",
-      "photo": "https://commons.wikimedia.org/wiki/File:Mam_Ngu_Qua_1.tif",
-      "license": "CC BY-SA 4.0",
-      "source": "Wikimedia Commons",
-      "alt": "Mam Ngu Qua 1"
-    },
-    {
       "file": "trung-thu/amthuc-banh-in.webp",
       "photographer": "Viethavvh",
       "profile": "https://commons.wikimedia.org/wiki/File:C%E1%BB%97_trung_thu.JPG",
@@ -1555,6 +1546,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC (xem nguồn)",
       "source": "Web (flickr.com)",
       "alt": "IMG_1939 | Múa lân_2012 | VanLap Hoàng | Flickr"
+    },
+    {
+      "file": "trung-thu/amthuc-mam-trai-cay.webp",
+      "photographer": "umakemehungry.com",
+      "profile": "https://www.umakemehungry.com/2020/09/fruits-delivery-singapore-media-invite.html",
+      "photo": "https://www.umakemehungry.com/2020/09/fruits-delivery-singapore-media-invite.html",
+      "license": "CC (xem nguồn)",
+      "source": "Web (umakemehungry.com)",
+      "alt": "Fruits removed from cling wraps"
     }
   ],
   "giang-sinh": [
@@ -1929,15 +1929,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Bánh trôi nước, one of Hồ Xuân Hương's most famous poems is shown here with chữ Hán Nôm and chữ Quốc ngữ (Vietnamese alp"
     },
     {
-      "file": "tet-han-thuc/amthuc-banh-troi.webp",
-      "photographer": "Lachy70",
-      "profile": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_Tr%C3%B4i_N%C6%B0%E1%BB%9Bc.png",
-      "photo": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_Tr%C3%B4i_N%C6%B0%E1%BB%9Bc.png",
-      "license": "CC BY-SA 4.0",
-      "source": "Wikimedia Commons",
-      "alt": "Bánh Trôi Nước"
-    },
-    {
       "file": "tet-han-thuc/amthuc-mam-cung.webp",
       "photographer": "Phương Huy (thảo luận)",
       "profile": "https://commons.wikimedia.org/wiki/File:C%C3%BAng_giao_th%E1%BB%ABa_n%C4%83m_2010_(4).JPG",
@@ -1981,6 +1972,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "Public domain",
       "source": "Wikimedia Commons",
       "alt": "Bánh bao chay ngọt cúng tất niên"
+    },
+    {
+      "file": "tet-han-thuc/amthuc-banh-troi.webp",
+      "photographer": "fr.wikipedia.org",
+      "profile": "https://fr.wikipedia.org/wiki/Songpyeon",
+      "photo": "https://fr.wikipedia.org/wiki/Songpyeon",
+      "license": "CC (xem nguồn)",
+      "source": "Web (fr.wikipedia.org)",
+      "alt": "Songpyeon — Wikipédia"
     }
   ],
   "tet-doan-ngo": [
@@ -2796,21 +2796,21 @@ export const imageCredits: Record<string, ImageCredit[]> = {
     },
     {
       "file": "ngay-cach-mang-thang-tam/gallery5.webp",
-      "photographer": "shankar s. from Dubai, united arab emirates",
-      "profile": "https://commons.wikimedia.org/wiki/File:HCM_Mausoleum-_closed_as_his_preserved_body_wan%27t_it_(31454165115).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:HCM_Mausoleum-_closed_as_his_preserved_body_wan%27t_it_(31454165115).jpg",
-      "license": "CC BY 2.0",
-      "source": "Wikimedia Commons",
-      "alt": "So this then is the de facto symbol of Hanoi, the Ho Chi Minh Mausoleum in Ba Dinh Square of the city. This is one of th"
+      "photographer": "motogo.vn",
+      "profile": "https://motogo.vn/du-lich-ha-noi/",
+      "photo": "https://motogo.vn/du-lich-ha-noi/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (motogo.vn)",
+      "alt": "Du lịch Hà Nội | Cẩm nang du lịch hấp dẫn từ A - Z"
     },
     {
       "file": "ngay-cach-mang-thang-tam/gallery6.webp",
-      "photographer": "The Hanoian",
-      "profile": "https://commons.wikimedia.org/wiki/File:Nh%C3%A0_h%C3%A1t_L%E1%BB%9Bn_H%C3%A0_N%E1%BB%99i_-_2022-09-02_01.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Nh%C3%A0_h%C3%A1t_L%E1%BB%9Bn_H%C3%A0_N%E1%BB%99i_-_2022-09-02_01.jpg",
-      "license": "CC BY-SA 4.0",
-      "source": "Wikimedia Commons",
-      "alt": "Hanoi Opera House, Hanoi, Vietnam."
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/dgmckelvey/6914584864",
+      "photo": "https://www.flickr.com/photos/dgmckelvey/6914584864",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "Ba Đình District, Hanoi, Vietnam | Ba Đình is an urban distr… | Flickr"
     }
   ],
   "ngay-giai-phong-thu-do": [
