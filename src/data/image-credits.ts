@@ -47,22 +47,13 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Kiss of the Sea show and Campanile Scenic Observatory, Sunset Town, Phu Quoc, Vietnam."
     },
     {
-      "file": "tet-duong-lich/gallery3.webp",
-      "photographer": "Vivu Vietnam",
-      "profile": "https://commons.wikimedia.org/wiki/File:Kiss_of_the_Sea_show_outdoor_theater_fireworks_night_Phu_Quoc_Island_Vietnam.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Kiss_of_the_Sea_show_outdoor_theater_fireworks_night_Phu_Quoc_Island_Vietnam.jpg",
-      "license": "CC BY-SA 4.0",
-      "source": "Wikimedia Commons",
-      "alt": "Kiss of the Sea show featuring a spectacular fireworks display above the illuminated semicircular open-air theater on th"
-    },
-    {
       "file": "tet-duong-lich/gallery4.webp",
-      "photographer": "trungydang",
-      "profile": "https://commons.wikimedia.org/wiki/File:Nam_moi_2015,ban_phao_hoa_Saigon_Vietnam_-_panoramio.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Nam_moi_2015,ban_phao_hoa_Saigon_Vietnam_-_panoramio.jpg",
-      "license": "CC BY 3.0",
-      "source": "Wikimedia Commons",
-      "alt": "Nam moi 2015,ban phao hoa Saigon Vietnam"
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/hmoong/6214091960/",
+      "photo": "https://www.flickr.com/photos/hmoong/6214091960/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "Tháp Rùa | • Camera: Nikon FM • Film: UXi Super 100 • Popula… | Flickr"
     },
     {
       "file": "tet-duong-lich/gallery5.webp",
@@ -81,6 +72,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC (xem nguồn)",
       "source": "Web (flickr.com)",
       "alt": "IMG_4506 | 政煌 郭 | Flickr"
+    },
+    {
+      "file": "tet-duong-lich/gallery3.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/b1nhb00ng/392058412/",
+      "photo": "https://www.flickr.com/photos/b1nhb00ng/392058412/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "Ngọ Môn vài giờ trước giao thừa | Tết Đinh Hợi | Ben Nguyen | Flickr"
     }
   ],
   "tet-nguyen-dan": [
@@ -295,12 +295,12 @@ export const imageCredits: Record<string, ImageCredit[]> = {
     },
     {
       "file": "tet-nguyen-tieu/gallery5.webp",
-      "photographer": "Phương Huy",
-      "profile": "https://commons.wikimedia.org/wiki/File:%C4%90%C3%A8n_%C4%91%C3%A1_ki%E1%BB%83u_Vi%E1%BB%87t_Nam_v%C3%A0_l%C6%B0_h%C6%B0%C6%A1ng_%C4%91%C3%A1_b%E1%BA%B1ng_c%E1%BA%A9m_th%E1%BA%A1ch_t%E1%BA%A1i_Ch%C3%B9a_B%E1%BB%ADu_Th%E1%BA%AFng,_T%C3%A2n_Ph%C3%BA,_th%C3%A1ng_5_n%C4%83m_2021_(16).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:%C4%90%C3%A8n_%C4%91%C3%A1_ki%E1%BB%83u_Vi%E1%BB%87t_Nam_v%C3%A0_l%C6%B0_h%C6%B0%C6%A1ng_%C4%91%C3%A1_b%E1%BA%B1ng_c%E1%BA%A9m_th%E1%BA%A1ch_t%E1%BA%A1i_Ch%C3%B9a_B%E1%BB%ADu_Th%E1%BA%AFng,_T%C3%A2n_Ph%C3%BA,_th%C3%A1ng_5_n%C4%83m_2021_(16).jpg",
-      "license": "CC BY-SA 4.0",
-      "source": "Wikimedia Commons",
-      "alt": "Pagodas in Ho Chi Minh City"
+      "photographer": "motogo.vn",
+      "profile": "https://motogo.vn/du-lich-da-nang-hoi-an-4n3d/",
+      "photo": "https://motogo.vn/du-lich-da-nang-hoi-an-4n3d/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (motogo.vn)",
+      "alt": "Muốn đi du lịch Đà Nẵng - Hội An thì nhất định phải đọc bài này!!! - MOTOGO"
     }
   ],
   "valentine": [
@@ -599,15 +599,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Finnish non-fiction writer and teacher Kirsti Mäkinen is reading her book on World Book Day in Helsinki in 2012"
     },
     {
-      "file": "nha-giao-viet-nam/gallery6.webp",
-      "photographer": "Rc1959",
-      "profile": "https://commons.wikimedia.org/wiki/File:Vietnam_1999.Hanoi_(13).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Vietnam_1999.Hanoi_(13).jpg",
-      "license": "CC BY 4.0",
-      "source": "Wikimedia Commons",
-      "alt": "Vietnam 1999.Hanoi"
-    },
-    {
       "file": "nha-giao-viet-nam/gallery3.webp",
       "photographer": "USAID Vietnam",
       "profile": "https://commons.wikimedia.org/wiki/File:Dong_A_University_IT_Program_for_Students_with_Disabilities.jpg",
@@ -624,6 +615,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY 2.0",
       "source": "Flickr",
       "alt": "vietnam teacher classroom"
+    },
+    {
+      "file": "nha-giao-viet-nam/gallery6.webp",
+      "photographer": "thaienews.blogspot.com",
+      "profile": "https://thaienews.blogspot.com/2017/05/3_60.html",
+      "photo": "https://thaienews.blogspot.com/2017/05/3_60.html",
+      "license": "CC (xem nguồn)",
+      "source": "Web (thaienews.blogspot.com)",
+      "alt": "Thai E-News : ครบ 3 ปี คสช. ป้ายโผล่ที่เกษตรศาสตร์ + กลุ่มฟื้นฟู ..."
     }
   ],
   "quan-doi-nhan-dan": [
@@ -830,15 +830,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Tao Dan Park, Ho Chi Minh City, Vietnam"
     },
     {
-      "file": "giai-phong-mien-nam/gallery2.webp",
-      "photographer": "Diego Delso",
-      "profile": "https://commons.wikimedia.org/wiki/File:Adarga_(Nymphaea_alba),_Ciudad_Ho_Chi_Minh,_Vietnam,_2013-08-14,_DD_01.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Adarga_(Nymphaea_alba),_Ciudad_Ho_Chi_Minh,_Vietnam,_2013-08-14,_DD_01.jpg",
-      "license": "CC BY-SA 3.0",
-      "source": "Wikimedia Commons",
-      "alt": "Exemplar of a water rose cultivar (Nymphaea) in a public garden in Ho Chi Minh City, Vietnam."
-    },
-    {
       "file": "giai-phong-mien-nam/gallery3.webp",
       "photographer": "Diego Delso",
       "profile": "https://commons.wikimedia.org/wiki/File:Ayuntamiento,_Ciudad_Ho_Chi_Minh,_Vietnam,_2013-08-14,_DD_08.JPG",
@@ -873,6 +864,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY 2.0",
       "source": "Flickr",
       "alt": "sai gon 1975"
+    },
+    {
+      "file": "giai-phong-mien-nam/gallery2.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/usmcarchives/5877912158/",
+      "photo": "https://www.flickr.com/photos/usmcarchives/5877912158/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "Ontos and Commandeered Vehicles, Hue, Vietnam | Ontos leads … | Flickr"
     }
   ],
   "quoc-te-lao-dong": [
@@ -2196,15 +2196,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Premises of newspaper Hufvudstadsbladet in Helsinki 1927. HBL's new 64-page-rotation press."
     },
     {
-      "file": "ngay-bao-chi/gallery6.webp",
-      "photographer": "Matti Blume",
-      "profile": "https://commons.wikimedia.org/wiki/File:Mille_Miglia_2018_press_conference,_Le_Grand-Saconnex_(1X7A9542).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Mille_Miglia_2018_press_conference,_Le_Grand-Saconnex_(1X7A9542).jpg",
-      "license": "CC BY-SA 4.0",
-      "source": "Wikimedia Commons",
-      "alt": "Franco Gussalli Beretta at the Mille Miglia 2018 press announcement"
-    },
-    {
       "file": "ngay-bao-chi/gallery1.webp",
       "photographer": "Ngô Trung",
       "profile": "https://commons.wikimedia.org/wiki/File:S%E1%BA%A1p_b%C3%A1o.JPG",
@@ -2239,6 +2230,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC (xem nguồn)",
       "source": "Web (journalistsresource.org)",
       "alt": "Newsroom diversity: 7 studies to know on race in journalism"
+    },
+    {
+      "file": "ngay-bao-chi/gallery6.webp",
+      "photographer": "diendan.org",
+      "profile": "https://www.diendan.org/viet-nam/thanh-lap-hoi-nha-bao-doc-lap-viet-nam",
+      "photo": "https://www.diendan.org/viet-nam/thanh-lap-hoi-nha-bao-doc-lap-viet-nam",
+      "license": "CC (xem nguồn)",
+      "source": "Web (diendan.org)",
+      "alt": "Thành lập Hội Nhà báo Độc lập Việt Nam — Diễn Đàn Forum"
     }
   ],
   "nguoi-cao-tuoi": [
@@ -2259,15 +2259,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "Public domain",
       "source": "Wikimedia Commons",
       "alt": "A soldier with the Armed Forces for the Defense of Mozambique hands medicine to an elderly village woman in Sabie, Mozam"
-    },
-    {
-      "file": "nguoi-cao-tuoi/gallery1.webp",
-      "photographer": "Wikimedia Commons",
-      "profile": "https://commons.wikimedia.org/wiki/File:Nicaraguan_Residents_Receive_Care_at_High_School_Clinic_During_Continuing_Promise_2008_DVIDS109439.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Nicaraguan_Residents_Receive_Care_at_High_School_Clinic_During_Continuing_Promise_2008_DVIDS109439.jpg",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "Project Hope volunteer Sara Joyce, embarked aboard the amphibious assault ship USS Kearsarge, examines the hand of an el"
     },
     {
       "file": "nguoi-cao-tuoi/gallery2.webp",
@@ -2340,6 +2331,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 2.0",
       "source": "Flickr",
       "alt": "vietnam elderly portrait"
+    },
+    {
+      "file": "nguoi-cao-tuoi/gallery1.webp",
+      "photographer": "thuocdantoc.vn",
+      "profile": "https://thuocdantoc.vn/phu-nu-lon-tuoi-it-van-dong-se-lam-tang-nguy-co-mac-benh-tim-mach.html",
+      "photo": "https://thuocdantoc.vn/phu-nu-lon-tuoi-it-van-dong-se-lam-tang-nguy-co-mac-benh-tim-mach.html",
+      "license": "CC (xem nguồn)",
+      "source": "Web (thuocdantoc.vn)",
+      "alt": "Phụ nữ lớn tuổi ít vận động sẽ làm tăng nguy cơ mắc bệnh tim mạch"
     }
   ],
   "doanh-nhan": [

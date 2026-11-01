@@ -13,10 +13,18 @@ const UA = {
 };
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-// Round 4: last stubborn slots — wider query net.
+// Round 5: last flagged slots from the full-image audit.
 const FIX = {
-  "doanh-nhan/hero": ["sài gòn skyline đêm", "ho chi minh city skyline", "thành phố hồ chí minh trung tâm", "vietnam city aerial", "startup viet nam office team"],
-  "tet-duong-lich/gallery6": ["pháo hoa sài gòn", "fireworks hoan kiem lake", "giao thừa pháo hoa việt nam", "fireworks city skyline night"],
+  "tet-nguyen-tieu/gallery5": ["đèn hoa đăng hội an", "vietnam lantern festival night", "đèn lồng rằm tháng giêng", "hội đèn lồng việt nam"],
+  "tet-duong-lich/gallery3": ["giao thừa hà nội", "new year eve vietnam crowd", "đếm ngược năm mới việt nam"],
+  "tet-duong-lich/gallery4": ["pháo hoa hồ gươm", "fireworks ho guom hanoi", "ha noi new year night"],
+  "ngay-bao-chi/gallery6": ["nhà báo việt nam", "báo điện tử việt nam", "vietnam press conference", "họp báo việt nam"],
+  "nguoi-cao-tuoi/gallery1": ["người già việt nam", "chăm sóc người cao tuổi việt nam", "cụ già việt nam gia đình"],
+  "giai-phong-mien-nam/gallery2": ["sài gòn giải phóng 1975", "xe tăng dinh độc lập 1975", "thành phố hồ chí minh lễ hội"],
+  "nha-giao-viet-nam/gallery6": ["sân trường việt nam học sinh", "trường học việt nam", "học sinh việt nam chào cờ"],
+  "giang-sinh/gallery1": ["giáng sinh phố việt nam", "noel việt nam đường phố", "christmas hanoi street", "hang ma giang sinh"],
+  "tet-thanh-minh/hero": ["tảo mộ việt nam", "nghĩa trang việt nam hoa", "thanh minh việt nam", "mộ phần việt nam"],
+  "vu-lan/card": ["vu lan hoa hồng cài áo", "lễ vu lan báo hiếu việt nam", "bông hồng cài áo vu lan"],
 };
 
 mkdirSync(STAGE, { recursive: true });
