@@ -56,7 +56,7 @@ export default function PwaRegister({ locale }: { locale: Locale }) {
     <button
       type="button"
       onClick={() => installEvt.prompt().then(() => setInstallEvt(null))}
-      className="min-h-11 rounded-xl border border-[var(--color-line)] px-4 text-sm font-bold text-[var(--color-muted)] hover:bg-[var(--color-soft)] focus-visible:outline-2"
+      className="hidden min-h-11 items-center whitespace-nowrap rounded-xl border border-[var(--color-line)] px-4 text-sm font-bold text-[var(--color-muted)] hover:bg-[var(--color-soft)] focus-visible:outline-2 sm:inline-flex"
     >
       {t.nav.installApp}
     </button>

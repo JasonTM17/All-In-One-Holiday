@@ -22,7 +22,7 @@ export default function LangSwitch({ locale }: { locale: Locale }) {
       prefetch={false}
       aria-label={t.nav.langSwitch}
       hrefLang={isVi ? "en" : "vi"}
-      className="flex min-h-11 items-center gap-1 rounded-xl border border-[var(--color-line)] px-3 text-xs font-extrabold tracking-wide text-[var(--color-muted)] hover:bg-[var(--color-soft)] focus-visible:outline-2"
+      className="flex min-h-11 items-center gap-1 whitespace-nowrap rounded-xl border border-[var(--color-line)] px-3 text-xs font-extrabold tracking-wide text-[var(--color-muted)] hover:bg-[var(--color-soft)] focus-visible:outline-2"
     >
       <span className={isVi ? "text-[var(--color-brand)]" : ""}>VI</span>
       <span aria-hidden="true" className="text-[var(--color-faint)]">

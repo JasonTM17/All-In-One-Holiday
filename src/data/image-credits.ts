@@ -1754,15 +1754,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Hạ Long Bay (Vietnam), World Heritage Site – Ti Top Island – panoramic view"
     },
     {
-      "file": "scenery/hero.webp",
-      "photographer": "flickr.com",
-      "profile": "https://www.flickr.com/photos/luiscolas/14888181212/",
-      "photo": "https://www.flickr.com/photos/luiscolas/14888181212/",
-      "license": "CC (xem nguồn)",
-      "source": "Web (flickr.com)",
-      "alt": "El valle de Sapa / The valley of Sapa | Campos de arroz de c… | Flickr"
-    },
-    {
       "file": "scenery/card.webp",
       "photographer": "motogo.vn",
       "profile": "https://motogo.vn/mu-cang-chai-3-ngay-2-dem/",
@@ -1770,6 +1761,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC (xem nguồn)",
       "source": "Web (motogo.vn)",
       "alt": "Kinh nghiệm du lịch Mù Cang Chải 3 ngày 2 đêm tự túc - MOTOGO"
+    },
+    {
+      "file": "scenery/hero.webp",
+      "photographer": "Aaron Ong (pingpongong)",
+      "profile": "https://www.flickr.com/photos/pingpongong/8004455257",
+      "photo": "https://www.flickr.com/photos/pingpongong/8004455257",
+      "license": "CC BY-NC-SA 2.0",
+      "source": "Flickr",
+      "alt": "Ruộng bậc thang Sapa với con đường đá men theo triền đồi."
     }
   ],
   "ong-cong-ong-tao": [

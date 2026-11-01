@@ -193,8 +193,8 @@ Photos from Wikimedia Commons and Flickr contributors; see per-file license and 
 | scenery/gallery1.webp | Steven C. Price | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ha-Long-Bay5.jpg) |
 | scenery/gallery2.webp | Steven C. Price | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ha-Long-Bay3.jpg) |
 | scenery/gallery3.webp | Steffen Schmitz (more photos) | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:H%E1%BA%A1_Long_Bay,_Ti_T%E1%BB%91p_Island,_2020-01_CN-01.jpg) |
-| scenery/hero.webp | flickr.com | CC (xem nguồn) | [flickr.com](https://www.flickr.com/photos/luiscolas/14888181212/) |
 | scenery/card.webp | motogo.vn | CC (xem nguồn) | [motogo.vn](https://motogo.vn/mu-cang-chai-3-ngay-2-dem/) |
+| scenery/hero.webp | Aaron Ong (pingpongong) | CC BY-NC-SA 2.0 | [Flickr](https://www.flickr.com/photos/pingpongong/8004455257) |
 | ong-cong-ong-tao/hero.webp | Ian Simons | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Carp_Pond_-_geograph.org.uk_-_651649.jpg) |
 | ong-cong-ong-tao/gallery3.webp | Acabashi | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Highdown_Gardens,_Worthing,_Cave_Pond_carp_1.jpg) |
 | ong-cong-ong-tao/amthuc-mam-com-tao.webp | Bùi Thụy Đào Nguyên | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:B%C3%A0n_th%E1%BB%9D_%C4%90%E1%BB%97_C%C3%B4ng_T%C6%B0%E1%BB%9Dng.jpg) |

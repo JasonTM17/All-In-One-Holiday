@@ -80,7 +80,7 @@ export const HERO_TINT: Record<string, string> = {
   "quoc-te-nam-gioi": "#282828",
   "quoc-te-phu-nu": "#080808",
   "quoc-te-thieu-nhi": "#281818",
-  "scenery": "#88a808",
+  "scenery": "#080808",
   "tet-doan-ngo": "#080808",
   "tet-duong-lich": "#181838",
   "tet-han-thuc": "#181818",
