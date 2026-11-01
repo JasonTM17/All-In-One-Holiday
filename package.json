@@ -48,5 +48,6 @@
     "firefox >= 110",
     "safari >= 15.6",
     "ios_saf >= 15.6"
-  ]
+  ],
+  "homepage": "https://jasontm17.github.io/All-In-One-Holiday/"
 }

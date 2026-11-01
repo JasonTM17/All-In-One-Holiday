@@ -372,8 +372,8 @@ export default function HolidayPage({
               </div>
               <figure className="mt-8 lg:sticky lg:top-24 lg:mt-0">
                 <HImg
-                  src={`${h.slug}/card.webp`}
-                  thumb={{ slug: h.slug, base: "card" }}
+                  src={`${h.slug}/history.webp`}
+                  thumb={{ slug: h.slug, base: "history" }}
                   alt={t.holiday.heroAlt(h.name)}
                   width={480}
                   height={480}

@@ -5,6 +5,7 @@ import HolidayGrid from "@/components/HolidayGrid";
 import NextHolidayHero from "@/components/NextHolidayHero";
 import Reveals from "@/components/Reveals";
 import HImg from "@/components/HImg";
+import LightboxImg from "@/components/LightboxImg";
 import { nextOccurrence } from "@/lib/dates";
 import Motif from "@/components/Motif";
 import { homeJsonLd } from "@/lib/jsonld";
@@ -70,12 +71,12 @@ export default function HomePage({ locale }: { locale: Locale }) {
     { href: lp("/birthday/"), t: t.home.tools[2].t, d: t.home.tools[2].d },
   ];
   const scenery: [string, string][] = [
-    ["scenery/hero-480.webp", t.home.sceneryCaptions[0]],
-    ["scenery/gallery1-480.webp", t.home.sceneryCaptions[1]],
-    ["home-hero/gallery2-480.webp", t.home.sceneryCaptions[2]],
-    ["scenery/gallery3-480.webp", t.home.sceneryCaptions[3]],
-    ["scenery/card-480.webp", t.home.sceneryCaptions[4]],
-    ["gio-to-hung-vuong/hero-480.webp", t.home.sceneryCaptions[5]],
+    ["scenery", "hero"],
+    ["scenery", "gallery1"],
+    ["home-hero", "gallery2"],
+    ["scenery", "gallery3"],
+    ["scenery", "card"],
+    ["gio-to-hung-vuong", "hero"],
   ];
   const stats = [
     { v: `${holidays.length}`, l: t.home.stats[0] },
@@ -225,17 +226,23 @@ export default function HomePage({ locale }: { locale: Locale }) {
             </h2>
           </div>
           <ul className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
-            {scenery.map(([src, cap]) => (
-              <li key={src} className="group relative overflow-hidden rounded-2xl">
-                <HImg
-                  src={src}
-                  alt={cap}
-                  width={800}
-                  height={600}
+            {scenery.map(([slug, base], i) => (
+              <li
+                key={`${slug}/${base}`}
+                className="group relative overflow-hidden rounded-2xl"
+              >
+                <LightboxImg
+                  slug={slug}
+                  base={base}
+                  alt={t.home.sceneryCaptions[i]}
+                  caption={t.home.sceneryCaptions[i]}
+                  openLabel={t.holiday.viewPhoto(t.home.sceneryCaptions[i])}
+                  closeLabel={t.holiday.closePhoto}
+                  sizes="(min-width:1024px) 16vw, (min-width:640px) 33vw, 50vw"
                   className="aspect-[4/5] h-auto w-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
-                <span className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-3 pt-8 text-xs font-bold text-white">
-                  {cap}
+                <span className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-3 pt-8 text-xs font-bold text-white">
+                  {t.home.sceneryCaptions[i]}
                 </span>
               </li>
             ))}

@@ -1,5 +1,8 @@
 # Ngày Lễ Việt
 
+[![CI](https://github.com/JasonTM17/All-In-One-Holiday/actions/workflows/ci.yml/badge.svg)](https://github.com/JasonTM17/All-In-One-Holiday/actions/workflows/ci.yml)
+[![Deploy](https://github.com/JasonTM17/All-In-One-Holiday/actions/workflows/pages.yml/badge.svg)](https://github.com/JasonTM17/All-In-One-Holiday/actions/workflows/pages.yml)
+
 Trang tĩnh (static) về các ngày lễ Việt Nam và quốc tế — **song ngữ Việt/English** — đọc một trang là hiểu trọn ngày lễ. Next.js App Router + Tailwind CSS, xuất ra HTML tĩnh (`output: 'export'`).
 
 **Live:** https://jasontm17.github.io/All-In-One-Holiday/ · **English:** https://jasontm17.github.io/All-In-One-Holiday/en/
@@ -16,7 +19,7 @@ Trang tĩnh (static) về các ngày lễ Việt Nam và quốc tế — **song 
 - Chế độ tối (system + toggle, lưu localStorage), PWA (manifest + service worker, cài được, xem offline).
 - `/credits/` — nguồn ảnh theo giấy phép.
 - `/accessibility/` — tuyên bố khả năng truy cập (hướng đến WCAG 2.2 AA, hạn chế đã biết, link báo vấn đề).
-- `feed.xml` — Atom 1.0 feed song ngữ cho cả 32 ngày lễ, sinh lúc build (`scripts/gen-feed.mjs`); liên kết `<link rel="alternate" type="application/atom+xml">` trong `<head>` và link "Nguồn cấp Atom" ở footer.
+- `feed.xml` — Atom 1.0 feed song ngữ cho cả 39 ngày lễ, sinh lúc build (`scripts/gen-feed.mjs`); liên kết `<link rel="alternate" type="application/atom+xml">` trong `<head>` và link "Nguồn cấp Atom" ở footer.
 
 ## 39 ngày lễ
 

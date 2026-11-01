@@ -61,6 +61,7 @@ for (const slug of readdirSync(DIR)) {
   // ---- card / gallery thumbs ----
   for (const base of [
     "card",
+    "history",
     "gallery1",
     "gallery2",
     "gallery3",
