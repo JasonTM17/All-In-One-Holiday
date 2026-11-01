@@ -33,3 +33,5 @@ tsconfig.tsbuildinfo
 screenshots/
 test-results/
 playwright-report/
+.playwright-mcp/
+qa-*.jpg
