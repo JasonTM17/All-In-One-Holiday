@@ -142,6 +142,7 @@ Chi tiết nghiên cứu + token đầy đủ: [`docs/design-references.md`](doc
 - **Màu**: token trong `@theme` ở `src/app/globals.css` (`--color-ink/muted/faint/surface/card/line/band/soft/brand`), có bản dark trong `html.dark`. Mỗi holiday có `theme.from/to` gradient riêng.
 - **Chữ**: Playfair Display (tiêu đề, có subset Vietnamese) + Be Vietnam Pro (nội dung). Nhạy số: `tabular-nums`.
 - **Diện mạo mỗi trang**: 6 kiểu hero (`heroStyle`: `classic` mặc định, `split`, `framed`, `poster`, `mosaic`, `banner`); sóng cuối hero khác nhau theo kiểu. `data-skin` theo nhóm ngày lễ đầu tiên retune radius card + glyph tiêu đề (quốc gia ★ vuông góc, phụ nữ ❀ bo mềm, truyền thống ✧, quốc tế tối giản). Gallery 3 layout (`masonry/bento/strip`) chọn theo hash slug. Khối signature: steps nối ribbon, legend có drop-cap.
+- **Bố cục section**: Nguồn gốc kèm figure ảnh sticky + caption tagline; sau "Hiểu trọn" là section "Bài học ý nghĩa" (`lessons` — 3 thẻ số 01–03 rút từ đặc trưng ngày lễ); cuối trang có strip "Khám phá thêm" — 3 card ảnh cùng nhóm ngày lễ.
 - **Bố cục**: radius card theo skin (`--card-radius`, mặc định 16px) / pill nút; chiều sâu = hairline + một lớp shadow tint; motif SVG riêng mỗi ngày lễ (`src/components/Motif.tsx`).
 - **Motion**: IntersectionObserver reveal (`Reveals.tsx`), marquee, float ornaments; tôn trọng `prefers-reduced-motion`; countdown `aria-hidden` với nhãn tĩnh.
 - **Ảnh**: lấy từ nguồn mở (Unsplash/Wikimedia…), tối ưu thành WebP đa kích thước trong `public/images/holidays/`, ghi nguồn đầy đủ tại `/credits/` và `src/data/image-credits.ts`. Không dùng emoji hay asset có bản quyền chưa rõ.
@@ -153,7 +154,7 @@ Chi tiết đầy đủ: [CONTRIBUTING.md — Adding a holiday](CONTRIBUTING.md#
 1. Thêm entry vào `src/data/holidays.ts` (VI) **và** `src/data/holidays-en.ts` (EN) — cùng `slug`, cùng vị trí.
    - `rule` — `{ type: 'solar', month, day }`, `{ type: 'lunar', month, day }`, `{ type: 'nth-weekday', month, weekday, nth }`, hoặc `{ type: 'qingming' }`
    - `motif` — tên ornament trong `Motif.tsx`
-   - `theme`, `history`, `traditions`, `wishes` (≥5), `gifts`, `faq`, và `deep`
+   - `theme`, `history` (≥3 đoạn), `traditions` (≥3), `lessons` (đúng 3), `wishes` (≥5), `gifts`, `faq`, và `deep`
 2. Thêm story trong `src/data/stories.ts` + `src/data/stories-en.ts` (≥3 nguồn https; nguồn tiếng Anh cho EN).
 3. Ảnh qua `scripts/fetch-images.mjs <slug> --fill` + `scripts/gen-thumbs.mjs`, credits tự ghi vào `image-credits.ts`.
 4. `npm run gen:data && npm test` — parity + data-integrity tests sẽ kiểm tra đủ trường. Không cần thêm route.

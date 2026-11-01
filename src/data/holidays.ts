@@ -130,6 +130,8 @@ export interface Holiday {
   history: string[];
   meaning: string;
   traditions: Tradition[];
+  /** Reflective takeaways — what the holiday teaches for daily life. */
+  lessons: Tradition[];
   wishes: string[];
   gifts: Gift[];
   faq: Faq[];
@@ -203,6 +205,11 @@ export const holidays: Holiday[] = [
       { title: "Đếm ngược giao thừa", text: "Khoảnh khắc 0 giờ được đếm ngược tại các quảng trường trung tâm — đông nhất là khu vực Bờ Hồ (Hà Nội) và đường Nguyễn Huệ (TP.HCM). Những năm gần đây hai thành phố chuyển dần sang trình diễn ánh sáng, nhạc nước và drone thay cho pháo hoa tầm cao." },
       { title: "Lời chúc năm mới", text: "Người ta nhắn 'Happy New Year' cho nhau bằng tin nhắn, thiệp điện tử và những dòng status đầu năm. Khác lời chúc Tết Nguyên Đán trang trọng, lời chúc Tết Dương lịch nhẹ nhàng, kiểu bạn bè, thường kèm ảnh đêm giao thừa." },
       { title: "Kế hoạch năm mới", text: "Nhiều bạn trẻ viết ra mục tiêu năm mới — học thêm kỹ năng, đọc sách, chạy bộ, tiết kiệm — dù Tết Dương lịch chỉ nghỉ một ngày. Các nhóm bạn rủ nhau 'khai bút' đầu năm như một cách tự hứa với chính mình." },
+    ],
+    lessons: [
+      { title: "Bắt đầu lại không bao giờ muộn", text: "Một năm mới dương lịch nhắc rằng thời điểm 'đúng' để thay đổi chính là hôm nay — không cần chờ đến Tết âm hay sinh nhật mới được bắt đầu." },
+      { title: "Mục tiêu nhỏ thắng quyết tâm lớn", text: "Người ta hay ôm đồm quá nhiều rồi bỏ cuộc giữa chừng — chọn một thay đổi nhỏ làm được ngay trong tháng Giêng sẽ bền hơn mười lời hứa lớn." },
+      { title: "Nghỉ ngơi cũng là việc làm", text: "Ngày nghỉ đầu năm nhắc rằng nạp lại năng lượng không phải lười biếng — đó là phần cần thiết để đi tiếp quãng đường dài phía trước." },
     ],
     wishes: [
       "Chúc năm mới an khang, thịnh vượng, vạn sự như ý!",
@@ -296,6 +303,11 @@ export const holidays: Holiday[] = [
       { title: "Chúc Tết, thăm họ hàng", text: "Mùng 1 dành cho họ nội, mùng 2 cho họ ngoại, mùng 3 thăm thầy cô — nhịp xưa vẫn được giữ đến nay. Những ngày đầu năm, nhà nào cũng mở cửa đón khách với mứt Tết, trà xanh và tiếng cười." },
       { title: "Câu đối đỏ, hoa đào hoa mai", text: "Nhà nào cũng treo câu đối đỏ chữ vàng — 'Cung chúc tân xuân', 'Phúc như Đông hải'. Miền Bắc chuộng đào hồng, miền Nam quý mai vàng; một cành hoa Tết được cho mang cả sắc xuân vào nhà." },
     ],
+    lessons: [
+      { title: "Về nhà là việc quan trọng nhất năm", text: "Dù bận đến đâu, Tết nhắc người Việt rằng gia đình là điểm dừng cuối cùng — tấm vé xe về quê trước Tết luôn là khoản chi đáng nhất." },
+      { title: "Bếp nhỏ giữ nhà lớn", text: "Nồi bánh chưng quây quần cho thấy truyền thống sống không vì việc lớn lao, mà vì cả nhà cùng làm một việc nhỏ, năm này qua năm khác." },
+      { title: "Cho đi rồi nhận lại", text: "Lì xì và lời chúc đầu năm dạy rằng may mắn lan truyền khi được chia sẻ — người cho đi nhiều thường là người nhận được nhiều niềm vui nhất." },
+    ],
     wishes: [
       "Chúc mừng năm mới — an khang thịnh vượng, vạn sự như ý!",
       "Năm mới chúc gia đình bạn sức khỏe dồi dào, tài lộc đầy nhà.",
@@ -385,6 +397,11 @@ export const holidays: Holiday[] = [
       { title: "Ăn chè trôi nước", text: "Viên chè tròn vỏ nếp nhân đậu xanh nổi lên trong nước gừng ngọt ấm — hình tròn tượng trưng sự viên mãn, sum họp đầu năm. Ở Chợ Lớn, người Hoa nấu chè trôi nước kiểu sủi cảo, thành một mùa chè riêng mỗi rằm Giêng." },
       { title: "Hội đèn lồng", text: "Phố cổ Hội An sáng rực hàng nghìn đèn lồng vào tối rằm; TP.HCM giữ tuyến phố đèn lồng Tết Nguyên tiêu tại khu Chợ Lớn. Cảnh thả hoa đăng trên sông Hoài là hình ảnh Tết Nguyên tiêu nổi tiếng nhất." },
     ],
+    lessons: [
+      { title: "Trọn vẹn từ điều nhỏ", text: "Viên chè trôi nước tròn đầy nhắc rằng sự viên mãn được tạo từ những chi tiết nhỏ — một bữa cơm đủ mặt, một lời hỏi han đúng lúc." },
+      { title: "Đi lễ là đi vào lòng mình", text: "Chuyến chùa đầu năm đẹp nhất không phải nơi đông nhất, mà là khoảnh khắc ta đứng lặng một phút để nghe lại chính mình." },
+      { title: "Trăng tròn rồi sẽ khuyết", text: "Rằm Giêng tròn nhất năm cũng nhắc đạo lý vô thường — quý những gì đang tròn đầy, đừng đợi đến khi nó khuyết đi." },
+    ],
     wishes: [
       "Rằm tháng Giêng, chúc gia đình bạn viên mãn, bình an cả năm.",
       "Chúc bạn một năm tròn đầy như trăng rằm đêm nay.",
@@ -468,6 +485,11 @@ export const holidays: Holiday[] = [
       { title: "Tặng hoa hồng", text: "Hoa hồng đỏ là 'đơn vị tiền tệ' của ngày 14/2 — giá mỗi bông tăng gấp hai, gấp ba lần mà vẫn cháy hàng tại các chợ hoa Quảng Ba, Hồ Thị Kỷ. Những năm gần đây hoa khô, hoa sáp và hộp hoa cao cấp được chuộng vì giữ được lâu." },
       { title: "Sô-cô-la và thiệp", text: "Sô-cô-la là món quà ngọt ngào kinh điển đi cùng bông hồng. Giới trẻ Việt ngày càng chuộng thiệp viết tay, hộp quà bí mật và quà tự làm hơn quà mua sẵn — giá trị nằm ở công chuẩn bị." },
       { title: "Hẹn hò đặc biệt", text: "Nhà hàng, quán cà phê view đẹp được đặt kín từ cả tuần trước; nhiều cặp chọn nấu ăn cùng nhau ở nhà hay 'hẹn hò ngược' — né phố đông, tự làm album ảnh. Khi 14/2 rơi vào cuối tuần, đó thường là đêm hẹn hò đông nhất năm." },
+    ],
+    lessons: [
+      { title: "Nói ra điều yêu thương", text: "Một câu nói đúng lúc quý hơn món quà đắt tiền — Valentine tồn tại vì con người cần một cái cớ để nói ra điều vẫn giữ trong lòng." },
+      { title: "Yêu là việc hằng ngày", text: "Ngày 14/2 chỉ là dấu mốc; cách ta hỏi han, lắng nghe và ở bên nhau trong 364 ngày còn lại mới định nghĩa tình yêu." },
+      { title: "Yêu chính mình trước", text: "Trước khi tặng hoa cho ai đó, hãy tặng mình sự tử tế — người biết yêu chính mình mới có đủ yêu thương để trao cho người khác." },
     ],
     wishes: [
       "Anh/chị là món quà đẹp nhất mà đời mang đến. Valentine vui vẻ!",
@@ -561,6 +583,11 @@ export const holidays: Holiday[] = [
       { title: "Bữa cơm sum họp", text: "Nhiều ông bố, người yêu vào bếp nấu bữa tối để 'đổi ca' cho mẹ và vợ — bữa cơm là món quà đơn giản mà ý nghĩa nhất. Hình ảnh đàn ông hì hục nấu canh rau ngót, kho cá ngày 8/3 đã thành 'meme' yêu thương quen thuộc." },
       { title: "Hoạt động tôn vinh", text: "Cơ quan, doanh nghiệp, trường học tổ chức gặp mặt, tuyên dương nữ cán bộ, nữ sinh tiêu biểu; các cuộc thi nấu ăn, văn nghệ 'vì phụ nữ' sôi nổi cả tuần. Từ năm 2016, Liên Hợp Quốc đặt một chủ đề riêng cho ngày 8/3 mỗi năm." },
     ],
+    lessons: [
+      { title: "Bình đẳng bắt đầu từ nhà", text: "Phụ nữ được tôn vinh một ngày chỉ thật sự ý nghĩa khi việc nhà, tiếng nói và cơ hội được chia sẻ công bằng trong 364 ngày còn lại." },
+      { title: "Kiên trì viết nên lịch sử", text: "Từ cuộc biểu tình công nhân 1908 đến ngày lễ hôm nay, bài học lớn nhất là: thay đổi nhỏ nhưng kiên trì sẽ thắng sức kháng cự lớn." },
+      { title: "Tôn trọng phụ nữ là tôn trọng mình", text: "Cách một người đàn ông đối xử với mẹ, vợ và đồng nghiệp nữ nói lên bản chất của anh ấy hơn mọi lời chúc hoa mỹ ngày 8/3." },
+    ],
     wishes: [
       "Chúc mẹ/chị/em ngày 8/3 rạng rỡ, hạnh phúc và luôn xinh đẹp!",
       "Cảm ơn em vì tất cả những hy sinh thầm lặng. Chúc em 8/3 thật vui.",
@@ -649,6 +676,11 @@ export const holidays: Holiday[] = [
       { title: "Rước kiệu, hát xoan", text: "Các làng quanh Đền Hùng rước kiệu dâng hoa lên đền suốt tuần lễ hội — mỗi kiệu có cờ, trống và mâm cỗ của riêng địa phương. Hát xoan Phú Thọ — di sản văn hóa phi vật thể được UNESCO công nhận năm 2011 — vang lên suốt hội." },
       { title: "Bánh chưng, bánh giầy dâng cúng", text: "Theo truyền thuyết Lang Liêu, bánh chưng vuông tượng trưng đất, bánh giầy tròn tượng trưng trời — hai thứ bánh là lễ vật bắt buộc trên mâm cúng Giỗ Tổ. Nhiều gia đình tự gói hoặc mua bánh dâng lên đền rồi mang về làm lộc." },
     ],
+    lessons: [
+      { title: "Uống nước nhớ nguồn", text: "Giỗ Tổ dạy bài học xưa nhất và mới nhất: người không biết mình từ đâu đến sẽ khó biết mình nên đi về đâu." },
+      { title: "Đứng trên vai người đi trước", text: "Lễ vật lên đền nhắc rằng mỗi cá nhân tồn tại nhờ chuỗi những người đi trước — khiêm tốn trước tổ tiên là đứng vững trước đời." },
+      { title: "Văn hóa là sợi dây bện chung", text: "Kiệu rước, hát xoan, bánh giầy — mỗi nét nhỏ như một sợi dây; chỉ khi bện lại mới tạo nên sức mạnh của cả một dân tộc." },
+    ],
     wishes: [
       "Nhân ngày Giỗ Tổ, nguyện tổ tiên phù hộ cho gia đình mình bình an.",
       "Uống nước nhớ nguồn — chúc mọi người một ngày Giỗ Tổ ý nghĩa.",
@@ -733,6 +765,11 @@ export const holidays: Holiday[] = [
       { title: "Sum họp, dạo xuân", text: "Thanh minh rơi vào tiết khí thứ năm của mùa xuân — lúc trời sáng đẹp nhất năm — nên chuyến tảo mộ thường kết thúc bằng bữa cơm ngoài trời hoặc cuộc dạo xuân cả gia đình. Người xưa gọi đó là 'vừa tảo mộ, vừa dạo thanh minh'." },
       { title: "Xôi, bánh dân gian", text: "Mỗi miền có món riêng ngày tảo mộ: miền Bắc có xôi gấc, xôi vò và bánh tro tàu nhân mật mía; miền Trung có bánh phu thê, chè kho; miền Nam có chè xoa xoa. Món ăn mộc mạc nhưng ai đi xa cũng nhớ vị ngày Thanh minh." },
     ],
+    lessons: [
+      { title: "Nhớ người đã khuất là sống tử tế", text: "Tảo mộ không chỉ là quét mộ — đó là cách giữ lời hứa với người đã đi xa rằng họ không bị lãng quên." },
+      { title: "Đời là một chuỗi nối nhau", text: "Đứng trước mộ tổ tiên, người ta hiểu mình là một mắt xích — phía trước có nguồn cội, phía sau có con cháu đang nhìn theo." },
+      { title: "Vô thường giữa sắc xuân", text: "Thanh minh đặt giữa tiết xuân đẹp nhất năm nhắc rằng sinh và tử là hai mùa của một đời — hãy sống cho xứng đáng." },
+    ],
     wishes: [
       "Nhân tiết Thanh minh, nguyện tổ tiên phù hộ gia đình bình an, khỏe mạnh.",
       "Nhớ nguồn — chúc gia đình bạn một mùa Thanh minh an nhiên, đoàn viên.",
@@ -816,6 +853,11 @@ export const holidays: Holiday[] = [
       { title: "Kỷ niệm và diễu binh", text: "Các năm tròn — 40 năm (2015), 50 năm (2025) — tổ chức diễu binh, diễu hành cấp quốc gia tại TP.HCM với hàng chục nghìn người tham gia. Đại lễ 50 năm ngày 30/4/2025 nằm trong số những cuộc diễu binh lớn nhất lịch sử Việt Nam." },
       { title: "Về nguồn", text: "Dịp này, nhiều gia đình cựu chiến binh và đoàn thanh niên về thăm lại chiến trường xưa — địa đạo Củ Chi, Quảng Trị, Trường Sơn — và viếng các nghĩa trang liệt sĩ. Những buổi gặp mặt đồng đội truyền thống diễn ra ở khắp các đơn vị quân đội cũ." },
     ],
+    lessons: [
+      { title: "Hòa bình có giá của nó", text: "Ngày 30/4 nhắc rằng tự do ta đang tận hưởng được đổi bằng xương máu — giữ gìn hòa bình là trách nhiệm của thế hệ hôm nay." },
+      { title: "Thống nhất không phải điểm đến", text: "Đất nước thống nhất rồi, phần việc khó hơn bắt đầu: làm cho mọi người dân thực sự bình đẳng trong cơ hội — bài học còn nguyên đến nay." },
+      { title: "Kiên trì dài hơi sẽ thắng", text: "Hai mươi mốt năm kháng chiến cho thấy: những mục tiêu lớn không có đường tắt — chỉ có ngày này qua ngày khác không bỏ cuộc." },
+    ],
     wishes: [
       "Tự hào ngày 30/4 — chúc đất nước mãi hòa bình, thịnh vượng.",
       "Kính nhớ những người đã ngã xuống cho độc lập hôm nay.",
@@ -892,6 +934,11 @@ export const holidays: Holiday[] = [
       { title: "Kỳ nghỉ lễ 30/4–1/5", text: "Hai ngày lễ liền nhau thành kỳ nghỉ dài nhất nửa đầu năm — nhiều gia đình 'ăn lễ' bằng một chuyến du lịch ngắn hoặc về quê thăm nhà. Các điểm biển như Đà Nẵng, Nha Trang, Phú Quốc thường cháy phòng từ cả tháng trước." },
       { title: "Vinh danh lao động tiêu biểu", text: "Công đoàn và doanh nghiệp tuyên dương công nhân giỏi, các sáng kiến cải tiến kỹ thuật; báo chí đăng chuyên đề về người lao động — thợ hàn, bác sĩ vùng sâu, giáo viên vùng cao. Những năm gần đây chủ đề 'người lao động tiên phong' gắn với chuyển đổi số." },
       { title: "Hoạt động của công đoàn", text: "Tháng Công nhân (tháng 5) khởi động ngay sau lễ: thi tay nghề, giải bóng đá công nhân, tư vấn việc làm và các chương trình chăm lo cho công nhân xa quê. Nhiều khu công nghiệp mở 'chợ công nhân' giá rẻ vào dịp này." },
+    ],
+    lessons: [
+      { title: "Lao động không hạng sang", text: "Ngày 1/5 nhắc rằng chia 'việc sang việc hèn' là sai — người thợ làm tử tế đáng được tôn trọng như bất kỳ chức danh nào." },
+      { title: "Quyền lợi phải giành lấy", text: "Giờ làm tám tiếng, ngày nghỉ phép, an toàn lao động không ai cho không — mỗi quyền lợi hôm nay là kết quả của những người đi trước dám đứng lên." },
+      { title: "Của cải bền từ mồ hôi thật", text: "Trong thời đại chạy theo 'làm giàu nhanh', ngày lao động nhắc lại: của cải bền nhất vẫn được tạo ra bằng đôi tay và thời gian thật." },
     ],
     wishes: [
       "Chúc người lao động một ngày 1/5 thật nghỉ ngơi, thật vui.",
@@ -972,6 +1019,11 @@ export const holidays: Holiday[] = [
       { title: "Bữa cơm do con nấu", text: "Món quà được khen nhiều nhất trên mạng xã hội mỗi năm là bữa cơm con tự nấu — dù đôi khi 'muối mặn, nước nhạt'. Con ở xa còn hay đặt shipper giao lẩu, gà hầm tận nhà để mẹ khỏi vào bếp ngày này." },
       { title: "Gọi điện về nhà", text: "Với con cái xa nhà, một cuộc gọi video hỏi 'mẹ ăn cơm chưa' là món quà đúng ngày nhất. Các nhà mạng đều có ưu đãi phút gọi dịp này — nhiều người trưởng thành mới nhận ra cuộc gọi ngắn hằng tuần còn quý hơn bất kỳ quà vật chất nào." },
     ],
+    lessons: [
+      { title: "Mẹ không đợi đến ngày lễ", text: "Tình mẫu tử không cần lịch — mẹ nhớ ta mỗi ngày, nên việc nhớ lại mẹ đừng gói gọn trong một Chủ nhật của tháng Năm." },
+      { title: "Nghe được điều mẹ giấu", text: "Những câu 'mẹ không đói', 'mẹ không cần quà' là lời nói dối yêu thương nhất — bài học là biết nghe cả những gì mẹ không nói ra." },
+      { title: "Trân trọng khi còn kịp", text: "Ngày của Mẹ nhắc điều thấm nhất: nụ cười của mẹ có hạn — tặng mẹ thời gian trước khi chỉ còn lại kỷ niệm." },
+    ],
     wishes: [
       "Mẹ là cả bầu trời che chở. Chúc mẹ ngày của Mẹ thật hạnh phúc!",
       "Con chúc mẹ luôn khỏe mạnh, bình an và sống lâu bên con cháu.",
@@ -1049,6 +1101,11 @@ export const holidays: Holiday[] = [
       { title: "Vui chơi tại trường", text: "Sáng 1/6 — thường dời về cuối tuần gần nhất — trường mầm non, tiểu học tổ chức ngày hội: trò chơi dân gian, văn nghệ do chính các bé biểu diễn, phát thưởng cuối năm học. Ký ức 'ngày hội trường' gắn với tiếng trống hội, quẩy tung nước và những bông hồng giấy." },
       { title: "Quà cho bé", text: "Quà 1/6 kinh điển là đồ chơi, truyện tranh, cặp sách — nhiều bố mẹ nay chọn sách và đồ chơi STEM thay vì đồ điện tử. Trung tâm thương mại, cửa hàng đồ chơi dựng khu vui chơi và ưu đãi riêng suốt cả tuần lễ." },
       { title: "Hoạt động thiện nguyện", text: "Dịp này, các tổ chức thiện nguyện, quỹ nhi đồng và đoàn thanh niên tặng quà cho trẻ em khó khăn — bệnh viện nhi, làng SOS, trẻ em vùng bão lũ. Nhiều chương trình gây quỹ quà Tết cho trẻ nghèo cũng khởi động từ mùa hè." },
+    ],
+    lessons: [
+      { title: "Trẻ con là gương người lớn", text: "Cách ta đối xử với đứa nhỏ hôm nay sẽ là cách nó đối xử với thế giới mai sau — đó là bài học đạo đức lớn nhất của ngày 1/6." },
+      { title: "Chơi cũng là học", text: "Ngày Thiếu nhi nhắc người lớn rằng trẻ em không chỉ cần học — chúng cần chơi, cần được lắng nghe, cần được là trẻ con trọn vẹn." },
+      { title: "Bảo vệ những ai yếu nhất", text: "Một xã hội văn minh được đo bằng cách nó đối xử với những người nhỏ nhất — trẻ em vùng khó, trẻ khuyết tật, trẻ mồ côi." },
     ],
     wishes: [
       "Chúc các con 1/6 thật vui, ngoan ngoãn và học giỏi!",
@@ -1128,6 +1185,11 @@ export const holidays: Holiday[] = [
       { title: "Ảnh gia đình", text: "Nhiều gia đình chọn ngày này đi chụp bộ ảnh chung — ở studio, ở công viên, hoặc chỉ là tấm ảnh selfie quanh mâm cơm. Các chương trình truyền hình và cuộc thi ảnh 'gia đình hạnh phúc' thường tổ chức quanh ngày 28/6." },
       { title: "Câu chuyện thế hệ", text: "Ngày Gia đình là dịp để ông bà kể chuyện xưa, mở ảnh cưới, gia phả cho con cháu xem — buổi 'truyền thống gia đình' mà hiếm ngày nào ngồi lại được với nhau. Nhiều trường học giao bài tập 'phỏng vấn ông bà' vào đúng tuần này." },
     ],
+    lessons: [
+      { title: "Nhà là nơi được là chính mình", text: "Giữa thế giới ngoài kia, gia đình phải là chỗ mỗi người được là chính mình và được chấp nhận — đó mới là 'chất lượng' của mái nhà." },
+      { title: "Bữa cơm là mầm gia đình", text: "Không món quà nào thay được bữa cơm tối cả nhà ngồi cùng nhau — đó là 'nghi lễ' đơn giản nhất để giữ lửa một mái nhà." },
+      { title: "Con học từ cách bố mẹ sống", text: "Trẻ em học đạo đức không phải từ lời răn dạy lớn, mà từ cách bố mẹ đối xử với nhau và với người khác mỗi ngày." },
+    ],
     wishes: [
       "Chúc gia đình mình luôn sum vầy, yêu thương và bình an.",
       "Nhà là nơi để về — chúc tổ ấm của bạn luôn ấm áp.",
@@ -1205,6 +1267,11 @@ export const holidays: Holiday[] = [
       { title: "Viếng nghĩa trang liệt sĩ", text: "Hàng triệu người đến nghĩa trang liệt sĩ địa phương trong tuần lễ 27/7 — thắp hương, lau mộ, đọc tên trên từng bia đá. Ở Quảng Trị, hai nghĩa trang lớn Trường Sơn và Đường 9 đón những đoàn cựu chiến binh tóc bạc đông nhất năm." },
       { title: "Thăm gia đình chính sách", text: "Tinh thần 'đền ơn đáp nghĩa' thành việc làm cụ thể: địa phương, doanh nghiệp, trường học đi thăm mẹ Việt Nam anh hùng, thương binh, gia đình liệt sĩ — tặng quà, sửa nhà tình nghĩa, cấp sổ bảo hiểm tận tay." },
       { title: "Đèn tri ân", text: "Tối 26/7, nghi thức thắp nến tri ân lan từ nghĩa trang quốc gia đến những ngôi mộ liệt sĩ trong đình làng — hàng nghìn ngọn nến thắp cùng một giờ. Hình ảnh 'biển nến' tại nghĩa trang Trường Sơn là khoảnh khắc xúc động nhất của năm." },
+    ],
+    lessons: [
+      { title: "Sống cho xứng món nợ", text: "Ngày 27/7 nhắc rằng ta mang một món nợ không bao giờ trả hết — cách đáp nợ duy nhất là sống tử tế, có ích cho đất nước họ đã ngã xuống." },
+      { title: "Dân tộc là cây gia phả lớn", text: "Khi nhớ đến liệt sĩ, ta hiểu 'gốc gác' không chỉ nằm trong dòng họ — cả dân tộc mới là cây gia phả lớn nhất của mỗi người." },
+      { title: "Anh hùng cũng là người thường", text: "Liệt sĩ từng là người con, người yêu, người bạn — tưởng nhớ chân thật nhất là nhớ họ như những con người đã sống trọn vẹn." },
     ],
     wishes: [
       "Mãi ghi nhớ công ơn các anh hùng liệt sĩ của dân tộc.",
@@ -1292,6 +1359,11 @@ export const holidays: Holiday[] = [
       { title: "Cài hoa hồng lên áo", text: "Tục cài hoa hồng lên áo khi lễ chùa Vu Lan — hồng cho người còn mẹ, trắng cho người không còn mẹ — do Thiền sư Thích Nhất Hạnh khởi xướng ở Huế năm 1962. Hơn nửa thế kỷ sau, cánh hoa nhỏ trên áo là hình ảnh quen thuộc nhất của ngày báo hiếu." },
       { title: "Đi chùa lễ Vu Lan", text: "Rằm tháng 7, các chùa tổ chức lễ Vu Lan báo hiếu: tụng kinh, trao bông hồng, nghe giảng về công ơn cha mẹ qua kinh Vu Lan Bồn — câu chuyện Mục Kiền Liên cứu mẹ. Lễ đông nhất thường vào đúng rằm hoặc chủ nhật gần nhất." },
       { title: "Cúng rằm tháng 7", text: "Song song lễ chùa, nhà nào cũng sắm mâm rằm tháng 7 cúng gia tiên — nhiều nơi thêm 'mâm cúng cô hồn' bày ngoài cổng vào chiều tối với cháo loãng, muối, tiền vàng. Tục xá tội vong, bố thí chúng sinh đi đôi với lòng từ bi của ngày này." },
+    ],
+    lessons: [
+      { title: "Báo hiếu không đợi ngày rằm", text: "Vu Lan báo hiếu đúng nhất là lúc ta nhớ ra mẹ vẫn thức chờ điện thoại — đừng đợi đến rằm tháng 7 mới chịu gọi về." },
+      { title: "Bông hồng là lời hứa", text: "Cài hoa hồng lên áo không chỉ là nghi thức — đó là cam kết thầm lặng rằng ta sẽ sống cho xứng công ơn sinh thành dưỡng dục." },
+      { title: "Từ bi không biên giới", text: "Mâm cúng cô hồn ngoài cổng nhắc rằng lòng tốt không có ranh giới — người lạ, người khổ cũng xứng đáng được chia sẻ." },
     ],
     wishes: [
       "Mùa Vu Lan, cầu chúc cha mẹ mình luôn khỏe mạnh, bình an.",
@@ -1386,6 +1458,11 @@ export const holidays: Holiday[] = [
       { title: "Pháo hoa", text: "Đêm 2/9, Hà Nội và TP.HCM bắn pháo hoa nhiều điểm — riêng cầu sông Hàn (Đà Nẵng) là nơi ngắm pháo đẹp nhất nước. Từ năm 2022, nhiều địa phương thay pháo tầm cao bằng trình diễn drone light tại các quảng trường." },
       { title: "Phố phường treo cờ", text: "Từ cuối tháng 8, cờ Tổ quốc phủ kín phố phường — ngõ nhỏ nhất cũng đỏ rực, người dân tự treo cờ trước nhà. Ảnh 'phố cờ đỏ' quanh Nhà hát Lớn và phố cổ Hà Nội là khung hình Quốc khánh quen thuộc nhất." },
     ],
+    lessons: [
+      { title: "Độc lập phải được giữ hằng ngày", text: "Ngày 2/9 nhắc rằng độc lập không phải món quà trọn đời — nó được thế hệ mới bảo vệ bằng công việc, học tập và sự tử tế mỗi ngày." },
+      { title: "Sức mạnh của một văn kiện", text: "Một bản tuyên ngôn đọc trong vài phút đã khai sinh một quốc gia — bài học về sức mạnh của chữ nghĩa và ý chí được nói ra đúng lúc." },
+      { title: "Yêu nước bằng việc lặng lẽ", text: "Yêu nước không nhất thiết hô to — người lao động chân thật, đóng thuế đúng, giúp đỡ đồng bào cũng đang 'xây tổ quốc' bằng cách riêng." },
+    ],
     wishes: [
       "Tự hào là người Việt Nam! Chúc mừng Quốc khánh 2/9.",
       "Chúc đất nước mãi độc lập, tự do, hạnh phúc.",
@@ -1476,6 +1553,11 @@ export const holidays: Holiday[] = [
       { title: "Rước đèn ông sao", text: "Đèn ông sao giấy bói đủ màu, đèn cá chép, đèn kéo quân — từng tốp trẻ em tay đèn đi rước quanh ngõ phố đêm rằm. Đèn pin nhạc điện tử phổ biến hơn ngày nay, nhưng Hội An và nhiều phố cổ vẫn giữ đèn giấy truyền thống." },
       { title: "Múa lân", text: "Đoàn lân sư rồng đi từng tổ dân phố, trống rộn rã, múa lân hái 'lộc' treo trước các cửa hàng — tiếng trống lân là âm thanh báo hiệu Trung thu về. Trẻ con kéo nhau đi xem lân đến khuya — ký ức chung của nhiều thế hệ." },
     ],
+    lessons: [
+      { title: "Trăng tròn để trông về nhà", text: "Trung thu dạy nghệ thuật dừng lại ngắm trăng — vẻ đẹp không đòi tiền mua, chỉ đòi một người biết ngước lên nhìn." },
+      { title: "Trẻ con cần những đêm hội", text: "Mỗi đứa trẻ nên có một đêm rước đèn ông sao trong trí nhớ — những ngày lễ chính là 'kho' ký ức hạnh phúc của cả một đời người." },
+      { title: "Vẻ đẹp từ sự chăm chút", text: "Mâm cỗ Trung thu với quả bưởi tạt đầu thuyền dạy rằng: đẹp không nằm ở vật đắt tiền, mà ở bàn tay biết chăm chút cho đời thường." },
+    ],
     wishes: [
       "Trung thu vui vẻ! Chúc gia đình bạn đoàn viên dưới trăng rằm.",
       "Chúc các bé một mùa trăng rực rỡ đèn ông sao.",
@@ -1562,6 +1644,11 @@ export const holidays: Holiday[] = [
       { title: "Vinh danh phụ nữ tiêu biểu", text: "Ngày này gắn với lịch sử Hội Liên hiệp Phụ nữ Việt Nam — thành lập 20/10/1930. Các cơ quan tổ chức gặp mặt, tuyên dương mẹ Việt Nam anh hùng, nữ khoa học gia, nữ doanh nhân tiêu biểu suốt tuần lễ." },
       { title: "Nam giới vào bếp", text: "Trào lưu 'nam giới đảm đang' ngày 20/10: chồng nấu bữa tối, con trai phụ rửa bát — bữa cơm do đàn ông làm trở thành món quà thiết thực nhất. 'Đàn ông Việt Nam vào bếp ngày 20/10' dần thành 'tục lệ' mới được hưởng ứng." },
     ],
+    lessons: [
+      { title: "Sức mạnh của hai trọng trách", text: "Phụ nữ Việt Nam 'giỏi việc nước, đảm việc nhà' — ngày 20/10 nhắc rằng sức mạnh của họ nằm ở khả năng gánh cả hai trọng trách ấy." },
+      { title: "Vinh danh phải đi đúng nghĩa", text: "Tôn vinh phụ nữ không chỉ là tặng hoa một ngày — là để họ ngồi vào bàn quyết định, được trả lương công bằng và được an toàn mỗi ngày." },
+      { title: "Truyền thống chờ được viết tiếp", text: "Bà Trưng, bà Triệu, các mẹ liệt sĩ đã viết chương đầu — phần còn lại của truyền thống phụ nữ Việt đang do thế hệ hôm nay viết tiếp." },
+    ],
     wishes: [
       "Chúc mẹ/em/chị 20/10 luôn xinh đẹp, hạnh phúc và được yêu thương!",
       "20/10 — chúc phụ nữ Việt Nam mãi rạng rỡ và thành công.",
@@ -1641,6 +1728,11 @@ export const holidays: Holiday[] = [
       { title: "Cựu học sinh về thăm", text: "Ngày này, các niên khóa cũ — từ thế hệ xế chiều tới tân sinh viên — tề tựu về trường thăm thầy cô, mang theo hoa, bánh và kỷ vật năm xưa. Cuộc gặp 'thầy trò ba thế hệ' là khoảnh khắc quen thuộc nhất mỗi 20/11." },
       { title: "Lời nhắn tri ân", text: "Gần đây, thay vì quà đắt tiền, phụ huynh khuyến khích con viết lời nhắn tay — 'thầy cô chỉ cần một lời cảm ơn chân thành'. Ngành giáo dục cũng thường xuyên nhắc nhở 'không lễ vật ngày 20/11' để ngày lễ giữ đúng nghĩa trong sạch." },
     ],
+    lessons: [
+      { title: "Nghề dạy là nghề gieo mầm", text: "Một giờ đứng lớp có thể nảy mầm trong cả một đời người — đó là bài học về công việc lặng thầm mà quả ngọt đến chậm nhất." },
+      { title: "Thầy thật sự ở cả ngoài lớp", text: "Tri ân ngày 20/11 không chỉ dành cho thầy cô trong trường — mà cho mọi người từng dạy ta một điều gì đó ngoài đời thực." },
+      { title: "Học là việc cả đời", text: "Ngày Nhà giáo nhắc rằng điểm dừng của việc học không phải tấm bằng — người học lớn nhất là người luôn sẵn sàng học lại." },
+    ],
     wishes: [
       "Kính chúc thầy cô 20/11 khỏe mạnh, hạnh phúc và mãi tận tâm.",
       "Cảm ơn thầy cô vì đã thắp lửa tri thức trong em.",
@@ -1718,6 +1810,11 @@ export const holidays: Holiday[] = [
       { title: "Gặp mặt truyền thống", text: "Các cựu chiến binh cùng đơn vị — trung đoàn, đại đội, những 'tiểu đoàn nổi tiếng' — gặp mặt quanh 22/12, đọc lại danh sách liệt sĩ và hát những bài hát năm xưa. Ngày này đồng thời là Ngày hội Quốc phòng toàn dân ở các địa phương." },
       { title: "Vinh danh cán bộ chiến sĩ", text: "Các đơn vị quân đội kỷ niệm bằng lễ gặp mặt, tuyên dương chiến sĩ giỏi, thi đua 'giỏi việc nước, đảm việc nhà'. Hình ảnh chiến sĩ nghĩa vụ trẻ nấu mâm cơm tiếp gia đình chính sách quen thuộc vào ngày này." },
       { title: "Hoạt động biên giới", text: "Ngày thành lập quân đội gắn với hoạt động 'vì biên cương, vì ngư dân': trao nhà tình đồng đội, khám chữa bệnh miễn phí vùng biên, giao lưu 'Xuân biên phòng ấm lòng dân'. Các đơn vị hải quân bắt đầu nhận chuyến quà 'Tết trên đảo' từ dịp này." },
+    ],
+    lessons: [
+      { title: "Kỷ luật tạo nên sức mạnh", text: "Bài học quân đội: tập thể có kỷ luật mạnh hơn nhiều cá nhân tài giỏi riêng lẻ — nguyên tắc đúng với mọi tổ chức muốn đi xa." },
+      { title: "Bình dân làm nên anh hùng", text: "Quân đội Việt Nam bắt đầu từ nông dân, công nhân, học sinh — người bình thường trở thành anh hùng khi mang trách nhiệm lớn hơn mình." },
+      { title: "Hậu phương cũng là mặt trận", text: "Lịch sử dạy rằng chiến thắng không chỉ nhờ người cầm súng — mà nhờ cả triệu người phía sau cấp dưỡng, hậu cần và niềm tin." },
     ],
     wishes: [
       "Chúc mừng ngày truyền thống Quân đội nhân dân Việt Nam 22/12!",
@@ -1798,6 +1895,11 @@ export const holidays: Holiday[] = [
       { title: "Đi nhà thờ đêm 24/12", text: "Đêm vọng Giáng sinh, các nhà thờ lớn — Nhà thờ Lớn Hà Nội, Đức Bà TP.HCM, Phủ Cam Huế — đông nghẹt cả những người không theo đạo đến xem lễ nửa đêm. Đây là hình ảnh Giáng sinh đặc trưng của Việt Nam: lễ tôn giáo trở thành lễ hội chung của phố phường." },
       { title: "Trao quà Noel", text: "Ông già Noel phát quà ở trung tâm thương mại, công viên — trẻ em đi 'săn ông già Noel' đêm 24. Gia đình trao quà dưới cây thông sáng 25/12; lớp học, công ty chơi 'Secret Santa' trao quà ẩn danh." },
       { title: "Trang trí cây thông", text: "Cây thông Noel — cây thật hoặc nhựa cao 3–10m — được dựng trước nhà thờ, khách sạn, phố đi bộ từ đầu tháng 12. Hang đá tái hiện máng cỏ Bethlehem là nét riêng của Giáng sinh Việt: mỗi giáo xứ, gia đình thi nhau làm hang đá lớn nhất phố." },
+    ],
+    lessons: [
+      { title: "Niềm vui lớn nhất là cho đi", text: "Giáng sinh dạy rằng mùa vui đẹp nhất đến từ việc cho — ông già Noel hạnh phúc vì được tặng quà chứ không phải vì được nhận." },
+      { title: "Điều thiện vượt qua ranh giới", text: "Đêm lễ tôn giáo trở thành lễ hội của cả phố dạy rằng: điều tốt lành chân thành sẽ lan đến cả những người không cùng niềm tin." },
+      { title: "Vĩ đại bắt đầu từ máng cỏ", text: "Câu chuyện Chúa ra đời trong hang đá đơn sơ nhắc rằng những điều lớn lao thường khởi đầu ở những nơi khiêm tốn nhất." },
     ],
     wishes: [
       "Merry Christmas! Chúc bạn một Giáng sinh an lành, ấm áp.",
@@ -1893,6 +1995,11 @@ export const holidays: Holiday[] = [
       { title: "Quét dọn nhà cửa", text: "Khi ông Táo đã về trời, nhà 'vắng thần' nên đây là lúc quét dọn dứt điểm: giũ bụi trần nhà, sửa bàn thờ, thay bát hương mới, tổng vệ sinh trước Tết. 'Thần đi vắng' nghe có vẻ mê tín nhưng thực chất là nhịp khéo léo để cả nhà cùng dọn đón năm mới." },
       { title: "Cúng ông Thổ địa", text: "Song song ông Táo nhà bếp, gia chủ còn cúng ông Thổ địa — vị thần giữ đất của căn nhà — bằng mâm lễ riêng hoặc chung. Tục 'Nhất Táo, nhị Địa' nhắc hai vị thần thân cận nhất trong nhà người Việt cùng được tiễn lên trời tối nay." },
     ],
+    lessons: [
+      { title: "Bếp là trái tim của nhà", text: "Tục thờ ông Táo nhắc rằng nhà bếp không chỉ là nơi nấu nướng — đó là 'đền thờ' giữ lửa, giữ bữa cơm và giữ hơi ấm cả gia đình." },
+      { title: "Việc trong nhà vẫn là việc lớn", text: "Truyền thuyết Táo quân lên trời báo cáo nhắc rằng: cách ta đối xử với nhau trong căn bếp nhỏ mới là bản 'tố cáo' đúng nhất của mình." },
+      { title: "Dọn nhà cũng là dọn lòng", text: "Quét dọn sau khi tiễn ông Táo là kinh nghiệm sống lâu năm: nhà gọn trước, lòng mới gọn — dọn từ ngoài vào trong vẫn là cách hay nhất." },
+    ],
     wishes: [
       "Chúc cả nhà một năm bếp lửa ấm, bát ngát yêu thương!",
       "Táo quân về trời báo lành — chúc gia đình bình an đón Tết!",
@@ -1978,6 +2085,11 @@ export const holidays: Holiday[] = [
       { title: "Ăn chay cả ngày", text: "Nhiều gia đình chọn ăn chay ngày 3/3 — vừa thanh tịnh đầu xuân, vừa gợi nhớ gốc 'ngày không lửa' chỉ dùng đồ nguội của Tết Hàn thực. Tuy vậy, ở Việt Nam nét đặc trưng nhất vẫn là hai thứ bánh trôi, bánh chay ngọt." },
       { title: "Xuất hành lễ chùa", text: "Nhiều nhà chọn ngày này đi chùa cầu bình an, hoặc đi chơi xuân nốt trước khi nhịp sống thường ngày trở lại sau rằm Giêng. Với trẻ em, mùng 3 tháng 3 gắn với 'bánh trôi nổi' — món chè ông bà, bố mẹ nhất định nấu mỗi năm." },
     ],
+    lessons: [
+      { title: "Nhớ ơn người giữ lửa thầm lặng", text: "Gốc tích Giới Tử Thôi nhắc rằng trung thành không đòi danh — người không màng công lao chính là người đáng được nhớ nhất." },
+      { title: "Có ngày nên hạ lửa", text: "Tết 'bữa lạnh' vốn cấm đun nấu nhắc rằng con người cần những ngày hạ lửa — nghỉ ngơi, thanh tịnh cũng là một nghi lễ cần thiết." },
+      { title: "Giản dị lưu truyền lâu nhất", text: "Bánh trôi trắng mềm hơn nghìn năm vẫn ngọt — bài học từ mâm cỗ dân gian: điều giản dị nhất thường sống lâu nhất trong ký ức." },
+    ],
     wishes: [
       "Chúc gia đình một ngày Hàn thực ngọt lành, thanh tịnh!",
       "Bánh trôi tròn đầy — chúc cuộc sống viên mãn, ngọt ngào!",
@@ -2059,6 +2171,11 @@ export const holidays: Holiday[] = [
       { title: "Rượu nếp, cơm rượu", text: "Cơm rượu nếp cái hoa vàng viên nhỏ là món nhất định của trưa mùng 5 — vị ngọt cay ấm được coi là 'đốt hết sâu bọ' cuối mùa. Trẻ em ăn cơm rượu đã đun chín; người lớn uống rượu nếp nguyên chất kèm chút muối mè, ớt." },
       { title: "Hái thuốc ngọ", text: "Từ 11h–13h ngày mùng 5 — đúng giờ Ngọ của ngày Ngọ, tháng Ngọ — được cho là lúc dương khí cực thịnh, thuốc hái giờ này tốt nhất năm. Người xưa hái ngải cứu, lá tre, rễ cỏ tranh phơi nắng cất làm thuốc quanh năm." },
       { title: "Tục đốt vía", text: "Tối Đoan Ngọ, có nơi đốt vía — đống giấy rơm ngoài ngõ 'đuổi sâu bọ' — nay ít còn vì lý do an toàn. Nhưng tục giũ quần áo phơi nắng, treo ngải cứu trước cửa vẫn giữ nét 'xua tà khí' mùa hạ." },
+    ],
+    lessons: [
+      { title: "Phòng bệnh bằng tỉnh táo sớm", text: "Tết giết sâu bọ như 'ngày y tế dân gian' — bài học là phòng bệnh sớm, giữ thân tâm sạch trước khi 'sâu bọ' kịp lớn trong đời." },
+      { title: "Thuốc hay mọc quanh nhà", text: "Ngải cứu, lá tre, quả chua đầu hè — tổ tiên nhắc rằng phương thuốc tốt nhất thường mọc ngay quanh mình, chỉ cần biết nhìn kỹ." },
+      { title: "Đúng việc phải đúng lúc", text: "Giờ Ngọ của ngày Ngọ nhắc rằng cùng một việc làm nhưng đúng thời điểm sẽ khác hẳn kết quả — khôn ngoan là biết chọn lúc." },
     ],
     wishes: [
       "Đoan Ngọ an khỏe — chúc cả nhà mùa hè hạnh phúc, không đau ốm!",
@@ -2143,6 +2260,11 @@ export const holidays: Holiday[] = [
       { title: "Khám chữa miễn phí", text: "Dịp này, nhiều đoàn y bác sĩ tình nguyện khám sức khỏe miễn phí ở vùng cao, vùng sâu — phát thuốc, siêu âm, mổ mắt nhân đạo. Ngành y gọi đây là 'việc làm đẹp nhất trong ngày của chính mình'." },
       { title: "Tri ân trên báo chí", text: "Báo chí, truyền hình dành chuyên mục tri ân: phóng sự về bác sĩ thức trắng đêm trực cấp cứu, 'bác sĩ rừng' ba mươi năm chống sốt rét, nữ bác sĩ vùng cao. Những câu chuyện mỗi 27/2 khiến nghề y gần với công chúng hơn." },
     ],
+    lessons: [
+      { title: "Nghề cứu người trước hết là đức", text: "Bác sĩ được gọi 'thầy thuốc' vì nghề này đòi đức trước khi đòi tài — bài học về trách nhiệm đúng với mọi nghề nghiệp." },
+      { title: "Đừng quên người chữa mình", text: "Ngày 27/2 nhắc rằng bác sĩ cũng là người thường qua những đêm trực — tôn trọng họ chính là tôn trọng sự sống của chính ta." },
+      { title: "Nghề chữa người phải học suốt đời", text: "Bác sĩ giỏi nhất vẫn phải đọc nghiên cứu mới mỗi tuần — bài học về học tập không ngừng trong nghề đòi hỏi chính xác nhất." },
+    ],
     wishes: [
       "Kính chúc các thầy thuốc sức khỏe — để cứu chữa nhiều sinh mệnh hơn nữa!",
       "Cảm ơn bác sĩ đã đêm trực như cha mẹ — chúc lương y lòng nhân hậu mãi mới!",
@@ -2219,6 +2341,11 @@ export const holidays: Holiday[] = [
       { title: "Họp mặt nhà báo", text: "Hội Nhà báo các cấp và các tòa soạn tổ chức gặp mặt truyền thống: vinh danh nhà báo kỳ cựu, trao thẻ hội viên mới, nhắc lại ngày báo Thanh niên số đầu tiên ra đời 21/6/1925 do Nguyễn Ái Quốc sáng lập." },
       { title: "Triển lãm báo chí", text: "Triển lãm báo chí toàn quốc và hội báo xuân trưng bày tác phẩm đoạt giải cùng những trang báo lịch sử — từ tờ báo in chữ Hán thời xưa đến trang tin điện tử hiện đại. Đây là dịp độc giả nhìn thấy 'công xưởng' đằng sau tin tức." },
       { title: "Tọa đàm nghề báo", text: "Các tọa đàm nghề nghiệp quanh ngày này xoay quanh báo chí chuyển đổi số, AI trong tòa soạn và đạo đức nghề báo thời tin giả — những vấn đề nóng nhất của nghề theo từng giai đoạn." },
+    ],
+    lessons: [
+      { title: "Sự thật cần người giữ gìn", text: "Báo chí tồn tại để nói thật khi nói thật là khó — đó là bài học lớn nhất của nghề báo và của mỗi người trong thời đại tin giả." },
+      { title: "Người đọc cũng có trách nhiệm", text: "Tin tốt xây niềm tin, tin giả phá xã hội — người đọc ngày nay cũng phải có trách nhiệm chia sẻ đúng như người viết có trách nhiệm đưa tin." },
+      { title: "Ngòi bút có thể mạnh hơn súng", text: "Từ tờ Thanh niên 1925 đến báo chí hôm nay, bài học là cây bút khi cầm bằng lương tâm có thể làm được điều mà vũ lực không làm nổi." },
     ],
     wishes: [
       "Chúc các nhà báo giữ lửa công tâm — ngòi bút luôn vững!",
@@ -2298,6 +2425,11 @@ export const holidays: Holiday[] = [
       { title: "Thăm hỏi người già", text: "Hội Người cao tuổi cơ sở đi từng ngõ tặng quà các cụ bước sang 80, 90, 100 tuổi — hộp sữa, chăn ấm, phong bì chúc thọ. Địa phương nào cũng có 'bản đồ cụ thọ' riêng để không bỏ sót nhà nào." },
       { title: "Hoạt động hội người cao tuổi", text: "Chi hội người cao tuổi là sân chơi thật của người già nông thôn: thơ, cờ tướng, dưỡng sinh, múa hát — nhiều hội tổ chức hội thi 'cụ ông cụ bà tài năng' dịp 1/10. Ở thành phố, ngày này gắn với chủ đề 'sống vui, sống khỏe' tuổi vàng." },
       { title: "Con cháu về quê", text: "Ngày 1/10 rơi vào khoảng cuối tuần đầu thu — nhiều con cháu đi xa chọn về quê thăm ông bà, gộp mừng thọ vào ngày này. 'Ngày của ông bà' cũng là lời nhắc người trẻ gọi điện thường xuyên hơn cho cụ già ở xa." },
+    ],
+    lessons: [
+      { title: "Người già là thư viện sống", text: "Mỗi cụ già qua đời là một cuốn sách lịch sử khép lại — để mất cuốn sách ấy trước khi kịp đọc là tổn thất của cả gia đình." },
+      { title: "Kính lão là kính chính mình", text: "Cách ta đối xử với người già hôm nay chính là cách con cháu sẽ đối xử với ta ngày mai — bài học nhân quả giản dị nhất." },
+      { title: "Tuổi vàng chưa phải hết", text: "Người cao tuổi là 'cây cao bóng cả' chứ không phải cây héo — tuổi vàng có thể là giai đoạn đóng góp sâu sắc nhất của một đời." },
     ],
     wishes: [
       "Kính chúc ông bà sống lâu trăm tuổi, tâm thanh thản!",
@@ -2382,6 +2514,11 @@ export const holidays: Holiday[] = [
       { title: "Vinh danh doanh nghiệp", text: "Dịp này trao các giải uy tín: cúp Thánh Gióng cho doanh nhân tiêu biểu, Sao Đỏ cho doanh nghiệp vì cộng đồng, Top 500 doanh nghiệp lớn nhất (VNR500). Bảng vinh danh 13/10 là 'bảng vàng' thường niên của giới kinh doanh." },
       { title: "Hoạt động thiện nguyện", text: "Bên cạnh vinh danh, nhiều tập đoàn chọn 13/10 làm ngày thiện nguyện chung: trao học bổng, xây nhà tình thương, tài trợ y tế khắp nơi. 'Doanh nhân không chỉ làm giàu' là thông điệp được nhắc lại mỗi năm." },
     ],
+    lessons: [
+      { title: "Kinh doanh là một trách nhiệm", text: "Doanh nhân thật không chỉ biết kiếm tiền — họ giữ công ăn cho người khác, đóng góp cho đất nước qua từng đồng thuế và sản phẩm tử tế." },
+      { title: "Dám bắt đầu khi chưa có gì", text: "Bài học doanh nhân lớn nhất là dám khởi nghiệp từ con số không — nhưng dám làm không đồng nghĩa với mù quáng, phải kèm tính toán." },
+      { title: "Uy tín quý hơn lợi nhuận", text: "Các giải vinh danh ngày 13/10 nhắc rằng: doanh nghiệp sống lâu nhất không phải doanh nghiệp lời nhiều nhất — mà là doanh nghiệp được tin nhất." },
+    ],
     wishes: [
       "Chúc các doanh nhân Việt giữ lửa khởi nghiệp — kinh doanh phát đạt!",
       "Chúc đội ngũ doanh nghiệp Việt vững bước trên trường thế giới!",
@@ -2459,6 +2596,11 @@ export const holidays: Holiday[] = [
       { title: "Lễ kỷ niệm", text: "Đảng bộ các cấp từ xã phường đến trung ương tổ chức lễ kỷ niệm trang trọng ngày 3/2: ôn lại hội nghị hợp nhất ba tổ chức cộng sản tại Cửu Long (Hồng Kông) năm 1930, diễn văn về chặng đường hơn 90 năm, chiếu phim tư liệu." },
       { title: "Kết nạp đảng viên", text: "Ngày Thành lập Đảng là 'mùa kết nạp': nhiều thanh niên ưu tú, chiến sĩ, công nhân giỏi được kết nạp đảng viên trong buổi lễ trang trọng — khoảnh khắc được coi là 'ngày sinh thứ hai' của mỗi người." },
       { title: "Hoạt động thiện nguyện", text: "Chi bộ, đảng bộ cơ sở tổ chức ngày thiện nguyện quanh 3/2: dọn vệ sinh môi trường, trồng cây, hiến máu, thăm gia đình chính sách. 'Mỗi đảng viên một việc tử tế' là khẩu hiệu quen thuộc ngày này." },
+    ],
+    lessons: [
+      { title: "Lý tưởng cần tổ chức", text: "Bài học từ 3/2/1930: những người cùng chí hướng chỉ tạo ra thay đổi khi biết tổ chức lại — cá nhân giỏi cần tập thể để đi xa." },
+      { title: "Thống nhất trước khi đấu tranh", text: "Hợp nhất ba tổ chức thành một cho thấy chia rẽ là điểm yếu đầu tiên cần xóa — muốn làm việc lớn phải đứng chung một hàng trước." },
+      { title: "Lý tưởng đo bằng việc làm", text: "Niềm tin chỉ có nghĩa khi được chuyển thành hành động cụ thể — 'mỗi đảng viên một việc tử tế' là cách lý tưởng đi vào đời thường." },
     ],
     wishes: [
       "Nhân ngày thành lập Đảng 3/2, chúc đất nước đoàn kết, thịnh vượng.",
@@ -2540,6 +2682,11 @@ export const holidays: Holiday[] = [
       { title: "Lễ kỷ niệm tại Điện Biên", text: "Tỉnh Điện Biên tổ chức lễ kỷ niệm hằng năm; các năm tròn (60, 65, 70 năm) nâng lên cấp quốc gia — năm 2024, lễ 70 năm có diễu binh và triển lãm quy mô lớn nhất vùng Tây Bắc từ trước đến nay." },
       { title: "Tư liệu và triển lãm", text: "Bảo tàng Điện Biên Phủ và các thư viện mở triển lãm tư liệu: bản đồ hầm chỉ huy De Castries, thư từ lính thời, ảnh Đoàn 559 kéo pháo qua rừng. Ngày 7/5 là lúc tư liệu lịch sử 'sống lại' với công chúng hiện đại." },
     ],
+    lessons: [
+      { title: "Mưu trí thắng được vũ lực", text: "Điện Biên Phủ dạy rằng bên yếu hơn về trang bị vẫn thắng được nếu có chiến lược đúng, chuẩn bị kỹ và ý chí không lay chuyển." },
+      { title: "Chuẩn bị lâu để thắng một trận", text: "Chiến dịch kéo 56 ngày đêm nhưng được chuẩn bị cả năm — bài học: thắng lợi lớn đến từ công phu thầm lặng mà không ai nhìn thấy." },
+      { title: "Lòng dân là pháo đài mạnh nhất", text: "Hàng vạn người dân công độn đạn kéo pháo qua núi chứng minh: khi lòng dân đồng thuận, đó là 'pháo đài' không trang bị nào phá nổi." },
+    ],
     wishes: [
       "7/5 — tự hào Điện Biên, tự hào những người đã kéo pháo qua rừng.",
       "Nhớ ơn thế hệ anh hùng Điện Biên Phủ — năm châu lừng lẫy, địa cầu chấn động.",
@@ -2618,6 +2765,11 @@ export const holidays: Holiday[] = [
       { title: "Viếng lăng Bác", text: "Từ sáng sớm 19/5, hàng ngàn người xếp hàng vào Lăng Chủ tịch — đoàn nào cũng nghiêm chỉnh mang vòng hoa. Ngày sinh nhật Bác là một trong những ngày Lăng đông khách nhất năm cùng với Quốc khánh 2/9." },
       { title: "Về nguồn Kim Liên", text: "Làng Hoàng Trù – Kim Liên (Nam Đàn, Nghệ An), nơi Bác sinh ra, đón đoàn 'về nguồn' đông nhất năm dịp 19/5: dâng hoa trước nhà lá quê nội, thắp hương nhà ngoại, nghe hát ví giặm suốt ngày." },
       { title: "Văn nghệ về Bác", text: "Các cuộc thi 'hát về Bác', 'kể chuyện Bác' nở rộ khắp trường học, xã phường quanh ngày 19/5. Sách, phim, tư liệu về cuộc đời Người được giới thiệu lại với thế hệ trẻ qua những câu chuyện gần gũi nhất." },
+    ],
+    lessons: [
+      { title: "Giản dị là vĩ đại khó nhất", text: "Bác Hồ dạy bài học khó nhất: càng vĩ đại càng phải giản dị — chiếc áo kaki, đôi dép cao su là 'trang phục' của một vĩ nhân." },
+      { title: "Đức đi trước tài", text: "Bài học Người để lại: đức trước tài, làm trước nói — người có tài nhưng thiếu đức sẽ khó đi được đường dài." },
+      { title: "Yêu thương không biên giới", text: "Từ Kim Liên ra đi khắp thế giới, Bác dạy rằng yêu thương không có biên giới — lòng yêu nước luôn bắt đầu từ lòng thương người." },
     ],
     wishes: [
       "Kính nhớ Bác — người dạy ta biết yêu đất nước bằng cả cuộc đời mình.",
@@ -2698,6 +2850,11 @@ export const holidays: Holiday[] = [
       { title: "Diễu hành và treo cờ", text: "Phố phường thủ đô treo cờ đỏ sao vàng suốt tuần lễ 19/8; các đoàn thanh niên diễu hành băng rôn 'Không có gì quý hơn độc lập, tự do' qua phố đi bộ. Ở các tỉnh, lễ kỷ niệm gắn với ngày truyền thống cách mạng của chính địa phương." },
       { title: "Sinh hoạt truyền thống", text: "Các đoàn thể, trường học tổ chức buổi nói chuyện 'Tháng Tám': kể chuyện đoàn quân tiến về Hà Nội, chiếc kèn đồng tổng khởi nghĩa, già làng dẫn đầu thôn lên nhận chính quyền. 19/8 cũng là ngày truyền thống của lực lượng Công an nhân dân." },
     ],
+    lessons: [
+      { title: "Thời cơ không chờ đợi", text: "Tháng Tám 1945 dạy rằng thời cơ lịch sử chỉ đến một lần — dân tộc Việt Nam nắm được vì đã chuẩn bị cả chục năm trước đó." },
+      { title: "Ý chí chung là sức mạnh", text: "Hàng trăm nghìn người không vũ khí giành lại chính quyền — bài học rằng ý chí đồng lòng có thể là 'vũ khí' mạnh nhất của một dân tộc." },
+      { title: "Mỗi người là một mảnh lịch sử", text: "Cách mạng không chỉ do vài người làm — mỗi người dân ra đường hôm ấy đều là một mảnh ghép của trang sử lớn." },
+    ],
     wishes: [
       "Tự hào tháng Tám! Chúc đất nước mãi giữ được ngọn cờ độc lập năm xưa.",
       "19/8 — nhớ ngày Hà Nội đứng dậy, chúc non sông mãi bình an.",
@@ -2776,6 +2933,11 @@ export const holidays: Holiday[] = [
       { title: "Lễ kỷ niệm tại Hà Nội", text: "Lễ kỷ niệm cấp thành phố tổ chức tại Trung tâm Hội nghị quốc gia hoặc Nhà hát Lớn; năm 2024, đại lễ 70 năm là sự kiện lớn nhất của thủ đô với diễu binh, triển lãm và đêm nhạc 'Hà Nội — niềm tin và hy vọng'." },
       { title: "Treo cờ rực phố", text: "Phố cổ Hà Nội ngập trong cờ đỏ những ngày 10/10 — cờ trên nóc ngói cổ, cờ dọc Hàng Đào – Hàng Ngang, nơi đoàn quân giải phóng tiến vào năm 1954. Ngành du lịch mở tour 'theo bước tiếp quản' cho du khách." },
       { title: "Triển lãm 'Hà Nội nhớ'", text: "Bảo tàng Hà Nội và phố sách 19/12 mở triển lãm ảnh 'Hà Nội tiếp quản': xe đạp chở bộ đội, cửa hàng mở lại ngày đầu, thư gia đình báo tin vui. Phần 'câu chuyện người ở lại' luôn được quan tâm nhất." },
+    ],
+    lessons: [
+      { title: "Thủ đô là nhịp tim cả nước", text: "Ngày giải phóng cho thấy một thành phố không chỉ là địa danh — đó là nơi cả dân tộc nhìn về để biết mình đang chiến thắng." },
+      { title: "Ký ức đô thị phải được giữ", text: "Triển lãm 'Hà Nội nhớ' nhắc rằng ký ức của một thành phố là tài sản — không gìn giữ, mai sau chỉ còn những tòa nhà không hồn." },
+      { title: "Văn hóa đi cùng chiến tranh", text: "Hà Nội kháng chiến vẫn in báo, viết thơ, quay phim — bài học là văn hóa giữ ngọn lửa tinh thần cho dân tộc trong mọi thời kỳ." },
     ],
     wishes: [
       "10/10 — chúc Hà Nội mãi là trái tim kiêu hãnh của đất nước.",
@@ -2858,6 +3020,11 @@ export const holidays: Holiday[] = [
       { title: "Tặng sách, xây tủ sách", text: "Các quỹ thiện nguyện và trường học mở 'tuần tặng sách': thu gom sách cũ gửi vùng cao, xây tủ sách lớp học, gây quỹ thư viện xã. Ngày 21/4 cũng là dịp gia đình chọn sách để bắt đầu 'truyền thống đọc' cho con." },
       { title: "Ra mắt sách, gặp tác giả", text: "Các nhà xuất bản chọn Ngày Sách ra mắt tựa mới — sinh hoạt tác giả – độc giả trực tiếp tại nhà sách hoặc qua livestream. Các buổi 'gặp tác giả' dịp 21/4 luôn thu hút độc giả trẻ xếp hàng xin chữ ký." },
     ],
+    lessons: [
+      { title: "Sách là người bạn lặng", text: "Ngày Sách nhắc rằng trí tuệ của cả nhân loại gói trong tủ sách nhỏ — đọc là cách rẻ nhất để 'mượn' hàng triệu năm kinh nghiệm." },
+      { title: "Đọc là thể dục cho trí não", text: "Một giờ đọc mỗi ngày là buổi tập thể dục cho trí óc — thói quen nhỏ nhưng tích lũy thành khoảng cách lớn giữa người với người." },
+      { title: "Sách càng được truyền càng quý", text: "Tặng sách là gieo mầm văn hóa — một cuốn sách đi qua nhiều bàn tay tạo ra giá trị gấp nhiều lần giá tiền của nó." },
+    ],
     wishes: [
       "21/4 — chúc bạn luôn có một quyển sách hay chờ sẵn trên đầu giường.",
       "Mỗi trang sách lật mở là một chân trời mới — chúc bạn đọc mãi không hết chân trời.",
@@ -2937,6 +3104,11 @@ export const holidays: Holiday[] = [
       { title: "Thể dục buổi sáng", text: "Ngày Thể thao nhắc lại thói quen 'thể dục buổi sáng' mà Bác Hồ từng kêu gọi — các công viên sáng 27/3 đông đặc hơn thường nhật với lớp dưỡng sinh, dân vũ, yoga công cộng miễn phí." },
       { title: "Giải thể thao phong trào", text: "Hội khỏe Phù Đổng của thiếu nhi, giải chạy xã phường, giải cầu lông đơn vị — phong trào 'toàn dân rèn luyện thân thể theo gương Bác' sôi nổi nhất vào tháng 3. Ngày Thể thao là mốc mở mùa giải quần chúng cả năm." },
       { title: "Vinh danh thành tích", text: "Dịp này, ngành thể thao tổng kết và vinh danh vận động viên đoạt huy chương quốc tế — SEA Games, ASIAD, Olympic. Ngày 27/3 được chọn vì ngày 27/3/1946 Bác Hồ ký sắc lệnh về thể dục thể thao — ngày khai sinh thể thao nước nhà." },
+    ],
+    lessons: [
+      { title: "Sức khỏe là vốn của mọi việc", text: "Bài học Bác để lại: sức khỏe không chỉ là việc riêng — khỏe mới làm được việc, mới sống vui, mới đóng góp được cho đời." },
+      { title: "Vận động không cần chờ đợi", text: "Ngày chạy Olympic cho thấy thể thao bắt đầu từ đôi chân — không cần thiết bị đắt tiền, chỉ cần hai mươi phút mỗi ngày." },
+      { title: "Thể thao dạy đạo đức", text: "Chơi thể thao dạy ta thua mà vẫn kính đối thủ, thắng mà không kiêu ngạo — những bài học nhân cách mà lớp học khó dạy bằng sách vở." },
     ],
     wishes: [
       "27/3 — chúc bạn luôn khỏe như vận động viên, chơi hết mình, sống hết mình.",
@@ -3019,6 +3191,11 @@ export const holidays: Holiday[] = [
       { title: "Đố vui pháp luật ở trường học", text: "Trường học tổ chức cuộc thi 'Tìm hiểu pháp luật' với các câu đố tình huống gần gũi: đi xe máy không mũ bảo hiểm, hợp đồng lao động, cư xử trên mạng xã hội — học sinh học luật qua trò chơi thay vì bài giảng." },
       { title: "Vinh danh người làm luật", text: "Ngành tư pháp gặp mặt truyền thống: vinh danh người soạn luật, thẩm phán, luật sư, cán bộ pháp chế tiêu biểu — và nhắc lại ngày Quốc hội khóa I thông qua Hiến pháp đầu tiên ngày 9/11/1946." },
     ],
+    lessons: [
+      { title: "Luật tồn tại để bảo vệ người yếu", text: "Pháp luật trước hết để người yếu không bị người mạnh áp bức — hiểu luật cơ bản là cách tự bảo vệ mình và gia đình." },
+      { title: "Hiến pháp là khế ước của cả nước", text: "Ngày 9/11/1946 nhắc rằng hiến pháp là 'bản khế ước' chung nhất của quốc gia — mọi luật khác đều bắt đầu từ đó." },
+      { title: "Giữ luật khi không ai nhìn", text: "Bài học lớn của ngày này: tuân thủ luật không phải vì sợ phạt — xã hội văn minh được đo bằng cách người dân giữ luật lúc không có ai giám sát." },
+    ],
     wishes: [
       "9/11 — chúc bạn sống thật tự do trong khuôn khổ thật rõ ràng.",
       "Hiểu luật để bảo vệ mình, tôn trọng luật để bảo vệ nhau — chúc ngày pháp luật ý nghĩa.",
@@ -3098,6 +3275,11 @@ export const holidays: Holiday[] = [
       { title: "Vinh danh doanh nghiệp", text: "Ngày Thương mại gắn với vinh danh doanh nghiệp xuất khẩu giỏi: giải 'doanh nghiệp xuất khẩu tin cậy', top doanh nghiệp FDI xuất khẩu lớn. Khác 13/10 vinh danh con người doanh nhân, ngày này vinh danh tổ chức làm thương mại." },
       { title: "Tọa đàm xuất nhập khẩu", text: "Bộ Công Thương và các hiệp hội chế biến xuất khẩu tổ chức tọa đàm quanh ngày này: xu hướng thị trường EU – Mỹ – Nhật, tận dụng EVFTA, thương mại điện tử xuyên biên giới — những chủ đề nóng của xuất khẩu Việt." },
       { title: "Tuần hàng Việt", text: "'Tuần lễ hàng Việt' cùng chương trình 'Người Việt ưu tiên dùng hàng Việt' diễn ra dịp 13/7: siêu thị giảm giá hàng nội, ngày hội mua sắm đặc sản vùng miền — đưa 'hàng Việt Nam' đến với người Việt trước tiên." },
+    ],
+    lessons: [
+      { title: "Mua bán là dây nối với thế giới", text: "Hàng Việt đến gần hai trăm thị trường — bài học là một quốc gia vươn lên không chỉ bằng sức mạnh quân sự, mà bằng chất lượng từng sản phẩm." },
+      { title: "Hàng Việt cần được tin từ trong nhà", text: "'Người Việt ưu tiên dùng hàng Việt' nhắc rằng thương hiệu quốc gia chỉ đi ra thế giới được khi người trong nước tin dùng trước." },
+      { title: "Sản phẩm là đại sứ văn hóa", text: "Mỗi mặt hàng xuất khẩu mang theo một câu chuyện quê hương — cà phê, áo dài, đồ thủ công là những 'đại sứ' của Việt Nam đi khắp nơi." },
     ],
     wishes: [
       "13/7 — chúc người làm ăn gặp nhiều may, mua may bán đắt, phát tài phát lộc.",
@@ -3180,6 +3362,11 @@ export const holidays: Holiday[] = [
       { title: "Mít tinh, gặp mặt truyền thống", text: "Lễ kỷ niệm trang trọng đọc lại lịch sử Đoàn từ ngày 26/3/1931 tại Vinh, nhớ Lý Tự Trọng — đoàn viên đầu tiên hy sinh khi mới 17 tuổi — và gặp mặt các thế hệ đoàn viên qua từng thời kỳ." },
       { title: "Tình nguyện xây dựng", text: "Tuyến đường thanh niên, cầu dân sinh, nhà văn hóa do đoàn viên tình nguyện xây dựng là 'sản phẩm' truyền thống của Đoàn: từ con đường Hồ Chí Minh huyền thoại đến những tuyến 'Đoàn về quê' làm đường làng ngày nay." },
     ],
+    lessons: [
+      { title: "Tuổi trẻ là để xung phong", text: "Lý Tự Trọng hy sinh năm 17 tuổi cho lý tưởng — bài học là giá trị của tuổi trẻ đo bằng việc ta dám cho đi bao nhiêu, không phải bao lâu." },
+      { title: "Tập thể nâng cá nhân lên", text: "Đoàn là 'trường học xã hội' của thanh niên — bài học là điểm yếu của một người có thể được nâng lên bởi một tập thể tốt." },
+      { title: "Tình nguyện là cách trưởng thành", text: "Mùa hè xanh, Tháng Thanh niên dạy rằng làm việc không tính công là con đường nhanh nhất để một người trẻ trưởng thành." },
+    ],
     wishes: [
       "26/3 — chúc tuổi trẻ của bạn luôn có một chỗ đứng xung kích cho riêng mình.",
       "Chúc các đoàn viên giữ mãi ngọn lửa nhiệt huyết — dù ở giảng đường, phòng lab hay bản nghèo.",
@@ -3260,6 +3447,11 @@ export const holidays: Holiday[] = [
       { title: "Đọc thơ cùng nhau", text: "Quán cà phê thơ, câu lạc bộ thi ca, trường học tổ chức 'giờ thơ' riêng: mỗi người mang một bài yêu thích đến đọc cho nhau nghe. Trong một đêm, thơ Việt trở về đúng nghĩa 'sinh hoạt cộng đồng'." },
       { title: "Chủ đề năm", text: "Mỗi năm Hội Nhà văn Việt Nam chọn một chủ đề cho Ngày thơ — 'Thơ và quê hương', 'Thơ mùa xuân' chẳng hạn — và các cuộc thi sáng tác, triển lãm thi pháp xoay quanh chủ đề ấy suốt tuần lễ." },
       { title: "Vinh danh nhà thơ", text: "Ngày này cũng là dịp tuyên dương những thi sĩ được yêu mến và trao giải thơ trong năm — Nguyễn Du, Xuân Quỳnh, thế hệ 'nhân văn giai nhân' được nhắc lại; nhiều trẻ em lần đầu nghe chính giọng mình đọc thơ trước đám đông." },
+    ],
+    lessons: [
+      { title: "Dân tộc sống bằng nhịp thơ", text: "Ngày thơ nhắc rằng một dân tộc không chỉ sống bằng cơm áo — nó sống bằng nhịp điệu của ngôn ngữ, tiếng hát và thi ca." },
+      { title: "Ai cũng có một bài thơ", text: "Bài học của đêm thơ Văn Miếu: thơ không riêng của nhà thơ — mỗi người đều có một bài thơ gắn với đời mình, chỉ là chưa đọc ra." },
+      { title: "Đẹp nằm ở cách nhìn", text: "Đọc thơ dạy rằng vẻ đẹp không nằm trong đồ vật mà trong cách nhìn — học cách nhìn đẹp chính là học cách sống chậm lại." },
     ],
     wishes: [
       "Rằm Giêng — chúc bạn một năm sống chậm lại đủ để nghe thấy vần điệu của đời mình.",
@@ -3344,6 +3536,11 @@ export const holidays: Holiday[] = [
       { title: "Chủ đề sức khỏe", text: "Mỗi năm Ngày Quốc tế Nam giới chọn một chủ đề về sức khỏe đàn ông: ung thư tiền liệt tuyến, sức khỏe tâm thần nam giới — gắn với phong trào Movember (nuôi râu xuyên tháng 11) gây quỹ sức khỏe nam toàn cầu." },
       { title: "Tôn vinh hình mẫu", text: "Ngày này tìm và kể những hình mẫu nam giới tích cực: bố đơn thân nuôi con, nam y tá tận tụy, người đàn ông hiến máu cả trăm lần — 'tấm gương đàn ông tốt' được nhắc lại và lan tỏa." },
       { title: "Cặp với 8/3", text: "Ở Việt Nam, 19/11 thường được nhắc như 'ngày đàn ông được đáp lễ' 8/3 — bữa cơm do chính đàn ông nấu, một món quà dành cho bố. Dù không chính thức như Quốc tế Phụ nữ, ngày này đang dần thành nét văn hóa mới." },
+    ],
+    lessons: [
+      { title: "Đàn ông cũng cần được hỏi han", text: "Bài học ngày nam giới: 'đàn ông phải mạnh mẽ' đôi khi là cái bẫy — người đàn ông cũng cần được hỏi, được yếu đuối, được khóc." },
+      { title: "Chăm sức khỏe là trách nhiệm", text: "Movember nhắc rằng đi khám sức khỏe định kỳ không phải 'sợ đau' — đó là trách nhiệm của người đàn ông trưởng thành với gia đình." },
+      { title: "Hình mẫu đẹp lan ra cả nhà", text: "Một người cha tốt, một người chồng biết nấu ăn, một người đàn ông biết nói lời cảm ơn — hình mẫu đàn ông đẹp sẽ lan ra cả một gia đình." },
     ],
     wishes: [
       "19/11 — chúc người đàn ông của bạn khỏe mạnh, và đủ can đảm để kể khi mình mệt.",

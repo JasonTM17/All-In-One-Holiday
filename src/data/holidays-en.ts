@@ -46,6 +46,11 @@ export const holidaysEn: Holiday[] = [
       { title: "New Year wishes", text: "People text 'Happy New Year', swap e-cards and post first-of-the-year statuses. Unlike the formal greetings of Tết Nguyên Đán, solar New Year wishes are casual and friendly, usually paired with countdown-night photos." },
       { title: "New Year plans", text: "Many young people write down resolutions — a new skill, more books, running, saving — even though the solar New Year is just a one-day break. Friend groups kick off 'first writing of the year' challenges as a promise to themselves." },
     ],
+    lessons: [
+      { title: "It is never too late to begin again", text: "A new calendar year is a reminder that the 'right' moment to change is today — you do not need to wait for the lunar new year or a birthday to start." },
+      { title: "Small goals beat grand resolutions", text: "People tend to carry too many resolutions and quit midway — choosing one small change you can actually keep through January outlasts ten big promises." },
+      { title: "Rest is also work", text: "The first holiday of the year is a reminder that recharging is not laziness — it is a necessary part of travelling the long road ahead." },
+    ],
     wishes: [
       "Happy New Year — may you enjoy peace, prosperity and everything you wish for!",
       "A new year is here — wishing you abundant health, joy and success.",
@@ -142,6 +147,11 @@ export const holidaysEn: Holiday[] = [
       { title: "New Year visits", text: "Day one belongs to the father's family, day two to the mother's, day three to teachers — an old rhythm still kept today. In the first days of the year every home opens its doors with candied treats, green tea and smiles." },
       { title: "Red couplets & blossoms", text: "Homes hang red couplets in gold ink — 'Cung chúc tân xuân', 'Phúc như Đông hải'. The North favors pink peach blossoms, the South golden mai flowers; a flowering branch is believed to carry spring itself indoors." },
     ],
+    lessons: [
+      { title: "Going home is the year's most important task", text: "However busy life gets, Tet reminds every Vietnamese that family is the final anchor — the bus ticket home before Tet is always the worthiest expense." },
+      { title: "A small kitchen holds a big family together", text: "The pot of banh chung everyone gathers around shows that tradition survives not through grand gestures, but through one small task done together, year after year." },
+      { title: "Give first, receive later", text: "Li xi envelopes and new-year greetings teach that luck multiplies when it is shared — those who give the most usually end the day happiest." },
+    ],
     wishes: [
       "Happy New Year — may you have peace, prosperity and everything you wish for!",
       "Wishing your family abundant health and a house full of fortune this new year.",
@@ -235,6 +245,11 @@ export const holidaysEn: Holiday[] = [
       { title: "Eating chè trôi nước", text: "Round sticky-rice balls with mung-bean filling float up in sweet ginger broth — their roundness stands for reunion at the year's start. In Chợ Lớn, the Hoa community cooks a sủi cảo-style version, making a whole season of it." },
       { title: "Lantern festivals", text: "Hội An's old town glows with thousands of lanterns on the full-moon night; HCMC keeps a lantern street in Chợ Lớn. Floating lanterns on the Hoài River are the festival's most iconic image." },
     ],
+    lessons: [
+      { title: "Wholeness is built from small things", text: "A perfectly round floating dumpling reminds us that completeness is assembled from small details — a full table, a well-timed word of care." },
+      { title: "Worship is a walk inward", text: "The most beautiful temple visit of the year is not to the most crowded place, but the quiet minute when you stand still and hear yourself again." },
+      { title: "The fullest moon will wane", text: "The roundest full moon of the year also teaches impermanence — treasure what is whole now rather than waiting until it fades." },
+    ],
     wishes: [
       "On this first full moon, may your family be whole and peaceful all year.",
       "May your year be as full and round as tonight's moon.",
@@ -318,6 +333,11 @@ export const holidaysEn: Holiday[] = [
       { title: "Giving roses", text: "Red roses are the 'currency' of February 14 — prices double or triple and still sell out at Quảng Ba and Hồ Thị Kỷ flower markets. Dried flowers, wax blooms and premium boxed roses have grown popular for lasting longer." },
       { title: "Chocolates & cards", text: "Chocolate is the classic sweet gift beside the roses. Young Vietnamese increasingly prefer handwritten cards, mystery gift boxes and handmade presents over store-bought ones — the value lies in the effort." },
       { title: "A special date", text: "Restaurants and cafés with good views are fully booked a week ahead; many couples choose to cook together at home or take a 'reverse date' — skipping the crowds to make a photo album instead. When February 14 falls on a weekend, it becomes the year's busiest date night." },
+    ],
+    lessons: [
+      { title: "Say the loving thing out loud", text: "A sentence said at the right moment is worth more than an expensive gift — Valentine's Day exists because people need an excuse to say what stays in the heart." },
+      { title: "Love is everyday work", text: "February 14 is only a milestone; the way you listen, check in, and stay beside each other on the other 364 days is what actually defines love." },
+      { title: "Love yourself first", text: "Before giving flowers to someone else, give yourself a little kindness — a person who loves themselves has enough love left over to offer others." },
     ],
     wishes: [
       "You are the most beautiful gift life has given me. Happy Valentine's Day!",
@@ -416,6 +436,11 @@ export const holidaysEn: Holiday[] = [
       { title: "A family meal", text: "Many fathers and boyfriends take over the kitchen for the evening so the women can rest — a simple but deeply meaningful gift. Photos of men laboring over soup and braised fish on March 8 have become a beloved recurring meme." },
       { title: "Honoring women", text: "Offices, companies and schools hold gatherings commending outstanding female staff and students; cooking contests and performances 'for women' run all week. Since 2016, the United Nations has set an official theme for each March 8." },
     ],
+    lessons: [
+      { title: "Equality starts at home", text: "Honouring women for one day only matters when housework, voice, and opportunity are shared fairly on the other 364 days as well." },
+      { title: "Persistence writes history", text: "From the garment workers' march of 1908 to today's holiday, the biggest lesson is: small changes pushed persistently beat large resistance." },
+      { title: "Respecting women is respecting yourself", text: "How a man treats his mother, his partner, and his female colleagues says more about his character than any flowery March 8 greeting." },
+    ],
     wishes: [
       "Happy March 8 — may you stay radiant, happy and beautiful!",
       "Thank you for all your quiet sacrifices. Have a wonderful March 8.",
@@ -509,6 +534,11 @@ export const holidaysEn: Holiday[] = [
       { title: "Palanquin processions & Xoan singing", text: "Villages around the temple carry flower-bearing palanquins up the mountain all festival week — each with its own flags, drums and feast tray. Xoan singing of Phú Thọ — UNESCO intangible heritage since 2011 — echoes through the grounds." },
       { title: "Bánh chưng & bánh giầy offerings", text: "By the legend of Lang Liêu, the square bánh chưng stands for earth and the round bánh giầy for sky — both are required offerings on the Giỗ Tổ tray. Many families wrap their own or buy cakes to offer, then bring them home as blessed food." },
     ],
+    lessons: [
+      { title: "When you drink water, remember the source", text: "The Hung Kings' anniversary teaches the oldest and newest lesson at once: people who do not know where they come from can hardly know where to go." },
+      { title: "We stand on earlier shoulders", text: "Offerings carried up the mountain remind us that every individual exists thanks to a chain of people who came before — humility before ancestors is steadiness before life." },
+      { title: "Culture is a rope of many strands", text: "Processions, xoan singing, banh giay — each small thread is weak alone; woven together they become the strength of a nation." },
+    ],
     wishes: [
       "On this Ancestors' day, may our forebears bless your family with peace.",
       "When drinking water, remember the source — wishing you a meaningful Giỗ Tổ.",
@@ -597,6 +627,11 @@ export const holidaysEn: Holiday[] = [
       { title: "Offering incense & flowers", text: "After the tidying, descendants light incense, lay fresh flowers and burn votive paper. Some families add boiled chicken, xôi and sweet soup; part of the tray is then laid upon the grave for the ancestors." },
       { title: "Family visits & spring walks", text: "Thanh minh falls on the fifth solar term of spring — the year's clearest, brightest spell — so the tomb visit often ends with an outdoor meal or a family spring outing. The old saying calls it 'half tomb-sweeping, half spring-wandering'." },
       { title: "Sticky-rice dishes", text: "Each region has its tomb-day foods: the North cooks xôi gấc and tro-tàu cakes with molasses; the Center makes bánh phu thê and chè kho; the South favors chè xoa xoa. Humble dishes, but anyone far from home misses their taste that week." },
+    ],
+    lessons: [
+      { title: "Remembering the dead is living decently", text: "Tending a grave is not just cleaning stone — it is keeping a promise to those gone that they have not been forgotten." },
+      { title: "Life is a chain of links", text: "Standing before an ancestral grave, a person understands they are one link — a source behind, and descendants watching ahead." },
+      { title: "Impermanence amid spring beauty", text: "Placing a day for the dead inside the loveliest spring weeks reminds us that birth and death are two seasons of one life — live accordingly." },
     ],
     wishes: [
       "On Thanh Minh, may the ancestors bless your home with peace and health.",
@@ -687,6 +722,11 @@ export const holidaysEn: Holiday[] = [
       { title: "Commemorations & parades", text: "In milestone years — the 40th (2015) and 50th (2025) anniversaries — state-level parades march through HCMC with tens of thousands of participants. The 50th-anniversary parade of April 30, 2025 ranked among the largest in Vietnamese history." },
       { title: "Back to the roots", text: "Veteran families and youth delegations use the occasion to return to old battlefields — the Củ Chi tunnels, Quảng Trị, Trường Sơn — and visit martyrs' cemeteries. Unit reunions are held across the country by former soldiers." },
     ],
+    lessons: [
+      { title: "Peace has a price", text: "April 30 reminds us that the freedom we enjoy was paid for in blood — keeping the peace is this generation's unfinished duty." },
+      { title: "Reunification is not the finish line", text: "Once the country was reunified, the harder work began: making citizens truly equal in opportunity — a lesson that still stands today." },
+      { title: "Long patience wins", text: "Twenty-one years of resistance show that great goals have no shortcut — only one day after another of refusing to give up." },
+    ],
     wishes: [
       "Proud of April 30 — may our country forever enjoy peace and prosperity.",
       "Honoring those who fell for the independence we have today.",
@@ -763,6 +803,11 @@ export const holidaysEn: Holiday[] = [
       { title: "The April 30–May 1 break", text: "The two back-to-back holidays form the year's longest break before summer — many families take a short trip or return to their hometowns. Beach destinations like Đà Nẵng, Nha Trang and Phú Quốc typically sell out a month ahead." },
       { title: "Honoring outstanding workers", text: "Unions and companies commend skilled workers and improvement initiatives; newspapers run features on everyday labor — welders, rural doctors, mountain teachers. In recent years the 'pioneering worker' theme has been tied to digital transformation." },
       { title: "Union activities", text: "Workers' Month (May) kicks off right after the holiday: trade-skills contests, factory football leagues, job counseling and reunion programs for migrant workers. Many industrial parks open discount 'workers' markets' around this time." },
+    ],
+    lessons: [
+      { title: "No work is lowly", text: "May 1 reminds us that dividing jobs into 'noble' and 'menial' is wrong — a tradesperson who works with care deserves as much respect as any title." },
+      { title: "Rights are won, not given", text: "The eight-hour day, paid leave, and workplace safety were never gifts — every right we take for granted was won by people who dared to stand up." },
+      { title: "Real wealth comes from real work", text: "In an age chasing 'get rich quick', Labour Day repeats the old truth: the most durable prosperity is still built by honest hands and honest time." },
     ],
     wishes: [
       "Wishing every worker a May 1 of real rest and real joy.",
@@ -847,6 +892,11 @@ export const holidaysEn: Holiday[] = [
       { title: "A meal cooked by the kids", text: "The most praised gift on social media each year is a meal cooked by the children — even when it comes out a bit too salty or bland. Kids living far away order hotpot or braised chicken delivered so Mom can skip the kitchen for the day." },
       { title: "A call home", text: "For those far from home, a video call asking 'have you eaten yet, Mom?' is the most on-time gift of all. Carriers even run call promotions for the occasion — many adults come to realize a weekly call outweighs any present." },
     ],
+    lessons: [
+      { title: "Mothers do not wait for a holiday", text: "Motherly love keeps no calendar — she remembers you every day, so remembering her should not be packed into one Sunday in May." },
+      { title: "Hear what a mother hides", text: "'I'm not hungry' and 'I don't need gifts' are the most loving lies ever told — the lesson is learning to hear what she does not say." },
+      { title: "Cherish her while you can", text: "Mother's Day carries its hardest reminder: a mother's smile is finite — give her your time before only memories remain." },
+    ],
     wishes: [
       "Mom, you are the whole sky that shelters me. Happy Mother's Day!",
       "May you always be healthy, peaceful and live long beside us.",
@@ -930,6 +980,11 @@ export const holidaysEn: Holiday[] = [
       { title: "Gifts for kids", text: "Classic June 1 gifts are toys, comics and school bags — many parents now pick books and STEM kits instead of gadgets. Malls and toy stores set up play zones and week-long promotions for the occasion." },
       { title: "Charitable activities", text: "Charities, children's funds and youth unions deliver gifts to disadvantaged kids — children's hospitals, SOS villages, flood-hit areas. Many fundraisers for underprivileged children's Tết also kick off around this season." },
     ],
+    lessons: [
+      { title: "Children mirror the adults around them", text: "How we treat a child today is how that child will treat the world tomorrow — that is the deepest moral lesson of June 1." },
+      { title: "Playing is also learning", text: "Children's Day reminds adults that kids need more than lessons — they need play, they need to be heard, they need to be fully children." },
+      { title: "Protect the smallest first", text: "A civilized society is measured by how it treats its smallest members — children in hardship, children with disabilities, children without parents." },
+    ],
     wishes: [
       "Happy June 1 — may you have fun, stay good and study well, little ones!",
       "Wishing our little love health and lots of laughter every day.",
@@ -1011,6 +1066,11 @@ export const holidaysEn: Holiday[] = [
       { title: "A family dinner", text: "The day has no fixed rite — its 'rite' is simply the whole family eating together, a reminder of the shared dinner table amid busy lives. The culture ministry once campaigned for a phone-free 'family dinner hour' from 6 to 7:30 pm." },
       { title: "Family photos", text: "Many families mark the day with a photo set — at a studio, in a park, or just a selfie around the dinner table. TV specials and 'happy family' photo contests are usually held around June 28." },
       { title: "Stories across generations", text: "Family Day is when grandparents tell old stories and open the wedding album and family tree — a 'family tradition' session there is rarely time for otherwise. Many schools assign 'interview your grandparents' homework this week." },
+    ],
+    lessons: [
+      { title: "Home is where you can be yourself", text: "Amid the outside world, family must be the one place where each person is accepted as they are — that is the true 'quality' of a home." },
+      { title: "Dinner is the seed of family", text: "No expensive gift can replace an evening meal shared together — it is the simplest ritual for keeping a household's fire alive." },
+      { title: "Children learn from how parents live", text: "Kids absorb their ethics not from lectures but from watching how their parents treat each other and strangers every single day." },
     ],
     wishes: [
       "May our family always stay close, loving and at peace.",
@@ -1094,6 +1154,11 @@ export const holidaysEn: Holiday[] = [
       { title: "Visiting martyrs' cemeteries", text: "Millions visit their local martyrs' cemetery during the July 27 week — lighting incense, wiping headstones, reading the names aloud. In Quảng Trị, the great Trường Sơn and Đường 9 cemeteries welcome the year's largest gatherings of gray-haired veterans." },
       { title: "Visiting policy families", text: "The 'repaying gratitude' spirit becomes concrete work: localities, businesses and schools visit Heroic Mothers, wounded veterans and martyrs' families — bringing gifts, repairing 'gratitude houses' and delivering insurance papers." },
       { title: "Candles of gratitude", text: "On the evening of July 26, candle-lighting ceremonies spread from national cemeteries to village shrines — thousands of flames lit at the same hour. The 'sea of candles' at Trường Sơn cemetery is among the year's most moving sights." },
+    ],
+    lessons: [
+      { title: "Live worthy of the debt", text: "July 27 reminds us we carry a debt that can never be fully repaid — the only way to honour it is to live decently and be useful to the country they fell for." },
+      { title: "The nation is the largest family tree", text: "Remembering martyrs teaches that 'roots' are not only a bloodline — the whole nation is the biggest family tree each person belongs to." },
+      { title: "Heroes were ordinary people", text: "The fallen were once sons, lovers, and friends — the truest remembrance is to picture them as people who lived fully, not as marble." },
     ],
     wishes: [
       "Forever grateful to the heroic martyrs of our nation.",
@@ -1185,6 +1250,11 @@ export const holidaysEn: Holiday[] = [
       { title: "Pinning a rose on the chest", text: "The custom of pinning a rose at the Vu Lan service — red for those whose mother lives, white for those whose mother has passed — was started by Zen master Thích Nhất Hạnh in Huế in 1962. More than half a century on, the small flower is the day's most familiar image." },
       { title: "Vu Lan at the pagoda", text: "On the seventh full moon, pagodas hold the filial-piety service: chanting, rose-pinning, and teachings on parents' sacrifice from the Ullambana Sutra — the story of Mục Kiền Liên saving his mother. The busiest services fall on the full moon or the nearest Sunday." },
       { title: "7th-month full-moon offerings", text: "Alongside the temple rite, families lay a full-moon tray for ancestors — many add an outdoor 'wandering souls' tray at dusk with thin rice soup, salt and votive money. Feeding lost souls shares the day's spirit of compassion." },
+    ],
+    lessons: [
+      { title: "Filial duty does not wait for the full moon", text: "The most honest filial act is remembering your mother still stays up waiting for your call — do not wait for the seventh lunar month to phone home." },
+      { title: "The pinned rose is a promise", text: "Wearing a rose on your chest is more than ceremony — it is a silent pledge to live worthy of the grace of being born and raised." },
+      { title: "Compassion has no border", text: "The tray of offerings for wandering souls outside the gate reminds us that kindness knows no boundary — strangers and the suffering deserve a share too." },
     ],
     wishes: [
       "This Vu Lan season, may your parents always be healthy and at peace.",
@@ -1289,6 +1359,11 @@ export const holidaysEn: Holiday[] = [
       { title: "Fireworks", text: "On the night of September 2, Hanoi and HCMC launch fireworks at multiple points — the Han River bridge in Đà Nẵng offers the country's most spectacular show. Since 2022 many provinces have swapped high-altitude fireworks for drone light displays." },
       { title: "Streets of flags", text: "From late August the national flag blankets the streets — even the smallest alleys turn red as residents hang flags on their own homes. Photos of flag-lined streets around the Opera House and the Old Quarter are the holiday's signature image." },
     ],
+    lessons: [
+      { title: "Independence must be kept daily", text: "September 2 reminds us independence is not a lifetime gift — each new generation guards it through work, study, and everyday decency." },
+      { title: "The power of one document", text: "A declaration read aloud in a few minutes gave birth to a nation — a lesson in what words and conviction can do when spoken at the right moment." },
+      { title: "Quiet work is patriotism too", text: "Love of country does not require shouting — a worker who is honest, pays taxes, and helps neighbours is also 'building the nation' in their own way." },
+    ],
     wishes: [
       "Proud to be Vietnamese! Happy National Day, September 2.",
       "May our country forever keep its independence, freedom and happiness.",
@@ -1389,6 +1464,11 @@ export const holidaysEn: Holiday[] = [
       { title: "Star-lantern parades", text: "Star lanterns of colored cellophane, carp lanterns, pull-string troop lanterns — bands of children parade hand-held lights through the alleys on the full-moon night. Musical battery lanterns are common now, but Hội An and the old quarters still keep the paper ones." },
       { title: "Lion dances", text: "Lion-dance troupes work through the neighborhoods to thundering drums, performing for 'lucky treats' hung in front of shops — the drumbeat announces Mid-Autumn's arrival. Children chase the lions until late, a shared childhood memory across generations." },
     ],
+    lessons: [
+      { title: "The full moon points us home", text: "Mid-Autumn teaches the art of pausing to watch the moon — beauty that costs no money, only a person willing to look up." },
+      { title: "Every child deserves a festival night", text: "Every child should carry one memory of parading with a star lantern — holidays are the 'storehouse' of happy memories for a whole lifetime." },
+      { title: "Beauty comes from care, not cost", text: "The Mid-Autumn tray with a pomelo carved like a boat's prow teaches that beauty lives in careful hands, not in expensive things." },
+    ],
     wishes: [
       "Happy Mid-Autumn! May your family be reunited under the full moon.",
       "Wishing the little ones a season bright with star lanterns.",
@@ -1479,6 +1559,11 @@ export const holidaysEn: Holiday[] = [
       { title: "Honoring exemplary women", text: "The day is tied to the founding of the Vietnam Women's Union on October 20, 1930. Offices hold gatherings commending Heroic Mothers, female scientists and businesswomen all through the week." },
       { title: "Men in the kitchen", text: "A modern custom: on October 20 husbands cook dinner and sons wash the dishes — a meal made by men is the most practical gift. 'Vietnamese men in the kitchen on October 20' has quietly become a beloved new tradition." },
     ],
+    lessons: [
+      { title: "Strength in double duty", text: "Vietnamese women are praised as 'skilled in the nation's work, steadfast in the home's' — October 20 honours the strength of carrying both burdens at once." },
+      { title: "Honour must mean something real", text: "Honouring women is more than flowers for a day — it means seats at decision tables, equal pay, and safety on the way home from work." },
+      { title: "A tradition still being written", text: "The Trung sisters, Lady Trieu, and heroic mothers wrote the first chapters — the rest of Vietnamese women's tradition is being written by today's generation." },
+    ],
     wishes: [
       "Happy October 20 — may you always be beautiful, happy and loved!",
       "20/10 — may the women of Vietnam stay radiant and successful.",
@@ -1561,6 +1646,11 @@ export const holidaysEn: Holiday[] = [
       { title: "Students giving flowers", text: "Before class on November 20, the class monitor presents a bouquet and a card of thanks; many schools hold a short ceremony first period. Younger pupils draw cards, high-schoolers buy flowers, university students send thank-you videos." },
       { title: "Alumni visits", text: "On this day, old class cohorts — from retirees to fresh graduates — return to visit their former teachers with flowers, cakes and old keepsakes. The 'three generations of teacher and students' reunion is the day's most familiar scene." },
       { title: "Messages of thanks", text: "Lately, instead of expensive gifts, parents encourage handwritten notes — 'teachers only need a sincere thank you'. Education authorities also regularly remind everyone of a 'no-material-gifts' November 20 to keep the day clean and meaningful." },
+    ],
+    lessons: [
+      { title: "Teaching is the profession of sowing seeds", text: "One hour in a classroom can bloom across an entire lifetime — a lesson about work whose fruit ripens slowest of all." },
+      { title: "Real teachers exist outside school too", text: "Gratitude on November 20 belongs not only to classroom teachers — it is for everyone who ever taught you something in life." },
+      { title: "Learning is lifelong work", text: "Teachers' Day reminds us that a diploma is not the end of learning — the greatest learners are those always willing to learn again." },
     ],
     wishes: [
       "Wishing teachers a November 20 of health, happiness and lasting devotion.",
@@ -1645,6 +1735,11 @@ export const holidaysEn: Holiday[] = [
       { title: "Commending soldiers", text: "Units mark the day with ceremonies commending outstanding soldiers under the motto 'excellent at duty, devoted at home' — young conscripts cooking a meal for policy families is a familiar image of the day." },
       { title: "Border activities", text: "Army Day comes with 'for the borderlands, for the fishermen' work: donating comradeship houses, free clinics in border districts, 'spring at the frontier' exchanges. Naval units begin receiving 'Tết on the islands' gift shipments around this date." },
     ],
+    lessons: [
+      { title: "Discipline creates strength", text: "The army's lesson: a disciplined collective outperforms scattered talented individuals — a principle true for any organization that wants to go far." },
+      { title: "Ordinary people become heroes", text: "Vietnam's army began with farmers, workers, and students — ordinary people become heroes when they carry a responsibility larger than themselves." },
+      { title: "The rear is also a front", text: "History shows victory never came from soldiers alone — it came from millions behind them providing supplies, logistics, and belief." },
+    ],
     wishes: [
       "Happy Vietnam People's Army Day, December 22!",
       "Honoring the soldiers who stand guard over the nation's peaceful sleep.",
@@ -1728,6 +1823,11 @@ export const holidaysEn: Holiday[] = [
       { title: "Church on Christmas Eve", text: "On Christmas Eve the great cathedrals — St. Joseph's in Hanoi, Notre-Dame in HCMC, Phủ Cam in Huế — overflow with visitors, including many non-Christians who come to watch the midnight mass. A religious service turned street festival: that is Vietnam's signature Christmas." },
       { title: "Exchanging gifts", text: "Santas hand out gifts in malls and parks while kids go 'Santa hunting' on Christmas Eve. Families exchange presents under the tree on the morning of the 25th; classes and offices play Secret Santa." },
       { title: "Decorating the tree", text: "Christmas trees — real or 3–10 m artificial ones — go up in front of churches, hotels and walking streets from early December. The nativity grotto recreating the Bethlehem manger is a distinctly Vietnamese touch: each parish and family competes to build the street's grandest." },
+    ],
+    lessons: [
+      { title: "The greatest joy is giving", text: "Christmas teaches that the season's deepest happiness comes from giving — Santa Claus is joyful because he delivers gifts, not because he receives them." },
+      { title: "Goodness crosses every boundary", text: "A religious holy night becoming a whole street's festival shows that sincere goodwill reaches even those who share no faith." },
+      { title: "Greatness begins in a manger", text: "The story of a birth in a humble stone shelter reminds us that the largest things usually begin in the most modest places." },
     ],
     wishes: [
       "Merry Christmas! Wishing you a peaceful, warm Christmas.",
@@ -1822,6 +1922,11 @@ export const holidaysEn: Holiday[] = [
       { title: "Cleaning the house", text: "Once the Kitchen Gods depart, the house is 'free of spirits' — the perfect moment for the final clean: dusting cobwebs, repairing the altar, replacing incense bowls, a deep clean before Tết. The folk logic is really a clever nudge to get the whole house ready for the New Year." },
       { title: "Offerings to the Earth God", text: "Alongside the kitchen's Táo quân, the household also offers to the Earth God — the deity guarding the land of the home — with its own or a shared tray. The saying 'first the Kitchen God, second the Earth God' recalls the two closest deities in a Vietnamese house, both sent off this night." },
     ],
+    lessons: [
+      { title: "The kitchen is the heart of the home", text: "Worshipping the Kitchen Gods reminds us the hearth is not just where meals are cooked — it is the family 'shrine' that keeps warmth alive." },
+      { title: "What happens at home still counts", text: "The legend of the Kitchen Gods reporting to heaven reminds us that how we treat each other in a small kitchen is the truest 'report' of who we are." },
+      { title: "Tidying the house tidies the heart", text: "Sweeping the house after sending off the Kitchen Gods is centuries of folk wisdom: a tidy home first, a tidy mind follows — outside in still works best." },
+    ],
     wishes: [
       "May your home's hearth stay warm and full of love all year!",
       "The Táo quân fly to heaven with good news — wishing your family peace as Tết arrives!",
@@ -1907,6 +2012,11 @@ export const holidaysEn: Holiday[] = [
       { title: "A vegetarian day", text: "Many families eat vegetarian on the 3rd of the third month — cleansing in early spring and recalling the old 'day without fire' that allowed only cold food. Still, in Vietnam the day is remembered most for its two sweet floating cakes." },
       { title: "Pagoda visits", text: "Many households choose the day for a pagoda visit or one last spring outing before routine resumes after the first full moon. Children remember the 3rd of the third month for 'floating cakes' — the sweet soup grandparents never fail to cook." },
     ],
+    lessons: [
+      { title: "Honour those who quietly keep the flame", text: "The tale of Jie Zitui reminds us that loyalty seeks no fame — the person who asks for no credit is the one most worth remembering." },
+      { title: "Some days the fire should rest", text: "The 'cold food' festival that once forbade cooking reminds us people need days with the fire lowered — rest and purification are necessary rituals too." },
+      { title: "Simplicity travels the farthest", text: "Plain white floating dumplings have stayed sweet for over a thousand years — a folk-wisdom lesson: the simplest things live longest in memory." },
+    ],
     wishes: [
       "Wishing your family a sweet and serene Hàn thực day!",
       "Round bánh trôi — may your life be full and sweet!",
@@ -1988,6 +2098,11 @@ export const holidaysEn: Holiday[] = [
       { title: "Glutinous-rice wine", text: "Rượu nếp — fermented golden-flower sticky rice rolled into little balls — is the must-have of the 5th-day noon meal; its sweet warmth is said to burn off the last parasites. Children get the cooked version; adults take the raw wine with a pinch of sesame salt and chili." },
       { title: "Gathering noon herbs", text: "Between 11 am and 1 pm on the 5th — the Hour of the Horse on the Day of the Horse in the Month of the Horse — yang energy is believed to peak, making herbs picked then the most potent. People once gathered mugwort and bamboo leaves to dry for year-round remedies." },
       { title: "Burning vía & five-color threads", text: "At dusk some places used to burn small vía fires at the gate to 'drive off pests' — rare today for safety. But the customs of airing clothes in the sun and hanging mugwort by the door still carry the old spirit of cleansing at the start of summer." },
+    ],
+    lessons: [
+      { title: "Prevent illness with early clarity", text: "The 'pest-killing' festival works like a folk public-health day — the lesson is to prevent early and keep body and mind clean before the 'pests' grow large." },
+      { title: "The best medicine grows nearby", text: "Mugwort, bamboo leaves, sour summer fruit — our ancestors remind us the best remedies often grow right around us, if we only look closely." },
+      { title: "Right task, right hour", text: "The noon hour of the Ngọ day teaches that the same action at the right moment yields different results — wisdom is choosing the timing." },
     ],
     wishes: [
       "A healthy Đoan Ngọ — may your family have a happy, ailment-free summer!",
@@ -2077,6 +2192,11 @@ export const holidaysEn: Holiday[] = [
       { title: "Free clinics", text: "Around this day, volunteer medical teams run free check-ups in remote highlands — dispensing medicine, ultrasounds and charity eye surgeries. The profession calls it 'the most beautiful work of our own day'." },
       { title: "Tributes in the press", text: "Newspapers and TV devote special features to doctors: the night-shift emergency physician, the 'jungle doctor' who fought malaria for thirty years, the female doctor in the mountains. These stories each February 27 bring medicine closer to the public." },
     ],
+    lessons: [
+      { title: "Healing is a profession of virtue", text: "Doctors are called 'teachers of medicine' because the craft demands virtue before skill — a lesson about responsibility true for every profession." },
+      { title: "Do not forget those who heal you", text: "February 27 reminds us doctors are also ordinary people working overnight shifts — respecting them is respecting our own lives." },
+      { title: "Healing requires lifelong study", text: "Even the best doctors must read new research every week — a lesson in continuous learning for the profession that demands the most precision." },
+    ],
     wishes: [
       "Wishing our healers health — to save even more lives!",
       "Thank you, doctors, for watching the nights like parents — may your kind hearts stay ever fresh!",
@@ -2158,6 +2278,11 @@ export const holidaysEn: Holiday[] = [
       { title: "Journalists' gatherings", text: "Journalists' associations and newsrooms hold tradition meetings: honoring veteran reporters, issuing new membership cards, and recalling June 21, 1925 — when Nguyễn Ái Quốc founded the newspaper Thanh Niên." },
       { title: "Press exhibitions", text: "The national press exhibition and spring newspaper fairs display award-winning work alongside historic front pages — from Hán-script colonial papers to modern digital newsrooms. The day lets readers see the 'workshop' behind the news." },
       { title: "Talks on the craft", text: "Panels around the day discuss digital transformation, AI in the newsroom and press ethics in the era of fake news — the hottest questions facing the profession at each stage." },
+    ],
+    lessons: [
+      { title: "Truth needs its keepers", text: "Journalism exists to tell the truth when telling it is hard — that is the biggest lesson of the press and of every person in the age of fake news." },
+      { title: "Readers share the responsibility", text: "Good reporting builds trust; fake news destroys it — today's reader bears the same duty to share responsibly as the writer does to report." },
+      { title: "A pen can outweigh a weapon", text: "From the 1925 Thanh Nien newspaper to today's press, the lesson is that a pen guided by conscience can achieve what force cannot." },
     ],
     wishes: [
       "May our journalists keep the fire of fairness — may the pen stay firm!",
@@ -2241,6 +2366,11 @@ export const holidaysEn: Holiday[] = [
       { title: "Visiting the elderly", text: "Local Elderly Associations go door to door gifting citizens turning 80, 90 and 100 — milk, warm blankets, envelopes with wishes of long life; every commune keeps its own 'map of elders' so no household is missed." },
       { title: "Senior club activities", text: "Elderly clubs are the real playground of rural seniors: poetry, chess, qigong, folk dance — many hold 'talented elder' contests around October 1. In the cities the day pairs with 'living healthy, living joyful' campaigns." },
       { title: "Children coming home", text: "October 1 falls on an early-autumn weekend window — many children working far away pick it to come home and celebrate their grandparents. The 'day of grandparents' is also a nudge for the young to call their elders more often." },
+    ],
+    lessons: [
+      { title: "Elders are living libraries", text: "Every elder who passes away is a history book closing — losing that book before reading it is a loss for the whole family." },
+      { title: "Honouring the old honours your future self", text: "How we treat older people today is how our children will treat us tomorrow — the simplest lesson of cause and effect." },
+      { title: "Golden age is not the end", text: "Older people are 'tall trees giving broad shade', not withered trunks — the golden years can be a life's deepest season of contribution." },
     ],
     wishes: [
       "Wishing our grandparents a hundred years of life and a tranquil heart!",
@@ -2329,6 +2459,11 @@ export const holidaysEn: Holiday[] = [
       { title: "Company awards", text: "The season brings respected prizes: the Thánh Gióng Cup for outstanding entrepreneurs, Sao Đỏ for community-minded firms, the VNR500 list of largest companies. The October 13 honors form the business world's annual 'gold board'." },
       { title: "Charitable work", text: "Beyond awards, many corporations pick October 13 as a shared day of giving: scholarships, charity houses, healthcare sponsorships. 'Entrepreneurs do more than get rich' is the message repeated every year." },
     ],
+    lessons: [
+      { title: "Business is a responsibility", text: "A true entrepreneur does more than make money — they keep jobs for others, contribute to the nation through honest taxes and honest products." },
+      { title: "Dare to start from nothing", text: "The biggest entrepreneurial lesson is daring to begin from zero — but daring does not mean blindness; calculation must go with it." },
+      { title: "Reputation outlasts profit", text: "The awards honoured on October 13 remind us: the longest-surviving companies are not the most profitable — they are the most trusted." },
+    ],
     wishes: [
       "May Vietnamese entrepreneurs keep the startup fire — prosperous business ahead!",
       "May Vietnam's business community stride firmly on the world stage!",
@@ -2411,6 +2546,11 @@ export const holidaysEn: Holiday[] = [
       { title: "Anniversary ceremonies", text: "Party committees from commune to central level hold solemn February 3 ceremonies: recalling the 1930 conference in Kowloon (Hong Kong) that merged the three communist organizations, reviewing nine-plus decades of history, and screening archival films." },
       { title: "New member induction", text: "Founding Day is 'induction season': outstanding young people, soldiers and model workers are admitted as party members in solemn ceremonies — a moment each new member calls their 'second birthday'." },
       { title: "Volunteer campaigns", text: "Local party cells run volunteer days around February 3: environmental clean-ups, tree planting, blood donation, visits to policy families. 'Every member a good deed' is the day's familiar slogan." },
+    ],
+    lessons: [
+      { title: "Ideals need organization", text: "The lesson of February 3, 1930: people who share a conviction only create change when they organize — talented individuals need a collective to go far." },
+      { title: "Unite before you struggle", text: "Merging three organizations into one shows that division is the first weakness to remove — big work requires standing in one rank first." },
+      { title: "Ideals are measured by deeds", text: "Conviction only matters when turned into concrete action — 'each member one good deed' is how an ideal enters everyday life." },
     ],
     wishes: [
       "On the Party's founding day, may Vietnam stay united and prosperous.",
@@ -2497,6 +2637,11 @@ export const holidaysEn: Holiday[] = [
       { title: "Ceremonies in Điện Biên", text: "The province holds annual commemorations; milestone years (60th, 65th, 70th) rise to state level — the 70th in 2024 featured parades and the largest exhibitions the Northwest has ever seen." },
       { title: "Archives and exhibitions", text: "The Điện Biên Phủ Museum and libraries open archival displays: maps of De Castries' command bunker, soldiers' letters, photos of Corps 559 hauling artillery through the forest. On May 7 the documents 'come alive' for the public." },
     ],
+    lessons: [
+      { title: "Strategy beats firepower", text: "Dien Bien Phu teaches that the side weaker in equipment can still win with the right strategy, careful preparation, and unshakable will." },
+      { title: "Prepare long to win once", text: "The campaign lasted 56 days and nights but was prepared for a year — great victories come from silent labour nobody sees." },
+      { title: "The people's will is the strongest fortress", text: "Tens of thousands of porters hauling artillery over mountains proved it: when a people is united, that is a fortress no weapon can break." },
+    ],
     wishes: [
       "May 7 — proud of Điện Biên, proud of those who hauled cannons through jungle.",
       "Honoring the heroic generation of Điện Biên Phủ — famed across five continents.",
@@ -2580,6 +2725,11 @@ export const holidaysEn: Holiday[] = [
       { title: "Mausoleum visits", text: "From early morning on May 19, thousands queue to enter the Mausoleum — every delegation in formal order, laying wreaths. His birthday is one of the Mausoleum's busiest days of the year, alongside September 2." },
       { title: "Pilgrimage to Kim Liên", text: "Hoàng Trù–Kim Liên village (Nam Đàn, Nghệ An), where he was born, welcomes its biggest 'back to the roots' crowds on May 19: flowers at the thatched parental home, incense at the maternal home, ví-giặm folk singing all day." },
       { title: "Arts honoring him", text: "Singing and storytelling contests about him bloom across schools and communes around May 19. Books, films and archives about his life are reintroduced to the young through the gentlest stories." },
+    ],
+    lessons: [
+      { title: "Simplicity is the hardest greatness", text: "Ho Chi Minh teaches the hardest lesson: the greater the person, the simpler they must be — the khaki jacket and rubber sandals were a great man's 'uniform'." },
+      { title: "Virtue before talent", text: "The lesson he left behind: virtue before talent, deeds before words — a talented person without virtue rarely travels far." },
+      { title: "Love knows no border", text: "From Kim Lien village out into the whole world, he taught that compassion has no boundary — love of country always begins with love of people." },
     ],
     wishes: [
       "Honoring Uncle Hồ — the man who taught us to love our country with his whole life.",
@@ -2665,6 +2815,11 @@ export const holidaysEn: Holiday[] = [
       { title: "Parades and flags", text: "The capital's streets fly red flags all week; youth delegations march with the banner 'Nothing is more precious than independence and freedom' through the walking streets. Provinces tie the day to their own revolutionary tradition dates." },
       { title: "Traditional activities", text: "Organizations and schools hold 'August stories' sessions: the columns advancing on Hanoi, the bronze bugle of the uprising, village elders leading communes to take power. August 19 is also the tradition day of the People's Police." },
     ],
+    lessons: [
+      { title: "Opportunity waits for no one", text: "August 1945 teaches that a historic opening comes only once — Vietnam seized it because it had been preparing for a decade." },
+      { title: "Shared will is a weapon", text: "Hundreds of thousands of unarmed citizens took back state power — proof that united determination can be a nation's strongest 'weapon'." },
+      { title: "Every person is a piece of history", text: "The revolution was not made by a few — every citizen who walked into the street that day was one tile in the great mosaic of history." },
+    ],
     wishes: [
       "Proud of August! May the nation forever keep the flag of independence raised then.",
       "August 19 — remembering the day Hanoi rose; wishing the land everlasting peace.",
@@ -2749,6 +2904,11 @@ export const holidaysEn: Holiday[] = [
       { title: "Streets ablaze with flags", text: "The Old Quarter floods with flags around October 10 — flags over ancient tiled roofs, along Hàng Đào–Hàng Ngang where the liberation columns entered in 1954. Tourism bodies run 'in the footsteps of the takeover' tours for visitors." },
       { title: "'Hanoi remembers' exhibitions", text: "The Hanoi Museum and book-street exhibitions show 'the takeover days': bicycles carrying soldiers, shops reopening on the first morning, family letters bearing the news. The 'stories of those who stayed' are always the most-read section." },
     ],
+    lessons: [
+      { title: "A capital is a nation's heartbeat", text: "The liberation showed that a capital city is more than a place — it is where a whole people looks to know they are winning." },
+      { title: "A city's memory must be kept", text: "The 'Hanoi Remembers' exhibitions warn that urban memory is an asset — without care, the future holds only soulless buildings." },
+      { title: "Culture marches beside war", text: "Wartime Hanoi still printed papers, wrote poems, and shot films — the lesson is that culture keeps a nation's spirit alight in every era." },
+    ],
     wishes: [
       "October 10 — may Hanoi forever be the nation's proud heart.",
       "Remembering the day flags covered every street — wishing the capital more flowers, the country more peace.",
@@ -2830,6 +2990,11 @@ export const holidaysEn: Holiday[] = [
       { title: "Donating books", text: "Charities and schools run 'book-donation weeks': collecting used books for the highlands, building classroom shelves, funding commune libraries. April 21 is also when families pick 'a reading tradition' for their children." },
       { title: "Launches & author talks", text: "Publishers time new titles for Reading Day — author-reader meetups in bookstores and livestreams. The April 21 'meet the author' sessions draw young readers queuing for signatures." },
     ],
+    lessons: [
+      { title: "Books are silent friends", text: "Book Day reminds us the wisdom of all humanity fits inside one small shelf — reading is the cheapest way to 'borrow' millions of years of experience." },
+      { title: "Reading is exercise for the mind", text: "An hour of reading a day is a workout for the brain — a small habit that compounds into a large distance between one person and another." },
+      { title: "A book grows as it travels", text: "Giving a book is planting culture — a volume passing through many hands creates value far beyond its price." },
+    ],
     wishes: [
       "April 21 — may a good book always wait on your nightstand.",
       "Every turned page opens a new horizon — may you never run out of horizons.",
@@ -2909,6 +3074,11 @@ export const holidaysEn: Holiday[] = [
       { title: "Morning exercise", text: "Sports Day recalls Hồ Chí Minh's 'morning exercise' appeal — parks on the morning of March 27 are livelier than usual with qigong classes, folk dance and free public yoga." },
       { title: "Grassroots tournaments", text: "The Phù Đổng Children's Games, commune fun-runs and inter-office badminton — the 'whole people train following his example' movement peaks in March. Sports Day opens the amateur season for the year." },
       { title: "Honoring achievements", text: "The sector uses the date to honor medalists of SEA Games, ASIAD and the Olympics. March 27 was chosen because on March 27, 1946 Hồ Chí Minh signed the decree founding Vietnamese sport." },
+    ],
+    lessons: [
+      { title: "Health is capital for every task", text: "The lesson Ho Chi Minh left: health is not a private matter — only the healthy can work well, live joyfully, and contribute to life." },
+      { title: "Exercise does not wait for a stadium", text: "The Olympic Run Day shows sport begins with two feet — no expensive equipment needed, just twenty minutes a day." },
+      { title: "Sport teaches character", text: "Playing sports teaches you to lose while respecting your rival and win without arrogance — lessons in character that classrooms rarely teach by book." },
     ],
     wishes: [
       "March 27 — stay fit like an athlete, play hard, live fully.",
@@ -2991,6 +3161,11 @@ export const holidaysEn: Holiday[] = [
       { title: "Law quizzes in schools", text: "Schools run 'learn the law' contests with everyday scenarios: riding without a helmet, labor contracts, social media conduct — students learn law through games instead of lectures." },
       { title: "Honoring legal workers", text: "The justice sector holds tradition meetings honoring drafters, judges, lawyers and legal officers — and recalls November 9, 1946, when the first National Assembly passed Vietnam's first constitution." },
     ],
+    lessons: [
+      { title: "Law exists to protect the weak", text: "Law's first purpose is to keep the strong from crushing the weak — understanding basic law is how you protect yourself and your family." },
+      { title: "The constitution is the national covenant", text: "November 9, 1946 reminds us the constitution is a country's most fundamental 'contract' — every other law starts there." },
+      { title: "Keep the law when nobody watches", text: "The day's deepest lesson: obeying the law is not fear of punishment — a civilized society is measured by how citizens behave with no one supervising." },
+    ],
     wishes: [
       "November 9 — may you live truly free within clearly drawn bounds.",
       "Know the law to protect yourself; respect the law to protect each other — have a meaningful Law Day.",
@@ -3070,6 +3245,11 @@ export const holidaysEn: Holiday[] = [
       { title: "Honoring businesses", text: "Trade Day honors export achievers: 'trusted exporter' awards and top FDI exporters — where October 13 honors the entrepreneur as a person, this day honors the trading organization." },
       { title: "Trade seminars", text: "The Ministry of Industry and Trade and export associations hold seminars around the date: EU–US–Japan market trends, tapping EVFTA, cross-border e-commerce — the hottest questions of Vietnamese exports." },
       { title: "Vietnamese-goods week", text: "'Vietnamese Goods Week' and the 'Vietnamese people prioritize Vietnamese goods' campaign run for the occasion: supermarkets discount domestic products and regional specialty fairs bring 'Made in Vietnam' to Vietnamese shoppers first." },
+    ],
+    lessons: [
+      { title: "Trade is a thread to the world", text: "Vietnamese goods reach nearly two hundred markets — the lesson is a nation rises not only by military strength but by the quality of each product shipped." },
+      { title: "Vietnamese goods need trust at home first", text: "'Vietnamese people prioritize Vietnamese goods' reminds us a national brand can only travel the world once its own people trust it." },
+      { title: "Products are cultural ambassadors", text: "Every exported item carries a story of home — coffee, ao dai, and handicrafts are 'ambassadors' Vietnam sends across the world." },
     ],
     wishes: [
       "July 13 — may traders meet fortune: easy buying, brisk selling, wealth flowing.",
@@ -3152,6 +3332,11 @@ export const holidaysEn: Holiday[] = [
       { title: "Tradition gatherings", text: "Solemn ceremonies retell Union history from March 26, 1931 in Vinh, remembering Lý Tự Trọng — the first member to die, at just 17 — and reuniting generations of Union members." },
       { title: "Volunteer building", text: "Union-built 'youth roads', rural bridges and cultural houses are the tradition's signature output: from the legendary Hồ Chí Minh road to today's 'Union to the countryside' village lanes." },
     ],
+    lessons: [
+      { title: "Youth is for stepping forward", text: "Ly Tu Trong gave his life at seventeen for his ideals — the lesson is that youth is measured by how much you dare to give, not how long it lasts." },
+      { title: "A collective lifts the individual", text: "The Union is a 'school of society' for young people — the lesson is that one person's weaknesses can be raised by a good collective." },
+      { title: "Volunteering is a way to grow up", text: "Green Summer and Youth Month teach that working without pay is the fastest road for a young person to become an adult." },
+    ],
     wishes: [
       "March 26 — may your youth always have a front line of your own to step up to.",
       "Wishing every union member keeps the fire of zeal — in lecture halls, labs, or remote villages.",
@@ -3232,6 +3417,11 @@ export const holidaysEn: Holiday[] = [
       { title: "Reading together", text: "Poetry cafés, verse clubs and schools hold their own 'poetry hour': each person brings a beloved poem to read aloud. For one night, Vietnamese verse becomes a true community activity." },
       { title: "Annual theme", text: "Each year the Vietnam Writers' Association sets a theme for Poetry Day — 'Poetry and homeland', 'Poetry of spring' — and the week's contests and exhibitions revolve around it." },
       { title: "Honoring poets", text: "The day also celebrates beloved poets and awards the year's verse prizes — Nguyễn Du, Xuân Quỳnh and the 'humanist' generation are recalled; many children hear their own voices recite before a crowd for the first time." },
+    ],
+    lessons: [
+      { title: "A nation lives on rhythm", text: "Poetry Day reminds us a people does not live by bread alone — it lives on the rhythm of its language, its songs, and its verse." },
+      { title: "Everyone owns one poem", text: "The lesson of Poetry Night at Van Mieu: poetry is not only for poets — every person has one poem tied to their life, simply not yet spoken." },
+      { title: "Beauty lives in the way we look", text: "Reading poetry teaches that beauty is not inside objects but inside the gaze — learning to see beautifully is learning to live more slowly." },
     ],
     wishes: [
       "First full moon — may your year slow down just enough to hear the meter of your own life.",
@@ -3316,6 +3506,11 @@ export const holidaysEn: Holiday[] = [
       { title: "Health themes", text: "Each International Men's Day carries a men's-health theme: prostate cancer, male mental health — tied to the global Movember movement growing mustaches through November for men's-health causes." },
       { title: "Honoring role models", text: "The day honors positive male role models: single fathers raising children, devoted male nurses, men who have donated blood a hundred times — 'good men worth knowing' are sought out and their stories retold." },
       { title: "Paired with March 8", text: "In Vietnam, November 19 is often treated as the day men 'receive back' what March 8 gives women — a dinner cooked by the man himself, a gift for Dad. Though unofficial, it is slowly becoming a new cultural habit." },
+    ],
+    lessons: [
+      { title: "Men need care too", text: "The lesson of Men's Day: 'men must be strong' can be a trap — men also need to be asked after, allowed to be weak, and allowed to cry." },
+      { title: "Caring for health is a responsibility", text: "Movember reminds us that regular check-ups are not 'fear of pain' — they are a grown man's responsibility toward his family." },
+      { title: "A good example spreads through the home", text: "A good father, a husband who cooks, a man who says thank you — a beautiful model of manhood radiates through an entire family." },
     ],
     wishes: [
       "November 19 — wishing the men in your life good health, and the courage to say when they're tired.",

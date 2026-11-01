@@ -82,10 +82,12 @@ export interface Messages {
     customs: string;
     cuisine: string;
     facts: string;
+    lessons: string;
     wishes: string;
     wishSuggest: string;
     gifts: string;
     images: string;
+    related: string;
     storyEyebrow: string;
     readMore: string;
     faqTitle: string;

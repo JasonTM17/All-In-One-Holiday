@@ -96,6 +96,17 @@ export default function HolidayPage({
   const idx = holidays.findIndex((x) => x.slug === slug);
   const prev = holidays[(idx - 1 + holidays.length) % holidays.length];
   const next = holidays[(idx + 1) % holidays.length];
+  // "Discover more" strip: siblings sharing the page's primary category first,
+  // then any other holiday so the row always fills three cards.
+  const relCat = h.categories[0];
+  const related = [
+    ...holidays.filter(
+      (o) => o.slug !== slug && o.categories[0] === relCat,
+    ),
+    ...holidays.filter(
+      (o) => o.slug !== slug && o.categories[0] !== relCat,
+    ),
+  ].slice(0, 3);
   const eventYear = new Date().getFullYear();
   const hero = h.heroStyle ?? "classic";
   // First category drives the page skin (card radius + heading glyph);
@@ -294,15 +305,34 @@ export default function HolidayPage({
             >
               {t.holiday.origin}
             </h2>
-            <div className="timeline mt-8 space-y-6">
-              {h.history.map((p) => (
-                <p
-                  key={p.slice(0, 24)}
-                  className="timeline-item leading-relaxed text-[var(--color-muted)]"
+            <div className="mt-8 lg:grid lg:grid-cols-[minmax(0,1fr)_16rem] lg:items-start lg:gap-10">
+              <div className="timeline space-y-6">
+                {h.history.map((p) => (
+                  <p
+                    key={p.slice(0, 24)}
+                    className="timeline-item leading-relaxed text-[var(--color-muted)]"
+                  >
+                    {p}
+                  </p>
+                ))}
+              </div>
+              <figure className="mt-8 lg:sticky lg:top-24 lg:mt-0">
+                <HImg
+                  src={`${h.slug}/card.webp`}
+                  thumb={{ slug: h.slug, base: "card" }}
+                  alt={t.holiday.heroAlt(h.name)}
+                  width={480}
+                  height={480}
+                  sizes="(min-width: 1024px) 16rem, 100vw"
+                  className="aspect-[4/3] w-full rounded-2xl object-cover shadow-lg"
+                />
+                <figcaption
+                  className="mt-3 border-l-2 pl-3 text-xs leading-relaxed text-[var(--color-faint)]"
+                  style={{ borderColor: h.theme.to }}
                 >
-                  {p}
-                </p>
-              ))}
+                  {h.tagline}
+                </figcaption>
+              </figure>
             </div>
           </section>
         </div>
@@ -738,6 +768,46 @@ export default function HolidayPage({
             </div>
           </section>
         </div>
+
+        <div data-rv className="cv-auto">
+          <section aria-labelledby="bai-hoc">
+            <h2
+              id="bai-hoc"
+              className="sec-h2 font-display text-3xl font-extrabold text-[var(--color-ink)]"
+            >
+              {t.holiday.lessons}
+            </h2>
+            <ol className="mt-8 grid gap-5 sm:grid-cols-3">
+              {h.lessons.map((l, i) => (
+                <li
+                  key={l.title}
+                  className="card relative overflow-hidden p-5"
+                >
+                  <div
+                    aria-hidden="true"
+                    className="absolute inset-x-0 top-0 h-1"
+                    style={{
+                      background: `linear-gradient(90deg, ${h.theme.from}, ${h.theme.to})`,
+                    }}
+                  />
+                  <span
+                    aria-hidden="true"
+                    className="font-display text-3xl font-black leading-none"
+                    style={{ color: h.theme.to }}
+                  >
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
+                  <p className="mt-3 font-bold text-[var(--color-ink)]">
+                    {l.title}
+                  </p>
+                  <p className="mt-1 text-sm leading-relaxed text-[var(--color-muted)]">
+                    {l.text}
+                  </p>
+                </li>
+              ))}
+            </ol>
+          </section>
+        </div>
       </div>
 
       {/* ---------- Wishes marquee + cards ---------- */}
@@ -924,6 +994,53 @@ export default function HolidayPage({
             </h2>
             <div className="mt-8">
               <Faq items={h.faq} />
+            </div>
+          </section>
+        </div>
+
+        <div data-rv className="cv-auto">
+          <section aria-labelledby="kham-pha-them">
+            <h2
+              id="kham-pha-them"
+              className="sec-h2 font-display text-3xl font-extrabold text-[var(--color-ink)]"
+            >
+              {t.holiday.related}
+            </h2>
+            <div className="mt-6 grid gap-4 sm:grid-cols-3">
+              {related.map((o) => (
+                <Link
+                  key={o.slug}
+                  href={lp(`/${o.slug}/`)}
+                  className="card group overflow-hidden"
+                >
+                  <div className="relative overflow-hidden">
+                    <HImg
+                      src={`${o.slug}/card.webp`}
+                      thumb={{ slug: o.slug, base: "card" }}
+                      alt={o.name}
+                      width={480}
+                      height={480}
+                      sizes="(min-width: 640px) 33vw, 100vw"
+                      className="aspect-[4/3] w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
+                    <div
+                      aria-hidden="true"
+                      className="absolute inset-x-0 top-0 h-1"
+                      style={{
+                        background: `linear-gradient(90deg, ${o.theme.from}, ${o.theme.to})`,
+                      }}
+                    />
+                  </div>
+                  <div className="p-4">
+                    <p className="eyebrow text-[var(--color-faint)]">
+                      {o.displayDate}
+                    </p>
+                    <p className="mt-1 font-display text-lg font-bold text-[var(--color-ink)] group-hover:text-[var(--color-brand-deep)]">
+                      {o.name}
+                    </p>
+                  </div>
+                </Link>
+              ))}
             </div>
           </section>
         </div>

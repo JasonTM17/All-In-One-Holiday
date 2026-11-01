@@ -42,6 +42,15 @@ describe("holiday data integrity", () => {
           `${h.slug} tradition "${t.title}" too thin`,
         ).toBeGreaterThanOrEqual(90);
       }
+      // lessons: exactly-3 reflective cards, each with a real takeaway
+      expect(h.lessons.length).toBe(3);
+      for (const l of h.lessons) {
+        expect(l.title.length).toBeGreaterThan(2);
+        expect(
+          l.text.length,
+          `${h.slug} lesson "${l.title}" too thin`,
+        ).toBeGreaterThanOrEqual(90);
+      }
       expect(h.faq.length).toBeGreaterThanOrEqual(3);
       for (const f of h.faq) {
         expect(f.q.length).toBeGreaterThan(8);
@@ -280,6 +289,9 @@ describe("holiday photos", () => {
         v.traditions.length,
       );
       expect(e.faq.length, `${v.slug} faq parity`).toBe(v.faq.length);
+      expect(e.lessons.length, `${v.slug} lessons parity`).toBe(
+        v.lessons.length,
+      );
       expect(e.wishes.length, `${v.slug} wishes parity`).toBe(v.wishes.length);
       expect(e.gifts.length, `${v.slug} gifts parity`).toBe(v.gifts.length);
       // step/beat counts mirror so the layouts line up
