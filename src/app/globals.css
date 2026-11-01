@@ -402,22 +402,94 @@ button.card:hover,
 [data-skin="truyen-thong"] {
   --card-radius: 12px;
 }
-/* Heading glyphs — subtle per-family signature on section titles. */
+/* Heading glyphs — subtle per-family signature on section titles.
+   Painted as masked SVG icons (not text content) so they stay decorative
+   and never leak into the heading's accessible name. */
+.sec-h2::before,
+.sec-h2::after {
+  background-color: var(--skin-accent, var(--color-brand));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 [data-skin="quoc-gia"] .sec-h2::before {
-  content: "\2605\0020";
-  color: var(--skin-accent, var(--color-brand));
-  font-size: 0.72em;
-  vertical-align: 0.18em;
+  content: "";
+  display: inline-block;
+  width: 0.62em;
+  height: 0.62em;
+  margin-right: 0.3em;
+  vertical-align: 0.06em;
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2l2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.3 5.9 20.6l1.4-6.8L2.2 9.1l6.9-.8z'/%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2l2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.3 5.9 20.6l1.4-6.8L2.2 9.1l6.9-.8z'/%3E%3C/svg%3E");
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  mask-size: contain;
 }
 [data-skin="phu-nu"] .sec-h2::after {
-  content: "\0020\2740";
-  color: var(--skin-accent, var(--color-brand));
-  font-size: 0.72em;
+  content: "";
+  display: inline-block;
+  width: 0.62em;
+  height: 0.62em;
+  margin-left: 0.32em;
+  vertical-align: 0.06em;
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg%3E%3Ccircle cx='12' cy='5.4' r='3.1'/%3E%3Ccircle cx='18' cy='10.6' r='3.1'/%3E%3Ccircle cx='15.6' cy='17.4' r='3.1'/%3E%3Ccircle cx='8.4' cy='17.4' r='3.1'/%3E%3Ccircle cx='6' cy='10.6' r='3.1'/%3E%3Ccircle cx='12' cy='12' r='2.3'/%3E%3C/g%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg%3E%3Ccircle cx='12' cy='5.4' r='3.1'/%3E%3Ccircle cx='18' cy='10.6' r='3.1'/%3E%3Ccircle cx='15.6' cy='17.4' r='3.1'/%3E%3Ccircle cx='8.4' cy='17.4' r='3.1'/%3E%3Ccircle cx='6' cy='10.6' r='3.1'/%3E%3Ccircle cx='12' cy='12' r='2.3'/%3E%3C/g%3E%3C/svg%3E");
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  mask-size: contain;
 }
 [data-skin="truyen-thong"] .sec-h2::after {
-  content: "\0020\2727";
-  color: var(--skin-accent, var(--color-brand));
-  font-size: 0.72em;
+  content: "";
+  display: inline-block;
+  width: 0.6em;
+  height: 0.6em;
+  margin-left: 0.34em;
+  vertical-align: 0.08em;
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2c.7 5 3.6 8 8.5 8.5-4.9.5-7.8 3.5-8.5 8.5-.7-5-3.6-8-8.5-8.5C8.4 10 11.3 7 12 2z'/%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2c.7 5 3.6 8 8.5 8.5-4.9.5-7.8 3.5-8.5 8.5-.7-5-3.6-8-8.5-8.5C8.4 10 11.3 7 12 2z'/%3E%3C/svg%3E");
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+
+/* ---------- Heading anchor links ---------- */
+/* Decorative "#" beside section titles for sharing deep links. aria-hidden
+   + tabIndex -1 keep it out of the accessible name and the tab order. */
+.sec-h2 .anchor-link {
+  margin-left: 0.45rem;
+  color: var(--color-faint);
+  font-family: var(--font-body);
+  font-size: 0.6em;
+  font-weight: 700;
+  opacity: 0.35;
+  text-decoration: none;
+  transition:
+    opacity 0.15s ease,
+    color 0.15s ease;
+  vertical-align: 0.15em;
+}
+.sec-h2 .anchor-link:hover,
+.sec-h2 .anchor-link:focus-visible {
+  color: var(--color-brand);
+  opacity: 1;
+}
+@media (hover: hover) {
+  .sec-h2 .anchor-link {
+    opacity: 0;
+  }
+  .sec-h2:hover .anchor-link,
+  .sec-h2:focus-within .anchor-link {
+    opacity: 1;
+  }
 }
 
 /* ---------- Signature polish ---------- */

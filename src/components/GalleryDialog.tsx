@@ -64,13 +64,14 @@ export default function GalleryDialog({
         return;
       }
       if (e.key === "Tab") {
-        // Focus trap across the controls (incl. the credit link when shown).
+        // Focus trap across the controls — close keeps initial focus so the
+        // first Tab lands on prev; the credit link stays reachable both ways.
         const focusables = (
           [
             prevRef.current,
             nextRef.current,
-            closeRef.current,
             creditRef.current,
+            closeRef.current,
           ] as (HTMLElement | null)[]
         ).filter((el): el is HTMLElement => el !== null);
         const active = document.activeElement;

@@ -344,9 +344,17 @@ export default function HolidayPage({
           <section aria-labelledby="nguon-goc">
             <h2
               id="nguon-goc"
-              className="sec-h2 font-display text-3xl font-extrabold text-[var(--color-ink)]"
+              className="sec-h2 group font-display text-3xl font-extrabold text-[var(--color-ink)]"
             >
               {t.holiday.origin}
+              <a
+                href="#nguon-goc"
+                className="anchor-link"
+                aria-hidden="true"
+                tabIndex={-1}
+              >
+                #
+              </a>
             </h2>
             <p className="mt-2 text-xs font-semibold text-[var(--color-faint)]">
               {t.holiday.readTime(readMin)}
@@ -634,9 +642,17 @@ export default function HolidayPage({
         <div data-rv className="mx-auto max-w-4xl px-4 py-16 sm:px-6">
           <h2
             id="phong-tuc"
-            className="sec-h2 font-display text-3xl font-extrabold text-[var(--color-ink)]"
+            className="sec-h2 group font-display text-3xl font-extrabold text-[var(--color-ink)]"
           >
             {t.holiday.traditions}
+            <a
+              href="#phong-tuc"
+              className="anchor-link"
+              aria-hidden="true"
+              tabIndex={-1}
+            >
+              #
+            </a>
           </h2>
           <ul className="mt-8 grid gap-4 sm:grid-cols-3">
             {h.traditions.map((x, i) => (
@@ -696,9 +712,17 @@ export default function HolidayPage({
               </p>
               <h2
                 id="doc-tron"
-                className="mt-2 sec-h2 font-display text-3xl font-extrabold text-[var(--color-ink)]"
+                className="mt-2 sec-h2 group font-display text-3xl font-extrabold text-[var(--color-ink)]"
               >
                 {t.holiday.deepTitle(h.name)}
+                <a
+                  href="#doc-tron"
+                  className="anchor-link"
+                  aria-hidden="true"
+                  tabIndex={-1}
+                >
+                  #
+                </a>
               </h2>
               <div className="mt-6 max-w-3xl space-y-4">
                 {h.deep.ongNguon.map((p) => (
@@ -819,9 +843,17 @@ export default function HolidayPage({
           <section aria-labelledby="bai-hoc">
             <h2
               id="bai-hoc"
-              className="sec-h2 font-display text-3xl font-extrabold text-[var(--color-ink)]"
+              className="sec-h2 group font-display text-3xl font-extrabold text-[var(--color-ink)]"
             >
               {t.holiday.lessons}
+              <a
+                href="#bai-hoc"
+                className="anchor-link"
+                aria-hidden="true"
+                tabIndex={-1}
+              >
+                #
+              </a>
             </h2>
             <ol className="mt-8 grid gap-5 sm:grid-cols-3">
               {h.lessons.map((l, i) => (
@@ -865,9 +897,17 @@ export default function HolidayPage({
           <div data-rv>
             <h2
               id="loi-chuc"
-              className="sec-h2 font-display text-3xl font-extrabold text-[var(--color-ink)]"
+              className="sec-h2 group font-display text-3xl font-extrabold text-[var(--color-ink)]"
             >
               {t.holiday.wishes}
+              <a
+                href="#loi-chuc"
+                className="anchor-link"
+                aria-hidden="true"
+                tabIndex={-1}
+              >
+                #
+              </a>
             </h2>
           </div>
           <div aria-hidden="true" className="marquee mt-8 print:hidden">
@@ -922,9 +962,17 @@ export default function HolidayPage({
         <div data-rv className="mx-auto max-w-4xl px-4 py-16 sm:px-6">
           <h2
             id="qua-tang"
-            className="sec-h2 font-display text-3xl font-extrabold text-[var(--color-ink)]"
+            className="sec-h2 group font-display text-3xl font-extrabold text-[var(--color-ink)]"
           >
             {t.holiday.gifts}
+            <a
+              href="#qua-tang"
+              className="anchor-link"
+              aria-hidden="true"
+              tabIndex={-1}
+            >
+              #
+            </a>
           </h2>
           <ul className="mt-8 grid gap-4 sm:grid-cols-3">
             {h.gifts.map((g, i) => (
@@ -959,9 +1007,17 @@ export default function HolidayPage({
         <div data-rv className="mx-auto max-w-4xl px-4 py-16 sm:px-6">
           <h2
             id="hinh-anh"
-            className="sec-h2 font-display text-3xl font-extrabold text-white print:text-[var(--color-ink)]"
+            className="sec-h2 group font-display text-3xl font-extrabold text-white print:text-[var(--color-ink)]"
           >
             {t.holiday.images}
+            <a
+              href="#hinh-anh"
+              className="anchor-link"
+              aria-hidden="true"
+              tabIndex={-1}
+            >
+              #
+            </a>
           </h2>
           <GalleryGrid
             slug={h.slug}
@@ -995,9 +1051,17 @@ export default function HolidayPage({
                 <p className="eyebrow text-[var(--color-brand)]">{t.holiday.storyEyebrow}</p>
                 <h2
                   id="cau-chuyen"
-                  className="mt-2 sec-h2 font-display text-3xl font-extrabold text-[var(--color-ink)]"
+                  className="mt-2 sec-h2 group font-display text-3xl font-extrabold text-[var(--color-ink)]"
                 >
                   {st.story.title}
+                  <a
+                    href="#cau-chuyen"
+                    className="anchor-link"
+                    aria-hidden="true"
+                    tabIndex={-1}
+                  >
+                    #
+                  </a>
                 </h2>
                 <p className="mt-5 max-w-3xl leading-relaxed text-[var(--color-muted)]">
                   {st.story.body}
@@ -1034,9 +1098,17 @@ export default function HolidayPage({
           <section aria-labelledby="faq">
             <h2
               id="faq"
-              className="sec-h2 font-display text-3xl font-extrabold text-[var(--color-ink)]"
+              className="sec-h2 group font-display text-3xl font-extrabold text-[var(--color-ink)]"
             >
               {t.holiday.faqTitle}
+              <a
+                href="#faq"
+                className="anchor-link"
+                aria-hidden="true"
+                tabIndex={-1}
+              >
+                #
+              </a>
             </h2>
             <div className="mt-8">
               <Faq items={h.faq} />
@@ -1048,9 +1120,17 @@ export default function HolidayPage({
           <section aria-labelledby="kham-pha-them">
             <h2
               id="kham-pha-them"
-              className="sec-h2 font-display text-3xl font-extrabold text-[var(--color-ink)]"
+              className="sec-h2 group font-display text-3xl font-extrabold text-[var(--color-ink)]"
             >
               {t.holiday.related}
+              <a
+                href="#kham-pha-them"
+                className="anchor-link"
+                aria-hidden="true"
+                tabIndex={-1}
+              >
+                #
+              </a>
             </h2>
             <div className="mt-6 grid gap-4 sm:grid-cols-3">
               {related.map((o) => (
