@@ -7,6 +7,7 @@
 // to the trigger that opened it. Caption comes from the image alt text.
 import { useEffect, useRef } from "react";
 import HImg from "./HImg";
+import { photoCredit } from "@/lib/photo-credit";
 import type { GalleryItem, GalleryLabels } from "./GalleryGrid";
 
 export default function GalleryDialog({
@@ -27,7 +28,9 @@ export default function GalleryDialog({
   const closeRef = useRef<HTMLButtonElement>(null);
   const prevRef = useRef<HTMLButtonElement>(null);
   const nextRef = useRef<HTMLButtonElement>(null);
+  const creditRef = useRef<HTMLAnchorElement>(null);
   const it = items[index];
+  const credit = photoCredit(slug, it.base);
   const counter = labels.counter
     .replace("{n}", String(index + 1))
     .replace("{total}", String(items.length));
@@ -61,14 +64,17 @@ export default function GalleryDialog({
         return;
       }
       if (e.key === "Tab") {
-        // Focus trap across the three controls.
-        const focusables = [
-          prevRef.current,
-          nextRef.current,
-          closeRef.current,
-        ].filter((el): el is HTMLButtonElement => el !== null);
+        // Focus trap across the controls (incl. the credit link when shown).
+        const focusables = (
+          [
+            prevRef.current,
+            nextRef.current,
+            closeRef.current,
+            creditRef.current,
+          ] as (HTMLElement | null)[]
+        ).filter((el): el is HTMLElement => el !== null);
         const active = document.activeElement;
-        const i = focusables.indexOf(active as HTMLButtonElement);
+        const i = focusables.indexOf(active as HTMLElement);
         e.preventDefault();
         const next = e.shiftKey
           ? focusables[(i - 1 + focusables.length) % focusables.length]
@@ -113,6 +119,17 @@ export default function GalleryDialog({
           <span aria-hidden="true" className="ml-2 text-white/60">
             · {counter}
           </span>
+          {credit && (
+            <a
+              ref={creditRef}
+              href={credit.photo}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-1 block text-xs font-normal text-white/55 underline-offset-2 transition-colors hover:text-white hover:underline"
+            >
+              {credit.photographer} · {credit.license} · {credit.source}
+            </a>
+          )}
         </figcaption>
       </figure>
 

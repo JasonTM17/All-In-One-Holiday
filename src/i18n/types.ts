@@ -89,6 +89,8 @@ export interface Messages {
     images: string;
     related: string;
     toc: string;
+    toTop: string;
+    readTime: (m: number) => string;
     storyEyebrow: string;
     readMore: string;
     faqTitle: string;

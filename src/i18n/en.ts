@@ -80,6 +80,8 @@ export const en: Messages = {
     images: "Photos",
     related: "Discover more",
     toc: "On this page",
+    toTop: "Back to top",
+    readTime: (m) => `~${m} min read`,
     storyEyebrow: "Stories",
     readMore: "Read more",
     faqTitle: "Frequently asked questions",

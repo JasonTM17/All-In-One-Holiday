@@ -16,6 +16,7 @@ import HImg from "@/components/HImg";
 import LightboxImg from "@/components/LightboxImg";
 import GalleryGrid from "@/components/GalleryGrid";
 import ScrollProgress from "@/components/ScrollProgress";
+import BackToTop from "@/components/BackToTop";
 import { HERO_LQIP } from "@/data/hero-lqip";
 import { HERO_TINT } from "@/data/hero-sizes";
 import { getStrings, localePath, type Locale } from "@/i18n";
@@ -93,6 +94,17 @@ export default function HolidayPage({
   const h = holidayOf(slug, locale);
   if (!h) notFound();
   const lp = (p: string) => localePath(locale, p);
+  const words = [
+    ...h.history,
+    ...h.deep.ongNguon,
+    ...h.deep.phongTuc.map((x) => x.text),
+    ...h.deep.facts,
+    ...h.traditions.map((x) => x.text),
+    ...h.lessons.map((x) => x.text),
+  ]
+    .join(" ")
+    .split(/\s+/).length;
+  const readMin = Math.max(2, Math.round(words / 200));
 
   const idx = holidays.findIndex((x) => x.slug === slug);
   const prev = holidays[(idx - 1 + holidays.length) % holidays.length];
@@ -336,6 +348,9 @@ export default function HolidayPage({
             >
               {t.holiday.origin}
             </h2>
+            <p className="mt-2 text-xs font-semibold text-[var(--color-faint)]">
+              {t.holiday.readTime(readMin)}
+            </p>
             <div className="mt-8 lg:grid lg:grid-cols-[minmax(0,1fr)_16rem] lg:items-start lg:gap-10">
               <div className="timeline space-y-6">
                 {h.history.map((p) => (
@@ -1117,6 +1132,7 @@ export default function HolidayPage({
           ))}
         </nav>
       </div>
+        <BackToTop label={t.holiday.toTop} />
       </div>
       </Reveals>
     </>

@@ -80,6 +80,8 @@ export const vi: Messages = {
     images: "Hình ảnh",
     related: "Khám phá thêm",
     toc: "Mục lục trang",
+    toTop: "Lên đầu trang",
+    readTime: (m) => `~${m} phút đọc`,
     storyEyebrow: "Câu chuyện",
     readMore: "Đọc thêm",
     faqTitle: "Câu hỏi thường gặp",

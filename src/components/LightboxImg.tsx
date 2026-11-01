@@ -7,6 +7,7 @@
 // on close, and locks body scroll while open.
 import { useEffect, useRef, useState } from "react";
 import HImg from "./HImg";
+import { photoCredit } from "@/lib/photo-credit";
 
 type Props = {
   slug: string;
@@ -40,6 +41,7 @@ export default function LightboxImg({
   const [open, setOpen] = useState(false);
   const triggerRef = useRef<HTMLButtonElement>(null);
   const closeRef = useRef<HTMLButtonElement>(null);
+  const credit = photoCredit(slug, base);
 
   useEffect(() => {
     if (!open) return;
@@ -120,6 +122,16 @@ export default function LightboxImg({
             />
             <figcaption className="mt-3 text-center text-sm font-semibold text-white/90">
               {caption ?? alt}
+              {credit && (
+                <a
+                  href={credit.photo}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-1 block text-xs font-normal text-white/55 underline-offset-2 transition-colors hover:text-white hover:underline"
+                >
+                  {credit.photographer} · {credit.license} · {credit.source}
+                </a>
+              )}
             </figcaption>
           </figure>
           <button
