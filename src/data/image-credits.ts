@@ -515,12 +515,12 @@ export const imageCredits: Record<string, ImageCredit[]> = {
     },
     {
       "file": "quoc-te-phu-nu/history.webp",
-      "photographer": "paul goyette",
-      "profile": "https://commons.wikimedia.org/wiki/File:Chicago_International_Women%27s_Day_March_-_2026_-_21.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Chicago_International_Women%27s_Day_March_-_2026_-_21.jpg",
-      "license": "CC BY 4.0",
+      "photographer": "Archives New Zealand from New Zealand",
+      "profile": "https://commons.wikimedia.org/wiki/File:International_Women%27s_Day_(12784978055).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:International_Women%27s_Day_(12784978055).jpg",
+      "license": "CC BY-SA 2.0",
       "source": "Wikimedia Commons",
-      "alt": "IL State Senator Karina Villa (25th District), candidate for IL State Comptroller"
+      "alt": "International Women's Day is observed annually on 8 March. It is a global day celebrating the economic, political and so"
     }
   ],
   "phu-nu-viet-nam": [
@@ -662,15 +662,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Toán - Cơ học ứng dụng: tháng hai 2014"
     },
     {
-      "file": "nha-giao-viet-nam/gallery6.webp",
-      "photographer": "science.mahidol.ac.th",
-      "profile": "https://science.mahidol.ac.th/th/activity/nov61-2.php",
-      "photo": "https://science.mahidol.ac.th/th/activity/nov61-2.php",
-      "license": "CC (xem nguồn)",
-      "source": "Web (science.mahidol.ac.th)",
-      "alt": "SC Open House ในงานมหิดลวิชาการ เปิดบ้านมหิดล 2561"
-    },
-    {
       "file": "nha-giao-viet-nam/card.webp",
       "photographer": "es.globalvoices.org",
       "profile": "https://es.globalvoices.org/2016/07/21/la-epidemia-del-exito-en-los-colegios-de-vietnam/",
@@ -687,18 +678,18 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC0",
       "source": "Wikimedia Commons",
       "alt": "Main gate of the Temple of Literature, Hanoi, Vietnam."
+    },
+    {
+      "file": "nha-giao-viet-nam/gallery6.webp",
+      "photographer": "The Provisional Revolutionary Government of the Democratic Republic of Vietnam.",
+      "profile": "https://commons.wikimedia.org/wiki/File:Ng%C3%A0y_29-03-1946_c%E1%BB%A7a_Ch%E1%BB%A7_t%E1%BB%8Bch_Ch%C3%ADnh_ph%E1%BB%A7_L%C3%A2m_th%E1%BB%9Di_Vi%E1%BB%87t_Nam_D%C3%A2n_ch%E1%BB%A7_C%E1%BB%99ng_h%C3%B2a_v-v_tr%C3%ADch_ng%C3%A2n_s%C3%A1ch_to%C3%A0n_qu%E1%BB%91c_%C4%91%E1%BB%83_B%E1%BB%99_Ngo%E1%BA%A1i_giao_chi_ti%C3%AAu_v%E1%BB%81_nh%E1%BB%AFng_c%C3%B4ng_cu%E1%BB%99c_%C4%91%E1%BA%B7c_bi%E1%BB%87t.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Ng%C3%A0y_29-03-1946_c%E1%BB%A7a_Ch%E1%BB%A7_t%E1%BB%8Bch_Ch%C3%ADnh_ph%E1%BB%A7_L%C3%A2m_th%E1%BB%9Di_Vi%E1%BB%87t_Nam_D%C3%A2n_ch%E1%BB%A7_C%E1%BB%99ng_h%C3%B2a_v-v_tr%C3%ADch_ng%C3%A2n_s%C3%A1ch_to%C3%A0n_qu%E1%BB%91c_%C4%91%E1%BB%83_B%E1%BB%99_Ngo%E1%BA%A1i_giao_chi_ti%C3%AAu_v%E1%BB%81_nh%E1%BB%AFng_c%C3%B4ng_cu%E1%BB%99c_%C4%91%E1%BA%B7c_bi%E1%BB%87t.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Ngày 29/03/1946 của Chủ tịch Chính phủ Lâm thời Việt Nam Dân chủ Cộng hòa v/v trích ngân sách toàn quốc để Bộ Ngoại giao"
     }
   ],
   "quan-doi-nhan-dan": [
-    {
-      "file": "quan-doi-nhan-dan/gallery3.webp",
-      "photographer": "SP5 Allan K. Holm",
-      "profile": "https://commons.wikimedia.org/wiki/File:US_Army_vehicles_in_Saigon_parade_marking_2nd_anniversary_of_overthrow_of_the_Diem_regime.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:US_Army_vehicles_in_Saigon_parade_marking_2nd_anniversary_of_overthrow_of_the_Diem_regime.jpg",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "On 1 November 1965, the present government of the Republic of Vietnam held a parade in Saigon, Vietnam, commemorating th"
-    },
     {
       "file": "quan-doi-nhan-dan/hero.webp",
       "photographer": "Poncahot",
@@ -745,15 +736,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Vietnamese People's Army Barracks Vector"
     },
     {
-      "file": "quan-doi-nhan-dan/gallery6.webp",
-      "photographer": "PFC Jose C. Rivera, DASPO",
-      "profile": "https://commons.wikimedia.org/wiki/File:NARA_111-CCV-50-CC22785_Army_of_the_Republic_of_Vietnam_4th_Armored_Cavalry_Squadron_M113_crossing_river_in_training_1963.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:NARA_111-CCV-50-CC22785_Army_of_the_Republic_of_Vietnam_4th_Armored_Cavalry_Squadron_M113_crossing_river_in_training_1963.jpg",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "M-113 Recon vehicle making river crossing during exercise conducted by 4th AC Squadron in Vietnam"
-    },
-    {
       "file": "quan-doi-nhan-dan/gallery4.webp",
       "photographer": "Rufus Phillips",
       "profile": "https://commons.wikimedia.org/wiki/File:VA066422_VN_National_Day_-_Oct_1956.jpg",
@@ -770,6 +752,24 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "Public domain",
       "source": "Wikimedia Commons",
       "alt": "Vietnam People's Army Building"
+    },
+    {
+      "file": "quan-doi-nhan-dan/gallery3.webp",
+      "photographer": "DoD photo by Helene C. Stikkel. (Released)",
+      "profile": "https://commons.wikimedia.org/wiki/File:Soldiers_of_Vietnam_People%27s_Army.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Soldiers_of_Vietnam_People%27s_Army.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Soldiers of the en:Vietnam People's Army."
+    },
+    {
+      "file": "quan-doi-nhan-dan/gallery6.webp",
+      "photographer": "U.S. Army photo by Sgt. Elisabeth Tasker",
+      "profile": "https://commons.wikimedia.org/wiki/File:Army%27s_250th_Birthday_Parade_Historical_Uniform_Fitting_(9107963).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Army%27s_250th_Birthday_Parade_Historical_Uniform_Fitting_(9107963).jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "A U.S. Army Soldier assigned to the 101st Airborne Division, gets fitted at the Regional Office Building, June 11, 2025,"
     }
   ],
   "gio-to-hung-vuong": [
@@ -884,15 +884,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
   ],
   "giai-phong-mien-nam": [
     {
-      "file": "giai-phong-mien-nam/hero.webp",
-      "photographer": "Diego Delso",
-      "profile": "https://commons.wikimedia.org/wiki/File:Lib%C3%A9lula_(Orthetrum_sabina)_sobre_un_Gymnocalicium_mihanowichii,_Ciudad_Ho_Chi_Minh,_Vietnam,_2013-08-14,_DD_02.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Lib%C3%A9lula_(Orthetrum_sabina)_sobre_un_Gymnocalicium_mihanowichii,_Ciudad_Ho_Chi_Minh,_Vietnam,_2013-08-14,_DD_02.jpg",
-      "license": "CC BY-SA 3.0",
-      "source": "Wikimedia Commons",
-      "alt": "A Slender Skimmer, also called Green Marsh Hawk (Orthetrum sabina), a dragonfly species, on a Gymnocalycium mihanovichii"
-    },
-    {
       "file": "giai-phong-mien-nam/card.webp",
       "photographer": "Diego Delso",
       "profile": "https://commons.wikimedia.org/wiki/File:Palacio_de_la_Reunificaci%C3%B3n,_Ciudad_Ho_Chi_Minh,_Vietnam,_2013-08-14,_DD_37.JPG",
@@ -947,15 +938,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "sai gon 1975"
     },
     {
-      "file": "giai-phong-mien-nam/gallery2.webp",
-      "photographer": "flickr.com",
-      "profile": "https://www.flickr.com/photos/usmcarchives/5877912158/",
-      "photo": "https://www.flickr.com/photos/usmcarchives/5877912158/",
-      "license": "CC (xem nguồn)",
-      "source": "Web (flickr.com)",
-      "alt": "Ontos and Commandeered Vehicles, Hue, Vietnam | Ontos leads … | Flickr"
-    },
-    {
       "file": "giai-phong-mien-nam/history.webp",
       "photographer": "Adam Jones Adam63",
       "profile": "https://commons.wikimedia.org/wiki/File:Reunification_Palace_-_Saigon_-_Vietnam.JPG",
@@ -963,6 +945,24 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 3.0",
       "source": "Wikimedia Commons",
       "alt": "Reunification Palace, Saigon/Ho Chi Minh City, Vietnam. July 2009."
+    },
+    {
+      "file": "giai-phong-mien-nam/hero.webp",
+      "photographer": "Salles, André (1860-1929)",
+      "profile": "https://commons.wikimedia.org/wiki/File:1896_-_Cochinchine_-_Sa%C3%AFgon_-_Palais_du_Gouvernement_G%C3%A9n%C3%A9ral.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:1896_-_Cochinchine_-_Sa%C3%AFgon_-_Palais_du_Gouvernement_G%C3%A9n%C3%A9ral.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Palais du Gouvernement Général en Cochinchine"
+    },
+    {
+      "file": "giai-phong-mien-nam/gallery2.webp",
+      "photographer": "Nic saigon",
+      "profile": "https://commons.wikimedia.org/wiki/File:22GiaLong_front.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:22GiaLong_front.JPG",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "1 MArch 2012 photo of the rooftop in ex Gia Long street of the Pitmann appartments, where lived CIA head and where the f"
     }
   ],
   "quoc-te-lao-dong": [
@@ -1040,12 +1040,12 @@ export const imageCredits: Record<string, ImageCredit[]> = {
     },
     {
       "file": "quoc-te-lao-dong/history.webp",
-      "photographer": "The original uploader was Snow storm in Eastern Asia at English Wikipedia.",
-      "profile": "https://commons.wikimedia.org/wiki/File:PIIGS_Mk_4_map.png",
-      "photo": "https://commons.wikimedia.org/wiki/File:PIIGS_Mk_4_map.png",
-      "license": "CC BY 3.0",
+      "photographer": "Fibonacci Blue from Minnesota, USA",
+      "profile": "https://commons.wikimedia.org/wiki/File:International_Workers_Day_march_in_Minneapolis_(4569267843).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:International_Workers_Day_march_in_Minneapolis_(4569267843).jpg",
+      "license": "CC BY 2.0",
       "source": "Wikimedia Commons",
-      "alt": "I modified a copy of the map 'File:Commonwealth games 1998 medal winners.PNG' by Commons user Roke. It replaces my map '"
+      "alt": "Minneapolis, Minnesota May 1, 2010 Protesters marched for International Workers Day on May Day. They marched from Martin"
     }
   ],
   "ngay-cua-me": [
@@ -1206,12 +1206,12 @@ export const imageCredits: Record<string, ImageCredit[]> = {
     },
     {
       "file": "quoc-te-thieu-nhi/history.webp",
-      "photographer": "dailytravelphotos.com",
-      "profile": "https://www.dailytravelphotos.com/archive/2010/12/29/",
-      "photo": "https://www.dailytravelphotos.com/archive/2010/12/29/",
-      "license": "CC (xem nguồn)",
-      "source": "Web (dailytravelphotos.com)",
-      "alt": "Tiny Thais - A group of happy little Thai chickens wait for a parade on ..."
+      "photographer": "Unknown authorUnknown author",
+      "profile": "https://commons.wikimedia.org/wiki/File:Schoolchildren_marching_in_Gannan,_1940s.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Schoolchildren_marching_in_Gannan,_1940s.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Schoolchildren marching in Gannan during the early 1940s. Chiang Ching-kuo was appointed as commissioner of Gannan Prefe"
     }
   ],
   "ngay-gia-dinh-viet-nam": [
@@ -1501,15 +1501,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
   ],
   "quoc-khanh": [
     {
-      "file": "quoc-khanh/hero.webp",
-      "photographer": "Based on File:Flag of the Empire of Vietnam (1945).svg by Gunter Küchler",
-      "profile": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Empire_of_Vietnam_(1945).png",
-      "photo": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Empire_of_Vietnam_(1945).png",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "Misattributed flag of the Empire of Vietnam"
-    },
-    {
       "file": "quoc-khanh/card.webp",
       "photographer": "Tran The Vinh",
       "profile": "https://commons.wikimedia.org/wiki/File:Flag_of_Vietnam_(construction).png",
@@ -1580,6 +1571,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC0",
       "source": "Wikimedia Commons",
       "alt": "Ho Chi Minh mausoleum, July 2003, Hanoi"
+    },
+    {
+      "file": "quoc-khanh/hero.webp",
+      "photographer": "Vuong Tri Binh",
+      "profile": "https://commons.wikimedia.org/wiki/File:Waving_Vietnamese_flag_hanging_from_a_tree_in_Ha_Giang_City.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Waving_Vietnamese_flag_hanging_from_a_tree_in_Ha_Giang_City.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "A Waving Vietnamese flag hanging from a tree in Ha Giang City."
     }
   ],
   "trung-thu": [
@@ -1820,15 +1820,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Notre Dame Cathedral, Ho Chi Minh City | Pigalle | Flickr"
     },
     {
-      "file": "giang-sinh/gallery6.webp",
-      "photographer": "mabaydar.blogspot.com",
-      "profile": "https://mabaydar.blogspot.com/2014/04/weekend-trip-to-malacca-malaysia.html",
-      "photo": "https://mabaydar.blogspot.com/2014/04/weekend-trip-to-malacca-malaysia.html",
-      "license": "CC (xem nguồn)",
-      "source": "Web (mabaydar.blogspot.com)",
-      "alt": "မဗေဒါရဲ့ ဗေဒါလမ်း: Weekend trip to Malacca, Malaysia"
-    },
-    {
       "file": "giang-sinh/history.webp",
       "photographer": "Diego Delso",
       "profile": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_de_Nuestra_Se%C3%B1ora,_Ciudad_Ho_Chi_Minh,_Vietnam,_2013-08-14,_DD_03.JPG",
@@ -1836,6 +1827,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 3.0",
       "source": "Wikimedia Commons",
       "alt": "Notre-Dame Basilica, Ho Chi Minh City, Vietnam."
+    },
+    {
+      "file": "giang-sinh/gallery6.webp",
+      "photographer": "Rainbowasi",
+      "profile": "https://commons.wikimedia.org/wiki/File:Lima,_Peru_city_-_Cathedral_of_Lima_at_Night_(Christmas).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Lima,_Peru_city_-_Cathedral_of_Lima_at_Night_(Christmas).jpg",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Christmas in Lima, Peru."
     }
   ],
   "home-hero": [
@@ -2026,15 +2026,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Offerings in Vietnam"
     },
     {
-      "file": "ong-cong-ong-tao/gallery6.webp",
-      "photographer": "Tho nau at Vietnamese Wikipedia",
-      "profile": "https://commons.wikimedia.org/wiki/File:L%C4%83ng_M%E1%BA%A1c_C%E1%BB%ADu.JPG",
-      "photo": "https://commons.wikimedia.org/wiki/File:L%C4%83ng_M%E1%BA%A1c_C%E1%BB%ADu.JPG",
-      "license": "CC BY-SA 3.0",
-      "source": "Wikimedia Commons",
-      "alt": "Lăng ngài Mạc Cửu cùng phu nhân và các hậu duệ tại Hà Tiên, Kiên Giang"
-    },
-    {
       "file": "ong-cong-ong-tao/card.webp",
       "photographer": "lightwrite",
       "profile": "https://www.flickr.com/photos/lightwrite/14362261867/",
@@ -2053,13 +2044,22 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Annually, citizens of a country whose culture revolve around the lunisolar calendar celebrates a festival known as the m"
     },
     {
-      "file": "ong-cong-ong-tao/history.webp",
-      "photographer": "Thuydaonguyen",
-      "profile": "https://commons.wikimedia.org/wiki/File:Ban_tho.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Ban_tho.jpg",
-      "license": "CC BY-SA 3.0",
+      "file": "ong-cong-ong-tao/gallery6.webp",
+      "photographer": "Phương Huy",
+      "profile": "https://commons.wikimedia.org/wiki/File:B%C3%A0_T%C3%A1o,_%C3%B4ng_T%C3%A1o,_SG_th1n2023_(%C4%91%E1%BB%91t_v%C3%A0ng_m%C3%A3_c%C3%BAng_T%C3%A1o_qu%C3%A2n)_(2).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:B%C3%A0_T%C3%A1o,_%C3%B4ng_T%C3%A1o,_SG_th1n2023_(%C4%91%E1%BB%91t_v%C3%A0ng_m%C3%A3_c%C3%BAng_T%C3%A1o_qu%C3%A2n)_(2).jpg",
+      "license": "CC0",
       "source": "Wikimedia Commons",
-      "alt": "Bàn thờ Lê Văn Duyệt nơi trung điện."
+      "alt": "Offerings in Vietnam"
+    },
+    {
+      "file": "ong-cong-ong-tao/history.webp",
+      "photographer": "Phương Huy",
+      "profile": "https://commons.wikimedia.org/wiki/File:%C4%90%E1%BB%93_m%C3%A3_c%C3%BAng_T%C3%A1o_Qu%C3%A2n_(c%C3%A1_ch%C3%A9p_%C4%91%E1%BB%8F),_ng%C3%A0y_17_th%C3%A1ng_01_n%C4%83m_2020_(2).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:%C4%90%E1%BB%93_m%C3%A3_c%C3%BAng_T%C3%A1o_Qu%C3%A2n_(c%C3%A1_ch%C3%A9p_%C4%91%E1%BB%8F),_ng%C3%A0y_17_th%C3%A1ng_01_n%C4%83m_2020_(2).jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Folklore of Vietnam"
     }
   ],
   "tet-han-thuc": [
@@ -2293,15 +2293,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
   ],
   "ngay-thay-thuoc": [
     {
-      "file": "ngay-thay-thuoc/hero.webp",
-      "photographer": "Arthur William Devis",
-      "profile": "https://commons.wikimedia.org/wiki/File:The_Death_of_Nelson,_21_October_1805_RMG_L8118.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:The_Death_of_Nelson,_21_October_1805_RMG_L8118.jpg",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "The Death of Nelson, 21 October 1805 The scene in the cockpit on the 'Victory', 100 guns, as Nelson lay dying during the"
-    },
-    {
       "file": "ngay-thay-thuoc/gallery2.webp",
       "photographer": "Wikimedia Commons",
       "profile": "https://commons.wikimedia.org/wiki/File:White_Coats_for_Black_Lives_demonstration_-_DPLA_-_961dc2c03002624c35c616ad2bd432ba.jpg",
@@ -2372,6 +2363,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "Public domain",
       "source": "Wikimedia Commons",
       "alt": "Navy doctor Paul Comer of Mesa, Arizona examines a South Vietnamese Army casualty in the Field Hospital at Phu Bai, Sout"
+    },
+    {
+      "file": "ngay-thay-thuoc/hero.webp",
+      "photographer": "trungydang",
+      "profile": "https://commons.wikimedia.org/wiki/File:Bi%E1%BB%87t_th%E1%BB%B1_B%C3%A1c_s%C4%A9_T%C3%A0i-tx._Long_Kh%C3%A1nh,_%C4%90%E1%BB%93ng_Nai,_Vi%E1%BB%87t_Nam_-_panoramio.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Bi%E1%BB%87t_th%E1%BB%B1_B%C3%A1c_s%C4%A9_T%C3%A0i-tx._Long_Kh%C3%A1nh,_%C4%90%E1%BB%93ng_Nai,_Vi%E1%BB%87t_Nam_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "Biệt thự Bác sĩ Tài-tx. Long Khánh, Đồng Nai, Việt Nam"
     }
   ],
   "ngay-bao-chi": [
@@ -2430,15 +2430,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "vietnam-hanoi-3-5"
     },
     {
-      "file": "ngay-bao-chi/gallery5.webp",
-      "photographer": "thaicyberpoint.com",
-      "profile": "https://www.thaicyberpoint.com/ford/blog/id/1817/",
-      "photo": "https://www.thaicyberpoint.com/ford/blog/id/1817/",
-      "license": "CC (xem nguồn)",
-      "source": "Web (thaicyberpoint.com)",
-      "alt": "บอกเล่าเรื่องราวจาก KBank Meet &amp; Talk with Blogger เมื่อต้นเดือนธันวาคม ..."
-    },
-    {
       "file": "ngay-bao-chi/gallery2.webp",
       "photographer": "konde.co",
       "profile": "https://www.konde.co/2021/10/female-journalists-at-top-level-advocate-gender-equality-in-newsrooms-from-labyrinth-glass-ceiling-to-roller-coaster/",
@@ -2455,6 +2446,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "Public domain",
       "source": "Wikimedia Commons",
       "alt": "An early Communist newspaper issued in French Indo-China to advocate for the struggles of the indigenous proletariat aga"
+    },
+    {
+      "file": "ngay-bao-chi/gallery5.webp",
+      "photographer": "Photo courtesy of Paul Brock",
+      "profile": "https://commons.wikimedia.org/wiki/File:National_Association_of_Black_Journalists,_Kerner_Report_key_to_African-American_breakthrough_in_media_industry_160218-A-DZ999-371.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:National_Association_of_Black_Journalists,_Kerner_Report_key_to_African-American_breakthrough_in_media_industry_160218-A-DZ999-371.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Paul Brock served as deputy director of Communications for the Democratic National Committee from 1974 to 1976. Unit: Jo"
     }
   ],
   "nguoi-cao-tuoi": [
@@ -2513,24 +2513,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Phụ nữ lớn tuổi ít vận động sẽ làm tăng nguy cơ mắc bệnh tim mạch"
     },
     {
-      "file": "nguoi-cao-tuoi/hero.webp",
-      "photographer": "dictionaryofsydney.org",
-      "profile": "https://dictionaryofsydney.org/entry/vietnamese",
-      "photo": "https://dictionaryofsydney.org/entry/vietnamese",
-      "license": "CC (xem nguồn)",
-      "source": "Web (dictionaryofsydney.org)",
-      "alt": "Vietnamese | The Dictionary of Sydney"
-    },
-    {
-      "file": "nguoi-cao-tuoi/card.webp",
-      "photographer": "thuocdantoc.vn",
-      "profile": "https://thuocdantoc.vn/trung-tam-thuoc-dan-toc-tri-an-ngay-thuong-binh-liet-si-27-7.html",
-      "photo": "https://thuocdantoc.vn/trung-tam-thuoc-dan-toc-tri-an-ngay-thuong-binh-liet-si-27-7.html",
-      "license": "CC (xem nguồn)",
-      "source": "Web (thuocdantoc.vn)",
-      "alt": "Trung Tâm Thuốc Dân Tộc Tri Ân Ngày Thương Binh Liệt Sĩ 27/7"
-    },
-    {
       "file": "nguoi-cao-tuoi/gallery2.webp",
       "photographer": "flickr.com",
       "profile": "https://www.flickr.com/photos/hoangnt/3474462888/",
@@ -2538,15 +2520,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC (xem nguồn)",
       "source": "Web (flickr.com)",
       "alt": "Bà nội đọc Tuổi Trẻ Cười | Tuan Hoang Nguyen | Flickr"
-    },
-    {
-      "file": "nguoi-cao-tuoi/gallery3.webp",
-      "photographer": "thuocdantoc.vn",
-      "profile": "https://thuocdantoc.vn/thuoc-dan-toc-chao-mung-ngay-thay-thuoc-viet-nam-27-2.html",
-      "photo": "https://thuocdantoc.vn/thuoc-dan-toc-chao-mung-ngay-thay-thuoc-viet-nam-27-2.html",
-      "license": "CC (xem nguồn)",
-      "source": "Web (thuocdantoc.vn)",
-      "alt": "Thuốc Dân Tộc - Chào Mừng Ngày Thầy Thuốc Việt Nam 27/2"
     },
     {
       "file": "nguoi-cao-tuoi/gallery4.webp",
@@ -2558,13 +2531,40 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Hanoi - Vietnam - Old and Young | Adam Jones | Flickr"
     },
     {
-      "file": "nguoi-cao-tuoi/history.webp",
-      "photographer": "CEphoto, Uwe Aranas",
-      "profile": "https://commons.wikimedia.org/wiki/File:Semporna_Sabah_Regatta-Lepa-2015-05.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Semporna_Sabah_Regatta-Lepa-2015-05.jpg",
-      "license": "CC BY-SA 3.0",
+      "file": "nguoi-cao-tuoi/hero.webp",
+      "photographer": "Unknown authorUnknown author or not provided",
+      "profile": "https://commons.wikimedia.org/wiki/File:Franklin_D._Roosevelt,_Delano_grandparents,_and_7_cousins_in_Newburgh,_New_York_-_NARA_-_196677.tif",
+      "photo": "https://commons.wikimedia.org/wiki/File:Franklin_D._Roosevelt,_Delano_grandparents,_and_7_cousins_in_Newburgh,_New_York_-_NARA_-_196677.tif",
+      "license": "Public domain",
       "source": "Wikimedia Commons",
-      "alt": "Semporna, Sabah: An elderly Bajau couple in their traditional costumes posing during the Regatta Lepa event 2015)"
+      "alt": "Vietnamese grandparents"
+    },
+    {
+      "file": "nguoi-cao-tuoi/card.webp",
+      "photographer": "unknown painter",
+      "profile": "https://commons.wikimedia.org/wiki/File:Portraits_of_a_Vietnamese_T%E1%BB%95ng-%C4%91%E1%BB%91c_(Governor-general)_and_a_Vietnamese_wealthy_elderly_man_01.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Portraits_of_a_Vietnamese_T%E1%BB%95ng-%C4%91%E1%BB%91c_(Governor-general)_and_a_Vietnamese_wealthy_elderly_man_01.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Portraits of a Vietnamese Tổng-đốc (Governor-general) and a Vietnamese wealthy elderly man"
+    },
+    {
+      "file": "nguoi-cao-tuoi/gallery3.webp",
+      "photographer": "PR Kavitha",
+      "profile": "https://commons.wikimedia.org/wiki/File:Grandparents_-_The_cradle_of_love!!.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Grandparents_-_The_cradle_of_love!!.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "The picture shows an aged grandfather dancing to entertain and extract a smile from his granddaughter while she happily "
+    },
+    {
+      "file": "nguoi-cao-tuoi/history.webp",
+      "photographer": "simpleinsomnia",
+      "profile": "https://commons.wikimedia.org/wiki/File:CDV_of_a_sickly,_elderly_woman_(13989798719).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:CDV_of_a_sickly,_elderly_woman_(13989798719).jpg",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "\"Great Grandma Bicknell\" Stamped \"Clifford's Studio, Newton, Iowa\""
     }
   ],
   "doanh-nhan": [
@@ -2982,15 +2982,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Ho Chi Minh's Stilt House, Hanoi (2)"
     },
     {
-      "file": "ngay-sinh-nhat-bac/card.webp",
-      "photographer": "blog.aladin.co.kr",
-      "profile": "https://blog.aladin.co.kr/759779161/11138444",
-      "photo": "https://blog.aladin.co.kr/759779161/11138444",
-      "license": "CC (xem nguồn)",
-      "source": "Web (blog.aladin.co.kr)",
-      "alt": "[알라딘서재]제1차 인도차이나 전쟁(The First Indochina War)"
-    },
-    {
       "file": "ngay-sinh-nhat-bac/gallery4.webp",
       "photographer": "flickr.com",
       "profile": "https://www.flickr.com/photos/prof_richard/37781935604",
@@ -3007,6 +2998,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 3.0",
       "source": "Wikimedia Commons",
       "alt": "Maison sur pilotis où vécut Ho Chi Minh de 1958 à 1969"
+    },
+    {
+      "file": "ngay-sinh-nhat-bac/card.webp",
+      "photographer": "abbeyman2002",
+      "profile": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_House_3463171193_352f81b0da.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_House_3463171193_352f81b0da.jpg",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Ho Chi Minh's Stilt House, Hanoi"
     }
   ],
   "ngay-cach-mang-thang-tam": [
@@ -3074,15 +3074,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Ho Chi Minh City | Jean-Marc Astesana | Flickr"
     },
     {
-      "file": "ngay-cach-mang-thang-tam/gallery4.webp",
-      "photographer": "meinblogland.blogspot.com",
-      "profile": "https://meinblogland.blogspot.com/2012/07/vacation-in-vietnam.html",
-      "photo": "https://meinblogland.blogspot.com/2012/07/vacation-in-vietnam.html",
-      "license": "CC (xem nguồn)",
-      "source": "Web (meinblogland.blogspot.com)",
-      "alt": "meinblogland"
-    },
-    {
       "file": "ngay-cach-mang-thang-tam/history.webp",
       "photographer": "shunei1506",
       "profile": "https://commons.wikimedia.org/wiki/File:Ba_Dinh_Square.jpg",
@@ -3090,6 +3081,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY 2.0",
       "source": "Wikimedia Commons",
       "alt": "Ho Chi Minh Mausoleum at Ba Dinh Square."
+    },
+    {
+      "file": "ngay-cach-mang-thang-tam/gallery4.webp",
+      "photographer": "shankar s. from Dubai, united arab emirates",
+      "profile": "https://commons.wikimedia.org/wiki/File:HCM_Mausoleum-_closed_as_his_preserved_body_wan%27t_it_(31454165115).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:HCM_Mausoleum-_closed_as_his_preserved_body_wan%27t_it_(31454165115).jpg",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "So this then is the de facto symbol of Hanoi, the Ho Chi Minh Mausoleum in Ba Dinh Square of the city. This is one of th"
     }
   ],
   "ngay-giai-phong-thu-do": [
@@ -3186,15 +3186,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Book PNG"
     },
     {
-      "file": "ngay-sach-viet-nam/card.webp",
-      "photographer": "lairdubois.fr",
-      "profile": "https://www.lairdubois.fr/creations/2893-bibliotheque-meuble-tv-d-angle.html",
-      "photo": "https://www.lairdubois.fr/creations/2893-bibliotheque-meuble-tv-d-angle.html",
-      "license": "CC (xem nguồn)",
-      "source": "Web (lairdubois.fr)",
-      "alt": "Bibliotheque - Meuble TV - d'angle par billbaroud sur L'Air du Bois"
-    },
-    {
       "file": "ngay-sach-viet-nam/gallery1.webp",
       "photographer": "diendan.org",
       "profile": "https://www.diendan.org/phe-binh-nghien-cuu/sach-moi-cua-gs-ha-van-tan-su-sinh-thanh-viet-nam",
@@ -3240,15 +3231,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "BLOG ESCOLAR. (D.Julen): abril 2020"
     },
     {
-      "file": "ngay-sach-viet-nam/gallery6.webp",
-      "photographer": "flickr.com",
-      "profile": "https://www.flickr.com/photos/prachatai/49392733981",
-      "photo": "https://www.flickr.com/photos/prachatai/49392733981",
-      "license": "CC (xem nguồn)",
-      "source": "Web (flickr.com)",
-      "alt": "ผ่านมาร้อยกว่าปี ทำไมการปฏิรูปกองทัพไทยจึงไม่เคยสำเร็จ | Flickr"
-    },
-    {
       "file": "ngay-sach-viet-nam/history.webp",
       "photographer": "Smuconlaw",
       "profile": "https://commons.wikimedia.org/wiki/File:National_Library_of_Vietnam,_Hanoi,_Vietnam_-_20131030-01.JPG",
@@ -3256,6 +3238,24 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 3.0",
       "source": "Wikimedia Commons",
       "alt": "The National Library of Vietnam at 31 Tràng Thi Street, Hoang Kiem, Hanoi, Vietnam."
+    },
+    {
+      "file": "ngay-sach-viet-nam/card.webp",
+      "photographer": "Phan Minh Tuấn",
+      "profile": "https://commons.wikimedia.org/wiki/File:Th%C6%B0_vi%E1%BB%87n,_ch%C3%B9a_T%E1%BB%A9_K%E1%BB%B3,_H%C3%A0_N%E1%BB%99i_003.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:Th%C6%B0_vi%E1%BB%87n,_ch%C3%B9a_T%E1%BB%A9_K%E1%BB%B3,_H%C3%A0_N%E1%BB%99i_003.JPG",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Chùa Tứ Kỳ, Hà Nội, Việt Nam."
+    },
+    {
+      "file": "ngay-sach-viet-nam/gallery6.webp",
+      "photographer": "Kari Hawkins, USAG Redstone",
+      "profile": "https://commons.wikimedia.org/wiki/File:US_Army_53394_BOOK_OF_RHYMES.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:US_Army_53394_BOOK_OF_RHYMES.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Taka sits with 9-year-old Sofia Rundini and his owner and trainer, Jamie Ward, during Sofia's reading of \"Mary Had a Lit"
     }
   ],
   "ngay-the-thao-viet-nam": [
@@ -3296,15 +3296,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Khai mạc Đại hội Thể dục thể thao chào mừng ngày Truyền thống CTCP ..."
     },
     {
-      "file": "ngay-the-thao-viet-nam/hero.webp",
-      "photographer": "flickr.com",
-      "profile": "https://www.flickr.com/photos/keangpeng/27068292394",
-      "photo": "https://www.flickr.com/photos/keangpeng/27068292394",
-      "license": "CC (xem nguồn)",
-      "source": "Web (flickr.com)",
-      "alt": "Photo 14-10-2015, 11 52 03 AM | 2015-10-14 校運會_學生拍攝_跑類 | Flickr"
-    },
-    {
       "file": "ngay-the-thao-viet-nam/gallery4.webp",
       "photographer": "footballrsu.blogspot.com",
       "profile": "https://footballrsu.blogspot.com/",
@@ -3312,15 +3303,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC (xem nguồn)",
       "source": "Web (footballrsu.blogspot.com)",
       "alt": "เทคนิคเกี่ยวกับการเล่นฟุตบอล"
-    },
-    {
-      "file": "ngay-the-thao-viet-nam/gallery6.webp",
-      "photographer": "flickr.com",
-      "profile": "https://www.flickr.com/photos/torbus/35810443065",
-      "photo": "https://www.flickr.com/photos/torbus/35810443065",
-      "license": "CC (xem nguồn)",
-      "source": "Web (flickr.com)",
-      "alt": "Hoan Kiem Lake | Hanoi, Vietnam. | Tore Bustad | Flickr"
     },
     {
       "file": "ngay-the-thao-viet-nam/gallery5.webp",
@@ -3339,6 +3321,24 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "Public domain",
       "source": "Wikimedia Commons",
       "alt": "Hang Day Stadium"
+    },
+    {
+      "file": "ngay-the-thao-viet-nam/hero.webp",
+      "photographer": "Jspeed1310 (thảo luận)",
+      "profile": "https://commons.wikimedia.org/wiki/File:S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_H%C3%A0ng_%C4%90%E1%BA%ABy_2.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_H%C3%A0ng_%C4%90%E1%BA%ABy_2.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Sân vận động Hàng Đẫy nhìn từ đường Trịnh Hoài Đức"
+    },
+    {
+      "file": "ngay-the-thao-viet-nam/gallery6.webp",
+      "photographer": "No machine-readable author provided. AlfredBoc assumed (based on copyright claims).",
+      "profile": "https://commons.wikimedia.org/wiki/File:MorningExerciseInHanoi.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:MorningExerciseInHanoi.JPG",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Morning Exercise In Hanoi (Vietnam) by AlfredBoc Own Work December 2005"
     }
   ],
   "ngay-phap-luat-viet-nam": [
@@ -3350,24 +3350,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC (xem nguồn)",
       "source": "Web (flickr.com)",
       "alt": "Legal Gavel &amp; Open Law Book | All content posted in the Blog… | Flickr"
-    },
-    {
-      "file": "ngay-phap-luat-viet-nam/gallery1.webp",
-      "photographer": "kremlin.ru",
-      "profile": "https://kremlin.ru/events/president/news/9383",
-      "photo": "https://kremlin.ru/events/president/news/9383",
-      "license": "CC (xem nguồn)",
-      "source": "Web (kremlin.ru)",
-      "alt": "Официальный визит во Вьетнам • Президент России"
-    },
-    {
-      "file": "ngay-phap-luat-viet-nam/gallery2.webp",
-      "photographer": "commons.wikimedia.org",
-      "profile": "https://commons.wikimedia.org/wiki/File:NhaHatLon.JPG",
-      "photo": "https://commons.wikimedia.org/wiki/File:NhaHatLon.JPG",
-      "license": "CC (xem nguồn)",
-      "source": "Web (commons.wikimedia.org)",
-      "alt": "File:NhaHatLon.JPG - Wikimedia Commons"
     },
     {
       "file": "ngay-phap-luat-viet-nam/gallery4.webp",
@@ -3397,15 +3379,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Law library books | Code of Federal Regulations or CFR | Janet ..."
     },
     {
-      "file": "ngay-phap-luat-viet-nam/hero.webp",
-      "photographer": "kremlin.ru",
-      "profile": "https://kremlin.ru/events/president/news/19602",
-      "photo": "https://kremlin.ru/events/president/news/19602",
-      "license": "CC (xem nguồn)",
-      "source": "Web (kremlin.ru)",
-      "alt": "Официальный визит во Вьетнам • Президент России"
-    },
-    {
       "file": "ngay-phap-luat-viet-nam/gallery3.webp",
       "photographer": "flickr.com",
       "profile": "https://www.flickr.com/photos/143601516@N03/27905720280",
@@ -3422,18 +3395,36 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 2.0",
       "source": "Wikimedia Commons",
       "alt": "Ba Đình Hall"
+    },
+    {
+      "file": "ngay-phap-luat-viet-nam/gallery1.webp",
+      "photographer": "The imperial government of the Nguyễn Dynasty, French Indo-China.",
+      "profile": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2u_b%E1%BA%A3n,_t%E1%BA%ADp_2,_t%E1%BB%9D_102,_Kh%E1%BA%A3i_%C4%90%E1%BB%8Bnh._-_Kh%C3%A2m_%C4%90%E1%BB%8Bnh_%C4%90%E1%BA%A1i_Nam_h%E1%BB%99i_%C4%91i%E1%BB%83n_s%E1%BB%B1_l%E1%BB%87,_B%E1%BB%99_C%C3%B4ng,_quy%E1%BB%83n_205.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2u_b%E1%BA%A3n,_t%E1%BA%ADp_2,_t%E1%BB%9D_102,_Kh%E1%BA%A3i_%C4%90%E1%BB%8Bnh._-_Kh%C3%A2m_%C4%90%E1%BB%8Bnh_%C4%90%E1%BA%A1i_Nam_h%E1%BB%99i_%C4%91i%E1%BB%83n_s%E1%BB%B1_l%E1%BB%87,_B%E1%BB%99_C%C3%B4ng,_quy%E1%BB%83n_205.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "A Khải Định period document (Bản tấu) issued by the Ministry of Public Works about repairs and a renovation of a palace "
+    },
+    {
+      "file": "ngay-phap-luat-viet-nam/gallery2.webp",
+      "photographer": "The imperial government of the Nguyễn Dynasty.",
+      "profile": "https://commons.wikimedia.org/wiki/File:Ho%C3%A0ng_Vi%E1%BB%87t_t%C4%83ng_san_t%C3%A2n_lu%E1%BA%ADt_(%E7%9A%87%E8%B6%8A%E5%A2%9E%E5%88%8A%E6%96%B0%E5%BE%8B)_Nguyen_Tuan_Cuong_(%E9%98%AE%E4%BF%8A%E5%BC%BA)_seal_01.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Ho%C3%A0ng_Vi%E1%BB%87t_t%C4%83ng_san_t%C3%A2n_lu%E1%BA%ADt_(%E7%9A%87%E8%B6%8A%E5%A2%9E%E5%88%8A%E6%96%B0%E5%BE%8B)_Nguyen_Tuan_Cuong_(%E9%98%AE%E4%BF%8A%E5%BC%BA)_seal_01.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "The seal of the Hoàng Việt tăng san tân luật (皇越增刊新律) as it appears on a publication from Hanoi, French protectorate of "
+    },
+    {
+      "file": "ngay-phap-luat-viet-nam/hero.webp",
+      "photographer": "Grayswoodsurrey",
+      "profile": "https://commons.wikimedia.org/wiki/File:National_Assembly_of_Vietnam.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:National_Assembly_of_Vietnam.JPG",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "National Assembly of Vietnam, Hanoi"
     }
   ],
   "ngay-thuong-mai-viet-nam": [
-    {
-      "file": "ngay-thuong-mai-viet-nam/hero.webp",
-      "photographer": "flickr.com",
-      "profile": "https://www.flickr.com/photos/adforce1/3845323663/",
-      "photo": "https://www.flickr.com/photos/adforce1/3845323663/",
-      "license": "CC (xem nguồn)",
-      "source": "Web (flickr.com)",
-      "alt": "Port of Singapore | PSA Singapore Terminals is the world's b… | Flickr"
-    },
     {
       "file": "ngay-thuong-mai-viet-nam/card.webp",
       "photographer": "motogo.vn",
@@ -3505,27 +3496,18 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY 2.0",
       "source": "Wikimedia Commons",
       "alt": "Cảng Cát Lái"
+    },
+    {
+      "file": "ngay-thuong-mai-viet-nam/hero.webp",
+      "photographer": "Lam Tr Th",
+      "profile": "https://commons.wikimedia.org/wiki/File:C%C3%A1t_L%C3%A1i,_Qu%E1%BA%ADn_2,_TPHCM,_Vietnam_-_panoramio.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:C%C3%A1t_L%C3%A1i,_Qu%E1%BA%ADn_2,_TPHCM,_Vietnam_-_panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "Cát Lái, Quận 2, Hồ Chí Minh, Vietnam"
     }
   ],
   "ngay-doan-thanh-nien": [
-    {
-      "file": "ngay-doan-thanh-nien/hero.webp",
-      "photographer": "suedostasien.net",
-      "profile": "https://suedostasien.net/vietnam-rezension-land-der-vielen-mythen/",
-      "photo": "https://suedostasien.net/vietnam-rezension-land-der-vielen-mythen/",
-      "license": "CC (xem nguồn)",
-      "source": "Web (suedostasien.net)",
-      "alt": "Rezension: Vietnam – Land der vielen Mythen - südostasien 1 | 2020"
-    },
-    {
-      "file": "ngay-doan-thanh-nien/card.webp",
-      "photographer": "argodadi.bantulkab.go.id",
-      "profile": "https://argodadi.bantulkab.go.id/first/artikel/1235-Mengenal-Visi-Misi-Pasangan-Calon-Bupati-dan-Wakil-Bupati-Kabupaten-Bantul",
-      "photo": "https://argodadi.bantulkab.go.id/first/artikel/1235-Mengenal-Visi-Misi-Pasangan-Calon-Bupati-dan-Wakil-Bupati-Kabupaten-Bantul",
-      "license": "CC (xem nguồn)",
-      "source": "Web (argodadi.bantulkab.go.id)",
-      "alt": "Mengenal Visi-Misi Pasangan Calon Bupati dan Wakil Bupati Kabupaten ..."
-    },
     {
       "file": "ngay-doan-thanh-nien/gallery1.webp",
       "photographer": "flickr.com",
@@ -3554,15 +3536,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "D70_9851 | UNiTE Gender Based- Violence painting contest Con… | Flickr"
     },
     {
-      "file": "ngay-doan-thanh-nien/gallery6.webp",
-      "photographer": "flickr.com",
-      "profile": "https://www.flickr.com/photos/ugvf/53140371381",
-      "photo": "https://www.flickr.com/photos/ugvf/53140371381",
-      "license": "CC (xem nguồn)",
-      "source": "Web (flickr.com)",
-      "alt": "Trại hè-KDT tuần1 | Camping de Val de Landrouet, Merdrignac … | Flickr"
-    },
-    {
       "file": "ngay-doan-thanh-nien/gallery3.webp",
       "photographer": "elitshanews.org.za",
       "profile": "https://elitshanews.org.za/2020/02/17/is-there-a-glimmer-of-hope-for-vietnamese-workers/",
@@ -3588,6 +3561,33 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 3.0",
       "source": "Wikimedia Commons",
       "alt": "Trường đẹp cho em"
+    },
+    {
+      "file": "ngay-doan-thanh-nien/card.webp",
+      "photographer": "Kim-Long07",
+      "profile": "https://commons.wikimedia.org/wiki/File:L%E1%BB%85_ch%C3%A0o_c%E1%BB%9D_-_sinh_vi%C3%AAn_Kh%C3%B3a_54_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_B%C3%A1ch_Khoa_H%C3%A0_N%E1%BB%99i,_2010.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:L%E1%BB%85_ch%C3%A0o_c%E1%BB%9D_-_sinh_vi%C3%AAn_Kh%C3%B3a_54_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_B%C3%A1ch_Khoa_H%C3%A0_N%E1%BB%99i,_2010.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "The flag of Ho Chi Minh Communist Youth Union, used since 1976."
+    },
+    {
+      "file": "ngay-doan-thanh-nien/gallery6.webp",
+      "photographer": "Wikimedia Commons",
+      "profile": "https://commons.wikimedia.org/wiki/File:Quoc_ca_mien_nam_viet_nam.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Quoc_ca_mien_nam_viet_nam.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "sinh vien Vietnam"
+    },
+    {
+      "file": "ngay-doan-thanh-nien/hero.webp",
+      "photographer": "Kim-Long07",
+      "profile": "https://commons.wikimedia.org/wiki/File:L%E1%BB%85_ch%C3%A0o_c%E1%BB%9D_-_sinh_vi%C3%AAn_Kh%C3%B3a_54_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_B%C3%A1ch_Khoa_H%C3%A0_N%E1%BB%99i,_2010.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:L%E1%BB%85_ch%C3%A0o_c%E1%BB%9D_-_sinh_vi%C3%AAn_Kh%C3%B3a_54_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_B%C3%A1ch_Khoa_H%C3%A0_N%E1%BB%99i,_2010.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "The flag of Ho Chi Minh Communist Youth Union, used since 1976."
     }
   ],
   "ngay-tho-viet-nam": [
@@ -3702,78 +3702,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
   ],
   "quoc-te-nam-gioi": [
     {
-      "file": "quoc-te-nam-gioi/hero.webp",
-      "photographer": "theculinarychronicles.com",
-      "profile": "https://theculinarychronicles.com/category/pastasnoodles/",
-      "photo": "https://theculinarychronicles.com/category/pastasnoodles/",
-      "license": "CC (xem nguồn)",
-      "source": "Web (theculinarychronicles.com)",
-      "alt": "Pastas/Noodles"
-    },
-    {
-      "file": "quoc-te-nam-gioi/gallery1.webp",
-      "photographer": "movielandgroup.blogspot.com",
-      "profile": "https://movielandgroup.blogspot.com/2017/01/danci-bira-wo-de-fu-qin-mu-qin-put-kuci.html",
-      "photo": "https://movielandgroup.blogspot.com/2017/01/danci-bira-wo-de-fu-qin-mu-qin-put-kuci.html",
-      "license": "CC (xem nguồn)",
-      "source": "Web (movielandgroup.blogspot.com)",
-      "alt": "DANČI BIRA: \"Wo de fu qin mu qin / PUT KUĆI\" (1999.) - Posveta ..."
-    },
-    {
-      "file": "quoc-te-nam-gioi/gallery2.webp",
-      "photographer": "cohtran.blogspot.com",
-      "profile": "https://cohtran.blogspot.com/2016/04/hoc-lam-nguoi-luong-thien.html",
-      "photo": "https://cohtran.blogspot.com/2016/04/hoc-lam-nguoi-luong-thien.html",
-      "license": "CC (xem nguồn)",
-      "source": "Web (cohtran.blogspot.com)",
-      "alt": "Toán - Cơ học ứng dụng: Học làm người lương thiện . P1"
-    },
-    {
-      "file": "quoc-te-nam-gioi/gallery4.webp",
-      "photographer": "foto.wuestenigel.com",
-      "profile": "https://foto.wuestenigel.com/open-emu-egg-on-the-grass-flip-2019/",
-      "photo": "https://foto.wuestenigel.com/open-emu-egg-on-the-grass-flip-2019/",
-      "license": "CC (xem nguồn)",
-      "source": "Web (foto.wuestenigel.com)",
-      "alt": "Open emu egg on the grass (Flip 2019) - Creative Commons Bilder"
-    },
-    {
-      "file": "quoc-te-nam-gioi/gallery5.webp",
-      "photographer": "flickr.com",
-      "profile": "https://www.flickr.com/photos/iloasiapacific/10987484006",
-      "photo": "https://www.flickr.com/photos/iloasiapacific/10987484006",
-      "license": "CC (xem nguồn)",
-      "source": "Web (flickr.com)",
-      "alt": "Ando International garment factory (Better Work Vietnam) | Flickr"
-    },
-    {
-      "file": "quoc-te-nam-gioi/gallery6.webp",
-      "photographer": "diendan.org",
-      "profile": "https://www.diendan.org/nhung-con-nguoi/nho-phung-thang",
-      "photo": "https://www.diendan.org/nhung-con-nguoi/nho-phung-thang",
-      "license": "CC (xem nguồn)",
-      "source": "Web (diendan.org)",
-      "alt": "Nhớ Phùng Thăng — Diễn Đàn Forum"
-    },
-    {
-      "file": "quoc-te-nam-gioi/card.webp",
-      "photographer": "littlehandsblw.com",
-      "profile": "https://www.littlehandsblw.com/2021/02/ti-einai-ta-almata-anaptiksis/",
-      "photo": "https://www.littlehandsblw.com/2021/02/ti-einai-ta-almata-anaptiksis/",
-      "license": "CC (xem nguồn)",
-      "source": "Web (littlehandsblw.com)",
-      "alt": "Τα άλματα ανάπτυξης - Little Hands BLW αναπτυξιακά άλματα"
-    },
-    {
-      "file": "quoc-te-nam-gioi/gallery3.webp",
-      "photographer": "thuocdantoc.vn",
-      "profile": "https://thuocdantoc.vn/benh/viem-hong-o-tre-em",
-      "photo": "https://thuocdantoc.vn/benh/viem-hong-o-tre-em",
-      "license": "CC (xem nguồn)",
-      "source": "Web (thuocdantoc.vn)",
-      "alt": "Viêm họng ở trẻ em: Cha mẹ cần nhận biết và điều trị bệnh kịp thời"
-    },
-    {
       "file": "quoc-te-nam-gioi/history.webp",
       "photographer": "unoscacchista.com",
       "profile": "https://unoscacchista.com/2021/06/30/nuovi-scacchisti-adulti/",
@@ -3781,6 +3709,78 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC (xem nguồn)",
       "source": "Web (unoscacchista.com)",
       "alt": "Nuovi scacchisti adulti – Uno Scacchista *Edizione 10 Anni*"
+    },
+    {
+      "file": "quoc-te-nam-gioi/hero.webp",
+      "photographer": "U.S. Navy photo by Seaman Juan Cordova",
+      "profile": "https://commons.wikimedia.org/wiki/File:George_Washington_Sailors_Play_Soccer_with_Vietnamese_Sailors_(9844496).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:George_Washington_Sailors_Play_Soccer_with_Vietnamese_Sailors_(9844496).jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Sailors assigned to Nimitz-class aircraft carrier USS George Washington (CVN 73) pose for a photo before playing soccer "
+    },
+    {
+      "file": "quoc-te-nam-gioi/card.webp",
+      "photographer": "Dorothea Lange",
+      "profile": "https://commons.wikimedia.org/wiki/File:Manzanar_Relocation_Center,_Manzanar,_California._Grandfather_and_grandson_of_Japanese_ancestry_at_._._._-_NARA_-_537994.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Manzanar_Relocation_Center,_Manzanar,_California._Grandfather_and_grandson_of_Japanese_ancestry_at_._._._-_NARA_-_537994.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Scope and content: The full caption for this photograph reads: Manzanar Relocation Center, Manzanar, California. Grandfa"
+    },
+    {
+      "file": "quoc-te-nam-gioi/gallery1.webp",
+      "photographer": "Ni.Nguyen.VCLCA",
+      "profile": "https://commons.wikimedia.org/wiki/File:Men_play_general_chess_for_relaxing_16-09-2025_E2.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Men_play_general_chess_for_relaxing_16-09-2025_E2.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Men play general chess for relaxing"
+    },
+    {
+      "file": "quoc-te-nam-gioi/gallery2.webp",
+      "photographer": "Zitsman Carl, U.S. Fish and Wildlife Service",
+      "profile": "https://commons.wikimedia.org/wiki/File:A_father_and_son_get_their_picture_taken_with_fish_in_hand.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:A_father_and_son_get_their_picture_taken_with_fish_in_hand.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Image title: A father and son get their picture taken with fish in hand Image from Public domain images website, http://"
+    },
+    {
+      "file": "quoc-te-nam-gioi/gallery3.webp",
+      "photographer": "Unknown authorUnknown author or not provided",
+      "profile": "https://commons.wikimedia.org/wiki/File:NYA-Louisiana-men_standing_on_ladders_working_on_metal_building_structure_-_NARA_-_196045.tif",
+      "photo": "https://commons.wikimedia.org/wiki/File:NYA-Louisiana-men_standing_on_ladders_working_on_metal_building_structure_-_NARA_-_196045.tif",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Vietnamese men working"
+    },
+    {
+      "file": "quoc-te-nam-gioi/gallery4.webp",
+      "photographer": "Dorothea Lange",
+      "profile": "https://commons.wikimedia.org/wiki/File:Manzanar_Relocation_Center,_Manzanar,_California._Grandfather_and_grandson_of_Japanese_ancestry_at_._._._-_NARA_-_537994.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Manzanar_Relocation_Center,_Manzanar,_California._Grandfather_and_grandson_of_Japanese_ancestry_at_._._._-_NARA_-_537994.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Scope and content: The full caption for this photograph reads: Manzanar Relocation Center, Manzanar, California. Grandfa"
+    },
+    {
+      "file": "quoc-te-nam-gioi/gallery5.webp",
+      "photographer": "U.S. Navy photo by Seaman Juan Cordova",
+      "profile": "https://commons.wikimedia.org/wiki/File:George_Washington_Sailors_Play_Soccer_with_Vietnamese_Sailors_(9844495).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:George_Washington_Sailors_Play_Soccer_with_Vietnamese_Sailors_(9844495).jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Sailors assigned to Nimitz-class aircraft carrier USS George Washington (CVN 73) play soccer with Vietnamese sailors dur"
+    },
+    {
+      "file": "quoc-te-nam-gioi/gallery6.webp",
+      "photographer": "Unknown authorUnknown author",
+      "profile": "https://commons.wikimedia.org/wiki/File:Father_and_Son._Emperors_Qianlong_and_Yongzhen.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Father_and_Son._Emperors_Qianlong_and_Yongzhen.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "A hanging scroll by Lang Shining (Giuseppe Castiglione), Spring's Peaceful Messages, c. 1736. Ink and color on silk, 68."
     }
   ]
 };
