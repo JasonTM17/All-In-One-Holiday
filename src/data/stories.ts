@@ -306,4 +306,28 @@ export const stories: Record<string, StoryEntry> = {
     ],
     story: { title: "Từ sắc lệnh chống đói đến container đi biển", body: "Tháng 7 năm 1946, giữa lúc cả nước đang góp gạo cứu đói, Bác Hồ ký sắc lệnh thành lập Bộ Kinh tế — ngành giữ mạch máu buôn bán của nước non. Nhiệm vụ lúc ấy giản dị: làm sao để hàng hóa chạy được từ vùng này sang vùng khác. Gần tám chục năm sau, 'kinh tế' ấy đã trở thành những con tàu container rời cảng Cát Lái mỗi giờ, chở cà phê đứng thứ hai thế giới, gạo trong top đầu, điện thoại tới cả trăm quốc gia. Ngày 13/7 được lấy làm ngày truyền thống của ngành thương mại — nhắc rằng buôn bán, từ sạp chợ đến biển cả, cũng là một cách xây nước." },
   },
+  "ngay-doan-thanh-nien": {
+    sources: [
+      { outlet: "Wikipedia", title: "Đoàn Thanh niên Cộng sản Hồ Chí Minh", url: `${W}%C4%90o%C3%A0n_Thanh_ni%C3%AAn_C%E1%BB%99ng_s%E1%BA%A3n_H%E1%BB%93_Ch%C3%AD_Minh`, summary: "Tổ chức thanh niên lớn nhất Việt Nam — thành lập ngày 26/3/1931 tại Vinh, mang tên Hồ Chí Minh từ năm 1970." },
+      { outlet: "Wikipedia", title: "Lý Tự Trọng", url: `${W}L%C3%BD_T%E1%BB%B1_Tr%E1%BB%8Dng`, summary: "Đoàn viên đầu tiên bị xử tử năm 1931 ở tuổi 17 — anh hùng trẻ tuổi mà ngày thành lập Đoàn tôn vinh." },
+      { outlet: "Wikipedia", title: "Thanh niên xung phong", url: `${W}Thanh_ni%C3%AAn_xung_phong`, summary: "Lực lượng tình nguyện trẻ mở đường Trường Sơn, làm nên truyền thống 'xung kích' của tuổi trẻ Việt." },
+    ],
+    story: { title: "Đại hội trong nhà tù của lịch sử", body: "Cuối tháng 3 năm 1931, tại Vinh — thủ phủ của phong trào Xô viết Nghệ Tĩnh — vài chục thanh niên đại diện cho giới trẻ cả nước họp thành đại hội thành lập Đoàn Thanh niên Cộng sản. Họ không biết rằng chỉ vài tháng sau, một cậu đoàn viên 17 tuổi tên Lý Tự Trọng sẽ đứng trước pháp trường Sài Gòn và nói câu nói đi vào lịch sử. Chín mươi năm trôi qua, tổ chức ấy đổi tên nhiều lần nhưng không đổi một chữ 'xung kích': từ đường Trường Sơn khói lửa đến những chiếc áo xanh tình nguyện hôm nay. Ngày 26/3 là ngày nhắc mỗi thế hệ trẻ rằng tuổi trẻ của họ đã từng đứng lên như thế." },
+  },
+  "ngay-tho-viet-nam": {
+    sources: [
+      { outlet: "Wikipedia", title: "Ngày thơ Việt Nam", url: `${W}Ng%C3%A0y_th%C6%A1_Vi%E1%BB%87t_Nam`, summary: "Ngày hội thi ca do Hội Nhà văn khởi xướng từ năm 2003 — đêm thơ đầu tiên tại Văn Miếu." },
+      { outlet: "Wikipedia", title: "Truyện Kiều", url: `${W}Truy%E1%BB%87n_Ki%E1%BB%81u`, summary: "Tác phẩm thơ 3.254 câu của Nguyễn Du — đỉnh cao thi ca Việt mà mọi người đều thuộc vài câu." },
+      { outlet: "UNESCO", title: "World Poetry Day", url: "https://www.unesco.org/en/days/poetry", summary: "Ngày thơ Thế giới 21/3 do UNESCO lập năm 1999 — nguồn cảm hứng để Việt Nam có ngày thơ riêng." },
+    ],
+    story: { title: "Đêm Văn Miếu năm 2003", body: "Tối 24/2/2003, sân Văn Miếu — Quốc Tử Giám rực đèn lồng. Giữa giếng Thiên Quang ngàn năm, những nhà thơ lần lượt bước lên đọc bài của mình — có người đọc bằng giọng run, có người hát luôn vần thơ. Đêm ấy là đêm thơ đầu tiên của Việt Nam, diễn ra đúng rằm tháng Giêng — đêm trăng đầu năm. Từ đó, cứ mỗi rằm Giêng, khắp nước lại có một đêm dành riêng cho thơ: câu lạc bộ thơ làng cũng đọc, nhà hát lớn cũng đọc, đứa học sinh nào cũng được chọn một bài mình yêu. Văn Miếu — trường đại học đầu tiên của nước — hóa ra là nơi đẹp nhất để thơ trở về." },
+  },
+  "quoc-te-nam-gioi": {
+    sources: [
+      { outlet: "Wikipedia", title: "International Men's Day", url: "https://en.wikipedia.org/wiki/International_Men%27s_Day", summary: "Ngày 19/11 do Tiến sĩ Jerome Teelucksingh khởi xướng tại Trinidad & Tobago năm 1999 — nay có khoảng 80 quốc gia ghi nhận." },
+      { outlet: "Wikipedia", title: "Movember", url: "https://en.wikipedia.org/wiki/Movember", summary: "Chiến dịch để râu suốt tháng 11 nâng cao ý thức sức khỏe nam giới — gắn liền với Ngày Quốc tế Nam giới." },
+      { outlet: "International Men's Day", title: "Trang chính thức", url: "https://internationalmensday.com/", summary: "Cổng thông tin toàn cầu của ngày — nêu sáu trụ cột: sức khỏe nam giới, hình mẫu tích cực, quan hệ giới." },
+    ],
+    story: { title: "Sinh nhật của một người cha", body: "Tiến sĩ Jerome Teelucksingh, giảng viên lịch sử ở Trinidad & Tobago, nhận ra một điều đơn giản: thế giới có ngày phụ nữ, ngày thiếu nhi — nhưng không có ngày nào nói về những người đàn ông đang chết trẻ, tự tử nhiều, và hiếm khi được khen. Ông chọn ngày 19/11 năm 1999 — đúng sinh nhật cha mình — để mở đầu. Hơn hai mươi năm sau, khoảng 80 quốc gia đã ghi nhận ngày này. Ý tưởng vẫn giữ nguyên sự giản dị ban đầu: đàn ông cũng cần được nói lời cảm ơn, cần được nhắc đi khám bệnh, và cần một ngày để được phép thấy mình quan trọng với gia đình." },
+  },
 };

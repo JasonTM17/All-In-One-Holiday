@@ -258,15 +258,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "​素魯飯"
     },
     {
-      "file": "tet-nguyen-tieu/amthuc-xoi-che.webp",
-      "photographer": "Terence Ong",
-      "profile": "https://commons.wikimedia.org/wiki/File:Mango_with_glutinous_rice.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Mango_with_glutinous_rice.jpg",
-      "license": "CC BY 2.5",
-      "source": "Wikimedia Commons",
-      "alt": "Thai mango with glutinous rice."
-    },
-    {
       "file": "tet-nguyen-tieu/gallery4.webp",
       "photographer": "Mig Gilbert from Brighton",
       "profile": "https://commons.wikimedia.org/wiki/File:Lanterns_in_Hoi_An_(40542858941).jpg",
@@ -301,6 +292,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC (xem nguồn)",
       "source": "Web (motogo.vn)",
       "alt": "Muốn đi du lịch Đà Nẵng - Hội An thì nhất định phải đọc bài này!!! - MOTOGO"
+    },
+    {
+      "file": "tet-nguyen-tieu/amthuc-xoi-che.webp",
+      "photographer": "tramkochen.blogspot.com",
+      "profile": "https://tramkochen.blogspot.com/2010/04/xoi-khuc.html",
+      "photo": "https://tramkochen.blogspot.com/2010/04/xoi-khuc.html",
+      "license": "CC (xem nguồn)",
+      "source": "Web (tramkochen.blogspot.com)",
+      "alt": "Tram' s kochen: Xôi khúc"
     }
   ],
   "valentine": [
@@ -1947,15 +1947,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Bánh bao chay ngọt cúng tất niên"
     },
     {
-      "file": "tet-han-thuc/amthuc-banh-troi.webp",
-      "photographer": "fr.wikipedia.org",
-      "profile": "https://fr.wikipedia.org/wiki/Songpyeon",
-      "photo": "https://fr.wikipedia.org/wiki/Songpyeon",
-      "license": "CC (xem nguồn)",
-      "source": "Web (fr.wikipedia.org)",
-      "alt": "Songpyeon — Wikipédia"
-    },
-    {
       "file": "tet-han-thuc/gallery6.webp",
       "photographer": "bualoy-thaidessert.blogspot.com",
       "profile": "https://bualoy-thaidessert.blogspot.com/",
@@ -1981,6 +1972,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC (xem nguồn)",
       "source": "Web (tramkochen.blogspot.com)",
       "alt": "Tram' s kochen: Bánh chuối hấp"
+    },
+    {
+      "file": "tet-han-thuc/amthuc-banh-troi.webp",
+      "photographer": "tramkochen.blogspot.com",
+      "profile": "https://tramkochen.blogspot.com/2011/",
+      "photo": "https://tramkochen.blogspot.com/2011/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (tramkochen.blogspot.com)",
+      "alt": "Tram' s kochen: 2011"
     }
   ],
   "tet-doan-ngo": [
@@ -3181,6 +3181,255 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC (xem nguồn)",
       "source": "Web (motogo.vn)",
       "alt": "Phố Cổ Hà Nội Về Đêm - Thiên Đường Của Đồ Ăn Vặt"
+    }
+  ],
+  "ngay-doan-thanh-nien": [
+    {
+      "file": "ngay-doan-thanh-nien/hero.webp",
+      "photographer": "suedostasien.net",
+      "profile": "https://suedostasien.net/vietnam-rezension-land-der-vielen-mythen/",
+      "photo": "https://suedostasien.net/vietnam-rezension-land-der-vielen-mythen/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (suedostasien.net)",
+      "alt": "Rezension: Vietnam – Land der vielen Mythen - südostasien 1 | 2020"
+    },
+    {
+      "file": "ngay-doan-thanh-nien/card.webp",
+      "photographer": "argodadi.bantulkab.go.id",
+      "profile": "https://argodadi.bantulkab.go.id/first/artikel/1235-Mengenal-Visi-Misi-Pasangan-Calon-Bupati-dan-Wakil-Bupati-Kabupaten-Bantul",
+      "photo": "https://argodadi.bantulkab.go.id/first/artikel/1235-Mengenal-Visi-Misi-Pasangan-Calon-Bupati-dan-Wakil-Bupati-Kabupaten-Bantul",
+      "license": "CC (xem nguồn)",
+      "source": "Web (argodadi.bantulkab.go.id)",
+      "alt": "Mengenal Visi-Misi Pasangan Calon Bupati dan Wakil Bupati Kabupaten ..."
+    },
+    {
+      "file": "ngay-doan-thanh-nien/gallery1.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/350org/7149046023",
+      "photo": "https://www.flickr.com/photos/350org/7149046023",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "Hanoi, Vietnam | Volunteers of 350.org Hanoi joined the Clim… | Flickr"
+    },
+    {
+      "file": "ngay-doan-thanh-nien/gallery2.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/melissawall/6157174812",
+      "photo": "https://www.flickr.com/photos/melissawall/6157174812",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "Community Garden Work Day | The Coalition for a Green Glenda… | Flickr"
+    },
+    {
+      "file": "ngay-doan-thanh-nien/gallery3.webp",
+      "photographer": "nadigmadhavi.blogspot.com",
+      "profile": "https://nadigmadhavi.blogspot.com/",
+      "photo": "https://nadigmadhavi.blogspot.com/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (nadigmadhavi.blogspot.com)",
+      "alt": "Expressions"
+    },
+    {
+      "file": "ngay-doan-thanh-nien/gallery4.webp",
+      "photographer": "peoplesdispatch.org",
+      "profile": "https://peoplesdispatch.org/2023/03/23/belarusians-pay-tribute-to-victims-of-khatyn-massacre-on-its-80th-anniversary/",
+      "photo": "https://peoplesdispatch.org/2023/03/23/belarusians-pay-tribute-to-victims-of-khatyn-massacre-on-its-80th-anniversary/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (peoplesdispatch.org)",
+      "alt": "Belarusians pay tribute to victims of Khatyn massacre on its 80th ..."
+    },
+    {
+      "file": "ngay-doan-thanh-nien/gallery5.webp",
+      "photographer": "diendan.org",
+      "profile": "https://www.diendan.org/phe-binh-nghien-cuu/dau-an-sai-gon-tram-nam-con-mat",
+      "photo": "https://www.diendan.org/phe-binh-nghien-cuu/dau-an-sai-gon-tram-nam-con-mat",
+      "license": "CC (xem nguồn)",
+      "source": "Web (diendan.org)",
+      "alt": "Dấu ấn Sài Gòn - trăm năm còn, mất — Diễn Đàn Forum"
+    },
+    {
+      "file": "ngay-doan-thanh-nien/gallery6.webp",
+      "photographer": "ruvival.de",
+      "profile": "https://www.ruvival.de/ur/beach-house/",
+      "photo": "https://www.ruvival.de/ur/beach-house/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (ruvival.de)",
+      "alt": "ساحلی گھر - RUVIVAL"
+    }
+  ],
+  "ngay-tho-viet-nam": [
+    {
+      "file": "ngay-tho-viet-nam/hero.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/danielmennerich/30541959964/",
+      "photo": "https://www.flickr.com/photos/danielmennerich/30541959964/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "Hanoi VN - Văn Miếu - Quốc Tử Giám Temple of Literature 05… | Flickr"
+    },
+    {
+      "file": "ngay-tho-viet-nam/card.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/jlascar/4550352543",
+      "photo": "https://www.flickr.com/photos/jlascar/4550352543",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "First courtyard - Van Mieu gate - Temple of Literature (Va… | Flickr"
+    },
+    {
+      "file": "ngay-tho-viet-nam/gallery1.webp",
+      "photographer": "vishibansal.blogspot.com",
+      "profile": "https://vishibansal.blogspot.com/2017/",
+      "photo": "https://vishibansal.blogspot.com/2017/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (vishibansal.blogspot.com)",
+      "alt": "Feet with wings : 2017"
+    },
+    {
+      "file": "ngay-tho-viet-nam/gallery2.webp",
+      "photographer": "diendan.org",
+      "profile": "https://www.diendan.org/sang-tac/bai-tho-tieng-viet-cua-luu-quang-vu",
+      "photo": "https://www.diendan.org/sang-tac/bai-tho-tieng-viet-cua-luu-quang-vu",
+      "license": "CC (xem nguồn)",
+      "source": "Web (diendan.org)",
+      "alt": "Bài thơ Tiếng Việt của Lưu Quang Vũ — Diễn Đàn Forum"
+    },
+    {
+      "file": "ngay-tho-viet-nam/gallery3.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/nevillewootton/32577135193/",
+      "photo": "https://www.flickr.com/photos/nevillewootton/32577135193/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "Lovely serene night scene by the River in Hoi An | * * * * *… | Flickr"
+    },
+    {
+      "file": "ngay-tho-viet-nam/gallery4.webp",
+      "photographer": "diendan.org",
+      "profile": "https://www.diendan.org/phe-binh-nghien-cuu/sach-viet-kieu-thu-trong-con-mat-gioi-su-hoc-duong-dai",
+      "photo": "https://www.diendan.org/phe-binh-nghien-cuu/sach-viet-kieu-thu-trong-con-mat-gioi-su-hoc-duong-dai",
+      "license": "CC (xem nguồn)",
+      "source": "Web (diendan.org)",
+      "alt": "Sách Việt kiệu thư trong con mắt giới sử học đương đại — Diễn Đàn Forum"
+    },
+    {
+      "file": "ngay-tho-viet-nam/gallery5.webp",
+      "photographer": "chriscrews.com",
+      "profile": "https://www.chriscrews.com/photos/chinese-calligraphy/",
+      "photo": "https://www.chriscrews.com/photos/chinese-calligraphy/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (chriscrews.com)",
+      "alt": "Chinese Calligraphy – The Adventures of Mr. Chris"
+    },
+    {
+      "file": "ngay-tho-viet-nam/gallery6.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/3336/45421639/",
+      "photo": "https://www.flickr.com/photos/3336/45421639/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "Moonlight... | The waters of the Lake Ontario reflecting the… | Flickr"
+    },
+    {
+      "file": "ngay-tho-viet-nam/amthuc-che-troi-nuoc.webp",
+      "photographer": "Phương Huy",
+      "profile": "https://commons.wikimedia.org/wiki/File:M%C3%B3n_ch%C3%A8_%E1%BB%9F_B%C3%ACnh_Long_n%C4%83m_2020.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:M%C3%B3n_ch%C3%A8_%E1%BB%9F_B%C3%ACnh_Long_n%C4%83m_2020.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Món chè, chè trôi nước"
+    },
+    {
+      "file": "ngay-tho-viet-nam/amthuc-tra.webp",
+      "photographer": "VuThiAnh",
+      "profile": "https://commons.wikimedia.org/wiki/File:Tra_sen_-_Vietnamese_Lotus_Tea.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:Tra_sen_-_Vietnamese_Lotus_Tea.JPG",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Vietnamese lotus tea. The photo was taken in Ha Noi, Viet Nam."
+    },
+    {
+      "file": "ngay-tho-viet-nam/amthuc-banh-in.webp",
+      "photographer": "Viethavvh",
+      "profile": "https://commons.wikimedia.org/wiki/File:C%E1%BB%97_trung_thu.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:C%E1%BB%97_trung_thu.JPG",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Bánh in trong cỗ trung thu gia đình ở Hà Nội, Việt Nam"
+    }
+  ],
+  "quoc-te-nam-gioi": [
+    {
+      "file": "quoc-te-nam-gioi/hero.webp",
+      "photographer": "theculinarychronicles.com",
+      "profile": "https://theculinarychronicles.com/category/pastasnoodles/",
+      "photo": "https://theculinarychronicles.com/category/pastasnoodles/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (theculinarychronicles.com)",
+      "alt": "Pastas/Noodles"
+    },
+    {
+      "file": "quoc-te-nam-gioi/card.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/35652152@N07/36932261851/",
+      "photo": "https://www.flickr.com/photos/35652152@N07/36932261851/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "Clasped | Hand in hand in the light. | Chris Richmond | Flickr"
+    },
+    {
+      "file": "quoc-te-nam-gioi/gallery1.webp",
+      "photographer": "movielandgroup.blogspot.com",
+      "profile": "https://movielandgroup.blogspot.com/2017/01/danci-bira-wo-de-fu-qin-mu-qin-put-kuci.html",
+      "photo": "https://movielandgroup.blogspot.com/2017/01/danci-bira-wo-de-fu-qin-mu-qin-put-kuci.html",
+      "license": "CC (xem nguồn)",
+      "source": "Web (movielandgroup.blogspot.com)",
+      "alt": "DANČI BIRA: \"Wo de fu qin mu qin / PUT KUĆI\" (1999.) - Posveta ..."
+    },
+    {
+      "file": "quoc-te-nam-gioi/gallery2.webp",
+      "photographer": "cohtran.blogspot.com",
+      "profile": "https://cohtran.blogspot.com/2016/04/hoc-lam-nguoi-luong-thien.html",
+      "photo": "https://cohtran.blogspot.com/2016/04/hoc-lam-nguoi-luong-thien.html",
+      "license": "CC (xem nguồn)",
+      "source": "Web (cohtran.blogspot.com)",
+      "alt": "Toán - Cơ học ứng dụng: Học làm người lương thiện . P1"
+    },
+    {
+      "file": "quoc-te-nam-gioi/gallery3.webp",
+      "photographer": "24hinh.vn",
+      "profile": "https://24hinh.vn/threads/xe-dap-bac-kinh-2001-mot-bo-phim-hien-thuc-dang-de-xem.210/",
+      "photo": "https://24hinh.vn/threads/xe-dap-bac-kinh-2001-mot-bo-phim-hien-thuc-dang-de-xem.210/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (24hinh.vn)",
+      "alt": "Cảm nhận - Xe đạp Bắc Kinh 2001-Một bộ phim hiện thực đáng để xem ..."
+    },
+    {
+      "file": "quoc-te-nam-gioi/gallery4.webp",
+      "photographer": "foto.wuestenigel.com",
+      "profile": "https://foto.wuestenigel.com/open-emu-egg-on-the-grass-flip-2019/",
+      "photo": "https://foto.wuestenigel.com/open-emu-egg-on-the-grass-flip-2019/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (foto.wuestenigel.com)",
+      "alt": "Open emu egg on the grass (Flip 2019) - Creative Commons Bilder"
+    },
+    {
+      "file": "quoc-te-nam-gioi/gallery5.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/iloasiapacific/10987484006",
+      "photo": "https://www.flickr.com/photos/iloasiapacific/10987484006",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "Ando International garment factory (Better Work Vietnam) | Flickr"
+    },
+    {
+      "file": "quoc-te-nam-gioi/gallery6.webp",
+      "photographer": "diendan.org",
+      "profile": "https://www.diendan.org/nhung-con-nguoi/nho-phung-thang",
+      "photo": "https://www.diendan.org/nhung-con-nguoi/nho-phung-thang",
+      "license": "CC (xem nguồn)",
+      "source": "Web (diendan.org)",
+      "alt": "Nhớ Phùng Thăng — Diễn Đàn Forum"
     }
   ]
 };

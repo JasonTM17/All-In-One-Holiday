@@ -13,36 +13,13 @@ const UA = {
 };
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-// Round 8: wrong-subject galleries found in the alt-text audit.
+// Round 12: amThuc stems for the new ngay-tho page + two
+// wrong-subject amThuc images (mango sticky rice, songpyeon).
 const FIX = {
-  "nguoi-cao-tuoi/gallery2": ["người già việt nam mỉm cười", "cụ bà việt nam tuổi cao", "người cao tuổi việt nam gia đình"],
-  "nguoi-cao-tuoi/gallery3": ["chúc thọ người già việt nam", "mừng thọ cụ ông cụ bà", "đại gia đình việt nam quây quần"],
-  "nguoi-cao-tuoi/gallery4": ["người già tập dưỡng sinh công viên", "cụ già việt nam thể dục buổi sáng", "elderly vietnam park"],
-  "tet-han-thuc/gallery6": ["bánh trôi nước tết hàn thực", "chè trôi nước tàu", "bánh chay ngọt việt nam"],
-  "quan-doi-nhan-dan/gallery4": ["diễu binh quân đội việt nam", "vietnam military parade", "quân đội nhân dân duyệt binh"],
-  "nha-giao-viet-nam/gallery5": ["thầy cô giáo việt nam lớp học", "giáo viên việt nam dạy học", "học sinh việt nam chào cờ"],
-  "nha-giao-viet-nam/gallery6": ["lớp học việt nam học sinh", "cô giáo và học sinh việt nam", "ngày nhà giáo việt nam tặng hoa"],
-  "giang-sinh/gallery4": ["giáng sinh nhà thờ việt nam đêm", "christmas church vietnam", "nhà thờ đức bà giáng sinh"],
-  "giang-sinh/gallery6": ["phố hàng mã giáng sinh", "noel trang trí việt nam", "cây thông noel việt nam"],
-  "valentine/gallery6": ["couple vietnam valentine", "đôi tình nhân việt nam", "ngày valentine quà tặng"],
-  "ngay-bao-chi/gallery4": ["nhà báo việt nam tác nghiệp", "vietnam journalist interview", "báo chí việt nam phóng viên"],
-  "ngay-the-thao-viet-nam/gallery4": ["đội tuyển bóng đá nữ việt nam", "vietnam women football team", "nữ cầu thủ việt nam áo đỏ"],
-  "ngay-phap-luat-viet-nam/gallery3": ["tòa án nhân dân việt nam", "vietnam court trial", "thẩm phán việt nam"],
-  // Round 9: hero/card slots with foreign subjects found in credit audit.
-  "nguoi-cao-tuoi/hero": ["người cao tuổi việt nam gia đình", "cụ ông cụ bà việt nam", "elderly vietnamese grandparents"],
-  "nguoi-cao-tuoi/card": ["mừng thọ người già việt nam", "chúc thọ cụ bà", "kính lão việt nam"],
-  "ngay-the-thao-viet-nam/hero": ["vận động viên việt nam thi đấu", "vietnam athletes competition", "điền kinh việt nam chạy"],
-  "ngay-the-thao-viet-nam/gallery5": ["vovinam việt nam thi đấu", "võ thuật việt nam", "tập võ vovinam"],
-  "ngay-the-thao-viet-nam/gallery6": ["thể dục buổi sáng bờ hồ hà nội", "morning exercise hanoi lake", "chạy bộ hồ gươm"],
-  "ngay-bao-chi/hero": ["phóng viên báo chí việt nam tác nghiệp", "vietnam press reporters", "nhà báo việt nam camera"],
-  "ngay-bao-chi/card": ["tòa soạn báo việt nam", "vietnam newsroom", "đài truyền hình việt nam"],
-  "ngay-bao-chi/gallery3": ["phỏng vấn báo chí việt nam", "vietnam tv interview", "micro báo chí"],
-  "ngay-bao-chi/gallery5": ["họp báo việt nam", "vietnam press conference", "phòng tin tức"],
-  "ngay-phap-luat-viet-nam/hero": ["hội trường quốc hội việt nam", "vietnam national assembly hall", "quốc hội họp việt nam"],
-  // Round 10: remaining wrong cards found in credit audit.
-  "ngay-thay-thuoc/card": ["bác sĩ việt nam khám bệnh", "vietnam doctor hospital", "thầy thuốc việt nam"],
-  "nha-giao-viet-nam/card": ["lớp học trường việt nam", "vietnam school classroom", "trường học việt nam"],
-  "tet-doan-ngo/card": ["giết sâu bọ tết đoan ngọ", "mâm cúng tết đoan ngọ", "rượu nếp tết đoan ngọ"],
+  "ngay-tho-viet-nam/amthuc-banh-troi": ["bánh trôi nước việt nam", "chè trôi nước", "banh troi nuoc"],
+  "ngay-tho-viet-nam/amthuc-banh-com": ["bánh cốm hà nội", "banh com vietnam green rice", "cốm xanh hà nội"],
+  "tet-nguyen-tieu/amthuc-xoi-che": ["xôi chè việt nam", "chè xôi nước nguyên tiêu", "xoi che vietnam dessert"],
+  "tet-han-thuc/amthuc-banh-troi": ["bánh trôi tết hàn thực", "bánh trôi nước ngũ sắc", "banh troi vietnam"],
 };
 
 mkdirSync(STAGE, { recursive: true });

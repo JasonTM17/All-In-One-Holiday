@@ -298,4 +298,28 @@ export const storiesEn: Record<string, StoryEntry> = {
     ],
     story: { title: "From an anti-famine decree to container ships", body: "In July 1946, while the whole country was pooling rice against famine, Uncle Hồ signed a decree founding the Ministry of Economy — the agency keeping the young nation's trade artery open. Its mission was modest: move goods from one region to another. Nearly eighty years later, that 'economy' is container ships leaving Cát Lái port by the hour, carrying the world's second-largest coffee crop, top-tier rice, and phones bound for a hundred countries. July 13 became the trade sector's traditional day — a reminder that commerce, from a market stall to the open sea, is also a way of building a nation." },
   },
+  "ngay-doan-thanh-nien": {
+    sources: [
+      { outlet: "Wikipedia", title: "Ho Chi Minh Communist Youth Union", url: `${W}Ho_Chi_Minh_Communist_Youth_Union`, summary: "Vietnam's largest youth organization — founded March 26, 1931 in Vinh, carrying Ho Chi Minh's name since 1970." },
+      { outlet: "Wikipedia", title: "Lý Tự Trọng", url: `${W}L%C3%BD_T%E1%BB%B1_Tr%E1%BB%8Dng`, summary: "The first Union member executed in 1931 at age 17 — the young hero honored on the founding day." },
+      { outlet: "Wikipedia", title: "Thanh niên xung phong", url: `${W}Thanh_ni%C3%AAn_xung_phong`, summary: "The volunteer youth force that cut the Truong Son trail — origin of the 'xung kich' stepping-forward tradition." },
+    ],
+    story: { title: "A congress in history's shadow", body: "In late March 1931, in Vinh — capital of the Nghe-Tinh Soviet movement — a few dozen young people met as the founding congress of the Communist Youth League. They could not know that months later, a 17-year-old member named Ly Tu Trong would face a firing squad in Saigon and speak words that entered history. Ninety years on, the organization changed names many times but never the word 'xung kich': from the smoke of the Truong Son trail to today's green volunteer shirts. March 26 reminds each young generation that theirs once stood up like that." },
+  },
+  "ngay-tho-viet-nam": {
+    sources: [
+      { outlet: "UNESCO", title: "World Poetry Day", url: "https://www.unesco.org/en/days/poetry", summary: "March 21, established by UNESCO in 1999 — the inspiration for Vietnam to create its own poetry day." },
+      { outlet: "Wikipedia", title: "The Tale of Kieu", url: `${W}The_Tale_of_Kieu`, summary: "Nguyen Du's 3,254-line verse epic — the peak of Vietnamese poetry that almost everyone can quote." },
+      { outlet: "Wikipedia", title: "Temple of Literature, Hanoi", url: `${W}Temple_of_Literature,_Hanoi`, summary: "Vietnam's 'first university' built in 1070 — where the first poetry night was held in 2003." },
+    ],
+    story: { title: "The Temple of Literature night, 2003", body: "On the evening of February 24, 2003, the courtyards of Van Mieu — Quoc Tu Giam glowed with lanterns. Before the thousand-year-old Well of Heavenly Clarity, poets stepped up one by one to read — some in trembling voices, some singing their verses outright. It was Vietnam's first poetry night, held on the first full moon of the year. Since then, every first-full-moon night the country pauses for verse: village poetry clubs read, grand theaters read, and every schoolchild may choose a poem they love. Vietnam's oldest university turned out to be the most beautiful place for poetry to come home." },
+  },
+  "quoc-te-nam-gioi": {
+    sources: [
+      { outlet: "Wikipedia", title: "International Men's Day", url: `${W}International_Men%27s_Day`, summary: "November 19, initiated by Dr. Jerome Teelucksingh in Trinidad & Tobago in 1999 — now marked in about 80 countries." },
+      { outlet: "Wikipedia", title: "Movember", url: `${W}Movember`, summary: "The month-long mustache campaign raising awareness of men's health — closely tied to International Men's Day." },
+      { outlet: "International Men's Day", title: "Official site", url: "https://internationalmensday.com/", summary: "The day's global portal — naming six pillars: men's health, positive role models, gender relations." },
+    ],
+    story: { title: "A father's birthday", body: "Dr. Jerome Teelucksingh, a history lecturer in Trinidad & Tobago, noticed something simple: the world had a women's day and a children's day — but nothing for the men dying younger, taking their own lives more often, and rarely being thanked. He chose November 19, 1999 — his own father's birthday — to start. More than twenty years on, about 80 countries mark the day. The idea kept its original modesty: men need to hear thank-yous too, need reminders to see a doctor, and need one day a year to feel they matter to their families." },
+  },
 };

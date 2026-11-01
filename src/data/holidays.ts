@@ -3072,6 +3072,249 @@ export const holidays: Holiday[] = [
       { q: "13/7 có được nghỉ lễ không?", a: "Không — là ngày truyền thống của ngành, không phải ngày nghỉ quốc gia." },
     ],
   },
+  {
+    slug: "ngay-doan-thanh-nien",
+    heroStyle: "poster",
+    signature: [
+      {
+        kind: "timeline",
+        title: "Chín mươi năm tuổi trẻ",
+        beats: [
+          { year: "26·3·1931", title: "Đoàn ra đời ở Vinh", text: "Đại hội lần thứ nhất của Đoàn Thanh niên Cộng sản họp tại Vinh — tổ chức thanh niên đầu tiên của cách mạng Việt Nam chính thức khai sinh." },
+          { year: "20·11·1931", title: "Lý Tự Trọng hy sinh", text: "Đoàn viên 17 tuổi chịu xử bắn ở Sài Gòn — tấm gương đầu tiên về lòng tin vào lý tưởng của tuổi trẻ Việt." },
+          { year: "15·7·1950", title: "Thanh niên xung phong", text: "Đội Thanh niên xung phong đầu tiên thành lập — từ đường Trường Sơn đến chiến trường Điện Biên, TNXP trở thành truyền thống xung kích của giới trẻ." },
+          { year: "1970", title: "Mang tên Người", text: "Đoàn mang tên 'Thanh niên Lao động Hồ Chí Minh' — dòng chữ Hồ Chí Minh gắn với tổ chức thanh niên từ đây." },
+          { year: "Hôm nay", title: "Tình nguyện & sáng tạo", text: "Hàng triệu đoàn viên làm tình nguyện hè, khởi nghiệp, chuyển đổi số — 'xung kích' hôm nay là dựng xây chứ không còn chiến trường." },
+        ],
+      },
+    ],
+    quotes: [
+      { text: "Thanh niên là chủ nhân tương lai của nước nhà. Nước nhà thịnh hay suy, yếu hay mạnh một phần lớn ở thanh niên.", author: "Hồ Chí Minh" },
+    ],
+    motif: "star",
+    name: "Ngày Thành lập Đoàn TNCS Hồ Chí Minh",
+    dateMark: "26·03",
+    displayDate: "26 tháng 3",
+    rule: { type: "solar", month: 3, day: 26 },
+    categories: ["quoc-gia"],
+    theme: { from: "#b91c1c", to: "#b45309", accent: "#fbbf24" },
+    tagline: "Ngày kỷ niệm ra đời tổ chức thanh niên lớn nhất Việt Nam.",
+    history: [
+      "Từ ngày 26–31/3/1931, Đại hội lần thứ nhất của Đoàn Thanh niên Cộng sản họp tại Vinh — tổ chức thanh niên đầu tiên của cách mạng Việt Nam ra đời, lấy ngày 26/3 làm ngày thành lập.",
+      "Trải qua nhiều lần đổi tên — Đoàn Thanh niên Cộng sản, Đoàn Thanh niên Cứu quốc, Đoàn Thanh niên Lao động, Đoàn Thanh niên Lao động Hồ Chí Minh — đến năm 1992 lấy tên gọi hiện nay: Đoàn Thanh niên Cộng sản Hồ Chí Minh.",
+    ],
+    meaning:
+      "Ngày nhắc tuổi trẻ về truyền thống xung kích hơn chín mươi năm — từ Lý Tự Trọng đến thanh niên xung phong, đến mùa hè xanh và khởi nghiệp hôm nay.",
+    traditions: [
+      { title: "Kết nạp đoàn viên mới", text: "Lễ kết nạp cho đoàn viên mới tổ chức long trọng vào tháng 3 — mở đầu 'Tháng Thanh niên'." },
+      { title: "Tháng Thanh niên", text: "Cả tháng 3 là 'Tháng Thanh niên' với chiến dịch tình nguyện, đô thị văn minh, khởi nghiệp khắp nước." },
+      { title: "Mít tinh, gặp mặt truyền thống", text: "Đoàn viên cũ gặp lại đoàn viên trẻ, kể chuyện TNXP, chuyến hải trình không số." },
+      { title: "Tình nguyện xây dựng", text: "Mùa hè xanh, xuân tình nguyện, tiếp sức mùa thi — tuổi trẻ đi làm thật, không chỉ hô khẩu hiệu." },
+    ],
+    wishes: [
+      "26/3 — chúc tuổi trẻ của bạn luôn có một chỗ đứng xung kích cho riêng mình.",
+      "Chúc các đoàn viên giữ mãi ngọn lửa nhiệt huyết — dù ở giảng đường, phòng lab hay bản nghèo.",
+      "Tuổi trẻ không chờ đợi — chúc bạn một ngày thành lập đoàn thật bận rộn và đáng nhớ.",
+      "Chúc thanh niên Việt Nam tiếp tục viết truyền thống xung kích bằng sáng tạo và tình nguyện.",
+      "Gửi đến đoàn viên cũ và mới: cảm ơn những mùa hè xanh, những chuyến xe tình nguyện — ngày 26/3 là của các bạn.",
+    ],
+    gifts: [
+      { title: "Huy hiệu đoàn, sổ đoàn viên", text: "Kỷ vật nhỏ nhưng thiêng liêng với ai đang kết nạp đoàn." },
+      { title: "Áo phông tình nguyện", text: "Chiếc áo xanh mùa hè xanh hay đỏ xuân tình nguyện — 'đồng phục' của tuổi trẻ xung kích." },
+      { title: "Sách về anh hùng trẻ", text: "Truyện Lý Tự Trọng, Võ Thị Sáu — nhắc tuổi trẻ rằng tuổi 17–20 cũng đủ lớn để cống hiến." },
+    ],
+    deep: {
+      ongNguon: [
+        "Cuối tháng 3 năm 1931, trong những ngày cách mạng Việt Nam vừa vượt qua cơn khủng hoảng sau khi Đảng ra đời, đại hội thành lập Đoàn Thanh niên Cộng sản được tổ chức tại Vinh — tỉnh trung tâm của phong trào Xô viết Nghệ Tĩnh. Đây là tổ chức thanh niên cách mạng đầu tiên của Việt Nam, thu hút giới trẻ yêu nước vào hàng ngũ chung.",
+        "Qua chín mươi năm, tổ chức ấy đổi tên nhiều lần theo từng giai đoạn lịch sử, nhưng một chữ 'xung kích' không đổi: từ Lý Tự Trọng đứng trước pháp trường năm 17 tuổi, đến hàng nghìn đội hình thanh niên xung phong mở đường Trường Sơn, đến sinh viên hôm nay mặc áo xanh tình nguyện vào vùng khó. Ngày 26/3 vì thế không chỉ là 'sinh nhật' của một tổ chức — là ngày của chính tuổi trẻ Việt Nam.",
+      ],
+      phongTuc: [
+        { title: "Tháng Thanh niên", text: "Suốt tháng 3 mỗi năm, các cấp bộ đoàn triển khai chiến dịch tình nguyện toàn quốc — từ làm sạch đô thị, trồng cây đến hỗ trợ chuyển đổi số cho người già." },
+        { title: "Lễ kết nạp đoàn viên", text: "Nghi thức trao huy hiệu đoàn, đọc lời hứa đoàn viên và đeo khăn quàng — nghi lễ 'trưởng thành' chính thức của tuổi trẻ Việt Nam." },
+        { title: "Ngày hội việc làm", text: "Gắn với tháng thanh niên, các sàn việc làm, tư vấn khởi nghiệp và hội thảo kỹ năng mở đến sinh viên khắp nơi." },
+        { title: "Vinh danh đoàn viên tiêu biểu", text: "Giải Lý Tự Trọng, giải Lương Định Của — danh hiệu cao nhất cho đoàn viên, cán bộ đoàn trẻ có thành tích nổi bật." },
+        { title: "Xuân tình nguyện, hè tình nguyện", text: "Chiến dịch tình nguyện quanh năm: đón Tết cùng người nghèo (Xuân), mùa hè xanh vào vùng sâu vùng xa, tiếp sức mùa thi mỗi tháng 7." },
+        { title: "Sinh hoạt truyền thống", text: "Tham quan địa chỉ đỏ, gặp cựu TNXP, đốt lửa trại sinh hoạt đoàn — 'tiết học truyền thống' sống động nhất của thế hệ sau." },
+      ],
+      amThuc: [],
+      facts: [
+        "Lý Tự Trọng — đoàn viên đầu tiên bị xử tử — chỉ mới 17 tuổi khi đứng trước pháp trường Sài Gòn ngày 20/11/1931.",
+        "Câu nói gắn với Lý Tự Trọng trước tòa án đế quốc: 'Con đường của thanh niên chỉ có thể là con đường cách mạng'.",
+        "Đội hình Thanh niên xung phong đầu tiên ra đời ngày 15/7/1950 tại chiến dịch Biên giới — sau này TNXP có mặt ở mọi chiến trường lớn.",
+        "Bài ca chính thức của Đoàn là 'Thanh niên làm theo lời Bác' — do nhạc sĩ Hoàng Hà sáng tác, hát trong mọi sinh hoạt đoàn.",
+        "'Tháng Thanh niên' hằng năm quy tụ hàng triệu lượt đoàn viên tham gia công trình — được xem là chiến dịch tình nguyện lớn nhất của giới trẻ Việt.",
+      ],
+    },
+    faq: [
+      { q: "Ngày thành lập Đoàn TNCS Hồ Chí Minh là ngày nào?", a: "26/3 hằng năm — kỷ niệm Đại hội thành lập Đoàn Thanh niên Cộng sản tại Vinh năm 1931." },
+      { q: "Đoàn TNCS Hồ Chí Minh có bao nhiêu tuổi?", a: "Tính từ 26/3/1931 — tổ chức thanh niên cách mạng đầu tiên của Việt Nam." },
+      { q: "Tháng Thanh niên là gì?", a: "Chiến dịch tình nguyện toàn quốc suốt tháng 3 gắn với ngày thành lập Đoàn — thi công công trình, môi trường, chuyển đổi số." },
+      { q: "Lý Tự Trọng là ai?", a: "Đoàn viên đầu tiên của Đoàn TNCS bị xử tử năm 1931 ở tuổi 17 — tấm gương thanh niên anh hùng mà ngày 26/3 tôn vinh." },
+    ],
+  },
+  {
+    slug: "ngay-tho-viet-nam",
+    heroStyle: "framed",
+    signature: [
+      {
+        kind: "steps",
+        title: "Một đêm thơ rằm Giêng",
+        steps: [
+          { icon: "fullmoon", title: "Trăng rằm tháng Giêng", text: "Ngày thơ Việt Nam chọn đúng đêm rằm đầu năm — trăng Nguyên tiêu soi sáng vườn thơ Văn Miếu." },
+          { icon: "temple", title: "Thiên Quang trước đêm thơ", text: "Khuôn viên Văn Miếu — Quốc Tử Giám thắp đèn, giăng lọng — nơi đêm thơ đầu tiên diễn ra năm 2003." },
+          { icon: "candle", title: "Đọc thơ dưới trăng", text: "Nhà thơ, sinh viên và khán giả đọc những bài thơ tiêu biểu của năm — từ ca dao đến thơ trẻ mới xuất bản." },
+          { icon: "book", title: "Ra mắt tập thơ", text: "Nhiều tập thơ chọn đêm rằm để trình làng — nhà thơ ký tặng độc giả ngay dưới giếng Thiên Quang." },
+          { icon: "star", title: "Chủ đề năm mới", text: "Mỗi năm một chủ đề — 'Quê hương', 'Cửa sông', 'Vượt biển'… — định hướng sáng tác thơ của cả năm." },
+        ],
+      },
+    ],
+    quotes: [
+      { text: "Trăm năm trong cõi người ta, / Chữ tài chữ mệnh khéo là ghét nhau.", author: "Nguyễn Du", work: "Truyện Kiều" },
+    ],
+    motif: "fullmoon",
+    name: "Ngày thơ Việt Nam",
+    dateMark: "Rằm Giêng",
+    displayDate: "Rằm tháng Giêng (âm lịch)",
+    rule: { type: "lunar", month: 1, day: 15 },
+    categories: ["truyen-thong"],
+    theme: { from: "#3b0764", to: "#701a75", accent: "#c084fc" },
+    tagline: "Đêm rằm tháng Giêng dành riêng cho thi ca Việt.",
+    history: [
+      "Ngày thơ Việt Nam được Hội Nhà văn Việt Nam khởi xướng, hưởng ứng Ngày thơ Thế giới do UNESCO lập năm 1999 — đêm thơ đầu tiên diễn ra ngày 24/2/2003 tại Văn Miếu — Quốc Tử Giám, Hà Nội.",
+      "Từ đó, mỗi năm một chủ đề được chọn và đêm thơ được tổ chức vào đúng rằm tháng Giêng âm lịch — cùng đêm với Tết Nguyên tiêu, khi trăng đầu năm tròn nhất.",
+    ],
+    meaning:
+      "Tôn vinh thi ca — loại hình nghệ thuật gắn bó lâu nhất với văn hóa Việt: từ ca dao ru con, thơ Đường luật đến Truyện Kiều và thơ mới.",
+    traditions: [
+      { title: "Đêm thơ Văn Miếu", text: "Buổi tối rằm Giêng tại Văn Miếu — Quốc Tử Giám: đọc thơ, ca trù, hòa nhạc và triển lãm thơ." },
+      { title: "Đọc thơ cùng nhau", text: "Câu lạc bộ thơ, trường học, thư viện cùng mở buổi đọc — bài nào cũng được, miễn là thơ." },
+      { title: "Chủ đề năm", text: "Hội Nhà văn chọn chủ đề cho năm sáng tác — từ 'Quê hương' đến 'Tuổi trẻ và biển'." },
+      { title: "Vinh danh nhà thơ", text: "Giải thưởng thơ của năm, cuộc thi thơ mới và tưởng nhớ các danh thi đã khuất." },
+    ],
+    wishes: [
+      "Rằm Giêng — chúc bạn một năm sống chậm lại đủ để nghe thấy vần điệu của đời mình.",
+      "Chúc trang thơ của bạn luôn trắng và đầy — như trăng đêm nay.",
+      "Ngày thơ — chúc những ai viết thơ tiếp tục viết, những ai yêu thơ tiếp tục yêu.",
+      "Chúc bạn tìm được một câu thơ trong năm nay mà chỉ mình bạn hiểu hết.",
+      "Gửi các nhà thơ: cảm ơn vì đã làm tiếng Việt đẹp hơn từng chữ một — rằm Giêng này là của các bạn.",
+    ],
+    gifts: [
+      { title: "Một tập thơ", text: "Truyện Kiều bản đẹp, tập thơ của nhà thơ bạn yêu — món quà đúng ngày nhất có thể." },
+      { title: "Sổ tay & bút mực", text: "Để bắt đầu vần thơ đầu tiên — quà tặng cho ai đang muốn viết." },
+      { title: "Vé đêm thơ Văn Miếu", text: "Trải nghiệm đọc thơ dưới trăng rằm — món quà không cần gói." },
+    ],
+    deep: {
+      ongNguon: [
+        "Thơ là nhịp chung của văn hóa Việt — từ những câu ca dao truyền miệng nghìn năm đến Nôm thư của Nguyễn Du, từ thơ Đường luật nghiêm ngặt đến Thơ mới của những năm 1930. Không dân tộc nào gần như khắp địa phương đều biết thuộc lòng một tác phẩm thơ như người Việt với Truyện Kiều.",
+        "Năm 2003, Hội Nhà văn Việt Nam chọn đêm rằm tháng Giêng — đêm trăng đầu năm, đêm của Tết Nguyên tiêu — để dành trọn cho thi ca. Đêm thơ đầu tiên diễn ra ở Văn Miếu, trường đại học đầu tiên của nước — và kể từ đó, mỗi rằm Giêng lại trở thành ngày hội của thơ trên khắp nước, gắn với một chủ đề sáng tác mới.",
+      ],
+      phongTuc: [
+        { title: "Đêm thơ Văn Miếu — Quốc Tử Giám", text: "Sự kiện trung tâm của Ngày thơ mỗi năm tại Hà Nội — sân vườn văn miếu rực đèn, nhà thơ đọc bài mới, thiếu nhi đọc ca dao." },
+        { title: "Chủ đề sáng tác năm", text: "Hội Nhà văn công bố chủ đề Ngày thơ từng năm — chủ đề trở thành 'kim chỉ nam' cho giải thưởng và sáng tác thơ trong năm." },
+        { title: "Đọc thơ trên khắp nước", text: "Từ câu lạc bộ thơ làng đến nhà hát lớn: buổi đọc, tiệc trà thơ, giao lưu nhà thơ diễn ra ở hầu hết tỉnh thành." },
+        { title: "Thơ học sinh", text: "Trường học tổ chức đọc thơ, học thuộc lòng và sáng tác — đưa trẻ em đến gần thơ từ tuổi nhỏ." },
+        { title: "Triển lãm & ra mắt sách", text: "Nhiều tập thơ, tuyển thơ chọn đúng đêm Ngày thơ để trình làng bạn đọc — biến ngày lễ thành 'hội chợ thơ' mini." },
+        { title: "Thơ quốc tế", text: "Ngày thơ Việt Nam mở cửa đón nhà thơ nước ngoài — những năm gần đây có hàng chục thi nhân quốc tế về dự đêm thơ Văn Miếu." },
+      ],
+      amThuc: [
+        { title: "Chè trôi nước", img: "amthuc-che-troi-nuoc", text: "Món ăn của Nguyên tiêu chia sẻ với Ngày thơ — viên trắng nổi trong nước gừng, giống câu thơ: đơn giản mà tròn vẹn." },
+        { title: "Trà ngon tiệc thơ", img: "amthuc-tra", text: "Ấm trà nóng và vài câu thơ — 'tiệc' của đêm thơ là vậy, không cần gì hơn." },
+        { title: "Bánh in", img: "amthuc-banh-in", text: "Viên bánh in bột đậu xanh tan ngay đầu lưỡi — bạn đồng hành ngàn năm của trà và thơ." },
+      ],
+      facts: [
+        "Đêm thơ đầu tiên diễn ra ngày 24/2/2003 tại Văn Miếu — Quốc Tử Giám — đúng đêm rằm tháng Giêng.",
+        "Ngày thơ Việt Nam trùng đúng đêm Tết Nguyên tiêu (rằm tháng Giêng) — đêm trăng đầu tiên của năm.",
+        "Truyện Kiều của Nguyễn Du dài 3.254 câu lục bát — tác phẩm thơ được người Việt thuộc lòng nhiều nhất trong lịch sử.",
+        "Ngày thơ Thế giới của UNESCO (21/3) được lập năm 1999 — Việt Nam là một trong những nước đầu tiên có ngày thơ riêng.",
+        "Văn Miếu — Quốc Tử Giám xây năm 1070 là 'trường đại học đầu tiên' của Việt Nam — vì vậy được chọn làm nơi tổ chức đêm thơ.",
+      ],
+    },
+    faq: [
+      { q: "Ngày thơ Việt Nam là ngày nào?", a: "Rằm tháng Giêng âm lịch hằng năm — trùng đêm Tết Nguyên tiêu, ngày trăng đầu năm tròn nhất." },
+      { q: "Ngày thơ do ai tổ chức?", a: "Hội Nhà văn Việt Nam khởi xướng từ năm 2003, hưởng ứng Ngày thơ Thế giới của UNESCO." },
+      { q: "Đêm thơ Văn Miếu có gì?", a: "Đọc thơ, ca trù, hòa nhạc, triển lãm và ra mắt tập thơ mới — dưới ánh trăng rằm tại Văn Miếu — Quốc Tử Giám, Hà Nội." },
+      { q: "Ngày thơ có chủ đề riêng không?", a: "Có — mỗi năm một chủ đề sáng tác, ví dụ 'Quê hương', 'Tuổi trẻ và biển' — do Hội Nhà văn công bố." },
+    ],
+  },
+  {
+    slug: "quoc-te-nam-gioi",
+    heroStyle: "split",
+    signature: [
+      {
+        kind: "meanings",
+        title: "Bốn trụ cột của ngày nam giới",
+        items: [
+          { title: "Sức khỏe nam giới", text: "Nhắc kiểm tra sức khỏe định kỳ, chú ý sức khỏe tinh thần — nam giới vẫn ít đi khám và ít kể khi mệt.", swatch: "#0ea5e9" },
+          { title: "Hình mẫu tích cực", text: "Tôn vinh những người đàn ông sống có trách nhiệm — cha, anh, thầy — để giới trẻ có gương gần.", swatch: "#6366f1" },
+          { title: "Vai trò gia đình", text: "Nhìn nhận công lao thầm lặng của những người cha, người chồng, người con trai trong mỗi nhà.", swatch: "#f59e0b" },
+          { title: "Công bằng & tôn trọng", text: "Bình đẳng giới không chỉ là của phụ nữ — ngày nam giới nhắc tôn trọng chéo giữa các giới.", swatch: "#10b981" },
+        ],
+      },
+    ],
+    quotes: [
+      { text: "Một người cha có giá trị bằng một trăm thầy giáo.", author: "George Herbert", work: "Châm ngôn Anh" },
+    ],
+    motif: "medal",
+    name: "Ngày Quốc tế Nam giới",
+    dateMark: "19·11",
+    displayDate: "19 tháng 11",
+    rule: { type: "solar", month: 11, day: 19 },
+    categories: ["quoc-te"],
+    theme: { from: "#0c4a6e", to: "#075985", accent: "#38bdf8" },
+    tagline: "Ngày tri ân những người đàn ông trong đời.",
+    history: [
+      "Ngày Quốc tế Nam giới được khởi xướng bởi Tiến sĩ Jerome Teelucksingh ở Trinidad & Tobago — lần đầu tổ chức năm 1999, chọn ngày 19/11 là sinh nhật của cha ông.",
+      "Đến nay ngày này được ghi nhận ở khoảng 80 quốc gia — chưa phải ngày lễ chính thức của LHQ nhưng là dịp thế giới nói về sức khỏe nam giới và những hình mẫu nam tính tích cực.",
+    ],
+    meaning:
+      "Bù lại cho những người đàn ông ít được nói lời cảm ơn — ngày nhắc chúng ta chú ý đến sức khỏe, cảm xúc và vai trò của nam giới.",
+    traditions: [
+      { title: "Lời chúc cho nam giới", text: "Ngày gửi lời cảm ơn đến cha, anh, chồng, đồng nghiệp nam — đơn giản mà ít ai làm." },
+      { title: "Chủ đề sức khỏe", text: "Chiến dịch khám sức khỏe, tư vấn tinh thần và vận động nam giới từ các tổ chức y tế." },
+      { title: "Tôn vinh hình mẫu", text: "Câu chuyện về người cha, người thầy, người đồng đội có ảnh hưởng tốt được chia sẻ rộng." },
+      { title: "Cặp với 8/3", text: "Ở nhiều nước, 19/11 được xem là 'đối ứng' của 8/3 — ngày để nam giới cũng được tặng hoa, tặng quà." },
+    ],
+    wishes: [
+      "19/11 — chúc người đàn ông của bạn khỏe mạnh, và đủ can đảm để kể khi mình mệt.",
+      "Gửi người cha ít nói: cảm ơn những vai gánh thầm lặng suốt cả đời.",
+      "Chúc các anh, các chú, các bạn nam — được yêu thương rõ ràng như các chị, các em.",
+      "Chúc mọi người đàn ông tìm được giấc ngủ trọn đêm — và một người để trò chuyện khi cần.",
+      "Ngày nam giới — chúc bạn sống đúng hình mẫu mà con trẻ quanh bạn sẽ muốn theo.",
+    ],
+    gifts: [
+      { title: "Gói khám sức khỏe", text: "Lịch khám định kỳ hoặc gói xét nghiệm — món quà thiết thực nhất cho người ít đi khám." },
+      { title: "Dụng cụ thể thao", text: "Giày chạy, găng gym, dây nhảy — khuyến khích thói quen vận động." },
+      { title: "Đồ cá nhân chất lượng", text: "Đồng hồ, ví da, bộ dưỡng da — những thứ nam giới thường tự tiết kiệm." },
+    ],
+    deep: {
+      ongNguon: [
+        "Ngày Quốc tế Nam giới ra đời năm 1999 ở Trinidad & Tobago do Tiến sĩ Jerome Teelucksingh khởi xướng — ông chọn ngày 19/11, sinh nhật cha mình, vì cho rằng thế giới thiếu một ngày để nói về những vấn đề riêng của nam giới: sức khỏe thấp hơn, tuổi thọ ngắn hơn, tỷ lệ tự tử cao hơn và thói quen giấu cảm xúc.",
+        "Mục tiêu của ngày không phải đối lập với nữ quyền mà là hoàn thiện bình đẳng: chú ý sức khỏe nam giới, tôn vinh hình mẫu tích cực, cải thiện quan hệ giới và giúp nam giới học cách chăm sóc mình. Đến nay, ngày 19/11 được ghi nhận ở khoảng 80 quốc gia — ở Việt Nam, nó dần phổ biến qua truyền thông và các sự kiện doanh nghiệp, trường học.",
+      ],
+      phongTuc: [
+        { title: "Tặng quà cho nam giới", text: "Hoa, thiệp, đồ cá nhân — nhiều gia đình và công ty Việt xem 19/11 là 'đối ứng' của 8/3: ngày đàn ông cũng được tặng quà." },
+        { title: "Chiến dịch sức khỏe nam", text: "Nhiều nước gắn ngày này với 'Movember' (râu tháng 11) — chiến dịch nâng cao ý thức ung thư tuyến tiền liệt và sức khỏe tâm thần nam giới." },
+        { title: "Kể chuyện hình mẫu", text: "Báo chí, trường học chia sẻ những người đàn ông tử tế — thầy giáo, cha đơn thân, lính cứu hỏa — để giới trẻ có hình mẫu gần." },
+        { title: "Sự kiện gia đình", text: "Bữa cơm, chuyến đi chơi, trận bóng cha-con — ngày khuyến khích nam giới dành thời gian cho gia đình." },
+        { title: "Đối thoại giới", text: "Tọa đàm về vai trò nam giới hiện đại — áp lực kiếm tiền, việc nhà, quyền làm cha — những chủ đề ít được nói ra." },
+        { title: "Vinh danh nam giới tiêu biểu", text: "Doanh nghiệp, tổ chức trao danh hiệu 'người đàn ông của năm' — người công nhân, bác sĩ, tình nguyện viên âm thầm." },
+      ],
+      amThuc: [],
+      facts: [
+        "Ngày 19/11 được chọn vì đó là sinh nhật của cha Tiến sĩ Jerome Teelucksingh — người sáng lập Ngày Quốc tế Nam giới năm 1999.",
+        "Nam giới trung bình sống ngắn hơn nữ giới khoảng 5 năm — một trong những vấn đề sức khỏe mà ngày này muốn nhắc đến.",
+        "Chiến dịch 'Movember' — để râu suốt tháng 11 — hưởng ứng nhận thức về ung thư và sức khỏe tâm thần nam giới, gắn liền với ngày 19/11.",
+        "Khoảng 80 quốc gia ghi nhận ngày 19/11 — nhưng nó chưa phải ngày quốc tế chính thức của Liên Hợp Quốc như 8/3.",
+        "Ở Việt Nam, truyền thông gần đây hay gọi 19/11 là 'Quốc tế Đàn ông' — dù chưa phải ngày lễ pháp lý, nó ngày càng phổ biến.",
+      ],
+    },
+    faq: [
+      { q: "Ngày Quốc tế Nam giới là ngày nào?", a: "19/11 hằng năm — ngày tri ân nam giới, sức khỏe nam và những hình mẫu tích cực." },
+      { q: "Ngày này có chính thức của LHQ không?", a: "Chưa — được khoảng 80 quốc gia ghi nhận nhưng chưa phải ngày quốc tế chính thức của Liên Hợp Quốc như 8/3." },
+      { q: "Ngày nam giới có phải 'đối ứng' của 8/3 không?", a: "Về mặt xã hội, nhiều nơi xem như vậy — nhưng trọng tâm chính là sức khỏe nam giới và hình mẫu tích cực." },
+      { q: "Ở Việt Nam ngày này phổ biến không?", a: "Ngày càng phổ biến — báo chí, trường học và doanh nghiệp thường tổ chức tặng quà, sự kiện tri ân nam giới vào 19/11." },
+    ],
+  },
 ];
 
 /** Holidays sorted by occurrence within a calendar year (approximate for lunar). */

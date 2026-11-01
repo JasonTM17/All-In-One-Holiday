@@ -31,11 +31,11 @@ Photos from Wikimedia Commons and Flickr contributors; see per-file license and 
 | tet-nguyen-tieu/gallery3.webp | Christophe95 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Hoi_An_Full_Moon_Festival.jpg) |
 | tet-nguyen-tieu/amthuc-che-troi-nuoc.webp | Phương Huy | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:M%C3%B3n_ch%C3%A8_%E1%BB%9F_B%C3%ACnh_Long_n%C4%83m_2020.jpg) |
 | tet-nguyen-tieu/amthuc-co-chay.webp | own work | CC BY 2.5 | [Commons](https://commons.wikimedia.org/wiki/File:Rice_with_vegetarian_meat_stew.JPG) |
-| tet-nguyen-tieu/amthuc-xoi-che.webp | Terence Ong | CC BY 2.5 | [Commons](https://commons.wikimedia.org/wiki/File:Mango_with_glutinous_rice.jpg) |
 | tet-nguyen-tieu/gallery4.webp | Mig Gilbert from Brighton | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lanterns_in_Hoi_An_(40542858941).jpg) |
 | tet-nguyen-tieu/gallery6.webp | Nguoivietbao | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:C%C3%A1c_%C4%91%E1%BA%A1i_bi%E1%BB%83u_v%C3%A0_ng%C6%B0%E1%BB%9Di_d%C3%A2n_d%C3%A2ng_h%C6%B0%C6%A1ng_t%E1%BA%A1i_L%E1%BB%85_h%E1%BB%99i_truy%E1%BB%81n_th%E1%BB%91ng_%C4%90%C3%ACnh_-_%C4%90%E1%BB%81n_-_Ch%C3%B9a_B%E1%BA%A3o_S%C3%A0i,_ph%C6%B0%E1%BB%9Dng_Ph%E1%BA%A1m_Ng%C5%A9_L%C3%A3o,_th%C3%A0nh_ph%E1%BB%91_H%E1%BA%A3i_D%C6%B0%C6%A1ng,_t%E1%BB%89nh_H%E1%BA%A3i_D%C6%B0%C6%A1ng.jpg) |
 | tet-nguyen-tieu/card.webp | Kuroczynski | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Boats_with_lanterns_on_the_Thu_Bon_river_IMG_3864.jpg) |
 | tet-nguyen-tieu/gallery5.webp | motogo.vn | CC (xem nguồn) | [motogo.vn](https://motogo.vn/du-lich-da-nang-hoi-an-4n3d/) |
+| tet-nguyen-tieu/amthuc-xoi-che.webp | tramkochen.blogspot.com | CC (xem nguồn) | [tramkochen.blogspot.com](https://tramkochen.blogspot.com/2010/04/xoi-khuc.html) |
 | valentine/hero.webp | Rosendahl | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Wedding_bouquet_red_reses.jpg) |
 | valentine/card.webp | Juppi | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Bouquet-of-Red-Roses.png) |
 | valentine/gallery2.webp | Montanabw | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Red_roses_from_bouquet.jpg) |
@@ -214,10 +214,10 @@ Photos from Wikimedia Commons and Flickr contributors; see per-file license and 
 | tet-han-thuc/amthuc-banh-chay.webp | Conbo at vi.wikipedia | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Banhchay.JPG) |
 | tet-han-thuc/gallery4.webp | Junyu-K | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:202501_%E6%A1%82%E8%8A%B1%E8%9C%9C%E7%B6%9C%E5%90%88%E6%B9%AF%E5%9C%93%E5%88%A8%E5%86%B0,Aka_%E5%86%B0%E7%81%AB%E6%B9%AF%E5%9C%93.jpg) |
 | tet-han-thuc/gallery5.webp | Phương Huy (thảo luận) | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:B%C3%A1nh_bao_chay_ng%E1%BB%8Dt_c%C3%BAng_t%E1%BA%A5t_ni%C3%AAn_nh%C3%A0_m%E1%BB%87_2018.jpg) |
-| tet-han-thuc/amthuc-banh-troi.webp | fr.wikipedia.org | CC (xem nguồn) | [fr.wikipedia.org](https://fr.wikipedia.org/wiki/Songpyeon) |
 | tet-han-thuc/gallery6.webp | bualoy-thaidessert.blogspot.com | CC (xem nguồn) | [bualoy-thaidessert.blogspot.com](https://bualoy-thaidessert.blogspot.com/) |
 | tet-han-thuc/card.webp | en.wikipedia.org | CC (xem nguồn) | [en.wikipedia.org](https://en.wikipedia.org/wiki/B%C3%A1nh_t%C3%A9t) |
 | tet-han-thuc/gallery3.webp | tramkochen.blogspot.com | CC (xem nguồn) | [tramkochen.blogspot.com](https://tramkochen.blogspot.com/2010/04/banh-chuoi-hap.html) |
+| tet-han-thuc/amthuc-banh-troi.webp | tramkochen.blogspot.com | CC (xem nguồn) | [tramkochen.blogspot.com](https://tramkochen.blogspot.com/2011/) |
 | tet-doan-ngo/card.webp | babinbubun | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Start_your_day.jpg) |
 | tet-doan-ngo/gallery1.webp | JIP | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Spring_rolls_and_lychee_juice_at_restaurant_Nam_Nam_in_Munich.jpg) |
 | tet-doan-ngo/gallery2.webp | TopTropicals.com | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Litchi_chinensis_-_Lychee_(52334448851).jpg) |
@@ -348,3 +348,27 @@ Photos from Wikimedia Commons and Flickr contributors; see per-file license and 
 | ngay-thuong-mai-viet-nam/gallery4.webp | flickr.com | CC (xem nguồn) | [flickr.com](https://www.flickr.com/photos/97930879@N02/15716714352) |
 | ngay-thuong-mai-viet-nam/gallery5.webp | journeyforfairtrade.blogspot.com | CC (xem nguồn) | [journeyforfairtrade.blogspot.com](https://journeyforfairtrade.blogspot.com/2010/12/fair-trade-applied-as-business-model-in.html) |
 | ngay-thuong-mai-viet-nam/gallery6.webp | motogo.vn | CC (xem nguồn) | [motogo.vn](https://motogo.vn/pho-co-ha-noi-ve-dem/) |
+| ngay-doan-thanh-nien/hero.webp | suedostasien.net | CC (xem nguồn) | [suedostasien.net](https://suedostasien.net/vietnam-rezension-land-der-vielen-mythen/) |
+| ngay-doan-thanh-nien/card.webp | argodadi.bantulkab.go.id | CC (xem nguồn) | [argodadi.bantulkab.go.id](https://argodadi.bantulkab.go.id/first/artikel/1235-Mengenal-Visi-Misi-Pasangan-Calon-Bupati-dan-Wakil-Bupati-Kabupaten-Bantul) |
+| ngay-doan-thanh-nien/gallery1.webp | flickr.com | CC (xem nguồn) | [flickr.com](https://www.flickr.com/photos/350org/7149046023) |
+| ngay-doan-thanh-nien/gallery2.webp | flickr.com | CC (xem nguồn) | [flickr.com](https://www.flickr.com/photos/melissawall/6157174812) |
+| ngay-doan-thanh-nien/gallery3.webp | nadigmadhavi.blogspot.com | CC (xem nguồn) | [nadigmadhavi.blogspot.com](https://nadigmadhavi.blogspot.com/) |
+| ngay-doan-thanh-nien/gallery4.webp | peoplesdispatch.org | CC (xem nguồn) | [peoplesdispatch.org](https://peoplesdispatch.org/2023/03/23/belarusians-pay-tribute-to-victims-of-khatyn-massacre-on-its-80th-anniversary/) |
+| ngay-doan-thanh-nien/gallery5.webp | diendan.org | CC (xem nguồn) | [diendan.org](https://www.diendan.org/phe-binh-nghien-cuu/dau-an-sai-gon-tram-nam-con-mat) |
+| ngay-doan-thanh-nien/gallery6.webp | ruvival.de | CC (xem nguồn) | [ruvival.de](https://www.ruvival.de/ur/beach-house/) |
+| ngay-tho-viet-nam/hero.webp | flickr.com | CC (xem nguồn) | [flickr.com](https://www.flickr.com/photos/danielmennerich/30541959964/) |
+| ngay-tho-viet-nam/card.webp | flickr.com | CC (xem nguồn) | [flickr.com](https://www.flickr.com/photos/jlascar/4550352543) |
+| ngay-tho-viet-nam/gallery1.webp | vishibansal.blogspot.com | CC (xem nguồn) | [vishibansal.blogspot.com](https://vishibansal.blogspot.com/2017/) |
+| ngay-tho-viet-nam/gallery2.webp | diendan.org | CC (xem nguồn) | [diendan.org](https://www.diendan.org/sang-tac/bai-tho-tieng-viet-cua-luu-quang-vu) |
+| ngay-tho-viet-nam/gallery3.webp | flickr.com | CC (xem nguồn) | [flickr.com](https://www.flickr.com/photos/nevillewootton/32577135193/) |
+| ngay-tho-viet-nam/gallery4.webp | diendan.org | CC (xem nguồn) | [diendan.org](https://www.diendan.org/phe-binh-nghien-cuu/sach-viet-kieu-thu-trong-con-mat-gioi-su-hoc-duong-dai) |
+| ngay-tho-viet-nam/gallery5.webp | chriscrews.com | CC (xem nguồn) | [chriscrews.com](https://www.chriscrews.com/photos/chinese-calligraphy/) |
+| ngay-tho-viet-nam/gallery6.webp | flickr.com | CC (xem nguồn) | [flickr.com](https://www.flickr.com/photos/3336/45421639/) |
+| quoc-te-nam-gioi/hero.webp | theculinarychronicles.com | CC (xem nguồn) | [theculinarychronicles.com](https://theculinarychronicles.com/category/pastasnoodles/) |
+| quoc-te-nam-gioi/card.webp | flickr.com | CC (xem nguồn) | [flickr.com](https://www.flickr.com/photos/35652152@N07/36932261851/) |
+| quoc-te-nam-gioi/gallery1.webp | movielandgroup.blogspot.com | CC (xem nguồn) | [movielandgroup.blogspot.com](https://movielandgroup.blogspot.com/2017/01/danci-bira-wo-de-fu-qin-mu-qin-put-kuci.html) |
+| quoc-te-nam-gioi/gallery2.webp | cohtran.blogspot.com | CC (xem nguồn) | [cohtran.blogspot.com](https://cohtran.blogspot.com/2016/04/hoc-lam-nguoi-luong-thien.html) |
+| quoc-te-nam-gioi/gallery3.webp | 24hinh.vn | CC (xem nguồn) | [24hinh.vn](https://24hinh.vn/threads/xe-dap-bac-kinh-2001-mot-bo-phim-hien-thuc-dang-de-xem.210/) |
+| quoc-te-nam-gioi/gallery4.webp | foto.wuestenigel.com | CC (xem nguồn) | [foto.wuestenigel.com](https://foto.wuestenigel.com/open-emu-egg-on-the-grass-flip-2019/) |
+| quoc-te-nam-gioi/gallery5.webp | flickr.com | CC (xem nguồn) | [flickr.com](https://www.flickr.com/photos/iloasiapacific/10987484006) |
+| quoc-te-nam-gioi/gallery6.webp | diendan.org | CC (xem nguồn) | [diendan.org](https://www.diendan.org/nhung-con-nguoi/nho-phung-thang) |

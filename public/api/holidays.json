@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-11-01T06:28:00.508Z",
+ "generatedAt": "2026-11-01T07:12:49.317Z",
  "locales": [
   "vi",
   "en"
  ],
- "count": 36,
+ "count": 39,
  "holidays": [
   {
    "slug": "tet-duong-lich",
@@ -2011,6 +2011,180 @@
    "occurrenceThisYear": "2026-07-12"
   },
   {
+   "slug": "ngay-doan-thanh-nien",
+   "locale": "vi",
+   "name": "Ngày Thành lập Đoàn TNCS Hồ Chí Minh",
+   "dateMark": "26·03",
+   "displayDate": "26 tháng 3",
+   "categories": [
+    "quoc-gia"
+   ],
+   "tagline": "Ngày kỷ niệm ra đời tổ chức thanh niên lớn nhất Việt Nam.",
+   "meaning": "Ngày nhắc tuổi trẻ về truyền thống xung kích hơn chín mươi năm — từ Lý Tự Trọng đến thanh niên xung phong, đến mùa hè xanh và khởi nghiệp hôm nay.",
+   "traditions": [
+    {
+     "title": "Kết nạp đoàn viên mới",
+     "text": "Lễ kết nạp cho đoàn viên mới tổ chức long trọng vào tháng 3 — mở đầu 'Tháng Thanh niên'."
+    },
+    {
+     "title": "Tháng Thanh niên",
+     "text": "Cả tháng 3 là 'Tháng Thanh niên' với chiến dịch tình nguyện, đô thị văn minh, khởi nghiệp khắp nước."
+    },
+    {
+     "title": "Mít tinh, gặp mặt truyền thống",
+     "text": "Đoàn viên cũ gặp lại đoàn viên trẻ, kể chuyện TNXP, chuyến hải trình không số."
+    },
+    {
+     "title": "Tình nguyện xây dựng",
+     "text": "Mùa hè xanh, xuân tình nguyện, tiếp sức mùa thi — tuổi trẻ đi làm thật, không chỉ hô khẩu hiệu."
+    }
+   ],
+   "wishes": [
+    "26/3 — chúc tuổi trẻ của bạn luôn có một chỗ đứng xung kích cho riêng mình.",
+    "Chúc các đoàn viên giữ mãi ngọn lửa nhiệt huyết — dù ở giảng đường, phòng lab hay bản nghèo.",
+    "Tuổi trẻ không chờ đợi — chúc bạn một ngày thành lập đoàn thật bận rộn và đáng nhớ.",
+    "Chúc thanh niên Việt Nam tiếp tục viết truyền thống xung kích bằng sáng tạo và tình nguyện.",
+    "Gửi đến đoàn viên cũ và mới: cảm ơn những mùa hè xanh, những chuyến xe tình nguyện — ngày 26/3 là của các bạn."
+   ],
+   "gifts": [
+    {
+     "title": "Huy hiệu đoàn, sổ đoàn viên",
+     "text": "Kỷ vật nhỏ nhưng thiêng liêng với ai đang kết nạp đoàn."
+    },
+    {
+     "title": "Áo phông tình nguyện",
+     "text": "Chiếc áo xanh mùa hè xanh hay đỏ xuân tình nguyện — 'đồng phục' của tuổi trẻ xung kích."
+    },
+    {
+     "title": "Sách về anh hùng trẻ",
+     "text": "Truyện Lý Tự Trọng, Võ Thị Sáu — nhắc tuổi trẻ rằng tuổi 17–20 cũng đủ lớn để cống hiến."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 3,
+    "day": 26
+   },
+   "nextOccurrence": "2027-03-25",
+   "occurrenceThisYear": "2026-03-25"
+  },
+  {
+   "slug": "ngay-tho-viet-nam",
+   "locale": "vi",
+   "name": "Ngày thơ Việt Nam",
+   "dateMark": "Rằm Giêng",
+   "displayDate": "Rằm tháng Giêng (âm lịch)",
+   "categories": [
+    "truyen-thong"
+   ],
+   "tagline": "Đêm rằm tháng Giêng dành riêng cho thi ca Việt.",
+   "meaning": "Tôn vinh thi ca — loại hình nghệ thuật gắn bó lâu nhất với văn hóa Việt: từ ca dao ru con, thơ Đường luật đến Truyện Kiều và thơ mới.",
+   "traditions": [
+    {
+     "title": "Đêm thơ Văn Miếu",
+     "text": "Buổi tối rằm Giêng tại Văn Miếu — Quốc Tử Giám: đọc thơ, ca trù, hòa nhạc và triển lãm thơ."
+    },
+    {
+     "title": "Đọc thơ cùng nhau",
+     "text": "Câu lạc bộ thơ, trường học, thư viện cùng mở buổi đọc — bài nào cũng được, miễn là thơ."
+    },
+    {
+     "title": "Chủ đề năm",
+     "text": "Hội Nhà văn chọn chủ đề cho năm sáng tác — từ 'Quê hương' đến 'Tuổi trẻ và biển'."
+    },
+    {
+     "title": "Vinh danh nhà thơ",
+     "text": "Giải thưởng thơ của năm, cuộc thi thơ mới và tưởng nhớ các danh thi đã khuất."
+    }
+   ],
+   "wishes": [
+    "Rằm Giêng — chúc bạn một năm sống chậm lại đủ để nghe thấy vần điệu của đời mình.",
+    "Chúc trang thơ của bạn luôn trắng và đầy — như trăng đêm nay.",
+    "Ngày thơ — chúc những ai viết thơ tiếp tục viết, những ai yêu thơ tiếp tục yêu.",
+    "Chúc bạn tìm được một câu thơ trong năm nay mà chỉ mình bạn hiểu hết.",
+    "Gửi các nhà thơ: cảm ơn vì đã làm tiếng Việt đẹp hơn từng chữ một — rằm Giêng này là của các bạn."
+   ],
+   "gifts": [
+    {
+     "title": "Một tập thơ",
+     "text": "Truyện Kiều bản đẹp, tập thơ của nhà thơ bạn yêu — món quà đúng ngày nhất có thể."
+    },
+    {
+     "title": "Sổ tay & bút mực",
+     "text": "Để bắt đầu vần thơ đầu tiên — quà tặng cho ai đang muốn viết."
+    },
+    {
+     "title": "Vé đêm thơ Văn Miếu",
+     "text": "Trải nghiệm đọc thơ dưới trăng rằm — món quà không cần gói."
+    }
+   ],
+   "rule": {
+    "type": "lunar",
+    "month": 1,
+    "day": 15
+   },
+   "nextOccurrence": "2027-02-19",
+   "occurrenceThisYear": "2026-03-02"
+  },
+  {
+   "slug": "quoc-te-nam-gioi",
+   "locale": "vi",
+   "name": "Ngày Quốc tế Nam giới",
+   "dateMark": "19·11",
+   "displayDate": "19 tháng 11",
+   "categories": [
+    "quoc-te"
+   ],
+   "tagline": "Ngày tri ân những người đàn ông trong đời.",
+   "meaning": "Bù lại cho những người đàn ông ít được nói lời cảm ơn — ngày nhắc chúng ta chú ý đến sức khỏe, cảm xúc và vai trò của nam giới.",
+   "traditions": [
+    {
+     "title": "Lời chúc cho nam giới",
+     "text": "Ngày gửi lời cảm ơn đến cha, anh, chồng, đồng nghiệp nam — đơn giản mà ít ai làm."
+    },
+    {
+     "title": "Chủ đề sức khỏe",
+     "text": "Chiến dịch khám sức khỏe, tư vấn tinh thần và vận động nam giới từ các tổ chức y tế."
+    },
+    {
+     "title": "Tôn vinh hình mẫu",
+     "text": "Câu chuyện về người cha, người thầy, người đồng đội có ảnh hưởng tốt được chia sẻ rộng."
+    },
+    {
+     "title": "Cặp với 8/3",
+     "text": "Ở nhiều nước, 19/11 được xem là 'đối ứng' của 8/3 — ngày để nam giới cũng được tặng hoa, tặng quà."
+    }
+   ],
+   "wishes": [
+    "19/11 — chúc người đàn ông của bạn khỏe mạnh, và đủ can đảm để kể khi mình mệt.",
+    "Gửi người cha ít nói: cảm ơn những vai gánh thầm lặng suốt cả đời.",
+    "Chúc các anh, các chú, các bạn nam — được yêu thương rõ ràng như các chị, các em.",
+    "Chúc mọi người đàn ông tìm được giấc ngủ trọn đêm — và một người để trò chuyện khi cần.",
+    "Ngày nam giới — chúc bạn sống đúng hình mẫu mà con trẻ quanh bạn sẽ muốn theo."
+   ],
+   "gifts": [
+    {
+     "title": "Gói khám sức khỏe",
+     "text": "Lịch khám định kỳ hoặc gói xét nghiệm — món quà thiết thực nhất cho người ít đi khám."
+    },
+    {
+     "title": "Dụng cụ thể thao",
+     "text": "Giày chạy, găng gym, dây nhảy — khuyến khích thói quen vận động."
+    },
+    {
+     "title": "Đồ cá nhân chất lượng",
+     "text": "Đồng hồ, ví da, bộ dưỡng da — những thứ nam giới thường tự tiết kiệm."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 11,
+    "day": 19
+   },
+   "nextOccurrence": "2026-11-18",
+   "occurrenceThisYear": "2026-11-18"
+  },
+  {
    "slug": "tet-duong-lich",
    "locale": "en",
    "name": "New Year's Day",
@@ -4013,6 +4187,180 @@
    },
    "nextOccurrence": "2027-07-12",
    "occurrenceThisYear": "2026-07-12"
+  },
+  {
+   "slug": "ngay-doan-thanh-nien",
+   "locale": "en",
+   "name": "Ho Chi Minh Communist Youth Union Day",
+   "dateMark": "26·03",
+   "displayDate": "March 26",
+   "categories": [
+    "quoc-gia"
+   ],
+   "tagline": "The founding anniversary of Vietnam's largest youth organization.",
+   "meaning": "A day reminding young people of a ninety-year tradition of stepping forward — from Ly Tu Trong to the volunteer brigades, to today's green summer campaigns and startups.",
+   "traditions": [
+    {
+     "title": "New member ceremonies",
+     "text": "Induction ceremonies for new members are held solemnly in March — opening 'Youth Month'."
+    },
+    {
+     "title": "Youth Month",
+     "text": "All of March is 'Youth Month' with volunteer campaigns, urban civility drives and startup programs nationwide."
+    },
+    {
+     "title": "Tradition gatherings",
+     "text": "Former members meet today's youth, telling stories of volunteer brigades and the 'ship with no number'."
+    },
+    {
+     "title": "Volunteer building",
+     "text": "Green Summer, Spring Volunteering, exam-support teams — young people do real work, not just slogans."
+    }
+   ],
+   "wishes": [
+    "March 26 — may your youth always have a front line of your own to step up to.",
+    "Wishing every union member keeps the fire of zeal — in lecture halls, labs, or remote villages.",
+    "Youth doesn't wait — may your founding day be busy and memorable.",
+    "May Vietnamese youth keep writing the 'xung kich' tradition in creativity and volunteering.",
+    "To members old and new: thank you for the green summers and volunteer trips — March 26 is yours."
+   ],
+   "gifts": [
+    {
+     "title": "Union badge & member card",
+     "text": "A small but meaningful keepsake for someone newly inducted."
+    },
+    {
+     "title": "Volunteer t-shirt",
+     "text": "The green 'Mua he xanh' or red spring-volunteer shirt — the uniform of 'xung kich' youth."
+    },
+    {
+     "title": "Books on young heroes",
+     "text": "Stories of Ly Tu Trong and Vo Thi Sau — reminding youth that 17–20 is old enough to matter."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 3,
+    "day": 26
+   },
+   "nextOccurrence": "2027-03-25",
+   "occurrenceThisYear": "2026-03-25"
+  },
+  {
+   "slug": "ngay-tho-viet-nam",
+   "locale": "en",
+   "name": "Vietnam Poetry Day",
+   "dateMark": "Rằm Giêng",
+   "displayDate": "15th of the first lunar month",
+   "categories": [
+    "truyen-thong"
+   ],
+   "tagline": "The first full-moon night reserved for Vietnamese poetry.",
+   "meaning": "Honoring poetry — the art form longest bound to Vietnamese culture: from lullaby folk verse and Tang-regulated poems to The Tale of Kieu and modern free verse.",
+   "traditions": [
+    {
+     "title": "Van Mieu poetry night",
+     "text": "The first-full-moon evening at the Temple of Literature: poetry readings, ca tru singing, concerts and verse exhibitions."
+    },
+    {
+     "title": "Reading together",
+     "text": "Poetry clubs, schools and libraries host joint readings — any poem counts, as long as it's poetry."
+    },
+    {
+     "title": "Annual theme",
+     "text": "The Writers' Association picks a creative theme for the year — from 'Homeland' to 'Youth and the sea'."
+    },
+    {
+     "title": "Honoring poets",
+     "text": "Annual poetry prizes, new-poet contests, and remembrance of great poets who have passed."
+    }
+   ],
+   "wishes": [
+    "First full moon — may your year slow down just enough to hear the meter of your own life.",
+    "May your blank page stay open and full — like tonight's moon.",
+    "On Poetry Day — may those who write keep writing, and those who love poetry keep loving it.",
+    "May you find a line this year that only you fully understand.",
+    "To the poets: thank you for making the Vietnamese language more beautiful, word by word — this full moon is yours."
+   ],
+   "gifts": [
+    {
+     "title": "A poetry collection",
+     "text": "A fine edition of The Tale of Kieu, or a book by a poet you love — the most on-theme gift possible."
+    },
+    {
+     "title": "Notebook & fountain pen",
+     "text": "To begin the first verse — a gift for someone who wants to write."
+    },
+    {
+     "title": "Poetry night tickets",
+     "text": "The experience of verse under the full moon — a gift that needs no wrapping."
+    }
+   ],
+   "rule": {
+    "type": "lunar",
+    "month": 1,
+    "day": 15
+   },
+   "nextOccurrence": "2027-02-19",
+   "occurrenceThisYear": "2026-03-02"
+  },
+  {
+   "slug": "quoc-te-nam-gioi",
+   "locale": "en",
+   "name": "International Men's Day",
+   "dateMark": "19·11",
+   "displayDate": "November 19",
+   "categories": [
+    "quoc-te"
+   ],
+   "tagline": "A day to thank the men in our lives.",
+   "meaning": "A thank-you to men who rarely hear it — a day to pay attention to men's health, emotions and roles in society.",
+   "traditions": [
+    {
+     "title": "Wishes for men",
+     "text": "A day to thank fathers, brothers, husbands and male colleagues — simple, and rarely done."
+    },
+    {
+     "title": "Health themes",
+     "text": "Health-check drives, mental-health counseling and men's wellness campaigns by medical organizations."
+    },
+    {
+     "title": "Honoring role models",
+     "text": "Stories of influential fathers, teachers and teammates get shared widely."
+    },
+    {
+     "title": "Paired with March 8",
+     "text": "In many countries November 19 is seen as the 'counterpart' of International Women's Day — a day men receive flowers and gifts too."
+    }
+   ],
+   "wishes": [
+    "November 19 — wishing the men in your life good health, and the courage to say when they're tired.",
+    "To the quiet fathers: thank you for a lifetime of silent shoulders.",
+    "To brothers, uncles and friends — may you be loved as clearly as the women in your family are.",
+    "May every man find a full night's sleep — and someone to talk to when it matters.",
+    "On Men's Day — may you live up to the example the kids around you would want to follow."
+   ],
+   "gifts": [
+    {
+     "title": "A health checkup",
+     "text": "A screening appointment or checkup package — the most practical gift for someone who skips the doctor."
+    },
+    {
+     "title": "Sports gear",
+     "text": "Running shoes, gym gloves, a jump rope — encouragement for an active habit."
+    },
+    {
+     "title": "Quality personal items",
+     "text": "A watch, leather wallet, grooming set — things men often skimp on for themselves."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 11,
+    "day": 19
+   },
+   "nextOccurrence": "2026-11-18",
+   "occurrenceThisYear": "2026-11-18"
   }
  ]
 }

@@ -868,4 +868,76 @@ DTEND;VALUE=DATE:20280714
 SUMMARY:Ngày Thương mại Việt Nam
 DESCRIPTION:Ngày tôn vinh nghề buôn bán và hàng Việt vươn ra thế giới.
 END:VEVENT
+BEGIN:VEVENT
+UID:ngay-doan-thanh-nien-2026@ngayleviet
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20260326
+DTEND;VALUE=DATE:20260327
+SUMMARY:Ngày Thành lập Đoàn TNCS Hồ Chí Minh
+DESCRIPTION:Ngày kỷ niệm ra đời tổ chức thanh niên lớn nhất Việt Nam.
+END:VEVENT
+BEGIN:VEVENT
+UID:ngay-doan-thanh-nien-2027@ngayleviet
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270326
+DTEND;VALUE=DATE:20270327
+SUMMARY:Ngày Thành lập Đoàn TNCS Hồ Chí Minh
+DESCRIPTION:Ngày kỷ niệm ra đời tổ chức thanh niên lớn nhất Việt Nam.
+END:VEVENT
+BEGIN:VEVENT
+UID:ngay-doan-thanh-nien-2028@ngayleviet
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20280326
+DTEND;VALUE=DATE:20280327
+SUMMARY:Ngày Thành lập Đoàn TNCS Hồ Chí Minh
+DESCRIPTION:Ngày kỷ niệm ra đời tổ chức thanh niên lớn nhất Việt Nam.
+END:VEVENT
+BEGIN:VEVENT
+UID:ngay-tho-viet-nam-2026@ngayleviet
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20260303
+DTEND;VALUE=DATE:20260304
+SUMMARY:Ngày thơ Việt Nam
+DESCRIPTION:Đêm rằm tháng Giêng dành riêng cho thi ca Việt.
+END:VEVENT
+BEGIN:VEVENT
+UID:ngay-tho-viet-nam-2027@ngayleviet
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+SUMMARY:Ngày thơ Việt Nam
+DESCRIPTION:Đêm rằm tháng Giêng dành riêng cho thi ca Việt.
+END:VEVENT
+BEGIN:VEVENT
+UID:ngay-tho-viet-nam-2028@ngayleviet
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20280209
+DTEND;VALUE=DATE:20280210
+SUMMARY:Ngày thơ Việt Nam
+DESCRIPTION:Đêm rằm tháng Giêng dành riêng cho thi ca Việt.
+END:VEVENT
+BEGIN:VEVENT
+UID:quoc-te-nam-gioi-2026@ngayleviet
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Ngày Quốc tế Nam giới
+DESCRIPTION:Ngày tri ân những người đàn ông trong đời.
+END:VEVENT
+BEGIN:VEVENT
+UID:quoc-te-nam-gioi-2027@ngayleviet
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20271119
+DTEND;VALUE=DATE:20271120
+SUMMARY:Ngày Quốc tế Nam giới
+DESCRIPTION:Ngày tri ân những người đàn ông trong đời.
+END:VEVENT
+BEGIN:VEVENT
+UID:quoc-te-nam-gioi-2028@ngayleviet
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20281119
+DTEND;VALUE=DATE:20281120
+SUMMARY:Ngày Quốc tế Nam giới
+DESCRIPTION:Ngày tri ân những người đàn ông trong đời.
+END:VEVENT
 END:VCALENDAR

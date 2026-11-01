@@ -3050,6 +3050,249 @@ export const holidaysEn: Holiday[] = [
       { q: "Is July 13 a day off?", a: "No — a sector traditional day, not a statutory holiday." },
     ],
   },
+  {
+    slug: "ngay-doan-thanh-nien",
+    heroStyle: "poster",
+    signature: [
+      {
+        kind: "timeline",
+        title: "Ninety years of youth",
+        beats: [
+          { year: "26·3·1931", title: "Born in Vinh", text: "The first congress of the Communist Youth League met in Vinh — Vietnam's first revolutionary youth organization was officially born." },
+          { year: "20·11·1931", title: "Ly Tu Trong's sacrifice", text: "A 17-year-old league member executed in Saigon — the first icon of Vietnamese youth's revolutionary conviction." },
+          { year: "15·7·1950", title: "Volunteer Youth", text: "The first Thanh nien xung phong (youth volunteer) brigade formed — from the Truong Son trail to Dien Bien Phu, 'xung kich' became a youth tradition." },
+          { year: "1970", title: "Carrying his name", text: "The league took the name 'Ho Chi Minh Working Youth' — Ho Chi Minh's name has stayed with the organization ever since." },
+          { year: "Today", title: "Volunteering & creating", text: "Millions of members run summer volunteering, startups and digital-transformation campaigns — 'xung kich' today means building, not battle." },
+        ],
+      },
+    ],
+    quotes: [
+      { text: "Youth are the future masters of the nation. Whether the country prospers or declines depends in large part on its youth.", author: "Hồ Chí Minh", note: "Translated from Vietnamese." },
+    ],
+    motif: "star",
+    name: "Ho Chi Minh Communist Youth Union Day",
+    dateMark: "26·03",
+    displayDate: "March 26",
+    rule: { type: "solar", month: 3, day: 26 },
+    categories: ["quoc-gia"],
+    theme: { from: "#b91c1c", to: "#b45309", accent: "#fbbf24" },
+    tagline: "The founding anniversary of Vietnam's largest youth organization.",
+    history: [
+      "From March 26–31, 1931, the first congress of the Communist Youth League met in Vinh — Vietnam's first revolutionary youth organization was born, taking March 26 as its founding day.",
+      "Through several renamings — Communist Youth, National Salvation Youth, Working Youth, Ho Chi Minh Working Youth — the organization took its current name in 1992: the Ho Chi Minh Communist Youth Union.",
+    ],
+    meaning:
+      "A day reminding young people of a ninety-year tradition of stepping forward — from Ly Tu Trong to the volunteer brigades, to today's green summer campaigns and startups.",
+    traditions: [
+      { title: "New member ceremonies", text: "Induction ceremonies for new members are held solemnly in March — opening 'Youth Month'." },
+      { title: "Youth Month", text: "All of March is 'Youth Month' with volunteer campaigns, urban civility drives and startup programs nationwide." },
+      { title: "Tradition gatherings", text: "Former members meet today's youth, telling stories of volunteer brigades and the 'ship with no number'." },
+      { title: "Volunteer building", text: "Green Summer, Spring Volunteering, exam-support teams — young people do real work, not just slogans." },
+    ],
+    wishes: [
+      "March 26 — may your youth always have a front line of your own to step up to.",
+      "Wishing every union member keeps the fire of zeal — in lecture halls, labs, or remote villages.",
+      "Youth doesn't wait — may your founding day be busy and memorable.",
+      "May Vietnamese youth keep writing the 'xung kich' tradition in creativity and volunteering.",
+      "To members old and new: thank you for the green summers and volunteer trips — March 26 is yours.",
+    ],
+    gifts: [
+      { title: "Union badge & member card", text: "A small but meaningful keepsake for someone newly inducted." },
+      { title: "Volunteer t-shirt", text: "The green 'Mua he xanh' or red spring-volunteer shirt — the uniform of 'xung kich' youth." },
+      { title: "Books on young heroes", text: "Stories of Ly Tu Trong and Vo Thi Sau — reminding youth that 17–20 is old enough to matter." },
+    ],
+    deep: {
+      ongNguon: [
+        "In late March 1931, as Vietnam's revolution emerged from crisis after the Party's birth, the founding congress of the Communist Youth League convened in Vinh — heartland of the Nghe-Tinh Soviet movement. It was Vietnam's first revolutionary youth organization, drawing patriotic young people into a shared cause.",
+        "Over ninety years the organization changed names with each era, but the word 'xung kich' — stepping forward — never changed: from Ly Tu Trong facing the firing squad at seventeen, to thousands of volunteer brigades cutting the Truong Son trail, to today's students wearing green volunteer shirts into the poorest districts. March 26 is therefore not only the 'birthday' of an organization — it is a day for Vietnamese youth itself.",
+      ],
+      phongTuc: [
+        { title: "Youth Month", text: "Every March, union branches run a nationwide volunteer campaign — cleaning cities, planting trees, helping elders go digital." },
+        { title: "Induction ceremonies", text: "The ritual of receiving the union badge, reciting the member's pledge and pinning the red scarf — a formal 'coming of age' for Vietnamese youth." },
+        { title: "Job fairs", text: "Alongside Youth Month, job fairs, startup consulting and skills workshops open to students everywhere." },
+        { title: "Honoring outstanding members", text: "The Ly Tu Trong and Luong Dinh Cua awards — the highest honors for young members and union cadres." },
+        { title: "Spring & summer volunteering", text: "Year-round campaigns: Tet with the poor (Spring), Green Summer in remote areas, and exam-support squads every July." },
+        { title: "Tradition activities", text: "Visits to historic sites, meeting former volunteer soldiers, campfire union nights — the liveliest 'tradition lesson' for the next generation." },
+      ],
+      amThuc: [],
+      facts: [
+        "Ly Tu Trong — the first league member executed — was only 17 when he faced the firing squad in Saigon on November 20, 1931.",
+        "His famous words before the colonial court: 'The only path for youth is the revolutionary path.'",
+        "The first Youth Volunteer brigade formed on July 15, 1950 during the Border Campaign — volunteers later served on every major front.",
+        "The union's anthem is 'Youth Follows Uncle Ho's Words' by composer Hoang Ha — sung at every union activity.",
+        "'Youth Month' draws millions of member projects each year — the largest youth volunteer campaign in the country.",
+      ],
+    },
+    faq: [
+      { q: "When is Ho Chi Minh Communist Youth Union Day?", a: "March 26 every year — marking the 1931 founding congress of the Communist Youth League in Vinh." },
+      { q: "How old is the Union?", a: "It dates from March 26, 1931 — Vietnam's first revolutionary youth organization." },
+      { q: "What is Youth Month?", a: "A nationwide volunteer campaign through all of March tied to the founding day — construction projects, environment work, digital support." },
+      { q: "Who was Ly Tu Trong?", a: "The first Union member executed, in 1931 at age 17 — the young revolutionary hero honored on March 26." },
+    ],
+  },
+  {
+    slug: "ngay-tho-viet-nam",
+    heroStyle: "framed",
+    signature: [
+      {
+        kind: "steps",
+        title: "One poetry night on the first full moon",
+        steps: [
+          { icon: "fullmoon", title: "The first full moon", text: "Vietnam Poetry Day is held on the year's first full-moon night — Nguyen Tieu moonlight over the Temple of Literature's garden." },
+          { icon: "temple", title: "The Well of Heavenly Clarity", text: "The grounds of Van Mieu — Quoc Tu Giam glow with lanterns and canopies — where the first poetry night took place in 2003." },
+          { icon: "candle", title: "Reading under the moon", text: "Poets, students and audiences read the year's standout poems — from folk verse to newly published young voices." },
+          { icon: "book", title: "Book launches", text: "Many poetry collections choose this full-moon night to debut — poets sign copies right by the Thien Quang well." },
+          { icon: "star", title: "A new annual theme", text: "Each year a new theme — 'Homeland', 'River mouths', 'Across the sea'… — guides a year of writing." },
+        ],
+      },
+    ],
+    quotes: [
+      { text: "A hundred years in this human realm — / talent and fate have always been at odds.", author: "Nguyễn Du", work: "The Tale of Kieu", note: "Translation of: 'Trăm năm trong cõi người ta, / Chữ tài chữ mệnh khéo là ghét nhau.'" },
+    ],
+    motif: "fullmoon",
+    name: "Vietnam Poetry Day",
+    dateMark: "Rằm Giêng",
+    displayDate: "15th of the first lunar month",
+    rule: { type: "lunar", month: 1, day: 15 },
+    categories: ["truyen-thong"],
+    theme: { from: "#3b0764", to: "#701a75", accent: "#c084fc" },
+    tagline: "The first full-moon night reserved for Vietnamese poetry.",
+    history: [
+      "Vietnam Poetry Day was initiated by the Vietnam Writers' Association, honoring UNESCO's World Poetry Day established in 1999 — the first poetry night was held on February 24, 2003 at the Temple of Literature in Hanoi.",
+      "Since then, a theme is chosen each year and poetry night is held on the 15th of the first lunar month — the same night as the Nguyen Tieu lantern festival, when the year's moon is at its fullest.",
+    ],
+    meaning:
+      "Honoring poetry — the art form longest bound to Vietnamese culture: from lullaby folk verse and Tang-regulated poems to The Tale of Kieu and modern free verse.",
+    traditions: [
+      { title: "Van Mieu poetry night", text: "The first-full-moon evening at the Temple of Literature: poetry readings, ca tru singing, concerts and verse exhibitions." },
+      { title: "Reading together", text: "Poetry clubs, schools and libraries host joint readings — any poem counts, as long as it's poetry." },
+      { title: "Annual theme", text: "The Writers' Association picks a creative theme for the year — from 'Homeland' to 'Youth and the sea'." },
+      { title: "Honoring poets", text: "Annual poetry prizes, new-poet contests, and remembrance of great poets who have passed." },
+    ],
+    wishes: [
+      "First full moon — may your year slow down just enough to hear the meter of your own life.",
+      "May your blank page stay open and full — like tonight's moon.",
+      "On Poetry Day — may those who write keep writing, and those who love poetry keep loving it.",
+      "May you find a line this year that only you fully understand.",
+      "To the poets: thank you for making the Vietnamese language more beautiful, word by word — this full moon is yours.",
+    ],
+    gifts: [
+      { title: "A poetry collection", text: "A fine edition of The Tale of Kieu, or a book by a poet you love — the most on-theme gift possible." },
+      { title: "Notebook & fountain pen", text: "To begin the first verse — a gift for someone who wants to write." },
+      { title: "Poetry night tickets", text: "The experience of verse under the full moon — a gift that needs no wrapping." },
+    ],
+    deep: {
+      ongNguon: [
+        "Poetry is the common pulse of Vietnamese culture — from folk lullabies passed down for a millennium to Nguyen Du's Nom script, from strict regulated verse to the free verse of the 1930s. Few nations can claim that nearly everyone knows one poem by heart the way Vietnamese people know The Tale of Kieu.",
+        "In 2003 the Vietnam Writers' Association chose the first full-moon night — the year's first full moon, also the Nguyen Tieu festival — to give wholly to poetry. The first poetry night took place at the Temple of Literature, the country's first university — and since then every first full moon has become a poetry festival nationwide, tied to a new annual theme.",
+      ],
+      phongTuc: [
+        { title: "Van Mieu — Quoc Tu Giam poetry night", text: "The central event each year in Hanoi — the temple grounds glow with light as poets read new work and children recite folk verse." },
+        { title: "The annual creative theme", text: "The Writers' Association announces a theme each year — it becomes the 'guiding star' for prizes and the year's writing." },
+        { title: "Readings nationwide", text: "From village poetry clubs to grand theaters: readings, poetry teas and poet meetups happen in most provinces." },
+        { title: "Student poetry", text: "Schools hold recitations, memorization contests and creative writing — bringing children close to verse early." },
+        { title: "Exhibitions & book launches", text: "Many collections and anthologies choose Poetry Night itself to debut — turning the day into a mini poetry fair." },
+        { title: "International verse", text: "Vietnam Poetry Day welcomes foreign poets — recent years have drawn dozens of international poets to the Van Mieu night." },
+      ],
+      amThuc: [
+        { title: "Floating rice balls", img: "amthuc-che-troi-nuoc", text: "The Nguyen Tieu sweet shared with Poetry Day — white balls floating in ginger syrup, simple and complete like a good line." },
+        { title: "Fine tea at the poetry table", img: "amthuc-tra", text: "A warm pot of tea and a few lines — the poetry night's 'feast' needs nothing more." },
+        { title: "Pressed mung-bean cakes", img: "amthuc-banh-in", text: "A banh in of mung-bean flour melting on the tongue — tea and poetry's thousand-year companion." },
+      ],
+      facts: [
+        "The first poetry night was held on February 24, 2003 at Van Mieu — Quoc Tu Giam — on the first full-moon night.",
+        "Vietnam Poetry Day falls on the same night as the Nguyen Tieu lantern festival (the 15th of the first lunar month).",
+        "Nguyen Du's Tale of Kieu runs 3,254 luc-bat lines — the poem most Vietnamese people know by heart.",
+        "UNESCO's World Poetry Day (March 21) was established in 1999 — Vietnam was among the first countries to create a national poetry day.",
+        "Van Mieu — Quoc Tu Giam, built in 1070, is considered Vietnam's 'first university' — which is why it hosts the poetry night.",
+      ],
+    },
+    faq: [
+      { q: "When is Vietnam Poetry Day?", a: "The 15th of the first lunar month each year — the same night as the Nguyen Tieu festival, when the year's moon is fullest." },
+      { q: "Who organizes it?", a: "The Vietnam Writers' Association, which initiated it in 2003 in honor of UNESCO's World Poetry Day." },
+      { q: "What happens at the Van Mieu poetry night?", a: "Readings, ca tru singing, music, exhibitions and new-book launches — under the full moon at the Temple of Literature in Hanoi." },
+      { q: "Does Poetry Day have a yearly theme?", a: "Yes — each year carries a creative theme announced by the Writers' Association, such as 'Homeland' or 'Youth and the sea'." },
+    ],
+  },
+  {
+    slug: "quoc-te-nam-gioi",
+    heroStyle: "split",
+    signature: [
+      {
+        kind: "meanings",
+        title: "Four pillars of International Men's Day",
+        items: [
+          { title: "Men's health", text: "A reminder to get regular checkups and mind mental health — men see doctors less and talk about struggles less.", swatch: "#0ea5e9" },
+          { title: "Positive role models", text: "Honoring men who live responsibly — fathers, brothers, teachers — so boys have real examples nearby.", swatch: "#6366f1" },
+          { title: "Family roles", text: "Recognizing the quiet labor of fathers, husbands and sons in every household.", swatch: "#f59e0b" },
+          { title: "Fairness & respect", text: "Gender equality isn't only a women's issue — Men's Day reminds us of mutual respect across genders.", swatch: "#10b981" },
+        ],
+      },
+    ],
+    quotes: [
+      { text: "One father is more than a hundred schoolmasters.", author: "George Herbert", work: "English proverb", note: "Original English." },
+    ],
+    motif: "medal",
+    name: "International Men's Day",
+    dateMark: "19·11",
+    displayDate: "November 19",
+    rule: { type: "solar", month: 11, day: 19 },
+    categories: ["quoc-te"],
+    theme: { from: "#0c4a6e", to: "#075985", accent: "#38bdf8" },
+    tagline: "A day to thank the men in our lives.",
+    history: [
+      "International Men's Day was initiated by Dr. Jerome Teelucksingh in Trinidad & Tobago — first celebrated in 1999 on November 19, his own father's birthday.",
+      "It is now observed in about 80 countries — not yet an official UN day, but a global occasion to talk about men's health and positive male role models.",
+    ],
+    meaning:
+      "A thank-you to men who rarely hear it — a day to pay attention to men's health, emotions and roles in society.",
+    traditions: [
+      { title: "Wishes for men", text: "A day to thank fathers, brothers, husbands and male colleagues — simple, and rarely done." },
+      { title: "Health themes", text: "Health-check drives, mental-health counseling and men's wellness campaigns by medical organizations." },
+      { title: "Honoring role models", text: "Stories of influential fathers, teachers and teammates get shared widely." },
+      { title: "Paired with March 8", text: "In many countries November 19 is seen as the 'counterpart' of International Women's Day — a day men receive flowers and gifts too." },
+    ],
+    wishes: [
+      "November 19 — wishing the men in your life good health, and the courage to say when they're tired.",
+      "To the quiet fathers: thank you for a lifetime of silent shoulders.",
+      "To brothers, uncles and friends — may you be loved as clearly as the women in your family are.",
+      "May every man find a full night's sleep — and someone to talk to when it matters.",
+      "On Men's Day — may you live up to the example the kids around you would want to follow.",
+    ],
+    gifts: [
+      { title: "A health checkup", text: "A screening appointment or checkup package — the most practical gift for someone who skips the doctor." },
+      { title: "Sports gear", text: "Running shoes, gym gloves, a jump rope — encouragement for an active habit." },
+      { title: "Quality personal items", text: "A watch, leather wallet, grooming set — things men often skimp on for themselves." },
+    ],
+    deep: {
+      ongNguon: [
+        "International Men's Day began in 1999 in Trinidad & Tobago, initiated by Dr. Jerome Teelucksingh — he chose November 19, his father's birthday, because he felt the world lacked a day to discuss men's particular problems: poorer health, shorter lifespans, higher suicide rates, and the habit of hiding emotions.",
+        "The day's aim is not to oppose women's rights but to complete equality: attention to men's health, honoring positive role models, improving gender relations, and helping men learn self-care. Today November 19 is observed in about 80 countries — in Vietnam it is becoming increasingly visible through media, corporate events and schools.",
+      ],
+      phongTuc: [
+        { title: "Gifts for men", text: "Flowers, cards, personal items — many Vietnamese families and companies treat November 19 as a counterpart to March 8: a day men also receive gifts." },
+        { title: "Men's health campaigns", text: "Many countries link the day with 'Movember' — the mustache-growing November campaign raising awareness of prostate cancer and men's mental health." },
+        { title: "Role-model stories", text: "Media and schools share stories of kind men — teachers, single fathers, firefighters — to give boys nearby examples." },
+        { title: "Family events", text: "A family meal, a day out, a father-child football match — the day encourages men to give time to family." },
+        { title: "Gender dialogues", text: "Panels on modern male roles — breadwinning pressure, housework, fatherhood rights — topics rarely spoken aloud." },
+        { title: "Honoring outstanding men", text: "Companies and organizations award 'man of the year' titles — quiet workers, doctors, volunteers." },
+      ],
+      amThuc: [],
+      facts: [
+        "November 19 was chosen because it was the birthday of Dr. Jerome Teelucksingh's father — founder of International Men's Day in 1999.",
+        "Men live on average about five years less than women — one of the health issues the day wants to highlight.",
+        "The 'Movember' mustache campaign raises awareness of cancer and men's mental health — closely tied to November 19.",
+        "About 80 countries mark November 19 — but it is not yet an official UN international day like March 8.",
+        "In Vietnam, media often call it 'Quoc te Dan ong' — not a legal holiday, but increasingly popular.",
+      ],
+    },
+    faq: [
+      { q: "When is International Men's Day?", a: "November 19 every year — a day honoring men, men's health and positive role models." },
+      { q: "Is it an official UN day?", a: "Not yet — about 80 countries observe it, but it isn't an official UN international day like March 8." },
+      { q: "Is it the 'male counterpart' of March 8?", a: "Socially, many treat it that way — but its real focus is men's health and positive male role models." },
+      { q: "Is it popular in Vietnam?", a: "Growing — media, schools and companies often hold gift-giving and appreciation events on November 19." },
+    ],
+  },
 ];
 
 /** Look up an English holiday by slug. */
