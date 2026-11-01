@@ -39,6 +39,10 @@ const FIX = {
   "ngay-bao-chi/gallery3": ["phỏng vấn báo chí việt nam", "vietnam tv interview", "micro báo chí"],
   "ngay-bao-chi/gallery5": ["họp báo việt nam", "vietnam press conference", "phòng tin tức"],
   "ngay-phap-luat-viet-nam/hero": ["hội trường quốc hội việt nam", "vietnam national assembly hall", "quốc hội họp việt nam"],
+  // Round 10: remaining wrong cards found in credit audit.
+  "ngay-thay-thuoc/card": ["bác sĩ việt nam khám bệnh", "vietnam doctor hospital", "thầy thuốc việt nam"],
+  "nha-giao-viet-nam/card": ["lớp học trường việt nam", "vietnam school classroom", "trường học việt nam"],
+  "tet-doan-ngo/card": ["giết sâu bọ tết đoan ngọ", "mâm cúng tết đoan ngọ", "rượu nếp tết đoan ngọ"],
 };
 
 mkdirSync(STAGE, { recursive: true });

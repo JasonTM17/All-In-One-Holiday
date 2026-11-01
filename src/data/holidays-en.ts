@@ -9,6 +9,7 @@ import type { Holiday } from "./holidays";
 export const holidaysEn: Holiday[] = [
   {
     slug: "tet-duong-lich",
+    heroStyle: "framed",
     signature: [
       {
         kind: "steps",
@@ -21,6 +22,9 @@ export const holidaysEn: Holiday[] = [
           { icon: "book", title: "New-year resolutions", text: "Write down three things to change, fold the note away — and open it at year's end to see how far you came." },
         ],
       },
+    ],
+    quotes: [
+      { text: "For last year's words belong to last year's language. And next year's words await another voice.", author: "T. S. Eliot", work: "Four Quartets", note: "Original English — the poem 'Little Gidding'." },
     ],
     motif: "fireworks",
     name: "New Year's Day",
@@ -864,6 +868,7 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "quoc-te-thieu-nhi",
+    heroStyle: "split",
     signature: [
       {
         kind: "steps",
@@ -1482,6 +1487,7 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "nha-giao-viet-nam",
+    heroStyle: "split",
     signature: [
       {
         kind: "steps",
@@ -2149,6 +2155,7 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "nguoi-cao-tuoi",
+    heroStyle: "framed",
     signature: [
       {
         kind: "steps",
@@ -2234,6 +2241,7 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "doanh-nhan",
+    heroStyle: "split",
     signature: [
       {
         kind: "steps",
@@ -2480,6 +2488,7 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "ngay-sinh-nhat-bac",
+    heroStyle: "framed",
     signature: [
       {
         kind: "timeline",
@@ -2805,6 +2814,7 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "ngay-the-thao-viet-nam",
+    heroStyle: "split",
     signature: [
       {
         kind: "steps",

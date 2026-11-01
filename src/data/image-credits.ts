@@ -554,15 +554,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
   ],
   "nha-giao-viet-nam": [
     {
-      "file": "nha-giao-viet-nam/card.webp",
-      "photographer": "Biswarup Ganguly",
-      "profile": "https://commons.wikimedia.org/wiki/File:Auditorium_-_Teacher-Student_Center_-_University_of_Dhaka_-_Dhaka_2015-05-31_2428.JPG",
-      "photo": "https://commons.wikimedia.org/wiki/File:Auditorium_-_Teacher-Student_Center_-_University_of_Dhaka_-_Dhaka_2015-05-31_2428.JPG",
-      "license": "CC BY 3.0",
-      "source": "Wikimedia Commons",
-      "alt": "Teacher-Student Centre, University of Dhaka, Bangladesh."
-    },
-    {
       "file": "nha-giao-viet-nam/gallery1.webp",
       "photographer": "USAID Vietnam",
       "profile": "https://commons.wikimedia.org/wiki/File:Launch_of_the_smart_classroom_in_Ho_Chi_Minh_City_(29396857950).jpg",
@@ -624,6 +615,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC (xem nguồn)",
       "source": "Web (science.mahidol.ac.th)",
       "alt": "SC Open House ในงานมหิดลวิชาการ เปิดบ้านมหิดล 2561"
+    },
+    {
+      "file": "nha-giao-viet-nam/card.webp",
+      "photographer": "es.globalvoices.org",
+      "profile": "https://es.globalvoices.org/2016/07/21/la-epidemia-del-exito-en-los-colegios-de-vietnam/",
+      "photo": "https://es.globalvoices.org/2016/07/21/la-epidemia-del-exito-en-los-colegios-de-vietnam/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (es.globalvoices.org)",
+      "alt": "La ‘Epidemia del Éxito’ en los colegios de Vietnam · Global Voices en ..."
     }
   ],
   "quan-doi-nhan-dan": [
@@ -1893,15 +1893,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Offerings for Tet at the office (2011). As a colleague of mine said: better to be on the safe side"
     },
     {
-      "file": "tet-han-thuc/card.webp",
-      "photographer": "Conbo at vi.wikipedia",
-      "profile": "https://commons.wikimedia.org/wiki/File:Banhchay.JPG",
-      "photo": "https://commons.wikimedia.org/wiki/File:Banhchay.JPG",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "A bowl of bánh chay"
-    },
-    {
       "file": "tet-han-thuc/gallery1.webp",
       "photographer": "Conbo at vi.wikipedia",
       "profile": "https://commons.wikimedia.org/wiki/File:Banhtroi.JPG",
@@ -1912,15 +1903,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
     },
     {
       "file": "tet-han-thuc/gallery2.webp",
-      "photographer": "Lachy70",
-      "profile": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_tr%C3%B4i_n%C6%B0%E1%BB%9Bc.png",
-      "photo": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_tr%C3%B4i_n%C6%B0%E1%BB%9Bc.png",
-      "license": "CC BY-SA 4.0",
-      "source": "Wikimedia Commons",
-      "alt": "Bánh trôi nước, one of Hồ Xuân Hương's most famous poems is shown here with chữ Hán Nôm and chữ Quốc ngữ (Vietnamese alp"
-    },
-    {
-      "file": "tet-han-thuc/gallery3.webp",
       "photographer": "Lachy70",
       "profile": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_tr%C3%B4i_n%C6%B0%E1%BB%9Bc.png",
       "photo": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_tr%C3%B4i_n%C6%B0%E1%BB%9Bc.png",
@@ -1981,6 +1963,24 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC (xem nguồn)",
       "source": "Web (bualoy-thaidessert.blogspot.com)",
       "alt": "บัวลอยไข่หวาน สูตรขนมที่คนไทยไม่เคยลืม"
+    },
+    {
+      "file": "tet-han-thuc/card.webp",
+      "photographer": "en.wikipedia.org",
+      "profile": "https://en.wikipedia.org/wiki/B%C3%A1nh_t%C3%A9t",
+      "photo": "https://en.wikipedia.org/wiki/B%C3%A1nh_t%C3%A9t",
+      "license": "CC (xem nguồn)",
+      "source": "Web (en.wikipedia.org)",
+      "alt": "Bánh tét - Wikipedia"
+    },
+    {
+      "file": "tet-han-thuc/gallery3.webp",
+      "photographer": "tramkochen.blogspot.com",
+      "profile": "https://tramkochen.blogspot.com/2010/04/banh-chuoi-hap.html",
+      "photo": "https://tramkochen.blogspot.com/2010/04/banh-chuoi-hap.html",
+      "license": "CC (xem nguồn)",
+      "source": "Web (tramkochen.blogspot.com)",
+      "alt": "Tram' s kochen: Bánh chuối hấp"
     }
   ],
   "tet-doan-ngo": [
@@ -2104,15 +2104,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "The Death of Nelson, 21 October 1805 The scene in the cockpit on the 'Victory', 100 guns, as Nelson lay dying during the"
     },
     {
-      "file": "ngay-thay-thuoc/card.webp",
-      "photographer": "Arthur William Devis",
-      "profile": "https://commons.wikimedia.org/wiki/File:The_Death_of_Nelson,_21_October_1805_RMG_BHC2894.tiff",
-      "photo": "https://commons.wikimedia.org/wiki/File:The_Death_of_Nelson,_21_October_1805_RMG_BHC2894.tiff",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "The Death of Nelson, 21 October 1805 The scene in the cockpit on the 'Victory', 100 guns, as Nelson lay dying during the"
-    },
-    {
       "file": "ngay-thay-thuoc/gallery2.webp",
       "photographer": "Wikimedia Commons",
       "profile": "https://commons.wikimedia.org/wiki/File:White_Coats_for_Black_Lives_demonstration_-_DPLA_-_961dc2c03002624c35c616ad2bd432ba.jpg",
@@ -2165,6 +2156,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 2.0",
       "source": "Flickr",
       "alt": "vietnamese doctors"
+    },
+    {
+      "file": "ngay-thay-thuoc/card.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/compacflt/34664476562/",
+      "photo": "https://www.flickr.com/photos/compacflt/34664476562/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "170522-N-OU129-025 | NHA TRANG, Vietnam (May 22, 2017) Lt. C… | Flickr"
     }
   ],
   "ngay-bao-chi": [
@@ -3017,15 +3017,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "เทคนิคเกี่ยวกับการเล่นฟุตบอล"
     },
     {
-      "file": "ngay-the-thao-viet-nam/gallery5.webp",
-      "photographer": "flickr.com",
-      "profile": "https://www.flickr.com/photos/voxstock/18599622271",
-      "photo": "https://www.flickr.com/photos/voxstock/18599622271",
-      "license": "CC (xem nguồn)",
-      "source": "Web (flickr.com)",
-      "alt": "2015 SEA Games: Sepak Takraw (Group A) Men's Team | 8 June 2… | Flickr"
-    },
-    {
       "file": "ngay-the-thao-viet-nam/gallery6.webp",
       "photographer": "flickr.com",
       "profile": "https://www.flickr.com/photos/torbus/35810443065",
@@ -3033,6 +3024,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC (xem nguồn)",
       "source": "Web (flickr.com)",
       "alt": "Hoan Kiem Lake | Hanoi, Vietnam. | Tore Bustad | Flickr"
+    },
+    {
+      "file": "ngay-the-thao-viet-nam/gallery5.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/wonderlane/3256248313/",
+      "photo": "https://www.flickr.com/photos/wonderlane/3256248313/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "Dragon and Red Lion, Ying Yung Tong &amp; Vovinam Internationa… | Flickr"
     }
   ],
   "ngay-phap-luat-viet-nam": [

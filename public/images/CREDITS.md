@@ -63,7 +63,6 @@ Photos from Wikimedia Commons and Flickr contributors; see per-file license and 
 | phu-nu-viet-nam/gallery6.webp | ManishNegi513 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Traditional_Vietnamese_dress.jpg) |
 | phu-nu-viet-nam/gallery4.webp | Dang  Lam | CC0/PDM | [Flickr](https://www.flickr.com/photos/danglamhn/30176026341/) |
 | phu-nu-viet-nam/gallery5.webp | Tuan Le | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/destinywings_veno/23268478806/) |
-| nha-giao-viet-nam/card.webp | Biswarup Ganguly | CC BY 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Auditorium_-_Teacher-Student_Center_-_University_of_Dhaka_-_Dhaka_2015-05-31_2428.JPG) |
 | nha-giao-viet-nam/gallery1.webp | USAID Vietnam | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Launch_of_the_smart_classroom_in_Ho_Chi_Minh_City_(29396857950).jpg) |
 | nha-giao-viet-nam/gallery2.webp | USAID Vietnam | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:AA_Stivers_visits_Nguyen_Ding_Chieu_School_(16787033668).jpg) |
 | nha-giao-viet-nam/hero.webp | AxitTDTbenzoic | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Chu_V%C4%83n_An_High_School,_New_Stadium.jpg) |
@@ -71,6 +70,7 @@ Photos from Wikimedia Commons and Flickr contributors; see per-file license and 
 | nha-giao-viet-nam/gallery4.webp | Orange County Archives | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/ocarchives/25258534014/) |
 | nha-giao-viet-nam/gallery5.webp | cohtran.blogspot.com | CC (xem nguồn) | [cohtran.blogspot.com](https://cohtran.blogspot.com/2014/02/) |
 | nha-giao-viet-nam/gallery6.webp | science.mahidol.ac.th | CC (xem nguồn) | [science.mahidol.ac.th](https://science.mahidol.ac.th/th/activity/nov61-2.php) |
+| nha-giao-viet-nam/card.webp | es.globalvoices.org | CC (xem nguồn) | [es.globalvoices.org](https://es.globalvoices.org/2016/07/21/la-epidemia-del-exito-en-los-colegios-de-vietnam/) |
 | quan-doi-nhan-dan/gallery3.webp | SP5 Allan K. Holm | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:US_Army_vehicles_in_Saigon_parade_marking_2nd_anniversary_of_overthrow_of_the_Diem_regime.jpg) |
 | quan-doi-nhan-dan/hero.webp | Poncahot | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Duyet_binh.jpg) |
 | quan-doi-nhan-dan/card.webp | Adam Jones Adam63 | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Women_Soldiers_at_Ho_Chi_Minh_Museum_-_Hanoi_-_Vietnam.JPG) |
@@ -208,16 +208,16 @@ Photos from Wikimedia Commons and Flickr contributors; see per-file license and 
 | ong-cong-ong-tao/gallery6.webp | Tho nau at Vietnamese Wikipedia | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:L%C4%83ng_M%E1%BA%A1c_C%E1%BB%ADu.JPG) |
 | ong-cong-ong-tao/gallery2.webp | lightwrite | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/lightwrite/14362261867/) |
 | tet-han-thuc/hero.webp | Titti Nguyen | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Tet_offerings,_Hue_2011.jpg) |
-| tet-han-thuc/card.webp | Conbo at vi.wikipedia | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Banhchay.JPG) |
 | tet-han-thuc/gallery1.webp | Conbo at vi.wikipedia | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Banhtroi.JPG) |
 | tet-han-thuc/gallery2.webp | Lachy70 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:B%C3%A1nh_tr%C3%B4i_n%C6%B0%E1%BB%9Bc.png) |
-| tet-han-thuc/gallery3.webp | Lachy70 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:B%C3%A1nh_tr%C3%B4i_n%C6%B0%E1%BB%9Bc.png) |
 | tet-han-thuc/amthuc-mam-cung.webp | Phương Huy (thảo luận) | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:C%C3%BAng_giao_th%E1%BB%ABa_n%C4%83m_2010_(4).JPG) |
 | tet-han-thuc/amthuc-banh-chay.webp | Conbo at vi.wikipedia | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Banhchay.JPG) |
 | tet-han-thuc/gallery4.webp | Junyu-K | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:202501_%E6%A1%82%E8%8A%B1%E8%9C%9C%E7%B6%9C%E5%90%88%E6%B9%AF%E5%9C%93%E5%88%A8%E5%86%B0,Aka_%E5%86%B0%E7%81%AB%E6%B9%AF%E5%9C%93.jpg) |
 | tet-han-thuc/gallery5.webp | Phương Huy (thảo luận) | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:B%C3%A1nh_bao_chay_ng%E1%BB%8Dt_c%C3%BAng_t%E1%BA%A5t_ni%C3%AAn_nh%C3%A0_m%E1%BB%87_2018.jpg) |
 | tet-han-thuc/amthuc-banh-troi.webp | fr.wikipedia.org | CC (xem nguồn) | [fr.wikipedia.org](https://fr.wikipedia.org/wiki/Songpyeon) |
 | tet-han-thuc/gallery6.webp | bualoy-thaidessert.blogspot.com | CC (xem nguồn) | [bualoy-thaidessert.blogspot.com](https://bualoy-thaidessert.blogspot.com/) |
+| tet-han-thuc/card.webp | en.wikipedia.org | CC (xem nguồn) | [en.wikipedia.org](https://en.wikipedia.org/wiki/B%C3%A1nh_t%C3%A9t) |
+| tet-han-thuc/gallery3.webp | tramkochen.blogspot.com | CC (xem nguồn) | [tramkochen.blogspot.com](https://tramkochen.blogspot.com/2010/04/banh-chuoi-hap.html) |
 | tet-doan-ngo/card.webp | babinbubun | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Start_your_day.jpg) |
 | tet-doan-ngo/gallery1.webp | JIP | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Spring_rolls_and_lychee_juice_at_restaurant_Nam_Nam_in_Munich.jpg) |
 | tet-doan-ngo/gallery2.webp | TopTropicals.com | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Litchi_chinensis_-_Lychee_(52334448851).jpg) |
@@ -231,13 +231,13 @@ Photos from Wikimedia Commons and Flickr contributors; see per-file license and 
 | tet-doan-ngo/gallery6.webp | Donald Trung | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Food_offerings_for_the_Mid-Autumn_festival_in_Ecopark_(2017).jpg) |
 | tet-doan-ngo/amthuc-com-ruou.webp | vietskin.vn | CC (xem nguồn) | [vietskin.vn](https://www.vietskin.vn/benh-thuong-gap/) |
 | ngay-thay-thuoc/hero.webp | Arthur William Devis | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:The_Death_of_Nelson,_21_October_1805_RMG_L8118.jpg) |
-| ngay-thay-thuoc/card.webp | Arthur William Devis | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:The_Death_of_Nelson,_21_October_1805_RMG_BHC2894.tiff) |
 | ngay-thay-thuoc/gallery2.webp | Wikimedia Commons | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:White_Coats_for_Black_Lives_demonstration_-_DPLA_-_961dc2c03002624c35c616ad2bd432ba.jpg) |
 | ngay-thay-thuoc/gallery3.webp | David E. Lucas | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:1,000th_open-heart_surgery_patient_-_DPLA_-_1f3814906333d7b97509c6770c1322eb.jpg) |
 | ngay-thay-thuoc/gallery5.webp | Shixart1985 | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Child_receiving_a_medical_checkup_in_a_clinic_with_a_doctor_using_a_stethoscope.jpg) |
 | ngay-thay-thuoc/gallery6.webp | Bùi Thụy Đào Nguyên | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:M%E1%BB%99t_ph%C3%B2ng_thu%E1%BB%91c_Nam.jpg) |
 | ngay-thay-thuoc/gallery1.webp | Petty Officer 1st Class trevor andersen | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Navy_doctors_from_USNS_Mercy_perform_joint_replacement_surgery_in_Vietnam_during_Pacific_Partnership_2015_150818-N-UQ938-107.jpg) |
 | ngay-thay-thuoc/gallery4.webp | Michael Coghlan | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/mikecogh/16792899393/) |
+| ngay-thay-thuoc/card.webp | flickr.com | CC (xem nguồn) | [flickr.com](https://www.flickr.com/photos/compacflt/34664476562/) |
 | ngay-bao-chi/gallery1.webp | Ngô Trung | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:S%E1%BA%A1p_b%C3%A1o.JPG) |
 | ngay-bao-chi/gallery2.webp | TaiwaneseWaveVN | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:S%E1%BA%A1p_b%C3%A1o_110A1_%C4%91%C6%B0%E1%BB%9Dng_Gi%E1%BA%A3ng_V%C3%B5,_qu%E1%BA%ADn_Ba_%C4%90%C3%ACnh,_H%C3%A0_N%E1%BB%99i_(A_newspaper_kiosk_at_110A1_Giang_Vo_Road,_Ba_Dinh_District,_Hanoi,_Vietnam).jpg) |
 | ngay-bao-chi/gallery6.webp | diendan.org | CC (xem nguồn) | [diendan.org](https://www.diendan.org/viet-nam/thanh-lap-hoi-nha-bao-doc-lap-viet-nam) |
@@ -330,8 +330,8 @@ Photos from Wikimedia Commons and Flickr contributors; see per-file license and 
 | ngay-the-thao-viet-nam/gallery3.webp | thuocdantoc.vn | CC (xem nguồn) | [thuocdantoc.vn](https://thuocdantoc.vn/khai-mac-dai-hoi-the-duc-the-thao-chao-mung-ngay-truyen-thong-cong-ty-cp-thuoc-dan-toc.html) |
 | ngay-the-thao-viet-nam/hero.webp | flickr.com | CC (xem nguồn) | [flickr.com](https://www.flickr.com/photos/keangpeng/27068292394) |
 | ngay-the-thao-viet-nam/gallery4.webp | footballrsu.blogspot.com | CC (xem nguồn) | [footballrsu.blogspot.com](https://footballrsu.blogspot.com/) |
-| ngay-the-thao-viet-nam/gallery5.webp | flickr.com | CC (xem nguồn) | [flickr.com](https://www.flickr.com/photos/voxstock/18599622271) |
 | ngay-the-thao-viet-nam/gallery6.webp | flickr.com | CC (xem nguồn) | [flickr.com](https://www.flickr.com/photos/torbus/35810443065) |
+| ngay-the-thao-viet-nam/gallery5.webp | flickr.com | CC (xem nguồn) | [flickr.com](https://www.flickr.com/photos/wonderlane/3256248313/) |
 | ngay-phap-luat-viet-nam/card.webp | flickr.com | CC (xem nguồn) | [flickr.com](https://www.flickr.com/photos/143601516@N03/27905720280) |
 | ngay-phap-luat-viet-nam/gallery1.webp | kremlin.ru | CC (xem nguồn) | [kremlin.ru](https://kremlin.ru/events/president/news/9383) |
 | ngay-phap-luat-viet-nam/gallery2.webp | commons.wikimedia.org | CC (xem nguồn) | [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:NhaHatLon.JPG) |

@@ -161,6 +161,7 @@ export type MotifName =
 export const holidays: Holiday[] = [
   {
     slug: "tet-duong-lich",
+    heroStyle: "framed",
     signature: [
       {
         kind: "steps",
@@ -173,6 +174,9 @@ export const holidays: Holiday[] = [
           { icon: "book", title: "Mục tiêu năm mới", text: "Viết ra ba điều muốn thay đổi, gấp lại cất đi — đến cuối năm mở ra soi lại mình đã đi được bao xa." },
         ],
       },
+    ],
+    quotes: [
+      { text: "Lời của năm cũ thuộc về ngôn ngữ của năm cũ. Và lời của năm tới chờ một tiếng nói khác.", author: "T. S. Eliot", work: "Four Quartets" },
     ],
     motif: "fireworks",
     name: "Tết Dương lịch",
@@ -984,6 +988,7 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "quoc-te-thieu-nhi",
+    heroStyle: "split",
     signature: [
       {
         kind: "steps",
@@ -1560,6 +1565,7 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "nha-giao-viet-nam",
+    heroStyle: "split",
     signature: [
       {
         kind: "steps",
@@ -2204,6 +2210,7 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "nguoi-cao-tuoi",
+    heroStyle: "framed",
     signature: [
       {
         kind: "steps",
@@ -2285,6 +2292,7 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "doanh-nhan",
+    heroStyle: "split",
     signature: [
       {
         kind: "steps",
@@ -2517,6 +2525,7 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "ngay-sinh-nhat-bac",
+    heroStyle: "framed",
     signature: [
       {
         kind: "timeline",
@@ -2827,6 +2836,7 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "ngay-the-thao-viet-nam",
+    heroStyle: "split",
     signature: [
       {
         kind: "steps",
