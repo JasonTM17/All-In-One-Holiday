@@ -121,15 +121,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Mai vàng"
     },
     {
-      "file": "tet-nguyen-dan/gallery3.webp",
-      "photographer": "Prenn",
-      "profile": "https://commons.wikimedia.org/wiki/File:Ochna_integerrima_var..JPG",
-      "photo": "https://commons.wikimedia.org/wiki/File:Ochna_integerrima_var..JPG",
-      "license": "CC BY-SA 3.0",
-      "source": "Wikimedia Commons",
-      "alt": "Mai trắng, một giống lai của mai vàng"
-    },
-    {
       "file": "tet-nguyen-dan/amthuc-banh-chung.webp",
       "photographer": "vi:user:Viethavvh",
       "profile": "https://commons.wikimedia.org/wiki/File:Banh_chung_vuong.jpg",
@@ -175,15 +166,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Một đĩa giò thủ"
     },
     {
-      "file": "tet-nguyen-dan/gallery6.webp",
-      "photographer": "Willyvu",
-      "profile": "https://commons.wikimedia.org/wiki/File:C%C3%A0nh_hoa_mai_gi%E1%BA%A3_%C4%91%C3%B3ng_th%C3%B9ng_carton_%C4%91%E1%BB%83_g%E1%BB%ADi_%C4%91i_xa.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:C%C3%A0nh_hoa_mai_gi%E1%BA%A3_%C4%91%C3%B3ng_th%C3%B9ng_carton_%C4%91%E1%BB%83_g%E1%BB%ADi_%C4%91i_xa.jpg",
-      "license": "CC BY-SA 4.0",
-      "source": "Wikimedia Commons",
-      "alt": "Artificial apricot blossom branches are used to make the apricot trees for decoration purposes in the Lunar Tet in Vietn"
-    },
-    {
       "file": "tet-nguyen-dan/gallery4.webp",
       "photographer": "This is Thảo",
       "profile": "https://commons.wikimedia.org/wiki/File:Tet_holiday_in_Vietnam.jpg",
@@ -200,6 +182,24 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC (xem nguồn)",
       "source": "Web (justinsomnia.org)",
       "alt": "Ok, where next? - Justinsomnia"
+    },
+    {
+      "file": "tet-nguyen-dan/gallery3.webp",
+      "photographer": "viewthrumygloballens.blogspot.com",
+      "profile": "https://viewthrumygloballens.blogspot.com/2011/02/red-for-good-luck.html",
+      "photo": "https://viewthrumygloballens.blogspot.com/2011/02/red-for-good-luck.html",
+      "license": "CC (xem nguồn)",
+      "source": "Web (viewthrumygloballens.blogspot.com)",
+      "alt": "View thru My Global Lens: Red for Good Luck"
+    },
+    {
+      "file": "tet-nguyen-dan/gallery6.webp",
+      "photographer": "foodboozeshoes.blogspot.com",
+      "profile": "https://foodboozeshoes.blogspot.com/2011/04/asia-tripping-part-v-halong-bay-vietnam.html",
+      "photo": "https://foodboozeshoes.blogspot.com/2011/04/asia-tripping-part-v-halong-bay-vietnam.html",
+      "license": "CC (xem nguồn)",
+      "source": "Web (foodboozeshoes.blogspot.com)",
+      "alt": "Food, booze and shoes: Asia tripping - part V: Halong Bay, Vietnam"
     }
   ],
   "tet-nguyen-tieu": [
@@ -267,15 +267,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Lanterns in Hoi An"
     },
     {
-      "file": "tet-nguyen-tieu/gallery6.webp",
-      "photographer": "Nguoivietbao",
-      "profile": "https://commons.wikimedia.org/wiki/File:C%C3%A1c_%C4%91%E1%BA%A1i_bi%E1%BB%83u_v%C3%A0_ng%C6%B0%E1%BB%9Di_d%C3%A2n_d%C3%A2ng_h%C6%B0%C6%A1ng_t%E1%BA%A1i_L%E1%BB%85_h%E1%BB%99i_truy%E1%BB%81n_th%E1%BB%91ng_%C4%90%C3%ACnh_-_%C4%90%E1%BB%81n_-_Ch%C3%B9a_B%E1%BA%A3o_S%C3%A0i,_ph%C6%B0%E1%BB%9Dng_Ph%E1%BA%A1m_Ng%C5%A9_L%C3%A3o,_th%C3%A0nh_ph%E1%BB%91_H%E1%BA%A3i_D%C6%B0%C6%A1ng,_t%E1%BB%89nh_H%E1%BA%A3i_D%C6%B0%C6%A1ng.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:C%C3%A1c_%C4%91%E1%BA%A1i_bi%E1%BB%83u_v%C3%A0_ng%C6%B0%E1%BB%9Di_d%C3%A2n_d%C3%A2ng_h%C6%B0%C6%A1ng_t%E1%BA%A1i_L%E1%BB%85_h%E1%BB%99i_truy%E1%BB%81n_th%E1%BB%91ng_%C4%90%C3%ACnh_-_%C4%90%E1%BB%81n_-_Ch%C3%B9a_B%E1%BA%A3o_S%C3%A0i,_ph%C6%B0%E1%BB%9Dng_Ph%E1%BA%A1m_Ng%C5%A9_L%C3%A3o,_th%C3%A0nh_ph%E1%BB%91_H%E1%BA%A3i_D%C6%B0%C6%A1ng,_t%E1%BB%89nh_H%E1%BA%A3i_D%C6%B0%C6%A1ng.jpg",
-      "license": "CC BY-SA 4.0",
-      "source": "Wikimedia Commons",
-      "alt": "Delegates and people offer incense at the traditional festival of Bao Sai Communal House - Temple - Pagoda, Pham Ngu Lao"
-    },
-    {
       "file": "tet-nguyen-tieu/card.webp",
       "photographer": "Kuroczynski",
       "profile": "https://commons.wikimedia.org/wiki/File:Boats_with_lanterns_on_the_Thu_Bon_river_IMG_3864.jpg",
@@ -301,6 +292,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC (xem nguồn)",
       "source": "Web (tramkochen.blogspot.com)",
       "alt": "Tram' s kochen: Xôi khúc"
+    },
+    {
+      "file": "tet-nguyen-tieu/gallery6.webp",
+      "photographer": "Christophe95",
+      "profile": "https://commons.wikimedia.org/wiki/File:Lanterns_in_Hoi_An_6.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Lanterns_in_Hoi_An_6.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Lanterns in the streets of Hoi An."
     }
   ],
   "valentine": [
@@ -330,15 +330,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 4.0",
       "source": "Wikimedia Commons",
       "alt": "Red roses from a bouquet"
-    },
-    {
-      "file": "valentine/gallery3.webp",
-      "photographer": "Montanabw",
-      "profile": "https://commons.wikimedia.org/wiki/File:Red_roses_from_bouquet_2.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Red_roses_from_bouquet_2.jpg",
-      "license": "CC BY-SA 4.0",
-      "source": "Wikimedia Commons",
-      "alt": "Red roses from bouquet"
     },
     {
       "file": "valentine/gallery1.webp",
@@ -402,6 +393,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC (xem nguồn)",
       "source": "Web (svgattic.blogspot.com)",
       "alt": "SVG Attic Blog: Be my Valentine ~ with Angeline Choo"
+    },
+    {
+      "file": "valentine/gallery3.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/ileohidalgo/12727738524/",
+      "photo": "https://www.flickr.com/photos/ileohidalgo/12727738524/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "Love | | Would you like to follow me on Instagram, Twitter, … | Flickr"
     }
   ],
   "quoc-te-phu-nu": [
@@ -460,15 +460,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Festival ao dai in Vietnam"
     },
     {
-      "file": "quoc-te-phu-nu/gallery5.webp",
-      "photographer": "Susanne Nilsson",
-      "profile": "https://commons.wikimedia.org/wiki/File:Tulip_(33161282930).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Tulip_(33161282930).jpg",
-      "license": "CC BY-SA 2.0",
-      "source": "Wikimedia Commons",
-      "alt": "Tulip"
-    },
-    {
       "file": "quoc-te-phu-nu/gallery6.webp",
       "photographer": "Judgefloro",
       "profile": "https://commons.wikimedia.org/wiki/File:JfAngat0192Mimosapudicafvf_01.JPG",
@@ -476,6 +467,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 4.0",
       "source": "Wikimedia Commons",
       "alt": "In Paltoc, Angat, Bulacan beside Niugan, Angat, Bulacan is the Mimosa pudica from Latin: pudica \"shy, bashful or shrinki"
+    },
+    {
+      "file": "quoc-te-phu-nu/gallery5.webp",
+      "photographer": "motogo.vn",
+      "profile": "https://motogo.vn/vuon-hoa-da-lat/",
+      "photo": "https://motogo.vn/vuon-hoa-da-lat/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (motogo.vn)",
+      "alt": "Top 24 vườn hoa Đà Lạt đẹp ngất ngây, thoải mái checkin - MOTOGO"
     }
   ],
   "phu-nu-viet-nam": [
@@ -941,12 +941,12 @@ export const imageCredits: Record<string, ImageCredit[]> = {
     },
     {
       "file": "quoc-te-lao-dong/gallery6.webp",
-      "photographer": "Basile Morin",
-      "profile": "https://commons.wikimedia.org/wiki/File:Two_farmers_driving_a_tractor_towing_a_raft_loaded_with_green_rice_sheaves_to_be_planted_in_a_paddy_field_surrounded_by_mist_in_Vang_Vieng_Laos.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Two_farmers_driving_a_tractor_towing_a_raft_loaded_with_green_rice_sheaves_to_be_planted_in_a_paddy_field_surrounded_by_mist_in_Vang_Vieng_Laos.jpg",
-      "license": "CC BY-SA 4.0",
-      "source": "Wikimedia Commons",
-      "alt": "Two male farmers driving a tractor towing a raft loaded with green rice sheaves to be planted in a paddy field surrounde"
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/iloasiapacific/8733230123/",
+      "photo": "https://www.flickr.com/photos/iloasiapacific/8733230123/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "Garment factory in HCMC | Work at a garment factory in the o… | Flickr"
     }
   ],
   "ngay-cua-me": [
@@ -976,15 +976,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY 2.5",
       "source": "Wikimedia Commons",
       "alt": "Flower and bud of yellow chamomile (Anthemis tinctoria)."
-    },
-    {
-      "file": "ngay-cua-me/gallery1.webp",
-      "photographer": "Marc",
-      "profile": "https://commons.wikimedia.org/wiki/File:%22We_Love_Our_Daughter_and_Her_Wife%22.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:%22We_Love_Our_Daughter_and_Her_Wife%22.jpg",
-      "license": "CC BY-SA 2.0",
-      "source": "Wikimedia Commons",
-      "alt": "I went down to City Hall on my lunch break on the first official full day that gay & lesbian couples could get marri"
     },
     {
       "file": "ngay-cua-me/hero.webp",
@@ -1021,6 +1012,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 2.0",
       "source": "Flickr",
       "alt": "vietnam mother child"
+    },
+    {
+      "file": "ngay-cua-me/gallery1.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/advocacy_project/14950207820",
+      "photo": "https://www.flickr.com/photos/advocacy_project/14950207820",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "Ho Thi Thiu | Ho Thi Thiu joined the American War in Vietnam… | Flickr"
     }
   ],
   "quoc-te-thieu-nhi": [
@@ -1052,15 +1052,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Bắt đầu là hạt Rồi sau thành mầm Gặp hạt mưa xuân Xoè ra lá nhỏ Lớn thêm chút nữa Vươn lên bầu trời Cái hạt bé xíu Thành"
     },
     {
-      "file": "quoc-te-thieu-nhi/gallery4.webp",
-      "photographer": "TAPAS KUMAR HALDER",
-      "profile": "https://commons.wikimedia.org/wiki/File:Funny_hard_boiled_eggs-_Kolkata_-_West_Bengal_-_DSC_0003.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Funny_hard_boiled_eggs-_Kolkata_-_West_Bengal_-_DSC_0003.jpg",
-      "license": "CC BY-SA 4.0",
-      "source": "Wikimedia Commons",
-      "alt": "Parents want the best for their kids. We want them to do well in school, we want them to find their way in life, and—abo"
-    },
-    {
       "file": "quoc-te-thieu-nhi/gallery5.webp",
       "photographer": "PattayaPatrol",
       "profile": "https://commons.wikimedia.org/wiki/File:DSCF0663_Evening_lights_and_spinning_balloons_-_a_colorful_carnival_ride_comes_to_life_at_dusk.jpg",
@@ -1068,15 +1059,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 4.0",
       "source": "Wikimedia Commons",
       "alt": "This photo shows a colorful carnival or amusement park at dusk. In the foreground, there's a ride with blue and white ba"
-    },
-    {
-      "file": "quoc-te-thieu-nhi/gallery6.webp",
-      "photographer": "nhadatvideo",
-      "profile": "https://www.flickr.com/photos/40129895@N03/46844865145/",
-      "photo": "https://www.flickr.com/photos/40129895@N03/46844865145/",
-      "license": "CC BY 2.0",
-      "source": "Flickr",
-      "alt": "trẻ em vui chơi"
     },
     {
       "file": "quoc-te-thieu-nhi/hero.webp",
@@ -1095,18 +1077,27 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY 2.0",
       "source": "Flickr",
       "alt": "trẻ em vui chơi"
+    },
+    {
+      "file": "quoc-te-thieu-nhi/gallery4.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/worldbank/9345891442/",
+      "photo": "https://www.flickr.com/photos/worldbank/9345891442/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "Children playing after school | Young children play outside … | Flickr"
+    },
+    {
+      "file": "quoc-te-thieu-nhi/gallery6.webp",
+      "photographer": "valeriapanarina.ru",
+      "profile": "https://valeriapanarina.ru/blog/zolotoy-rebenok-talisman-vetnamskoy-semi.php",
+      "photo": "https://valeriapanarina.ru/blog/zolotoy-rebenok-talisman-vetnamskoy-semi.php",
+      "license": "CC (xem nguồn)",
+      "source": "Web (valeriapanarina.ru)",
+      "alt": "«Золотой» ребенок – талисман вьетнамской семьи | фотограф Валерия Панарина"
     }
   ],
   "ngay-gia-dinh-viet-nam": [
-    {
-      "file": "ngay-gia-dinh-viet-nam/gallery2.webp",
-      "photographer": "Thang Nguyen from Nottingham, United Kingdom",
-      "profile": "https://commons.wikimedia.org/wiki/File:Vietnamese_Ancestors_Altar.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Vietnamese_Ancestors_Altar.jpg",
-      "license": "CC BY-SA 2.0",
-      "source": "Wikimedia Commons",
-      "alt": "Ancestors altar of a Vietnamese Buddhist family."
-    },
     {
       "file": "ngay-gia-dinh-viet-nam/gallery3.webp",
       "photographer": "Rungbachduong",
@@ -1169,6 +1160,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 4.0",
       "source": "Wikimedia Commons",
       "alt": "Many Vietnamese families build altars like these in their houses to pray 🙏🏻 for their family members."
+    },
+    {
+      "file": "ngay-gia-dinh-viet-nam/gallery2.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/badao212/4278144269/",
+      "photo": "https://www.flickr.com/photos/badao212/4278144269/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "gia dinh ku KEN | Thang Dao Quang | Flickr"
     }
   ],
   "thuong-binh-liet-si": [
@@ -1783,15 +1783,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Carp Pond Used in the past for growing carp."
     },
     {
-      "file": "ong-cong-ong-tao/card.webp",
-      "photographer": "Mick Lobb",
-      "profile": "https://commons.wikimedia.org/wiki/File:Nursery_Pond,_Hazlecourt_Fish_Pond_-_Llysworney_-_geograph.org.uk_-_1264196.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Nursery_Pond,_Hazlecourt_Fish_Pond_-_Llysworney_-_geograph.org.uk_-_1264196.jpg",
-      "license": "CC BY-SA 2.0",
-      "source": "Wikimedia Commons",
-      "alt": "Nursery Pond, Hazlecourt Fish Pond - Llysworney Once used to breed a variety of decorative and exotic aquarium fish, the"
-    },
-    {
       "file": "ong-cong-ong-tao/gallery3.webp",
       "photographer": "Acabashi",
       "profile": "https://commons.wikimedia.org/wiki/File:Highdown_Gardens,_Worthing,_Cave_Pond_carp_1.jpg",
@@ -1873,13 +1864,22 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Lăng ngài Mạc Cửu cùng phu nhân và các hậu duệ tại Hà Tiên, Kiên Giang"
     },
     {
-      "file": "ong-cong-ong-tao/gallery2.webp",
+      "file": "ong-cong-ong-tao/card.webp",
       "photographer": "lightwrite",
       "profile": "https://www.flickr.com/photos/lightwrite/14362261867/",
       "photo": "https://www.flickr.com/photos/lightwrite/14362261867/",
       "license": "CC BY-SA 2.0",
       "source": "Flickr",
       "alt": "vietnam carp pond"
+    },
+    {
+      "file": "ong-cong-ong-tao/gallery2.webp",
+      "photographer": "Kazuber",
+      "profile": "https://commons.wikimedia.org/wiki/File:PXL_20230923_152451111.MP.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:PXL_20230923_152451111.MP.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Annually, citizens of a country whose culture revolve around the lunisolar calendar celebrates a festival known as the m"
     }
   ],
   "tet-han-thuc": [
@@ -1900,15 +1900,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "Public domain",
       "source": "Wikimedia Commons",
       "alt": "Hình thu nhỏ của một đĩa bánh trôi, làm minh hoạ cho bài viết về đối tượng"
-    },
-    {
-      "file": "tet-han-thuc/gallery2.webp",
-      "photographer": "Lachy70",
-      "profile": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_tr%C3%B4i_n%C6%B0%E1%BB%9Bc.png",
-      "photo": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_tr%C3%B4i_n%C6%B0%E1%BB%9Bc.png",
-      "license": "CC BY-SA 4.0",
-      "source": "Wikimedia Commons",
-      "alt": "Bánh trôi nước, one of Hồ Xuân Hương's most famous poems is shown here with chữ Hán Nôm and chữ Quốc ngữ (Vietnamese alp"
     },
     {
       "file": "tet-han-thuc/amthuc-mam-cung.webp",
@@ -1981,6 +1972,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC (xem nguồn)",
       "source": "Web (tramkochen.blogspot.com)",
       "alt": "Tram' s kochen: 2011"
+    },
+    {
+      "file": "tet-han-thuc/gallery2.webp",
+      "photographer": "motogo.vn",
+      "profile": "https://motogo.vn/dac-san-hue/",
+      "photo": "https://motogo.vn/dac-san-hue/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (motogo.vn)",
+      "alt": "Đặc sản Huế | TOP 15 món ăn ngon nức tiếng xứ Huế - MOTOGO"
     }
   ],
   "tet-doan-ngo": [
@@ -2178,15 +2178,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "A news-stand on Phạm Ngọc Thạch street, District 3, Hồ Chí Minh City. Saigonese often keep themselves informed by readin"
     },
     {
-      "file": "ngay-bao-chi/gallery2.webp",
-      "photographer": "TaiwaneseWaveVN",
-      "profile": "https://commons.wikimedia.org/wiki/File:S%E1%BA%A1p_b%C3%A1o_110A1_%C4%91%C6%B0%E1%BB%9Dng_Gi%E1%BA%A3ng_V%C3%B5,_qu%E1%BA%ADn_Ba_%C4%90%C3%ACnh,_H%C3%A0_N%E1%BB%99i_(A_newspaper_kiosk_at_110A1_Giang_Vo_Road,_Ba_Dinh_District,_Hanoi,_Vietnam).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:S%E1%BA%A1p_b%C3%A1o_110A1_%C4%91%C6%B0%E1%BB%9Dng_Gi%E1%BA%A3ng_V%C3%B5,_qu%E1%BA%ADn_Ba_%C4%90%C3%ACnh,_H%C3%A0_N%E1%BB%99i_(A_newspaper_kiosk_at_110A1_Giang_Vo_Road,_Ba_Dinh_District,_Hanoi,_Vietnam).jpg",
-      "license": "CC BY-SA 4.0",
-      "source": "Wikimedia Commons",
-      "alt": "A newspaper kiosk located at 110A1 Giang Vo Road, Giang Vo Ward, Ba Dinh District, Hanoi, Vietnam."
-    },
-    {
       "file": "ngay-bao-chi/gallery6.webp",
       "photographer": "diendan.org",
       "profile": "https://www.diendan.org/viet-nam/thanh-lap-hoi-nha-bao-doc-lap-viet-nam",
@@ -2239,6 +2230,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC (xem nguồn)",
       "source": "Web (thaicyberpoint.com)",
       "alt": "บอกเล่าเรื่องราวจาก KBank Meet &amp; Talk with Blogger เมื่อต้นเดือนธันวาคม ..."
+    },
+    {
+      "file": "ngay-bao-chi/gallery2.webp",
+      "photographer": "konde.co",
+      "profile": "https://www.konde.co/2021/10/female-journalists-at-top-level-advocate-gender-equality-in-newsrooms-from-labyrinth-glass-ceiling-to-roller-coaster/",
+      "photo": "https://www.konde.co/2021/10/female-journalists-at-top-level-advocate-gender-equality-in-newsrooms-from-labyrinth-glass-ceiling-to-roller-coaster/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (konde.co)",
+      "alt": "Research: Female Journalists at Top Level Advocate Gender Equality in ..."
     }
   ],
   "nguoi-cao-tuoi": [
@@ -2620,24 +2620,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "The Victory Monument of Dien Bien Phu from afar"
     },
     {
-      "file": "ngay-dien-bien-phu/gallery2.webp",
-      "photographer": "Ioe2015",
-      "profile": "https://commons.wikimedia.org/wiki/File:The_Victory_Monument_of_Dien_Bien_Phu_(front)_v2.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:The_Victory_Monument_of_Dien_Bien_Phu_(front)_v2.jpg",
-      "license": "CC BY-SA 4.0",
-      "source": "Wikimedia Commons",
-      "alt": "Front view of The Victory Monument of Điện Biên Phủ, Điện Biên, Vietnam"
-    },
-    {
-      "file": "ngay-dien-bien-phu/gallery3.webp",
-      "photographer": "Adam Jones from Kelowna, BC, Canada",
-      "profile": "https://commons.wikimedia.org/wiki/File:Detail_of_Victory_Monument_-_Dien_Bien_Phu_-_Vietnam_(48159143826).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Detail_of_Victory_Monument_-_Dien_Bien_Phu_-_Vietnam_(48159143826).jpg",
-      "license": "CC BY-SA 2.0",
-      "source": "Wikimedia Commons",
-      "alt": "Detail of Victory Monument - Dien Bien Phu - Vietnam"
-    },
-    {
       "file": "ngay-dien-bien-phu/gallery4.webp",
       "photographer": "Adam Jones from Kelowna, BC, Canada",
       "profile": "https://commons.wikimedia.org/wiki/File:Detail_of_Inscription_near_Victory_Monument_on_Hill_D1_(Dominique_2)_-_Dien_Bien_Phu_-_Vietnam_(48168823082).jpg",
@@ -2663,6 +2645,24 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 2.0",
       "source": "Wikimedia Commons",
       "alt": "Panorama of Dien Bien Phu Exhibit - Vietnam Military History Museum - Hanoi - Vietnam"
+    },
+    {
+      "file": "ngay-dien-bien-phu/gallery2.webp",
+      "photographer": "elgrancapitan.org",
+      "profile": "https://elgrancapitan.org/portal/index.php/articulos3/siglo-xx-xxi-actualidad/347-la-batalla-de-dien-bien-phu-1954",
+      "photo": "https://elgrancapitan.org/portal/index.php/articulos3/siglo-xx-xxi-actualidad/347-la-batalla-de-dien-bien-phu-1954",
+      "license": "CC (xem nguồn)",
+      "source": "Web (elgrancapitan.org)",
+      "alt": "LA BATALLA DE DIEN BIEN PHU (1954)"
+    },
+    {
+      "file": "ngay-dien-bien-phu/gallery3.webp",
+      "photographer": "motogo.vn",
+      "profile": "https://motogo.vn/du-lich-dien-bien/",
+      "photo": "https://motogo.vn/du-lich-dien-bien/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (motogo.vn)",
+      "alt": "Du lịch Điện Biên | Những địa điểm ngắm hoa Ban đẹp nhất - MOTOGO"
     }
   ],
   "ngay-sinh-nhat-bac": [
@@ -2703,15 +2703,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Ho Chi Minh mausoleum in 2003"
     },
     {
-      "file": "ngay-sinh-nhat-bac/gallery4.webp",
-      "photographer": "Unknown authorUnknown author.",
-      "profile": "https://commons.wikimedia.org/wiki/File:Statues_of_fairies,_and_a_fairy_riding_a_dragon_(17th_century),_Vietnam_National_Museum_of_Fine_Arts,_Hanoi,_Vietnam_-_20131030.JPG",
-      "photo": "https://commons.wikimedia.org/wiki/File:Statues_of_fairies,_and_a_fairy_riding_a_dragon_(17th_century),_Vietnam_National_Museum_of_Fine_Arts,_Hanoi,_Vietnam_-_20131030.JPG",
-      "license": "CC BY-SA 3.0",
-      "source": "Wikimedia Commons",
-      "alt": "lang Bac Ba Dinh"
-    },
-    {
       "file": "ngay-sinh-nhat-bac/gallery5.webp",
       "photographer": "Phương Huy (thảo luận)",
       "profile": "https://commons.wikimedia.org/wiki/File:H%E1%BB%93_sen_trung_t%C3%A2m_%E1%BB%9F_C%C3%B4ng_vi%C3%AAn_%C4%90%E1%BA%A7m_Sen_(1).JPG",
@@ -2737,6 +2728,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC (xem nguồn)",
       "source": "Web (blog.aladin.co.kr)",
       "alt": "[알라딘서재]제1차 인도차이나 전쟁(The First Indochina War)"
+    },
+    {
+      "file": "ngay-sinh-nhat-bac/gallery4.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/prof_richard/37781935604",
+      "photo": "https://www.flickr.com/photos/prof_richard/37781935604",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "Presidential Palace, Hanoi, 1906 (1) | Richard Mortel | Flickr"
     }
   ],
   "ngay-cach-mang-thang-tam": [
@@ -2777,24 +2777,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Hanoi Opera House"
     },
     {
-      "file": "ngay-cach-mang-thang-tam/gallery3.webp",
-      "photographer": "Schwede66",
-      "profile": "https://commons.wikimedia.org/wiki/File:Hanoi_Opera_House_15.JPG",
-      "photo": "https://commons.wikimedia.org/wiki/File:Hanoi_Opera_House_15.JPG",
-      "license": "CC BY-SA 3.0",
-      "source": "Wikimedia Commons",
-      "alt": "Hanoi Opera House in December 2012."
-    },
-    {
-      "file": "ngay-cach-mang-thang-tam/gallery4.webp",
-      "photographer": "Richard Mortel from Riyadh, Saudi Arabia",
-      "profile": "https://commons.wikimedia.org/wiki/File:Hanoi_Opera_House,_1901-11_(2)_(37608221545).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Hanoi_Opera_House,_1901-11_(2)_(37608221545).jpg",
-      "license": "CC BY 2.0",
-      "source": "Wikimedia Commons",
-      "alt": "Hanoi Opera House, 1901-11 (2)"
-    },
-    {
       "file": "ngay-cach-mang-thang-tam/gallery5.webp",
       "photographer": "motogo.vn",
       "profile": "https://motogo.vn/du-lich-ha-noi/",
@@ -2811,6 +2793,24 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC (xem nguồn)",
       "source": "Web (flickr.com)",
       "alt": "Ba Đình District, Hanoi, Vietnam | Ba Đình is an urban distr… | Flickr"
+    },
+    {
+      "file": "ngay-cach-mang-thang-tam/gallery3.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/jean-marc_astesana/16125242101",
+      "photo": "https://www.flickr.com/photos/jean-marc_astesana/16125242101",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "Ho Chi Minh City | Jean-Marc Astesana | Flickr"
+    },
+    {
+      "file": "ngay-cach-mang-thang-tam/gallery4.webp",
+      "photographer": "meinblogland.blogspot.com",
+      "profile": "https://meinblogland.blogspot.com/2012/07/vacation-in-vietnam.html",
+      "photo": "https://meinblogland.blogspot.com/2012/07/vacation-in-vietnam.html",
+      "license": "CC (xem nguồn)",
+      "source": "Web (meinblogland.blogspot.com)",
+      "alt": "meinblogland"
     }
   ],
   "ngay-giai-phong-thu-do": [
@@ -2851,24 +2851,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Flag Tower of Hanoi, 1812 (2)"
     },
     {
-      "file": "ngay-giai-phong-thu-do/gallery3.webp",
-      "photographer": "Richard Mortel from Riyadh, Saudi Arabia",
-      "profile": "https://commons.wikimedia.org/wiki/File:Flag_Tower_of_Hanoi,_1812_(3)_(37608503235).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Flag_Tower_of_Hanoi,_1812_(3)_(37608503235).jpg",
-      "license": "CC BY 2.0",
-      "source": "Wikimedia Commons",
-      "alt": "Flag Tower of Hanoi, 1812 (3)"
-    },
-    {
-      "file": "ngay-giai-phong-thu-do/gallery4.webp",
-      "photographer": "Richard Mortel from Riyadh, Saudi Arabia",
-      "profile": "https://commons.wikimedia.org/wiki/File:Flag_Tower_of_Hanoi,_1812_(4)_(24623083838).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Flag_Tower_of_Hanoi,_1812_(4)_(24623083838).jpg",
-      "license": "CC BY 2.0",
-      "source": "Wikimedia Commons",
-      "alt": "Flag Tower of Hanoi, 1812 (4)"
-    },
-    {
       "file": "ngay-giai-phong-thu-do/gallery5.webp",
       "photographer": "katiebordner",
       "profile": "https://commons.wikimedia.org/wiki/File:Central_Sector_of_the_Imperial_Citadel_of_Thang_Long_-_Hanoi.jpg",
@@ -2885,6 +2867,24 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 2.0",
       "source": "Wikimedia Commons",
       "alt": "Hoan Kiem Lake, Turtle Tower, Daytime (20231223)"
+    },
+    {
+      "file": "ngay-giai-phong-thu-do/gallery3.webp",
+      "photographer": "th.boell.org",
+      "profile": "https://th.boell.org/en/2020/09/18/covid-19-and-climate-crisis-southeast-asia",
+      "photo": "https://th.boell.org/en/2020/09/18/covid-19-and-climate-crisis-southeast-asia",
+      "license": "CC (xem nguồn)",
+      "source": "Web (th.boell.org)",
+      "alt": "COVID-19 and the Climate Crisis in Southeast Asia | Heinrich Böll ..."
+    },
+    {
+      "file": "ngay-giai-phong-thu-do/gallery4.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/jlascar/4550372503/",
+      "photo": "https://www.flickr.com/photos/jlascar/4550372503/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "The Presidential Palace of Vietnam | The Presidential Palace… | Flickr"
     }
   ],
   "ngay-sach-viet-nam": [
@@ -3101,12 +3101,12 @@ export const imageCredits: Record<string, ImageCredit[]> = {
     },
     {
       "file": "ngay-phap-luat-viet-nam/gallery3.webp",
-      "photographer": "coalitionfortheicc.org",
-      "profile": "https://www.coalitionfortheicc.org/icc-history",
-      "photo": "https://www.coalitionfortheicc.org/icc-history",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/143601516@N03/27905720280",
+      "photo": "https://www.flickr.com/photos/143601516@N03/27905720280",
       "license": "CC (xem nguồn)",
-      "source": "Web (coalitionfortheicc.org)",
-      "alt": "ICC history | Coalition for the International Criminal Court"
+      "source": "Web (flickr.com)",
+      "alt": "Legal Gavel &amp; Open Law Book | All content posted in the Blog… | Flickr"
     }
   ],
   "ngay-thuong-mai-viet-nam": [
@@ -3212,15 +3212,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Hanoi, Vietnam | Volunteers of 350.org Hanoi joined the Clim… | Flickr"
     },
     {
-      "file": "ngay-doan-thanh-nien/gallery3.webp",
-      "photographer": "nadigmadhavi.blogspot.com",
-      "profile": "https://nadigmadhavi.blogspot.com/",
-      "photo": "https://nadigmadhavi.blogspot.com/",
-      "license": "CC (xem nguồn)",
-      "source": "Web (nadigmadhavi.blogspot.com)",
-      "alt": "Expressions"
-    },
-    {
       "file": "ngay-doan-thanh-nien/gallery2.webp",
       "photographer": "thuocdantoc.vn",
       "profile": "https://thuocdantoc.vn/thuoc-dan-toc-to-chuc-thanh-cong-chuong-trinh-thien-nguyen-them-niem-vui-cho-em.html",
@@ -3239,15 +3230,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "D70_9851 | UNiTE Gender Based- Violence painting contest Con… | Flickr"
     },
     {
-      "file": "ngay-doan-thanh-nien/gallery5.webp",
-      "photographer": "flickr.com",
-      "profile": "https://www.flickr.com/photos/hmoong/14827683602/",
-      "photo": "https://www.flickr.com/photos/hmoong/14827683602/",
-      "license": "CC (xem nguồn)",
-      "source": "Web (flickr.com)",
-      "alt": "Lý Thường Kiệt - Lý Tự Trọng, Vũng Tàu năm 1968. Ảnh gốc c… | Flickr"
-    },
-    {
       "file": "ngay-doan-thanh-nien/gallery6.webp",
       "photographer": "flickr.com",
       "profile": "https://www.flickr.com/photos/ugvf/53140371381",
@@ -3255,6 +3237,24 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC (xem nguồn)",
       "source": "Web (flickr.com)",
       "alt": "Trại hè-KDT tuần1 | Camping de Val de Landrouet, Merdrignac … | Flickr"
+    },
+    {
+      "file": "ngay-doan-thanh-nien/gallery3.webp",
+      "photographer": "elitshanews.org.za",
+      "profile": "https://elitshanews.org.za/2020/02/17/is-there-a-glimmer-of-hope-for-vietnamese-workers/",
+      "photo": "https://elitshanews.org.za/2020/02/17/is-there-a-glimmer-of-hope-for-vietnamese-workers/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (elitshanews.org.za)",
+      "alt": "Is there a glimmer of hope for Vietnamese workers? – Elitsha"
+    },
+    {
+      "file": "ngay-doan-thanh-nien/gallery5.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/350org/7149046023",
+      "photo": "https://www.flickr.com/photos/350org/7149046023",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "Hanoi, Vietnam | Volunteers of 350.org Hanoi joined the Clim… | Flickr"
     }
   ],
   "ngay-tho-viet-nam": [
@@ -3387,15 +3387,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Toán - Cơ học ứng dụng: Học làm người lương thiện . P1"
     },
     {
-      "file": "quoc-te-nam-gioi/gallery3.webp",
-      "photographer": "24hinh.vn",
-      "profile": "https://24hinh.vn/threads/xe-dap-bac-kinh-2001-mot-bo-phim-hien-thuc-dang-de-xem.210/",
-      "photo": "https://24hinh.vn/threads/xe-dap-bac-kinh-2001-mot-bo-phim-hien-thuc-dang-de-xem.210/",
-      "license": "CC (xem nguồn)",
-      "source": "Web (24hinh.vn)",
-      "alt": "Cảm nhận - Xe đạp Bắc Kinh 2001-Một bộ phim hiện thực đáng để xem ..."
-    },
-    {
       "file": "quoc-te-nam-gioi/gallery4.webp",
       "photographer": "foto.wuestenigel.com",
       "profile": "https://foto.wuestenigel.com/open-emu-egg-on-the-grass-flip-2019/",
@@ -3430,6 +3421,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC (xem nguồn)",
       "source": "Web (littlehandsblw.com)",
       "alt": "Τα άλματα ανάπτυξης - Little Hands BLW αναπτυξιακά άλματα"
+    },
+    {
+      "file": "quoc-te-nam-gioi/gallery3.webp",
+      "photographer": "thuocdantoc.vn",
+      "profile": "https://thuocdantoc.vn/benh/viem-hong-o-tre-em",
+      "photo": "https://thuocdantoc.vn/benh/viem-hong-o-tre-em",
+      "license": "CC (xem nguồn)",
+      "source": "Web (thuocdantoc.vn)",
+      "alt": "Viêm họng ở trẻ em: Cha mẹ cần nhận biết và điều trị bệnh kịp thời"
     }
   ]
 };
