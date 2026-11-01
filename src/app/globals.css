@@ -43,6 +43,11 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Anchored headings must clear the sticky header (64px) + TOC bar (~44px). */
+[id] {
+  scroll-margin-top: 7.5rem;
+}
+
 body {
   @apply bg-[var(--color-surface)] font-sans text-[var(--color-ink)] antialiased;
 }

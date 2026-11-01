@@ -15,6 +15,7 @@ import HolidayActions from "@/components/HolidayActions";
 import HImg from "@/components/HImg";
 import LightboxImg from "@/components/LightboxImg";
 import GalleryGrid from "@/components/GalleryGrid";
+import ScrollProgress from "@/components/ScrollProgress";
 import { HERO_LQIP } from "@/data/hero-lqip";
 import { HERO_TINT } from "@/data/hero-sizes";
 import { getStrings, localePath, type Locale } from "@/i18n";
@@ -116,6 +117,17 @@ export default function HolidayPage({
     GALLERY_LAYOUTS[slugHash(h.slug) % GALLERY_LAYOUTS.length];
 
   const jsonLd = holidayJsonLd(h, eventYear, locale, t.footer.home);
+  const tocItems: [string, string][] = [
+    ["nguon-goc", t.holiday.origin],
+    ["phong-tuc", t.holiday.traditions],
+    ["doc-tron", t.holiday.deepEyebrow],
+    ["bai-hoc", t.holiday.lessons],
+    ["loi-chuc", t.holiday.wishes],
+    ["hinh-anh", t.holiday.images],
+    ["cau-chuyen", t.holiday.storyEyebrow],
+    ["faq", "FAQ"],
+    ["kham-pha-them", t.holiday.related],
+  ];
 
   return (
     <>
@@ -294,6 +306,25 @@ export default function HolidayPage({
           <path d={HERO_WAVES[hero] ?? HERO_WAVES.classic} fill="currentColor" />
         </svg>
       </section>
+
+      {/* ---------- Sticky section TOC + reading progress ---------- */}
+      <nav
+        aria-label={t.holiday.toc}
+        className="sticky top-16 z-40 border-b border-[var(--color-line)] bg-[var(--color-surface)]/90 backdrop-blur print:hidden"
+      >
+        <div className="mx-auto flex max-w-4xl items-center gap-2 overflow-x-auto px-4 py-2.5 [-ms-overflow-style:none] [scrollbar-width:none] sm:px-6 [&::-webkit-scrollbar]:hidden">
+          {tocItems.map(([id, label]) => (
+            <a
+              key={id}
+              href={`#${id}`}
+              className="whitespace-nowrap rounded-full border border-[var(--color-line)] bg-[var(--color-card)] px-3 py-1 text-xs font-semibold text-[var(--color-muted)] transition-colors hover:border-[var(--color-brand)] hover:text-[var(--color-ink)]"
+            >
+              {label}
+            </a>
+          ))}
+        </div>
+        <ScrollProgress color={h.theme.to} />
+      </nav>
 
       {/* ---------- Body ---------- */}
       <div className="mx-auto max-w-4xl space-y-20 px-4 pt-16 sm:px-6">

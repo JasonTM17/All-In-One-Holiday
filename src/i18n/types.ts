@@ -88,6 +88,7 @@ export interface Messages {
     gifts: string;
     images: string;
     related: string;
+    toc: string;
     storyEyebrow: string;
     readMore: string;
     faqTitle: string;

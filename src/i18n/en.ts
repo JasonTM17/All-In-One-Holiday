@@ -79,6 +79,7 @@ export const en: Messages = {
     gifts: "Gift ideas",
     images: "Photos",
     related: "Discover more",
+    toc: "On this page",
     storyEyebrow: "Stories",
     readMore: "Read more",
     faqTitle: "Frequently asked questions",

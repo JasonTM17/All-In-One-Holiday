@@ -79,6 +79,7 @@ export const vi: Messages = {
     gifts: "Gợi ý quà tặng",
     images: "Hình ảnh",
     related: "Khám phá thêm",
+    toc: "Mục lục trang",
     storyEyebrow: "Câu chuyện",
     readMore: "Đọc thêm",
     faqTitle: "Câu hỏi thường gặp",
