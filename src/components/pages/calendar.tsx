@@ -5,6 +5,7 @@ import { getStrings, localePath, type Locale } from "@/i18n";
 import { holidaysOf } from "@/i18n/data";
 import { siteUrl } from "@/lib/site";
 import { languageAlternates } from "@/lib/metadata";
+import { toolBreadcrumbJsonLd } from "@/lib/jsonld";
 
 export function calendarMetadata(locale: Locale): Metadata {
   const t = getStrings(locale);
@@ -26,8 +27,14 @@ export function calendarMetadata(locale: Locale): Metadata {
 export default function CalendarPage({ locale }: { locale: Locale }) {
   const t = getStrings(locale);
   const holidays = holidaysOf(locale);
+  const jsonLd = toolBreadcrumbJsonLd(locale, "/lich/", t.calendar.h1, t.footer.home);
   return (
-    <section className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <section className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
       <p className="eyebrow text-[var(--color-brand)]">{t.calendar.eyebrow}</p>
       <h1 className="mt-3 font-display text-[clamp(2rem,4vw,3rem)] font-extrabold text-[var(--color-ink)]">
         {t.calendar.h1}
@@ -48,5 +55,6 @@ export default function CalendarPage({ locale }: { locale: Locale }) {
         />
       </div>
     </section>
+    </>
   );
 }

@@ -6,6 +6,7 @@ import { HERO_LQIP } from "@/data/hero-lqip";
 import { getStrings, localePath, type Locale } from "@/i18n";
 import { siteUrl } from "@/lib/site";
 import { languageAlternates } from "@/lib/metadata";
+import { toolBreadcrumbJsonLd } from "@/lib/jsonld";
 
 export function birthdayMetadata(locale: Locale): Metadata {
   const t = getStrings(locale);
@@ -27,8 +28,14 @@ export function birthdayMetadata(locale: Locale): Metadata {
 
 export default function BirthdayPage({ locale }: { locale: Locale }) {
   const t = getStrings(locale);
+  const jsonLd = toolBreadcrumbJsonLd(locale, "/birthday/", t.birthday.h1, t.footer.home);
   return (
-    <section className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <section className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
       <div className="mx-auto mb-10 max-w-xl text-center">
         <h1 className="font-display text-3xl font-extrabold text-[var(--color-ink)] sm:text-4xl">
           {t.birthday.h1}
@@ -47,5 +54,6 @@ export default function BirthdayPage({ locale }: { locale: Locale }) {
         </Suspense>
       </div>
     </section>
+    </>
   );
 }

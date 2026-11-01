@@ -6,6 +6,7 @@ import { getStrings, localePath, type Locale } from "@/i18n";
 import { holidaysOf } from "@/i18n/data";
 import { siteUrl } from "@/lib/site";
 import { languageAlternates } from "@/lib/metadata";
+import { toolBreadcrumbJsonLd } from "@/lib/jsonld";
 
 export function creditsMetadata(locale: Locale): Metadata {
   const t = getStrings(locale);
@@ -37,8 +38,14 @@ export default function CreditsPage({ locale }: { locale: Locale }) {
   ]);
   const entries = Object.entries(imageCredits);
   const LINKLESS = new Set(Object.keys(NAME));
+  const jsonLd = toolBreadcrumbJsonLd(locale, "/credits/", t.credits.h1, t.footer.home);
   return (
-    <main className="mx-auto max-w-5xl px-4 py-16 sm:px-6">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <main className="mx-auto max-w-5xl px-4 py-16 sm:px-6">
       <p className="eyebrow text-[var(--color-brand)]">{t.credits.eyebrow}</p>
       <h1 className="mt-3 font-display text-4xl font-extrabold text-[var(--color-ink)]">
         {t.credits.h1}
@@ -89,5 +96,6 @@ export default function CreditsPage({ locale }: { locale: Locale }) {
         ))}
       </div>
     </main>
+    </>
   );
 }

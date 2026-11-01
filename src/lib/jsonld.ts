@@ -76,6 +76,42 @@ export function holidayJsonLd(h: Holiday, eventYear: number, locale: Locale = "v
   };
 }
 
+/**
+ * Home → tool page breadcrumb for non-holiday routes (/lich/, /credits/…).
+ * `path` is the locale-neutral route including trailing slash.
+ */
+export function toolBreadcrumbJsonLd(
+  locale: Locale,
+  path: string,
+  name: string,
+  homeLabel = "Trang chủ",
+) {
+  const prefix = localePrefix(locale);
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${siteUrl()}${prefix}${path}#breadcrumb`,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: homeLabel,
+            item: `${siteUrl()}${prefix}/`,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name,
+            item: `${siteUrl()}${prefix}${path}`,
+          },
+        ],
+      },
+    ],
+  };
+}
+
 /** WebSite + CollectionPage (with the full holiday ItemList) for a home page. */
 export function homeJsonLd(locale: Locale = "vi") {
   const base = siteUrl();

@@ -7,6 +7,7 @@ import {
   faqJsonLd,
   holidayJsonLd,
   homeJsonLd,
+  toolBreadcrumbJsonLd,
 } from "./jsonld";
 
 const y = new Date().getFullYear();
@@ -60,6 +61,34 @@ describe("holiday JSON-LD", () => {
         position: 2,
         name: h.name,
         item: `${siteUrl()}/${h.slug}/`,
+      });
+    }
+  });
+});
+
+describe("tool breadcrumb JSON-LD", () => {
+  it("links home → tool page with correct positions in both locales", () => {
+    for (const [locale, prefix, homeLabel] of [
+      ["vi", "", "Trang chủ"],
+      ["en", "/en", "Home"],
+    ] as const) {
+      const parsed = JSON.parse(
+        JSON.stringify(
+          toolBreadcrumbJsonLd(locale, "/lich/", "Lịch ngày lễ", homeLabel),
+        ),
+      );
+      const [b] = parsed["@graph"];
+      expect(b["@type"]).toBe("BreadcrumbList");
+      expect(b.itemListElement).toHaveLength(2);
+      expect(b.itemListElement[0]).toMatchObject({
+        position: 1,
+        name: homeLabel,
+        item: `${siteUrl()}${prefix}/`,
+      });
+      expect(b.itemListElement[1]).toMatchObject({
+        position: 2,
+        name: "Lịch ngày lễ",
+        item: `${siteUrl()}${prefix}/lich/`,
       });
     }
   });

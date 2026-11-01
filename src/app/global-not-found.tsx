@@ -1,12 +1,22 @@
 // Root-level 404 for URLs outside both locale route groups (e.g. /foo/).
 // Renders its own <html>/<body> — required by Next when multiple root
 // layouts exist (experimental.globalNotFound). Defaults to Vietnamese.
+import type { Metadata } from "next";
 import { Be_Vietnam_Pro, Playfair_Display } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
 import HImg from "@/components/HImg";
 import { getStrings } from "@/i18n";
 import { holidaysOf } from "@/i18n/data";
+import { siteUrl } from "@/lib/site";
+
+// This page sits outside the locale layouts, so it must carry its own
+// metadata (title, noindex — a 404 should never be indexed).
+export const metadata: Metadata = {
+  metadataBase: new URL(`${siteUrl()}/`),
+  title: "Không tìm thấy trang | Ngày Lễ Việt",
+  robots: { index: false, follow: false },
+};
 
 const display = Playfair_Display({
   subsets: ["latin", "vietnamese"],

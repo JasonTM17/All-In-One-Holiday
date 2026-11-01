@@ -6,6 +6,7 @@ import { getStrings, localePath, type Locale } from "@/i18n";
 import { holidaysOf } from "@/i18n/data";
 import { siteUrl } from "@/lib/site";
 import { languageAlternates } from "@/lib/metadata";
+import { toolBreadcrumbJsonLd } from "@/lib/jsonld";
 
 export function cardMetadata(locale: Locale): Metadata {
   const t = getStrings(locale);
@@ -27,8 +28,14 @@ export function cardMetadata(locale: Locale): Metadata {
 export default function CardPage({ locale }: { locale: Locale }) {
   const t = getStrings(locale);
   const holidays = holidaysOf(locale);
+  const jsonLd = toolBreadcrumbJsonLd(locale, "/thiep/", t.thiep.h1, t.footer.home);
   return (
-    <section className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <section className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
       <p className="eyebrow text-[var(--color-brand)]">{t.thiep.eyebrow}</p>
       <h1 className="mt-3 font-display text-[clamp(2rem,4vw,3rem)] font-extrabold text-[var(--color-ink)]">
         {t.thiep.h1}
@@ -51,5 +58,6 @@ export default function CardPage({ locale }: { locale: Locale }) {
         </Suspense>
       </div>
     </section>
+    </>
   );
 }

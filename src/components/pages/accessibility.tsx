@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { getStrings, localePath, type Locale } from "@/i18n";
 import { siteUrl } from "@/lib/site";
 import { languageAlternates } from "@/lib/metadata";
+import { toolBreadcrumbJsonLd } from "@/lib/jsonld";
 
 const ISSUES_URL = "https://github.com/JasonTM17/All-In-One-Holiday/issues";
 
@@ -26,8 +27,14 @@ export function accessibilityMetadata(locale: Locale): Metadata {
 
 export default function AccessibilityPage({ locale }: { locale: Locale }) {
   const t = getStrings(locale);
+  const jsonLd = toolBreadcrumbJsonLd(locale, "/accessibility/", t.a11y.h1, t.footer.home);
   return (
-    <main className="mx-auto max-w-3xl px-4 py-16 sm:px-6">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <main className="mx-auto max-w-3xl px-4 py-16 sm:px-6">
       <p className="eyebrow text-[var(--color-brand)]">{t.a11y.eyebrow}</p>
       <h1 className="mt-3 font-display text-4xl font-extrabold text-[var(--color-ink)]">
         {t.a11y.h1}
@@ -104,5 +111,6 @@ export default function AccessibilityPage({ locale }: { locale: Locale }) {
         </p>
       </section>
     </main>
+    </>
   );
 }
