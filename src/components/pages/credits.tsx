@@ -1,5 +1,6 @@
 // Shared /credits image-attribution page (vi at /credits/, en at /en/credits/).
 import type { Metadata } from "next";
+import Link from "next/link";
 import { imageCredits } from "@/data/image-credits";
 import { getStrings, localePath, type Locale } from "@/i18n";
 import { holidaysOf } from "@/i18n/data";
@@ -35,6 +36,7 @@ export default function CreditsPage({ locale }: { locale: Locale }) {
     ...Object.entries(NAME),
   ]);
   const entries = Object.entries(imageCredits);
+  const LINKLESS = new Set(Object.keys(NAME));
   return (
     <main className="mx-auto max-w-5xl px-4 py-16 sm:px-6">
       <p className="eyebrow text-[var(--color-brand)]">{t.credits.eyebrow}</p>
@@ -51,7 +53,17 @@ export default function CreditsPage({ locale }: { locale: Locale }) {
               id={`cr-${slug}`}
               className="font-display text-lg font-bold text-[var(--color-ink)]"
             >
-              {NAME_OF.get(slug) ?? slug}
+              {LINKLESS.has(slug) ? (
+                (NAME_OF.get(slug) ?? slug)
+              ) : (
+                <Link
+                  prefetch={false}
+                  href={localePath(locale, `/${slug}/`)}
+                  className="u-link hover:text-[var(--color-brand-deep)]"
+                >
+                  {NAME_OF.get(slug) ?? slug}
+                </Link>
+              )}
             </h2>
             <ul className="mt-3 grid gap-2 sm:grid-cols-2">
               {list.map((c) => (

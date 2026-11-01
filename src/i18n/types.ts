@@ -20,6 +20,7 @@ export interface Messages {
     skipToContent: string;
     notFoundTitle: string;
     notFoundBack: string;
+    notFoundSuggest: string;
   };
   /** Sticky header navigation + controls. */
   nav: {

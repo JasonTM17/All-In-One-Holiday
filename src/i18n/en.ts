@@ -10,6 +10,7 @@ export const en: Messages = {
     skipToContent: "Skip to content",
     notFoundTitle: "Page not found",
     notFoundBack: "Back to home",
+    notFoundSuggest: "You might be looking for",
   },
   nav: {
     ariaMain: "Main navigation",

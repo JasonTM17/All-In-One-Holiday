@@ -10,6 +10,7 @@ export const vi: Messages = {
     skipToContent: "Bỏ qua đến nội dung",
     notFoundTitle: "Không tìm thấy trang",
     notFoundBack: "Về trang chủ",
+    notFoundSuggest: "Có thể bạn đang tìm",
   },
   nav: {
     ariaMain: "Điều hướng chính",

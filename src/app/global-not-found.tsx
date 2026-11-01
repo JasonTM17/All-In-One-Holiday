@@ -4,7 +4,9 @@
 import { Be_Vietnam_Pro, Playfair_Display } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
+import HImg from "@/components/HImg";
 import { getStrings } from "@/i18n";
+import { holidaysOf } from "@/i18n/data";
 
 const display = Playfair_Display({
   subsets: ["latin", "vietnamese"],
@@ -22,8 +24,20 @@ const sans = Be_Vietnam_Pro({
   preload: false,
 });
 
+const SUGGESTED = [
+  "tet-nguyen-dan",
+  "quoc-te-phu-nu",
+  "phu-nu-viet-nam",
+  "trung-thu",
+  "quoc-khanh",
+  "vu-lan",
+];
+
 export default function GlobalNotFound() {
   const t = getStrings("vi");
+  const suggested = SUGGESTED.map((s) =>
+    holidaysOf("vi").find((h) => h.slug === s),
+  ).filter((h) => h !== undefined);
   return (
     <html lang="vi" className={`${display.variable} ${sans.variable}`}>
       <body>
@@ -38,6 +52,33 @@ export default function GlobalNotFound() {
           >
             {t.meta.notFoundBack}
           </Link>
+          <div className="mt-14 w-full max-w-3xl">
+            <p className="eyebrow text-[var(--color-faint)]">{t.meta.notFoundSuggest}</p>
+            <ul className="mt-5 grid grid-cols-2 gap-3 text-left sm:grid-cols-3">
+              {suggested.map((h) => (
+                <li key={h.slug}>
+                  <Link
+                    prefetch={false}
+                    href={`/${h.slug}/`}
+                    className="card group block overflow-hidden transition hover:-translate-y-0.5 hover:shadow-lg"
+                  >
+                    <HImg
+                      src={`${h.slug}/card.webp`}
+                      thumb={{ slug: h.slug, base: "card" }}
+                      sizes="(min-width: 672px) 33vw, 50vw"
+                      alt=""
+                      width={960}
+                      height={540}
+                      className="aspect-[16/9] w-full object-cover"
+                    />
+                    <span className="block px-3 py-2.5 text-sm font-bold text-[var(--color-ink)] transition-colors group-hover:text-[var(--color-brand-deep)]">
+                      {h.name}
+                    </span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
         </section>
       </body>
     </html>
