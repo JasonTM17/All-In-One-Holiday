@@ -82,6 +82,18 @@ export default function RuleCountdown({
           </div>
         ))}
       </div>
+      <p
+        className={`mt-3 text-sm ${
+          dark ? "text-[var(--color-ink)]/75" : "text-white/80"
+        }`}
+      >
+        {new Intl.DateTimeFormat(locale === "vi" ? "vi-VN" : "en-US", {
+          weekday: "long",
+          day: "numeric",
+          month: "long",
+          year: "numeric",
+        }).format(target)}
+      </p>
       <p className="sr-only" role="timer">
         {t.countdown.srLeft(values[0], values[1])}
       </p>

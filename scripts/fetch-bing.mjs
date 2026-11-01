@@ -13,13 +13,16 @@ const UA = {
 };
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-// Round 12: amThuc stems for the new ngay-tho page + two
-// wrong-subject amThuc images (mango sticky rice, songpyeon).
+// Round 13: last flagged weak slots — nguoi-cao-tuoi galleries
+// and the SEA sepak takraw on the sports page.
 const FIX = {
-  "ngay-tho-viet-nam/amthuc-banh-troi": ["bánh trôi nước việt nam", "chè trôi nước", "banh troi nuoc"],
-  "ngay-tho-viet-nam/amthuc-banh-com": ["bánh cốm hà nội", "banh com vietnam green rice", "cốm xanh hà nội"],
-  "tet-nguyen-tieu/amthuc-xoi-che": ["xôi chè việt nam", "chè xôi nước nguyên tiêu", "xoi che vietnam dessert"],
-  "tet-han-thuc/amthuc-banh-troi": ["bánh trôi tết hàn thực", "bánh trôi nước ngũ sắc", "banh troi vietnam"],
+  "nguoi-cao-tuoi/gallery3": ["mừng thọ việt nam lễ thượng thọ", "chúc thọ cụ ông việt nam", "mừng thọ ông bà việt nam"],
+  "nguoi-cao-tuoi/gallery4": ["người già việt nam đọc báo chơi cờ", "cụ già việt nam vui chơi", "người cao tuổi sinh hoạt việt nam"],
+  "ngay-the-thao-viet-nam/gallery5": ["vovinam võ việt nam thi đấu", "vovinam vietnam martial art", "võ cổ truyền việt nam"],
+  // live-QA: wrong-subject picks on the new doan page.
+  "ngay-doan-thanh-nien/gallery2": ["sinh viên tình nguyện việt nam áo xanh", "mùa hè xanh việt nam", "đoàn viên tình nguyện việt nam"],
+  "ngay-doan-thanh-nien/gallery4": ["lễ kết nạp đoàn viên việt nam", "chào cờ đoàn viên", "sinh hoạt đoàn thanh niên việt nam"],
+  "ngay-doan-thanh-nien/gallery5": ["tượng đài lý tự trọng việt nam", "lý tự trọng công viên", "tượng đài thanh niên việt nam"],
 };
 
 mkdirSync(STAGE, { recursive: true });

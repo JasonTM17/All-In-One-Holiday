@@ -2325,21 +2325,21 @@ export const imageCredits: Record<string, ImageCredit[]> = {
     },
     {
       "file": "nguoi-cao-tuoi/gallery3.webp",
+      "photographer": "thuocdantoc.vn",
+      "profile": "https://thuocdantoc.vn/thuoc-dan-toc-chao-mung-ngay-thay-thuoc-viet-nam-27-2.html",
+      "photo": "https://thuocdantoc.vn/thuoc-dan-toc-chao-mung-ngay-thay-thuoc-viet-nam-27-2.html",
+      "license": "CC (xem nguồn)",
+      "source": "Web (thuocdantoc.vn)",
+      "alt": "Thuốc Dân Tộc - Chào Mừng Ngày Thầy Thuốc Việt Nam 27/2"
+    },
+    {
+      "file": "nguoi-cao-tuoi/gallery4.webp",
       "photographer": "flickr.com",
       "profile": "https://www.flickr.com/photos/adam_jones/3774732042/",
       "photo": "https://www.flickr.com/photos/adam_jones/3774732042/",
       "license": "CC (xem nguồn)",
       "source": "Web (flickr.com)",
       "alt": "Hanoi - Vietnam - Old and Young | Adam Jones | Flickr"
-    },
-    {
-      "file": "nguoi-cao-tuoi/gallery4.webp",
-      "photographer": "flickr.com",
-      "profile": "https://www.flickr.com/photos/evilmutent/14373309286/",
-      "photo": "https://www.flickr.com/photos/evilmutent/14373309286/",
-      "license": "CC (xem nguồn)",
-      "source": "Web (flickr.com)",
-      "alt": "Elderly couple walk together | Was behind this elderly coupl… | Flickr"
     }
   ],
   "doanh-nhan": [
@@ -3212,15 +3212,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Hanoi, Vietnam | Volunteers of 350.org Hanoi joined the Clim… | Flickr"
     },
     {
-      "file": "ngay-doan-thanh-nien/gallery2.webp",
-      "photographer": "flickr.com",
-      "profile": "https://www.flickr.com/photos/melissawall/6157174812",
-      "photo": "https://www.flickr.com/photos/melissawall/6157174812",
-      "license": "CC (xem nguồn)",
-      "source": "Web (flickr.com)",
-      "alt": "Community Garden Work Day | The Coalition for a Green Glenda… | Flickr"
-    },
-    {
       "file": "ngay-doan-thanh-nien/gallery3.webp",
       "photographer": "nadigmadhavi.blogspot.com",
       "profile": "https://nadigmadhavi.blogspot.com/",
@@ -3230,31 +3221,40 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Expressions"
     },
     {
-      "file": "ngay-doan-thanh-nien/gallery4.webp",
-      "photographer": "peoplesdispatch.org",
-      "profile": "https://peoplesdispatch.org/2023/03/23/belarusians-pay-tribute-to-victims-of-khatyn-massacre-on-its-80th-anniversary/",
-      "photo": "https://peoplesdispatch.org/2023/03/23/belarusians-pay-tribute-to-victims-of-khatyn-massacre-on-its-80th-anniversary/",
+      "file": "ngay-doan-thanh-nien/gallery2.webp",
+      "photographer": "thuocdantoc.vn",
+      "profile": "https://thuocdantoc.vn/thuoc-dan-toc-to-chuc-thanh-cong-chuong-trinh-thien-nguyen-them-niem-vui-cho-em.html",
+      "photo": "https://thuocdantoc.vn/thuoc-dan-toc-to-chuc-thanh-cong-chuong-trinh-thien-nguyen-them-niem-vui-cho-em.html",
       "license": "CC (xem nguồn)",
-      "source": "Web (peoplesdispatch.org)",
-      "alt": "Belarusians pay tribute to victims of Khatyn massacre on its 80th ..."
+      "source": "Web (thuocdantoc.vn)",
+      "alt": "Thuốc dân tộc tổ chức thành công chương trình thiện nguyện “Thêm niềm ..."
+    },
+    {
+      "file": "ngay-doan-thanh-nien/gallery4.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/unwomenasiapacific/6853233720/",
+      "photo": "https://www.flickr.com/photos/unwomenasiapacific/6853233720/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "D70_9851 | UNiTE Gender Based- Violence painting contest Con… | Flickr"
     },
     {
       "file": "ngay-doan-thanh-nien/gallery5.webp",
-      "photographer": "diendan.org",
-      "profile": "https://www.diendan.org/phe-binh-nghien-cuu/dau-an-sai-gon-tram-nam-con-mat",
-      "photo": "https://www.diendan.org/phe-binh-nghien-cuu/dau-an-sai-gon-tram-nam-con-mat",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/hmoong/14827683602/",
+      "photo": "https://www.flickr.com/photos/hmoong/14827683602/",
       "license": "CC (xem nguồn)",
-      "source": "Web (diendan.org)",
-      "alt": "Dấu ấn Sài Gòn - trăm năm còn, mất — Diễn Đàn Forum"
+      "source": "Web (flickr.com)",
+      "alt": "Lý Thường Kiệt - Lý Tự Trọng, Vũng Tàu năm 1968. Ảnh gốc c… | Flickr"
     },
     {
       "file": "ngay-doan-thanh-nien/gallery6.webp",
-      "photographer": "ruvival.de",
-      "profile": "https://www.ruvival.de/ur/beach-house/",
-      "photo": "https://www.ruvival.de/ur/beach-house/",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/ugvf/53140371381",
+      "photo": "https://www.flickr.com/photos/ugvf/53140371381",
       "license": "CC (xem nguồn)",
-      "source": "Web (ruvival.de)",
-      "alt": "ساحلی گھر - RUVIVAL"
+      "source": "Web (flickr.com)",
+      "alt": "Trại hè-KDT tuần1 | Camping de Val de Landrouet, Merdrignac … | Flickr"
     }
   ],
   "ngay-tho-viet-nam": [
@@ -3369,15 +3369,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Pastas/Noodles"
     },
     {
-      "file": "quoc-te-nam-gioi/card.webp",
-      "photographer": "flickr.com",
-      "profile": "https://www.flickr.com/photos/35652152@N07/36932261851/",
-      "photo": "https://www.flickr.com/photos/35652152@N07/36932261851/",
-      "license": "CC (xem nguồn)",
-      "source": "Web (flickr.com)",
-      "alt": "Clasped | Hand in hand in the light. | Chris Richmond | Flickr"
-    },
-    {
       "file": "quoc-te-nam-gioi/gallery1.webp",
       "photographer": "movielandgroup.blogspot.com",
       "profile": "https://movielandgroup.blogspot.com/2017/01/danci-bira-wo-de-fu-qin-mu-qin-put-kuci.html",
@@ -3430,6 +3421,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC (xem nguồn)",
       "source": "Web (diendan.org)",
       "alt": "Nhớ Phùng Thăng — Diễn Đàn Forum"
+    },
+    {
+      "file": "quoc-te-nam-gioi/card.webp",
+      "photographer": "littlehandsblw.com",
+      "profile": "https://www.littlehandsblw.com/2021/02/ti-einai-ta-almata-anaptiksis/",
+      "photo": "https://www.littlehandsblw.com/2021/02/ti-einai-ta-almata-anaptiksis/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (littlehandsblw.com)",
+      "alt": "Τα άλματα ανάπτυξης - Little Hands BLW αναπτυξιακά άλματα"
     }
   ]
 };
