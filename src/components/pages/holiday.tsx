@@ -1,4 +1,5 @@
 // Shared holiday detail page — rendered by /<slug>/ (vi) and /en/<slug>/ (en).
+import type { CSSProperties } from "react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -58,6 +59,26 @@ function heroBackground(from: string, to: string): string {
   ].join(", ");
 }
 
+// Hero bottom edge — a different silhouette per hero style so pages don't
+// share the same wave curve.
+const HERO_WAVES: Record<string, string> = {
+  classic: "M0 60V25c200 28 400 35 600 18S1000 5 1200 30v30z",
+  split: "M0 60V34c150-14 300-22 450-10s300 18 450 10 300-8 300 0v26z",
+  framed: "M0 60V38c100-18 200-6 300-6s200 18 300 12 300-24 400-14 200 12 200 18v12z",
+  poster: "M0 60V20l150 18 150-14 150 20 150-16 150 18 150-14 150 16 150-12v22z",
+  mosaic: "M0 60V30c240-20 420 20 600 8s360-28 600 2v20z",
+  banner: "M0 60V44h1200v16z",
+};
+
+const GALLERY_LAYOUTS = ["masonry", "bento", "strip"] as const;
+type GalleryLayout = (typeof GALLERY_LAYOUTS)[number];
+
+function slugHash(s: string): number {
+  let n = 0;
+  for (let i = 0; i < s.length; i++) n = (n * 31 + s.charCodeAt(i)) >>> 0;
+  return n;
+}
+
 export default function HolidayPage({
   slug,
   locale,
@@ -77,6 +98,11 @@ export default function HolidayPage({
   const next = holidays[(idx + 1) % holidays.length];
   const eventYear = new Date().getFullYear();
   const hero = h.heroStyle ?? "classic";
+  // First category drives the page skin (card radius + heading glyph);
+  // gallery layout varies by slug so adjacent pages rarely match.
+  const skin = h.categories[0] ?? "quoc-te";
+  const galleryLayout: GalleryLayout =
+    GALLERY_LAYOUTS[slugHash(h.slug) % GALLERY_LAYOUTS.length];
 
   const jsonLd = holidayJsonLd(h, eventYear, locale, t.footer.home);
 
@@ -89,6 +115,11 @@ export default function HolidayPage({
       {/* One hydration root owns every scroll-reveal below (`data-rv` markers)
           instead of a client component per section. */}
       <Reveals>
+      <div
+        data-skin={skin}
+        className="contents"
+        style={{ "--skin-accent": h.theme.to } as CSSProperties}
+      >
       {/* ---------- Hero ---------- */}
       <section
         className="holiday-hero relative overflow-hidden text-white"
@@ -105,13 +136,20 @@ export default function HolidayPage({
           eager
           decoding="sync"
           className={`absolute inset-0 h-full w-full object-cover print:hidden ${
-            hero === "poster" || hero === "split" ? "opacity-30" : "opacity-45"
+            hero === "banner"
+              ? "opacity-60"
+              : hero === "poster" || hero === "split" || hero === "mosaic"
+                ? "opacity-30"
+                : "opacity-45"
           }`}
         />
         <div
           className="absolute inset-0"
           style={{
-            background: `linear-gradient(105deg, ${h.theme.from}F2 25%, ${h.theme.from}99 55%, ${h.theme.to}66)`,
+            background:
+              hero === "banner"
+                ? `linear-gradient(180deg, ${h.theme.from}55 0%, ${h.theme.from}d9 70%, ${h.theme.from}f2 100%)`
+                : `linear-gradient(105deg, ${h.theme.from}F2 25%, ${h.theme.from}99 55%, ${h.theme.to}66)`,
           }}
           aria-hidden="true"
         />
@@ -192,6 +230,32 @@ export default function HolidayPage({
                 />
               </div>
             )}
+            {hero === "mosaic" && (
+              <div className="mb-5 hidden grid-cols-2 gap-3 lg:grid print:hidden">
+                <div className="rotate-1 overflow-hidden rounded-2xl border border-white/30 shadow-2xl">
+                  <HImg
+                    src={`${h.slug}/card.webp`}
+                    thumb={{ slug: h.slug, base: "card" }}
+                    alt=""
+                    width={960}
+                    height={720}
+                    sizes="(min-width: 1024px) 15vw, 0px"
+                    className="aspect-[3/4] h-full w-full object-cover"
+                  />
+                </div>
+                <div className="-rotate-1 overflow-hidden rounded-2xl border border-white/30 shadow-2xl self-end">
+                  <HImg
+                    src={`${h.slug}/gallery1.webp`}
+                    thumb={{ slug: h.slug, base: "gallery1" }}
+                    alt=""
+                    width={960}
+                    height={720}
+                    sizes="(min-width: 1024px) 15vw, 0px"
+                    className="aspect-[3/4] h-full w-full object-cover"
+                  />
+                </div>
+              </div>
+            )}
             <div className="glass rounded-2xl p-6 shadow-2xl sm:p-7">
               <p className="eyebrow text-white/75">{t.holiday.countdown}</p>
               <div className="mt-4">
@@ -217,7 +281,7 @@ export default function HolidayPage({
           viewBox="0 0 1200 60"
           preserveAspectRatio="none"
         >
-          <path d="M0 60V25c200 28 400 35 600 18S1000 5 1200 30v30z" fill="currentColor" />
+          <path d={HERO_WAVES[hero] ?? HERO_WAVES.classic} fill="currentColor" />
         </svg>
       </section>
 
@@ -227,7 +291,7 @@ export default function HolidayPage({
           <section aria-labelledby="nguon-goc">
             <h2
               id="nguon-goc"
-              className="font-display text-3xl font-extrabold text-[var(--color-ink)]"
+              className="sec-h2 font-display text-3xl font-extrabold text-[var(--color-ink)]"
             >
               {t.holiday.origin}
             </h2>
@@ -282,11 +346,11 @@ export default function HolidayPage({
                 </p>
                 <h2
                   id={`sig-${h.slug}-${i}`}
-                  className="mt-2 font-display text-3xl font-extrabold text-[var(--color-ink)]"
+                  className="mt-2 sec-h2 font-display text-3xl font-extrabold text-[var(--color-ink)]"
                 >
                   {s.title}
                 </h2>
-                <ol className="mt-8 space-y-6">
+                <ol className="steps-ribbon mt-8 space-y-6">
                   {s.steps.map((st, j) => (
                     <li key={st.title} className="flex gap-4">
                       <span
@@ -328,7 +392,7 @@ export default function HolidayPage({
                 </p>
                 <h2
                   id={`sig-${h.slug}-${i}`}
-                  className="mt-2 font-display text-3xl font-extrabold text-[var(--color-ink)]"
+                  className="mt-2 sec-h2 font-display text-3xl font-extrabold text-[var(--color-ink)]"
                 >
                   {s.title}
                 </h2>
@@ -359,7 +423,7 @@ export default function HolidayPage({
                 </p>
                 <h2
                   id={`sig-${h.slug}-${i}`}
-                  className="mt-2 font-display text-3xl font-extrabold text-[var(--color-ink)]"
+                  className="mt-2 sec-h2 font-display text-3xl font-extrabold text-[var(--color-ink)]"
                 >
                   {s.title}
                 </h2>
@@ -392,7 +456,7 @@ export default function HolidayPage({
             {s.kind === "legend" && (
               <section
                 aria-labelledby={`sig-${h.slug}-${i}`}
-                className="relative overflow-hidden rounded-2xl border border-[var(--color-line)] bg-[var(--color-card)] p-6 sm:p-9"
+                className="legend-drop relative overflow-hidden rounded-2xl border border-[var(--color-line)] bg-[var(--color-card)] p-6 sm:p-9"
               >
                 <div
                   aria-hidden="true"
@@ -411,11 +475,11 @@ export default function HolidayPage({
                   </p>
                   <h2
                     id={`sig-${h.slug}-${i}`}
-                    className="mt-2 font-display text-3xl font-extrabold text-[var(--color-ink)]"
+                    className="mt-2 sec-h2 font-display text-3xl font-extrabold text-[var(--color-ink)]"
                   >
                     {s.title}
                   </h2>
-                  <p className="mt-4 max-w-2xl font-display text-lg font-semibold leading-relaxed text-[var(--color-ink)]">
+                  <p className="legend-lead mt-4 max-w-2xl font-display text-lg font-semibold leading-relaxed text-[var(--color-ink)]">
                     {s.lead}
                   </p>
                   {s.paragraphs.map((p) => (
@@ -438,7 +502,7 @@ export default function HolidayPage({
             <section aria-labelledby={`quotes-${h.slug}`}>
               <h2
                 id={`quotes-${h.slug}`}
-                className="font-display text-3xl font-extrabold text-[var(--color-ink)]"
+                className="sec-h2 font-display text-3xl font-extrabold text-[var(--color-ink)]"
               >
                 {t.holiday.quoteTitle}
               </h2>
@@ -495,7 +559,7 @@ export default function HolidayPage({
         <div data-rv className="mx-auto max-w-4xl px-4 py-16 sm:px-6">
           <h2
             id="phong-tuc"
-            className="font-display text-3xl font-extrabold text-[var(--color-ink)]"
+            className="sec-h2 font-display text-3xl font-extrabold text-[var(--color-ink)]"
           >
             {t.holiday.traditions}
           </h2>
@@ -557,7 +621,7 @@ export default function HolidayPage({
               </p>
               <h2
                 id="doc-tron"
-                className="mt-2 font-display text-3xl font-extrabold text-[var(--color-ink)]"
+                className="mt-2 sec-h2 font-display text-3xl font-extrabold text-[var(--color-ink)]"
               >
                 {t.holiday.deepTitle(h.name)}
               </h2>
@@ -686,7 +750,7 @@ export default function HolidayPage({
           <div data-rv>
             <h2
               id="loi-chuc"
-              className="font-display text-3xl font-extrabold text-[var(--color-ink)]"
+              className="sec-h2 font-display text-3xl font-extrabold text-[var(--color-ink)]"
             >
               {t.holiday.wishes}
             </h2>
@@ -743,7 +807,7 @@ export default function HolidayPage({
         <div data-rv className="mx-auto max-w-4xl px-4 py-16 sm:px-6">
           <h2
             id="qua-tang"
-            className="font-display text-3xl font-extrabold text-[var(--color-ink)]"
+            className="sec-h2 font-display text-3xl font-extrabold text-[var(--color-ink)]"
           >
             {t.holiday.gifts}
           </h2>
@@ -780,12 +844,13 @@ export default function HolidayPage({
         <div data-rv className="mx-auto max-w-4xl px-4 py-16 sm:px-6">
           <h2
             id="hinh-anh"
-            className="font-display text-3xl font-extrabold text-white print:text-[var(--color-ink)]"
+            className="sec-h2 font-display text-3xl font-extrabold text-white print:text-[var(--color-ink)]"
           >
             {t.holiday.images}
           </h2>
           <GalleryGrid
             slug={h.slug}
+            layout={galleryLayout}
             items={[1, 2, 3, 4, 5, 6].map((n) => {
               const alt = t.holiday.galleryAlt(h.name, n);
               return {
@@ -815,7 +880,7 @@ export default function HolidayPage({
                 <p className="eyebrow text-[var(--color-brand)]">{t.holiday.storyEyebrow}</p>
                 <h2
                   id="cau-chuyen"
-                  className="mt-2 font-display text-3xl font-extrabold text-[var(--color-ink)]"
+                  className="mt-2 sec-h2 font-display text-3xl font-extrabold text-[var(--color-ink)]"
                 >
                   {st.story.title}
                 </h2>
@@ -854,7 +919,7 @@ export default function HolidayPage({
           <section aria-labelledby="faq">
             <h2
               id="faq"
-              className="font-display text-3xl font-extrabold text-[var(--color-ink)]"
+              className="sec-h2 font-display text-3xl font-extrabold text-[var(--color-ink)]"
             >
               {t.holiday.faqTitle}
             </h2>
@@ -904,6 +969,7 @@ export default function HolidayPage({
             </Link>
           ))}
         </nav>
+      </div>
       </div>
       </Reveals>
     </>

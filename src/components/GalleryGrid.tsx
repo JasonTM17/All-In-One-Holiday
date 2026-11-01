@@ -36,14 +36,42 @@ const ASPECTS = [
   "aspect-[4/3]",
 ];
 
+export type GalleryLayout = "masonry" | "bento" | "strip";
+
+// Per-cell sizing by layout. Masonry keeps its column-staggered look;
+// bento features the first photo large; strip leads with a wide banner.
+function cellClass(layout: GalleryLayout, i: number): string {
+  if (layout === "bento") {
+    if (i === 0) return "sm:col-span-2 sm:row-span-2 col-span-2";
+    if (i === 5) return "col-span-2";
+    return "";
+  }
+  if (layout === "strip" && i === 0) return "col-span-2 sm:col-span-3";
+  return "";
+}
+
+function imgClass(layout: GalleryLayout, i: number): string {
+  if (layout === "bento") {
+    return i === 0 ? "h-full w-full object-cover" : "aspect-[4/3] h-auto w-full object-cover";
+  }
+  if (layout === "strip") {
+    return i === 0
+      ? "aspect-[16/9] sm:aspect-[21/8] h-auto w-full object-cover"
+      : "aspect-[4/3] h-auto w-full object-cover";
+  }
+  return `${ASPECTS[i % ASPECTS.length]} h-auto w-full object-cover`;
+}
+
 export default function GalleryGrid({
   slug,
   items,
   labels,
+  layout = "masonry",
 }: {
   slug: string;
   items: GalleryItem[];
   labels: GalleryLabels;
+  layout?: GalleryLayout;
 }) {
   const [open, setOpen] = useState<number | null>(null);
   const triggerRefs = useRef<(HTMLButtonElement | null)[]>([]);
@@ -63,7 +91,13 @@ export default function GalleryGrid({
 
   return (
     <>
-      <div className="columns-2 gap-4 sm:columns-3">
+      <div
+        className={
+          layout === "masonry"
+            ? "columns-2 gap-4 sm:columns-3"
+            : "grid grid-cols-2 gap-4 sm:grid-cols-3"
+        }
+      >
         {items.map((it, i) => (
           <button
             key={it.base}
@@ -74,7 +108,9 @@ export default function GalleryGrid({
             aria-label={it.openLabel}
             aria-haspopup="dialog"
             onClick={() => setOpen(i)}
-            className="group relative mb-4 block w-full cursor-zoom-in break-inside-avoid overflow-hidden rounded-2xl shadow-lg"
+            className={`group relative cursor-zoom-in overflow-hidden rounded-2xl shadow-lg ${cellClass(layout, i)} ${
+              layout === "masonry" ? "mb-4 block w-full break-inside-avoid" : ""
+            }`}
           >
             <HImg
               src={`${slug}/${it.base}.webp`}
@@ -83,7 +119,7 @@ export default function GalleryGrid({
               alt={it.alt}
               width={960}
               height={720}
-              className={`${ASPECTS[i % ASPECTS.length]} h-auto w-full object-cover transition-transform duration-300 group-hover:scale-[1.03]`}
+              className={`${imgClass(layout, i)} transition-transform duration-300 group-hover:scale-[1.03]`}
             />
             <span
               aria-hidden="true"

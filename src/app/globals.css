@@ -119,7 +119,7 @@ p {
 .card {
   background: var(--color-card);
   border: 1px solid var(--color-line);
-  border-radius: 16px;
+  border-radius: var(--card-radius, 16px);
   box-shadow:
     0 1px 2px rgb(120 60 40 / 0.05),
     0 12px 28px -14px rgb(120 60 40 / 0.14);
@@ -383,4 +383,61 @@ button.card:hover,
     opacity: 1;
     transform: none;
   }
+}
+
+/* ---------- Category skins: each holiday page sets data-skin on its root
+   section wrapper; the skin retunes card radius + heading ornament. ---------- */
+[data-skin="quoc-gia"] {
+  --card-radius: 6px;
+}
+[data-skin="phu-nu"] {
+  --card-radius: 22px;
+}
+[data-skin="quoc-te"] {
+  --card-radius: 14px;
+}
+[data-skin="truyen-thong"] {
+  --card-radius: 12px;
+}
+/* Heading glyphs — subtle per-family signature on section titles. */
+[data-skin="quoc-gia"] .sec-h2::before {
+  content: "\2605\0020";
+  color: var(--skin-accent, var(--color-brand));
+  font-size: 0.72em;
+  vertical-align: 0.18em;
+}
+[data-skin="phu-nu"] .sec-h2::after {
+  content: "\0020\2740";
+  color: var(--skin-accent, var(--color-brand));
+  font-size: 0.72em;
+}
+[data-skin="truyen-thong"] .sec-h2::after {
+  content: "\0020\2727";
+  color: var(--skin-accent, var(--color-brand));
+  font-size: 0.72em;
+}
+
+/* ---------- Signature polish ---------- */
+/* steps: a hairline ribbon joins the numbered circles down the list. */
+.steps-ribbon li {
+  position: relative;
+}
+.steps-ribbon li:not(:last-child)::before {
+  content: "";
+  position: absolute;
+  left: 21px;
+  top: 46px;
+  bottom: -26px;
+  width: 2px;
+  background: color-mix(in srgb, var(--skin-accent, #b8a893) 32%, transparent);
+}
+/* legend: manuscript drop cap on the first paragraph. */
+.legend-drop .legend-lead::first-letter {
+  font-family: var(--font-display);
+  font-size: 3.4em;
+  font-weight: 800;
+  line-height: 0.85;
+  float: left;
+  margin: 0.08em 0.14em 0 0;
+  color: var(--skin-accent, var(--color-ink));
 }

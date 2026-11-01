@@ -107,7 +107,13 @@ export interface Quote {
  *   framed  — centered title inside a double ornament frame, hushed photo
  *   poster  — photo-dominant band, title anchored bottom-left
  */
-export type HeroStyle = "classic" | "split" | "framed" | "poster";
+export type HeroStyle =
+  | "classic"
+  | "split"
+  | "framed"
+  | "poster"
+  | "mosaic"
+  | "banner";
 
 export interface Holiday {
   slug: string;
@@ -240,7 +246,7 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "tet-nguyen-dan",
-    heroStyle: "split",
+    heroStyle: "mosaic",
     signature: [
       {
         kind: "steps",
@@ -502,7 +508,7 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "quoc-te-phu-nu",
-    heroStyle: "split",
+    heroStyle: "mosaic",
     signature: [
       {
         kind: "timeline",
@@ -590,7 +596,7 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "gio-to-hung-vuong",
-    heroStyle: "framed",
+    heroStyle: "mosaic",
     signature: [
       {
         kind: "legend",
@@ -761,7 +767,7 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "giai-phong-mien-nam",
-    heroStyle: "poster",
+    heroStyle: "banner",
     signature: [
       {
         kind: "timeline",
@@ -1306,7 +1312,7 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "quoc-khanh",
-    heroStyle: "poster",
+    heroStyle: "banner",
     signature: [
       {
         kind: "timeline",
@@ -1394,7 +1400,7 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "trung-thu",
-    heroStyle: "split",
+    heroStyle: "mosaic",
     signature: [
       {
         kind: "legend",
@@ -1488,7 +1494,7 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "phu-nu-viet-nam",
-    heroStyle: "split",
+    heroStyle: "mosaic",
     signature: [
       {
         kind: "timeline",
@@ -1641,7 +1647,7 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "quan-doi-nhan-dan",
-    heroStyle: "poster",
+    heroStyle: "banner",
     signature: [
       {
         kind: "timeline",
@@ -1718,7 +1724,7 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "giang-sinh",
-    heroStyle: "split",
+    heroStyle: "mosaic",
     signature: [
       {
         kind: "meanings",
@@ -2448,7 +2454,7 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "ngay-dien-bien-phu",
-    heroStyle: "poster",
+    heroStyle: "banner",
     signature: [
       {
         kind: "timeline",
@@ -2995,7 +3001,7 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "ngay-thuong-mai-viet-nam",
-    heroStyle: "split",
+    heroStyle: "banner",
     signature: [
       {
         kind: "timeline",

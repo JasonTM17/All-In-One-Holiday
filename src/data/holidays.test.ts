@@ -281,7 +281,14 @@ describe("holiday photos", () => {
   });
 
   it("heroStyle values come from the known set", () => {
-    const ok = new Set(["classic", "split", "framed", "poster"]);
+    const ok = new Set([
+      "classic",
+      "split",
+      "framed",
+      "poster",
+      "mosaic",
+      "banner",
+    ]);
     for (const list of [holidays, holidaysEn]) {
       for (const h of list) {
         if (h.heroStyle) {

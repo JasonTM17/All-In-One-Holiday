@@ -87,7 +87,7 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "tet-nguyen-dan",
-    heroStyle: "split",
+    heroStyle: "mosaic",
     signature: [
       {
         kind: "steps",
@@ -357,7 +357,7 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "quoc-te-phu-nu",
-    heroStyle: "split",
+    heroStyle: "mosaic",
     signature: [
       {
         kind: "timeline",
@@ -450,7 +450,7 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "gio-to-hung-vuong",
-    heroStyle: "framed",
+    heroStyle: "mosaic",
     signature: [
       {
         kind: "legend",
@@ -632,7 +632,7 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "giai-phong-mien-nam",
-    heroStyle: "poster",
+    heroStyle: "banner",
     signature: [
       {
         kind: "timeline",
@@ -1204,7 +1204,7 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "quoc-khanh",
-    heroStyle: "poster",
+    heroStyle: "banner",
     signature: [
       {
         kind: "timeline",
@@ -1302,7 +1302,7 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "trung-thu",
-    heroStyle: "split",
+    heroStyle: "mosaic",
     signature: [
       {
         kind: "legend",
@@ -1406,7 +1406,7 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "phu-nu-viet-nam",
-    heroStyle: "split",
+    heroStyle: "mosaic",
     signature: [
       {
         kind: "timeline",
@@ -1567,7 +1567,7 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "quan-doi-nhan-dan",
-    heroStyle: "poster",
+    heroStyle: "banner",
     signature: [
       {
         kind: "timeline",
@@ -1649,7 +1649,7 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "giang-sinh",
-    heroStyle: "split",
+    heroStyle: "mosaic",
     signature: [
       {
         kind: "meanings",
@@ -2406,7 +2406,7 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "ngay-dien-bien-phu",
-    heroStyle: "poster",
+    heroStyle: "banner",
     signature: [
       {
         kind: "timeline",
@@ -2973,7 +2973,7 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "ngay-thuong-mai-viet-nam",
-    heroStyle: "split",
+    heroStyle: "banner",
     signature: [
       {
         kind: "timeline",
