@@ -99,14 +99,6 @@ p {
 }
 
 /* ---------- Decorative patterns ---------- */
-.dot-pattern {
-  background-image: radial-gradient(
-    rgb(255 255 255 / 0.16) 1.5px,
-    transparent 1.5px
-  );
-  background-size: 22px 22px;
-}
-
 .dot-pattern-ink {
   background-image: radial-gradient(
     rgb(28 25 23 / 0.05) 1px,
@@ -290,7 +282,7 @@ button.card:hover,
 /* ---------- Print ---------- */
 @media print {
   /* Chrome, motion and decorative elements are screen-only. */
-  /* dot-pattern(-ink) are background-image utilities; backgrounds never
+  /* dot-pattern-ink is a background-image utility; backgrounds never
      print anyway, and hiding them would blank content sections that use
      the class as a texture (wishes section, home bands). */
   header,

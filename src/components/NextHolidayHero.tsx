@@ -78,7 +78,6 @@ export default function NextHolidayHero({
             height={1280}
             className="absolute inset-0 h-full w-full object-cover opacity-35"
           />
-          <div className="dot-pattern absolute inset-0" aria-hidden="true" />
           <Motif
             name={next.item.motif}
             className="floaty-slow pointer-events-none absolute -bottom-8 -right-8 h-44 w-44 text-white/15"

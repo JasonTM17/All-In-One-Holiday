@@ -153,7 +153,6 @@ export default function HolidayPage({
           }}
           aria-hidden="true"
         />
-        <div className="dot-pattern absolute inset-0" aria-hidden="true" />
         {/* Framed heroes get a double ornamental inset frame — a shrine-like
             window. Decoration only; AA text contrast is unchanged. */}
         {hero === "framed" && (

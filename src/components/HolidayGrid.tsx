@@ -112,10 +112,6 @@ export default function HolidayGrid({
                     height={600}
                     className="absolute inset-0 h-full w-full object-cover opacity-50 transition-opacity duration-300 group-hover:opacity-60"
                   />
-                  <div
-                    className="dot-pattern absolute inset-0"
-                    aria-hidden="true"
-                  />
                   <Motif
                     name={h.motif}
                     className="pointer-events-none absolute -right-4 -top-4 h-24 w-24 text-white/20 transition-transform duration-300 group-hover:rotate-6 group-hover:scale-110"

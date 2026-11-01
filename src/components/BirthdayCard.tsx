@@ -189,7 +189,6 @@ export default function BirthdayCard({
             eager
             className="absolute inset-0 h-full w-full object-cover opacity-30"
           />
-          <div className="dot-pattern absolute inset-0" aria-hidden="true" />
           <Motif
             name="balloon"
             className="floaty pointer-events-none absolute left-[7%] top-10 h-20 w-20 text-white/20 [--r:-10deg]"

@@ -112,7 +112,6 @@ export default function HomePage({ locale }: { locale: Locale }) {
           className="absolute inset-0 bg-gradient-to-br from-rose-950/90 via-rose-900/75 to-amber-800/55"
           aria-hidden="true"
         />
-        <div className="dot-pattern absolute inset-0" aria-hidden="true" />
         <Motif
           name="lantern"
           className="floaty-slow pointer-events-none absolute -left-8 top-10 h-40 w-40 text-white/10"
@@ -377,7 +376,6 @@ export default function HomePage({ locale }: { locale: Locale }) {
 
       {/* ---------- Birthday CTA ---------- */}
       <section className="cv-auto relative overflow-hidden bg-gradient-to-br from-rose-800 to-violet-800 text-white">
-        <div className="dot-pattern absolute inset-0" aria-hidden="true" />
         <Motif
           name="balloon"
           className="floaty pointer-events-none absolute left-[8%] top-8 h-24 w-24 text-white/15 [--r:-8deg]"
