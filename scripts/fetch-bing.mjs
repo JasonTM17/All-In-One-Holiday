@@ -13,12 +13,19 @@ const UA = {
 };
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+// Round 3: slots still foreign/off-theme after Commons+Flickr passes.
 const FIX = {
-  "trung-thu/hero": ["trung thu đèn lồng việt nam", "mid autumn festival vietnam lanterns", "phố đèn lồng trung thu", "trẻ em rước đèn trung thu", "hoi an lantern festival"],
-  "ngay-bao-chi/gallery3": ["phóng viên việt nam", "báo chí việt nam", "đọc báo buổi sáng việt nam", "vietnam journalist camera"],
-  "quoc-khanh/gallery4": ["cờ đỏ sao vàng hà nội quốc khánh", "quốc khánh 2/9 hà nội", "vietnam flag street hanoi", "ba đình quốc khánh"],
-  "tet-duong-lich/gallery6": ["pháo hoa giao thừa hà nội", "fireworks ho chi minh city new year", "pháo hoa đà nẵng", "fireworks hanoi countdown"],
-  "ngay-gia-dinh-viet-nam/hero": ["gia đình việt nam sum họp", "bữa cơm gia đình việt nam", "vietnamese family dinner together", "gia đình vui vẻ việt nam"],
+  "scenery/card": ["sapa ruộng bậc thang", "vietnam landscape terrace", "tam coc ninh binh vietnam"],
+  "scenery/hero": ["sapa vietnam mountains", "phong cảnh việt nam đẹp", "ha giang vietnam landscape"],
+  "doanh-nhan/hero": ["doanh nhân việt nam", "vietnam business people office", "saigon business district skyline"],
+  "doanh-nhan/gallery1": ["văn phòng việt nam", "vietnam office workers meeting", "bitexco saigon"],
+  "trung-thu/gallery2": ["đèn lồng trung thu phố cổ", "trung thu lồng đèn việt nam", "vietnam lantern mid autumn"],
+  "trung-thu/gallery3": ["múa lân trung thu", "trẻ em trung thu việt nam", "đêm trung thu hội an"],
+  "ngay-bao-chi/gallery5": ["tòa soạn báo việt nam", "vietnam newsroom press", "phóng viên tác nghiệp việt nam"],
+  "vu-lan/hero": ["vu lan việt nam chùa", "vietnam temple praying candles", "chùa việt nam cầu nguyện"],
+  "giang-sinh/card": ["nhà thờ giáng sinh việt nam", "vietnam church christmas", "giáng sinh hà nội nhà thờ"],
+  "tet-doan-ngo/amthuc-com-ruou": ["rượu nếp tết đoan ngọ", "cốm việt nam", "rượu nếp cẩm việt nam"],
+  "birthday/hero": ["birthday cake candles happy", "bánh sinh nhật nến đẹp", "happy birthday balloons cake"],
 };
 
 mkdirSync(STAGE, { recursive: true });

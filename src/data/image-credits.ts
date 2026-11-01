@@ -1247,15 +1247,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
   ],
   "vu-lan": [
     {
-      "file": "vu-lan/hero.webp",
-      "photographer": "Peripitus",
-      "profile": "https://commons.wikimedia.org/wiki/File:Nelumno_nucifera_open_flower_-_botanic_garden_adelaide2.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Nelumno_nucifera_open_flower_-_botanic_garden_adelaide2.jpg",
-      "license": "CC BY-SA 4.0",
-      "source": "Wikimedia Commons",
-      "alt": "flower of Nelumbo nucifera at Botanic Garden, Adelaide, South Australia."
-    },
-    {
       "file": "vu-lan/card.webp",
       "photographer": "Thachan.makan",
       "profile": "https://commons.wikimedia.org/wiki/File:Indian_lotus_flowers.jpg",
@@ -1353,6 +1344,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY 4.0",
       "source": "Wikimedia Commons",
       "alt": "Lotus flower"
+    },
+    {
+      "file": "vu-lan/hero.webp",
+      "photographer": "motogo.vn",
+      "profile": "https://motogo.vn/chua-tam-chuc/",
+      "photo": "https://motogo.vn/chua-tam-chuc/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (motogo.vn)",
+      "alt": "Chùa Tam Chúc - Thông tin đầy đủ nhất về ngôi chùa lớn nhất Việt Nam ..."
     }
   ],
   "quoc-khanh": [
@@ -1430,24 +1430,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
     }
   ],
   "trung-thu": [
-    {
-      "file": "trung-thu/gallery2.webp",
-      "photographer": "YaEeBondZ 002",
-      "profile": "https://commons.wikimedia.org/wiki/File:HK_CWB_Causeway_Bay_%E7%B6%AD%E5%9C%92_Victoria_Park_%E4%B8%AD%E7%A7%8B%E7%AF%80%E7%87%88%E5%8C%AF_Mid-autumn_Festival_Lantern_Carnival_September_2026_N13P_208.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:HK_CWB_Causeway_Bay_%E7%B6%AD%E5%9C%92_Victoria_Park_%E4%B8%AD%E7%A7%8B%E7%AF%80%E7%87%88%E5%8C%AF_Mid-autumn_Festival_Lantern_Carnival_September_2026_N13P_208.jpg",
-      "license": "CC0",
-      "source": "Wikimedia Commons",
-      "alt": "HK CWB Causeway Bay 維園 Victoria Park 中秋節燈匯 Mid-autumn Festival Lantern Carnival in September 2026"
-    },
-    {
-      "file": "trung-thu/gallery3.webp",
-      "photographer": "YaEeBondZ 002",
-      "profile": "https://commons.wikimedia.org/wiki/File:HK_CWB_Causeway_Bay_%E7%B6%AD%E5%9C%92_Victoria_Park_%E4%B8%AD%E7%A7%8B%E7%AF%80%E7%87%88%E5%8C%AF_Mid-autumn_Festival_Lantern_Carnival_September_2026_N13P_209.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:HK_CWB_Causeway_Bay_%E7%B6%AD%E5%9C%92_Victoria_Park_%E4%B8%AD%E7%A7%8B%E7%AF%80%E7%87%88%E5%8C%AF_Mid-autumn_Festival_Lantern_Carnival_September_2026_N13P_209.jpg",
-      "license": "CC0",
-      "source": "Wikimedia Commons",
-      "alt": "HK CWB Causeway Bay 維園 Victoria Park 中秋節燈匯 Mid-autumn Festival Lantern Carnival in September 2026"
-    },
     {
       "file": "trung-thu/amthuc-banh-nuong.webp",
       "photographer": "Binh Giang",
@@ -1555,18 +1537,27 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC (xem nguồn)",
       "source": "Web (lvcorner.blogspot.com)",
       "alt": "LV's Little Corner: Trung Thu - Lồng Đèn Hoa Sen Giấy :)"
+    },
+    {
+      "file": "trung-thu/gallery2.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/elrentaplats/5643063244",
+      "photo": "https://www.flickr.com/photos/elrentaplats/5643063244",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "Hoi An - Vietnam | www.rutabaobab.com | elrentaplats | Flickr"
+    },
+    {
+      "file": "trung-thu/gallery3.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/vanlaphoang1945/9307528508",
+      "photo": "https://www.flickr.com/photos/vanlaphoang1945/9307528508",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "IMG_1939 | Múa lân_2012 | VanLap Hoàng | Flickr"
     }
   ],
   "giang-sinh": [
-    {
-      "file": "giang-sinh/card.webp",
-      "photographer": "Lechhansl",
-      "profile": "https://commons.wikimedia.org/wiki/File:Rockefeller_Center_christmas_tree.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Rockefeller_Center_christmas_tree.jpg",
-      "license": "CC BY-SA 3.0",
-      "source": "Wikimedia Commons",
-      "alt": "Originally uploaded as de:File:Rockefeller_Center_Weihnachten.JPG. Rockefeller Center in New York City at Christmas time"
-    },
     {
       "file": "giang-sinh/gallery2.webp",
       "photographer": "Noah Wulf",
@@ -1665,6 +1656,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 4.0",
       "source": "Wikimedia Commons",
       "alt": "Christmas decorations in Ecopark for 2014."
+    },
+    {
+      "file": "giang-sinh/card.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/jos8ph/27995338260/",
+      "photo": "https://www.flickr.com/photos/jos8ph/27995338260/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "The \"night\" church | Walking out at night, I was setup this … | Flickr"
     }
   ],
   "home-hero": [
@@ -1717,33 +1717,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
   "birthday": [
     {
       "file": "birthday/hero.webp",
-      "photographer": "Prayitno / Thank you for (12 millions +) view from Los Angeles, USA",
-      "profile": "https://commons.wikimedia.org/wiki/File:Lady_bug_birthday_cake.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Lady_bug_birthday_cake.jpg",
-      "license": "CC BY 2.0",
-      "source": "Wikimedia Commons",
-      "alt": "Lady Bug"
+      "photographer": "commons.wikimedia.org",
+      "profile": "https://commons.wikimedia.org/wiki/File:Birthday_candles.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Birthday_candles.jpg",
+      "license": "CC (xem nguồn)",
+      "source": "Web (commons.wikimedia.org)",
+      "alt": "File:Birthday candles.jpg - Wikimedia Commons"
     }
   ],
   "scenery": [
-    {
-      "file": "scenery/hero.webp",
-      "photographer": "Łukasz Golowanow & Maciek Hypś, Konflikty.pl",
-      "profile": "https://commons.wikimedia.org/wiki/File:F-16_Solo_Display_Team_Radom_2009_b.JPG",
-      "photo": "https://commons.wikimedia.org/wiki/File:F-16_Solo_Display_Team_Radom_2009_b.JPG",
-      "license": "Attribution",
-      "source": "Wikimedia Commons",
-      "alt": "A Dutch F-16 of the Solo Display Team on the landing approach during a training flight before the Air Show 2009 in Radom"
-    },
-    {
-      "file": "scenery/card.webp",
-      "photographer": "Daniel Schwen",
-      "profile": "https://commons.wikimedia.org/wiki/File:Seattle_3.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Seattle_3.jpg",
-      "license": "CC BY-SA 4.0",
-      "source": "Wikimedia Commons",
-      "alt": "Seattle Skyline view from Queen Anne Hill. The Space Needle is visible on the left, the mountain in the background is Mo"
-    },
     {
       "file": "scenery/gallery1.webp",
       "photographer": "Steven C. Price",
@@ -1770,6 +1752,24 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 4.0",
       "source": "Wikimedia Commons",
       "alt": "Hạ Long Bay (Vietnam), World Heritage Site – Ti Top Island – panoramic view"
+    },
+    {
+      "file": "scenery/hero.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/luiscolas/14888181212/",
+      "photo": "https://www.flickr.com/photos/luiscolas/14888181212/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "El valle de Sapa / The valley of Sapa | Campos de arroz de c… | Flickr"
+    },
+    {
+      "file": "scenery/card.webp",
+      "photographer": "motogo.vn",
+      "profile": "https://motogo.vn/mu-cang-chai-3-ngay-2-dem/",
+      "photo": "https://motogo.vn/mu-cang-chai-3-ngay-2-dem/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (motogo.vn)",
+      "alt": "Kinh nghiệm du lịch Mù Cang Chải 3 ngày 2 đêm tự túc - MOTOGO"
     }
   ],
   "ong-cong-ong-tao": [
@@ -2030,15 +2030,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Boiled eggs. Boiling time from left to right: 4 minutes, 7 minutes, 9 minutes."
     },
     {
-      "file": "tet-doan-ngo/amthuc-com-ruou.webp",
-      "photographer": "Jess Lander from Los Angeles, CA, USA",
-      "profile": "https://commons.wikimedia.org/wiki/File:Comruou.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Comruou.jpg",
-      "license": "CC BY 2.0",
-      "source": "Wikimedia Commons",
-      "alt": "I think this is some sort of sweet dough....but I don't know."
-    },
-    {
       "file": "tet-doan-ngo/amthuc-banh-tro.webp",
       "photographer": "Viethavvh (thảo luận)",
       "profile": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_tro_m%E1%BA%ADt_m%C3%ADa.jpg",
@@ -2091,6 +2082,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 4.0",
       "source": "Wikimedia Commons",
       "alt": "Various food items being sacrificed for the wandering souls."
+    },
+    {
+      "file": "tet-doan-ngo/amthuc-com-ruou.webp",
+      "photographer": "vietskin.vn",
+      "profile": "https://www.vietskin.vn/benh-thuong-gap/",
+      "photo": "https://www.vietskin.vn/benh-thuong-gap/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (vietskin.vn)",
+      "alt": "Bệnh thường gặp"
     }
   ],
   "ngay-thay-thuoc": [
@@ -2196,15 +2196,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Premises of newspaper Hufvudstadsbladet in Helsinki 1927. HBL's new 64-page-rotation press."
     },
     {
-      "file": "ngay-bao-chi/gallery5.webp",
-      "photographer": "New York-air",
-      "profile": "https://commons.wikimedia.org/wiki/File:Newsroom_ARD-aktuell.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Newsroom_ARD-aktuell.jpg",
-      "license": "CC BY-SA 4.0",
-      "source": "Wikimedia Commons",
-      "alt": "Newsroom der ARD-aktuell (Tagesschau). Das Bild entstand beim Besuch des Wikimedia-Projekts Wiki Loves Broadcast (WLB) a"
-    },
-    {
       "file": "ngay-bao-chi/gallery6.webp",
       "photographer": "Matti Blume",
       "profile": "https://commons.wikimedia.org/wiki/File:Mille_Miglia_2018_press_conference,_Le_Grand-Saconnex_(1X7A9542).jpg",
@@ -2239,6 +2230,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC (xem nguồn)",
       "source": "Web (tcgd.tapchigiaoduc.edu.vn)",
       "alt": "Giải pháp giáo dục lòng yêu nước, ý thức dân tộc cho thế hệ trẻ Việt ..."
+    },
+    {
+      "file": "ngay-bao-chi/gallery5.webp",
+      "photographer": "journalistsresource.org",
+      "profile": "https://journalistsresource.org/race-and-gender/newsroom-diversity-7-studies/",
+      "photo": "https://journalistsresource.org/race-and-gender/newsroom-diversity-7-studies/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (journalistsresource.org)",
+      "alt": "Newsroom diversity: 7 studies to know on race in journalism"
     }
   ],
   "nguoi-cao-tuoi": [
@@ -2353,15 +2353,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "A panoramic view of the Sydney skyline as viewed across Sydney Harbour from Kirribilli. Taken by myself with a Canon 5D "
     },
     {
-      "file": "doanh-nhan/gallery1.webp",
-      "photographer": "Hpeterswald",
-      "profile": "https://commons.wikimedia.org/wiki/File:Sydney_City_Business_District.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Sydney_City_Business_District.jpg",
-      "license": "CC BY-SA 3.0",
-      "source": "Wikimedia Commons",
-      "alt": "Sydney City Business District"
-    },
-    {
       "file": "doanh-nhan/gallery4.webp",
       "photographer": "Richard Allaway",
       "profile": "https://commons.wikimedia.org/wiki/File:Freshwater_and_Urban_Environments_-_Port_and_shipyard_next_to_the_Central_Business_District_(CBD)_of_Ho_Chi_Minh_City,_Vietnam.jpg",
@@ -2414,6 +2405,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "Public domain",
       "source": "Wikimedia Commons",
       "alt": "Thu Thiem 2 Bridge construction"
+    },
+    {
+      "file": "doanh-nhan/gallery1.webp",
+      "photographer": "kremlin.ru",
+      "profile": "https://kremlin.ru/events/president/news/56049",
+      "photo": "https://kremlin.ru/events/president/news/56049",
+      "license": "CC (xem nguồn)",
+      "source": "Web (kremlin.ru)",
+      "alt": "Во Вьетнаме завершился саммит АТЭС • Президент России"
     }
   ],
   "tet-thanh-minh": [
