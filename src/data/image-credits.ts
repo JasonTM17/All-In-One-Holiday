@@ -2886,5 +2886,301 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "source": "Wikimedia Commons",
       "alt": "Hoan Kiem Lake, Turtle Tower, Daytime (20231223)"
     }
+  ],
+  "ngay-sach-viet-nam": [
+    {
+      "file": "ngay-sach-viet-nam/hero.webp",
+      "photographer": "pngimg.com",
+      "profile": "https://pngimg.com/download/51074",
+      "photo": "https://pngimg.com/download/51074",
+      "license": "CC (xem nguồn)",
+      "source": "Web (pngimg.com)",
+      "alt": "Book PNG"
+    },
+    {
+      "file": "ngay-sach-viet-nam/card.webp",
+      "photographer": "lairdubois.fr",
+      "profile": "https://www.lairdubois.fr/creations/2893-bibliotheque-meuble-tv-d-angle.html",
+      "photo": "https://www.lairdubois.fr/creations/2893-bibliotheque-meuble-tv-d-angle.html",
+      "license": "CC (xem nguồn)",
+      "source": "Web (lairdubois.fr)",
+      "alt": "Bibliotheque - Meuble TV - d'angle par billbaroud sur L'Air du Bois"
+    },
+    {
+      "file": "ngay-sach-viet-nam/gallery1.webp",
+      "photographer": "diendan.org",
+      "profile": "https://www.diendan.org/phe-binh-nghien-cuu/sach-moi-cua-gs-ha-van-tan-su-sinh-thanh-viet-nam",
+      "photo": "https://www.diendan.org/phe-binh-nghien-cuu/sach-moi-cua-gs-ha-van-tan-su-sinh-thanh-viet-nam",
+      "license": "CC (xem nguồn)",
+      "source": "Web (diendan.org)",
+      "alt": "Sách mới của GS Hà Văn Tấn: Sự sinh thành Việt Nam — Diễn Đàn Forum"
+    },
+    {
+      "file": "ngay-sach-viet-nam/gallery2.webp",
+      "photographer": "libringioco.blog",
+      "profile": "https://libringioco.blog/videoletture-gratis-per-bambini/",
+      "photo": "https://libringioco.blog/videoletture-gratis-per-bambini/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (libringioco.blog)",
+      "alt": "Videoletture gratis per bambini"
+    },
+    {
+      "file": "ngay-sach-viet-nam/gallery3.webp",
+      "photographer": "blog.aladin.co.kr",
+      "profile": "https://blog.aladin.co.kr/forkids24/10859246",
+      "photo": "https://blog.aladin.co.kr/forkids24/10859246",
+      "license": "CC (xem nguồn)",
+      "source": "Web (blog.aladin.co.kr)",
+      "alt": "[알라딘서재]작고 큰 여행_가벼이, 가벼이 나서야지"
+    },
+    {
+      "file": "ngay-sach-viet-nam/gallery4.webp",
+      "photographer": "3hreevoices5ivesouls.wordpress.com",
+      "profile": "https://3hreevoices5ivesouls.wordpress.com/2015/08/05/thanh-ly/",
+      "photo": "https://3hreevoices5ivesouls.wordpress.com/2015/08/05/thanh-ly/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (3hreevoices5ivesouls.wordpress.com)",
+      "alt": "Thanh lý… | C.A.T.I.E.R"
+    },
+    {
+      "file": "ngay-sach-viet-nam/gallery5.webp",
+      "photographer": "julencoir.blogspot.com",
+      "profile": "https://julencoir.blogspot.com/2020/04/",
+      "photo": "https://julencoir.blogspot.com/2020/04/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (julencoir.blogspot.com)",
+      "alt": "BLOG ESCOLAR. (D.Julen): abril 2020"
+    },
+    {
+      "file": "ngay-sach-viet-nam/gallery6.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/prachatai/49392733981",
+      "photo": "https://www.flickr.com/photos/prachatai/49392733981",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "ผ่านมาร้อยกว่าปี ทำไมการปฏิรูปกองทัพไทยจึงไม่เคยสำเร็จ | Flickr"
+    }
+  ],
+  "ngay-the-thao-viet-nam": [
+    {
+      "file": "ngay-the-thao-viet-nam/hero.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/policiacolombia/49080339272/",
+      "photo": "https://www.flickr.com/photos/policiacolombia/49080339272/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "Carrera por la Policía 10K | Policía Nacional de los colombianos | Flickr"
+    },
+    {
+      "file": "ngay-the-thao-viet-nam/card.webp",
+      "photographer": "captaintarekdreams.blogspot.com",
+      "profile": "https://captaintarekdreams.blogspot.com/2012/06/pictures-of-day-2009-part-3.html",
+      "photo": "https://captaintarekdreams.blogspot.com/2012/06/pictures-of-day-2009-part-3.html",
+      "license": "CC (xem nguồn)",
+      "source": "Web (captaintarekdreams.blogspot.com)",
+      "alt": "Soccer fans waved flags Monday in Hanoi in celebration of Vietnam’s 1-1 ..."
+    },
+    {
+      "file": "ngay-the-thao-viet-nam/gallery1.webp",
+      "photographer": "sinarharian-on9.blogspot.com",
+      "profile": "https://sinarharian-on9.blogspot.com/2014/12/layanan-fans-vietnam-yang-mengejutkan.html",
+      "photo": "https://sinarharian-on9.blogspot.com/2014/12/layanan-fans-vietnam-yang-mengejutkan.html",
+      "license": "CC (xem nguồn)",
+      "source": "Web (sinarharian-on9.blogspot.com)",
+      "alt": "Layanan Fans Vietnam Yang Mengejutkan - Info Semasa"
+    },
+    {
+      "file": "ngay-the-thao-viet-nam/gallery2.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/voxstock/18599622271",
+      "photo": "https://www.flickr.com/photos/voxstock/18599622271",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "2015 SEA Games: Sepak Takraw (Group A) Men's Team | 8 June 2… | Flickr"
+    },
+    {
+      "file": "ngay-the-thao-viet-nam/gallery3.webp",
+      "photographer": "thuocdantoc.vn",
+      "profile": "https://thuocdantoc.vn/khai-mac-dai-hoi-the-duc-the-thao-chao-mung-ngay-truyen-thong-cong-ty-cp-thuoc-dan-toc.html",
+      "photo": "https://thuocdantoc.vn/khai-mac-dai-hoi-the-duc-the-thao-chao-mung-ngay-truyen-thong-cong-ty-cp-thuoc-dan-toc.html",
+      "license": "CC (xem nguồn)",
+      "source": "Web (thuocdantoc.vn)",
+      "alt": "Khai mạc Đại hội Thể dục thể thao chào mừng ngày Truyền thống CTCP ..."
+    },
+    {
+      "file": "ngay-the-thao-viet-nam/gallery4.webp",
+      "photographer": "commons.wikimedia.org",
+      "profile": "https://commons.wikimedia.org/wiki/File:Kyrgyzstan-women_0948.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:Kyrgyzstan-women_0948.JPG",
+      "license": "CC (xem nguồn)",
+      "source": "Web (commons.wikimedia.org)",
+      "alt": "File:Kyrgyzstan-women 0948.JPG - Wikimedia Commons"
+    },
+    {
+      "file": "ngay-the-thao-viet-nam/gallery5.webp",
+      "photographer": "englishfitnesswords.blogspot.com",
+      "profile": "https://englishfitnesswords.blogspot.com/2018/01/sports-vocabulary.html",
+      "photo": "https://englishfitnesswords.blogspot.com/2018/01/sports-vocabulary.html",
+      "license": "CC (xem nguồn)",
+      "source": "Web (englishfitnesswords.blogspot.com)",
+      "alt": "WORK OUT YOUR ENGLISH: Sports vocabulary"
+    },
+    {
+      "file": "ngay-the-thao-viet-nam/gallery6.webp",
+      "photographer": "chanjeed.com",
+      "profile": "https://www.chanjeed.com/2018/chanthaburi-run-ride-1-chanthaburi/",
+      "photo": "https://www.chanjeed.com/2018/chanthaburi-run-ride-1-chanthaburi/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (chanjeed.com)",
+      "alt": "เชิญร่วมแข่งขัน วิ่งและปั่นจักรยาน “Chanthaburi Run &amp; Ride ก้าวที่ภักดี ..."
+    }
+  ],
+  "ngay-phap-luat-viet-nam": [
+    {
+      "file": "ngay-phap-luat-viet-nam/hero.webp",
+      "photographer": "kremlin.ru",
+      "profile": "https://kremlin.ru/events/president/news/19602",
+      "photo": "https://kremlin.ru/events/president/news/19602",
+      "license": "CC (xem nguồn)",
+      "source": "Web (kremlin.ru)",
+      "alt": "Официальный визит во Вьетнам • Президент России"
+    },
+    {
+      "file": "ngay-phap-luat-viet-nam/card.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/143601516@N03/27905720280",
+      "photo": "https://www.flickr.com/photos/143601516@N03/27905720280",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "Legal Gavel &amp; Open Law Book | All content posted in the Blog… | Flickr"
+    },
+    {
+      "file": "ngay-phap-luat-viet-nam/gallery1.webp",
+      "photographer": "kremlin.ru",
+      "profile": "https://kremlin.ru/events/president/news/9383",
+      "photo": "https://kremlin.ru/events/president/news/9383",
+      "license": "CC (xem nguồn)",
+      "source": "Web (kremlin.ru)",
+      "alt": "Официальный визит во Вьетнам • Президент России"
+    },
+    {
+      "file": "ngay-phap-luat-viet-nam/gallery2.webp",
+      "photographer": "commons.wikimedia.org",
+      "profile": "https://commons.wikimedia.org/wiki/File:NhaHatLon.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:NhaHatLon.JPG",
+      "license": "CC (xem nguồn)",
+      "source": "Web (commons.wikimedia.org)",
+      "alt": "File:NhaHatLon.JPG - Wikimedia Commons"
+    },
+    {
+      "file": "ngay-phap-luat-viet-nam/gallery3.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/thaigov/4054011936",
+      "photo": "https://www.flickr.com/photos/thaigov/4054011936",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "พิธีปิดการประชุมสุดยอดอาเซียน ครั้งที่ 15 และส่งมอบความเป… | Flickr"
+    },
+    {
+      "file": "ngay-phap-luat-viet-nam/gallery4.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/hermida/4659501119/",
+      "photo": "https://www.flickr.com/photos/hermida/4659501119/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "English Ruling Cases | Law books in the library at Osgoode H… | Flickr"
+    },
+    {
+      "file": "ngay-phap-luat-viet-nam/gallery5.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/j3net/6685173721",
+      "photo": "https://www.flickr.com/photos/j3net/6685173721",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "Law library books | Summary of Pennsylvania Jurisprudence 2d… | Janet ..."
+    },
+    {
+      "file": "ngay-phap-luat-viet-nam/gallery6.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/j3net/6685183193",
+      "photo": "https://www.flickr.com/photos/j3net/6685183193",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "Law library books | Code of Federal Regulations or CFR | Janet ..."
+    }
+  ],
+  "ngay-thuong-mai-viet-nam": [
+    {
+      "file": "ngay-thuong-mai-viet-nam/hero.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/adforce1/3845323663/",
+      "photo": "https://www.flickr.com/photos/adforce1/3845323663/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "Port of Singapore | PSA Singapore Terminals is the world's b… | Flickr"
+    },
+    {
+      "file": "ngay-thuong-mai-viet-nam/card.webp",
+      "photographer": "motogo.vn",
+      "profile": "https://motogo.vn/cho-phien-bac-ha/",
+      "photo": "https://motogo.vn/cho-phien-bac-ha/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (motogo.vn)",
+      "alt": "Chợ phiên Bắc Hà có gì? TOP 7 trải nghiệm đáng nhớ - MOTOGO"
+    },
+    {
+      "file": "ngay-thuong-mai-viet-nam/gallery1.webp",
+      "photographer": "freeimageslive.co.uk",
+      "profile": "https://www.freeimageslive.co.uk/free_stock_image/containership01904jpg",
+      "photo": "https://www.freeimageslive.co.uk/free_stock_image/containership01904jpg",
+      "license": "CC (xem nguồn)",
+      "source": "Web (freeimageslive.co.uk)",
+      "alt": "Free Stock Photo 928-container_ship_01904.JPG | freeimageslive"
+    },
+    {
+      "file": "ngay-thuong-mai-viet-nam/gallery2.webp",
+      "photographer": "foto.wuestenigel.com",
+      "profile": "https://foto.wuestenigel.com/bunte-rosen-stehen-in-eimern-auf-dem-blumen-markt-in-saigon-vietnam/",
+      "photo": "https://foto.wuestenigel.com/bunte-rosen-stehen-in-eimern-auf-dem-blumen-markt-in-saigon-vietnam/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (foto.wuestenigel.com)",
+      "alt": "Bunte Rosen stehen in Eimern auf dem Blumen-Markt in Saigon, Vietnam ..."
+    },
+    {
+      "file": "ngay-thuong-mai-viet-nam/gallery3.webp",
+      "photographer": "diendan.org",
+      "profile": "https://www.diendan.org/cptpp-bat-dau-co-hieu-luc",
+      "photo": "https://www.diendan.org/cptpp-bat-dau-co-hieu-luc",
+      "license": "CC (xem nguồn)",
+      "source": "Web (diendan.org)",
+      "alt": "CPTPP bắt đầu có hiệu lực — Diễn Đàn Forum"
+    },
+    {
+      "file": "ngay-thuong-mai-viet-nam/gallery4.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/97930879@N02/15716714352",
+      "photo": "https://www.flickr.com/photos/97930879@N02/15716714352",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "Banana Vendor - Chuối / Chợ Mỹ Tho 1969 (market) - Phot… | Flickr"
+    },
+    {
+      "file": "ngay-thuong-mai-viet-nam/gallery5.webp",
+      "photographer": "journeyforfairtrade.blogspot.com",
+      "profile": "https://journeyforfairtrade.blogspot.com/2010/12/fair-trade-applied-as-business-model-in.html",
+      "photo": "https://journeyforfairtrade.blogspot.com/2010/12/fair-trade-applied-as-business-model-in.html",
+      "license": "CC (xem nguồn)",
+      "source": "Web (journeyforfairtrade.blogspot.com)",
+      "alt": "Journey for Fair Trade: Fair Trade applied as a Business Model in Vietnam"
+    },
+    {
+      "file": "ngay-thuong-mai-viet-nam/gallery6.webp",
+      "photographer": "motogo.vn",
+      "profile": "https://motogo.vn/pho-co-ha-noi-ve-dem/",
+      "photo": "https://motogo.vn/pho-co-ha-noi-ve-dem/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (motogo.vn)",
+      "alt": "Phố Cổ Hà Nội Về Đêm - Thiên Đường Của Đồ Ăn Vặt"
+    }
   ]
 };

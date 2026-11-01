@@ -13,14 +13,40 @@ const UA = {
 };
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-// Round 6: amthuc audit findings + gallery diversification.
+// Round 7: images for 4 new holidays (sach, the-thao, phap-luat, thuong-mai).
 const FIX = {
-  "tet-han-thuc/amthuc-banh-troi": ["bánh trôi nước tết hàn thực", "banh troi nuoc vietnam", "chè trôi nước việt nam"],
-  "trung-thu/amthuc-mam-trai-cay": ["mâm ngũ quả trung thu", "mâm cỗ trung thu việt nam", "trái cây mâm ngũ quả"],
-  "tet-nguyen-dan/gallery5": ["chợ hoa tết việt nam", "tet flower market vietnam", "phố đi bộ tết nguyên đán"],
-  "tet-nguyen-dan/gallery6": ["câu đối đỏ tết việt nam", "ông đồ tết nguyên đán", "li xi red envelope tet"],
-  "ngay-cach-mang-thang-tam/gallery6": ["quảng trường ba đình hà nội", "ba dinh square hanoi", "lễ chào cờ ba đình"],
-  "ngay-cach-mang-thang-tam/gallery5": ["lăng hồ chí minh đêm", "ho chi minh mausoleum night", "ha noi di tich lich su"],
+  "ngay-sach-viet-nam/hero": ["đường sách nguyễn văn bình", "ngày sách việt nam", "thư viện sách việt nam"],
+  "ngay-sach-viet-nam/card": ["đọc sách việt nam", "quyển sách mở", "sách và cà phê"],
+  "ngay-sach-viet-nam/gallery1": ["hội sách việt nam", "book fair vietnam", "ngày hội sách"],
+  "ngay-sach-viet-nam/gallery2": ["trẻ em đọc sách", "học sinh đọc sách việt nam", "em bé đọc truyện"],
+  "ngay-sach-viet-nam/gallery3": ["kệ sách thư viện", "bookshelf books", "hiệu sách việt nam"],
+  "ngay-sach-viet-nam/gallery4": ["phố sách đinh lễ hà nội", "đường sách sài gòn", "sách cũ việt nam"],
+  "ngay-sach-viet-nam/gallery5": ["gia đình đọc sách cùng nhau", "mẹ đọc truyện cho con", "reading book family"],
+  "ngay-sach-viet-nam/gallery6": ["tặng sách thiện nguyện việt nam", "thư viện trường học việt nam", "sách miền núi"],
+  "ngay-the-thao-viet-nam/hero": ["chạy bộ việt nam", "olympic run vietnam", "vận động viên việt nam"],
+  "ngay-the-thao-viet-nam/card": ["thể dục buổi sáng hồ gươm", "morning exercise hanoi", "tập thể dục công viên"],
+  "ngay-the-thao-viet-nam/gallery1": ["bóng đá việt nam sân cỏ", "vietnam football fans", "đội tuyển việt nam"],
+  "ngay-the-thao-viet-nam/gallery2": ["sea games việt nam", "vận động viên việt nam cờ đỏ", "vietnam athlete flag"],
+  "ngay-the-thao-viet-nam/gallery3": ["cầu lông việt nam", "badminton vietnam", "thể thao phong trào"],
+  "ngay-the-thao-viet-nam/gallery4": ["đi bão việt nam bóng đá", "vietnam football celebration street", "cổ động viên việt nam"],
+  "ngay-the-thao-viet-nam/gallery5": ["tập võ việt nam", "vovinam vietnam", "võ thuật việt nam"],
+  "ngay-the-thao-viet-nam/gallery6": ["chạy bộ công viên sáng", "hồ gươm buổi sáng thể dục", "đạp xe việt nam"],
+  "ngay-phap-luat-viet-nam/hero": ["nhà quốc hội việt nam", "national assembly vietnam building", "quốc hội việt nam tòa nhà"],
+  "ngay-phap-luat-viet-nam/card": ["cân công lý tòa án", "scales of justice law", "búa thẩm phán tòa án"],
+  "ngay-phap-luat-viet-nam/gallery1": ["tòa án việt nam phiên tòa", "vietnam court", "luật sư việt nam"],
+  "ngay-phap-luat-viet-nam/gallery2": ["nhà hát lớn hà nội", "hanoi opera house", "opera house hanoi"],
+  "ngay-phap-luat-viet-nam/gallery3": ["tư vấn pháp luật việt nam", "legal advice vietnam", "trợ giúp pháp lý"],
+  "ngay-phap-luat-viet-nam/gallery4": ["hiến pháp việt nam sách luật", "law books vietnam", "sách luật"],
+  "ngay-phap-luat-viet-nam/gallery5": ["quốc hội việt nam họp", "vietnam national assembly session", "hội trường quốc hội"],
+  "ngay-phap-luat-viet-nam/gallery6": ["học sinh tuyên thệ việt nam", "lá cờ việt nam trường học", "chào cờ học sinh"],
+  "ngay-thuong-mai-viet-nam/hero": ["cảng container cát lái", "cat lai port container", "cảng biển việt nam container"],
+  "ngay-thuong-mai-viet-nam/card": ["chợ việt nam truyền thống", "vietnam market vendor", "chợ đồng xuân hà nội"],
+  "ngay-thuong-mai-viet-nam/gallery1": ["container ship export vietnam", "tàu container xuất khẩu", "xuất khẩu việt nam"],
+  "ngay-thuong-mai-viet-nam/gallery2": ["cà phê xuất khẩu việt nam", "coffee beans vietnam", "hạt cà phê"],
+  "ngay-thuong-mai-viet-nam/gallery3": ["hội chợ triển lãm việt nam", "vietnam expo trade fair", "exhibition vietnam"],
+  "ngay-thuong-mai-viet-nam/gallery4": ["gạo xuất khẩu việt nam", "rice export vietnam", "lúa gạo việt nam"],
+  "ngay-thuong-mai-viet-nam/gallery5": ["dệt may xuất khẩu việt nam", "garment factory vietnam", "nhà máy dệt việt nam"],
+  "ngay-thuong-mai-viet-nam/gallery6": ["phố cổ hà nội buôn bán", "hanoi old quarter market", "phố cổ hàng ngang"],
 };
 
 mkdirSync(STAGE, { recursive: true });

@@ -274,4 +274,36 @@ export const stories: Record<string, StoryEntry> = {
     ],
     story: { title: "Năm cửa ô một buổi sáng", body: "Sáng 10/10/1954, cùng một giờ, quân đội tiến vào Hà Nội từ năm hướng: Cầu Giấy, Ô Cầu Dền, Hàng Đậu, Long Biên, Bạch Mai. Người dân đứng hai bên đường từ trước bình minh, tay cầm hoa, mắt đỏ vì chờ đợi chín năm. Chiều hôm ấy, trước sân vận động Cộng hòa, lá cờ đỏ sao vàng chậm rãi kéo lên cột cờ thành — người già thấy lại lá cờ họ từng chào năm 1945, người trẻ lần đầu được thấy Thủ đô hoàn toàn của mình. Ngày ấy, Hà Nội chính thức về nhà." },
   },
+  "ngay-sach-viet-nam": {
+    sources: [
+      { outlet: "Wikipedia", title: "Ngày Sách và Văn hóa đọc", url: `${W}Ng%C3%A0y_S%C3%A1ch`, summary: "Ngày 21/4 hằng năm được Thủ tướng quyết định từ 2014 — ngày tôn vinh sách và người đọc trên cả nước." },
+      { outlet: "Wikipedia", title: "Ngày Sách Thế giới", url: `${W}Ng%C3%A0y_S%C3%A1ch_th%E1%BA%BF_gi%E1%BB%9Bi`, summary: "Ngày 23/4 do UNESCO lập từ 1995 — mốc thế giới mà ngày sách Việt Nam chọn đứng cạnh." },
+      { outlet: "Đường sách TP.HCM", title: "Đường sách Nguyễn Văn Bình", url: "https://duongsach.net/", summary: "Đường sách đầu tiên của Việt Nam mở từ 2016 — trung tâm hoạt động của ngày sách mỗi năm ở TP.HCM." },
+    ],
+    story: { title: "Mười lăm phút im lặng", body: "9 giờ sáng ngày 21/4, một trường tiểu học ở Hà Nội bỗng im đặc — cả nghìn học sinh, cô giáo, cô bán cơm cùng mở sách. Không ai phải đọc giống ai; có em đọc truyện tranh, có em đọc sử thi. Mười lăm phút ấy trôi qua nhanh đến lạ, và khi tiếng lật trang ngừng lại, nhiều em tiếc. 'Giờ đọc chung' là hình ảnh đẹp nhất của ngày sách: nó không bắt ai đọc cả, chỉ chứng minh rằng đọc sách không cần gì hơn một quãng lặng chung." },
+  },
+  "ngay-the-thao-viet-nam": {
+    sources: [
+      { outlet: "Wikipedia", title: "Ngày Thể thao Việt Nam", url: `${W}Ng%C3%A0y_Th%E1%BB%83_thao_Vi%E1%BB%87t_Nam`, summary: "Ngày 27/3 kỷ niệm Sắc lệnh số 33 năm 1946 của Bác Hồ — văn kiện khai sinh ngành thể dục thể thao." },
+      { outlet: "Wikipedia", title: "Hoàng Xuân Vinh", url: `${W}Ho%C3%A0ng_Xu%C3%A2n_Vinh`, summary: "Xạ thủ mang về tấm HCV Olympic đầu tiên cho Việt Nam tại Rio 2016 — đỉnh cao của thể thao nước nhà." },
+      { outlet: "Vietnam Olympic Committee", title: "Olympic Run Day", url: "https://olympic.vn/", summary: "Ngày chạy Olympic vì sức khỏe toàn dân — sự kiện chạy bộ tập thể gắn với Ngày Thể thao 27/3 mỗi năm." },
+    ],
+    story: { title: "Sắc lệnh viết trong thời đói", body: "Năm 1946, Hà Nội còn thiếu gạo, kháng chiến sắp bùng nổ toàn quốc. Vậy mà ngày 27/3 ấy, Bác Hồ vẫn ngồi ký một sắc lệnh về… thể dục: 'các em học sinh, các anh chị em học viên đều phải học thể dục'. Người ta hiểu ra — muốn giữ nước thì trước hết phải có những con người khỏe mạnh. Gần tám mươi năm sau, mỗi sáng ở bờ hồ Gươm vẫn có hàng nghìn người tập dưỡng sinh; mỗi tháng 3, cả nước lại cùng chạy bộ. Sắc lệnh của một ngày chiến tranh hóa ra là lời nhắc cho mọi thời bình: mạnh khỏe để làm việc." },
+  },
+  "ngay-phap-luat-viet-nam": {
+    sources: [
+      { outlet: "Wikipedia", title: "Hiến pháp 1946", url: `${W}Hi%E1%BA%BFn_ph%C3%A1p_n%C6%B0%E1%BB%9Bc_Vi%E1%BB%87t_Nam_D%C3%A2n_ch%E1%BB%A7_C%E1%BB%99ng_h%C3%B2a_1946`, summary: "Bản hiến pháp đầu tiên, thông qua ngày 9/11/1946 tại Nhà hát Lớn Hà Nội — mốc được chọn làm Ngày Pháp luật." },
+      { outlet: "Wikipedia", title: "Hiến pháp Việt Nam", url: `${W}Hi%E1%BA%BFn_ph%C3%A1p_Vi%E1%BB%87t_Nam`, summary: "Quá trình lập hiến qua năm bản hiến pháp: 1946, 1959, 1980, 1992 và 2013 — mỗi bản gắn một thời kỳ." },
+      { outlet: "Bộ Tư pháp", title: "Cổng thông tin Bộ Tư pháp", url: "https://moj.gov.vn/", summary: "Cơ quan đầu ngành phổ biến, giáo dục pháp luật — nơi tổ chức các hoạt động hưởng ứng ngày 9/11." },
+    ],
+    story: { title: "Bảy mươi điều trong mưa bom", body: "Nhà hát Lớn Hà Nội, ngày 9/11/1946. Bên ngoài, đất nước đã ngửi mùi chiến tranh toàn quốc; bên trong, Quốc hội khóa I vẫn ngồi lại bấm nút thông qua bản Hiến pháp đầu tiên — 7 chương, 70 điều, khẳng định 'quyền lực thuộc về toàn thể nhân dân'. Có đại biểu hỏi vội vội vàng làm gì. Câu trả lời thời ấy: một quốc gia muốn đứng vững phải có hiến pháp, dù chỉ còn một ngày bình yên nữa. Ngày 9/11 được lấy làm Ngày Pháp luật Việt Nam — để nhớ rằng pháp luật không phải đồ trang trí thời bình, mà là bộ khung của chính nhà nước." },
+  },
+  "ngay-thuong-mai-viet-nam": {
+    sources: [
+      { outlet: "Wikipedia", title: "Bộ Công Thương", url: `${W}B%E1%BB%99_C%C3%B4ng_Th%C6%B0%C6%A1ng_(Vi%E1%BB%87t_Nam)`, summary: "Cơ quan quản lý công thương — tiền thân là Bộ Kinh tế do Bác Hồ ký sắc lệnh thành lập ngày 13/7/1946." },
+      { outlet: "Wikipedia", title: "Kinh tế Việt Nam", url: `${W}Kinh_t%E1%BA%BF_Vi%E1%BB%87t_Nam`, summary: "Từ nền kinh tế nông nghiệp đến top nền kinh tế xuất nhập khẩu lớn Đông Nam Á — hành trình mà thương mại mở đường." },
+      { outlet: "Bộ Công Thương", title: "Cổng thông tin Bộ Công Thương", url: "https://moit.gov.vn/", summary: "Cổng chính thức của ngành — nơi công bố số liệu xuất nhập khẩu và các hoạt động ngày truyền thống 13/7." },
+    ],
+    story: { title: "Từ sắc lệnh chống đói đến container đi biển", body: "Tháng 7 năm 1946, giữa lúc cả nước đang góp gạo cứu đói, Bác Hồ ký sắc lệnh thành lập Bộ Kinh tế — ngành giữ mạch máu buôn bán của nước non. Nhiệm vụ lúc ấy giản dị: làm sao để hàng hóa chạy được từ vùng này sang vùng khác. Gần tám chục năm sau, 'kinh tế' ấy đã trở thành những con tàu container rời cảng Cát Lái mỗi giờ, chở cà phê đứng thứ hai thế giới, gạo trong top đầu, điện thoại tới cả trăm quốc gia. Ngày 13/7 được lấy làm ngày truyền thống của ngành thương mại — nhắc rằng buôn bán, từ sạp chợ đến biển cả, cũng là một cách xây nước." },
+  },
 };

@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-11-01T03:57:11.820Z",
+ "generatedAt": "2026-11-01T04:33:45.279Z",
  "locales": [
   "vi",
   "en"
  ],
- "count": 32,
+ "count": 36,
  "holidays": [
   {
    "slug": "tet-duong-lich",
@@ -1779,6 +1779,238 @@
    "occurrenceThisYear": "2026-10-09"
   },
   {
+   "slug": "ngay-sach-viet-nam",
+   "locale": "vi",
+   "name": "Ngày Sách và Văn hóa đọc Việt Nam",
+   "dateMark": "21·04",
+   "displayDate": "21 tháng 4",
+   "categories": [
+    "quoc-gia"
+   ],
+   "tagline": "Ngày tôn vinh sách và thói quen đọc của người Việt.",
+   "meaning": "Nhắc mỗi người rằng đọc sách là thói quen nuôi tri thức bền nhất — và cùng xây một 'văn hóa đọc' cho cả xã hội.",
+   "traditions": [
+    {
+     "title": "Giờ đọc chung",
+     "text": "Trường học, cơ quan cùng đọc sách 10–15 phút trong ngày 21/4."
+    },
+    {
+     "title": "Hội sách, ngày hội sách",
+     "text": "Đường sách TP.HCM, hội chợ sách Hà Nội và các tỉnh mở gian hàng ưu đãi."
+    },
+    {
+     "title": "Tặng sách, xây tủ sách",
+     "text": "Vận động quyên góp sách cho thư viện trường học, cộng đồng và vùng khó khăn."
+    },
+    {
+     "title": "Ra mắt sách, gặp tác giả",
+     "text": "Buổi giới thiệu sách mới, ký tặng và trò chuyện cùng nhà văn, dịch giả."
+    }
+   ],
+   "wishes": [
+    "21/4 — chúc bạn luôn có một quyển sách hay chờ sẵn trên đầu giường.",
+    "Mỗi trang sách lật mở là một chân trời mới — chúc bạn đọc mãi không hết chân trời.",
+    "Chúc gia đình bạn một ngày sách tràn ngập tiếng lật trang.",
+    "Người đọc sách sống nghìn cuộc đời trước khi chết — chúc bạn nghìn cuộc đời thú vị.",
+    "Chúc thế hệ nhỏ của bạn lớn lên bên kệ sách ấm áp của gia đình."
+   ],
+   "gifts": [
+    {
+     "title": "Một quyển sách đúng gu",
+     "text": "Tặng sách là tặng người đọc một thế giới — chọn đúng chủ đề người ấy đang quan tâm."
+    },
+    {
+     "title": "Bookmark xinh hoặc đèn đọc sách",
+     "text": "Quà nhỏ nhưng cực kỳ hữu dụng cho người hay đọc buổi tối."
+    },
+    {
+     "title": "Thẻ mua sách / gói đọc ebook",
+     "text": "Để người nhận tự chọn — quà an toàn nhất cho mọt sách khó chiều."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 4,
+    "day": 21
+   },
+   "nextOccurrence": "2027-04-20",
+   "occurrenceThisYear": "2026-04-20"
+  },
+  {
+   "slug": "ngay-the-thao-viet-nam",
+   "locale": "vi",
+   "name": "Ngày Thể thao Việt Nam",
+   "dateMark": "27·03",
+   "displayDate": "27 tháng 3",
+   "categories": [
+    "quoc-gia"
+   ],
+   "tagline": "Ngày tôn vinh tinh thần rèn luyện thân thể của dân tộc.",
+   "meaning": "Khắc ghi lời Bác 'mạnh khỏe để làm việc' — mỗi người khỏe là một phần sức mạnh của cả dân tộc.",
+   "traditions": [
+    {
+     "title": "Ngày chạy Olympic",
+     "text": "Chạy bộ tập thể ở tất cả tỉnh thành vào dịp cuối tháng 3."
+    },
+    {
+     "title": "Thể dục buổi sáng",
+     "text": "Văn hóa công viên sáng sớm: dưỡng sinh, khiêu vũ, cầu mây, đạp xe quanh hồ."
+    },
+    {
+     "title": "Giải thể thao phong trào",
+     "text": "Hội khỏe Phù Đổng ở trường học, giải bóng đá, cầu lông, võ thuật cơ sở."
+    },
+    {
+     "title": "Vinh danh thành tích",
+     "text": "Biểu dương vận động viên, huấn luyện viên tiêu biểu của năm."
+    }
+   ],
+   "wishes": [
+    "27/3 — chúc bạn luôn khỏe như vận động viên, chơi hết mình, sống hết mình.",
+    "Chúc gia đình mỗi sáng một buổi tập vui, mỗi năm một cơ thể khỏe.",
+    "Thể thao Việt Nam — chúc các 'người lính áo cờ' luôn bay cao trên đấu trường thế giới.",
+    "Mạnh khỏe để làm việc, để yêu, để sống — chúc bạn một ngày thể thao đầy năng lượng.",
+    "Chúc đội bóng của bạn thắng trận cuối tuần này — và thắng cả cơn lười sáng mai."
+   ],
+   "gifts": [
+    {
+     "title": "Giày chạy bộ / đồ tập",
+     "text": "Món quà khích lệ ai đó bắt đầu thói quen vận động."
+    },
+    {
+     "title": "Vé xem thể thao",
+     "text": "Một trận bóng, một giải cầu lông hay võ thuật — đi xem là nuôi tinh thần thể thao."
+    },
+    {
+     "title": "Dụng cụ tập tại nhà",
+     "text": "Xà đơn, tạ tay, thảm yoga — quà thiết thực cho người bận không ra phòng gym."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 3,
+    "day": 27
+   },
+   "nextOccurrence": "2027-03-26",
+   "occurrenceThisYear": "2026-03-26"
+  },
+  {
+   "slug": "ngay-phap-luat-viet-nam",
+   "locale": "vi",
+   "name": "Ngày Pháp luật Việt Nam",
+   "dateMark": "09·11",
+   "displayDate": "9 tháng 11",
+   "categories": [
+    "quoc-gia"
+   ],
+   "tagline": "Ngày tôn vinh và phổ biến pháp luật đến mọi người dân.",
+   "meaning": "Nhắc nguyên tắc căn bản nhất của xã hội hiện đại: nhà nước quản lý xã hội bằng pháp luật — và không ai được đứng trên pháp luật.",
+   "traditions": [
+    {
+     "title": "Phổ biến pháp luật",
+     "text": "Truyền thông, tổ tuyên truyền và hội nghị phổ biến luật mới đến tận thôn bản, phường xã."
+    },
+    {
+     "title": "Tư vấn pháp luật miễn phí",
+     "text": "Luật sư, cán bộ tư pháp giải đáp miễn phí về đất đai, hôn nhân, lao động cho người dân."
+    },
+    {
+     "title": "Đố vui pháp luật ở trường học",
+     "text": "Câu đố, tiểu phẩm và sinh hoạt chủ đề giúp học sinh hiểu quyền và nghĩa vụ công dân."
+    },
+    {
+     "title": "Vinh danh người làm luật",
+     "text": "Biểu dương cán bộ tư pháp, thanh tra, luật sư có thành tích đưa luật vào đời sống."
+    }
+   ],
+   "wishes": [
+    "9/11 — chúc bạn sống thật tự do trong khuôn khổ thật rõ ràng.",
+    "Hiểu luật để bảo vệ mình, tôn trọng luật để bảo vệ nhau — chúc ngày pháp luật ý nghĩa.",
+    "Chúc người làm luật luôn giữ được cán cân công bằng giữa đời.",
+    "Pháp luật là tấm khiên của người yếu — chúc nó luôn được giơ đúng lúc.",
+    "Chúc gia đình bạn một ngày bình an — thứ bình an mà chỉ xã hội thượng tôn pháp luật mới có."
+   ],
+   "gifts": [
+    {
+     "title": "Sách pháp luật phổ thông",
+     "text": "Những cuốn 'luật cho người không học luật' — quà thiết thực bất ngờ."
+    },
+    {
+     "title": "Buổi tư vấn pháp luật",
+     "text": "Gói tư vấn của luật sư cho người đang vướng giấy tờ, hợp đồng hay đất đai."
+    },
+    {
+     "title": "Tham quan Di sản Quốc hội",
+     "text": "Ghé Bảo tàng Quốc hội hoặc Nhà Quốc hội — nơi bản hiến pháp đầu tiên được thông qua."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 11,
+    "day": 9
+   },
+   "nextOccurrence": "2026-11-08",
+   "occurrenceThisYear": "2026-11-08"
+  },
+  {
+   "slug": "ngay-thuong-mai-viet-nam",
+   "locale": "vi",
+   "name": "Ngày Thương mại Việt Nam",
+   "dateMark": "13·07",
+   "displayDate": "13 tháng 7",
+   "categories": [
+    "quoc-gia"
+   ],
+   "tagline": "Ngày tôn vinh nghề buôn bán và hàng Việt vươn ra thế giới.",
+   "meaning": "Vinh danh những người làm kinh tế — từ bà bán chợ đến doanh nghiệp xuất khẩu — nghề đã đưa hàng Việt và chữ 'Việt Nam' ra bản đồ thế giới.",
+   "traditions": [
+    {
+     "title": "Hội chợ thương mại",
+     "text": "Vietnam Expo, hội chợ tỉnh thành và các triển lãm xúc tiến thương mại dồn về giữa năm."
+    },
+    {
+     "title": "Vinh danh doanh nghiệp",
+     "text": "Biểu dương doanh nghiệp xuất khẩu, hàng Việt chất lượng cao và thương hiệu quốc gia."
+    },
+    {
+     "title": "Tọa đàm xuất nhập khẩu",
+     "text": "Nghiệp đoàn, hiệp hội ngành hàng bàn chính sách, thị trường và thương mại điện tử."
+    },
+    {
+     "title": "Tuần hàng Việt",
+     "text": "Các chiến dịch 'Người Việt dùng hàng Việt' khuyến khích tiêu dùng nội."
+    }
+   ],
+   "wishes": [
+    "13/7 — chúc người làm ăn gặp nhiều may, mua may bán đắt, phát tài phát lộc.",
+    "Chúc ngành thương mại Việt Nam ngày càng vươn xa — hàng Việt đến mọi châu lục.",
+    "Chúc doanh nghiệp bạn đơn đầy kho, tiền về đều, đối tác tin cậy.",
+    "Phú thương, phú quý — chúc bạn một năm buôn bán hanh thông.",
+    "Từ sạp chợ quê đến container xuất khẩu — chúc mọi 'người bán' Việt đều vững vàng."
+   ],
+   "gifts": [
+    {
+     "title": "Hàng Việt chất lượng",
+     "text": "Chọn một món quà 'made in Vietnam' thay đồ nhập — ủng hộ thương mại bằng chính cách tiêu tiền."
+    },
+    {
+     "title": "Cà phê, trà đặc sản",
+     "text": "Hai thứ hàng Việt nổi tiếng thế giới — quà tặng đối tác trong và ngoài nước."
+    },
+    {
+     "title": "Tham quan hội chợ",
+     "text": "Đưa người thân đi triển lãm thương mại — thấy tận mắt hàng Việt đã đi xa đến đâu."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 7,
+    "day": 13
+   },
+   "nextOccurrence": "2027-07-12",
+   "occurrenceThisYear": "2026-07-12"
+  },
+  {
    "slug": "tet-duong-lich",
    "locale": "en",
    "name": "New Year's Day",
@@ -3549,6 +3781,238 @@
    },
    "nextOccurrence": "2027-10-09",
    "occurrenceThisYear": "2026-10-09"
+  },
+  {
+   "slug": "ngay-sach-viet-nam",
+   "locale": "en",
+   "name": "Vietnam Book and Reading Culture Day",
+   "dateMark": "21·04",
+   "displayDate": "April 21",
+   "categories": [
+    "quoc-gia"
+   ],
+   "tagline": "A day honoring books and the reading habit of the Vietnamese.",
+   "meaning": "A reminder that reading is the most durable way to grow knowledge — and a push toward a true 'reading culture' for the whole society.",
+   "traditions": [
+    {
+     "title": "Shared reading hour",
+     "text": "Schools and offices read together for 10–15 minutes on April 21."
+    },
+    {
+     "title": "Book fairs & festivals",
+     "text": "Ho Chi Minh City's Book Street, Hanoi book fairs and provincial fairs open discount stalls."
+    },
+    {
+     "title": "Donating books",
+     "text": "Drives collect books for school libraries, communities and remote areas."
+    },
+    {
+     "title": "Launches & author talks",
+     "text": "New-book introductions, signings and conversations with writers and translators."
+    }
+   ],
+   "wishes": [
+    "April 21 — may a good book always wait on your nightstand.",
+    "Every turned page opens a new horizon — may you never run out of horizons.",
+    "Wishing your family a Book Day full of rustling pages.",
+    "A reader lives a thousand lives — wishing you a thousand interesting ones.",
+    "May your children grow up beside the family's warm bookshelf."
+   ],
+   "gifts": [
+    {
+     "title": "A well-matched book",
+     "text": "Giving a book is giving a world — pick the topic they care about most."
+    },
+    {
+     "title": "A nice bookmark or reading lamp",
+     "text": "A small but genuinely useful gift for late-night readers."
+    },
+    {
+     "title": "Book voucher / ebook subscription",
+     "text": "Let them choose — the safest gift for a picky bookworm."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 4,
+    "day": 21
+   },
+   "nextOccurrence": "2027-04-20",
+   "occurrenceThisYear": "2026-04-20"
+  },
+  {
+   "slug": "ngay-the-thao-viet-nam",
+   "locale": "en",
+   "name": "Vietnam Sports Day",
+   "dateMark": "27·03",
+   "displayDate": "March 27",
+   "categories": [
+    "quoc-gia"
+   ],
+   "tagline": "A day honoring the nation's spirit of physical training.",
+   "meaning": "Inscribing Uncle Hồ's words 'healthy to work' — every healthy citizen is a share of the nation's strength.",
+   "traditions": [
+    {
+     "title": "Olympic Run",
+     "text": "Mass jogs in nearly every province around late March."
+    },
+    {
+     "title": "Morning exercise",
+     "text": "Early-morning park culture: qigong, dance workouts, shuttlecock and lakeside cycling."
+    },
+    {
+     "title": "Grassroots tournaments",
+     "text": "The Phù Đổng school games, workplace football, badminton and martial-arts meets."
+    },
+    {
+     "title": "Honoring achievements",
+     "text": "Recognition of the year's outstanding athletes and coaches."
+    }
+   ],
+   "wishes": [
+    "March 27 — stay fit like an athlete, play hard, live fully.",
+    "Wishing your family a joyful workout each morning and a healthy body each year.",
+    "To Vietnamese sports — may our flag-wearing athletes keep soaring on world stages.",
+    "Healthy to work, to love, to live — wishing you an energetic Sports Day.",
+    "May your team win this weekend — and win against tomorrow's morning laziness too."
+   ],
+   "gifts": [
+    {
+     "title": "Running shoes / workout gear",
+     "text": "A gift that nudges someone to start moving."
+    },
+    {
+     "title": "Sports tickets",
+     "text": "A football match, badminton meet or martial-arts event — watching feeds the sporting spirit."
+    },
+    {
+     "title": "Home training gear",
+     "text": "Pull-up bar, dumbbells, yoga mat — practical for anyone too busy for the gym."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 3,
+    "day": 27
+   },
+   "nextOccurrence": "2027-03-26",
+   "occurrenceThisYear": "2026-03-26"
+  },
+  {
+   "slug": "ngay-phap-luat-viet-nam",
+   "locale": "en",
+   "name": "Vietnam Law Day",
+   "dateMark": "09·11",
+   "displayDate": "November 9",
+   "categories": [
+    "quoc-gia"
+   ],
+   "tagline": "A day honoring the law and bringing it to every citizen.",
+   "meaning": "A reminder of modern society's most basic principle: the state governs by law — and no one stands above it.",
+   "traditions": [
+    {
+     "title": "Legal outreach",
+     "text": "Media, outreach teams and commune meetings carry new laws down to the village level."
+    },
+    {
+     "title": "Free legal aid",
+     "text": "Lawyers and justice officers answer land, marriage and labor questions free of charge."
+    },
+    {
+     "title": "Law quizzes in schools",
+     "text": "Quizzes, skits and themed activities teach students their rights and duties."
+    },
+    {
+     "title": "Honoring legal workers",
+     "text": "Recognition of justice officers, inspectors and lawyers who brought law into daily life."
+    }
+   ],
+   "wishes": [
+    "November 9 — may you live truly free within clearly drawn bounds.",
+    "Know the law to protect yourself; respect the law to protect each other — have a meaningful Law Day.",
+    "To lawmakers — may you always hold the scales of justice steady.",
+    "The law is the shield of the weak — may it always be raised in time.",
+    "Wishing your family a peaceful day — the kind only a law-abiding society can have."
+   ],
+   "gifts": [
+    {
+     "title": "A popular-law book",
+     "text": "'Law for non-lawyers' titles — a surprisingly practical gift."
+    },
+    {
+     "title": "A legal consultation",
+     "text": "A session with a lawyer for someone tangled in paperwork, contracts or land matters."
+    },
+    {
+     "title": "National Assembly heritage visit",
+     "text": "Stop by the National Assembly Museum — where the first constitution was passed."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 11,
+    "day": 9
+   },
+   "nextOccurrence": "2026-11-08",
+   "occurrenceThisYear": "2026-11-08"
+  },
+  {
+   "slug": "ngay-thuong-mai-viet-nam",
+   "locale": "en",
+   "name": "Vietnam Trade Day",
+   "dateMark": "13·07",
+   "displayDate": "July 13",
+   "categories": [
+    "quoc-gia"
+   ],
+   "tagline": "A day honoring commerce and Vietnamese goods reaching the world.",
+   "meaning": "Honoring everyone in commerce — from the market vendor to the exporting enterprise — the trade that carried Vietnamese goods and the words 'Viet Nam' onto the world map.",
+   "traditions": [
+    {
+     "title": "Trade fairs",
+     "text": "Vietnam Expo, provincial fairs and trade-promotion exhibitions cluster in mid-year."
+    },
+    {
+     "title": "Honoring businesses",
+     "text": "Commendation of top exporters, high-quality Vietnamese goods and national brands."
+    },
+    {
+     "title": "Trade seminars",
+     "text": "Industry associations debate policy, markets and e-commerce."
+    },
+    {
+     "title": "Vietnamese-goods week",
+     "text": "Campaigns of 'Vietnamese people use Vietnamese goods' promote domestic consumption."
+    }
+   ],
+   "wishes": [
+    "July 13 — may traders meet fortune: easy buying, brisk selling, wealth flowing.",
+    "May Vietnamese trade keep reaching further — goods to every continent.",
+    "Wishing your business full order books, steady payments and trusted partners.",
+    "Prosperity in trade, prosperity in wealth — a smooth year of commerce to you.",
+    "From the village market stall to the export container — may every Vietnamese 'seller' stand firm."
+   ],
+   "gifts": [
+    {
+     "title": "Quality Vietnamese goods",
+     "text": "Pick a 'made in Vietnam' gift over imports — support trade with your own wallet."
+    },
+    {
+     "title": "Specialty coffee & tea",
+     "text": "Two world-famous Vietnamese exports — gifts for partners at home and abroad."
+    },
+    {
+     "title": "A fair visit",
+     "text": "Take family to a trade fair — see with your own eyes how far Vietnamese goods have traveled."
+    }
+   ],
+   "rule": {
+    "type": "solar",
+    "month": 7,
+    "day": 13
+   },
+   "nextOccurrence": "2027-07-12",
+   "occurrenceThisYear": "2026-07-12"
   }
  ]
 }

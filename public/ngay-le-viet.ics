@@ -772,4 +772,100 @@ DTEND;VALUE=DATE:20281011
 SUMMARY:Ngày Giải phóng Thủ đô
 DESCRIPTION:Ngày cờ đỏ sao vàng bay trở lại trên nóc thành Hà Nội.
 END:VEVENT
+BEGIN:VEVENT
+UID:ngay-sach-viet-nam-2026@ngayleviet
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20260421
+DTEND;VALUE=DATE:20260422
+SUMMARY:Ngày Sách và Văn hóa đọc Việt Nam
+DESCRIPTION:Ngày tôn vinh sách và thói quen đọc của người Việt.
+END:VEVENT
+BEGIN:VEVENT
+UID:ngay-sach-viet-nam-2027@ngayleviet
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270422
+SUMMARY:Ngày Sách và Văn hóa đọc Việt Nam
+DESCRIPTION:Ngày tôn vinh sách và thói quen đọc của người Việt.
+END:VEVENT
+BEGIN:VEVENT
+UID:ngay-sach-viet-nam-2028@ngayleviet
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20280421
+DTEND;VALUE=DATE:20280422
+SUMMARY:Ngày Sách và Văn hóa đọc Việt Nam
+DESCRIPTION:Ngày tôn vinh sách và thói quen đọc của người Việt.
+END:VEVENT
+BEGIN:VEVENT
+UID:ngay-the-thao-viet-nam-2026@ngayleviet
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20260327
+DTEND;VALUE=DATE:20260328
+SUMMARY:Ngày Thể thao Việt Nam
+DESCRIPTION:Ngày tôn vinh tinh thần rèn luyện thân thể của dân tộc.
+END:VEVENT
+BEGIN:VEVENT
+UID:ngay-the-thao-viet-nam-2027@ngayleviet
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270327
+DTEND;VALUE=DATE:20270328
+SUMMARY:Ngày Thể thao Việt Nam
+DESCRIPTION:Ngày tôn vinh tinh thần rèn luyện thân thể của dân tộc.
+END:VEVENT
+BEGIN:VEVENT
+UID:ngay-the-thao-viet-nam-2028@ngayleviet
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20280327
+DTEND;VALUE=DATE:20280328
+SUMMARY:Ngày Thể thao Việt Nam
+DESCRIPTION:Ngày tôn vinh tinh thần rèn luyện thân thể của dân tộc.
+END:VEVENT
+BEGIN:VEVENT
+UID:ngay-phap-luat-viet-nam-2026@ngayleviet
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:Ngày Pháp luật Việt Nam
+DESCRIPTION:Ngày tôn vinh và phổ biến pháp luật đến mọi người dân.
+END:VEVENT
+BEGIN:VEVENT
+UID:ngay-phap-luat-viet-nam-2027@ngayleviet
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20271109
+DTEND;VALUE=DATE:20271110
+SUMMARY:Ngày Pháp luật Việt Nam
+DESCRIPTION:Ngày tôn vinh và phổ biến pháp luật đến mọi người dân.
+END:VEVENT
+BEGIN:VEVENT
+UID:ngay-phap-luat-viet-nam-2028@ngayleviet
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20281109
+DTEND;VALUE=DATE:20281110
+SUMMARY:Ngày Pháp luật Việt Nam
+DESCRIPTION:Ngày tôn vinh và phổ biến pháp luật đến mọi người dân.
+END:VEVENT
+BEGIN:VEVENT
+UID:ngay-thuong-mai-viet-nam-2026@ngayleviet
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20260713
+DTEND;VALUE=DATE:20260714
+SUMMARY:Ngày Thương mại Việt Nam
+DESCRIPTION:Ngày tôn vinh nghề buôn bán và hàng Việt vươn ra thế giới.
+END:VEVENT
+BEGIN:VEVENT
+UID:ngay-thuong-mai-viet-nam-2027@ngayleviet
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270713
+DTEND;VALUE=DATE:20270714
+SUMMARY:Ngày Thương mại Việt Nam
+DESCRIPTION:Ngày tôn vinh nghề buôn bán và hàng Việt vươn ra thế giới.
+END:VEVENT
+BEGIN:VEVENT
+UID:ngay-thuong-mai-viet-nam-2028@ngayleviet
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20280713
+DTEND;VALUE=DATE:20280714
+SUMMARY:Ngày Thương mại Việt Nam
+DESCRIPTION:Ngày tôn vinh nghề buôn bán và hàng Việt vươn ra thế giới.
+END:VEVENT
 END:VCALENDAR

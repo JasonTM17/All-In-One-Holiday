@@ -266,4 +266,36 @@ export const storiesEn: Record<string, StoryEntry> = {
     ],
     story: { title: "Five gates, one morning", body: "On the morning of October 10, 1954, at a single hour, troops entered Hanoi from five directions: Cầu Giấy, Ô Cầu Dền, Hàng Đậu, Long Biên and Bạch Mai. Residents had lined the streets since before dawn, flowers in hand, eyes red from nine years of waiting. That evening, before the Cộng Hòa sports ground, the red flag with gold star rose slowly up the citadel's flag tower — the old saw again the flag they had greeted in 1945, the young saw for the first time a capital wholly their own. That day, Hanoi officially came home." },
   },
+  "ngay-sach-viet-nam": {
+    sources: [
+      { outlet: "Wikipedia", title: "World Book Day", url: `${W}World_Book_Day`, summary: "UNESCO's April 23 celebration since 1995 — the global milestone beside which Vietnam placed its own April 21 book day." },
+      { outlet: "Wikipedia", title: "Literature of Vietnam", url: `${W}Vietnamese_literature`, summary: "The written tradition that Book and Reading Culture Day celebrates — from chữ Nôm classics to the modern book trade." },
+      { outlet: "UNESCO", title: "World Book and Copyright Day", url: "https://www.unesco.org/en/days/world-book", summary: "The international observance behind Vietnam's 21/4 — promoting reading, publishing and copyright worldwide." },
+    ],
+    story: { title: "Fifteen minutes of silence", body: "At 9 a.m. on April 21, an elementary school in Hanoi falls completely still — a thousand pupils, teachers, even the lunch lady, all with open books. No one reads the same thing; one kid has a comic, another a folk epic. The fifteen minutes pass strangely fast, and when the page-turning stops, many wish for more. The 'shared reading hour' is Book Day's loveliest image: it doesn't force anyone to read — it only proves that reading needs nothing more than a shared spell of quiet." },
+  },
+  "ngay-the-thao-viet-nam": {
+    sources: [
+      { outlet: "Wikipedia", title: "Sport in Vietnam", url: `${W}Sport_in_Vietnam`, summary: "From village football to Olympic gold — the sporting landscape that March 27 celebrates each year." },
+      { outlet: "Wikipedia", title: "Vietnam at the Olympics", url: `${W}Vietnam_at_the_Olympics`, summary: "Shooter Hoàng Xuân Vinh's 2016 gold made history — the pinnacle the Sports Day story points toward." },
+      { outlet: "Olympics.com", title: "Olympic Day and Olympic runs", url: "https://olympics.com/ioc/olympic-day", summary: "The worldwide mass-run tradition that Vietnam's Olympic Run for Public Health joins every March." },
+    ],
+    story: { title: "A decree written in a hungry year", body: "It was 1946. Hanoi was short of rice and a nationwide war was about to erupt — yet on March 27, Uncle Hồ sat down to sign a decree about... physical education: 'students, male and female, must learn physical education.' The reasoning was simple: to keep a country you first need healthy people. Nearly eighty years later, thousands still do morning qigong on the shores of Hoàn Kiếm Lake, and every March the whole country jogs together. A wartime decree turned out to be a reminder for all peacetime: healthy, to be able to work." },
+  },
+  "ngay-phap-luat-viet-nam": {
+    sources: [
+      { outlet: "Wikipedia", title: "Constitution of Vietnam", url: `${W}Constitution_of_Vietnam`, summary: "Five charters — 1946, 1959, 1980, 1992, 2013 — each bound to an era; the first passed on November 9, 1946." },
+      { outlet: "Wikipedia", title: "National Assembly of Vietnam", url: `${W}National_Assembly_(Vietnam)`, summary: "The body whose first session, in the Hanoi Opera House, passed the founding constitution Law Day commemorates." },
+      { outlet: "Wikipedia", title: "Law of Vietnam", url: `${W}Law_of_Vietnam`, summary: "The legal system that November 9 spotlights — from the 1946 charter to today's codes." },
+    ],
+    story: { title: "Seventy articles under gathering war clouds", body: "Hanoi Opera House, November 9, 1946. Outside, the country could already smell a nationwide war coming; inside, the first National Assembly sat and voted through the nation's first constitution — 7 chapters, 70 articles, declaring that 'power belongs to the whole people'. A deputy reportedly asked what the hurry was. The answer of that era: a country that means to stand must have a constitution, even if only one peaceful day remained. November 9 became Vietnam Law Day — to remember that law is not peacetime decoration, but the frame of the state itself." },
+  },
+  "ngay-thuong-mai-viet-nam": {
+    sources: [
+      { outlet: "Wikipedia", title: "Economy of Vietnam", url: `${W}Economy_of_Vietnam`, summary: "From farm economy to one of Southeast Asia's top trading nations — the journey Trade Day honors each July 13." },
+      { outlet: "Wikipedia", title: "Ministry of Industry and Trade", url: `${W}Ministry_of_Industry_and_Trade_(Vietnam)`, summary: "The ministry descended from the 1946 Ministry of Economy — founded by Uncle Hồ's decree of July 13." },
+      { outlet: "WTO", title: "Vietnam in the WTO", url: "https://www.wto.org/english/thewto_e/countries_e/vietnam_e.htm", summary: "Member since 2007 — the global trading table Vietnam joined sixty-one years after its trade ministry was born." },
+    ],
+    story: { title: "From an anti-famine decree to container ships", body: "In July 1946, while the whole country was pooling rice against famine, Uncle Hồ signed a decree founding the Ministry of Economy — the agency keeping the young nation's trade artery open. Its mission was modest: move goods from one region to another. Nearly eighty years later, that 'economy' is container ships leaving Cát Lái port by the hour, carrying the world's second-largest coffee crop, top-tier rice, and phones bound for a hundred countries. July 13 became the trade sector's traditional day — a reminder that commerce, from a market stall to the open sea, is also a way of building a nation." },
+  },
 };

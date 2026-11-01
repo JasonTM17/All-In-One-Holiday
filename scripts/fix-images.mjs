@@ -117,6 +117,7 @@ if (process.argv.includes("--promote")) {
     const w = stem === "hero" ? 1920 : 960;
     const buf = readFileSync(join(STAGE, `${srcSlug}__${srcStem}__c${n}.webp`));
     const out = join(OUT, slug, `${stem}.webp`);
+    mkdirSync(join(OUT, slug), { recursive: true });
     await sharp(buf).resize(w, null, { withoutEnlargement: true }).webp({ quality: stem === "hero" ? 72 : 74 }).toFile(out);
     const entry = {
       file: `${slug}/${stem}.webp`,
@@ -150,7 +151,7 @@ export const imageCredits: Record<string, ImageCredit[]> = ${JSON.stringify(cred
     seen.add(c.file);
     return true;
   });
-  const short = (s) => (s === "Flickr" ? "Flickr" : "Commons");
+  const short = (s) => (s === "Flickr" ? "Flickr" : s?.startsWith("Web") ? s.replace(/^Web \((.*)\)$/, "$1") : "Commons");
   const md = ["# Image credits", "", "Photos from Wikimedia Commons and Flickr contributors; see per-file license and description pages.", "", "| File | Author | License | Source |", "|---|---|---|---|", ...rows.map((c) => `| ${c.file} | ${c.photographer} | ${c.license} | [${short(c.source)}](${c.photo}) |`), ""].join("\n");
   writeFileSync("public/images/CREDITS.md", md);
   console.log(`promoted ${Object.keys(picks).length}, deduped credit rows -> ${rows.length}`);
