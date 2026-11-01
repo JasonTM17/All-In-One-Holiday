@@ -75,13 +75,6 @@ export default function SearchPalette({ locale }: { locale: Locale }) {
         {/* sr-only below sm keeps an accessible name when only the icon shows;
             visible text stays inside the computed name (WCAG 2.5.3). */}
         <span className="sr-only sm:not-sr-only">{t.nav.search}</span>
-        <kbd
-          aria-hidden="true"
-          className="hidden items-center gap-0.5 rounded-md border border-[var(--color-line)] bg-[var(--color-soft)] px-1.5 py-1 font-sans text-[10px] font-semibold leading-none tracking-wide text-[var(--color-faint)] shadow-[0_1px_0_var(--color-line)] sm:inline-flex"
-        >
-          <span>⌘</span>
-          <span>K</span>
-        </kbd>
       </button>
 
       {open && <PaletteDialog onClose={close} locale={locale} />}
