@@ -193,8 +193,9 @@ export const holidays: Holiday[] = [
     theme: { from: "#312e81", to: "#7c3aed", accent: "#a78bfa" },
     tagline: "Ngày đầu tiên của năm mới dương lịch.",
     history: [
-      "Tết Dương lịch đánh dấu ngày 1 tháng 1 theo lịch Gregorius — lịch quốc tế được áp dụng ở Việt Nam từ đầu thế kỷ 20 và trở thành lịch hành chính của quốc gia sau Cách mạng tháng Tám.",
-      "Dù Tết Nguyên Đán vẫn là lễ lớn nhất, ngày 1/1 đã trở thành dịp nghỉ lễ quốc gia để mọi người tổng kết năm cũ và đặt mục tiêu cho năm mới.",
+      "Tết Dương lịch đánh dấu ngày đầu năm theo lịch Gregory — bộ lịch do Giáo hoàng Gregory XIII ban hành năm 1582 và dần trở thành chuẩn thời gian của nhân loại. Vào đêm giao thừa dương lịch, các thành phố lớn trên thế giới đồng loạt bắn pháo hoa đếm ngược — nghi lễ chung của cả hành tinh.",
+      "Người Việt dùng lịch dương trong đời sống hành chính từ đầu thế kỷ 20. Tết dương lịch được công nhận là ngày nghỉ lễ quốc gia, quy định trong Bộ luật Lao động — người lao động được nghỉ một ngày hưởng nguyên lương mỗi đầu năm mới.",
+      "Dân gian gọi thân mật là 'Tết Tây' để phân biệt với Tết Nguyên Đán. Dù không thiêng liêng bằng Tết ta, đây vẫn là mốc trang trọng để nhìn lại một năm vừa qua, đặt ra những lời hứa và dự định cho năm tới — và là mùa du lịch, tiệc đếm ngược sôi động nhất của giới trẻ.",
     ],
     meaning:
       "Dịp để khép lại một năm, nghỉ ngơi bên gia đình và mở đầu hành trình mới với những dự định tươi sáng.",
@@ -282,8 +283,9 @@ export const holidays: Holiday[] = [
     theme: { from: "#991b1b", to: "#b45309", accent: "#fbbf24" },
     tagline: "Lễ lớn nhất năm của người Việt.",
     history: [
-      "Tết Nguyên Đán là ngày đầu năm âm lịch, có nguồn gốc từ nền văn minh nông nghiệp lúa nước, gắn với chu kỳ của mặt trăng và mùa vụ.",
-      "Qua hàng nghìn năm, Tết trở thành dịp thiêng liêng nhất để con cháu nhớ về tổ tiên, sum họp gia đình và cầu mong một năm mưa thuận gió hòa.",
+      "Tết Nguyên Đán — 'ngày đầu tiên của năm' — mọc rễ từ nền văn minh nông nghiệp lúa nước, khi nông dân trông vào chu kỳ trăng và tiết khí để canh mùa vụ. Theo truyền thuyết, từ đời Hùng Vương thứ sáu đã có cuộc thi dâng lễ vật nơi hoàng tử Lang Liêu sáng tạo bánh chưng bánh giầy tượng trưng đất trời.",
+      "Qua hơn một nghìn năm Bắc thuộc, các nghi lễ Tết Á Đông hòa trộn với phong tục bản địa — từ cúng ông Công ông Táo, mâm ngũ quả, đến tục xông đất, mừng tuổi — sinh ra một cái Tết vừa đậm nét Đông Á vừa rất riêng của người Việt.",
+      "Ngày nay Tết Nguyên Đán là kỳ nghỉ lễ lớn nhất và dài nhất trong năm — hàng chục triệu lượt người về quê sum họp mỗi độ cuối năm. Giao thừa, mừng tuổi, cúng tổ tiên: một hệ nghi lễ khép kín quanh chữ 'sum họp', quả tim văn hóa của cả dân tộc.",
     ],
     meaning:
       "Tết là khoảnh khắc chuyển giao giữa năm cũ và năm mới — thời điểm của đoàn viên, hiếu kính và hy vọng.",
@@ -369,8 +371,9 @@ export const holidays: Holiday[] = [
     theme: { from: "#7f1d1d", to: "#ea580c", accent: "#fb923c" },
     tagline: "Rằm tháng Giêng — đêm trăng đầu năm.",
     history: [
-      "Tết Nguyên Tiêu là đêm rằm đầu tiên của năm âm lịch, gắn với tục thờ Phật, cầu an và hội đèn lồng lâu đời ở các cộng đồng người Việt và Hoa.",
-      "Người Việt có câu \"lễ Phật quanh năm không bằng rằm tháng Giêng\" — ngày này các gia đình thường đi chùa, cúng gia tiên và ăn chè trôi nước.",
+      "Tết Nguyên Tiêu — rằm tháng Giêng — có gốc từ phong tục thắp đèn thờ Phật của Trung Quốc thời Hán Minh Đế, sau này phát triển thành lễ hội đèn lồng rực rỡ của Á Đông.",
+      "Du nhập vào Việt Nam, Nguyên Tiêu hòa nhập sâu với tín ngưỡng cúng rằm bản địa: rằm tháng Giêng là ngày cúng lớn nhất năm trên bàn thờ gia tiên, tổ tiên và các vị thần hộ đồn — chứ không chỉ là lễ hội đèn lồng.",
+      "Dân gian lưu truyền 'mùng một cúng cha, mùng hai cúng mẹ, mùng ba cúng thầy, rằm tháng Giêng cúng tổ tiên'. Ngày nay, phố cổ Hội An và các đền chùa vẫn thắp sáng muôn ngọn đèn rằm — một trong những đêm lễ đẹp nhất của văn hóa Việt.",
     ],
     meaning:
       "Đêm trăng tròn đầu năm tượng trưng cho sự viên mãn; dịp cầu bình an cho cả năm.",
@@ -453,8 +456,9 @@ export const holidays: Holiday[] = [
     theme: { from: "#9f1239", to: "#e11d48", accent: "#fda4af" },
     tagline: "Ngày của những lời yêu thương.",
     history: [
-      "Valentine gắn với Thánh Valentino thế kỷ III — người được truyền lại đã bí mật chủ hôn cho các đôi tình nhân thời La Mã cấm kết hôn.",
-      "Tại Việt Nam, ngày 14/2 trở thành dịp phổ biến để các cặp đôi trao quà, hoa hồng và sô-cô-la cho nhau.",
+      "Lễ Tình nhân gắn với thánh Valentine — linh mục sống ở Rôma thế kỷ 3. Theo truyền thuyết, ông đã bí mật làm lễ cưới cho các đôi trai gái khi hoàng đế Claudius II cấm thanh niên kết hôn, và bị hành hình ngày 14/2.",
+      "Đến năm 496, Giáo hoàng Gelasius I chính thức đặt lễ thánh Valentine ngày 14/2. Từ thế kỷ 14, nhà thơ Geoffrey Chaucer gắn ngày này với mùa tình của chim và của người — mầm của phong tục gửi thư tình đầu tiên.",
+      "Thế kỷ 19, nước Anh sản xuất hàng loạt thiệp Valentine in công nghiệp — phong tục lan khắp phương Tây rồi cả thế giới. Vào Việt Nam từ những năm 1990–2000 cùng đợt sóng hội nhập, 14/2 nhanh chóng trở thành ngày hoa hồng và chocolate náo nhiệt nhất năm của các đôi trẻ.",
     ],
     meaning: "Dịp để nói ra điều khó nói — một lời yêu thương đúng lúc đáng giá hơn mọi món quà.",
     traditions: [
@@ -543,8 +547,9 @@ export const holidays: Holiday[] = [
     theme: { from: "#be185d", to: "#db2777", accent: "#f9a8d4" },
     tagline: "Tôn vinh phái đẹp trên toàn thế giới.",
     history: [
-      "Ngày 8/3 bắt nguồn từ phong trào đấu tranh của công nhân dệt nữ ở New York đầu thế kỷ 20 và được Liên Hợp Quốc tổ chức kỷ niệm lần đầu năm 1975.",
-      "Ở Việt Nam, ngày này còn gắn với khởi nghĩa Hai Bà Trưng — biểu tượng anh dũng của phụ nữ Việt từ thời Bắc thuộc.",
+      "Ngày Quốc tế Phụ nữ khởi nguồn từ làn sóng đấu tranh của công nhân dệt may Mỹ — đặc biệt cuộc biểu tình của hàng nghìn nữ công nhân New York năm 1908 đòi giờ làm việc ngắn hơn, lương công bằng và quyền bầu cử.",
+      "Năm 1910, tại Đại hội phụ nữ xã hội chủ nghĩa quốc tế ở Copenhagen, Clara Zetkin đề nghị chọn một ngày chung để tôn vinh phụ nữ toàn thế giới. Lần đầu tiên, ngày 19/3/1911, trên một triệu người ở Áo, Đan Mạch, Đức và Thụy Sĩ đã cùng xuống đường.",
+      "Năm 1975, Liên Hiệp Quốc chính thức công nhận 8/3 là Ngày Quốc tế Phụ nữ. Ở Việt Nam, ngày này còn gắn với truyền thống tưởng nhớ Hai Bà Trưng — hai người phụ nữ đầu tiên của lịch sử dân tộc khởi nghĩa dựng nước.",
     ],
     meaning: "Ngày để tôn vinh công lao, sự hy sinh và quyền bình đẳng của phụ nữ trong gia đình lẫn xã hội.",
     traditions: [
@@ -629,8 +634,9 @@ export const holidays: Holiday[] = [
     theme: { from: "#854d0e", to: "#166534", accent: "#fbbf24" },
     tagline: "Dù ai đi ngược về xuôi, nhớ ngày Giỗ Tổ mùng mười tháng ba.",
     history: [
-      "Giỗ Tổ Hùng Vương tưởng nhớ các vua Hùng — những người có công dựng nước Văn Lang, nhà nước đầu tiên của dân tộc Việt Nam.",
-      "Từ năm 2007, ngày 10/3 âm lịch trở thành ngày nghỉ lễ quốc gia; lễ hội chính diễn ra tại Đền Hùng, Phú Thọ với nghi thức rước kiệu và dâng hương long trọng.",
+      "Giỗ Tổ Hùng Vương tưởng nhớ các vua Hùng — những người có công dựng nước Văn Lang, nhà nước đầu tiên của dân tộc Việt Nam. Theo truyền thuyết, mười tám đời vua Hùng đặt nền móng cho một dân tộc độc lập từ những ngày đầu lập quốc.",
+      "Nơi thờ tự chính là Đền Hùng trên núi Nghĩa Lĩnh, Phú Thọ — được ví như 'cõi phát tích' của người Việt. Từ năm 1917, triều Nguyễn đã định chế lễ hội Giỗ Tổ như một ngày lễ chính thức của quốc gia.",
+      "Năm 2007, Quốc hội quyết định đưa mùng 10 tháng 3 âm lịch vào danh sách ngày nghỉ lễ quốc gia — hàng triệu người mỗi năm về Phú Thọ dâng hương, trong khi con cháu khắp nơi đọc câu ca 'Dù ai đi ngược về xuôi / Nhớ ngày Giỗ Tổ mùng mười tháng ba'.",
     ],
     meaning: "Uống nước nhớ nguồn — ngày để mỗi người Việt hướng về cội nguồn dân tộc.",
     traditions: [
@@ -710,8 +716,9 @@ export const holidays: Holiday[] = [
     theme: { from: "#3f6212", to: "#0f766e", accent: "#a3e635" },
     tagline: "Tiết trời trong sáng — mùa tảo mộ nhớ nguồn.",
     history: [
-      "Tết Thanh minh rơi vào tiết Thanh minh — tiết khí thứ năm trong 24 tiết khí, khi tiết trời đầu xuân quay sang trong lành mát mẻ, thường vào ngày 4–6 tháng 4 dương lịch.",
-      "Bắt nguồn từ tục tảo mộ thời xuân của Trung Hoa, Tết Thanh minh ở Việt Nam gắn với việc sửa sang mộ phần tổ tiên, dâng hương hoa trái — được Nguyễn Du khắc vào thơ qua câu 'Thanh minh trong tiết tháng ba'.",
+      "Thanh minh là tiết khí thứ năm trong hệ 24 tiết khí của lịch âm — khoảng 4–6/4 dương, khi 'trời quang đất sạch', khí trời trong lành nhất sau mùa đông. Từ nghìn năm trước, người xưa đã xem đây là mốc bắt đầu mùa canh tác mới.",
+      "Phong tục tảo mộ — đi thăm, quét dọn và dâng hương các ngôi mộ tổ tiên — vốn từ lễ Hàn thực Trung Quốc, sau sáp nhập vào tiết Thanh minh. Du nhập vào Việt Nam, nó hòa với tín ngưỡng thờ cúng tổ tiên bản địa thành 'Tết tảo mộ' rất riêng.",
+      "Ở miền quê Việt Nam, Tết Thanh minh còn là hội của họ tộc: cả dòng họ cùng về quê dọn mộ, sửa mả, gặp gỡ đầu xuân. Với nhiều gia đình, đây là dịp sum họp thứ hai trong năm — chỉ sau Tết Nguyên Đán.",
     ],
     meaning: "Ngày của sự tưởng nhớ giữa tiết xuân trong sáng — khi con cháu quay về quét dọn mồ mả, thắp hương và nối lại sợi dây với tổ tiên.",
     traditions: [
@@ -792,8 +799,9 @@ export const holidays: Holiday[] = [
     theme: { from: "#b91c1c", to: "#b45309", accent: "#fde047" },
     tagline: "Ngày đất nước thống nhất.",
     history: [
-      "Ngày 30/4/1975, chiến dịch Hồ Chí Minh kết thúc thắng lợi — miền Nam hoàn toàn giải phóng, đất nước thống nhất sau hơn 20 năm chia cắt.",
-      "Đây là một trong những ngày lễ lớn nhất của Việt Nam, thường được kỷ niệm bằng lễ diễu binh, pháo hoa và các hoạt động về nguồn.",
+      "Ngày 30/4/1975, xe tăng của quân giải phóng tiến vào Dinh Độc Lập. Trưa cùng ngày, Tổng thống Dương Văn Minh tuyên bố đầu hàng vô điều kiện — chấm dứt 21 năm chia cắt hai miền Nam Bắc.",
+      "Đây là mốc kết thúc của chiến dịch Hồ Chí Minh — chiến dịch quân sự lớn nhất kéo dài 55 ngày đêm quyết định kết quả cả cuộc chiến tranh. Từ đó, đất nước thống nhất về lãnh thổ.",
+      "Năm 1976, Quốc hội khóa VI chính thức đổi tên nước thành Cộng hòa xã hội chủ nghĩa Việt Nam và đưa Sài Gòn thành Thành phố Hồ Chí Minh. Ngày 30/4 từ đó trở thành ngày lễ lớn — dịp tưởng nhớ hòa bình và những hy sinh để đất nước là một.",
     ],
     meaning: "Ngày của độc lập, thống nhất và lòng biết ơn với những thế hệ đã hy sinh cho đất nước.",
     traditions: [
@@ -867,8 +875,9 @@ export const holidays: Holiday[] = [
     theme: { from: "#9a3412", to: "#0369a1", accent: "#fb923c" },
     tagline: "Tôn vinh người lao động toàn cầu.",
     history: [
-      "Ngày 1/5 khởi nguồn từ phong trào đòi ngày làm 8 giờ của công nhân Chicago năm 1886, trở thành ngày quốc tế đoàn kết của giai cấp công nhân.",
-      "Ở Việt Nam, đây là ngày nghỉ lễ quốc gia — thường nối liền ngày 30/4 thành kỳ nghỉ dài đầu hè.",
+      "Ngày 1/5 tưởng nhớ cuộc đấu tranh của công nhân Chicago năm 1886 — khi hàng trăm nghìn người xuống đường đòi ngày làm việc 8 giờ, đỉnh điểm là biến cố Haymarket đầy bi thương.",
+      "Năm 1889, Quốc tế thứ hai tuyên bố lấy ngày 1/5 hàng năm làm Ngày Quốc tế Lao động — ngày đoàn kết của người lao động toàn thế giới. Lễ này nhanh chóng lan khắp châu Âu, Á, Mỹ.",
+      "Ở Việt Nam, ngày 1/5 được tổ chức từ những năm 1930 trong phong trào công nhân. Ngày nay, Quốc tế Lao động nối liền với ngày Giải phóng 30/4 thành kỳ nghỉ dài nhất mùa xuân — vừa là ngày hội của người lao động, vừa là dịp gia đình đi du lịch.",
     ],
     meaning: "Ngày ghi nhận giá trị của lao động và quyền lợi chính đáng của người làm việc.",
     traditions: [
@@ -943,8 +952,9 @@ export const holidays: Holiday[] = [
     theme: { from: "#be123c", to: "#db2777", accent: "#fda4af" },
     tagline: "Một ngày trong năm dành riêng cho mẹ.",
     history: [
-      "Ngày của Mẹ hiện đại do Anna Jarvis khởi xướng ở Mỹ năm 1908 và trở thành ngày lễ chính thức năm 1914 — Chủ nhật thứ hai của tháng 5.",
-      "Tại Việt Nam, ngày này ngày càng phổ biến như một dịp để con cái bày tỏ lòng hiếu thảo bên cạnh lễ Vu Lan truyền thống.",
+      "Ngày của Mẹ do Anna Jarvis khởi xướng tại Mỹ — năm 1908, bà tổ chức lễ tưởng niệm mẹ mình tại nhà thờ Grafton, West Virginia, rồi vận động để cả nước có một ngày chung tôn vinh mẹ.",
+      "Năm 1914, Tổng thống Woodrow Wilson ký tuyên bố lấy Chủ nhật thứ hai của tháng 5 làm Ngày của Mẹ chính thức của Hoa Kỳ. Từ đó phong tục lan ra hơn 50 quốc gia — mỗi nước một màu sắc riêng nhưng cùng chung lòng biết ơn.",
+      "Ở Việt Nam, Ngày của Mẹ du nhập trong thời đại hội nhập và gặp ngay mạch nguồn đạo hiếu sẵn có — từ lễ Vu Lan cài hoa trắng đỏ đến câu ca 'Công cha như núi Thái Sơn'. Ngày này là dịp con cái gửi hoa, quà và những lời chúc đến mẹ.",
     ],
     meaning: "Dịp để nói lời yêu thương với mẹ — người luôn đứng sau mọi bước đi của ta.",
     traditions: [
@@ -1019,8 +1029,9 @@ export const holidays: Holiday[] = [
     theme: { from: "#0369a1", to: "#b45309", accent: "#fde047" },
     tagline: "Ngày của trẻ thơ.",
     history: [
-      "Ngày Quốc tế Thiếu nhi được thiết lập năm 1949 để bảo vệ quyền trẻ em; Việt Nam tổ chức kỷ niệm từ rất sớm, từ thời Bác Hồ gửi thư chúc Tết thiếu nhi.",
-      "Mỗi năm ngày 1/6, trường học và các tổ chức tổ chức vui chơi, văn nghệ và trao quà cho thiếu nhi khắp cả nước.",
+      "Ngày Quốc tế Thiếu nhi được chọn từ Đại hội thế giới về phúc lợi trẻ em ở Geneva năm 1925 — lần đầu tiên các quốc gia cùng tuyên bố trẻ em có quyền được chăm sóc, giáo dục và bảo vệ.",
+      "Năm 1949, Đại hội phụ nữ quốc tế ở Moskva quyết định lấy ngày 1/6 làm Ngày Quốc tế Thiếu nhi — đồng thời tưởng nhớ thảm kịch Lidice, ngôi làng bị phát xít hủy diệt cùng tất cả trẻ em trong chiến tranh.",
+      "Ở Việt Nam, Bác Hồ từ năm 1949 đã gửi thư cho thiếu nhi nhân mỗi dịp Tết Trung thu và năm học mới — 'non sông Việt Nam có trở nên tươi đẹp hay không chính là nhờ công học tập của các cháu'. Ngày 1/6 là mùa quà, múa hát và hội diễn của trẻ em cả nước.",
     ],
     meaning: "Ngày nhắc nhở xã hội bảo vệ, yêu thương và đầu tư cho thế hệ tương lai.",
     traditions: [
@@ -1095,8 +1106,9 @@ export const holidays: Holiday[] = [
     theme: { from: "#065f46", to: "#c2410c", accent: "#fdba74" },
     tagline: "Tổ ấm của mỗi người Việt.",
     history: [
-      "Ngày Gia đình Việt Nam được thiết lập năm 2001 nhằm tôn vinh vị trí của gia đình trong đời sống xã hội và gìn giữ những giá trị văn hóa gia đình truyền thống.",
-      "Mỗi năm ngày này có nhiều hoạt động tuyên truyền, vinh danh gia đình văn hóa tiêu biểu trên cả nước.",
+      "Ngày Gia đình Việt Nam được chọn vào ngày 28/6 hàng năm theo quyết định của Thủ tướng năm 2001 — nhằm tôn vinh gia đình như tế bào của xã hội, nguồn nuôi dưỡng nhân cách và bản sắc dân tộc.",
+      "Qua hàng nghìn năm, gia đình Việt Nam là nơi truyền tục đạo hiếu — 'Công cha như núi Thái Sơn, nghĩa mẹ như nước trong nguồn chảy ra' — và là đơn vị kinh tế, giáo dục, tâm linh quan trọng nhất của cộng đồng.",
+      "Ngày nay, Ngày Gia đình được tổ chức bằng những chương trình tôn vinh gia đình văn hóa, gia đình hạnh phúc khắp cả nước — lời nhắc rằng trong mọi biến đổi, bữa cơm sum họp vẫn là trái tim của đời sống Việt.",
     ],
     meaning: "Nhắc mỗi người trân trọng tổ ấm của mình — nơi bắt đầu và quay về của mọi hành trình.",
     traditions: [
@@ -1171,8 +1183,9 @@ export const holidays: Holiday[] = [
     theme: { from: "#881337", to: "#292524", accent: "#fca5a5" },
     tagline: "Đền ơn đáp nghĩa.",
     history: [
-      "Ngày 27/7 được chọn từ năm 1947 để tưởng nhớ những người hy sinh, bị thương vì độc lập dân tộc — khởi nguồn từ \"Ngày Thương binh toàn quốc\".",
-      "Đây là dịp cả nước thực hiện chính sách \"uống nước nhớ nguồn\", thăm hỏi gia đình liệt sĩ, thương binh và người có công.",
+      "Ngày Thương binh Liệt sĩ bắt đầu từ năm 1947 — giữa cuộc kháng chiến chống Pháp, Chính phủ chọn ngày 27/7 để toàn dân nhớ đến những người đã ngã xuống vì độc lập.",
+      "Từ 'Ngày Thương binh' ban đầu, ngày 27/7 mở rộng thành ngày tri ân chung cho thương binh, bệnh binh, gia đình liệt sĩ và những người có công với cách mạng — triệu gia đình đã hy sinh người thân qua hai cuộc chiến tranh.",
+      "Câu 'uống nước nhớ nguồn' trở thành tinh thần của ngày lễ: nến tri ân thắp khắp nghĩa trang liệt sĩ, những đoàn về nguồn, những phần quà gửi đến mẹ Việt Nam anh hùng — lời cảm ơn của một dân tộc biết nhớ ơn.",
     ],
     meaning: "Ngày tri ân những người đã đổi máu xương cho hòa bình hôm nay.",
     traditions: [
@@ -1256,8 +1269,9 @@ export const holidays: Holiday[] = [
     theme: { from: "#4c1d95", to: "#b45309", accent: "#fcd34d" },
     tagline: "Mùa báo hiếu.",
     history: [
-      "Lễ Vu Lan bắt nguồn từ câu chuyện tôn giả Mục Kiền Liên cứu mẹ, trở thành mùa báo hiếu lớn nhất của Phật giáo và đạo lý Việt Nam.",
-      "Ngày rằm tháng 7 âm lịch, người Việt cài hoa hồng lên áo — đỏ nếu còn mẹ, trắng nếu mẹ đã mất — và đi chùa cầu nguyện cho cha mẹ.",
+      "Lễ Vu Lan bắt nguồn từ câu chuyện tôn giả Mục Kiền Liên — người con đại hiếu đã vượt qua cả địa ngục để cứu mẹ khỏi kiếp đói khổ, và được Đức Phật chỉ cách cúng chúng tăng ngày rằm tháng 7.",
+      "Du nhập vào Việt Nam từ hơn nghìn năm trước, Vu Lan hòa với đạo lý hiếu bản địa để trở thành mùa báo hiếu lớn nhất năm — song hành cùng lễ xá tội vong nhân của dân gian.",
+      "Tục cài bông hồng lên áo do Thiền sư Thích Nhất Hạnh khởi xướng ở Huế những năm 1960: đỏ nếu còn mẹ, trắng nếu mẹ đã mất. Một bông hoa nhỏ trên ngực áo đã trở thành nghi thức cảm động nhất của mùa hiếu hạnh Việt.",
     ],
     meaning: "Mùa để nhớ về công ơn cha mẹ và báo hiếu những người sinh thành.",
     traditions: [
@@ -1347,8 +1361,9 @@ export const holidays: Holiday[] = [
     theme: { from: "#b91c1c", to: "#b45309", accent: "#fde047" },
     tagline: "Ngày nước Việt Nam ra đời.",
     history: [
-      "Ngày 2/9/1945, Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập tại quảng trường Ba Đình, khai sinh nước Việt Nam Dân chủ Cộng hòa.",
-      "Quốc khánh là ngày lễ lớn nhất của đất nước — dịp tưởng nhớ công ơn dựng nước và tự hào về độc lập, tự do.",
+      "Ngày 2/9/1945, Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập tại quảng trường Ba Đình trước hàng trăm nghìn người dân — khai sinh nước Việt Nam Dân chủ Cộng hòa, nhà nước dân chủ nhân dân đầu tiên ở Đông Nam Á.",
+      "Bản Tuyên ngôn mở đầu bằng những lời bất hủ của Tuyên ngôn Độc lập Hoa Kỳ 1776 và Tuyên ngôn Nhân quyền Pháp 1791 — 'tất cả các dân tộc trên thế giới đều sinh ra bình đẳng'. Sau gần một thế kỷ thuộc địa, Việt Nam chính thức lấy lại độc lập.",
+      "Quốc khánh 2/9 là ngày lễ lớn nhất của đất nước — dịp diễu hành, bắn pháo hoa và tưởng nhớ những người đã ngã xuống cho nền độc lập hôm nay.",
     ],
     meaning: "Ngày của niềm tự hào dân tộc và khát vọng hòa bình, phát triển.",
     traditions: [
@@ -1435,8 +1450,9 @@ export const holidays: Holiday[] = [
     theme: { from: "#7c2d12", to: "#7c3aed", accent: "#fdba74" },
     tagline: "Tết đoàn viên dưới ánh trăng.",
     history: [
-      "Tết Trung thu là rằm tháng 8 âm lịch — lễ hội mùa thu gắn với tích chú Cuội, chị Hằng và phong tục ngắm trăng phá cỗ.",
-      "Ở Việt Nam, Trung thu còn được gọi là \"Tết của thiếu nhi\" — trẻ em rước đèn, múa lân và phá cỗ bánh trung thu.",
+      "Tết Trung thu — rằm tháng 8 âm lịch — xuất phát từ tục ngắm trăng mừng mùa của nền văn minh lúa nước Á Đông, khi vụ thu hoàng thạch kết thúc và trăng đẹp nhất năm.",
+      "Trong khi các nước chịu ảnh hưởng Trung Hoa coi Trung thu là lễ của người lớn và đoàn viên gia đình, Việt Nam đã làm nên một nét rất riêng: đây là 'Tết của trẻ em' — đêm rước đèn, múa lân, phá cỗ do các cháu làm chủ.",
+      "Bánh trung thu nướng và dẻo, đèn ông sao, chị Hằng và chú Cuội trên mặt trăng — bộ ký hiệu văn hóa gắn với tuổi thơ của mọi thế hệ Việt Nam.",
     ],
     meaning: "Đêm trăng tròn của sự sum họp — người lớn nhớ quê, trẻ nhỏ mong đèn ông sao.",
     traditions: [
@@ -1519,8 +1535,9 @@ export const holidays: Holiday[] = [
     theme: { from: "#be123c", to: "#a21caf", accent: "#f9a8d4" },
     tagline: "Tôn vinh phụ nữ Việt Nam.",
     history: [
-      "Ngày 20/10/1930, Hội Phụ nữ phản đế Việt Nam — tiền thân của Hội Liên hiệp Phụ nữ Việt Nam — chính thức thành lập.",
-      "Từ đó, ngày 20/10 trở thành Ngày Phụ nữ Việt Nam và ngày truyền thống của Hội LHPN, dịp cả nước tôn vinh phụ nữ trong gia đình và xã hội.",
+      "Ngày Phụ nữ Việt Nam 20/10 kỷ niệm ngày thành lập Hội Phụ nữ phản đế Việt Nam — tiền thân của Hội Liên hiệp Phụ nữ Việt Nam ngày nay — vào năm 1930, tổ chức phụ nữ quần chúng đầu tiên của dân tộc.",
+      "Lịch sử phụ nữ Việt Nam có truyền thống anh hùng riêng từ thuở Hai Bà Trưng, Bà Triệu — những người phụ nữ đầu tiên đứng lên chống ngoại xâm. Tổ chức năm 1930 là mắt xích tiếp nối truyền thống ấy vào thời đại mới.",
+      "Khác với 8/3 quốc tế, 20/10 là ngày riêng của phụ nữ Việt — hoa, quà và lời chúc từ đàn ông gửi đến mẹ, vợ, chị em, đồng nghiệp. Đây là ngày thị trường hoa sôi động nhất năm của cả nước.",
     ],
     meaning: "Ngày riêng của phụ nữ Việt — tri ân sự hy sinh, bản lĩnh và vẻ đẹp của một nửa thế giới.",
     traditions: [
@@ -1596,8 +1613,9 @@ export const holidays: Holiday[] = [
     theme: { from: "#065f46", to: "#4d7c0f", accent: "#bef264" },
     tagline: "Tôn sư trọng đạo.",
     history: [
-      "Ngày 20/11 được chọn làm Ngày Nhà giáo Việt Nam từ năm 1982, nhằm tôn vinh những người làm nghề trồng người.",
-      "Mỗi năm ngày này, học sinh cả nước tổ chức văn nghệ, thăm hỏi và tặng hoa tri ân thầy cô — trở thành một nét đẹp văn hóa hiếu học.",
+      "Ngày Nhà giáo Việt Nam 20/11 được chọn để tôn vinh nghề dạy học — nghề 'gieo chữ' được coi là quý nhất trong truyền thống trọng đạo của dân tộc, khi thầy giáo đứng hàng tôn chỉ chỉ sau vua và cha mẹ: 'Quân, sư, phụ'.",
+      "Ngày lễ được tổ chức lần đầu tiên vào năm 1982 theo quyết định của chính phủ, sau đề nghị của ngành giáo dục — và từ đó trở thành ngày hội lớn nhất của giới giáo viên.",
+      "Mỗi 20/11, hàng triệu học sinh — từ trường làng đến đại học — về thăm thầy cô cũ với hoa và thiệp tay. Trong mỗi gia đình Việt, 'Tết thầy' là dịp chung để nói lời cảm ơn những người lái đò tri thức.",
     ],
     meaning: "Nhất tự vi sư, bán tự vi sư — ngày để nhớ ơn những người đã dìu dắt ta.",
     traditions: [
@@ -1672,8 +1690,9 @@ export const holidays: Holiday[] = [
     theme: { from: "#14532d", to: "#a16207", accent: "#fde047" },
     tagline: "Ngày truyền thống quân đội anh hùng.",
     history: [
-      "Ngày 22/12/1944, Đội Việt Nam Tuyên truyền Giải phóng quân — tiền thân của Quân đội nhân dân Việt Nam — được thành lập tại Cao Bằng.",
-      "Đây là ngày truyền thống của Quân đội nhân dân Việt Nam và cũng là Ngày hội Quốc phòng toàn dân.",
+      "Ngày 22/12/1944, tại khu rừng Trần Hưng Đạo ở Cao Bằng, Đội Việt Nam Tuyên truyền Giải phóng quân được thành lập — đội quân đầu tiên của dân tộc, chỉ 34 người dưới sự chỉ huy của Võ Nguyên Giáp.",
+      "Chỉ vài ngày sau, đội quân non trẻ đánh thắng hai trận đầu tiên tại Phai Khắt và Nà Ngần — khởi đầu cho một hành trình vươn tới chiến thắng Điện Biên Phủ và ngày thống nhất đất nước.",
+      "Từ ngày thành lập, 22/12 còn được gọi là Ngày hội Quốc phòng toàn dân — dịp tưởng nhớ người lính Việt Nam qua các thế hệ, từ chiến hào đến giữ gìn hòa bình Liên Hiệp Quốc hôm nay.",
     ],
     meaning: "Tri ân những người lính đã và đang giữ gìn độc lập, chủ quyền của Tổ quốc.",
     traditions: [
@@ -1750,8 +1769,9 @@ export const holidays: Holiday[] = [
     theme: { from: "#14532d", to: "#b91c1c", accent: "#fca5a5" },
     tagline: "Mùa an lành và ấm áp nhất năm.",
     history: [
-      "Giáng sinh kỷ niệm ngày sinh của Chúa Giêsu, từ lâu đã trở thành lễ hội mùa đông phổ biến toàn cầu vượt ra ngoài tôn giáo.",
-      "Tại Việt Nam, Giáng sinh là mùa rực rỡ nhất trong năm — nhà thờ sáng đèn, phố phường trang trí và người trẻ tụ họp chơi Noel.",
+      "Giáng sinh kỷ niệm ngày sinh của Chúa Giêsu — được Giáo hội chọn vào ngày 25/12 từ thế kỷ 4 ở Rôma, trùng với những lễ hội mùa đông cổ xưa hơn của châu Âu.",
+      "Đạo Công giáo vào Việt Nam từ thế kỷ 16 qua các nhà truyền giáo phương Tây — trong đó có Alexandre de Rhodes, người đặt nền móng cho chữ quốc ngữ đang dùng hôm nay. Cộng đồng Công giáo Việt hiện là một trong những cộng đồng đông nhất châu Á.",
+      "Ở Việt Nam, Giáng sinh đã vượt ra ngoài nghi lễ tôn giáo: đêm 24/12, nhà thờ Đức Bà ở Sài Gòn, Nhà thờ Lớn Hà Nội và phố Hàng Mã ngập trong ánh đèn — mùa lễ chung của cả người theo đạo lẫn giới trẻ.",
     ],
     meaning: "Mùa của sự cho đi, an lành và những điều ấm áp bên người thân.",
     traditions: [
@@ -1840,9 +1860,9 @@ export const holidays: Holiday[] = [
     motif: "home",
     tagline: "Tiễn Táo quân về trời.",
     history: [
-      "Táo quân — thần bếp canh giữ bếp lửa và chứng kiến mọi việc trong nhà — theo truyền thuyết gồm hai ông Táo và một bà Táo, từ câu chuyện Trọng Cao, Thị Nhi và Phạm Lang trong văn hóa dân gian Việt.",
-      "Ngày 23 tháng Chạp, người Việt cúng tiễn Táo quân cưỡi cá chép về trời báo cáo việc thiện ác trong nhà với Ngọc Hoàng, đánh dấu bắt đầu loạt lễ cúng cuối năm trước Tết.",
-      "Phong tục thả cá chép xuống ao hồ, bờ sông sau lễ cúng là nét độc đáo của Việt Nam — khác với nhiều nước Đông Á không có nghi lễ này.",
+      "Ông Công Ông Táo — lễ tiễn các vị Táo quân về trời ngày 23 tháng Chạp âm lịch — có gốc từ tục thờ thần bếp lâu đời của Á Đông: gia thần trông coi bếp lửa, ghi lại thiện ác của cả nhà suốt một năm.",
+      "Theo truyền thuyết Việt, Táo quân gồm ba vị — hai ông một bà, hóa thân từ chuyện tình của vợ chồng Thị Nhi, Trọng Cao và Phạm Lang — cùng được phong 'Định phúc Táo quân' trông giữ hạnh phúc mỗi gia đình.",
+      "Người Việt mua cá chép phóng sinh để Táo quân cưỡi lên trời 'báo cáo' Ngọc Hoàng — nghi lễ báo hiếu và làm sạch nhà cửa cuối năm, mở đầu chuỗi ngày Tết truyền thống.",
     ],
     meaning:
       "Ông Công Ông Táo là lễ chuyển giao giữa năm cũ và năm mới — ngày gia đình dọn bếp, tưởng nhớ ngọn lửa ấm cả năm qua, và tin rằng điều thiện sẽ được mang lên trời. Đó cũng là lời nhắc sống tử tế trong chính nhà mình.",
@@ -1924,9 +1944,9 @@ export const holidays: Holiday[] = [
     motif: "lotus",
     tagline: "Tết bánh trôi bánh chay.",
     history: [
-      "Hàn thực (tiết ăn lạnh) bắt nguồn từ tục cấm lửa tưởng nhớ Giới Tử Thôi thời Xuân Thu Trung Quốc, sau được dân gian Việt hóa thành ngày 3/3 âm lịch.",
-      "Ở Việt Nam, ý nghĩa chuyển thành tết ăn chay thanh tịnh với bánh trôi, bánh chay — hai chiếc bánh biểu trưng thiên địa, tổ tiên — không gắn tục cấm lửa.",
-      "Ngày 3/3 âm lịch được dân gian gọi là 'Tết Hàn thực' — tết bánh trôi bánh chay, gắn với phong tục cúng tổ tiên và ăn chay đầu xuân.",
+      "Tết Hàn thực — ngày 3/3 âm lịch — bắt nguồn từ câu chuyện Giới Tử Thôi, trung thần theo Tấn Văn Công lưu vong mười chín năm, chịu đói chết trên núi Miên Sơn. Vua thương, lệnh thiên hạ cấm đốt lửa ngày đó — lễ 'thực lạnh' ra đời.",
+      "Ở Trung Quốc, Hàn thực sau sáp nhập vào tiết Thanh minh; nhưng vào Việt Nam, lễ này biến hóa thành một phong tục rất riêng: ngày ăn bánh trôi bánh chay — những chiếc bánh trắng nổi trên nước đường trong veo.",
+      "Câu ca 'Tháng ba rằm chị trả công chưa cho em' gợi nhớ những độ rằm đầu xuân. Hàn thực Việt Nam hôm nay là ngày nhỏ ấm cúng để dâng bánh lên bàn thờ và cùng nhau ăn chè trôi nước đầu mùa.",
     ],
     meaning:
       "Tết Hàn thực là ngày ăn chay, nhớ về cội nguồn và thực hành sự thanh tịnh giữa đời sống năm mới — một nốt lặng trong dải lễ hội sau Tết, khi người ta dâng lên tổ tiên những viên bánh tròn ngọt thanh.",
@@ -2005,9 +2025,9 @@ export const holidays: Holiday[] = [
     motif: "wheat",
     tagline: "Giờ ngọ chính vọng — tết giết sâu bọ.",
     history: [
-      "Đoan Ngọ mùng 5 tháng 5 âm lịch đến từ văn hóa Trung Hoa (gắn với tưởng nhớ Khuất Nguyên) nhưng được dân gian Việt biến thành 'tết giết sâu bọ'.",
-      "Người Việt tin giữa ngọ ngày 5/5 âm lịch sức nóng đỉnh điểm khiến dịch bệnh lộ ra ngoài — ăn hoa quả chua, rượu nếp để 'giết sâu bọ' trong bụng.",
-      "Ngày này còn là dịp hái thuốc bắc 'giờ ngọ chính vọng' — cỏ cây được cho mạnh dược tính nhất trong năm.",
+      "Tết Đoan Ngọ — mùng 5 tháng 5 âm lịch — có gốc từ lễ Trùng Ngũ của Trung Quốc: ngày 'ngọ' (giữa trưa) được coi là lúc khí độc của mùa hè mạnh nhất năm, khi côn trùng và bệnh dịch dễ sinh.",
+      "Vào Việt Nam, lễ này trở thành 'Tết giết sâu bọ' độc đáo: người ta ăn trái cây chua đầu mùa, rượu nếp, bánh tro — tin rằng vị chua sẽ 'giết' sâu bọ trong bụng và trừ tà cho cả năm.",
+      "Nông dân cũng hái lá thuốc trưa Đoan Ngọ — ngày được coi là lúc cây cỏ đậm dược tính nhất. Từ lễ trừ tà xưa, Đoan Ngọ hôm nay là dịp gia đình ăn trái cây đầu mùa và nhắc nhau giữ gìn sức khỏe vào hè.",
     ],
     meaning:
       "Tết Đoan Ngọ là cách dân gian Việt đối phó với chuyển mùa hè: một ngày thanh lọc cơ thể, bảo vệ sức khỏe, đồng thời gắn với bó mẹ và những đứa trẻ — vì tục giết sâu bọ cũng là tục giữ gìn sinh khí cho nhà.",
@@ -2087,9 +2107,9 @@ export const holidays: Holiday[] = [
     motif: "carnation",
     tagline: "Tri ân người chữa bệnh.",
     history: [
-      "Ngày 27/2/1955, Bác Hồ gửi 'Thư gửi cán bộ y tế' với lời dạy nổi tiếng: 'Lương y như từ mẫu' — nền tảng đạo đức nghề thầy thuốc Việt Nam.",
-      "Năm 1970, ngành y tế chọn 27/2 làm Ngày Thầy thuốc Việt Nam để kỷ niệm bức thư — không phải ngày nghỉ lễ nhưng được kỷ niệm rộng rãi.",
-      "Ngày lễ tôn vinh bác sĩ, y tá, dược sĩ và cán bộ y tế làm việc âm thầm giữ gìn sức khỏe cộng đồng.",
+      "Ngày Thầy thuốc Việt Nam gắn với bức thư Bác Hồ gửi cán bộ y tế ngày 27/2/1955 — lá thư viết lời nổi tiếng 'Lương y như từ mẫu', căn dặn người thầy thuốc phải thương bệnh nhân như mẹ hiền thương con.",
+      "Trước đó, danh y Hải Thượng Lãn Ông Lê Hữu Trác thế kỷ 18 đã để lại cho nền y học dân tộc bộ 'Hải Thượng y tông tâm lĩnh' — kim chỉ nam về y đức và y thuật mà các thế hệ thầy thuốc Việt học theo.",
+      "Từ 1955, ngày 27/2 trở thành ngày hội của ngành y — dịp tôn vinh những người 'blouse trắng' chăm sóc sức khỏe cả nước, từ phòng khám tỉnh nhỏ đến tuyến đầu chống dịch.",
     ],
     meaning:
       "Ngày Thầy thuốc Việt Nam là ngày cả nước nói lời cảm ơn với người cầm dao mổ, người đêm trực phòng cấp cứu — những nghề đòi hỏi tài năng lẫn lòng nhân hậu. 'Lương y như từ mẫu' là chuẩn mực sống của nghề ấy.",
@@ -2163,9 +2183,9 @@ export const holidays: Holiday[] = [
     motif: "book",
     tagline: "Tri ân người cầm bút.",
     history: [
-      "Ngày 21/6/1925, Nguyễn Ái Quốc cho ra đời báo Thanh Niên tại Quảng Châu, Trung Quốc — tờ báo đầu tiên của cách mạng Việt Nam.",
-      "Từ đó báo chí cách mạng Việt Nam trưởng thành cùng lịch sử độc lập; Bác Hồ từng viết 'Cán bộ báo chí cũng là chiến sĩ cách mạng' — câu nói vẫn là châm ngôn của người làm báo.",
-      "Ngày lễ tôn vinh nhà báo — nghề ghi lại sự thật và đưa tiếng nói nhân dân lên trang giấy.",
+      "Ngày Báo chí Cách mạng Việt Nam kỷ niệm ngày 21/6/1925 — khi Nguyễn Ái Quốc cho ra số đầu tiên của báo Thanh Niên tại Quảng Châu, Trung Quốc: tờ báo cách mạng đầu tiên của dân tộc, in bằng chữ quốc ngữ vừa phổ cập.",
+      "Tờ Thanh Niên vừa là cơ quan tuyên truyền, vừa là 'trường học chính trị' — qua tay các bí mật vận chuyển về nước, đào tạo cả thế hệ cán bộ đầu tiên cho phong trào giành độc lập.",
+      "Từ tờ báo ấy, báo chí Việt Nam phát triển thành hệ thống hàng trăm cơ quan báo chí hôm nay. Ngày 21/6 là dịp tôn vinh phóng viên — người giữ bút lửa của thời đại, từ tuyến đầu chiến trường đến báo điện tử.",
     ],
     meaning:
       "Ngày Báo chí Cách mạng Việt Nam là ngày tôn vinh người làm báo — nghề chạy ngược lũ, chui xuống hầm, ghi chép công tâm. Từ tờ Thanh Niên 1925 đến nghị trường hôm nay, báo chí vẫn là cơ quan của dân chủ xã hội.",
@@ -2241,9 +2261,9 @@ export const holidays: Holiday[] = [
     motif: "heart",
     tagline: "Kính lão đắc thọ.",
     history: [
-      "Ngày 1/10 được Liên Hợp Quốc chọn là Ngày Quốc tế Người cao tuổi từ năm 1991; Việt Nam cũng lấy ngày này làm ngày tôn vinh người già.",
-      "Tinh thần 'kính lão đắc thọ' của dân tộc từ lâu gắn với lễ mừng thọ 70, 80, 90 tuổi trong văn hóa nông nghiệp Việt Nam.",
-      "Ngày lễ nhắc cộng đồng chăm sóc người lớn tuổi — những người đã dựng xây đời sống hôm nay.",
+      "Kính lão là truyền thống ngàn năm của người Việt: triều đình xưa mở 'diên hằng yến' chiêu đãi các cụ cao niên, cấp gậy ngọc tượng trưng sự kính trọng bậc trưởng thượng trong làng xã.",
+      "Ngày 6/6 gắn với phong trào cứu quốc trong kháng chiến — khi cả người già cả nước cũng tham gia hội cứu quốc. Năm 2008, chính phủ chính thức chọn 6/6 làm Ngày Người cao tuổi Việt Nam.",
+      "Cứ đến ngày này, các câu lạc bộ người cao tuổi khắp nước tổ chức chúc thọ, thăm hỏi các cụ neo đơn — ngày để cả xã hội nói lời cảm ơn những người đã sống trọn một đời cho gia đình và Tổ quốc.",
     ],
     meaning:
       "Ngày Người cao tuổi là ngày chúng ta cúi đầu trước những mái tóc bạc: ông bà, cha mẹ — những người đã đi qua chiến tranh, đói khổ, và dựng nên gia đình. 'Kính lão đắc thọ' không phải tục lễ mà là chuẩn sống.",
@@ -2323,9 +2343,9 @@ export const holidays: Holiday[] = [
     motif: "medal",
     tagline: "Tôn vinh khởi nghiệp.",
     history: [
-      "Ngày 13/10 được Thủ tướng quyết định năm 2004 là Ngày Doanh nhân Việt Nam — tôn vinh đội ngũ doanh nhân đóng góp cho kinh tế đất nước.",
-      "Tinh thần doanh nhân Việt gắn với 'thương hiệp văn hóa': buôn bán có đạo đức, giàu có gắn trách nhiệm cộng đồng.",
-      "Từ hội nhập WTO, kinh tế số đến khởi nghiệp — doanh nhân Việt Nam ngày càng khẳng định trên bản đồ khu vực.",
+      "Ngày Doanh nhân Việt Nam 13/10 được thiết lập từ năm 2004 theo quyết định của Thủ tướng — ngày chính thức để tôn vinh cộng đồng doanh nhân sau hai thập kỷ đổi mới.",
+      "Từ khi kinh tế mở cửa năm 1986, doanh nhân Việt Nam — từ những xưởng nhỏ làng nghề đến tập đoàn công nghệ — đã đưa hàng Việt ra khắp thế giới và tạo hàng chục triệu việc làm.",
+      "Ngày này là dịp gặp gỡ giới kinh doanh, vinh danh doanh nhân tiêu biểu và gửi lời chúc đến những người đang khởi nghiệp — cộng đồng được coi là động lực tăng trưởng của đất nước.",
     ],
     meaning:
       "Ngày Doanh nhân Việt Nam là ngày tôn vinh người dám bắt đầu — từ tiểu thương chợ quê đến startup công nghệ. Doanh nhân không chỉ tạo của cải mà tạo việc làm, niềm tin và khí thế của một đất nước đang lớn.",
@@ -2401,8 +2421,9 @@ export const holidays: Holiday[] = [
     theme: { from: "#7f1d1d", to: "#b45309", accent: "#fde047" },
     tagline: "Ngày ra đời của tổ chức lãnh đạo cách mạng Việt Nam.",
     history: [
-      "Ngày 3/2/1930, tại hội nghị do Nguyễn Ái Quốc chủ trì ở Cửu Long (Hồng Kông), ba tổ chức cộng sản — Đông Dương Cộng sản Đảng, An Nam Cộng sản Đảng và Đông Dương Cộng sản Liên đoàn — hợp nhất thành Đảng Cộng sản Việt Nam.",
-      "Tháng 10/1930, Đảng đổi tên thành Đảng Cộng sản Đông Dương; năm 1951 thành Đảng Lao động Việt Nam và từ 1976 trở lại tên Đảng Cộng sản Việt Nam. Ngày 3/2 hằng năm là dịp kỷ niệm trên cả nước.",
+      "Ngày 3/2/1930, tại một hội nghị ở Cửu Long, Hồng Kông, Nguyễn Ái Quốc chủ trì hợp nhất ba tổ chức cộng sản đang tồn tại song song ở Đông Dương thành một đảng duy nhất — Đảng Cộng sản Việt Nam.",
+      "Từ phòng họp nhỏ ở xứ người, đảng non trẻ tổ chức Đại hội lần thứ nhất tại Ma Cao năm 1935, rồi đổi tên thành Đảng Cộng sản Đông Dương — dẫn dắt phong trào giành độc lập qua hai cuộc kháng chiến.",
+      "Ngày 3/2 là dịp ôn lại chặng đường của đảng cầm quyền — một ngày lễ được tổ chức trang trọng trong hệ thống chính trị, với các buổi kỷ niệm, báo cáo thành tựu và hoạt động kết nạp đảng viên mới.",
     ],
     meaning:
       "Dấu mốc thống nhất phong trào cộng sản Việt Nam — từ đây cách mạng có một đảng lãnh đạo duy nhất.",
@@ -2479,8 +2500,9 @@ export const holidays: Holiday[] = [
     theme: { from: "#14532d", to: "#7f1d1d", accent: "#fbbf24" },
     tagline: "Chiến thắng 'lừng lẫy năm châu, chấn động địa cầu'.",
     history: [
-      "Chiến dịch Điện Biên Phủ diễn ra từ 13/3 đến 7/5/1954 — 56 ngày đêm — do Đại tướng Võ Nguyên Giáp làm Tư lệnh kiêm Chính ủy, khép lại bằng cuộc tổng công kích chiếm sở chỉ huy của De Castries.",
-      "Chiều 7/5/1954, lá cờ 'Quyết chiến quyết thắng' tung bay trên nóc hầm De Castries. Chiến thắng buộc Pháp ký Hiệp định Genève ngày 21/7/1954, chấm dứt chiến tranh Đông Dương lần thứ nhất.",
+      "Chiến dịch Điện Biên Phủ diễn ra từ 13/3 đến 7/5/1954 — 55 ngày đêm, đại đoàn quân 308 do tướng Võ Nguyên Giáp chỉ huy đánh bại tập đoàn cứ điểm mạnh nhất của quân viễn chinh Pháp ở lòng chảo đất đỏ Tây Bắc.",
+      "Chiều 7/5/1954, lá cờ 'Quyết chiến quyết thắng' tung bay trên nóc hầm tướng De Castries. Chiến thắng buộc Pháp ký Hiệp định Genève ngày 21/7/1954, chấm dứt chiến tranh Đông Dương lần thứ nhất.",
+      "Điện Biên Phủ đi vào lịch sử thế giới là trận đầu tiên một nước thuộc địa đánh thắng trực diện một cường quốc phương Tây — 'khải hoàn ca' truyền cảm hứng cho phong trào giải phóng khắp Á Phi Mỹ Latin.",
     ],
     meaning:
       "Biểu tượng của ý chí độc lập — trận đánh khiến một cường quốc thực dân phải ngồi vào bàn đàm phán.",
@@ -2556,8 +2578,9 @@ export const holidays: Holiday[] = [
     theme: { from: "#7f1d1d", to: "#166534", accent: "#fbbf24" },
     tagline: "Ngày sinh của Người — Bác Hồ trong lòng dân tộc.",
     history: [
-      "Hồ Chí Minh sinh ngày 19/5/1890 tại làng Hoàng Trù, xã Kim Liên, huyện Nam Đàn, tỉnh Nghệ An — tên khai sinh Nguyễn Sinh Cung, sau đổi Nguyễn Tất Thành, Nguyễn Ái Quốc.",
-      "Năm 1911 Người rời Bến Nhà Rồng đi tìm đường cứu nước. Ngày 19/5 trở thành dịp cả nước tưởng nhớ Người — với lễ viếng lăng, dâng hoa và các hoạt động văn hóa gắn với tư tưởng, đạo đức, phong cách Hồ Chí Minh.",
+      "Ngày 19/5/1890, Nguyễn Sinh Cung — về sau là Hồ Chí Minh — ra đời tại làng Kim Liên, huyện Nam Đàn, xứ Nghệ: đứa con của gia đình nho sĩ nghèo nhưng giàu yêu nước.",
+      "Năm 21 tuổi, người thanh niên ấy rời bến Nhà Rồng đi tìm đường cứu nước — ba mươi năm lang bạt các châu lục trước khi trở về Pác Bó lãnh đạo cách mạng giành độc lập năm 1945.",
+      "Sau ngày Bác mất năm 1969, sinh nhật Người trở thành dịp cả nước tưởng nhớ — những đoàn về quê Nghệ An, những bông hoa dâng lên Lăng Bác ở Ba Đình và lời hẹn 'làm theo lời Bác'.",
     ],
     meaning:
       "Ngày cả nước quay về Kim Liên trong lòng — tri ân con người đã đi tìm đường cho dân tộc.",
@@ -2633,8 +2656,9 @@ export const holidays: Holiday[] = [
     theme: { from: "#991b1b", to: "#dc2626", accent: "#fde047" },
     tagline: "Ngày Hà Nội giành lại chính quyền, mở ra kỷ nguyên độc lập.",
     history: [
-      "Ngày 19/8/1945, trong cao trào Tổng khởi nghĩa (14–25/8/1945), hàng chục vạn quần chúng Hà Nội biểu dương lực lượng rồi giành chính quyền các cơ quan đầu não của chính quyền tay sai, khởi đầu cho cuộc Cách mạng tháng Tám thắng lợi trên cả nước.",
-      "Ngày 30/8, vua Bảo Đại thoái vị tại Ngọ Môn; ngày 2/9/1945, Chủ tịch Hồ Chí Minh đọc Tuyên ngôn độc lập, khai sinh nước Việt Nam Dân chủ Cộng hòa.",
+      "Cách mạng tháng Tám là cuộc tổng khởi nghĩa giành chính quyền toàn quốc vào tháng 8/1945, khi Nhật đầu hàng Đồng minh để lại khoảng trống quyền lực ở Đông Dương.",
+      "Ngày 19/8/1945, hàng chục vạn người Hà Nội chiếm các cơ quan đầu não — Nhà hát lớn, sở mật thám, ngân khố — trong một cuộc khởi nghĩa gần như không đổ máu. Huế nổi dậy 23/8, Sài Gòn 25/8: trong mười lăm ngày, chính quyền về tay nhân dân cả nước.",
+      "Từ thắng lợi ấy, vua Bảo Đại thoái vị ngày 30/8/1945 tại Ngọ Môn, Huế — lễ thoái vị đánh dấu chấm dứt chế độ quân chủ Việt Nam. Hai tuần sau, nước Việt Nam Dân chủ Cộng hòa ra đời tại Ba Đình.",
     ],
     meaning:
       "Khoảnh khắc chuyển giao của lịch sử — từ hơn tám mươi năm thuộc địa sang nền độc lập của dân tộc.",
@@ -2710,8 +2734,9 @@ export const holidays: Holiday[] = [
     theme: { from: "#7f1d1d", to: "#1e3a8a", accent: "#fde047" },
     tagline: "Ngày cờ đỏ sao vàng bay trở lại trên nóc thành Hà Nội.",
     history: [
-      "Theo Hiệp định Genève (21/7/1954), quân đội Pháp rút khỏi miền Bắc. Ngày 10/10/1954, các đại đoàn quân tiên phong của Quân đội nhân dân Việt Nam tiếp quản Hà Nội qua năm cửa ô, trong biển người và cờ đỏ.",
-      "Chiều tối cùng ngày, lá cờ đỏ sao vàng chính thức được kéo lên cột cờ thành Hà Nội (Kỳ đài) trước sân vận động Cộng hòa — đánh dấu Thủ đô hoàn toàn giải phóng sau chín năm kháng chiến.",
+      "Ngày 10/10 còn là một mốc xa hơn nghìn năm: năm 1010, vua Lý Công Uẩn ban Chiếu dời đô, rời kinh thành Hoa Lư về Đại La và đổi tên Thăng Long — bắt đầu lịch sử nghìn năm của Hà Nội.",
+      "Gần một thiên niên kỷ sau, đúng ngày 10/10/1954, Trung đoàn 308 'Đại đoàn quân' tiếp quản Thủ đô sau khi quân Pháp rút qua cầu Paul Doumer theo Hiệp định Genève — kết thúc chín năm kháng chiến trường kỳ.",
+      "Với người Hà Nội, 10/10 là 'ngày trở về' — cả thành phố đổ ra đường đón quân ta với cờ hoa và những cái ôm. Ngày lễ tưởng nhớ cả hai cột mốc: vua Lý chọn đất Thăng Long và thế hệ cha anh mang hòa bình về.",
     ],
     meaning:
       "Ngày Hà Nội trở về tay dân tộc — kết thúc một trang sử để mở trang mới của Thủ đô và đất nước.",
@@ -2788,8 +2813,9 @@ export const holidays: Holiday[] = [
     theme: { from: "#78350f", to: "#b45309", accent: "#fbbf24" },
     tagline: "Ngày tôn vinh sách và thói quen đọc của người Việt.",
     history: [
-      "Ngày Sách và Văn hóa đọc Việt Nam được Thủ tướng Chính phủ quyết định tổ chức từ năm 2014 (Quyết định 284/QĐ-TTg), chọn ngày 21/4 hằng năm — sát Ngày Sách và Bản quyền Thế giới 23/4 của UNESCO.",
-      "Từ một ngày biểu tượng, 21/4 đã trở thành 'mùa sách' cả tháng: hội sách ở các tỉnh thành, tuần lễ sách quốc gia, giờ đọc chung trong trường học và những chuyến tặng sách cho thư viện vùng xa.",
+      "Ngày Sách và Văn hóa đọc Việt Nam được thiết lập năm 2014 theo quyết định của Thủ tướng — chọn ngày 21/4 hàng năm để khuyến khích văn hóa đọc trong toàn xã hội.",
+      "Ngày lễ sát với Ngày Sách và Bản quyền Thế giới 23/4 của UNESCO — ngày tưởng nhớ Cervantes và Shakespeare cùng mất năm 1616, được Liên Hiệp Quốc chọn từ 1995 để tôn vinh sách trên toàn cầu.",
+      "Người Việt vốn có truyền thống hiếu học — 'nhất tự vi sư, bán tự vi sư'. Mỗi 21/4, hội sách, ngày hội đọc và những quyên góp thư viện nở khắp nơi — ngày riêng để mở một trang mới.",
     ],
     meaning:
       "Nhắc mỗi người rằng đọc sách là thói quen nuôi tri thức bền nhất — và cùng xây một 'văn hóa đọc' cho cả xã hội.",
@@ -2867,8 +2893,9 @@ export const holidays: Holiday[] = [
     theme: { from: "#991b1b", to: "#ea580c", accent: "#fb923c" },
     tagline: "Ngày tôn vinh tinh thần rèn luyện thân thể của dân tộc.",
     history: [
-      "Ngày 27/3/1946, Chủ tịch Hồ Chí Minh ký Sắc lệnh số 33 về việc đẩy mạnh thể dục, thể thao trong thanh niên, học sinh và quân đội — văn kiện khai sinh ngành Thể dục Thể thao Việt Nam.",
-      "Ngày 27/3 trở thành ngày truyền thống của ngành, gắn với Ngày chạy Olympic vì sức khỏe toàn dân — sự kiện chạy bộ tập thể lớn nhất nước do Ủy ban Olympic Việt Nam tổ chức.",
+      "Ngày Thể thao Việt Nam bắt nguồn từ bài viết 'Cần thiết phải có thể dục thể thao' đăng trên báo Cứu Quốc ngày 27/3/1946 — lời kêu gọi của Bác Hồ cho một dân tộc khỏe mạnh để dựng nước.",
+      "Trong bài viết ấy, Bác viết: 'Giữ gìn dân chủ, xây dựng nước nhà, gây đời sống mới, việc gì cũng cần có sức khỏe để làm mới thành công' — câu kim chỉ nam của thể thao Việt đến hôm nay.",
+      "Từ năm 1991, ngày 27/3 được tổ chức thành Ngày chạy Olympic vì sức khỏe toàn dân — hàng trăm nghìn người cùng chạy khắp các tỉnh thành, kế thừa lời Bác bằng đôi chân thật.",
     ],
     meaning:
       "Khắc ghi lời Bác 'mạnh khỏe để làm việc' — mỗi người khỏe là một phần sức mạnh của cả dân tộc.",
@@ -2947,8 +2974,9 @@ export const holidays: Holiday[] = [
     theme: { from: "#1e3a8a", to: "#3730a3", accent: "#818cf8" },
     tagline: "Ngày tôn vinh và phổ biến pháp luật đến mọi người dân.",
     history: [
-      "Ngày 9/11/1946, Quốc hội khóa I thông qua Hiến pháp 1946 — bản hiến pháp đầu tiên của nước Việt Nam Dân chủ Cộng hòa, mở đầu lịch sử lập hiến hiện đại của quốc gia.",
-      "Năm 2013, ngày 9/11 được chọn làm Ngày Pháp luật Việt Nam để hưởng ứng ngày Hiến pháp ra đời — trở thành dịp phổ biến, giáo dục pháp luật và tôn vinh những người làm luật, thi hành luật.",
+      "Ngày 9/11/1946, Quốc hội khóa I của nước Việt Nam Dân chủ Cộng hòa thông qua bản Hiến pháp đầu tiên — đạo luật cơ bản đầu tiên của nhà nước non trẻ, viết trong lúc đất nước vừa độc lập đã phải chuẩn bị kháng chiến.",
+      "Hiến pháp 1946 được coi là một trong những bản hiến pháp tiên tiến nhất châu Á thời bấy giờ: khẳng định quyền dân chủ, tự do ngôn luận và bình đẳng giới — vượt xa nhiều nước đương thời.",
+      "Năm 2013, chính phủ chọn ngày 9/11 làm Ngày Pháp luật Việt Nam — dịp phổ biến pháp luật, tôn vinh người làm luật và nhắc nhở rằng nhà nước pháp quyền bắt đầu từ một buổi họp Quốc hội năm 1946.",
     ],
     meaning:
       "Nhắc nguyên tắc căn bản nhất của xã hội hiện đại: nhà nước quản lý xã hội bằng pháp luật — và không ai được đứng trên pháp luật.",
@@ -3026,8 +3054,9 @@ export const holidays: Holiday[] = [
     theme: { from: "#0f766e", to: "#0891b2", accent: "#2dd4bf" },
     tagline: "Ngày tôn vinh nghề buôn bán và hàng Việt vươn ra thế giới.",
     history: [
-      "Ngày 13/7/1946, Chủ tịch Hồ Chí Minh ký sắc lệnh thành lập Bộ Kinh tế — tiền thân của ngành Thương mại Việt Nam ngày nay, ngay trong những tháng đầu của nhà nước độc lập.",
-      "Từ chỗ chỉ xuất vài mặt hàng nông sản, thương mại Việt Nam đã vươn lên nhóm nền kinh tế xuất nhập khẩu lớn nhất Đông Nam Á — gạo, cà phê, dệt may, điện thoại đi khắp thế giới.",
+      "Ngày Thương mại Việt Nam gắn với mốc 13/7/1946 — khi Chính phủ thành lập cơ quan quản lý ngoại thương đầu tiên của nước non trẻ, đặt nền cho ngành thương mại quốc gia.",
+      "Qua đổi mới từ 1986, thương mại Việt Nam vươn từ con số khiêm tốn thành một trong những nền kinh tế mở nhất châu Á — hàng trăm tỷ đô la xuất nhập khẩu mỗi năm, từ gạo cà phê đến điện thoại công nghệ.",
+      "Được chính thức hóa thành ngày hội từ 2007, 13/7 là dịp vinh danh doanh nghiệp xuất nhập khẩu, các hội chợ thương mại và gửi lời chúc đến đội ngũ 'xách vali đi buôn' đưa hàng Việt ra thế giới.",
     ],
     meaning:
       "Vinh danh những người làm kinh tế — từ bà bán chợ đến doanh nghiệp xuất khẩu — nghề đã đưa hàng Việt và chữ 'Việt Nam' ra bản đồ thế giới.",
@@ -3106,8 +3135,9 @@ export const holidays: Holiday[] = [
     theme: { from: "#b91c1c", to: "#b45309", accent: "#fbbf24" },
     tagline: "Ngày kỷ niệm ra đời tổ chức thanh niên lớn nhất Việt Nam.",
     history: [
-      "Từ ngày 26–31/3/1931, Đại hội lần thứ nhất của Đoàn Thanh niên Cộng sản họp tại Vinh — tổ chức thanh niên đầu tiên của cách mạng Việt Nam ra đời, lấy ngày 26/3 làm ngày thành lập.",
-      "Trải qua nhiều lần đổi tên — Đoàn Thanh niên Cộng sản, Đoàn Thanh niên Cứu quốc, Đoàn Thanh niên Lao động, Đoàn Thanh niên Lao động Hồ Chí Minh — đến năm 1992 lấy tên gọi hiện nay: Đoàn Thanh niên Cộng sản Hồ Chí Minh.",
+      "Ngày 26/3/1931, tại Đại hội toàn quốc lần thứ nhất của Đảng tổ chức ở Mặc Ao, Đoàn Thanh niên Cộng sản Đông Dương chính thức ra đời — tổ chức thanh niên đầu tiên của dân tộc.",
+      "Chỉ vài tháng sau, Lý Tự Trọng — đoàn viên đoàn đầu tiên bị địch bắt và xử bắn ở Sài Gòn tháng 11/1931 — để lại câu nói bất hủ 'Con đường của thanh niên chỉ là con đường cách mạng', trở thành hình mẫu thanh niên Việt.",
+      "Đoàn đổi tên thành Đoàn TNCS Hồ Chí Minh năm 1962. Từ thanh niên xung phong đến tình nguyện viên hôm nay, 26/3 là ngày hội của tuổi trẻ Việt Nam — 'tuổi trẻ đáng giá bằng vàng'.",
     ],
     meaning:
       "Ngày nhắc tuổi trẻ về truyền thống xung kích hơn chín mươi năm — từ Lý Tự Trọng đến thanh niên xung phong, đến mùa hè xanh và khởi nghiệp hôm nay.",
@@ -3186,8 +3216,9 @@ export const holidays: Holiday[] = [
     theme: { from: "#3b0764", to: "#701a75", accent: "#c084fc" },
     tagline: "Đêm rằm tháng Giêng dành riêng cho thi ca Việt.",
     history: [
-      "Ngày thơ Việt Nam được Hội Nhà văn Việt Nam khởi xướng, hưởng ứng Ngày thơ Thế giới do UNESCO lập năm 1999 — đêm thơ đầu tiên diễn ra ngày 24/2/2003 tại Văn Miếu — Quốc Tử Giám, Hà Nội.",
-      "Từ đó, mỗi năm một chủ đề được chọn và đêm thơ được tổ chức vào đúng rằm tháng Giêng âm lịch — cùng đêm với Tết Nguyên tiêu, khi trăng đầu năm tròn nhất.",
+      "Ngày thơ Việt Nam được Hội Nhà văn Việt Nam khởi xướng năm 2003 — chọn rằm tháng Giêng, đêm trăng đầu năm đẹp nhất, tổ chức hội thơ tại Văn Miếu — Quốc Tử Giám, trường đại học đầu tiên của dân tộc.",
+      "Đất nước này vốn là 'đất thơ': từ ca dao truyền miệng hàng nghìn năm, qua Truyện Kiều của Nguyễn Du được UNESCO vinh danh, đến những vần thơ chiến tranh viết trong hầm hào — thơ là linh hồn của tiếng Việt.",
+      "Năm 2014, chính phủ chính thức công nhận Ngày thơ Việt Nam. Mỗi đêm rằm tháng Giêng, nhà thơ và công chúng yêu thơ lại tề tựu bên giếng Thiên Quang đọc thơ dưới trăng — đêm đẹp nhất của năm văn.",
     ],
     meaning:
       "Tôn vinh thi ca — loại hình nghệ thuật gắn bó lâu nhất với văn hóa Việt: từ ca dao ru con, thơ Đường luật đến Truyện Kiều và thơ mới.",
@@ -3269,8 +3300,9 @@ export const holidays: Holiday[] = [
     theme: { from: "#0c4a6e", to: "#075985", accent: "#38bdf8" },
     tagline: "Ngày tri ân những người đàn ông trong đời.",
     history: [
-      "Ngày Quốc tế Nam giới được khởi xướng bởi Tiến sĩ Jerome Teelucksingh ở Trinidad & Tobago — lần đầu tổ chức năm 1999, chọn ngày 19/11 là sinh nhật của cha ông.",
-      "Đến nay ngày này được ghi nhận ở khoảng 80 quốc gia — chưa phải ngày lễ chính thức của LHQ nhưng là dịp thế giới nói về sức khỏe nam giới và những hình mẫu nam tính tích cực.",
+      "Ngày Quốc tế Nam giới 19/11 do giáo sư Jerome Teelucksingh ở Trinidad và Tobago khởi xướng năm 1999 — chọn ngày sinh của cha ông để tôn vinh những người đàn ông tử tế trong gia đình.",
+      "Ngày lễ đặt ra bốn trụ cột: chăm sóc sức khỏe nam giới, tôn vinh hình mẫu đàn ông tích cực, cải thiện quan hệ giới và tôn vinh đóng góp của nam giới trong gia đình — cộng đồng địa phương.",
+      "Đến nay được quan sát ở hơn 80 quốc gia, 19/11 du nhập vào Việt Nam những năm 2010 và nhanh chóng trở thành ngày phụ nữ gửi quà cho chồng, bố, anh em — 'ngày của phái mạnh' đối lập ngày 8/3.",
     ],
     meaning:
       "Bù lại cho những người đàn ông ít được nói lời cảm ơn — ngày nhắc chúng ta chú ý đến sức khỏe, cảm xúc và vai trò của nam giới.",

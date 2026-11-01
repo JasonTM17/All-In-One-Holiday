@@ -232,6 +232,12 @@ button.card:hover,
   background: var(--color-brand);
   box-shadow: 0 0 0 4px var(--color-surface);
 }
+/* The first history paragraph reads as a lede — slightly larger and ink-dark. */
+.timeline-item:first-child {
+  color: var(--color-ink);
+  font-size: 1.075em;
+  font-weight: 600;
+}
 
 /* ---------- Link underline microinteraction ---------- */
 .u-link {

@@ -35,8 +35,9 @@ export const holidaysEn: Holiday[] = [
     theme: { from: "#312e81", to: "#7c3aed", accent: "#a78bfa" },
     tagline: "The first day of the Gregorian year.",
     history: [
-      "New Year's Day marks January 1 on the Gregorian calendar — the international calendar adopted in Vietnam in the early 20th century and made the country's official calendar after the August Revolution.",
-      "Although Tết (Lunar New Year) remains the biggest celebration, January 1 has become a national holiday for wrapping up the old year and setting goals for the new one.",
+      "New Year's Day marks the start of the Gregorian calendar — the system Pope Gregory XIII introduced in 1582 that became the world's common measure of time. On New Year's Eve, cities across the globe countdown together under fireworks — humanity's shared ritual.",
+      "Vietnam adopted the Western calendar for official life in the early 20th century. New Year's Day is a national public holiday under the Labor Code — workers get one paid day off at the start of each year.",
+      "Locals affectionately call it 'Tết Tây' (Western Tết) to distinguish it from Tết Nguyên Đán. Though less sacred than the lunar new year, it remains a meaningful milestone to look back, make resolutions — and the liveliest countdown season for young people.",
     ],
     meaning:
       "A moment to close out the year, rest with family, and open a new chapter full of fresh intentions.",
@@ -128,8 +129,9 @@ export const holidaysEn: Holiday[] = [
     theme: { from: "#991b1b", to: "#b45309", accent: "#fbbf24" },
     tagline: "The biggest celebration of the year for Vietnamese people.",
     history: [
-      "Tết Nguyên Đán is the first day of the lunar year, rooted in the wet-rice farming civilization and tied to the cycles of the moon and the harvest.",
-      "Over thousands of years, Tết has become the most sacred occasion for descendants to honor their ancestors, reunite with family, and pray for a year of favorable weather.",
+      "Tết Nguyên Đán — 'the first day of the year' — grew from wet-rice civilization, when farmers tracked the moon and solar terms to time their crops. Legend says that under the sixth Hùng king, Prince Lang Liêu won a royal contest by inventing bánh chưng and bánh giầy, the rice cakes symbolizing earth and sky.",
+      "Across a millennium of northern rule, East-Asian new year rites blended with native customs — the Kitchen Gods' farewell, the five-fruit tray, first-footing, lucky money — producing a Tết that is both deeply East Asian and unmistakably Vietnamese.",
+      "Today Tết is the country's biggest and longest holiday — tens of millions journey home each year for reunion. Giao thừa, lì xì, ancestor offerings: a complete ritual system built around one word, 'sum họp' — togetherness, the cultural heart of the nation.",
     ],
     meaning:
       "Tết is the handover between the old year and the new — a time of reunion, filial reverence and hope.",
@@ -219,8 +221,9 @@ export const holidaysEn: Holiday[] = [
     theme: { from: "#7f1d1d", to: "#ea580c", accent: "#fb923c" },
     tagline: "The first full moon of the year.",
     history: [
-      "Tết Nguyên Tiêu is the first full-moon night of the lunar year, tied to the long tradition of Buddhist worship, prayers for peace, and lantern festivals in Vietnamese and Hoa communities.",
-      "Vietnamese people say 'a year of Buddhist rites cannot match the first full moon' — families visit pagodas, make ancestral offerings and eat chè trôi nước (glutinous rice balls in sweet ginger soup).",
+      "Tết Nguyên Tiêu — the first full moon of the year — descends from the Chinese custom of lighting lanterns to honor the Buddha under Emperor Ming of Han, later blooming into East Asia's great lantern festival.",
+      "In Vietnam, Nguyên Tiêu merged deeply with native full-moon rites: the fifteenth of the first lunar month is the year's most important offering day at family altars — far more than a lantern carnival.",
+      "Folk verse remembers it as 'mùng one for father, mùng two for mother, mùng three for teachers, and the first full moon for ancestors'. Today, Hội An's old town and temple courtyards still blaze with ten thousand lanterns — one of Vietnam's most beautiful festival nights.",
     ],
     meaning:
       "The year's first full moon symbolizes completeness — a night to pray for peace in the year ahead.",
@@ -302,8 +305,9 @@ export const holidaysEn: Holiday[] = [
     theme: { from: "#9f1239", to: "#e11d48", accent: "#fda4af" },
     tagline: "The day of loving words.",
     history: [
-      "Valentine's Day is linked to Saint Valentine of the 3rd century — said to have secretly married young lovers when Roman emperors banned marriage for soldiers.",
-      "In Vietnam, February 14 has become a popular occasion for couples to exchange gifts, roses and chocolates.",
+      "Valentine's Day honors Saint Valentine — a priest of 3rd-century Rome. Legend holds he secretly wed young couples after Emperor Claudius II banned marriage for soldiers, and was executed on February 14.",
+      "In 496, Pope Gelasius I formalized the feast of Saint Valentine on February 14. From the 14th century, Geoffrey Chaucer linked the date to the mating season of birds — the seed of the world's first love letters.",
+      "In the 19th century, England mass-produced Valentine's cards and the custom swept the West, then the world. Reaching Vietnam in the 1990s–2000s with globalization, February 14 quickly became the year's busiest day for roses, chocolate and young couples.",
     ],
     meaning:
       "A chance to say what is hard to say — a well-timed word of love is worth more than any gift.",
@@ -397,8 +401,9 @@ export const holidaysEn: Holiday[] = [
     theme: { from: "#be185d", to: "#db2777", accent: "#f9a8d4" },
     tagline: "Honoring women all over the world.",
     history: [
-      "March 8 grew out of the protests of women garment workers in New York in the early 20th century and was first commemorated by the United Nations in 1975.",
-      "In Vietnam, the day is also tied to the Trưng Sisters' uprising — a symbol of Vietnamese women's heroism since the era of Chinese domination.",
+      "International Women's Day grew from the struggles of American garment workers — notably the 1908 march of thousands of New York seamstresses demanding shorter hours, equal pay and the vote.",
+      "In 1910, at the International Socialist Women's Conference in Copenhagen, Clara Zetkin proposed a single day to honor women worldwide. On March 19, 1911, over a million people rallied across Austria, Denmark, Germany and Switzerland.",
+      "In 1975, the United Nations officially recognized March 8. In Vietnam, the date also resonates with the commemoration of the Trưng Sisters — the first women in national history to lead a revolt for independence.",
     ],
     meaning:
       "A day to honor women's contributions, sacrifices and equal rights — in the family and in society.",
@@ -488,8 +493,9 @@ export const holidaysEn: Holiday[] = [
     theme: { from: "#854d0e", to: "#166534", accent: "#fbbf24" },
     tagline: "Wherever you roam, remember the Ancestors' death day — the tenth of the third month.",
     history: [
-      "Giỗ Tổ Hùng Vương commemorates the Hùng kings — the founders of Văn Lang, the first state of the Vietnamese nation.",
-      "Since 2007, the 10th day of the 3rd lunar month has been a national holiday; the main festival takes place at the Hùng Temple in Phú Thọ with solemn palanquin processions and incense offerings.",
+      "The Hùng Kings' Commemoration honors the Hùng monarchs — founders of Văn Lang, the first state of the Vietnamese people. Legend holds that eighteen Hùng dynasties laid the foundations of an independent nation at the dawn of history.",
+      "The principal shrine is Hùng Temple on Nghĩa Lĩnh mountain, Phú Thọ — revered as the nation's ancestral cradle. As early as 1917, the Nguyễn court had already formalized the commemoration as an official state ceremony.",
+      "In 2007, the National Assembly added the tenth day of the third lunar month to the list of national holidays. Each year millions return to Phú Thọ to offer incense, while Vietnamese everywhere recite the verse: 'Wherever you roam, upstream or down / remember the Ancestors' day — the tenth of March'.",
     ],
     meaning:
       "When drinking water, remember the source — the day every Vietnamese turns toward the nation's roots.",
@@ -574,8 +580,9 @@ export const holidaysEn: Holiday[] = [
     theme: { from: "#3f6212", to: "#0f766e", accent: "#a3e635" },
     tagline: "The season of remembering the graves — Vietnam's tomb-sweeping festival.",
     history: [
-      "Tết Thanh Minh falls on the Qingming solar term — the 'clear and bright' term in early April when the weather turns fresh and clear, usually April 4–6 on the solar calendar.",
-      "Rooted in China's Qingming festival, it became in Vietnam 'tảo mộ' — the season of tidying ancestors' graves, offering incense and flowers, and praying for family peace at the start of the bright season.",
+      "Thanh Minh (Qingming) is the fifth of the 24 solar terms — around April 4–6, when 'the sky brightens and the earth clears', the purest air after winter. For a thousand years it has marked the start of the new farming season.",
+      "The custom of grave-sweeping — visiting, cleaning and offering incense at ancestral tombs — came from the Chinese Cold Food festival and merged into Qingming. In Vietnam it blended with native ancestor worship into a distinct 'Tết of the graves'.",
+      "In the Vietnamese countryside, Thanh Minh is also a clan reunion: whole lineages return home to tend graves and meet at spring's start. For many families it is the year's second great gathering — after Tết itself.",
     ],
     meaning:
       "The festival of remembrance at the threshold of clear spring — when living descendants sweep the tombs, offer incense and renew the bond with their ancestors.",
@@ -662,8 +669,9 @@ export const holidaysEn: Holiday[] = [
     theme: { from: "#b91c1c", to: "#b45309", accent: "#fde047" },
     tagline: "The day the country was reunified.",
     history: [
-      "On April 30, 1975, the Hồ Chí Minh Campaign ended in victory — the South was fully liberated and the country reunified after more than 20 years of division.",
-      "It is one of Vietnam's biggest holidays, usually marked by parades, fireworks and 'back to the roots' commemorative activities.",
+      "On April 30, 1975, liberation army tanks rolled into the Independence Palace. At noon, President Dương Văn Minh declared unconditional surrender — ending 21 years of division between North and South.",
+      "It was the climax of the Hồ Chí Minh Campaign — 55 days and nights that decided the entire war. From that day, the country was territorially one.",
+      "In 1976, the sixth National Assembly renamed the country the Socialist Republic of Vietnam and Sài Gòn became Ho Chi Minh City. April 30 has since been a grand national holiday — a day to remember peace and the sacrifices that made the country whole.",
     ],
     meaning:
       "A day of independence, reunification, and gratitude to the generations who sacrificed for the country.",
@@ -737,8 +745,9 @@ export const holidaysEn: Holiday[] = [
     theme: { from: "#9a3412", to: "#0369a1", accent: "#fb923c" },
     tagline: "Honoring workers around the world.",
     history: [
-      "May 1 grew from the 1886 movement of Chicago workers demanding an eight-hour day, becoming the international day of working-class solidarity.",
-      "In Vietnam it is a national public holiday — usually running straight after April 30 to form a long early-summer break.",
+      "May 1 commemorates the 1886 struggle of Chicago workers — when hundreds of thousands marched for the eight-hour day, culminating in the tragic Haymarket affair.",
+      "In 1889, the Second International declared May 1 International Workers' Day — a day of solidarity for laborers everywhere, which quickly spread across Europe, Asia and the Americas.",
+      "In Vietnam, May Day was first organized in the 1930s within the workers' movement. Today it joins April 30 Reunification Day as the year's longest spring break — both a workers' festival and a family travel season.",
     ],
     meaning:
       "A day recognizing the value of labor and the rightful rights of working people.",
@@ -817,8 +826,9 @@ export const holidaysEn: Holiday[] = [
     theme: { from: "#be123c", to: "#db2777", accent: "#fda4af" },
     tagline: "One day of the year reserved just for Mom.",
     history: [
-      "Modern Mother's Day was started in the US by Anna Jarvis in 1908 and became official in 1914 — the second Sunday of May.",
-      "In Vietnam it is increasingly popular as a way for children to show filial love, alongside the traditional Vu Lan festival.",
+      "Mother's Day was founded by Anna Jarvis in America — in 1908 she held a memorial for her mother at a church in Grafton, West Virginia, then campaigned for a national day to honor all mothers.",
+      "In 1914, President Woodrow Wilson proclaimed the second Sunday of May the official Mother's Day of the United States. The custom spread to over 50 countries — each with its own colors, all sharing the same gratitude.",
+      "In Vietnam, Mother's Day arrived with global integration and met an existing stream of filial piety — from Vu Lan's rose-pinned lapels to the verse 'A father's work is like Thái Sơn mountain'. It is the day children send flowers, gifts and wishes to their mothers.",
     ],
     meaning:
       "A day to say the words of love to Mom — the person standing behind every step we take.",
@@ -898,8 +908,9 @@ export const holidaysEn: Holiday[] = [
     theme: { from: "#0369a1", to: "#b45309", accent: "#fde047" },
     tagline: "The day of little ones.",
     history: [
-      "International Children's Day was established in 1949 to protect children's rights; Vietnam has commemorated it since very early, from the days of President Hồ Chí Minh's letters to the nation's children.",
-      "Every June 1, schools and organizations hold games, performances and gift-giving for children across the country.",
+      "International Children's Day was chosen at the 1925 Geneva World Conference for the Well-being of Children — the first time nations jointly declared that children have the right to care, education and protection.",
+      "In 1949, the Women's International Democratic Federation congress in Moscow fixed June 1 — also honoring Lidice, the village destroyed by fascists along with all its children during the war.",
+      "In Vietnam, President Hồ Chí Minh wrote letters to children every Tết Trung thu and school year from 1949 — 'whether Vietnam's mountains and rivers turn beautiful depends on your study'. June 1 is a season of gifts, songs and performances for children nationwide.",
     ],
     meaning:
       "A day reminding society to protect, love and invest in the next generation.",
@@ -978,8 +989,9 @@ export const holidaysEn: Holiday[] = [
     theme: { from: "#065f46", to: "#c2410c", accent: "#fdba74" },
     tagline: "Every Vietnamese person's warm nest.",
     history: [
-      "Vietnamese Family Day was established in 2001 to honor the family's place in social life and preserve traditional family values.",
-      "Each year the day brings awareness campaigns and awards for exemplary 'cultured families' across the country.",
+      "Vietnamese Family Day was set for June 28 each year by a 2001 decision of the Prime Minister — honoring the family as the cell of society, the source that nurtures character and national identity.",
+      "Across a thousand years, the Vietnamese family transmitted filial piety — 'a father's work like Thái Sơn mountain, a mother's love like spring water flowing' — and remained the community's most important economic, educational and spiritual unit.",
+      "Today the day honors 'cultural families' and 'happy families' across the country — a reminder that amid every change, the shared meal remains the heart of Vietnamese life.",
     ],
     meaning:
       "A reminder to treasure your warm nest — the place where every journey begins and returns.",
@@ -1059,8 +1071,9 @@ export const holidaysEn: Holiday[] = [
     theme: { from: "#881337", to: "#292524", accent: "#fca5a5" },
     tagline: "Repaying the debt of gratitude.",
     history: [
-      "July 27 was chosen in 1947 to honor those wounded or killed for national independence — beginning as 'National War Invalids' Day'.",
-      "It is the occasion when the whole country enacts the 'when drinking water, remember the source' ethos — visiting martyrs' families, war invalids and people of merit.",
+      "War Invalids and Martyrs Day began in 1947 — in the midst of the resistance against France, the government chose July 27 for the whole nation to remember those who had fallen for independence.",
+      "From an initial 'Invalids Day', July 27 expanded into a shared day of gratitude for invalids, sick veterans, martyrs' families and all who served the revolution — millions of households lost loved ones across two wars.",
+      "The saying 'when drinking water, remember its source' defines the day: gratitude candles burn at every martyrs' cemetery, pilgrimages return to old battlefields, gifts reach Heroic Mothers — the thanks of a nation that remembers.",
     ],
     meaning:
       "A day to honor those who traded blood and bone for today's peace.",
@@ -1148,8 +1161,9 @@ export const holidaysEn: Holiday[] = [
     theme: { from: "#4c1d95", to: "#b45309", accent: "#fcd34d" },
     tagline: "The season of filial devotion.",
     history: [
-      "Vu Lan grew from the story of the monk Mục Kiền Liên (Maudgalyāyana) rescuing his mother, becoming the biggest season of filial piety in Buddhism and Vietnamese ethics.",
-      "On the 15th of the 7th lunar month, Vietnamese people pin a rose to their chest — red if their mother is living, white if she has passed — and go to the pagoda to pray for their parents.",
+      "The Vu Lan festival descends from the story of Mục Kiền Liên — the devoted disciple who crossed hell itself to rescue his mother, and whom the Buddha taught to make offerings to the sangha on the fifteenth of the seventh month.",
+      "Entering Vietnam over a thousand years ago, Vu Lan merged with native filial piety to become the year's greatest season of gratitude — running alongside the folk festival of wandering souls.",
+      "The custom of pinning a rose on one's lapel was started by Zen master Thích Nhất Hạnh in Huế in the 1960s: red if your mother lives, white if she has passed. One small flower on the chest has become the most moving ritual of Vietnam's filial season.",
     ],
     meaning:
       "A season to remember the debt to one's parents and repay those who gave us life.",
@@ -1249,8 +1263,9 @@ export const holidaysEn: Holiday[] = [
     theme: { from: "#b91c1c", to: "#b45309", accent: "#fde047" },
     tagline: "The day the nation was born.",
     history: [
-      "On September 2, 1945, President Hồ Chí Minh read the Declaration of Independence at Ba Đình Square, giving birth to the Democratic Republic of Vietnam.",
-      "National Day is the country's biggest holiday — an occasion to remember the founders and take pride in independence and freedom.",
+      "On September 2, 1945, President Hồ Chí Minh read the Declaration of Independence at Ba Đình Square before hundreds of thousands — giving birth to the Democratic Republic of Vietnam, Southeast Asia's first people's democratic state.",
+      "The Declaration opened with the immortal words of the American Declaration of 1776 and the French Declaration of 1791 — 'all peoples of the world are born equal'. After nearly a century of colonization, Vietnam reclaimed its independence.",
+      "National Day, September 2, is the country's grandest holiday — a day of parades, fireworks and remembrance for those who fell for today's freedom.",
     ],
     meaning:
       "A day of national pride and the aspiration for peace and development.",
@@ -1347,8 +1362,9 @@ export const holidaysEn: Holiday[] = [
     theme: { from: "#7c2d12", to: "#7c3aed", accent: "#fdba74" },
     tagline: "The reunion festival under the moon.",
     history: [
-      "The Mid-Autumn Festival is the full moon of the 8th lunar month — an autumn festival tied to the legends of Cuội, Hằng Nga, and the customs of moon-watching and 'breaking the feast'.",
-      "In Vietnam it is also called 'Tết for children' — kids carry lanterns, watch lion dances and share mooncakes.",
+      "Tết Trung thu — the full moon of the eighth lunar month — grew from the wet-rice civilizations' harvest moon-watching, when the autumn crop was safely in and the year's moon most beautiful.",
+      "While other Sinospheric countries keep Mid-Autumn as an adult festival of family reunion, Vietnam made it distinctly its own: this is 'children's Tết' — a night of lantern parades, lion dances and feasts led by the young.",
+      "Baked and sticky mooncakes, star lanterns, Ms. Hằng and Mr. Cuội on the moon — a set of cultural icons bound to every Vietnamese childhood.",
     ],
     meaning:
       "The full-moon night of togetherness — adults missing home, children dreaming of star lanterns.",
@@ -1435,8 +1451,9 @@ export const holidaysEn: Holiday[] = [
     theme: { from: "#be123c", to: "#a21caf", accent: "#f9a8d4" },
     tagline: "Honoring the women of Vietnam.",
     history: [
-      "On October 20, 1930, the Anti-Imperialist Women's Union of Vietnam — forerunner of the Vietnam Women's Union — was officially founded.",
-      "Since then October 20 has been Vietnamese Women's Day and the Union's traditional day, when the whole country honors women in family and society.",
+      "Vietnamese Women's Day, October 20, marks the 1930 founding of the Anti-Imperialist Women's Union — forerunner of today's Vietnam Women's Union, the nation's first mass women's organization.",
+      "Vietnamese women carry their own heroic tradition from the Trưng Sisters and Lady Triệu — the first women to rise against foreign invasion. The 1930 union carried that tradition into the modern era.",
+      "Distinct from international March 8, October 20 belongs to Vietnamese women alone — flowers, gifts and wishes from men to mothers, wives, sisters and colleagues. It is the country's busiest flower day of the year.",
     ],
     meaning:
       "The day reserved for Vietnamese women — honoring their sacrifices, resilience and beauty.",
@@ -1516,8 +1533,9 @@ export const holidaysEn: Holiday[] = [
     theme: { from: "#065f46", to: "#4d7c0f", accent: "#bef264" },
     tagline: "Respecting teachers and the way of learning.",
     history: [
-      "November 20 was chosen as Vietnamese Teachers' Day in 1982 to honor those in the profession of 'growing people'.",
-      "Every year on this day, students nationwide hold performances, visit and send flowers to thank their teachers — a beautiful custom of a studious culture.",
+      "Vietnamese Teachers' Day, November 20, honors the teaching profession — 'the sowing of letters', held most noble in the nation's Confucian order where the teacher ranks just below the king and parents: 'Quân, sư, phụ'.",
+      "The day was first organized in 1982 by government decision, at the request of the education sector — and has since become the profession's greatest festival.",
+      "Every November 20, millions of students — from village schools to universities — return to visit old teachers with flowers and handmade cards. For every Vietnamese family, 'teachers' Tết' is the shared moment to thank those who ferried them across knowledge.",
     ],
     meaning:
       "One letter learned, a teacher for life — the day to remember those who guided us.",
@@ -1597,8 +1615,9 @@ export const holidaysEn: Holiday[] = [
     theme: { from: "#14532d", to: "#a16207", accent: "#fde047" },
     tagline: "The traditional day of a heroic army.",
     history: [
-      "On December 22, 1944, the Vietnam Propaganda Liberation Army — forerunner of the Vietnam People's Army — was founded in Cao Bằng.",
-      "It is the traditional day of the Vietnam People's Army and also National Defense Day.",
+      "On December 22, 1944, in the Trần Hưng Đạo forest of Cao Bằng, the Vietnam Propaganda Liberation Army was founded — the nation's first army, just 34 soldiers under Võ Nguyên Giáp's command.",
+      "Within days, the young unit won its first two battles at Phai Khắt and Nà Ngần — the start of a march that led to Điện Biên Phủ and reunification.",
+      "December 22 is also observed as National Defense Day — honoring Vietnamese soldiers across generations, from jungle trenches to today's UN peacekeeping missions.",
     ],
     meaning:
       "Honoring the soldiers who have kept — and keep — the country's independence and sovereignty.",
@@ -1679,8 +1698,9 @@ export const holidaysEn: Holiday[] = [
     theme: { from: "#14532d", to: "#b91c1c", accent: "#fca5a5" },
     tagline: "The warmest, most peaceful season of the year.",
     history: [
-      "Christmas celebrates the birth of Jesus and has long become a global winter festival reaching far beyond religion.",
-      "In Vietnam it is the most dazzling season of the year — churches glow with lights, streets are decorated, and young people gather to enjoy Noel.",
+      "Christmas celebrates the birth of Jesus Christ — the Church chose December 25 in 4th-century Rome, aligning with older European winter festivals.",
+      "Catholicism reached Vietnam in the 16th century through Western missionaries — including Alexandre de Rhodes, who laid the foundation for the quốc ngữ alphabet used today. Vietnam's Catholic community is now among Asia's largest.",
+      "In Vietnam, Christmas has outgrown its religious rite: on the night of the 24th, Sài Gòn's Notre-Dame, Hanoi's cathedral and Hàng Mã street flood with lights — a shared festival for believers and young people alike.",
     ],
     meaning:
       "The season of giving, peace and warm moments beside loved ones.",
@@ -1769,9 +1789,9 @@ export const holidaysEn: Holiday[] = [
     motif: "home",
     tagline: "Sending the Kitchen Gods back to heaven.",
     history: [
-      "The Táo quân — the kitchen gods who watch over the hearth and witness everything in the home — are two men and one woman, from the folk tale of Trọng Cao, Thị Nhi and Phạm Lang.",
-      "On the 23rd of the last lunar month, Vietnamese people see off the Táo quân as they ride carp to heaven to report the year's deeds to the Jade Emperor — the start of the year-end offering season before Tết.",
-      "The custom of releasing carp into ponds and rivers after the ceremony is uniquely Vietnamese — other East Asian countries lack this rite.",
+      "Ông Công Ông Táo — the farewell rite for the Kitchen Gods on the 23rd of the last lunar month — descends from East Asia's ancient hearth-god worship: the household spirit who tends the stove and records the family's deeds all year.",
+      "In Vietnamese legend, the Táo quân are three deities — two men and one woman, born from the love story of Thị Nhi, Trọng Cao and Phạm Lang — appointed 'Guardians of the Hearth' to watch over each household's happiness.",
+      "Families buy carp to release into ponds so the Kitchen Gods can ride to heaven and report to the Jade Emperor — a year-end rite of cleansing that opens the whole Tết season.",
     ],
     meaning:
       "Kitchen Gods' Day is the handover between the old year and the new — the day families tidy the hearth, honor the flame that kept them warm all year, and trust that good deeds will be carried to heaven. It is also a reminder to live kindly inside our own homes.",
@@ -1853,9 +1873,9 @@ export const holidaysEn: Holiday[] = [
     motif: "lotus",
     tagline: "The festival of floating-rice and mung-bean cakes.",
     history: [
-      "Hàn thực ('the cold-food term') originated in the ancient Chinese fire ban honoring Jie Zitui of the Spring and Autumn era; in Vietnam it became the 3rd day of the 3rd lunar month.",
-      "In Vietnam the meaning shifted into a gentle vegetarian day with bánh trôi and bánh chay — two little cakes symbolizing heaven and earth, with no fire ban at all.",
-      "The 3rd of the 3rd lunar month is folk-named 'Tết Hàn thực' — the festival of bánh trôi bánh chay, tied to ancestor offerings and early-spring vegetarian eating.",
+      "Tết Hàn thực — the third of the third lunar month — descends from the story of Jie Zitui, the loyal minister who followed Duke Wen of Jin through nineteen years of exile and died in the flames of Mount Mian. The grieving duke ordered a fire-free day — the 'cold food' festival was born.",
+      "In China, Hàn thực later merged into Qingming; in Vietnam it transformed into something unique: the day of bánh trôi and bánh chay — white dumplings floating in clear syrup.",
+      "Folk verse recalls the early-spring full moons. Today, Vietnamese Hàn thực is a cozy little day to offer dumplings at the altar and share sweet soup at season's start.",
     ],
     meaning:
       "Tết Hàn thực is a day of vegetarian food, remembering one's roots and practicing purity in the new year — a quiet note in the string of post-Tết festivals, when people offer their ancestors little round cakes of sweet clarity.",
@@ -1934,9 +1954,9 @@ export const holidaysEn: Holiday[] = [
     motif: "wheat",
     tagline: "High noon at its peak — the pest-killing festival.",
     history: [
-      "Đoan Ngọ on the 5th of the 5th lunar month came from Chinese culture (tied to the memory of Qu Yuan) but was remade by Vietnamese folk into 'the pest-killing festival'.",
-      "Vietnamese believe that at noon on lunar 5/5 the peak heat exposes hidden illness — so they eat sour fruits and glutinous-rice wine to 'kill the pests' inside.",
-      "The day is also the time to gather medicinal herbs at 'high noon at its peak' — when plants are believed strongest in potency.",
+      "Tết Đoan Ngọ — the fifth of the fifth lunar month — descends from China's Double-Fifth festival: the 'ngọ' hour of high noon was held to be the year's most poisonous, when pests and epidemics thrive.",
+      "In Vietnam it became the unique 'Pest-Killing Tết': people eat early-season sour fruit, glutinous-rice wine and tro cakes — believing the sourness 'kills' parasites and expels evil for the year.",
+      "Farmers also pick herbs at Đoan Ngọ noon — when plants are thought most potent. From an ancient exorcism, today it is a day for early fruit and a family reminder to mind summer health.",
     ],
     meaning:
       "Tết Đoan Ngọ is Vietnam's folk answer to the turn of summer: a day of cleansing the body, protecting health, and staying close to mothers and children — for the pest-killing custom is also the custom of preserving the home's vitality.",
@@ -2021,9 +2041,9 @@ export const holidaysEn: Holiday[] = [
     motif: "carnation",
     tagline: "Honoring those who heal.",
     history: [
-      "On February 27, 1955, Hồ Chí Minh sent his 'Letter to health workers' with the famous teaching 'a good physician must be like a loving mother' — the foundation of Vietnamese medical ethics.",
-      "In 1970, the health sector chose February 27 as Vietnamese Doctors' Day to mark the letter — not a public holiday but widely commemorated.",
-      "The day honors doctors, nurses, pharmacists and health workers quietly keeping the community healthy.",
+      "Vietnamese Doctors' Day honors the letter President Hồ Chí Minh sent to health workers on February 27, 1955 — containing the famous line 'Lương y như từ mẫu', bidding every doctor to love patients as a gentle mother loves her child.",
+      "Before him, the 18th-century physician Hải Thượng Lãn Ông Lê Hữu Trác left the nation 'Hải Thượng y tông tâm lĩnh' — the foundational text of Vietnamese medical ethics and practice that generations still study.",
+      "Since 1955, February 27 has been the health sector's festival — honoring the 'white blouses' who care for the nation, from district clinics to the front lines of epidemics.",
     ],
     meaning:
       "Vietnamese Doctors' Day is when the whole country says thank you to those who hold the scalpel and those who keep the night watch in emergency rooms — professions demanding both talent and compassion. 'A good physician must be like a loving mother' is that profession's living standard.",
@@ -2102,9 +2122,9 @@ export const holidaysEn: Holiday[] = [
     motif: "book",
     tagline: "Honoring those who wield the pen.",
     history: [
-      "On June 21, 1925, Nguyễn Ái Quốc founded the newspaper Thanh Niên in Guangzhou, China — the first newspaper of the Vietnamese revolution.",
-      "Since then Vietnam's revolutionary press grew alongside the history of independence; Hồ Chí Minh once wrote 'press workers are also revolutionary fighters' — still the journalist's motto.",
-      "The day honors journalists — the profession that records truth and carries the people's voice onto the page.",
+      "Vietnamese Revolutionary Press Day marks June 21, 1925 — when Nguyễn Ái Quốc published the first issue of Thanh Niên (Youth) newspaper in Guangzhou, China: the nation's first revolutionary newspaper, printed in the newly spreading quốc ngữ script.",
+      "Thanh Niên was both propaganda organ and 'political school' — smuggled home by secret couriers, it trained the first generation of cadres for the independence movement.",
+      "From that single paper grew today's hundreds of press outlets. June 21 honors journalists — keepers of the era's burning pen, from battlefield fronts to digital newsrooms.",
     ],
     meaning:
       "Vietnam Revolutionary Press Day honors the journalist — the profession that runs against the flood, goes down into the tunnels and writes with fairness. From the 1925 Thanh Niên newspaper to today's parliament, the press remains an organ of social democracy.",
@@ -2184,9 +2204,9 @@ export const holidaysEn: Holiday[] = [
     motif: "heart",
     tagline: "Respect the old, receive long life.",
     history: [
-      "October 1 was chosen by the United Nations as the International Day of Older Persons in 1991; Vietnam also took this day to honor its elderly.",
-      "The nation's 'respect the old, receive long life' spirit has long lived in longevity celebrations at 70, 80 and 90 in agrarian Vietnamese culture.",
-      "The day reminds the community to care for the elderly — those who built the life we live today.",
+      "Respect for the aged is a thousand-year Vietnamese tradition: old dynasties held 'diên hằng yến' banquets for the elderly and bestowed jade canes — symbols of village reverence for elders.",
+      "June 6 is tied to the salvation movement during the resistance, when the nation's elderly joined the cause. In 2008, the government formally chose June 6 as Vietnamese Senior Citizens' Day.",
+      "Each year, senior clubs nationwide hold longevity celebrations and visits to those living alone — a day for society to thank those who gave a whole life to family and country.",
     ],
     meaning:
       "Senior Citizens' Day is when we bow before the silver-haired: grandparents, parents — the people who walked through war and hardship and built our families. 'Respect the old, receive long life' is not a ritual but a standard of living.",
@@ -2270,9 +2290,9 @@ export const holidaysEn: Holiday[] = [
     motif: "medal",
     tagline: "Honoring the spirit of enterprise.",
     history: [
-      "October 13 was designated by the Prime Minister in 2004 as Vietnamese Entrepreneurs' Day — honoring the business community's contribution to the national economy.",
-      "Vietnam's entrepreneurial spirit is tied to 'thương hiệp văn hóa': trading with ethics, and prosperity bound to community responsibility.",
-      "From WTO integration and the digital economy to startups — Vietnamese entrepreneurs keep asserting themselves on the regional map.",
+      "Vietnamese Entrepreneurs' Day, October 13, was established in 2004 by decision of the Prime Minister — the official day honoring the business community after two decades of renewal.",
+      "Since the economy opened in 1986, Vietnamese entrepreneurs — from village craft workshops to technology corporations — carried Vietnamese goods worldwide and created tens of millions of jobs.",
+      "The day hosts business gatherings, honors outstanding entrepreneurs and sends wishes to those now starting up — a community seen as the nation's engine of growth.",
     ],
     meaning:
       "Vietnamese Entrepreneurs' Day honors those who dare to begin — from the market-stall trader to the tech founder. Entrepreneurs create not only wealth but jobs, confidence and the momentum of a country on the rise.",
@@ -2353,8 +2373,9 @@ export const holidaysEn: Holiday[] = [
     theme: { from: "#7f1d1d", to: "#b45309", accent: "#fde047" },
     tagline: "The founding of the party that has led Vietnam's revolution.",
     history: [
-      "On February 3, 1930, at a unification conference chaired by Nguyễn Ái Quốc in Kowloon, Hong Kong, three communist organizations — the Đông Dương Communist Party, the Annam Communist Party and the Đông Dương Communist League — merged into the Communist Party of Vietnam.",
-      "In October 1930 the party renamed itself the Indochinese Communist Party; in 1951 it became the Vietnam Workers' Party, and from 1976 it returned to the name Communist Party of Vietnam. February 3 is commemorated nationwide every year.",
+      "On February 3, 1930, at a conference in Kowloon, Hong Kong, Nguyễn Ái Quốc presided over the merger of three parallel communist organizations in Indochina into a single party — the Communist Party of Vietnam.",
+      "From that small meeting abroad, the young party held its first Congress in Macau in 1935 and renamed itself the Indochinese Communist Party — then led the independence struggle through two resistance wars.",
+      "February 3 recalls the journey of the ruling party — marked solemnly within the political system by commemorative ceremonies, achievement reports and the admission of new members.",
     ],
     meaning:
       "The milestone that unified Vietnam's communist movement under a single leading party.",
@@ -2436,8 +2457,9 @@ export const holidaysEn: Holiday[] = [
     theme: { from: "#14532d", to: "#7f1d1d", accent: "#fbbf24" },
     tagline: "The victory that 'resounded across five continents and shook the earth'.",
     history: [
-      "The Điện Biên Phủ campaign ran from March 13 to May 7, 1954 — 56 days and nights — under General Võ Nguyên Giáp as commander and political commissar, ending with the final assault that overran De Castries' headquarters.",
-      "On the afternoon of May 7, 1954, the 'Determined to Fight, Determined to Win' flag flew over De Castries' bunker. The victory forced France to sign the Geneva Accords on July 21, 1954, ending the First Indochina War.",
+      "The Điện Biên Phủ campaign ran from March 13 to May 7, 1954 — 55 days and nights in which the 308th Division under General Võ Nguyên Giáp destroyed the strongest fortified position of the French expeditionary corps in the red-soil basin of the northwest.",
+      "On the afternoon of May 7, 1954, the 'Determined to Fight, Determined to Win' flag flew over General De Castries' bunker. The victory forced France to sign the Geneva Accords on July 21, 1954, ending the first Indochina War.",
+      "Điện Biên Phủ entered world history as the first time a colonized nation defeated a Western power head-on — a song of victory that inspired liberation movements across Asia, Africa and Latin America.",
     ],
     meaning:
       "A symbol of the will to independence — the battle that brought a colonial power to the negotiating table.",
@@ -2518,8 +2540,9 @@ export const holidaysEn: Holiday[] = [
     theme: { from: "#7f1d1d", to: "#166534", accent: "#fbbf24" },
     tagline: "The birthday of Uncle Hồ — beloved leader of the nation.",
     history: [
-      "Hồ Chí Minh was born on May 19, 1890 in Hoàng Trù village, Kim Liên commune, Nam Đàn district, Nghệ An province — named Nguyễn Sinh Cung at birth, later Nguyễn Tất Thành and Nguyễn Ái Quốc.",
-      "In 1911 he left Nhà Rồng Wharf to seek a path to national salvation. May 19 has become the day the whole country remembers him — with mausoleum visits, flower offerings and cultural programs tied to his thought and ethics.",
+      "On May 19, 1890, Nguyễn Sinh Cung — later known as Hồ Chí Minh — was born in Kim Liên village, Nam Đàn district, Nghệ An province: a son of poor scholars rich in patriotism.",
+      "At twenty-one, the young man left Nhà Rồng wharf to seek a path to national salvation — thirty years wandering the continents before returning to Pác Bó to lead the revolution of 1945.",
+      "Since his death in 1969, his birthday has become a national moment of remembrance — pilgrimages to Nghệ An, flowers laid at the Mausoleum in Ba Đình, and the promise 'to follow Uncle Hồ's teachings'.",
     ],
     meaning:
       "The day the nation turns its heart toward Kim Liên — honoring the man who went to find a road for his people.",
@@ -2600,8 +2623,9 @@ export const holidaysEn: Holiday[] = [
     theme: { from: "#991b1b", to: "#dc2626", accent: "#fde047" },
     tagline: "The day Hanoi seized power, opening the era of independence.",
     history: [
-      "On August 19, 1945, during the General Uprising (August 14–25, 1945), hundreds of thousands of Hanoians demonstrated and seized the nerve centers of the puppet administration, opening the nationwide victory of the August Revolution.",
-      "On August 30, Emperor Bảo Đại abdicated at the Ngọ Môn gate; on September 2, 1945, President Hồ Chí Minh read the Declaration of Independence, giving birth to the Democratic Republic of Vietnam.",
+      "The August Revolution was the nationwide general uprising of August 1945, when Japan's surrender to the Allies left a power vacuum across Indochina.",
+      "On August 19, 1945, hundreds of thousands of Hanoians seized the nerve centers — the Grand Opera House, the secret police, the treasury — in a nearly bloodless uprising. Huế rose on the 23rd, Sài Gòn on the 25th: within fifteen days, power passed to the people nationwide.",
+      "From that victory, Emperor Bảo Đại abdicated on August 30, 1945 at Ngọ Môn, Huế — the abdication that ended Vietnam's monarchy. Two weeks later, the Democratic Republic of Vietnam was born at Ba Đình.",
     ],
     meaning:
       "History's handover moment — from more than eighty years of colonization to national independence.",
@@ -2682,8 +2706,9 @@ export const holidaysEn: Holiday[] = [
     theme: { from: "#7f1d1d", to: "#1e3a8a", accent: "#fde047" },
     tagline: "The day the red flag with gold star flew again over Hanoi's citadel.",
     history: [
-      "Under the Geneva Accords (July 21, 1954), French troops withdrew from the North. On October 10, 1954, the vanguard regiments of the Vietnam People's Army took over Hanoi through five city gates, amid seas of people and red flags.",
-      "That same evening, the red flag with gold star was officially raised on the Hanoi Flag Tower (Kỳ đài) before the Cộng Hòa sports ground — marking the capital's complete liberation after nine years of resistance.",
+      "October 10 also carries a thousand-year milestone: in 1010, King Lý Công Uẩn issued the Edict on the Transfer of the Capital, moving from Hoa Lư to Đại La and renaming it Thăng Long — the start of Hanoi's millennial history.",
+      "Nearly a millennium later, on October 10, 1954, the 308th 'Capital Regiment' took over Hanoi as French troops withdrew across the Paul Doumer bridge under the Geneva Accords — ending nine years of resistance.",
+      "For Hanoians, October 10 is 'the day of return' — the whole city poured out with flags and flowers to embrace the soldiers. The day remembers both milestones: the king who chose Thăng Long and the generation who brought peace home.",
     ],
     meaning:
       "The day Hanoi returned to the nation's hands — closing one page of history to open a new one for the capital and the country.",
@@ -2760,8 +2785,9 @@ export const holidaysEn: Holiday[] = [
     theme: { from: "#78350f", to: "#b45309", accent: "#fbbf24" },
     tagline: "A day honoring books and the reading habit of the Vietnamese.",
     history: [
-      "Vietnam Book and Reading Culture Day was established in 2014 by Prime Ministerial Decision 284/QĐ-TTg, fixing April 21 each year — two days before UNESCO's World Book and Copyright Day on April 23.",
-      "From a symbolic day, April 21 has grown into a whole 'book season': provincial book fairs, a national book week, shared reading hours in schools, and convoys carrying books to remote libraries.",
+      "Vietnam Book and Reading Culture Day was established in 2014 by decision of the Prime Minister — choosing April 21 each year to promote reading across society.",
+      "The date neighbors UNESCO's World Book and Copyright Day on April 23 — commemorating the deaths of Cervantes and Shakespeare in 1616, designated by the United Nations in 1995 to honor books worldwide.",
+      "Vietnamese culture has always prized learning — 'one letter makes a teacher, half a letter still a teacher'. Each April 21, book fairs, reading festivals and library donations bloom across the country — the year's own day for opening a new page.",
     ],
     meaning:
       "A reminder that reading is the most durable way to grow knowledge — and a push toward a true 'reading culture' for the whole society.",
@@ -2839,8 +2865,9 @@ export const holidaysEn: Holiday[] = [
     theme: { from: "#991b1b", to: "#ea580c", accent: "#fb923c" },
     tagline: "A day honoring the nation's spirit of physical training.",
     history: [
-      "On March 27, 1946, President Hồ Chí Minh signed Decree No. 33 promoting physical education among youth, students and the armed forces — the founding document of Vietnamese sports.",
-      "March 27 became the sector's traditional day, tied to the Olympic Run for Public Health — the country's largest mass jogging event, organized by the Vietnam Olympic Committee.",
+      "Vietnam Sports Day descends from the article 'Physical Education Is Essential' published in Cứu Quốc newspaper on March 27, 1946 — President Hồ Chí Minh's call for a healthy nation to build a new state.",
+      "In that article he wrote: 'To preserve democracy, build the nation and forge a new life — everything requires health to succeed' — the guiding principle of Vietnamese sports to this day.",
+      "Since 1991, March 27 has been organized as the Olympic Run Day for Public Health — hundreds of thousands running together across provinces, following Uncle Hồ's words on their own two feet.",
     ],
     meaning:
       "Inscribing Uncle Hồ's words 'healthy to work' — every healthy citizen is a share of the nation's strength.",
@@ -2919,8 +2946,9 @@ export const holidaysEn: Holiday[] = [
     theme: { from: "#1e3a8a", to: "#3730a3", accent: "#818cf8" },
     tagline: "A day honoring the law and bringing it to every citizen.",
     history: [
-      "On November 9, 1946, the first National Assembly passed the 1946 Constitution — the first charter of the Democratic Republic of Vietnam, opening the nation's modern constitutional history.",
-      "In 2013, November 9 was chosen as Vietnam Law Day to echo that first constitution — becoming an occasion for legal outreach and for honoring those who make and enforce the law.",
+      "On November 9, 1946, the first National Assembly of the Democratic Republic of Vietnam adopted the country's first Constitution — the young state's founding law, written even as the nation prepared for resistance.",
+      "The 1946 Constitution is regarded as one of Asia's most progressive of its era: affirming democratic rights, freedom of speech and gender equality — ahead of many contemporaries.",
+      "In 2013, the government designated November 9 as Vietnam Law Day — a day for legal education, honoring lawmakers, and remembering that rule of law began with one Assembly sitting in 1946.",
     ],
     meaning:
       "A reminder of modern society's most basic principle: the state governs by law — and no one stands above it.",
@@ -2998,8 +3026,9 @@ export const holidaysEn: Holiday[] = [
     theme: { from: "#0f766e", to: "#0891b2", accent: "#2dd4bf" },
     tagline: "A day honoring commerce and Vietnamese goods reaching the world.",
     history: [
-      "On July 13, 1946, President Hồ Chí Minh signed the decree establishing the Ministry of Economy — the forerunner of today's Vietnamese trade sector, in the first months of independence.",
-      "From a handful of farm exports, Vietnamese trade has climbed into Southeast Asia's top trading economies — rice, coffee, garments and phones shipping worldwide.",
+      "Vietnam Trade Day is tied to July 13, 1946 — when the government founded the young nation's first foreign-trade management agency, laying the groundwork for national commerce.",
+      "Since the 1986 renewal, Vietnamese trade grew from modest figures into one of Asia's most open economies — hundreds of billions of dollars in annual imports and exports, from rice and coffee to smartphones.",
+      "Formalized as a festival in 2007, July 13 honors import-export enterprises, trade fairs, and the suitcase-carrying traders who took Vietnamese goods to the world.",
     ],
     meaning:
       "Honoring everyone in commerce — from the market vendor to the exporting enterprise — the trade that carried Vietnamese goods and the words 'Viet Nam' onto the world map.",
@@ -3078,8 +3107,9 @@ export const holidaysEn: Holiday[] = [
     theme: { from: "#b91c1c", to: "#b45309", accent: "#fbbf24" },
     tagline: "The founding anniversary of Vietnam's largest youth organization.",
     history: [
-      "From March 26–31, 1931, the first congress of the Communist Youth League met in Vinh — Vietnam's first revolutionary youth organization was born, taking March 26 as its founding day.",
-      "Through several renamings — Communist Youth, National Salvation Youth, Working Youth, Ho Chi Minh Working Youth — the organization took its current name in 1992: the Ho Chi Minh Communist Youth Union.",
+      "On March 26, 1931, at the Party's first national congress in Macau, the Indochinese Communist Youth Union was founded — the nation's first youth organization.",
+      "Within months, Lý Tự Trọng — the first Union member captured and executed in Sài Gòn in November 1931 — left the immortal words 'the only path for youth is the revolutionary path', becoming the model of Vietnamese youth.",
+      "The Union took the name Hồ Chí Minh Communist Youth Union in 1962. From volunteer shock brigades to today's community volunteers, March 26 is the festival of Vietnamese youth — 'an age worth its weight in gold'.",
     ],
     meaning:
       "A day reminding young people of a ninety-year tradition of stepping forward — from Ly Tu Trong to the volunteer brigades, to today's green summer campaigns and startups.",
@@ -3158,8 +3188,9 @@ export const holidaysEn: Holiday[] = [
     theme: { from: "#3b0764", to: "#701a75", accent: "#c084fc" },
     tagline: "The first full-moon night reserved for Vietnamese poetry.",
     history: [
-      "Vietnam Poetry Day was initiated by the Vietnam Writers' Association, honoring UNESCO's World Poetry Day established in 1999 — the first poetry night was held on February 24, 2003 at the Temple of Literature in Hanoi.",
-      "Since then, a theme is chosen each year and poetry night is held on the 15th of the first lunar month — the same night as the Nguyen Tieu lantern festival, when the year's moon is at its fullest.",
+      "Vietnam Poetry Day was initiated by the Vietnam Writers' Association in 2003 — choosing the first full moon of the lunar year, the year's most beautiful night, for a poetry festival at the Văn Miếu Temple of Literature, the nation's first university.",
+      "This is a 'land of poetry': from millennia of oral folk verse, through Nguyễn Du's Tale of Kiều honored by UNESCO, to verses written in wartime trenches — poetry is the soul of the Vietnamese language.",
+      "In 2014, the government formally recognized Vietnam Poetry Day. Each first full moon, poets and lovers of verse gather by the Thiên Quang well to read beneath the moon — the year's loveliest literary night.",
     ],
     meaning:
       "Honoring poetry — the art form longest bound to Vietnamese culture: from lullaby folk verse and Tang-regulated poems to The Tale of Kieu and modern free verse.",
@@ -3241,8 +3272,9 @@ export const holidaysEn: Holiday[] = [
     theme: { from: "#0c4a6e", to: "#075985", accent: "#38bdf8" },
     tagline: "A day to thank the men in our lives.",
     history: [
-      "International Men's Day was initiated by Dr. Jerome Teelucksingh in Trinidad & Tobago — first celebrated in 1999 on November 19, his own father's birthday.",
-      "It is now observed in about 80 countries — not yet an official UN day, but a global occasion to talk about men's health and positive male role models.",
+      "International Men's Day, November 19, was initiated in 1999 by Dr. Jerome Teelucksingh of Trinidad and Tobago — who chose his own father's birthday to honor good men in families everywhere.",
+      "The day rests on four pillars: men's health, positive male role models, better gender relations, and men's contributions to family and community.",
+      "Now observed in over 80 countries, November 19 reached Vietnam in the 2010s and quickly became the day women send gifts to husbands, fathers and brothers — the 'men's day' answering March 8.",
     ],
     meaning:
       "A thank-you to men who rarely hear it — a day to pay attention to men's health, emotions and roles in society.",
