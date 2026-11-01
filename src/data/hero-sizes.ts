@@ -43,7 +43,7 @@ export const HERO_SRC_W: Record<string, number> = {
 // alternative to the base64 LQIP, which stays server-side).
 export const HERO_TINT: Record<string, string> = {
   "birthday": "#180808",
-  "doanh-nhan": "#8888d8",
+  "doanh-nhan": "#383838",
   "giai-phong-mien-nam": "#080808",
   "giang-sinh": "#080808",
   "gio-to-hung-vuong": "#f8f8f8",

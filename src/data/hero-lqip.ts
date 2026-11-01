@@ -4,7 +4,7 @@
 // every holiday's placeholder (~15KB) — pass a single entry as a prop.
 export const HERO_LQIP: Record<string, string> = {
   "birthday": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAACQBACdASoUAAcAPwFqrE8rJiQiMAgBYCAJbACdMoR3ACs/A8m08ecc8fkfAoAA/t3vFBkS47T8GtsUiUdFp/OfC4Pjb3YdExraUYdLwYFHwm5kkkrauuFzNrgUpQ7F6UsVESsC98bBfNJjh8HCbKwiKHkAAA==",
-  "doanh-nhan": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAwCdASoUAAgAPwFqrU6rJiQiMAgBYCAJZAC06CIhDKUJc375ZSgA3WZzcpJk8zHSaZT7rQr1l8ZsUcxvTktO+hPOyBwRhdpp860Npa7QIzX8eib4bMgAAAA=",
+  "doanh-nhan": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAAAQBACdASoUAA8APwForE6rJaQiMAgBYCAJaADE2CB+EPgcScudWgXMAAD+0DXGNHxQt6MrpPHrjQOFDzrGUk/YVbHZucw08jw2iTmucT70dkLmkHKrsrveZLE0IT2KDbvGU51NoER0H0uGOJnmN3ASS4AAAA==",
   "giai-phong-mien-nam": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAwCdASoUAA0APwFqrE8rJiQiMAgBYCAJYwAAW4celA9mg5SvqAAA/uvf6AFSDVb/6Z1LpIvEQkNoweSBJUbV7I/cyGNCoftc8mAA",
   "giang-sinh": "data:image/webp;base64,UklGRiABAABXRUJQVlA4IBQBAADwBgCdASoUACQAPwFuqVCrJiOiqqwBYCAJbAC358Wrvg8NDeXDfmGaKiFCbU6lnZ0tMn61ZIaDELM1SYjD9M8AAP7sQ/qeI9cCpYJLFT4X1kA8PG+auBcOWqbB9zavTMQ99xB1tL1zh9Zku4mfgrxHCXG+GT6fjkHTydbqUTcQsBvrcWYqDh9WMAHKWt5G7GsOkpoBqwWpl8GdEVQVMlPa2/OoS6BSbYJ++UhTFoPiDmF4tp37qiPBkbmQCL9jhIpIZQ5ndUBDMUjvGuLoQHhsMHaaevrZ1/s+Xz+uyu6lBcTXw03gKihYCqLwMdI719UJdKpE+9dCVwD13THX4M2H6m/G9gqo2Mgu5gthk0ojYIBnIAA=",
   "gio-to-hung-vuong": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAAAwBACdASoUAA8APwFqrE8rJiQiMAgBYCAJZQDCgCPQRuEvy33eDsDV4wAA/p8C8nBLj21DX465tPnvgP+n+wdHSArXBe2glN7FnRApMuyaZj7qcKMZVwU+LMp/htTHCiKKZ7y9FkF9Obk+9bVT0dIaz4ktwAAA",

@@ -13,19 +13,10 @@ const UA = {
 };
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-// Round 3: slots still foreign/off-theme after Commons+Flickr passes.
+// Round 4: last stubborn slots — wider query net.
 const FIX = {
-  "scenery/card": ["sapa ruộng bậc thang", "vietnam landscape terrace", "tam coc ninh binh vietnam"],
-  "scenery/hero": ["sapa vietnam mountains", "phong cảnh việt nam đẹp", "ha giang vietnam landscape"],
-  "doanh-nhan/hero": ["doanh nhân việt nam", "vietnam business people office", "saigon business district skyline"],
-  "doanh-nhan/gallery1": ["văn phòng việt nam", "vietnam office workers meeting", "bitexco saigon"],
-  "trung-thu/gallery2": ["đèn lồng trung thu phố cổ", "trung thu lồng đèn việt nam", "vietnam lantern mid autumn"],
-  "trung-thu/gallery3": ["múa lân trung thu", "trẻ em trung thu việt nam", "đêm trung thu hội an"],
-  "ngay-bao-chi/gallery5": ["tòa soạn báo việt nam", "vietnam newsroom press", "phóng viên tác nghiệp việt nam"],
-  "vu-lan/hero": ["vu lan việt nam chùa", "vietnam temple praying candles", "chùa việt nam cầu nguyện"],
-  "giang-sinh/card": ["nhà thờ giáng sinh việt nam", "vietnam church christmas", "giáng sinh hà nội nhà thờ"],
-  "tet-doan-ngo/amthuc-com-ruou": ["rượu nếp tết đoan ngọ", "cốm việt nam", "rượu nếp cẩm việt nam"],
-  "birthday/hero": ["birthday cake candles happy", "bánh sinh nhật nến đẹp", "happy birthday balloons cake"],
+  "doanh-nhan/hero": ["sài gòn skyline đêm", "ho chi minh city skyline", "thành phố hồ chí minh trung tâm", "vietnam city aerial", "startup viet nam office team"],
+  "tet-duong-lich/gallery6": ["pháo hoa sài gòn", "fireworks hoan kiem lake", "giao thừa pháo hoa việt nam", "fireworks city skyline night"],
 };
 
 mkdirSync(STAGE, { recursive: true });

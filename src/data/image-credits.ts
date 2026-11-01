@@ -56,15 +56,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Kiss of the Sea show featuring a spectacular fireworks display above the illuminated semicircular open-air theater on th"
     },
     {
-      "file": "tet-duong-lich/gallery6.webp",
-      "photographer": "PattayaPatrol",
-      "profile": "https://commons.wikimedia.org/wiki/File:DFC_3850_A_crowd_gathers_along_the_shore_as_fireworks_burst_and_reflect_across_the_water_lighting_up_the_night_sky_and_sending_plumes_of_smoke_into_the_air.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:DFC_3850_A_crowd_gathers_along_the_shore_as_fireworks_burst_and_reflect_across_the_water_lighting_up_the_night_sky_and_sending_plumes_of_smoke_into_the_air.jpg",
-      "license": "CC BY-SA 4.0",
-      "source": "Wikimedia Commons",
-      "alt": "This photo shows a spectacular nighttime fireworks display over a body of water. Multiple colorful fireworks are explodi"
-    },
-    {
       "file": "tet-duong-lich/gallery4.webp",
       "photographer": "trungydang",
       "profile": "https://commons.wikimedia.org/wiki/File:Nam_moi_2015,ban_phao_hoa_Saigon_Vietnam_-_panoramio.jpg",
@@ -81,6 +72,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY 3.0",
       "source": "Wikimedia Commons",
       "alt": "New Year's Eve fireworks"
+    },
+    {
+      "file": "tet-duong-lich/gallery6.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/chopperkuo/5070633744",
+      "photo": "https://www.flickr.com/photos/chopperkuo/5070633744",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "IMG_4506 | 政煌 郭 | Flickr"
     }
   ],
   "tet-nguyen-dan": [
@@ -2344,15 +2344,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
   ],
   "doanh-nhan": [
     {
-      "file": "doanh-nhan/hero.webp",
-      "photographer": "Diliff",
-      "profile": "https://commons.wikimedia.org/wiki/File:Sydney_skyline_at_dusk_-_Dec_2008.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Sydney_skyline_at_dusk_-_Dec_2008.jpg",
-      "license": "CC BY-SA 3.0",
-      "source": "Wikimedia Commons",
-      "alt": "A panoramic view of the Sydney skyline as viewed across Sydney Harbour from Kirribilli. Taken by myself with a Canon 5D "
-    },
-    {
       "file": "doanh-nhan/gallery4.webp",
       "photographer": "Richard Allaway",
       "profile": "https://commons.wikimedia.org/wiki/File:Freshwater_and_Urban_Environments_-_Port_and_shipyard_next_to_the_Central_Business_District_(CBD)_of_Ho_Chi_Minh_City,_Vietnam.jpg",
@@ -2414,6 +2405,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC (xem nguồn)",
       "source": "Web (kremlin.ru)",
       "alt": "Во Вьетнаме завершился саммит АТЭС • Президент России"
+    },
+    {
+      "file": "doanh-nhan/hero.webp",
+      "photographer": "valeriapanarina.ru",
+      "profile": "https://www.valeriapanarina.ru/blog/neboskreb-bitexco-velikolepnaya-panorama-i-fantasticheskoe-fondyu-na-vysote-ptichego-poleta.php",
+      "photo": "https://www.valeriapanarina.ru/blog/neboskreb-bitexco-velikolepnaya-panorama-i-fantasticheskoe-fondyu-na-vysote-ptichego-poleta.php",
+      "license": "CC (xem nguồn)",
+      "source": "Web (valeriapanarina.ru)",
+      "alt": "Небоскреб Bitexco: великолепная панорама и фантастическое фондю на ..."
     }
   ],
   "tet-thanh-minh": [

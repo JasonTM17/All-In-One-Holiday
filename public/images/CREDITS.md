@@ -9,9 +9,9 @@ Photos from Wikimedia Commons and Flickr contributors; see per-file license and 
 | tet-duong-lich/gallery1.webp | Violetbonmua | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Da_Lat_Flower_Festival_2012_Fireworks_-_23.JPG) |
 | tet-duong-lich/gallery2.webp | Vivu Vietnam | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Fireworks_Campanile_Scenic_Observatory_night_Phu_Quoc_Vietnam.jpg) |
 | tet-duong-lich/gallery3.webp | Vivu Vietnam | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Kiss_of_the_Sea_show_outdoor_theater_fireworks_night_Phu_Quoc_Island_Vietnam.jpg) |
-| tet-duong-lich/gallery6.webp | PattayaPatrol | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:DFC_3850_A_crowd_gathers_along_the_shore_as_fireworks_burst_and_reflect_across_the_water_lighting_up_the_night_sky_and_sending_plumes_of_smoke_into_the_air.jpg) |
 | tet-duong-lich/gallery4.webp | trungydang | CC BY 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Nam_moi_2015,ban_phao_hoa_Saigon_Vietnam_-_panoramio.jpg) |
 | tet-duong-lich/gallery5.webp | trungydang | CC BY 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ban_phao_hoa_giao_thua_,_2015._Saigon_vietnam_-_panoramio.jpg) |
+| tet-duong-lich/gallery6.webp | flickr.com | CC (xem nguồn) | [Commons](https://www.flickr.com/photos/chopperkuo/5070633744) |
 | tet-nguyen-dan/hero.webp | Nhanvo at Vietnamese Wikipedia | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Hoa_mai.jpg) |
 | tet-nguyen-dan/card.webp | Hoa_mai.jpg: Original uploader was Nhanvo at vi.wikipedia Later version(s) were uploaded by Lưu Ly, Casablanca1911, Tdangkhoa at vi.wikipedia. derivative work: Minh Nguyễn (talk, contribs) | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Ochna_integerrima_Vietnamese_New_Year_background.png) |
 | tet-nguyen-dan/gallery1.webp | Prenn | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ochna_integerrima_(2).JPG) |
@@ -257,7 +257,6 @@ Photos from Wikimedia Commons and Flickr contributors; see per-file license and 
 | nguoi-cao-tuoi/gallery4.webp | Rodhullandemu | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Frontage_statues,_Oriel_%26_Hardie_House.jpg) |
 | nguoi-cao-tuoi/gallery6.webp | McKay Savage from London, UK | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Vietnam_08_-_082_-_My_smiling_tour_saleswoman_(3184027481).jpg) |
 | nguoi-cao-tuoi/gallery5.webp | EU Civil Protection and Humanitarian Aid | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/eu_echo/6975550309/) |
-| doanh-nhan/hero.webp | Diliff | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Sydney_skyline_at_dusk_-_Dec_2008.jpg) |
 | doanh-nhan/gallery4.webp | Richard Allaway | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Freshwater_and_Urban_Environments_-_Port_and_shipyard_next_to_the_Central_Business_District_(CBD)_of_Ho_Chi_Minh_City,_Vietnam.jpg) |
 | doanh-nhan/card.webp | Diego Delso | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Bitexco_Financial_Tower,_Ciudad_Ho_Chi_Minh,_Vietnam,_2013-08-14,_DD_01.JPG) |
 | doanh-nhan/gallery2.webp | calflier001 | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:BEN_THANH_MARKET_SAIGON_VIETNAM_JAN_2012_(6966716295).jpg) |
@@ -265,6 +264,7 @@ Photos from Wikimedia Commons and Flickr contributors; see per-file license and 
 | doanh-nhan/gallery5.webp | namisito | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Mercedes-Benz-Vietnam_factory_workers_management.jpg) |
 | doanh-nhan/gallery6.webp | Cuong Tran | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Thu_Thiem_2_Bridge_construction.png) |
 | doanh-nhan/gallery1.webp | kremlin.ru | CC (xem nguồn) | [Commons](https://kremlin.ru/events/president/news/56049) |
+| doanh-nhan/hero.webp | valeriapanarina.ru | CC (xem nguồn) | [Commons](https://www.valeriapanarina.ru/blog/neboskreb-bitexco-velikolepnaya-panorama-i-fantasticheskoe-fondyu-na-vysote-ptichego-poleta.php) |
 | tet-thanh-minh/hero.webp | Zhang Zeduan (1085–1145) | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Qingming_Festival_Detail_2.jpg) |
 | tet-thanh-minh/card.webp | Zhang Zeduan (1085–1145) | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Qingming_Festival_Detail_3.jpg) |
 | tet-thanh-minh/gallery1.webp | Zhang Zeduan (1085–1145) | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Qingming_Festival_Detail_10.jpg) |
