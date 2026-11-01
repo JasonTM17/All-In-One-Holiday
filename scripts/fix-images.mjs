@@ -122,8 +122,8 @@ if (process.argv.includes("--promote")) {
     const entry = {
       file: `${slug}/${stem}.webp`,
       photographer: m.photographer,
-      profile: m.photo,
-      photo: m.photo,
+      profile: m.photo.replace(/^http:\/\//, "https://"),
+      photo: m.photo.replace(/^http:\/\//, "https://"),
       license: m.license,
       source: m.source ?? "Wikimedia Commons",
       alt: m.alt,

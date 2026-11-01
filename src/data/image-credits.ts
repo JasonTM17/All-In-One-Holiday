@@ -311,7 +311,7 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "photo": "https://commons.wikimedia.org/wiki/File:Wedding_bouquet_red_reses.jpg",
       "license": "Public domain",
       "source": "Wikimedia Commons",
-      "alt": "Image title: Wedding bouquet red reses Image from Public domain images website, http://www.public-domain-image.com/full-"
+      "alt": "Image title: Wedding bouquet red reses Image from Public domain images website, https://www.public-domain-image.com/full-"
     },
     {
       "file": "valentine/card.webp",
@@ -396,12 +396,12 @@ export const imageCredits: Record<string, ImageCredit[]> = {
     },
     {
       "file": "valentine/gallery6.webp",
-      "photographer": "Paolo Gamba from Paris, France",
-      "profile": "https://commons.wikimedia.org/wiki/File:Red_roses_(32337990087).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Red_roses_(32337990087).jpg",
-      "license": "CC BY 2.0",
-      "source": "Wikimedia Commons",
-      "alt": "firsts test with my new toy: apo-telyt-M 135"
+      "photographer": "svgattic.blogspot.com",
+      "profile": "https://svgattic.blogspot.com/2015/02/be-my-valentine-with-angeline-choo.html",
+      "photo": "https://svgattic.blogspot.com/2015/02/be-my-valentine-with-angeline-choo.html",
+      "license": "CC (xem nguồn)",
+      "source": "Web (svgattic.blogspot.com)",
+      "alt": "SVG Attic Blog: Be my Valentine ~ with Angeline Choo"
     }
   ],
   "quoc-te-phu-nu": [
@@ -590,15 +590,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "The new stadium within Chu Văn An High School campus."
     },
     {
-      "file": "nha-giao-viet-nam/gallery5.webp",
-      "photographer": "Anneli Salo",
-      "profile": "https://commons.wikimedia.org/wiki/File:Kirsti_M%C3%A4kinen_IMG_5884_C.JPG",
-      "photo": "https://commons.wikimedia.org/wiki/File:Kirsti_M%C3%A4kinen_IMG_5884_C.JPG",
-      "license": "CC BY-SA 3.0",
-      "source": "Wikimedia Commons",
-      "alt": "Finnish non-fiction writer and teacher Kirsti Mäkinen is reading her book on World Book Day in Helsinki in 2012"
-    },
-    {
       "file": "nha-giao-viet-nam/gallery3.webp",
       "photographer": "USAID Vietnam",
       "profile": "https://commons.wikimedia.org/wiki/File:Dong_A_University_IT_Program_for_Students_with_Disabilities.jpg",
@@ -617,13 +608,22 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "vietnam teacher classroom"
     },
     {
-      "file": "nha-giao-viet-nam/gallery6.webp",
-      "photographer": "thaienews.blogspot.com",
-      "profile": "https://thaienews.blogspot.com/2017/05/3_60.html",
-      "photo": "https://thaienews.blogspot.com/2017/05/3_60.html",
+      "file": "nha-giao-viet-nam/gallery5.webp",
+      "photographer": "cohtran.blogspot.com",
+      "profile": "https://cohtran.blogspot.com/2014/02/",
+      "photo": "https://cohtran.blogspot.com/2014/02/",
       "license": "CC (xem nguồn)",
-      "source": "Web (thaienews.blogspot.com)",
-      "alt": "Thai E-News : ครบ 3 ปี คสช. ป้ายโผล่ที่เกษตรศาสตร์ + กลุ่มฟื้นฟู ..."
+      "source": "Web (cohtran.blogspot.com)",
+      "alt": "Toán - Cơ học ứng dụng: tháng hai 2014"
+    },
+    {
+      "file": "nha-giao-viet-nam/gallery6.webp",
+      "photographer": "science.mahidol.ac.th",
+      "profile": "https://science.mahidol.ac.th/th/activity/nov61-2.php",
+      "photo": "https://science.mahidol.ac.th/th/activity/nov61-2.php",
+      "license": "CC (xem nguồn)",
+      "source": "Web (science.mahidol.ac.th)",
+      "alt": "SC Open House ในงานมหิดลวิชาการ เปิดบ้านมหิดล 2561"
     }
   ],
   "quan-doi-nhan-dan": [
@@ -673,15 +673,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Flag bearers present colors at the dedication ceremony for the Vietnamese Tomb of the Unknown Soldier. NARA"
     },
     {
-      "file": "quan-doi-nhan-dan/gallery4.webp",
-      "photographer": "Fernand Nadal",
-      "profile": "https://commons.wikimedia.org/wiki/File:Saigon,_14_juillet_1929._Le_d%C3%A9fil%C3%A9_est_termin%C3%A9,_Boulevard_Norodom.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Saigon,_14_juillet_1929._Le_d%C3%A9fil%C3%A9_est_termin%C3%A9,_Boulevard_Norodom.jpg",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "14 juillet 1929. Le défilé est terminé. Boulevard Noradom. Au fond le Palais du gouverneur général;"
-    },
-    {
       "file": "quan-doi-nhan-dan/gallery5.webp",
       "photographer": "Taitamtinh",
       "profile": "https://commons.wikimedia.org/wiki/File:Vietnamese_People%27s_Army_Barracks_Vector.png",
@@ -698,6 +689,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "Public domain",
       "source": "Wikimedia Commons",
       "alt": "M-113 Recon vehicle making river crossing during exercise conducted by 4th AC Squadron in Vietnam"
+    },
+    {
+      "file": "quan-doi-nhan-dan/gallery4.webp",
+      "photographer": "Rufus Phillips",
+      "profile": "https://commons.wikimedia.org/wiki/File:VA066422_VN_National_Day_-_Oct_1956.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:VA066422_VN_National_Day_-_Oct_1956.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Existence: October 1956 General Note: VN National Day - Oct 1956"
     }
   ],
   "gio-to-hung-vuong": [
@@ -1613,24 +1613,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Two gingerbread men in a basket of cookies"
     },
     {
-      "file": "giang-sinh/gallery4.webp",
-      "photographer": "Chris Olszewski",
-      "profile": "https://commons.wikimedia.org/wiki/File:Christmas_decorations_in_Queen_Street_Mall,_Brisbane,_2025,_02.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Christmas_decorations_in_Queen_Street_Mall,_Brisbane,_2025,_02.jpg",
-      "license": "CC BY-SA 4.0",
-      "source": "Wikimedia Commons",
-      "alt": "Christmas decorations in Queen Street Mall, Brisbane, 2025"
-    },
-    {
-      "file": "giang-sinh/gallery6.webp",
-      "photographer": "midnightbreakfastcafe",
-      "profile": "https://commons.wikimedia.org/wiki/File:Christmas_lights_and_Xinzhongshan_Stage_20201230.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Christmas_lights_and_Xinzhongshan_Stage_20201230.jpg",
-      "license": "CC BY 2.0",
-      "source": "Wikimedia Commons",
-      "alt": "​耶誕節期間，心中山線形公園心中山舞台背側燈飾。"
-    },
-    {
       "file": "giang-sinh/hero.webp",
       "photographer": "Peter Addor from underway; mailnly Switzerland, Italy and Sri Lanka, world",
       "profile": "https://commons.wikimedia.org/wiki/File:Xmas_Eve_in_front_of_the_St._Joseph_Cathedral_in_Hanoi_(39251039582).jpg",
@@ -1665,6 +1647,24 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC (xem nguồn)",
       "source": "Web (flickr.com)",
       "alt": "The \"night\" church | Walking out at night, I was setup this … | Flickr"
+    },
+    {
+      "file": "giang-sinh/gallery4.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/59616483@N00/5482531974",
+      "photo": "https://www.flickr.com/photos/59616483@N00/5482531974",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "Notre Dame Cathedral, Ho Chi Minh City | Pigalle | Flickr"
+    },
+    {
+      "file": "giang-sinh/gallery6.webp",
+      "photographer": "mabaydar.blogspot.com",
+      "profile": "https://mabaydar.blogspot.com/2014/04/weekend-trip-to-malacca-malaysia.html",
+      "photo": "https://mabaydar.blogspot.com/2014/04/weekend-trip-to-malacca-malaysia.html",
+      "license": "CC (xem nguồn)",
+      "source": "Web (mabaydar.blogspot.com)",
+      "alt": "မဗေဒါရဲ့ ဗေဒါလမ်း: Weekend trip to Malacca, Malaysia"
     }
   ],
   "home-hero": [
@@ -1956,15 +1956,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Osmanthus syrup shaved ice + 5 hot tangyuan (stuffed sticky rice balls) The source of repast : Yu Pin Yuan Iced and Hot "
     },
     {
-      "file": "tet-han-thuc/gallery6.webp",
-      "photographer": "Benh LIEU SONG",
-      "profile": "https://commons.wikimedia.org/wiki/File:Saint_Chely_Tarn.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Saint_Chely_Tarn.jpg",
-      "license": "CC BY-SA 3.0",
-      "source": "Wikimedia Commons",
-      "alt": "View over the cirque of Pougnadoires and Saint-Chély-du-Tarn village, in the Tarn Gorges, from the cirque of Saint-Chély"
-    },
-    {
       "file": "tet-han-thuc/gallery5.webp",
       "photographer": "Phương Huy (thảo luận)",
       "profile": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_bao_chay_ng%E1%BB%8Dt_c%C3%BAng_t%E1%BA%A5t_ni%C3%AAn_nh%C3%A0_m%E1%BB%87_2018.jpg",
@@ -1981,6 +1972,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC (xem nguồn)",
       "source": "Web (fr.wikipedia.org)",
       "alt": "Songpyeon — Wikipédia"
+    },
+    {
+      "file": "tet-han-thuc/gallery6.webp",
+      "photographer": "bualoy-thaidessert.blogspot.com",
+      "profile": "https://bualoy-thaidessert.blogspot.com/",
+      "photo": "https://bualoy-thaidessert.blogspot.com/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (bualoy-thaidessert.blogspot.com)",
+      "alt": "บัวลอยไข่หวาน สูตรขนมที่คนไทยไม่เคยลืม"
     }
   ],
   "tet-doan-ngo": [
@@ -2169,33 +2169,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
   ],
   "ngay-bao-chi": [
     {
-      "file": "ngay-bao-chi/hero.webp",
-      "photographer": "Sue Clark",
-      "profile": "https://commons.wikimedia.org/wiki/File:Double_Octuple_Newspaper_Press.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Double_Octuple_Newspaper_Press.jpg",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "From Webster's New Illustrated Dictionary based on the Unabridged Dictionary of Noah Webster, Revised and edited by Edwa"
-    },
-    {
-      "file": "ngay-bao-chi/card.webp",
-      "photographer": "David Brewer from Brookmans Park, England",
-      "profile": "https://commons.wikimedia.org/wiki/File:2010_newspaper_press_Bulawayo_Zimbabwe_6423798769.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:2010_newspaper_press_Bulawayo_Zimbabwe_6423798769.jpg",
-      "license": "CC BY-SA 2.0",
-      "source": "Wikimedia Commons",
-      "alt": "Visit to The Chronicle & The Sunday News office in Bulawayo, Zimbabwe."
-    },
-    {
-      "file": "ngay-bao-chi/gallery4.webp",
-      "photographer": "Wikimedia Commons",
-      "profile": "https://commons.wikimedia.org/wiki/File:The_rotary_press_of_newspaper_Hufvudstadsbladet_1927_(Numeroimaton;_JOKAHBL3A_A01-19).tif",
-      "photo": "https://commons.wikimedia.org/wiki/File:The_rotary_press_of_newspaper_Hufvudstadsbladet_1927_(Numeroimaton;_JOKAHBL3A_A01-19).tif",
-      "license": "CC BY 4.0",
-      "source": "Wikimedia Commons",
-      "alt": "Premises of newspaper Hufvudstadsbladet in Helsinki 1927. HBL's new 64-page-rotation press."
-    },
-    {
       "file": "ngay-bao-chi/gallery1.webp",
       "photographer": "Ngô Trung",
       "profile": "https://commons.wikimedia.org/wiki/File:S%E1%BA%A1p_b%C3%A1o.JPG",
@@ -2214,24 +2187,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "A newspaper kiosk located at 110A1 Giang Vo Road, Giang Vo Ward, Ba Dinh District, Hanoi, Vietnam."
     },
     {
-      "file": "ngay-bao-chi/gallery3.webp",
-      "photographer": "tcgd.tapchigiaoduc.edu.vn",
-      "profile": "https://tcgd.tapchigiaoduc.edu.vn/index.php/tapchi/article/view/3906",
-      "photo": "https://tcgd.tapchigiaoduc.edu.vn/index.php/tapchi/article/view/3906",
-      "license": "CC (xem nguồn)",
-      "source": "Web (tcgd.tapchigiaoduc.edu.vn)",
-      "alt": "Giải pháp giáo dục lòng yêu nước, ý thức dân tộc cho thế hệ trẻ Việt ..."
-    },
-    {
-      "file": "ngay-bao-chi/gallery5.webp",
-      "photographer": "journalistsresource.org",
-      "profile": "https://journalistsresource.org/race-and-gender/newsroom-diversity-7-studies/",
-      "photo": "https://journalistsresource.org/race-and-gender/newsroom-diversity-7-studies/",
-      "license": "CC (xem nguồn)",
-      "source": "Web (journalistsresource.org)",
-      "alt": "Newsroom diversity: 7 studies to know on race in journalism"
-    },
-    {
       "file": "ngay-bao-chi/gallery6.webp",
       "photographer": "diendan.org",
       "profile": "https://www.diendan.org/viet-nam/thanh-lap-hoi-nha-bao-doc-lap-viet-nam",
@@ -2239,45 +2194,54 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC (xem nguồn)",
       "source": "Web (diendan.org)",
       "alt": "Thành lập Hội Nhà báo Độc lập Việt Nam — Diễn Đàn Forum"
+    },
+    {
+      "file": "ngay-bao-chi/hero.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/97930879@N02/14263876939",
+      "photo": "https://www.flickr.com/photos/97930879@N02/14263876939",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "Phóng viên ảnh Huỳnh Thanh Mỹ 1965 - WAR PHOTOGRAPHER | Flickr"
+    },
+    {
+      "file": "ngay-bao-chi/card.webp",
+      "photographer": "knightfoundation.org",
+      "profile": "https://knightfoundation.org/articles/what-about-television-news/",
+      "photo": "https://knightfoundation.org/articles/what-about-television-news/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (knightfoundation.org)",
+      "alt": "What about television news? – Knight Foundation"
+    },
+    {
+      "file": "ngay-bao-chi/gallery3.webp",
+      "photographer": "24hdansuneredaction.com",
+      "profile": "https://24hdansuneredaction.com/vi/presse/15-ky-thuat-phong-van/",
+      "photo": "https://24hdansuneredaction.com/vi/presse/15-ky-thuat-phong-van/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (24hdansuneredaction.com)",
+      "alt": "15. Kỹ thuật phỏng vấn - 24h dans une rédaction"
+    },
+    {
+      "file": "ngay-bao-chi/gallery4.webp",
+      "photographer": "claudiosieberphotography.com",
+      "profile": "https://claudiosieberphotography.com/vietnam-hanoi-3-5/",
+      "photo": "https://claudiosieberphotography.com/vietnam-hanoi-3-5/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (claudiosieberphotography.com)",
+      "alt": "vietnam-hanoi-3-5"
+    },
+    {
+      "file": "ngay-bao-chi/gallery5.webp",
+      "photographer": "thaicyberpoint.com",
+      "profile": "https://www.thaicyberpoint.com/ford/blog/id/1817/",
+      "photo": "https://www.thaicyberpoint.com/ford/blog/id/1817/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (thaicyberpoint.com)",
+      "alt": "บอกเล่าเรื่องราวจาก KBank Meet &amp; Talk with Blogger เมื่อต้นเดือนธันวาคม ..."
     }
   ],
   "nguoi-cao-tuoi": [
-    {
-      "file": "nguoi-cao-tuoi/hero.webp",
-      "photographer": ". The original uploader was MoodyGroove at English Wikipedia.",
-      "profile": "https://commons.wikimedia.org/wiki/File:Clinton_health_care_elderly.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Clinton_health_care_elderly.jpg",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "From https://clintonwhitehouse2.archives.gov/WH/EOP/First_Lady/html/HILLARY_Bio.html: Upon taking office in 1993, Presid"
-    },
-    {
-      "file": "nguoi-cao-tuoi/card.webp",
-      "photographer": "Cpl. Cullen J. Tiernan",
-      "profile": "https://commons.wikimedia.org/wiki/File:USMC-100810-M-8743T-217.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:USMC-100810-M-8743T-217.jpg",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "A soldier with the Armed Forces for the Defense of Mozambique hands medicine to an elderly village woman in Sabie, Mozam"
-    },
-    {
-      "file": "nguoi-cao-tuoi/gallery2.webp",
-      "photographer": "Tim Green from Bradford",
-      "profile": "https://commons.wikimedia.org/wiki/File:Literary_Institute,_Camborne_(9592703552).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Literary_Institute,_Camborne_(9592703552).jpg",
-      "license": "CC BY 2.0",
-      "source": "Wikimedia Commons",
-      "alt": "Grade II*. Literary Institute, now social centre. 1842, enlarged 1852; altered. Granite ashlar, slate roof. T-plan forme"
-    },
-    {
-      "file": "nguoi-cao-tuoi/gallery3.webp",
-      "photographer": "Print made by: Isaac Cruikshank After: George Moutard Woodward Published by: S W Fores",
-      "profile": "https://commons.wikimedia.org/wiki/File:Symptoms_of_Crim._Con.!!_(BM_1935,0522.8.39).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Symptoms_of_Crim._Con.!!_(BM_1935,0522.8.39).jpg",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "Six groups of three persons (wife, husband, and lover) arranged in two rows, their words (not transcribed) etched above "
-    },
     {
       "file": "nguoi-cao-tuoi/amthuc-xoi-gac.webp",
       "photographer": "Nguyễn Thanh Quang 07:20, 3 December 2007 (UTC)",
@@ -2306,15 +2270,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "tự chụp, minh họa cho bài viết"
     },
     {
-      "file": "nguoi-cao-tuoi/gallery4.webp",
-      "photographer": "Rodhullandemu",
-      "profile": "https://commons.wikimedia.org/wiki/File:Frontage_statues,_Oriel_%26_Hardie_House.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Frontage_statues,_Oriel_%26_Hardie_House.jpg",
-      "license": "CC BY-SA 4.0",
-      "source": "Wikimedia Commons",
-      "alt": "Statue on the frontage of Oriel &amp; Hardie House, Bootle of a loving elderly couple. Sadly their dancing days appear t"
-    },
-    {
       "file": "nguoi-cao-tuoi/gallery6.webp",
       "photographer": "McKay Savage from London, UK",
       "profile": "https://commons.wikimedia.org/wiki/File:Vietnam_08_-_082_-_My_smiling_tour_saleswoman_(3184027481).jpg",
@@ -2340,6 +2295,51 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC (xem nguồn)",
       "source": "Web (thuocdantoc.vn)",
       "alt": "Phụ nữ lớn tuổi ít vận động sẽ làm tăng nguy cơ mắc bệnh tim mạch"
+    },
+    {
+      "file": "nguoi-cao-tuoi/hero.webp",
+      "photographer": "dictionaryofsydney.org",
+      "profile": "https://dictionaryofsydney.org/entry/vietnamese",
+      "photo": "https://dictionaryofsydney.org/entry/vietnamese",
+      "license": "CC (xem nguồn)",
+      "source": "Web (dictionaryofsydney.org)",
+      "alt": "Vietnamese | The Dictionary of Sydney"
+    },
+    {
+      "file": "nguoi-cao-tuoi/card.webp",
+      "photographer": "thuocdantoc.vn",
+      "profile": "https://thuocdantoc.vn/trung-tam-thuoc-dan-toc-tri-an-ngay-thuong-binh-liet-si-27-7.html",
+      "photo": "https://thuocdantoc.vn/trung-tam-thuoc-dan-toc-tri-an-ngay-thuong-binh-liet-si-27-7.html",
+      "license": "CC (xem nguồn)",
+      "source": "Web (thuocdantoc.vn)",
+      "alt": "Trung Tâm Thuốc Dân Tộc Tri Ân Ngày Thương Binh Liệt Sĩ 27/7"
+    },
+    {
+      "file": "nguoi-cao-tuoi/gallery2.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/hoangnt/3474462888/",
+      "photo": "https://www.flickr.com/photos/hoangnt/3474462888/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "Bà nội đọc Tuổi Trẻ Cười | Tuan Hoang Nguyen | Flickr"
+    },
+    {
+      "file": "nguoi-cao-tuoi/gallery3.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/adam_jones/3774732042/",
+      "photo": "https://www.flickr.com/photos/adam_jones/3774732042/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "Hanoi - Vietnam - Old and Young | Adam Jones | Flickr"
+    },
+    {
+      "file": "nguoi-cao-tuoi/gallery4.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/evilmutent/14373309286/",
+      "photo": "https://www.flickr.com/photos/evilmutent/14373309286/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "Elderly couple walk together | Was behind this elderly coupl… | Flickr"
     }
   ],
   "doanh-nhan": [
@@ -2963,15 +2963,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
   ],
   "ngay-the-thao-viet-nam": [
     {
-      "file": "ngay-the-thao-viet-nam/hero.webp",
-      "photographer": "flickr.com",
-      "profile": "https://www.flickr.com/photos/policiacolombia/49080339272/",
-      "photo": "https://www.flickr.com/photos/policiacolombia/49080339272/",
-      "license": "CC (xem nguồn)",
-      "source": "Web (flickr.com)",
-      "alt": "Carrera por la Policía 10K | Policía Nacional de los colombianos | Flickr"
-    },
-    {
       "file": "ngay-the-thao-viet-nam/card.webp",
       "photographer": "captaintarekdreams.blogspot.com",
       "profile": "https://captaintarekdreams.blogspot.com/2012/06/pictures-of-day-2009-part-3.html",
@@ -3008,43 +2999,43 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Khai mạc Đại hội Thể dục thể thao chào mừng ngày Truyền thống CTCP ..."
     },
     {
-      "file": "ngay-the-thao-viet-nam/gallery4.webp",
-      "photographer": "commons.wikimedia.org",
-      "profile": "https://commons.wikimedia.org/wiki/File:Kyrgyzstan-women_0948.JPG",
-      "photo": "https://commons.wikimedia.org/wiki/File:Kyrgyzstan-women_0948.JPG",
+      "file": "ngay-the-thao-viet-nam/hero.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/keangpeng/27068292394",
+      "photo": "https://www.flickr.com/photos/keangpeng/27068292394",
       "license": "CC (xem nguồn)",
-      "source": "Web (commons.wikimedia.org)",
-      "alt": "File:Kyrgyzstan-women 0948.JPG - Wikimedia Commons"
+      "source": "Web (flickr.com)",
+      "alt": "Photo 14-10-2015, 11 52 03 AM | 2015-10-14 校運會_學生拍攝_跑類 | Flickr"
+    },
+    {
+      "file": "ngay-the-thao-viet-nam/gallery4.webp",
+      "photographer": "footballrsu.blogspot.com",
+      "profile": "https://footballrsu.blogspot.com/",
+      "photo": "https://footballrsu.blogspot.com/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (footballrsu.blogspot.com)",
+      "alt": "เทคนิคเกี่ยวกับการเล่นฟุตบอล"
     },
     {
       "file": "ngay-the-thao-viet-nam/gallery5.webp",
-      "photographer": "englishfitnesswords.blogspot.com",
-      "profile": "https://englishfitnesswords.blogspot.com/2018/01/sports-vocabulary.html",
-      "photo": "https://englishfitnesswords.blogspot.com/2018/01/sports-vocabulary.html",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/voxstock/18599622271",
+      "photo": "https://www.flickr.com/photos/voxstock/18599622271",
       "license": "CC (xem nguồn)",
-      "source": "Web (englishfitnesswords.blogspot.com)",
-      "alt": "WORK OUT YOUR ENGLISH: Sports vocabulary"
+      "source": "Web (flickr.com)",
+      "alt": "2015 SEA Games: Sepak Takraw (Group A) Men's Team | 8 June 2… | Flickr"
     },
     {
       "file": "ngay-the-thao-viet-nam/gallery6.webp",
-      "photographer": "chanjeed.com",
-      "profile": "https://www.chanjeed.com/2018/chanthaburi-run-ride-1-chanthaburi/",
-      "photo": "https://www.chanjeed.com/2018/chanthaburi-run-ride-1-chanthaburi/",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/torbus/35810443065",
+      "photo": "https://www.flickr.com/photos/torbus/35810443065",
       "license": "CC (xem nguồn)",
-      "source": "Web (chanjeed.com)",
-      "alt": "เชิญร่วมแข่งขัน วิ่งและปั่นจักรยาน “Chanthaburi Run &amp; Ride ก้าวที่ภักดี ..."
+      "source": "Web (flickr.com)",
+      "alt": "Hoan Kiem Lake | Hanoi, Vietnam. | Tore Bustad | Flickr"
     }
   ],
   "ngay-phap-luat-viet-nam": [
-    {
-      "file": "ngay-phap-luat-viet-nam/hero.webp",
-      "photographer": "kremlin.ru",
-      "profile": "https://kremlin.ru/events/president/news/19602",
-      "photo": "https://kremlin.ru/events/president/news/19602",
-      "license": "CC (xem nguồn)",
-      "source": "Web (kremlin.ru)",
-      "alt": "Официальный визит во Вьетнам • Президент России"
-    },
     {
       "file": "ngay-phap-luat-viet-nam/card.webp",
       "photographer": "flickr.com",
@@ -3073,15 +3064,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "File:NhaHatLon.JPG - Wikimedia Commons"
     },
     {
-      "file": "ngay-phap-luat-viet-nam/gallery3.webp",
-      "photographer": "flickr.com",
-      "profile": "https://www.flickr.com/photos/thaigov/4054011936",
-      "photo": "https://www.flickr.com/photos/thaigov/4054011936",
-      "license": "CC (xem nguồn)",
-      "source": "Web (flickr.com)",
-      "alt": "พิธีปิดการประชุมสุดยอดอาเซียน ครั้งที่ 15 และส่งมอบความเป… | Flickr"
-    },
-    {
       "file": "ngay-phap-luat-viet-nam/gallery4.webp",
       "photographer": "flickr.com",
       "profile": "https://www.flickr.com/photos/hermida/4659501119/",
@@ -3107,6 +3089,24 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC (xem nguồn)",
       "source": "Web (flickr.com)",
       "alt": "Law library books | Code of Federal Regulations or CFR | Janet ..."
+    },
+    {
+      "file": "ngay-phap-luat-viet-nam/hero.webp",
+      "photographer": "kremlin.ru",
+      "profile": "https://kremlin.ru/events/president/news/19602",
+      "photo": "https://kremlin.ru/events/president/news/19602",
+      "license": "CC (xem nguồn)",
+      "source": "Web (kremlin.ru)",
+      "alt": "Официальный визит во Вьетнам • Президент России"
+    },
+    {
+      "file": "ngay-phap-luat-viet-nam/gallery3.webp",
+      "photographer": "coalitionfortheicc.org",
+      "profile": "https://www.coalitionfortheicc.org/icc-history",
+      "photo": "https://www.coalitionfortheicc.org/icc-history",
+      "license": "CC (xem nguồn)",
+      "source": "Web (coalitionfortheicc.org)",
+      "alt": "ICC history | Coalition for the International Criminal Court"
     }
   ],
   "ngay-thuong-mai-viet-nam": [

@@ -286,6 +286,9 @@ export const holidaysEn: Holiday[] = [
         ],
       },
     ],
+    quotes: [
+      { text: "A hundred years of unbreakable bond.", author: "Folk verse (ca dao)", work: "Traditional marital blessing", note: "Translation of: 'Trăm năm cùng cọ sợi trường an.'" },
+    ],
     motif: "heart",
     name: "Valentine's Day",
     dateMark: "14·02",
@@ -717,6 +720,9 @@ export const holidaysEn: Holiday[] = [
           { year: "1946", title: "Reaching Vietnam", text: "International Workers' Day formally entered the young republic's official holiday list." },
         ],
       },
+    ],
+    quotes: [
+      { text: "Labor is honor, glory and a heroic deed.", author: "V. I. Lenin", work: "Saying passed down about labor" , note: "Translated from Russian."},
     ],
     motif: "wheat",
     name: "International Workers' Day (May 1)",
@@ -1751,6 +1757,9 @@ export const holidaysEn: Holiday[] = [
     rule: { type: "lunar", month: 12, day: 23 },
     categories: ["truyen-thong"],
     theme: { from: "#9a3412", to: "#b91c1c", accent: "#f59e0b" },
+    quotes: [
+      { text: "On the twenty-third, the Kitchen Gods go to heaven.", author: "Folk verse (vè)", work: "Kitchen Gods rhyme", note: "Translation of: 'Ngày hai mươi ba Táo quân về trời.'" },
+    ],
     motif: "home",
     tagline: "Sending the Kitchen Gods back to heaven.",
     history: [
@@ -1832,6 +1841,9 @@ export const holidaysEn: Holiday[] = [
     rule: { type: "lunar", month: 3, day: 3 },
     categories: ["truyen-thong"],
     theme: { from: "#166534", to: "#0f766e", accent: "#4d7c0f" },
+    quotes: [
+      { text: "My body is both white and round; I float and sink with the mountain stream.", author: "Hồ Xuân Hương", work: "Bánh trôi nước (The Floating Cake)", note: "The most famous poem about the Hàn Thực sweet dumplings." },
+    ],
     motif: "lotus",
     tagline: "The festival of floating-rice and mung-bean cakes.",
     history: [
@@ -1910,6 +1922,9 @@ export const holidaysEn: Holiday[] = [
     rule: { type: "lunar", month: 5, day: 5 },
     categories: ["truyen-thong"],
     theme: { from: "#c2410c", to: "#be123c", accent: "#fbbf24" },
+    quotes: [
+      { text: "First the Rat hour, then the Horse, third the Rooster.", author: "Folk rhyme (vè)", work: "The lucky hours to kill pests", note: "Translation of: 'Nhất Tý, nhì Ngọ, tam Dậu.'" },
+    ],
     motif: "wheat",
     tagline: "High noon at its peak — the pest-killing festival.",
     history: [
@@ -2724,6 +2739,9 @@ export const holidaysEn: Holiday[] = [
         ],
       },
     ],
+    quotes: [
+      { text: "Books opened before my eyes new horizons.", author: "Maxim Gorky", work: "Letters to youth" , note: "Translated from Russian."},
+    ],
     motif: "book",
     name: "Vietnam Book and Reading Culture Day",
     dateMark: "21·04",
@@ -2798,6 +2816,9 @@ export const holidaysEn: Holiday[] = [
           { icon: "flag", title: "Phù Đổng school games", text: "Schools hold the traditional Phù Đổng sports festival — students' playing field since the 1960s." },
         ],
       },
+    ],
+    quotes: [
+      { text: "Every weak citizen means a weak nation. Every strong citizen means a strong nation.", author: "Hồ Chí Minh", work: "Call for nationwide physical exercise, March 27, 1946" , note: "Translated from Vietnamese."},
     ],
     motif: "medal",
     name: "Vietnam Sports Day",
@@ -2876,6 +2897,9 @@ export const holidaysEn: Holiday[] = [
         ],
       },
     ],
+    quotes: [
+      { text: "All power in the country belongs to the entire people.", author: "Constitution of 1946", work: "Article 2" , note: "Translated from Vietnamese."},
+    ],
     motif: "star",
     name: "Vietnam Law Day",
     dateMark: "09·11",
@@ -2951,6 +2975,9 @@ export const holidaysEn: Holiday[] = [
           { year: "2019–2020", title: "CPTPP & EVFTA", text: "New-generation trade deals carry Vietnamese goods to Europe and the Americas at near-zero tariffs." },
         ],
       },
+    ],
+    quotes: [
+      { text: "Prosperity in trade, prosperity in wealth.", author: "Folk saying (ngạn ngữ)", work: "Traditional blessing for merchants", note: "Translation of: 'Phú thương, phú quý.'" },
     ],
     motif: "star",
     name: "Vietnam Trade Day",

@@ -276,15 +276,15 @@ export const stories: Record<string, StoryEntry> = {
   },
   "ngay-sach-viet-nam": {
     sources: [
-      { outlet: "Wikipedia", title: "Ngày Sách và Văn hóa đọc", url: `${W}Ng%C3%A0y_S%C3%A1ch`, summary: "Ngày 21/4 hằng năm được Thủ tướng quyết định từ 2014 — ngày tôn vinh sách và người đọc trên cả nước." },
-      { outlet: "Wikipedia", title: "Ngày Sách Thế giới", url: `${W}Ng%C3%A0y_S%C3%A1ch_th%E1%BA%BF_gi%E1%BB%9Bi`, summary: "Ngày 23/4 do UNESCO lập từ 1995 — mốc thế giới mà ngày sách Việt Nam chọn đứng cạnh." },
-      { outlet: "Đường sách TP.HCM", title: "Đường sách Nguyễn Văn Bình", url: "https://duongsach.net/", summary: "Đường sách đầu tiên của Việt Nam mở từ 2016 — trung tâm hoạt động của ngày sách mỗi năm ở TP.HCM." },
+      { outlet: "Wikipedia", title: "Ngày Sách Thế giới", url: `${W}Ng%C3%A0y_S%C3%A1ch_Th%E1%BA%BF_gi%E1%BB%9Bi`, summary: "Ngày 23/4 do UNESCO lập từ 1995 — mốc thế giới mà ngày sách Việt Nam chọn đứng cạnh." },
+      { outlet: "Wikipedia", title: "Văn học Việt Nam", url: `${W}V%C4%83n_h%E1%BB%8Dc_Vi%E1%BB%87t_Nam`, summary: "Truyền thống chữ viết mà Ngày Sách tôn vinh — từ truyện Kiều chữ Nôm đến nền xuất bản hiện đại." },
+      { outlet: "Thư viện Quốc gia", title: "Thư viện Quốc gia Việt Nam", url: "https://nlv.gov.vn/", summary: "Thư viện quốc gia ở Hà Nội — trung tâm tôn vinh sách và văn hóa đọc, thường mở triển lãm dịp 21/4." },
     ],
     story: { title: "Mười lăm phút im lặng", body: "9 giờ sáng ngày 21/4, một trường tiểu học ở Hà Nội bỗng im đặc — cả nghìn học sinh, cô giáo, cô bán cơm cùng mở sách. Không ai phải đọc giống ai; có em đọc truyện tranh, có em đọc sử thi. Mười lăm phút ấy trôi qua nhanh đến lạ, và khi tiếng lật trang ngừng lại, nhiều em tiếc. 'Giờ đọc chung' là hình ảnh đẹp nhất của ngày sách: nó không bắt ai đọc cả, chỉ chứng minh rằng đọc sách không cần gì hơn một quãng lặng chung." },
   },
   "ngay-the-thao-viet-nam": {
     sources: [
-      { outlet: "Wikipedia", title: "Ngày Thể thao Việt Nam", url: `${W}Ng%C3%A0y_Th%E1%BB%83_thao_Vi%E1%BB%87t_Nam`, summary: "Ngày 27/3 kỷ niệm Sắc lệnh số 33 năm 1946 của Bác Hồ — văn kiện khai sinh ngành thể dục thể thao." },
+      { outlet: "Wikipedia", title: "Thể thao Việt Nam", url: `${W}Th%E1%BB%83_thao_Vi%E1%BB%87t_Nam`, summary: "Bức tranh thể thao nước nhà — từ bóng đá sân xóm tới huy chương Olympic — mà ngày 27/3 tôn vinh." },
       { outlet: "Wikipedia", title: "Hoàng Xuân Vinh", url: `${W}Ho%C3%A0ng_Xu%C3%A2n_Vinh`, summary: "Xạ thủ mang về tấm HCV Olympic đầu tiên cho Việt Nam tại Rio 2016 — đỉnh cao của thể thao nước nhà." },
       { outlet: "Vietnam Olympic Committee", title: "Olympic Run Day", url: "https://olympic.vn/", summary: "Ngày chạy Olympic vì sức khỏe toàn dân — sự kiện chạy bộ tập thể gắn với Ngày Thể thao 27/3 mỗi năm." },
     ],
@@ -292,9 +292,9 @@ export const stories: Record<string, StoryEntry> = {
   },
   "ngay-phap-luat-viet-nam": {
     sources: [
-      { outlet: "Wikipedia", title: "Hiến pháp 1946", url: `${W}Hi%E1%BA%BFn_ph%C3%A1p_n%C6%B0%E1%BB%9Bc_Vi%E1%BB%87t_Nam_D%C3%A2n_ch%E1%BB%A7_C%E1%BB%99ng_h%C3%B2a_1946`, summary: "Bản hiến pháp đầu tiên, thông qua ngày 9/11/1946 tại Nhà hát Lớn Hà Nội — mốc được chọn làm Ngày Pháp luật." },
+      { outlet: "Wikipedia", title: "Hiến pháp Việt Nam 1946", url: `${W}Hi%E1%BA%BFn_ph%C3%A1p_Vi%E1%BB%87t_Nam_1946`, summary: "Bản hiến pháp đầu tiên, thông qua ngày 9/11/1946 tại Nhà hát Lớn Hà Nội — mốc được chọn làm Ngày Pháp luật." },
       { outlet: "Wikipedia", title: "Hiến pháp Việt Nam", url: `${W}Hi%E1%BA%BFn_ph%C3%A1p_Vi%E1%BB%87t_Nam`, summary: "Quá trình lập hiến qua năm bản hiến pháp: 1946, 1959, 1980, 1992 và 2013 — mỗi bản gắn một thời kỳ." },
-      { outlet: "Bộ Tư pháp", title: "Cổng thông tin Bộ Tư pháp", url: "https://moj.gov.vn/", summary: "Cơ quan đầu ngành phổ biến, giáo dục pháp luật — nơi tổ chức các hoạt động hưởng ứng ngày 9/11." },
+      { outlet: "Cơ sở dữ liệu VBPL", title: "Văn bản pháp luật quốc gia", url: "https://vbpl.vn/", summary: "Cơ sở dữ liệu quốc gia về văn bản quy phạm pháp luật — tra toàn bộ hiến pháp, luật, nghị định còn hiệu lực." },
     ],
     story: { title: "Bảy mươi điều trong mưa bom", body: "Nhà hát Lớn Hà Nội, ngày 9/11/1946. Bên ngoài, đất nước đã ngửi mùi chiến tranh toàn quốc; bên trong, Quốc hội khóa I vẫn ngồi lại bấm nút thông qua bản Hiến pháp đầu tiên — 7 chương, 70 điều, khẳng định 'quyền lực thuộc về toàn thể nhân dân'. Có đại biểu hỏi vội vội vàng làm gì. Câu trả lời thời ấy: một quốc gia muốn đứng vững phải có hiến pháp, dù chỉ còn một ngày bình yên nữa. Ngày 9/11 được lấy làm Ngày Pháp luật Việt Nam — để nhớ rằng pháp luật không phải đồ trang trí thời bình, mà là bộ khung của chính nhà nước." },
   },

@@ -431,6 +431,9 @@ export const holidays: Holiday[] = [
         ],
       },
     ],
+    quotes: [
+      { text: "Trăm năm cùng cọ sợi trường an.", author: "Ca dao", work: "Lời chúc tình nghĩa vợ chồng" },
+    ],
     motif: "heart",
     name: "Lễ Tình nhân",
     dateMark: "14·02",
@@ -841,6 +844,9 @@ export const holidays: Holiday[] = [
           { year: "1946", title: "Về đến Việt Nam", text: "Ngày Quốc tế Lao động chính thức có tên trong danh mục ngày nghỉ lễ của nước ta từ đầu thời kỳ độc lập." },
         ],
       },
+    ],
+    quotes: [
+      { text: "Lao động là công danh, vinh dự và sự nghiệp anh hùng.", author: "V. I. Lênin", work: "Câu nói truyền lại về lao động" },
     ],
     motif: "wheat",
     name: "Quốc tế Lao động 1/5",
@@ -1816,6 +1822,9 @@ export const holidays: Holiday[] = [
     rule: { type: "lunar", month: 12, day: 23 },
     categories: ["truyen-thong"],
     theme: { from: "#9a3412", to: "#b91c1c", accent: "#f59e0b" },
+    quotes: [
+      { text: "Ngày hai mươi ba Táo quân về trời.", author: "Vè dân gian", work: "Vè Táo quân" },
+    ],
     motif: "home",
     tagline: "Tiễn Táo quân về trời.",
     history: [
@@ -1897,6 +1906,9 @@ export const holidays: Holiday[] = [
     rule: { type: "lunar", month: 3, day: 3 },
     categories: ["truyen-thong"],
     theme: { from: "#166534", to: "#0f766e", accent: "#4d7c0f" },
+    quotes: [
+      { text: "Thân em vừa trắng lại vừa tròn, bảy nổi ba chìm với nước non.", author: "Hồ Xuân Hương", work: "Bánh trôi nước" },
+    ],
     motif: "lotus",
     tagline: "Tết bánh trôi bánh chay.",
     history: [
@@ -1975,6 +1987,9 @@ export const holidays: Holiday[] = [
     rule: { type: "lunar", month: 5, day: 5 },
     categories: ["truyen-thong"],
     theme: { from: "#c2410c", to: "#be123c", accent: "#fbbf24" },
+    quotes: [
+      { text: "Nhất Tý, nhì Ngọ, tam Dậu.", author: "Vè dân gian", work: "Giờ tốt giết sâu bọ" },
+    ],
     motif: "wheat",
     tagline: "Giờ ngọ chính vọng — tết giết sâu bọ.",
     history: [
@@ -2746,6 +2761,9 @@ export const holidays: Holiday[] = [
         ],
       },
     ],
+    quotes: [
+      { text: "Sách mở ra trước mắt tôi những chân trời mới.", author: "Maxim Gorky", work: "Thư gửi thanh niên" },
+    ],
     motif: "book",
     name: "Ngày Sách và Văn hóa đọc Việt Nam",
     dateMark: "21·04",
@@ -2820,6 +2838,9 @@ export const holidays: Holiday[] = [
           { icon: "flag", title: "Ngày hội thể thao trường học", text: "Trường học tổ chức hội khỏe Phù Đổng — sân chơi thể thao truyền thống của học sinh từ những năm 1960." },
         ],
       },
+    ],
+    quotes: [
+      { text: "Mỗi một người dân yếu ớt tức là cả dân tộc yếu ớt. Mỗi một người dân khỏe mạnh tức là cả dân tộc khỏe mạnh.", author: "Hồ Chí Minh", work: "Gọi toàn quốc dân tập thể dục, 27·3·1946" },
     ],
     motif: "medal",
     name: "Ngày Thể thao Việt Nam",
@@ -2898,6 +2919,9 @@ export const holidays: Holiday[] = [
         ],
       },
     ],
+    quotes: [
+      { text: "Tất cả quyền lực trong nước là của toàn thể nhân dân.", author: "Hiến pháp 1946", work: "Điều 2" },
+    ],
     motif: "star",
     name: "Ngày Pháp luật Việt Nam",
     dateMark: "09·11",
@@ -2973,6 +2997,9 @@ export const holidays: Holiday[] = [
           { year: "2019–2020", title: "CPTPP & EVFTA", text: "Hiệp định thương mại thế hệ mới đưa hàng Việt tới châu Âu, châu Mỹ với thuế gần như bằng không." },
         ],
       },
+    ],
+    quotes: [
+      { text: "Phú thương, phú quý.", author: "Ngạn ngữ", work: "Lời chúc buôn bán truyền thống" },
     ],
     motif: "star",
     name: "Ngày Thương mại Việt Nam",
