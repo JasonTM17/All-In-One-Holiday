@@ -158,8 +158,6 @@ Photos from Wikimedia Commons and Flickr contributors; see per-file license and 
 | quoc-khanh/gallery5.webp | Syced | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_mausoleum_in_2003_2.jpg) |
 | quoc-khanh/gallery6.webp | rusticus80 | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Vietnamese_flag_in_Halong_Bay.jpg) |
 | quoc-khanh/gallery4.webp | flickr.com | CC (xem nguồn) | [Commons](https://www.flickr.com/photos/chagiajose/15011126925) |
-| trung-thu/card.webp | YaEeBondZ 002 | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:HK_CWB_Causeway_Bay_%E7%B6%AD%E5%9C%92_Victoria_Park_%E4%B8%AD%E7%A7%8B%E7%AF%80%E7%87%88%E5%8C%AF_Mid-autumn_Festival_Lantern_Carnival_September_2026_N13P_201.jpg) |
-| trung-thu/gallery1.webp | YaEeBondZ 002 | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:HK_CWB_Causeway_Bay_%E7%B6%AD%E5%9C%92_Victoria_Park_%E4%B8%AD%E7%A7%8B%E7%AF%80%E7%87%88%E5%8C%AF_Mid-autumn_Festival_Lantern_Carnival_September_2026_N13P_203.jpg) |
 | trung-thu/gallery2.webp | YaEeBondZ 002 | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:HK_CWB_Causeway_Bay_%E7%B6%AD%E5%9C%92_Victoria_Park_%E4%B8%AD%E7%A7%8B%E7%AF%80%E7%87%88%E5%8C%AF_Mid-autumn_Festival_Lantern_Carnival_September_2026_N13P_208.jpg) |
 | trung-thu/gallery3.webp | YaEeBondZ 002 | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:HK_CWB_Causeway_Bay_%E7%B6%AD%E5%9C%92_Victoria_Park_%E4%B8%AD%E7%A7%8B%E7%AF%80%E7%87%88%E5%8C%AF_Mid-autumn_Festival_Lantern_Carnival_September_2026_N13P_209.jpg) |
 | trung-thu/amthuc-banh-nuong.webp | Binh Giang | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Vietnam_Grilled_moon_cake.JPG) |
@@ -172,6 +170,8 @@ Photos from Wikimedia Commons and Flickr contributors; see per-file license and 
 | trung-thu/hero.webp | motogo.vn | CC (xem nguồn) | [Commons](https://motogo.vn/pho-co-hoi-an/) |
 | trung-thu/gallery5.webp | Dragfyre | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Mid-Autumn_Star_DN.JPG) |
 | trung-thu/gallery6.webp | Violetbonmua | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Star-shape_lanterns_in_Vietnam.jpg) |
+| trung-thu/card.webp | lvcorner.blogspot.com | CC (xem nguồn) | [Commons](https://lvcorner.blogspot.com/2011/08/lam-long-en-trung-thu.html) |
+| trung-thu/gallery1.webp | lvcorner.blogspot.com | CC (xem nguồn) | [Commons](https://lvcorner.blogspot.com/2011/08/trung-thu-long-en-hoa-sen-giay.html) |
 | giang-sinh/card.webp | Lechhansl | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Rockefeller_Center_christmas_tree.jpg) |
 | giang-sinh/gallery2.webp | Noah Wulf | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Christmas_Tree_Angel.jpg) |
 | giang-sinh/gallery3.webp | Noah Wulf | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Golden_Christmas_Tree_Ornament.jpg) |

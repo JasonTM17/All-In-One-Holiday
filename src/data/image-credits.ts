@@ -1431,24 +1431,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
   ],
   "trung-thu": [
     {
-      "file": "trung-thu/card.webp",
-      "photographer": "YaEeBondZ 002",
-      "profile": "https://commons.wikimedia.org/wiki/File:HK_CWB_Causeway_Bay_%E7%B6%AD%E5%9C%92_Victoria_Park_%E4%B8%AD%E7%A7%8B%E7%AF%80%E7%87%88%E5%8C%AF_Mid-autumn_Festival_Lantern_Carnival_September_2026_N13P_201.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:HK_CWB_Causeway_Bay_%E7%B6%AD%E5%9C%92_Victoria_Park_%E4%B8%AD%E7%A7%8B%E7%AF%80%E7%87%88%E5%8C%AF_Mid-autumn_Festival_Lantern_Carnival_September_2026_N13P_201.jpg",
-      "license": "CC0",
-      "source": "Wikimedia Commons",
-      "alt": "HK CWB Causeway Bay 維園 Victoria Park 中秋節燈匯 Mid-autumn Festival Lantern Carnival in September 2026"
-    },
-    {
-      "file": "trung-thu/gallery1.webp",
-      "photographer": "YaEeBondZ 002",
-      "profile": "https://commons.wikimedia.org/wiki/File:HK_CWB_Causeway_Bay_%E7%B6%AD%E5%9C%92_Victoria_Park_%E4%B8%AD%E7%A7%8B%E7%AF%80%E7%87%88%E5%8C%AF_Mid-autumn_Festival_Lantern_Carnival_September_2026_N13P_203.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:HK_CWB_Causeway_Bay_%E7%B6%AD%E5%9C%92_Victoria_Park_%E4%B8%AD%E7%A7%8B%E7%AF%80%E7%87%88%E5%8C%AF_Mid-autumn_Festival_Lantern_Carnival_September_2026_N13P_203.jpg",
-      "license": "CC0",
-      "source": "Wikimedia Commons",
-      "alt": "HK CWB Causeway Bay 維園 Victoria Park 中秋節燈匯 Mid-autumn Festival Lantern Carnival in September 2026"
-    },
-    {
       "file": "trung-thu/gallery2.webp",
       "photographer": "YaEeBondZ 002",
       "profile": "https://commons.wikimedia.org/wiki/File:HK_CWB_Causeway_Bay_%E7%B6%AD%E5%9C%92_Victoria_Park_%E4%B8%AD%E7%A7%8B%E7%AF%80%E7%87%88%E5%8C%AF_Mid-autumn_Festival_Lantern_Carnival_September_2026_N13P_208.jpg",
@@ -1555,6 +1537,24 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 3.0",
       "source": "Wikimedia Commons",
       "alt": "Star-shaped lanterns free making for children at Tết Trung Thu in Kon Tum Province, Vietnam."
+    },
+    {
+      "file": "trung-thu/card.webp",
+      "photographer": "lvcorner.blogspot.com",
+      "profile": "https://lvcorner.blogspot.com/2011/08/lam-long-en-trung-thu.html",
+      "photo": "https://lvcorner.blogspot.com/2011/08/lam-long-en-trung-thu.html",
+      "license": "CC (xem nguồn)",
+      "source": "Web (lvcorner.blogspot.com)",
+      "alt": "LV's Little Corner: Làm lồng đèn trung thu"
+    },
+    {
+      "file": "trung-thu/gallery1.webp",
+      "photographer": "lvcorner.blogspot.com",
+      "profile": "https://lvcorner.blogspot.com/2011/08/trung-thu-long-en-hoa-sen-giay.html",
+      "photo": "https://lvcorner.blogspot.com/2011/08/trung-thu-long-en-hoa-sen-giay.html",
+      "license": "CC (xem nguồn)",
+      "source": "Web (lvcorner.blogspot.com)",
+      "alt": "LV's Little Corner: Trung Thu - Lồng Đèn Hoa Sen Giấy :)"
     }
   ],
   "giang-sinh": [
