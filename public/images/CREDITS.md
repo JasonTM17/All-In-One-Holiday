@@ -74,12 +74,11 @@ Photos from Wikimedia Commons and Flickr contributors; see per-file license and 
 | nha-giao-viet-nam/hero.webp | AxitTDTbenzoic | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Chu_V%C4%83n_An_High_School,_New_Stadium.jpg) |
 | nha-giao-viet-nam/gallery3.webp | USAID Vietnam | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Dong_A_University_IT_Program_for_Students_with_Disabilities.jpg) |
 | nha-giao-viet-nam/gallery4.webp | Orange County Archives | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/ocarchives/25258534014/) |
-| nha-giao-viet-nam/gallery5.webp | cohtran.blogspot.com | CC (xem nguồn) | [cohtran.blogspot.com](https://cohtran.blogspot.com/2014/02/) |
 | nha-giao-viet-nam/card.webp | es.globalvoices.org | CC (xem nguồn) | [es.globalvoices.org](https://es.globalvoices.org/2016/07/21/la-epidemia-del-exito-en-los-colegios-de-vietnam/) |
 | nha-giao-viet-nam/history.webp | Daderot | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Main_gate_-_Temple_of_Literature,_Hanoi_-_DSC04519.JPG) |
 | nha-giao-viet-nam/gallery6.webp | Chính phủ Cách mạng lâm thời VNDCCH | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Ng%C3%A0y_29-03-1946_c%E1%BB%A7a_Ch%E1%BB%A7_t%E1%BB%8Bch_Ch%C3%ADnh_ph%E1%BB%A7_L%C3%A2m_th%E1%BB%9Di_Vi%E1%BB%87t_Nam_D%C3%A2n_ch%E1%BB%A7_C%E1%BB%99ng_h%C3%B2a_v-v_tr%C3%ADch_ng%C3%A2n_s%C3%A1ch_to%C3%A0n_qu%E1%BB%91c_%C4%91%E1%BB%83_B%E1%BB%99_Ngo%E1%BA%A1i_giao_chi_ti%C3%AAu_v%E1%BB%81_nh%E1%BB%AFng_c%C3%B4ng_cu%E1%BB%99c_%C4%91%E1%BA%B7c_bi%E1%BB%87t.jpg) |
+| nha-giao-viet-nam/gallery5.webp | USAID Vietnam | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Launch_of_the_smart_classroom_in_Ho_Chi_Minh_City_(29062844163).jpg) |
 | quan-doi-nhan-dan/hero.webp | Poncahot | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Duyet_binh.jpg) |
-| quan-doi-nhan-dan/card.webp | Adam Jones Adam63 | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Women_Soldiers_at_Ho_Chi_Minh_Museum_-_Hanoi_-_Vietnam.JPG) |
 | quan-doi-nhan-dan/gallery1.webp | UnknownUnknown | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:1stIndochinaWar005.jpg) |
 | quan-doi-nhan-dan/gallery2.webp | SP4 Clifford Roe | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Flag_bearers_present_colors_at_the_dedication_ceremony_for_the_Vietnamese_Tomb_of_the_Unknown_Soldier.jpg) |
 | quan-doi-nhan-dan/gallery5.webp | Taitamtinh | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Vietnamese_People%27s_Army_Barracks_Vector.png) |
@@ -87,6 +86,7 @@ Photos from Wikimedia Commons and Flickr contributors; see per-file license and 
 | quan-doi-nhan-dan/history.webp | Diane Selwyn (talk) | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Vietnam_People%27s_Army_Lam_Dong_01.jpg) |
 | quan-doi-nhan-dan/gallery3.webp | DoD photo by Helene C. Stikkel. (Released) | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Soldiers_of_Vietnam_People%27s_Army.jpg) |
 | quan-doi-nhan-dan/gallery6.webp | U.S. Army photo by Sgt. Elisabeth Tasker | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Army%27s_250th_Birthday_Parade_Historical_Uniform_Fitting_(9107963).jpg) |
+| quan-doi-nhan-dan/card.webp | Unknown authorUnknown author or not provided | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:South_Vietnamese_soldier,_1966,_1958_-_1974_-_NARA_-_541856.tif) |
 | gio-to-hung-vuong/card.webp | Thang Nguyen from Nottingham, United Kingdom | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:%C4%90%E1%BB%81n_H%C3%B9ng,_%C4%91%E1%BB%81n_H%E1%BA%A1.jpg) |
 | gio-to-hung-vuong/gallery1.webp | Thang Nguyen from Nottingham, United Kingdom | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:%C4%90%E1%BB%81n_H%C3%B9ng,_%C4%91%E1%BB%81n_Th%C6%B0%E1%BB%A3ng.jpg) |
 | gio-to-hung-vuong/gallery2.webp | Thang Nguyen from Nottingham, United Kingdom | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:%C4%90%E1%BB%81n_H%C3%B9ng,_%C4%91%E1%BB%81n_H%E1%BA%A1,_c%C3%A2y_v%E1%BA%A1n_tu%E1%BA%BF.jpg) |
@@ -266,10 +266,10 @@ Photos from Wikimedia Commons and Flickr contributors; see per-file license and 
 | ngay-bao-chi/hero.webp | flickr.com | CC (xem nguồn) | [flickr.com](https://www.flickr.com/photos/97930879@N02/14263876939) |
 | ngay-bao-chi/card.webp | knightfoundation.org | CC (xem nguồn) | [knightfoundation.org](https://knightfoundation.org/articles/what-about-television-news/) |
 | ngay-bao-chi/gallery3.webp | 24hdansuneredaction.com | CC (xem nguồn) | [24hdansuneredaction.com](https://24hdansuneredaction.com/vi/presse/15-ky-thuat-phong-van/) |
-| ngay-bao-chi/gallery4.webp | claudiosieberphotography.com | CC (xem nguồn) | [claudiosieberphotography.com](https://claudiosieberphotography.com/vietnam-hanoi-3-5/) |
 | ngay-bao-chi/gallery2.webp | konde.co | CC (xem nguồn) | [konde.co](https://www.konde.co/2021/10/female-journalists-at-top-level-advocate-gender-equality-in-newsrooms-from-labyrinth-glass-ceiling-to-roller-coaster/) |
 | ngay-bao-chi/history.webp | Susta.vn / Liên hiệp hội Sơn La | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:B%C3%A1o_%E2%80%9CS%E1%BB%B1_th%E1%BA%ADt%E2%80%9D_-_Li%C3%AAn_hi%E1%BB%87p_h%E1%BB%99i_S%C6%A1n_La.jpg) |
 | ngay-bao-chi/gallery5.webp | Photo courtesy of Paul Brock | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:National_Association_of_Black_Journalists,_Kerner_Report_key_to_African-American_breakthrough_in_media_industry_160218-A-DZ999-371.jpg) |
+| ngay-bao-chi/gallery4.webp | David Hume Kennerly | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Ford_A4239_NLGRF_photo_contact_sheet_(1975-04-28)(Gerald_Ford_Library).jpg) |
 | nguoi-cao-tuoi/amthuc-xoi-gac.webp | Nguyễn Thanh Quang | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:X%C3%B4i_g%E1%BA%A5c.JPG) |
 | nguoi-cao-tuoi/amthuc-che-tra.webp | Khương Việt Hà | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Trap_che_an_hoi_(Vietnam).JPG) |
 | nguoi-cao-tuoi/amthuc-mung-tho.webp | Nhan Lương (thảo luận) | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:B%C3%A0i_tr%C3%AD_cho_L%E1%BB%85_th%C6%B0%E1%BB%A3ng_th%E1%BB%8D.JPG) |
@@ -334,11 +334,11 @@ Photos from Wikimedia Commons and Flickr contributors; see per-file license and 
 | ngay-cach-mang-thang-tam/card.webp | Benoît Prieur | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Hanoi_Opera_House_-_2003.jpg) |
 | ngay-cach-mang-thang-tam/gallery1.webp | Nam-ho Park | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Hanoi_Opera_House_-_detail.jpg) |
 | ngay-cach-mang-thang-tam/gallery2.webp | Dennis G. Jarvis | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Hanoi_Opera_House_1.jpg) |
-| ngay-cach-mang-thang-tam/gallery5.webp | motogo.vn | CC (xem nguồn) | [motogo.vn](https://motogo.vn/du-lich-ha-noi/) |
-| ngay-cach-mang-thang-tam/gallery6.webp | flickr.com | CC (xem nguồn) | [flickr.com](https://www.flickr.com/photos/dgmckelvey/6914584864) |
-| ngay-cach-mang-thang-tam/gallery3.webp | flickr.com | CC (xem nguồn) | [flickr.com](https://www.flickr.com/photos/jean-marc_astesana/16125242101) |
 | ngay-cach-mang-thang-tam/history.webp | shunei1506 | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ba_Dinh_Square.jpg) |
 | ngay-cach-mang-thang-tam/gallery4.webp | shankar s. from Dubai, united arab emirates | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:HCM_Mausoleum-_closed_as_his_preserved_body_wan%27t_it_(31454165115).jpg) |
+| ngay-cach-mang-thang-tam/gallery3.webp | Grenouille vert | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ba_Dinh_Square_panorama.jpg) |
+| ngay-cach-mang-thang-tam/gallery5.webp | Marki Wolf Cobain | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:C%E1%BA%A7u_Long_Bi%C3%AAn_(Doumer).jpg) |
+| ngay-cach-mang-thang-tam/gallery6.webp | OSS (Office of Strategic Services), US Army personnel. | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:1945_Vietnam_Independence_or_Death.png) |
 | ngay-giai-phong-thu-do/hero.webp | Chinasaur | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Flag_tower,_Hanoi.jpg) |
 | ngay-giai-phong-thu-do/card.webp | Jorge Láscar from Australia | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lascar_Flag_Tower_of_Hanoi_(4550324293).jpg) |
 | ngay-giai-phong-thu-do/gallery1.webp | Vuong Tri Binh | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Flag_Tower_of_Hanoi_viewed_from_the_museum_in_2014.jpg) |
@@ -352,11 +352,11 @@ Photos from Wikimedia Commons and Flickr contributors; see per-file license and 
 | ngay-sach-viet-nam/gallery1.webp | diendan.org | CC (xem nguồn) | [diendan.org](https://www.diendan.org/phe-binh-nghien-cuu/sach-moi-cua-gs-ha-van-tan-su-sinh-thanh-viet-nam) |
 | ngay-sach-viet-nam/gallery2.webp | libringioco.blog | CC (xem nguồn) | [libringioco.blog](https://libringioco.blog/videoletture-gratis-per-bambini/) |
 | ngay-sach-viet-nam/gallery3.webp | blog.aladin.co.kr | CC (xem nguồn) | [blog.aladin.co.kr](https://blog.aladin.co.kr/forkids24/10859246) |
-| ngay-sach-viet-nam/gallery4.webp | 3hreevoices5ivesouls.wordpress.com | CC (xem nguồn) | [3hreevoices5ivesouls.wordpress.com](https://3hreevoices5ivesouls.wordpress.com/2015/08/05/thanh-ly/) |
 | ngay-sach-viet-nam/gallery5.webp | julencoir.blogspot.com | CC (xem nguồn) | [julencoir.blogspot.com](https://julencoir.blogspot.com/2020/04/) |
 | ngay-sach-viet-nam/history.webp | Smuconlaw | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:National_Library_of_Vietnam,_Hanoi,_Vietnam_-_20131030-01.JPG) |
 | ngay-sach-viet-nam/card.webp | Phan Minh Tuấn | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Th%C6%B0_vi%E1%BB%87n,_ch%C3%B9a_T%E1%BB%A9_K%E1%BB%B3,_H%C3%A0_N%E1%BB%99i_003.JPG) |
 | ngay-sach-viet-nam/gallery6.webp | Kari Hawkins, USAG Redstone | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:US_Army_53394_BOOK_OF_RHYMES.jpg) |
+| ngay-sach-viet-nam/gallery4.webp | Yun Huang Yong from Harbord, Australia | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ben_Thanh_Market_(3122976554).jpg) |
 | ngay-the-thao-viet-nam/card.webp | captaintarekdreams.blogspot.com | CC (xem nguồn) | [captaintarekdreams.blogspot.com](https://captaintarekdreams.blogspot.com/2012/06/pictures-of-day-2009-part-3.html) |
 | ngay-the-thao-viet-nam/gallery1.webp | sinarharian-on9.blogspot.com | CC (xem nguồn) | [sinarharian-on9.blogspot.com](https://sinarharian-on9.blogspot.com/2014/12/layanan-fans-vietnam-yang-mengejutkan.html) |
 | ngay-the-thao-viet-nam/gallery2.webp | flickr.com | CC (xem nguồn) | [flickr.com](https://www.flickr.com/photos/voxstock/18599622271) |
@@ -386,13 +386,13 @@ Photos from Wikimedia Commons and Flickr contributors; see per-file license and 
 | ngay-thuong-mai-viet-nam/hero.webp | Lam Tr Th | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:C%C3%A1t_L%C3%A1i,_Qu%E1%BA%ADn_2,_TPHCM,_Vietnam_-_panoramio.jpg) |
 | ngay-doan-thanh-nien/gallery1.webp | flickr.com | CC (xem nguồn) | [flickr.com](https://www.flickr.com/photos/350org/7149046023) |
 | ngay-doan-thanh-nien/gallery2.webp | thuocdantoc.vn | CC (xem nguồn) | [thuocdantoc.vn](https://thuocdantoc.vn/thuoc-dan-toc-to-chuc-thanh-cong-chuong-trinh-thien-nguyen-them-niem-vui-cho-em.html) |
-| ngay-doan-thanh-nien/gallery4.webp | flickr.com | CC (xem nguồn) | [flickr.com](https://www.flickr.com/photos/unwomenasiapacific/6853233720/) |
-| ngay-doan-thanh-nien/gallery3.webp | elitshanews.org.za | CC (xem nguồn) | [elitshanews.org.za](https://elitshanews.org.za/2020/02/17/is-there-a-glimmer-of-hope-for-vietnamese-workers/) |
 | ngay-doan-thanh-nien/gallery5.webp | flickr.com | CC (xem nguồn) | [flickr.com](https://www.flickr.com/photos/350org/7149046023) |
 | ngay-doan-thanh-nien/history.webp | Huyhoang1990 | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:1395152_444484699001421_1197673697_n-(1).jpg) |
 | ngay-doan-thanh-nien/card.webp | Kim-Long07 | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:L%E1%BB%85_ch%C3%A0o_c%E1%BB%9D_-_sinh_vi%C3%AAn_Kh%C3%B3a_54_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_B%C3%A1ch_Khoa_H%C3%A0_N%E1%BB%99i,_2010.jpg) |
 | ngay-doan-thanh-nien/gallery6.webp | Wikimedia Commons | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Quoc_ca_mien_nam_viet_nam.jpg) |
 | ngay-doan-thanh-nien/hero.webp | Kim-Long07 | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:L%E1%BB%85_ch%C3%A0o_c%E1%BB%9D_-_sinh_vi%C3%AAn_Kh%C3%B3a_54_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_B%C3%A1ch_Khoa_H%C3%A0_N%E1%BB%99i,_2010.jpg) |
+| ngay-doan-thanh-nien/gallery3.webp | USAID Vietnam | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Eye_screening_at_for_students_in_Kon_Tum,_Vietnam,_supported_by_USAID_and_HKI_(6820107124).jpg) |
+| ngay-doan-thanh-nien/gallery4.webp | USAID Vietnam | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Eye_screening_at_for_students_in_Kon_Tum,_Vietnam,_supported_by_USAID_and_HKI_(6966227957).jpg) |
 | ngay-tho-viet-nam/hero.webp | flickr.com | CC (xem nguồn) | [flickr.com](https://www.flickr.com/photos/danielmennerich/30541959964/) |
 | ngay-tho-viet-nam/card.webp | flickr.com | CC (xem nguồn) | [flickr.com](https://www.flickr.com/photos/jlascar/4550352543) |
 | ngay-tho-viet-nam/gallery1.webp | vishibansal.blogspot.com | CC (xem nguồn) | [vishibansal.blogspot.com](https://vishibansal.blogspot.com/2017/) |

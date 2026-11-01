@@ -653,15 +653,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "vietnam teacher classroom"
     },
     {
-      "file": "nha-giao-viet-nam/gallery5.webp",
-      "photographer": "cohtran.blogspot.com",
-      "profile": "https://cohtran.blogspot.com/2014/02/",
-      "photo": "https://cohtran.blogspot.com/2014/02/",
-      "license": "CC (xem nguồn)",
-      "source": "Web (cohtran.blogspot.com)",
-      "alt": "Toán - Cơ học ứng dụng: tháng hai 2014"
-    },
-    {
       "file": "nha-giao-viet-nam/card.webp",
       "photographer": "es.globalvoices.org",
       "profile": "https://es.globalvoices.org/2016/07/21/la-epidemia-del-exito-en-los-colegios-de-vietnam/",
@@ -687,6 +678,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "Public domain",
       "source": "Wikimedia Commons",
       "alt": "Ngày 29/03/1946 của Chủ tịch Chính phủ Lâm thời Việt Nam Dân chủ Cộng hòa v/v trích ngân sách toàn quốc để Bộ Ngoại giao"
+    },
+    {
+      "file": "nha-giao-viet-nam/gallery5.webp",
+      "photographer": "USAID Vietnam",
+      "profile": "https://commons.wikimedia.org/wiki/File:Launch_of_the_smart_classroom_in_Ho_Chi_Minh_City_(29062844163).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Launch_of_the_smart_classroom_in_Ho_Chi_Minh_City_(29062844163).jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "On September 6, 2016, a smart classroom was opened at Ho Chi Minh University of Medicine and Pharmacy with support from "
     }
   ],
   "quan-doi-nhan-dan": [
@@ -698,15 +698,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 4.0",
       "source": "Wikimedia Commons",
       "alt": "PAVN soldiers during a parade in 2015."
-    },
-    {
-      "file": "quan-doi-nhan-dan/card.webp",
-      "photographer": "Adam Jones Adam63",
-      "profile": "https://commons.wikimedia.org/wiki/File:Women_Soldiers_at_Ho_Chi_Minh_Museum_-_Hanoi_-_Vietnam.JPG",
-      "photo": "https://commons.wikimedia.org/wiki/File:Women_Soldiers_at_Ho_Chi_Minh_Museum_-_Hanoi_-_Vietnam.JPG",
-      "license": "CC BY-SA 3.0",
-      "source": "Wikimedia Commons",
-      "alt": "Student Policewomen at Ho Chi Minh Museum, Hanoi, Vietnam. June 2009."
     },
     {
       "file": "quan-doi-nhan-dan/gallery1.webp",
@@ -770,6 +761,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "Public domain",
       "source": "Wikimedia Commons",
       "alt": "A U.S. Army Soldier assigned to the 101st Airborne Division, gets fitted at the Regional Office Building, June 11, 2025,"
+    },
+    {
+      "file": "quan-doi-nhan-dan/card.webp",
+      "photographer": "Unknown authorUnknown author or not provided",
+      "profile": "https://commons.wikimedia.org/wiki/File:South_Vietnamese_soldier,_1966,_1958_-_1974_-_NARA_-_541856.tif",
+      "photo": "https://commons.wikimedia.org/wiki/File:South_Vietnamese_soldier,_1966,_1958_-_1974_-_NARA_-_541856.tif",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "General notes: Use War and Conflict Number 396 when ordering a reproduction or requesting information about this image."
     }
   ],
   "gio-to-hung-vuong": [
@@ -2421,15 +2421,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "15. Kỹ thuật phỏng vấn - 24h dans une rédaction"
     },
     {
-      "file": "ngay-bao-chi/gallery4.webp",
-      "photographer": "claudiosieberphotography.com",
-      "profile": "https://claudiosieberphotography.com/vietnam-hanoi-3-5/",
-      "photo": "https://claudiosieberphotography.com/vietnam-hanoi-3-5/",
-      "license": "CC (xem nguồn)",
-      "source": "Web (claudiosieberphotography.com)",
-      "alt": "vietnam-hanoi-3-5"
-    },
-    {
       "file": "ngay-bao-chi/gallery2.webp",
       "photographer": "konde.co",
       "profile": "https://www.konde.co/2021/10/female-journalists-at-top-level-advocate-gender-equality-in-newsrooms-from-labyrinth-glass-ceiling-to-roller-coaster/",
@@ -2455,6 +2446,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "Public domain",
       "source": "Wikimedia Commons",
       "alt": "Paul Brock served as deputy director of Communications for the Democratic National Committee from 1974 to 1976. Unit: Jo"
+    },
+    {
+      "file": "ngay-bao-chi/gallery4.webp",
+      "photographer": "David Hume Kennerly",
+      "profile": "https://commons.wikimedia.org/wiki/File:Ford_A4239_NLGRF_photo_contact_sheet_(1975-04-28)(Gerald_Ford_Library).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Ford_A4239_NLGRF_photo_contact_sheet_(1975-04-28)(Gerald_Ford_Library).jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "The photo contact sheet, identified as A4239 by the White House Photographic Office (WHPO), is housed at the Gerald R. F"
     }
   ],
   "nguoi-cao-tuoi": [
@@ -3047,33 +3047,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Hanoi Opera House"
     },
     {
-      "file": "ngay-cach-mang-thang-tam/gallery5.webp",
-      "photographer": "motogo.vn",
-      "profile": "https://motogo.vn/du-lich-ha-noi/",
-      "photo": "https://motogo.vn/du-lich-ha-noi/",
-      "license": "CC (xem nguồn)",
-      "source": "Web (motogo.vn)",
-      "alt": "Du lịch Hà Nội | Cẩm nang du lịch hấp dẫn từ A - Z"
-    },
-    {
-      "file": "ngay-cach-mang-thang-tam/gallery6.webp",
-      "photographer": "flickr.com",
-      "profile": "https://www.flickr.com/photos/dgmckelvey/6914584864",
-      "photo": "https://www.flickr.com/photos/dgmckelvey/6914584864",
-      "license": "CC (xem nguồn)",
-      "source": "Web (flickr.com)",
-      "alt": "Ba Đình District, Hanoi, Vietnam | Ba Đình is an urban distr… | Flickr"
-    },
-    {
-      "file": "ngay-cach-mang-thang-tam/gallery3.webp",
-      "photographer": "flickr.com",
-      "profile": "https://www.flickr.com/photos/jean-marc_astesana/16125242101",
-      "photo": "https://www.flickr.com/photos/jean-marc_astesana/16125242101",
-      "license": "CC (xem nguồn)",
-      "source": "Web (flickr.com)",
-      "alt": "Ho Chi Minh City | Jean-Marc Astesana | Flickr"
-    },
-    {
       "file": "ngay-cach-mang-thang-tam/history.webp",
       "photographer": "shunei1506",
       "profile": "https://commons.wikimedia.org/wiki/File:Ba_Dinh_Square.jpg",
@@ -3090,6 +3063,33 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY 2.0",
       "source": "Wikimedia Commons",
       "alt": "So this then is the de facto symbol of Hanoi, the Ho Chi Minh Mausoleum in Ba Dinh Square of the city. This is one of th"
+    },
+    {
+      "file": "ngay-cach-mang-thang-tam/gallery3.webp",
+      "photographer": "Grenouille vert",
+      "profile": "https://commons.wikimedia.org/wiki/File:Ba_Dinh_Square_panorama.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Ba_Dinh_Square_panorama.jpg",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "A 360-degree view of the en:Ba Dinh Square in Hanoi, Vietnam"
+    },
+    {
+      "file": "ngay-cach-mang-thang-tam/gallery5.webp",
+      "photographer": "Marki Wolf Cobain",
+      "profile": "https://commons.wikimedia.org/wiki/File:C%E1%BA%A7u_Long_Bi%C3%AAn_(Doumer).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:C%E1%BA%A7u_Long_Bi%C3%AAn_(Doumer).jpg",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Cầu Long Biên (Doumer) là cây cầu làm từ thời Pháp bắc qua nhánh sông Hồng đổ vào Hà Nội, nối giữa Gia Lâm và nội thành."
+    },
+    {
+      "file": "ngay-cach-mang-thang-tam/gallery6.webp",
+      "photographer": "OSS (Office of Strategic Services), US Army personnel.",
+      "profile": "https://commons.wikimedia.org/wiki/File:1945_Vietnam_Independence_or_Death.png",
+      "photo": "https://commons.wikimedia.org/wiki/File:1945_Vietnam_Independence_or_Death.png",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Peaceful demonstration in Hanoi advocating independence for Vietnam, August 1945."
     }
   ],
   "ngay-giai-phong-thu-do": [
@@ -3213,15 +3213,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "[알라딘서재]작고 큰 여행_가벼이, 가벼이 나서야지"
     },
     {
-      "file": "ngay-sach-viet-nam/gallery4.webp",
-      "photographer": "3hreevoices5ivesouls.wordpress.com",
-      "profile": "https://3hreevoices5ivesouls.wordpress.com/2015/08/05/thanh-ly/",
-      "photo": "https://3hreevoices5ivesouls.wordpress.com/2015/08/05/thanh-ly/",
-      "license": "CC (xem nguồn)",
-      "source": "Web (3hreevoices5ivesouls.wordpress.com)",
-      "alt": "Thanh lý… | C.A.T.I.E.R"
-    },
-    {
       "file": "ngay-sach-viet-nam/gallery5.webp",
       "photographer": "julencoir.blogspot.com",
       "profile": "https://julencoir.blogspot.com/2020/04/",
@@ -3256,6 +3247,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "Public domain",
       "source": "Wikimedia Commons",
       "alt": "Taka sits with 9-year-old Sofia Rundini and his owner and trainer, Jamie Ward, during Sofia's reading of \"Mary Had a Lit"
+    },
+    {
+      "file": "ngay-sach-viet-nam/gallery4.webp",
+      "photographer": "Yun Huang Yong from Harbord, Australia",
+      "profile": "https://commons.wikimedia.org/wiki/File:Ben_Thanh_Market_(3122976554).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Ben_Thanh_Market_(3122976554).jpg",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Its a very large market selling just about everything from dried foods to the latest in knock-off fashions, as well as s"
     }
   ],
   "ngay-the-thao-viet-nam": [
@@ -3527,24 +3527,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Thuốc dân tộc tổ chức thành công chương trình thiện nguyện “Thêm niềm ..."
     },
     {
-      "file": "ngay-doan-thanh-nien/gallery4.webp",
-      "photographer": "flickr.com",
-      "profile": "https://www.flickr.com/photos/unwomenasiapacific/6853233720/",
-      "photo": "https://www.flickr.com/photos/unwomenasiapacific/6853233720/",
-      "license": "CC (xem nguồn)",
-      "source": "Web (flickr.com)",
-      "alt": "D70_9851 | UNiTE Gender Based- Violence painting contest Con… | Flickr"
-    },
-    {
-      "file": "ngay-doan-thanh-nien/gallery3.webp",
-      "photographer": "elitshanews.org.za",
-      "profile": "https://elitshanews.org.za/2020/02/17/is-there-a-glimmer-of-hope-for-vietnamese-workers/",
-      "photo": "https://elitshanews.org.za/2020/02/17/is-there-a-glimmer-of-hope-for-vietnamese-workers/",
-      "license": "CC (xem nguồn)",
-      "source": "Web (elitshanews.org.za)",
-      "alt": "Is there a glimmer of hope for Vietnamese workers? – Elitsha"
-    },
-    {
       "file": "ngay-doan-thanh-nien/gallery5.webp",
       "photographer": "flickr.com",
       "profile": "https://www.flickr.com/photos/350org/7149046023",
@@ -3588,6 +3570,24 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "Public domain",
       "source": "Wikimedia Commons",
       "alt": "The flag of Ho Chi Minh Communist Youth Union, used since 1976."
+    },
+    {
+      "file": "ngay-doan-thanh-nien/gallery3.webp",
+      "photographer": "USAID Vietnam",
+      "profile": "https://commons.wikimedia.org/wiki/File:Eye_screening_at_for_students_in_Kon_Tum,_Vietnam,_supported_by_USAID_and_HKI_(6820107124).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Eye_screening_at_for_students_in_Kon_Tum,_Vietnam,_supported_by_USAID_and_HKI_(6820107124).jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Photo: Richard Nyberg, USAID/Vietnam"
+    },
+    {
+      "file": "ngay-doan-thanh-nien/gallery4.webp",
+      "photographer": "USAID Vietnam",
+      "profile": "https://commons.wikimedia.org/wiki/File:Eye_screening_at_for_students_in_Kon_Tum,_Vietnam,_supported_by_USAID_and_HKI_(6966227957).jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Eye_screening_at_for_students_in_Kon_Tum,_Vietnam,_supported_by_USAID_and_HKI_(6966227957).jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Photo: Richard Nyberg, USAID/Vietnam"
     }
   ],
   "ngay-tho-viet-nam": [
