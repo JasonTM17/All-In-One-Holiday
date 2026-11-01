@@ -104,7 +104,7 @@ export const imageCredits: Record<string, ImageCredit[]> = {
     },
     {
       "file": "tet-nguyen-dan/card.webp",
-      "photographer": "Hoa_mai.jpg: Original uploader was Nhanvo at vi.wikipedia Later version(s) were uploaded by Lưu Ly, Casablanca1911, Tdangkhoa at vi.wikipedia. derivative work: Minh Nguyễn (talk, contribs)",
+      "photographer": "Nhanvo, Minh Nguyễn (vi.wikipedia)",
       "profile": "https://commons.wikimedia.org/wiki/File:Ochna_integerrima_Vietnamese_New_Year_background.png",
       "photo": "https://commons.wikimedia.org/wiki/File:Ochna_integerrima_Vietnamese_New_Year_background.png",
       "license": "Public domain",
@@ -681,7 +681,7 @@ export const imageCredits: Record<string, ImageCredit[]> = {
     },
     {
       "file": "nha-giao-viet-nam/gallery6.webp",
-      "photographer": "The Provisional Revolutionary Government of the Democratic Republic of Vietnam.",
+      "photographer": "Chính phủ Cách mạng lâm thời VNDCCH",
       "profile": "https://commons.wikimedia.org/wiki/File:Ng%C3%A0y_29-03-1946_c%E1%BB%A7a_Ch%E1%BB%A7_t%E1%BB%8Bch_Ch%C3%ADnh_ph%E1%BB%A7_L%C3%A2m_th%E1%BB%9Di_Vi%E1%BB%87t_Nam_D%C3%A2n_ch%E1%BB%A7_C%E1%BB%99ng_h%C3%B2a_v-v_tr%C3%ADch_ng%C3%A2n_s%C3%A1ch_to%C3%A0n_qu%E1%BB%91c_%C4%91%E1%BB%83_B%E1%BB%99_Ngo%E1%BA%A1i_giao_chi_ti%C3%AAu_v%E1%BB%81_nh%E1%BB%AFng_c%C3%B4ng_cu%E1%BB%99c_%C4%91%E1%BA%B7c_bi%E1%BB%87t.jpg",
       "photo": "https://commons.wikimedia.org/wiki/File:Ng%C3%A0y_29-03-1946_c%E1%BB%A7a_Ch%E1%BB%A7_t%E1%BB%8Bch_Ch%C3%ADnh_ph%E1%BB%A7_L%C3%A2m_th%E1%BB%9Di_Vi%E1%BB%87t_Nam_D%C3%A2n_ch%E1%BB%A7_C%E1%BB%99ng_h%C3%B2a_v-v_tr%C3%ADch_ng%C3%A2n_s%C3%A1ch_to%C3%A0n_qu%E1%BB%91c_%C4%91%E1%BB%83_B%E1%BB%99_Ngo%E1%BA%A1i_giao_chi_ti%C3%AAu_v%E1%BB%81_nh%E1%BB%AFng_c%C3%B4ng_cu%E1%BB%99c_%C4%91%E1%BA%B7c_bi%E1%BB%87t.jpg",
       "license": "Public domain",
@@ -1051,7 +1051,7 @@ export const imageCredits: Record<string, ImageCredit[]> = {
   "ngay-cua-me": [
     {
       "file": "ngay-cua-me/gallery2.webp",
-      "photographer": "Janis Rozentāls (1866 - 1916) – Creator (Latvian) Details on Google Art Project",
+      "photographer": "Janis Rozentāls",
       "profile": "https://commons.wikimedia.org/wiki/File:Janis_Rozent%C4%81ls_-_Mother_and_Child_-_Google_Art_Project.jpg",
       "photo": "https://commons.wikimedia.org/wiki/File:Janis_Rozent%C4%81ls_-_Mother_and_Child_-_Google_Art_Project.jpg",
       "license": "Public domain",
@@ -1345,7 +1345,7 @@ export const imageCredits: Record<string, ImageCredit[]> = {
     },
     {
       "file": "thuong-binh-liet-si/gallery4.webp",
-      "photographer": "Mike Fernwood from Santa Cruz, California, United States",
+      "photographer": "Mike Fernwood",
       "profile": "https://commons.wikimedia.org/wiki/File:B%E1%BA%BFn_D%C6%B0%E1%BB%A3c_temple.jpg",
       "photo": "https://commons.wikimedia.org/wiki/File:B%E1%BA%BFn_D%C6%B0%E1%BB%A3c_temple.jpg",
       "license": "CC BY-SA 2.0",
@@ -1428,7 +1428,7 @@ export const imageCredits: Record<string, ImageCredit[]> = {
     },
     {
       "file": "vu-lan/phongtuc-bong-hong.webp",
-      "photographer": "No machine-readable author provided. Ingrid Kamratowski~commonswiki assumed (based on copyright claims).",
+      "photographer": "Ingrid Kamratowski~commonswiki",
       "profile": "https://commons.wikimedia.org/wiki/File:Rosa_Rose_auf_wei%C3%9Fem_Tisch.jpg",
       "photo": "https://commons.wikimedia.org/wiki/File:Rosa_Rose_auf_wei%C3%9Fem_Tisch.jpg",
       "license": "CC BY 2.5",
@@ -1776,7 +1776,7 @@ export const imageCredits: Record<string, ImageCredit[]> = {
     },
     {
       "file": "giang-sinh/hero.webp",
-      "photographer": "Peter Addor from underway; mailnly Switzerland, Italy and Sri Lanka, world",
+      "photographer": "Peter Addor",
       "profile": "https://commons.wikimedia.org/wiki/File:Xmas_Eve_in_front_of_the_St._Joseph_Cathedral_in_Hanoi_(39251039582).jpg",
       "photo": "https://commons.wikimedia.org/wiki/File:Xmas_Eve_in_front_of_the_St._Joseph_Cathedral_in_Hanoi_(39251039582).jpg",
       "license": "CC BY 2.0",
@@ -2440,7 +2440,7 @@ export const imageCredits: Record<string, ImageCredit[]> = {
     },
     {
       "file": "ngay-bao-chi/history.webp",
-      "photographer": "Photograph by \"Susta.vn\" hoặc \"Liên hiệp hội Sơn La\", not creative enough to constitute copyright.",
+      "photographer": "Susta.vn / Liên hiệp hội Sơn La",
       "profile": "https://commons.wikimedia.org/wiki/File:B%C3%A1o_%E2%80%9CS%E1%BB%B1_th%E1%BA%ADt%E2%80%9D_-_Li%C3%AAn_hi%E1%BB%87p_h%E1%BB%99i_S%C6%A1n_La.jpg",
       "photo": "https://commons.wikimedia.org/wiki/File:B%C3%A1o_%E2%80%9CS%E1%BB%B1_th%E1%BA%ADt%E2%80%9D_-_Li%C3%AAn_hi%E1%BB%87p_h%E1%BB%99i_S%C6%A1n_La.jpg",
       "license": "Public domain",
@@ -2460,7 +2460,7 @@ export const imageCredits: Record<string, ImageCredit[]> = {
   "nguoi-cao-tuoi": [
     {
       "file": "nguoi-cao-tuoi/amthuc-xoi-gac.webp",
-      "photographer": "Nguyễn Thanh Quang 07:20, 3 December 2007 (UTC)",
+      "photographer": "Nguyễn Thanh Quang",
       "profile": "https://commons.wikimedia.org/wiki/File:X%C3%B4i_g%E1%BA%A5c.JPG",
       "photo": "https://commons.wikimedia.org/wiki/File:X%C3%B4i_g%E1%BA%A5c.JPG",
       "license": "Public domain",
@@ -2799,7 +2799,7 @@ export const imageCredits: Record<string, ImageCredit[]> = {
     },
     {
       "file": "ngay-thanh-lap-dang/hero.webp",
-      "photographer": "Indochinese Communist Party committee of Ninh Binh. Redrawn by Nghia7554",
+      "photographer": "Nghia7554 (redrawn)",
       "profile": "https://commons.wikimedia.org/wiki/File:Communist_flag_on_Non_Nuoc_Mountain,_Ninh_Binh_(1929).png",
       "photo": "https://commons.wikimedia.org/wiki/File:Communist_flag_on_Non_Nuoc_Mountain,_Ninh_Binh_(1929).png",
       "license": "CC BY 4.0",
@@ -3333,7 +3333,7 @@ export const imageCredits: Record<string, ImageCredit[]> = {
     },
     {
       "file": "ngay-the-thao-viet-nam/gallery6.webp",
-      "photographer": "No machine-readable author provided. AlfredBoc assumed (based on copyright claims).",
+      "photographer": "AlfredBoc~commonswiki",
       "profile": "https://commons.wikimedia.org/wiki/File:MorningExerciseInHanoi.JPG",
       "photo": "https://commons.wikimedia.org/wiki/File:MorningExerciseInHanoi.JPG",
       "license": "Public domain",
@@ -3398,7 +3398,7 @@ export const imageCredits: Record<string, ImageCredit[]> = {
     },
     {
       "file": "ngay-phap-luat-viet-nam/gallery1.webp",
-      "photographer": "The imperial government of the Nguyễn Dynasty, French Indo-China.",
+      "photographer": "Triều Nguyễn, French Indo-China",
       "profile": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2u_b%E1%BA%A3n,_t%E1%BA%ADp_2,_t%E1%BB%9D_102,_Kh%E1%BA%A3i_%C4%90%E1%BB%8Bnh._-_Kh%C3%A2m_%C4%90%E1%BB%8Bnh_%C4%90%E1%BA%A1i_Nam_h%E1%BB%99i_%C4%91i%E1%BB%83n_s%E1%BB%B1_l%E1%BB%87,_B%E1%BB%99_C%C3%B4ng,_quy%E1%BB%83n_205.jpg",
       "photo": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2u_b%E1%BA%A3n,_t%E1%BA%ADp_2,_t%E1%BB%9D_102,_Kh%E1%BA%A3i_%C4%90%E1%BB%8Bnh._-_Kh%C3%A2m_%C4%90%E1%BB%8Bnh_%C4%90%E1%BA%A1i_Nam_h%E1%BB%99i_%C4%91i%E1%BB%83n_s%E1%BB%B1_l%E1%BB%87,_B%E1%BB%99_C%C3%B4ng,_quy%E1%BB%83n_205.jpg",
       "license": "Public domain",
@@ -3407,7 +3407,7 @@ export const imageCredits: Record<string, ImageCredit[]> = {
     },
     {
       "file": "ngay-phap-luat-viet-nam/gallery2.webp",
-      "photographer": "The imperial government of the Nguyễn Dynasty.",
+      "photographer": "Triều Nguyễn",
       "profile": "https://commons.wikimedia.org/wiki/File:Ho%C3%A0ng_Vi%E1%BB%87t_t%C4%83ng_san_t%C3%A2n_lu%E1%BA%ADt_(%E7%9A%87%E8%B6%8A%E5%A2%9E%E5%88%8A%E6%96%B0%E5%BE%8B)_Nguyen_Tuan_Cuong_(%E9%98%AE%E4%BF%8A%E5%BC%BA)_seal_01.jpg",
       "photo": "https://commons.wikimedia.org/wiki/File:Ho%C3%A0ng_Vi%E1%BB%87t_t%C4%83ng_san_t%C3%A2n_lu%E1%BA%ADt_(%E7%9A%87%E8%B6%8A%E5%A2%9E%E5%88%8A%E6%96%B0%E5%BE%8B)_Nguyen_Tuan_Cuong_(%E9%98%AE%E4%BF%8A%E5%BC%BA)_seal_01.jpg",
       "license": "Public domain",

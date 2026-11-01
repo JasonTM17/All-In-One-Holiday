@@ -3533,7 +3533,7 @@ export const holidaysEn: Holiday[] = [
         { title: "Gifts for men", text: "Flowers, cards, personal items — many Vietnamese families and companies treat November 19 as a counterpart to March 8: a day men also receive gifts." },
         { title: "Men's health campaigns", text: "Many countries link the day with 'Movember' — the mustache-growing November campaign raising awareness of prostate cancer and men's mental health." },
         { title: "Role-model stories", text: "Media and schools share stories of kind men — teachers, single fathers, firefighters — to give boys nearby examples." },
-        { title: "Family events", text: "A family meal, a day out, a father-child football match — the day encourages men to give time to family." },
+        { title: "Family events", img: "gallery4", text: "A family meal, a day out, a father-child football match — the day encourages men to give time to family." },
         { title: "Gender dialogues", text: "Panels on modern male roles — breadwinning pressure, housework, fatherhood rights — topics rarely spoken aloud." },
         { title: "Honoring outstanding men", text: "Companies and organizations award 'man of the year' titles — quiet workers, doctors, volunteers." },
       ],

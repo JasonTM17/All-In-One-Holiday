@@ -3563,7 +3563,7 @@ export const holidays: Holiday[] = [
         { title: "Tặng quà cho nam giới", text: "Hoa, thiệp, đồ cá nhân — nhiều gia đình và công ty Việt xem 19/11 là 'đối ứng' của 8/3: ngày đàn ông cũng được tặng quà." },
         { title: "Chiến dịch sức khỏe nam", text: "Nhiều nước gắn ngày này với 'Movember' (râu tháng 11) — chiến dịch nâng cao ý thức ung thư tuyến tiền liệt và sức khỏe tâm thần nam giới." },
         { title: "Kể chuyện hình mẫu", text: "Báo chí, trường học chia sẻ những người đàn ông tử tế — thầy giáo, cha đơn thân, lính cứu hỏa — để giới trẻ có hình mẫu gần." },
-        { title: "Sự kiện gia đình", text: "Bữa cơm, chuyến đi chơi, trận bóng cha-con — ngày khuyến khích nam giới dành thời gian cho gia đình." },
+        { title: "Sự kiện gia đình", img: "gallery4", text: "Bữa cơm, chuyến đi chơi, trận bóng cha-con — ngày khuyến khích nam giới dành thời gian cho gia đình." },
         { title: "Đối thoại giới", text: "Tọa đàm về vai trò nam giới hiện đại — áp lực kiếm tiền, việc nhà, quyền làm cha — những chủ đề ít được nói ra." },
         { title: "Vinh danh nam giới tiêu biểu", text: "Doanh nghiệp, tổ chức trao danh hiệu 'người đàn ông của năm' — người công nhân, bác sĩ, tình nguyện viên âm thầm." },
       ],
