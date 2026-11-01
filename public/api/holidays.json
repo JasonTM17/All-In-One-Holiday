@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-01T11:42:39.670Z",
+ "generatedAt": "2026-11-01T11:59:56.177Z",
  "locales": [
   "vi",
   "en"
@@ -20,15 +20,15 @@
    "traditions": [
     {
      "title": "Đếm ngược giao thừa",
-     "text": "Nhiều thành phố tổ chức bắn pháo hoa và đếm ngược về 0 giờ."
+     "text": "Khoảnh khắc 0 giờ được đếm ngược tại các quảng trường trung tâm — đông nhất là khu vực Bờ Hồ (Hà Nội) và đường Nguyễn Huệ (TP.HCM). Những năm gần đây hai thành phố chuyển dần sang trình diễn ánh sáng, nhạc nước và drone thay cho pháo hoa tầm cao."
     },
     {
      "title": "Lời chúc năm mới",
-     "text": "Trao đổi thiệp, tin nhắn chúc sức khỏe và thành công."
+     "text": "Người ta nhắn 'Happy New Year' cho nhau bằng tin nhắn, thiệp điện tử và những dòng status đầu năm. Khác lời chúc Tết Nguyên Đán trang trọng, lời chúc Tết Dương lịch nhẹ nhàng, kiểu bạn bè, thường kèm ảnh đêm giao thừa."
     },
     {
      "title": "Kế hoạch năm mới",
-     "text": "Viết mục tiêu, du lịch ngắn ngày hoặc sum họp gia đình."
+     "text": "Nhiều bạn trẻ viết ra mục tiêu năm mới — học thêm kỹ năng, đọc sách, chạy bộ, tiết kiệm — dù Tết Dương lịch chỉ nghỉ một ngày. Các nhóm bạn rủ nhau 'khai bút' đầu năm như một cách tự hứa với chính mình."
     }
    ],
    "wishes": [
@@ -75,19 +75,19 @@
    "traditions": [
     {
      "title": "Gói bánh chưng, bánh tét",
-     "text": "Gia đình quây quần gói bánh, nấu bánh suốt đêm trước Tết."
+     "text": "Từ ngày 26–29 tháng Chạp, cả nhà quây quần gói bánh — nếp ngâm, lá dong rửa sạch, đậu xanh và thịt lợn xếp từng lớp. Nồi bánh luộc suốt 8–12 tiếng qua đêm là khoảnh khắc Tết quen thuộc nhất của mỗi gia đình, nhất là ở quê."
     },
     {
      "title": "Lì xì đầu năm",
-     "text": "Người lớn mừng tuổi trẻ nhỏ bằng bao đỏ cầu may mắn."
+     "text": "Tiền mới đổi từ ngân hàng nhiều tuần trước Tết được cho vào phong bao đỏ — màu của may mắn. Người lớn lì xì cho trẻ em và cả cha mẹ cao tuổi kèm lời chúc sức khỏe; số tiền không quan trọng bằng tấm lòng đầu năm."
     },
     {
      "title": "Chúc Tết, thăm họ hàng",
-     "text": "Mùng 1 Tết cha, mùng 2 Tết mẹ, mùng 3 Tết thầy."
+     "text": "Mùng 1 dành cho họ nội, mùng 2 cho họ ngoại, mùng 3 thăm thầy cô — nhịp xưa vẫn được giữ đến nay. Những ngày đầu năm, nhà nào cũng mở cửa đón khách với mứt Tết, trà xanh và tiếng cười."
     },
     {
      "title": "Câu đối đỏ, hoa đào hoa mai",
-     "text": "Trang trí nhà cửa với sắc đỏ vàng rực rỡ đón xuân."
+     "text": "Nhà nào cũng treo câu đối đỏ chữ vàng — 'Cung chúc tân xuân', 'Phúc như Đông hải'. Miền Bắc chuộng đào hồng, miền Nam quý mai vàng; một cành hoa Tết được cho mang cả sắc xuân vào nhà."
     }
    ],
    "wishes": [
@@ -133,19 +133,19 @@
    "traditions": [
     {
      "title": "Đi chùa cầu an",
-     "text": "Lễ Phật, thắp hương cầu sức khỏe và bình an đầu năm."
+     "text": "'Đi lễ đầu năm' là nếp đẹp: người ta tới chùa sau Tết và đông nhất vào rằm tháng Giêng để cầu bình an cả năm. Các chùa lớn như Trấn Quốc, Hương Tích (Hà Nội) hay Vĩnh Nghiêm (TP.HCM) kín người suốt tuần rằm."
     },
     {
      "title": "Cúng rằm tháng Giêng",
-     "text": "Mâm cúng gia tiên với chè trôi nước, hoa quả."
+     "text": "Rằm tháng Giêng là rằm lớn nhất năm, còn gọi tết Thượng Nguyên. Mâm cúng gia tiên có bánh chưng, hoa quả tươi; nhiều nhà thêm chè trôi nước và gà luộc để cúng trọn nghi rằm đầu năm."
     },
     {
      "title": "Ăn chè trôi nước",
-     "text": "Viên bánh tròn thơm gừng tượng trưng cho sự đoàn viên."
+     "text": "Viên chè tròn vỏ nếp nhân đậu xanh nổi lên trong nước gừng ngọt ấm — hình tròn tượng trưng sự viên mãn, sum họp đầu năm. Ở Chợ Lớn, người Hoa nấu chè trôi nước kiểu sủi cảo, thành một mùa chè riêng mỗi rằm Giêng."
     },
     {
      "title": "Hội đèn lồng",
-     "text": "Nhiều nơi rước đèn, ngắm hoa đăng rực rỡ về đêm."
+     "text": "Phố cổ Hội An sáng rực hàng nghìn đèn lồng vào tối rằm; TP.HCM giữ tuyến phố đèn lồng Tết Nguyên tiêu tại khu Chợ Lớn. Cảnh thả hoa đăng trên sông Hoài là hình ảnh Tết Nguyên tiêu nổi tiếng nhất."
     }
    ],
    "wishes": [
@@ -191,15 +191,15 @@
    "traditions": [
     {
      "title": "Tặng hoa hồng",
-     "text": "Hồng đỏ cho tình yêu nồng cháy, hồng nhạt cho sự ngọt ngào."
+     "text": "Hoa hồng đỏ là 'đơn vị tiền tệ' của ngày 14/2 — giá mỗi bông tăng gấp hai, gấp ba lần mà vẫn cháy hàng tại các chợ hoa Quảng Ba, Hồ Thị Kỷ. Những năm gần đây hoa khô, hoa sáp và hộp hoa cao cấp được chuộng vì giữ được lâu."
     },
     {
      "title": "Sô-cô-la và thiệp",
-     "text": "Cặp quà kinh điển kèm một lời nhắn viết tay."
+     "text": "Sô-cô-la là món quà ngọt ngào kinh điển đi cùng bông hồng. Giới trẻ Việt ngày càng chuộng thiệp viết tay, hộp quà bí mật và quà tự làm hơn quà mua sẵn — giá trị nằm ở công chuẩn bị."
     },
     {
      "title": "Hẹn hò đặc biệt",
-     "text": "Bữa tối, bộ phim hay chuyến đi ngắn dành cho hai người."
+     "text": "Nhà hàng, quán cà phê view đẹp được đặt kín từ cả tuần trước; nhiều cặp chọn nấu ăn cùng nhau ở nhà hay 'hẹn hò ngược' — né phố đông, tự làm album ảnh. Khi 14/2 rơi vào cuối tuần, đó thường là đêm hẹn hò đông nhất năm."
     }
    ],
    "wishes": [
@@ -246,15 +246,15 @@
    "traditions": [
     {
      "title": "Tặng hoa và quà",
-     "text": "Hoa, thiệp và những lời chúc gửi đến mẹ, vợ, chị em, đồng nghiệp."
+     "text": "Hoa hồng, hoa cẩm chướng và những hộp quà nhỏ là lựa chọn phổ biến nhất — bạn trai tặng người yêu, chồng tặng vợ, con tặng mẹ, học trò tặng cô. Chợ hoa và các sàn thương mại điện tử đều chạy 'chiến dịch 8/3' suốt tuần trước đó."
     },
     {
      "title": "Bữa cơm sum họp",
-     "text": "Gia đình cùng nấu ăn để phụ nữ được nghỉ ngơi."
+     "text": "Nhiều ông bố, người yêu vào bếp nấu bữa tối để 'đổi ca' cho mẹ và vợ — bữa cơm là món quà đơn giản mà ý nghĩa nhất. Hình ảnh đàn ông hì hục nấu canh rau ngót, kho cá ngày 8/3 đã thành 'meme' yêu thương quen thuộc."
     },
     {
      "title": "Hoạt động tôn vinh",
-     "text": "Cơ quan, trường học tổ chức gặp mặt, tuyên dương nữ cán bộ, học sinh."
+     "text": "Cơ quan, doanh nghiệp, trường học tổ chức gặp mặt, tuyên dương nữ cán bộ, nữ sinh tiêu biểu; các cuộc thi nấu ăn, văn nghệ 'vì phụ nữ' sôi nổi cả tuần. Từ năm 2016, Liên Hợp Quốc đặt một chủ đề riêng cho ngày 8/3 mỗi năm."
     }
    ],
    "wishes": [
@@ -301,15 +301,15 @@
    "traditions": [
     {
      "title": "Dâng hương Đền Hùng",
-     "text": "Hàng triệu người về Phú Thọ thắp hương tưởng nhớ các vua Hùng."
+     "text": "Từ đêm mùng 9 rạng ngày 10/3 âm lịch, dòng người lên núi Nghĩa Lĩnh (Phú Thọ) dâng hương tại Đền Hạ, Đền Trung và Đền Thượng. Lãnh đạo Nhà nước dự lễ chính tại Đền Thượng; hàng triệu người Việt trong và ngoài nước hướng về cùng một giờ."
     },
     {
      "title": "Rước kiệu, hát xoan",
-     "text": "Lễ rước kiệu từ chân núi Nghĩa Lĩnh lên Đền Thượng."
+     "text": "Các làng quanh Đền Hùng rước kiệu dâng hoa lên đền suốt tuần lễ hội — mỗi kiệu có cờ, trống và mâm cỗ của riêng địa phương. Hát xoan Phú Thọ — di sản văn hóa phi vật thể được UNESCO công nhận năm 2011 — vang lên suốt hội."
     },
     {
      "title": "Bánh chưng, bánh giầy dâng cúng",
-     "text": "Hai loại bánh tượng trưng trời đất trong mâm cúng tổ tiên."
+     "text": "Theo truyền thuyết Lang Liêu, bánh chưng vuông tượng trưng đất, bánh giầy tròn tượng trưng trời — hai thứ bánh là lễ vật bắt buộc trên mâm cúng Giỗ Tổ. Nhiều gia đình tự gói hoặc mua bánh dâng lên đền rồi mang về làm lộc."
     }
    ],
    "wishes": [
@@ -355,19 +355,19 @@
    "traditions": [
     {
      "title": "Tảo mộ",
-     "text": "Cả nhà dọn cỏ, vun đất, sửa lại mộ phần ông bà trong những tuần quanh Thanh minh."
+     "text": "Gia đình về quê vào tuần Thanh minh để quét dọn mồ mả: phát cỏ, đắp đất mới, sửa bia, lau bát hương. Tục lệ coi đó là 'sửa nhà' cho người đã khuất; nhiều nơi nay quy định giờ tảo mộ chung để giữ vệ sinh nghĩa trang."
     },
     {
      "title": "Dâng hương hoa quả",
-     "text": "Nén hương, cành cúc và mâm lễ giản dị đặt trước mộ và ban thờ."
+     "text": "Sau khi quét tảo, con cháu thắp hương, dâng hoa tươi và đốt vàng mã. Có nơi cúng thêm gà luộc, xôi, chè; xong lễ, mâm cúng được rải một phần lên mộ để 'gửi' cho người thân."
     },
     {
      "title": "Sum họp, dạo xuân",
-     "text": "Chuyến tảo mộ thường thành buổi gặp gỡ đại gia đình giữa tiết trời trong lành."
+     "text": "Thanh minh rơi vào tiết khí thứ năm của mùa xuân — lúc trời sáng đẹp nhất năm — nên chuyến tảo mộ thường kết thúc bằng bữa cơm ngoài trời hoặc cuộc dạo xuân cả gia đình. Người xưa gọi đó là 'vừa tảo mộ, vừa dạo thanh minh'."
     },
     {
      "title": "Xôi, bánh dân gian",
-     "text": "Nhiều miền dâng xôi và bánh nếp trong ngày tảo mộ."
+     "text": "Mỗi miền có món riêng ngày tảo mộ: miền Bắc có xôi gấc, xôi vò và bánh tro tàu nhân mật mía; miền Trung có bánh phu thê, chè kho; miền Nam có chè xoa xoa. Món ăn mộc mạc nhưng ai đi xa cũng nhớ vị ngày Thanh minh."
     }
    ],
    "wishes": [
@@ -411,15 +411,15 @@
    "traditions": [
     {
      "title": "Treo cờ Tổ quốc",
-     "text": "Nhà cửa, đường phố rực sắc đỏ sao vàng."
+     "text": "Khắp các con phố — nhất là trục Lê Duẩn – Độc Lập ở TP.HCM và các nẻo đường Hà Nội — cờ đỏ sao vàng phủ kín suốt tuần lễ 30/4. Người dân tự treo cờ trước nhà như một lời nhắc lặng lẽ về ngày thống nhất."
     },
     {
      "title": "Kỷ niệm và diễu binh",
-     "text": "Các dịp tròn năm tổ chức diễu binh, diễu hành cấp quốc gia."
+     "text": "Các năm tròn — 40 năm (2015), 50 năm (2025) — tổ chức diễu binh, diễu hành cấp quốc gia tại TP.HCM với hàng chục nghìn người tham gia. Đại lễ 50 năm ngày 30/4/2025 nằm trong số những cuộc diễu binh lớn nhất lịch sử Việt Nam."
     },
     {
      "title": "Về nguồn",
-     "text": "Tham quan địa chỉ đỏ, tưởng nhớ anh hùng liệt sĩ."
+     "text": "Dịp này, nhiều gia đình cựu chiến binh và đoàn thanh niên về thăm lại chiến trường xưa — địa đạo Củ Chi, Quảng Trị, Trường Sơn — và viếng các nghĩa trang liệt sĩ. Những buổi gặp mặt đồng đội truyền thống diễn ra ở khắp các đơn vị quân đội cũ."
     }
    ],
    "wishes": [
@@ -466,11 +466,15 @@
    "traditions": [
     {
      "title": "Kỳ nghỉ lễ 30/4–1/5",
-     "text": "Nhiều gia đình chọn du lịch, về quê trong dịp nghỉ dài."
+     "text": "Hai ngày lễ liền nhau thành kỳ nghỉ dài nhất nửa đầu năm — nhiều gia đình 'ăn lễ' bằng một chuyến du lịch ngắn hoặc về quê thăm nhà. Các điểm biển như Đà Nẵng, Nha Trang, Phú Quốc thường cháy phòng từ cả tháng trước."
     },
     {
      "title": "Vinh danh lao động tiêu biểu",
-     "text": "Doanh nghiệp, công đoàn tuyên dương người lao động xuất sắc."
+     "text": "Công đoàn và doanh nghiệp tuyên dương công nhân giỏi, các sáng kiến cải tiến kỹ thuật; báo chí đăng chuyên đề về người lao động — thợ hàn, bác sĩ vùng sâu, giáo viên vùng cao. Những năm gần đây chủ đề 'người lao động tiên phong' gắn với chuyển đổi số."
+    },
+    {
+     "title": "Hoạt động của công đoàn",
+     "text": "Tháng Công nhân (tháng 5) khởi động ngay sau lễ: thi tay nghề, giải bóng đá công nhân, tư vấn việc làm và các chương trình chăm lo cho công nhân xa quê. Nhiều khu công nghiệp mở 'chợ công nhân' giá rẻ vào dịp này."
     }
    ],
    "wishes": [
@@ -517,15 +521,15 @@
    "traditions": [
     {
      "title": "Hoa cẩm chướng cho mẹ",
-     "text": "Bông cẩm chướng là biểu tượng kinh điển của ngày này."
+     "text": "Cẩm chướng gắn với ngày này từ chính người khởi xướng — Anna Jarvis đã gửi hoa cẩm chướng trắng để tưởng nhớ mẹ quá cố; ngày nay cẩm chướng hồng đỏ dành tặng các mẹ còn khỏe. Ở Việt Nam, hoa hồng, hoa lan và bó hoa hỗn hợp được chọn không kém."
     },
     {
      "title": "Bữa cơm do con nấu",
-     "text": "Vào bếp thay mẹ một ngày — món quà giản dị nhất."
+     "text": "Món quà được khen nhiều nhất trên mạng xã hội mỗi năm là bữa cơm con tự nấu — dù đôi khi 'muối mặn, nước nhạt'. Con ở xa còn hay đặt shipper giao lẩu, gà hầm tận nhà để mẹ khỏi vào bếp ngày này."
     },
     {
      "title": "Gọi điện về nhà",
-     "text": "Với những người xa quê, một cuộc gọi dài là món quà."
+     "text": "Với con cái xa nhà, một cuộc gọi video hỏi 'mẹ ăn cơm chưa' là món quà đúng ngày nhất. Các nhà mạng đều có ưu đãi phút gọi dịp này — nhiều người trưởng thành mới nhận ra cuộc gọi ngắn hằng tuần còn quý hơn bất kỳ quà vật chất nào."
     }
    ],
    "wishes": [
@@ -572,15 +576,15 @@
    "traditions": [
     {
      "title": "Vui chơi tại trường",
-     "text": "Văn nghệ, trò chơi dân gian và khuôn viên tràng bóng bay."
+     "text": "Sáng 1/6 — thường dời về cuối tuần gần nhất — trường mầm non, tiểu học tổ chức ngày hội: trò chơi dân gian, văn nghệ do chính các bé biểu diễn, phát thưởng cuối năm học. Ký ức 'ngày hội trường' gắn với tiếng trống hội, quẩy tung nước và những bông hồng giấy."
     },
     {
      "title": "Quà cho bé",
-     "text": "Đồ chơi, sách truyện, quần áo mới cho các con."
+     "text": "Quà 1/6 kinh điển là đồ chơi, truyện tranh, cặp sách — nhiều bố mẹ nay chọn sách và đồ chơi STEM thay vì đồ điện tử. Trung tâm thương mại, cửa hàng đồ chơi dựng khu vui chơi và ưu đãi riêng suốt cả tuần lễ."
     },
     {
      "title": "Hoạt động thiện nguyện",
-     "text": "Tặng quà cho trẻ em khó khăn, trẻ mồ côi."
+     "text": "Dịp này, các tổ chức thiện nguyện, quỹ nhi đồng và đoàn thanh niên tặng quà cho trẻ em khó khăn — bệnh viện nhi, làng SOS, trẻ em vùng bão lũ. Nhiều chương trình gây quỹ quà Tết cho trẻ nghèo cũng khởi động từ mùa hè."
     }
    ],
    "wishes": [
@@ -626,15 +630,15 @@
    "traditions": [
     {
      "title": "Bữa cơm sum họp",
-     "text": "Cả nhà cùng ăn tối, trò chuyện thay vì mỗi người một màn hình."
+     "text": "Ngày này không có nghi lễ chuẩn — 'nghi lễ' của nó chính là bữa cơm cả nhà ăn cùng nhau, lời nhắc về giá trị 'bữa cơm gia đình' giữa nhịp sống bận rộn. Bộ VHTTDL từng phát động chiến dịch 'Giờ cơm gia đình' 18h–19h30 không điện thoại."
     },
     {
      "title": "Ảnh gia đình",
-     "text": "Chụp một bộ ảnh chung làm kỷ niệm mỗi năm."
+     "text": "Nhiều gia đình chọn ngày này đi chụp bộ ảnh chung — ở studio, ở công viên, hoặc chỉ là tấm ảnh selfie quanh mâm cơm. Các chương trình truyền hình và cuộc thi ảnh 'gia đình hạnh phúc' thường tổ chức quanh ngày 28/6."
     },
     {
      "title": "Câu chuyện thế hệ",
-     "text": "Ông bà kể cho con cháu nghe về dòng họ, quê hương."
+     "text": "Ngày Gia đình là dịp để ông bà kể chuyện xưa, mở ảnh cưới, gia phả cho con cháu xem — buổi 'truyền thống gia đình' mà hiếm ngày nào ngồi lại được với nhau. Nhiều trường học giao bài tập 'phỏng vấn ông bà' vào đúng tuần này."
     }
    ],
    "wishes": [
@@ -680,15 +684,15 @@
    "traditions": [
     {
      "title": "Viếng nghĩa trang liệt sĩ",
-     "text": "Thắp hương, đặt hoa tại các nghĩa trang và đài tưởng niệm."
+     "text": "Hàng triệu người đến nghĩa trang liệt sĩ địa phương trong tuần lễ 27/7 — thắp hương, lau mộ, đọc tên trên từng bia đá. Ở Quảng Trị, hai nghĩa trang lớn Trường Sơn và Đường 9 đón những đoàn cựu chiến binh tóc bạc đông nhất năm."
     },
     {
      "title": "Thăm gia đình chính sách",
-     "text": "Thăm hỏi, tặng quà thương binh, mẹ Việt Nam anh hùng."
+     "text": "Tinh thần 'đền ơn đáp nghĩa' thành việc làm cụ thể: địa phương, doanh nghiệp, trường học đi thăm mẹ Việt Nam anh hùng, thương binh, gia đình liệt sĩ — tặng quà, sửa nhà tình nghĩa, cấp sổ bảo hiểm tận tay."
     },
     {
      "title": "Đèn tri ân",
-     "text": "Thắp nến tri ân các anh hùng liệt sĩ tối 26/7."
+     "text": "Tối 26/7, nghi thức thắp nến tri ân lan từ nghĩa trang quốc gia đến những ngôi mộ liệt sĩ trong đình làng — hàng nghìn ngọn nến thắp cùng một giờ. Hình ảnh 'biển nến' tại nghĩa trang Trường Sơn là khoảnh khắc xúc động nhất của năm."
     }
    ],
    "wishes": [
@@ -735,15 +739,15 @@
    "traditions": [
     {
      "title": "Cài hoa hồng lên áo",
-     "text": "Hoa đỏ khi còn mẹ, hoa trắng khi mẹ đã khuất — lễ nghi xúc động nhất."
+     "text": "Tục cài hoa hồng lên áo khi lễ chùa Vu Lan — hồng cho người còn mẹ, trắng cho người không còn mẹ — do Thiền sư Thích Nhất Hạnh khởi xướng ở Huế năm 1962. Hơn nửa thế kỷ sau, cánh hoa nhỏ trên áo là hình ảnh quen thuộc nhất của ngày báo hiếu."
     },
     {
      "title": "Đi chùa lễ Vu Lan",
-     "text": "Nghe kinh báo hiếu, cầu nguyện cho cha mẹ hai bên."
+     "text": "Rằm tháng 7, các chùa tổ chức lễ Vu Lan báo hiếu: tụng kinh, trao bông hồng, nghe giảng về công ơn cha mẹ qua kinh Vu Lan Bồn — câu chuyện Mục Kiền Liên cứu mẹ. Lễ đông nhất thường vào đúng rằm hoặc chủ nhật gần nhất."
     },
     {
      "title": "Cúng rằm tháng 7",
-     "text": "Mâm cúng gia tiên, xá tội vong nhân, phóng sinh."
+     "text": "Song song lễ chùa, nhà nào cũng sắm mâm rằm tháng 7 cúng gia tiên — nhiều nơi thêm 'mâm cúng cô hồn' bày ngoài cổng vào chiều tối với cháo loãng, muối, tiền vàng. Tục xá tội vong, bố thí chúng sinh đi đôi với lòng từ bi của ngày này."
     }
    ],
    "wishes": [
@@ -789,15 +793,15 @@
    "traditions": [
     {
      "title": "Diễu binh 2/9",
-     "text": "Các năm tròn tổ chức diễu binh, diễu hành tại Ba Đình."
+     "text": "Các năm tròn — 70 năm (2015), 80 năm (2025) — tổ chức diễu binh, diễu hành tại quảng trường Ba Đình, đúng nơi Bác Hồ đọc Tuyên ngôn Độc lập. Diễu binh A80 năm 2025 quy tụ hàng chục nghìn quân dân và được truyền hình trực tiếp toàn quốc."
     },
     {
      "title": "Pháo hoa",
-     "text": "Hà Nội, TP.HCM và nhiều tỉnh thành bắn pháo hoa đêm 2/9."
+     "text": "Đêm 2/9, Hà Nội và TP.HCM bắn pháo hoa nhiều điểm — riêng cầu sông Hàn (Đà Nẵng) là nơi ngắm pháo đẹp nhất nước. Từ năm 2022, nhiều địa phương thay pháo tầm cao bằng trình diễn drone light tại các quảng trường."
     },
     {
      "title": "Phố phường treo cờ",
-     "text": "Cả nước rực đỏ cờ sao vàng trong dịp Quốc khánh."
+     "text": "Từ cuối tháng 8, cờ Tổ quốc phủ kín phố phường — ngõ nhỏ nhất cũng đỏ rực, người dân tự treo cờ trước nhà. Ảnh 'phố cờ đỏ' quanh Nhà hát Lớn và phố cổ Hà Nội là khung hình Quốc khánh quen thuộc nhất."
     }
    ],
    "wishes": [
@@ -843,15 +847,15 @@
    "traditions": [
     {
      "title": "Phá cỗ ngắm trăng",
-     "text": "Mâm cỗ bánh trung thu, bưởi, hồng đặt dưới sân trăng."
+     "text": "Đêm rằm tháng 8, mâm cỗ bày bưởi tạt đầu 'thuyền', nải chuối, bánh nướng bánh dẻo xếp thành hình — trẻ em 'phá cỗ' lúc gần nửa đêm để lấy may. Người lớn uống trà ngắm trăng trong khi trẻ con tranh nhau miếng đuôi thuyền bưởi."
     },
     {
      "title": "Rước đèn ông sao",
-     "text": "Trẻ em rước đèn lồng, đèn ông sao đi khắp phố."
+     "text": "Đèn ông sao giấy bói đủ màu, đèn cá chép, đèn kéo quân — từng tốp trẻ em tay đèn đi rước quanh ngõ phố đêm rằm. Đèn pin nhạc điện tử phổ biến hơn ngày nay, nhưng Hội An và nhiều phố cổ vẫn giữ đèn giấy truyền thống."
     },
     {
      "title": "Múa lân",
-     "text": "Tiếng trống lân rộn rã trong những đêm rằm tháng 8."
+     "text": "Đoàn lân sư rồng đi từng tổ dân phố, trống rộn rã, múa lân hái 'lộc' treo trước các cửa hàng — tiếng trống lân là âm thanh báo hiệu Trung thu về. Trẻ con kéo nhau đi xem lân đến khuya — ký ức chung của nhiều thế hệ."
     }
    ],
    "wishes": [
@@ -898,15 +902,15 @@
    "traditions": [
     {
      "title": "Tặng hoa, tặng quà",
-     "text": "Đồng nghiệp, người thân gửi hoa và lời chúc đến phụ nữ quanh mình."
+     "text": "Giống 8/3, hoa và quà đổ về tay các bà, các mẹ, các chị — nhưng 20/10 là ngày 'của nhà mình', riêng của Việt Nam. Chợ hoa và cửa hàng quà tặng đông đúc nhất vào tối 19 và sáng 20."
     },
     {
      "title": "Vinh danh phụ nữ tiêu biểu",
-     "text": "Các cấp hội phụ nữ tổ chức gặp mặt, tuyên dương."
+     "text": "Ngày này gắn với lịch sử Hội Liên hiệp Phụ nữ Việt Nam — thành lập 20/10/1930. Các cơ quan tổ chức gặp mặt, tuyên dương mẹ Việt Nam anh hùng, nữ khoa học gia, nữ doanh nhân tiêu biểu suốt tuần lễ."
     },
     {
      "title": "Nam giới vào bếp",
-     "text": "Tục \"đàn ông nấu ăn\" ngày 20/10 ngày càng phổ biến."
+     "text": "Trào lưu 'nam giới đảm đang' ngày 20/10: chồng nấu bữa tối, con trai phụ rửa bát — bữa cơm do đàn ông làm trở thành món quà thiết thực nhất. 'Đàn ông Việt Nam vào bếp ngày 20/10' dần thành 'tục lệ' mới được hưởng ứng."
     }
    ],
    "wishes": [
@@ -952,15 +956,15 @@
    "traditions": [
     {
      "title": "Học sinh tặng hoa",
-     "text": "Hoa và thiệp tay gửi thầy cô trong tiết chào cờ đặc biệt."
+     "text": "Trước giờ lên lớp ngày 20/11, lớp trưởng đại diện dâng bó hoa cùng tấm thiệp lời cảm ơn; nhiều trường tổ chức lễ kỷ niệm ngắn gọn đầu giờ. Học sinh tiểu học tự vẽ thiệp, học sinh trung học mua hoa, sinh viên gửi video tri ân."
     },
     {
      "title": "Cựu học sinh về thăm",
-     "text": "Thế hệ đi trước quay lại trường xưa thăm thầy cô già."
+     "text": "Ngày này, các niên khóa cũ — từ thế hệ xế chiều tới tân sinh viên — tề tựu về trường thăm thầy cô, mang theo hoa, bánh và kỷ vật năm xưa. Cuộc gặp 'thầy trò ba thế hệ' là khoảnh khắc quen thuộc nhất mỗi 20/11."
     },
     {
      "title": "Lời nhắn tri ân",
-     "text": "Những tin nhắn cảm ơn gửi đến thầy cô cũ khắp nơi."
+     "text": "Gần đây, thay vì quà đắt tiền, phụ huynh khuyến khích con viết lời nhắn tay — 'thầy cô chỉ cần một lời cảm ơn chân thành'. Ngành giáo dục cũng thường xuyên nhắc nhở 'không lễ vật ngày 20/11' để ngày lễ giữ đúng nghĩa trong sạch."
     }
    ],
    "wishes": [
@@ -1006,15 +1010,15 @@
    "traditions": [
     {
      "title": "Gặp mặt truyền thống",
-     "text": "Các đơn vị, cựu chiến binh tổ chức gặp mặt ngày thành lập."
+     "text": "Các cựu chiến binh cùng đơn vị — trung đoàn, đại đội, những 'tiểu đoàn nổi tiếng' — gặp mặt quanh 22/12, đọc lại danh sách liệt sĩ và hát những bài hát năm xưa. Ngày này đồng thời là Ngày hội Quốc phòng toàn dân ở các địa phương."
     },
     {
      "title": "Vinh danh cán bộ chiến sĩ",
-     "text": "Khen thưởng gương quân nhân tiêu biểu."
+     "text": "Các đơn vị quân đội kỷ niệm bằng lễ gặp mặt, tuyên dương chiến sĩ giỏi, thi đua 'giỏi việc nước, đảm việc nhà'. Hình ảnh chiến sĩ nghĩa vụ trẻ nấu mâm cơm tiếp gia đình chính sách quen thuộc vào ngày này."
     },
     {
      "title": "Hoạt động biên giới",
-     "text": "Thăm đồn biên phòng, trại lính ở vùng sâu vùng xa."
+     "text": "Ngày thành lập quân đội gắn với hoạt động 'vì biên cương, vì ngư dân': trao nhà tình đồng đội, khám chữa bệnh miễn phí vùng biên, giao lưu 'Xuân biên phòng ấm lòng dân'. Các đơn vị hải quân bắt đầu nhận chuyến quà 'Tết trên đảo' từ dịp này."
     }
    ],
    "wishes": [
@@ -1061,15 +1065,15 @@
    "traditions": [
     {
      "title": "Đi nhà thờ đêm 24/12",
-     "text": "Lễ vọng Giáng sinh và ngắm hang đá tại các nhà thờ lớn."
+     "text": "Đêm vọng Giáng sinh, các nhà thờ lớn — Nhà thờ Lớn Hà Nội, Đức Bà TP.HCM, Phủ Cam Huế — đông nghẹt cả những người không theo đạo đến xem lễ nửa đêm. Đây là hình ảnh Giáng sinh đặc trưng của Việt Nam: lễ tôn giáo trở thành lễ hội chung của phố phường."
     },
     {
      "title": "Trao quà Noel",
-     "text": "Ông già Noel tặng quà cho trẻ em đêm trước Giáng sinh."
+     "text": "Ông già Noel phát quà ở trung tâm thương mại, công viên — trẻ em đi 'săn ông già Noel' đêm 24. Gia đình trao quà dưới cây thông sáng 25/12; lớp học, công ty chơi 'Secret Santa' trao quà ẩn danh."
     },
     {
      "title": "Trang trí cây thông",
-     "text": "Cây thông Noel, đèn nhấp nháy và vòng nguyệt quế."
+     "text": "Cây thông Noel — cây thật hoặc nhựa cao 3–10m — được dựng trước nhà thờ, khách sạn, phố đi bộ từ đầu tháng 12. Hang đá tái hiện máng cỏ Bethlehem là nét riêng của Giáng sinh Việt: mỗi giáo xứ, gia đình thi nhau làm hang đá lớn nhất phố."
     }
    ],
    "wishes": [
@@ -1115,19 +1119,19 @@
    "traditions": [
     {
      "title": "Cúng tiễn Táo quân",
-     "text": "Dọn dẹp bàn thờ bếp, dâng mâm cỗ, nón Táo và vật phẩm hóa vàng để Táo quân về trời trình báo."
+     "text": "Trưa ngày 23 tháng Chạp, nhà nào cũng dọn mâm lễ tiễn ông Táo về trời — trầu, rượu, nếp tẻ, đôi khi mũ ông Táo bằng giấy đỏ và tiền vàng mã. Sau lễ, mũ và vàng mã được hóa đi để 'trình lên Ngọc Hoàng' theo làn khói hương."
     },
     {
      "title": "Thả cá chép",
-     "text": "Thả cá chép ra ao hồ — phương tiện đưa Táo quân lên trời; nhiều gia đình thả chiều 23/12 âm lịch."
+     "text": "Theo truyền thuyết, cá chép hóa rồng đưa ông Táo về trời — nên sau lễ nhiều nhà mua chép đỏ ra sông, hồ phóng sinh. Gần đây có tranh luận về việc thả cá vào nguồn nước tự nhiên, nhiều gia đình chọn phóng sinh vào ao hồ riêng hoặc chỉ cúng cá chép bằng giấy."
     },
     {
      "title": "Quét dọn nhà cửa",
-     "text": "Sau lễ cúng, người ta bắt đầu quét tước, lau chùi, sửa sang đón Tết."
+     "text": "Khi ông Táo đã về trời, nhà 'vắng thần' nên đây là lúc quét dọn dứt điểm: giũ bụi trần nhà, sửa bàn thờ, thay bát hương mới, tổng vệ sinh trước Tết. 'Thần đi vắng' nghe có vẻ mê tín nhưng thực chất là nhịp khéo léo để cả nhà cùng dọn đón năm mới."
     },
     {
      "title": "Cúng ông Thổ địa",
-     "text": "Cùng mâm cỗ, nhiều nhà cúng cả ông Địa – Thổ công cai quản đất đai trong nhà."
+     "text": "Song song ông Táo nhà bếp, gia chủ còn cúng ông Thổ địa — vị thần giữ đất của căn nhà — bằng mâm lễ riêng hoặc chung. Tục 'Nhất Táo, nhị Địa' nhắc hai vị thần thân cận nhất trong nhà người Việt cùng được tiễn lên trời tối nay."
     }
    ],
    "wishes": [
@@ -1174,19 +1178,19 @@
    "traditions": [
     {
      "title": "Nấu bánh trôi, bánh chay",
-     "text": "Bánh trôi nước nhân đường và bánh chay xay đậu xanh — hai chiếc bánh thanh tịnh đặc trưng."
+     "text": "Từ chiều mùng 2, các nhà vo bánh trôi nhân đường viên tròn nhỏ và bánh chay nhân đậu xanh to bằng nắm tay — bánh luộc nổi lên là chín. Bánh trôi thả trong chè gừng, bánh chay xếp đĩa riêng; nhiều nhà làm đủ để dâng cúng và chia họ hàng."
     },
     {
      "title": "Cúng tổ tiên",
-     "text": "Dâng bánh trôi chay lên bàn thờ ông bà mùng 3/3 âm lịch."
+     "text": "Sáng mùng 3 tháng 3, mâm bánh trôi bánh chay thay hoa quả lên bàn thờ — nghi lễ lưu giữ gốc tích 'hàn thực' (bữa lạnh, không lửa) của Tết ngày xưa. Người ta tin tổ tiên về thọ hưởng mùa mới qua những viên bánh trắng mềm."
     },
     {
      "title": "Ăn chay cả ngày",
-     "text": "Nhiều gia đình giữ ngày chay thanh tịnh để tĩnh tâm đầu xuân."
+     "text": "Nhiều gia đình chọn ăn chay ngày 3/3 — vừa thanh tịnh đầu xuân, vừa gợi nhớ gốc 'ngày không lửa' chỉ dùng đồ nguội của Tết Hàn thực. Tuy vậy, ở Việt Nam nét đặc trưng nhất vẫn là hai thứ bánh trôi, bánh chay ngọt."
     },
     {
      "title": "Xuất hành lễ chùa",
-     "text": "Người ta thường đi lễ chùa cầu an sau loạt lễ Xuân."
+     "text": "Nhiều nhà chọn ngày này đi chùa cầu bình an, hoặc đi chơi xuân nốt trước khi nhịp sống thường ngày trở lại sau rằm Giêng. Với trẻ em, mùng 3 tháng 3 gắn với 'bánh trôi nổi' — món chè ông bà, bố mẹ nhất định nấu mỗi năm."
     }
    ],
    "wishes": [
@@ -1232,19 +1236,19 @@
    "traditions": [
     {
      "title": "Ăn hoa quả chua",
-     "text": "Xoài xanh, mận, vải — trái chua đầu mùa được cho 'giết sâu bọ' trong người."
+     "text": "Quả thanh trà, mận, sấu, dâu tằm — trái vị chua đầu hè là 'thuốc' giết sâu bọ của Tết Đoan Ngọ. Dân gian có tục ăn hoa quả lúc bụng đói từ sáng sớm để 'diệt sâu từ bên trong' trước khi ăn cơm."
     },
     {
      "title": "Rượu nếp, cơm rượu",
-     "text": "Cơm rượu nếp cái hoa vàng — món truyền thống của tết Đoan Ngọ."
+     "text": "Cơm rượu nếp cái hoa vàng viên nhỏ là món nhất định của trưa mùng 5 — vị ngọt cay ấm được coi là 'đốt hết sâu bọ' cuối mùa. Trẻ em ăn cơm rượu đã đun chín; người lớn uống rượu nếp nguyên chất kèm chút muối mè, ớt."
     },
     {
      "title": "Hái thuốc ngọ",
-     "text": "Đúng giờ ngọ, người xưa đi hái cỏ cây làm thuốc vì tin giờ này dược tính mạnh."
+     "text": "Từ 11h–13h ngày mùng 5 — đúng giờ Ngọ của ngày Ngọ, tháng Ngọ — được cho là lúc dương khí cực thịnh, thuốc hái giờ này tốt nhất năm. Người xưa hái ngải cứu, lá tre, rễ cỏ tranh phơi nắng cất làm thuốc quanh năm."
     },
     {
      "title": "Tục đốt vía",
-     "text": "Đốt vía, đeo chỉ ngũ sắc cho trẻ — xua đuổi sâu bọ và tai ương."
+     "text": "Tối Đoan Ngọ, có nơi đốt vía — đống giấy rơm ngoài ngõ 'đuổi sâu bọ' — nay ít còn vì lý do an toàn. Nhưng tục giũ quần áo phơi nắng, treo ngải cứu trước cửa vẫn giữ nét 'xua tà khí' mùa hạ."
     }
    ],
    "wishes": [
@@ -1290,19 +1294,19 @@
    "traditions": [
     {
      "title": "Tặng hoa cho bác sĩ",
-     "text": "Hoa hồng, cẩm chướng tặng thầy thuốc, y tá quen thuộc — hành động tri ân phổ biến."
+     "text": "Ngày 27/2, bệnh viện ngập hoa — bệnh nhân cũ trở lại tặng hoa cùng lá thư cảm ơn cho bác sĩ từng cứu mình; sinh viên y tặng thầy hướng dẫn. Hoa hồng và hoa ly là hai loài được chọn nhiều nhất."
     },
     {
      "title": "Lễ kỷ niệm tại viện",
-     "text": "Các bệnh viện tổ chức họp mặt, trao bằng khen cán bộ y tế tiêu biểu."
+     "text": "Các bệnh viện từ Việt Đức, Chợ Rẫy đến viện tuyến huyện tổ chức gặp mặt truyền thống: tân bác sĩ đọc lại lời thề Hippocrates, vinh danh 'thầy thuốc ưu tú', tri ân thế hệ thầy đã về hưu."
     },
     {
      "title": "Khám chữa miễn phí",
-     "text": "Nhiều địa phương mở đợt khám bệnh công ích, hiến máu quanh ngày lễ."
+     "text": "Dịp này, nhiều đoàn y bác sĩ tình nguyện khám sức khỏe miễn phí ở vùng cao, vùng sâu — phát thuốc, siêu âm, mổ mắt nhân đạo. Ngành y gọi đây là 'việc làm đẹp nhất trong ngày của chính mình'."
     },
     {
      "title": "Tri ân trên báo chí",
-     "text": "Báo đài đăng chuyện người thầy thuốc — nhất là vùng sâu, vùng xa."
+     "text": "Báo chí, truyền hình dành chuyên mục tri ân: phóng sự về bác sĩ thức trắng đêm trực cấp cứu, 'bác sĩ rừng' ba mươi năm chống sốt rét, nữ bác sĩ vùng cao. Những câu chuyện mỗi 27/2 khiến nghề y gần với công chúng hơn."
     }
    ],
    "wishes": [
@@ -1348,19 +1352,19 @@
    "traditions": [
     {
      "title": "Lễ trao giải báo chí",
-     "text": "Các giải báo chí quốc gia thường công bố gần ngày 21/6 — vinh danh tác phẩm tiêu biểu."
+     "text": "Quanh 21/6 là mùa giải lớn nhất năm của nghề báo — Giải Búa liềm vàng và Giải báo chí toàn quốc — trao cho những tác phẩm điều tra, đấu tranh chống tham nhũng và bức ảnh báo chí ấn tượng nhất năm trước đó."
     },
     {
      "title": "Họp mặt nhà báo",
-     "text": "Hội Nhà báo Việt Nam, các cơ quan báo chí tổ chức gặp mặt, tri ân nghề."
+     "text": "Hội Nhà báo các cấp và các tòa soạn tổ chức gặp mặt truyền thống: vinh danh nhà báo kỳ cựu, trao thẻ hội viên mới, nhắc lại ngày báo Thanh niên số đầu tiên ra đời 21/6/1925 do Nguyễn Ái Quốc sáng lập."
     },
     {
      "title": "Triển lãm báo chí",
-     "text": "Nhiều nơi trưng bày trang báo lịch sử — từ Thanh Niên, Cứu Quốc đến báo mạng hôm nay."
+     "text": "Triển lãm báo chí toàn quốc và hội báo xuân trưng bày tác phẩm đoạt giải cùng những trang báo lịch sử — từ tờ báo in chữ Hán thời xưa đến trang tin điện tử hiện đại. Đây là dịp độc giả nhìn thấy 'công xưởng' đằng sau tin tức."
     },
     {
      "title": "Tọa đàm nghề báo",
-     "text": "Trường báo chí mở tọa đàm về đạo đức nghề và đổi mới truyền thông."
+     "text": "Các tọa đàm nghề nghiệp quanh ngày này xoay quanh báo chí chuyển đổi số, AI trong tòa soạn và đạo đức nghề báo thời tin giả — những vấn đề nóng nhất của nghề theo từng giai đoạn."
     }
    ],
    "wishes": [
@@ -1406,19 +1410,19 @@
    "traditions": [
     {
      "title": "Mừng thọ",
-     "text": "Gia đình tổ chức mừng thọ cho cụ ông, cụ bà — con cháu tề tựu chúc phúc."
+     "text": "Tục mừng thọ tổ chức ở các mốc 60 (hồi giáp), 70, 77 (hi thọ), 80, 88 (mễ thọ), 90, 99 (bạch thọ) và 100 tuổi — con cháu tề tựu dâng trầu, áo đỏ, câu đối chúc thọ. Nhiều gia đình gộp mừng thọ vào dịp Tết hoặc ngày 1/10 cho đông đủ."
     },
     {
      "title": "Thăm hỏi người già",
-     "text": "Đoàn thể, khu phố thăm hỏi, tặng quà người cao tuổi neo đơn."
+     "text": "Hội Người cao tuổi cơ sở đi từng ngõ tặng quà các cụ bước sang 80, 90, 100 tuổi — hộp sữa, chăn ấm, phong bì chúc thọ. Địa phương nào cũng có 'bản đồ cụ thọ' riêng để không bỏ sót nhà nào."
     },
     {
      "title": "Hoạt động hội người cao tuổi",
-     "text": "Hội người cao tuổi tổ chức văn nghệ, khám sức khỏe, tọa đàm."
+     "text": "Chi hội người cao tuổi là sân chơi thật của người già nông thôn: thơ, cờ tướng, dưỡng sinh, múa hát — nhiều hội tổ chức hội thi 'cụ ông cụ bà tài năng' dịp 1/10. Ở thành phố, ngày này gắn với chủ đề 'sống vui, sống khỏe' tuổi vàng."
     },
     {
      "title": "Con cháu về quê",
-     "text": "Nhiều gia đình chọn ngày 1/10 để các cháu xa quê về thăm ông bà."
+     "text": "Ngày 1/10 rơi vào khoảng cuối tuần đầu thu — nhiều con cháu đi xa chọn về quê thăm ông bà, gộp mừng thọ vào ngày này. 'Ngày của ông bà' cũng là lời nhắc người trẻ gọi điện thường xuyên hơn cho cụ già ở xa."
     }
    ],
    "wishes": [
@@ -1464,19 +1468,19 @@
    "traditions": [
     {
      "title": "Gặp mặt doanh nhân",
-     "text": "Hiệp hội doanh nghiệp, Phòng Thương mại tổ chức gặp gỡ, tôn vinh doanh nhân tiêu biểu."
+     "text": "Ngày 13/10, các hiệp hội doanh nghiệp — VCCI, phòng thương mại, hội doanh nhân trẻ — tổ chức gặp mặt và diễn đàn CEO. Đây là dịp 'điểm danh' sức khỏe cộng đồng doanh nhân Việt sau mỗi năm biến động."
     },
     {
      "title": "Diễn đàn khởi nghiệp",
-     "text": "Nhiều diễn đàn, workshop khởi nghiệp, chuyển đổi số diễn ra quanh ngày 13/10."
+     "text": "Quanh 13/10 là mùa diễn đàn khởi nghiệp: Techfest, Startup Day, talkshow 'hành trình founder' thu hút giới trẻ kinh doanh. Ngày Doanh nhân trở thành điểm nhấn truyền cảm hứng kinh doanh lớn nhất năm."
     },
     {
      "title": "Vinh danh doanh nghiệp",
-     "text": "Giải thưởng Sao Vàng đất Việt, Thánh Gióng và các giải thường trao quanh ngày lễ."
+     "text": "Dịp này trao các giải uy tín: cúp Thánh Gióng cho doanh nhân tiêu biểu, Sao Đỏ cho doanh nghiệp vì cộng đồng, Top 500 doanh nghiệp lớn nhất (VNR500). Bảng vinh danh 13/10 là 'bảng vàng' thường niên của giới kinh doanh."
     },
     {
      "title": "Hoạt động thiện nguyện",
-     "text": "Nhiều doanh nghiệp chọn ngày này làm ngày trách nhiệm xã hội, từ thiện cộng đồng."
+     "text": "Bên cạnh vinh danh, nhiều tập đoàn chọn 13/10 làm ngày thiện nguyện chung: trao học bổng, xây nhà tình thương, tài trợ y tế khắp nơi. 'Doanh nhân không chỉ làm giàu' là thông điệp được nhắc lại mỗi năm."
     }
    ],
    "wishes": [
@@ -1522,15 +1526,15 @@
    "traditions": [
     {
      "title": "Lễ kỷ niệm",
-     "text": "Cấp trung ương và địa phương tổ chức lễ kỷ niệm, đặc biệt long trọng vào các năm tròn chẵn."
+     "text": "Đảng bộ các cấp từ xã phường đến trung ương tổ chức lễ kỷ niệm trang trọng ngày 3/2: ôn lại hội nghị hợp nhất ba tổ chức cộng sản tại Cửu Long (Hồng Kông) năm 1930, diễn văn về chặng đường hơn 90 năm, chiếu phim tư liệu."
     },
     {
      "title": "Kết nạp đảng viên",
-     "text": "Nhiều chi bộ chọn dịp này đứng ra kết nạp đảng viên mới trước cờ Đảng."
+     "text": "Ngày Thành lập Đảng là 'mùa kết nạp': nhiều thanh niên ưu tú, chiến sĩ, công nhân giỏi được kết nạp đảng viên trong buổi lễ trang trọng — khoảnh khắc được coi là 'ngày sinh thứ hai' của mỗi người."
     },
     {
      "title": "Hoạt động thiện nguyện",
-     "text": "Đoàn thể tổ chức ra quân vệ sinh, xây nhà tình nghĩa, đền ơn đáp nghĩa."
+     "text": "Chi bộ, đảng bộ cơ sở tổ chức ngày thiện nguyện quanh 3/2: dọn vệ sinh môi trường, trồng cây, hiến máu, thăm gia đình chính sách. 'Mỗi đảng viên một việc tử tế' là khẩu hiệu quen thuộc ngày này."
     }
    ],
    "wishes": [
@@ -1576,15 +1580,15 @@
    "traditions": [
     {
      "title": "Viếng nghĩa trang A1",
-     "text": "Đồi A1 tại TP. Điện Biên Phủ — nơi hàng nghìn liệt sĩ an nghỉ, luôn đông hương khói dịp 7/5."
+     "text": "Nghĩa trang liệt sĩ Điện Biên Phủ trên đồi D1 (TP. Điện Biên Phủ) đón các đoàn cựu chiến binh và con cháu về viếng — đông nhất trong tuần lễ 7/5. Nghi thức dâng vòng hoa, thắp hương trước các ngôi mộ là hình ảnh quen thuộc của ngày chiến thắng."
     },
     {
      "title": "Lễ kỷ niệm tại Điện Biên",
-     "text": "Các năm tròn chẵn tổ chức lễ mít tinh, diễu binh và lễ hội lớn tại nơi diễn ra chiến dịch."
+     "text": "Tỉnh Điện Biên tổ chức lễ kỷ niệm hằng năm; các năm tròn (60, 65, 70 năm) nâng lên cấp quốc gia — năm 2024, lễ 70 năm có diễu binh và triển lãm quy mô lớn nhất vùng Tây Bắc từ trước đến nay."
     },
     {
      "title": "Tư liệu và triển lãm",
-     "text": "Báo chí, bảo tàng mở lại bản đồ tác chiến, ảnh tư liệu về 56 ngày đêm khoét núi."
+     "text": "Bảo tàng Điện Biên Phủ và các thư viện mở triển lãm tư liệu: bản đồ hầm chỉ huy De Castries, thư từ lính thời, ảnh Đoàn 559 kéo pháo qua rừng. Ngày 7/5 là lúc tư liệu lịch sử 'sống lại' với công chúng hiện đại."
     }
    ],
    "wishes": [
@@ -1630,15 +1634,15 @@
    "traditions": [
     {
      "title": "Viếng lăng Bác",
-     "text": "Hàng vạn người vào Ba Đình viếng lăng Chủ tịch Hồ Chí Minh trong tuần quanh 19/5."
+     "text": "Từ sáng sớm 19/5, hàng ngàn người xếp hàng vào Lăng Chủ tịch — đoàn nào cũng nghiêm chỉnh mang vòng hoa. Ngày sinh nhật Bác là một trong những ngày Lăng đông khách nhất năm cùng với Quốc khánh 2/9."
     },
     {
      "title": "Về nguồn Kim Liên",
-     "text": "Làng Hoàng Trù — Chùa Chung, Nam Đàn, Nghệ An đón đoàn đại biểu và du khách về dâng hương."
+     "text": "Làng Hoàng Trù – Kim Liên (Nam Đàn, Nghệ An), nơi Bác sinh ra, đón đoàn 'về nguồn' đông nhất năm dịp 19/5: dâng hoa trước nhà lá quê nội, thắp hương nhà ngoại, nghe hát ví giặm suốt ngày."
     },
     {
      "title": "Văn nghệ về Bác",
-     "text": "Ca khúc, đêm thơ và triển lãm tư liệu tưởng nhớ cuộc đời Người."
+     "text": "Các cuộc thi 'hát về Bác', 'kể chuyện Bác' nở rộ khắp trường học, xã phường quanh ngày 19/5. Sách, phim, tư liệu về cuộc đời Người được giới thiệu lại với thế hệ trẻ qua những câu chuyện gần gũi nhất."
     }
    ],
    "wishes": [
@@ -1684,15 +1688,15 @@
    "traditions": [
     {
      "title": "Lễ kỷ niệm tại Nhà hát Lớn",
-     "text": "Quảng trường Cách mạng tháng Tám trước Nhà hát Lớn Hà Nội — nơi diễn ra cuộc mít tinh lịch sử 19/8/1945."
+     "text": "Nhà hát Lớn Hà Nội — nơi mít tinh 19/8/1945 với hàng chục vạn người nghe kêu gọi Tổng khởi nghĩa — là nơi tổ chức lễ kỷ niệm chính thức hằng năm. Quảng trường trước nhà hát mang tên Quảng trường Cách mạng Tháng Tám là 'địa chỉ đỏ' của ngày này."
     },
     {
      "title": "Diễu hành và treo cờ",
-     "text": "Phố phường treo cờ Tổ quốc; các năm tròn chẵn có lễ diễu binh, diễu hành lớn."
+     "text": "Phố phường thủ đô treo cờ đỏ sao vàng suốt tuần lễ 19/8; các đoàn thanh niên diễu hành băng rôn 'Không có gì quý hơn độc lập, tự do' qua phố đi bộ. Ở các tỉnh, lễ kỷ niệm gắn với ngày truyền thống cách mạng của chính địa phương."
     },
     {
      "title": "Sinh hoạt truyền thống",
-     "text": "19/8 cũng là ngày truyền thống của lực lượng Công an nhân dân — nhiều hoạt động gắn đôi hai sự kiện."
+     "text": "Các đoàn thể, trường học tổ chức buổi nói chuyện 'Tháng Tám': kể chuyện đoàn quân tiến về Hà Nội, chiếc kèn đồng tổng khởi nghĩa, già làng dẫn đầu thôn lên nhận chính quyền. 19/8 cũng là ngày truyền thống của lực lượng Công an nhân dân."
     }
    ],
    "wishes": [
@@ -1738,15 +1742,15 @@
    "traditions": [
     {
      "title": "Lễ kỷ niệm tại Hà Nội",
-     "text": "Các năm tròn chẵn (60, 70 năm) tổ chức lễ kỷ niệm cấp quốc gia với diễu binh và lễ hội đường phố."
+     "text": "Lễ kỷ niệm cấp thành phố tổ chức tại Trung tâm Hội nghị quốc gia hoặc Nhà hát Lớn; năm 2024, đại lễ 70 năm là sự kiện lớn nhất của thủ đô với diễu binh, triển lãm và đêm nhạc 'Hà Nội — niềm tin và hy vọng'."
     },
     {
      "title": "Treo cờ rực phố",
-     "text": "Phố phường Hà Nội rợp cờ đỏ; điểm chụp hình truyền thống là cột cờ thành Hà Nội."
+     "text": "Phố cổ Hà Nội ngập trong cờ đỏ những ngày 10/10 — cờ trên nóc ngói cổ, cờ dọc Hàng Đào – Hàng Ngang, nơi đoàn quân giải phóng tiến vào năm 1954. Ngành du lịch mở tour 'theo bước tiếp quản' cho du khách."
     },
     {
      "title": "Triển lãm 'Hà Nội nhớ'",
-     "text": "Bảo tàng Hà Nội, các trường đại học mở triển lãm ảnh về ngày tiếp quản 10/10/1954."
+     "text": "Bảo tàng Hà Nội và phố sách 19/12 mở triển lãm ảnh 'Hà Nội tiếp quản': xe đạp chở bộ đội, cửa hàng mở lại ngày đầu, thư gia đình báo tin vui. Phần 'câu chuyện người ở lại' luôn được quan tâm nhất."
     }
    ],
    "wishes": [
@@ -1792,19 +1796,19 @@
    "traditions": [
     {
      "title": "Giờ đọc chung",
-     "text": "Trường học, cơ quan cùng đọc sách 10–15 phút trong ngày 21/4."
+     "text": "Năm nào ngày 21/4 cũng có 'giờ đọc chung' toàn quốc — trường học, cơ quan, thư viện cùng dừng lại 15–30 phút mở sách đọc. Chiến dịch lan từ tỉnh thành xuống trường học và các cộng đồng đọc."
     },
     {
      "title": "Hội sách, ngày hội sách",
-     "text": "Đường sách TP.HCM, hội chợ sách Hà Nội và các tỉnh mở gian hàng ưu đãi."
+     "text": "Tuần sách quanh 21/4 nở rộ hội sách: Đường sách TP.HCM, phố sách 19/12 Hà Nội, hội sách thiếu nhi — giảm giá sâu, gặp tác giả, triển lãm 'sách thay đổi thế giới'. Nhiều tỉnh tổ chức hội sách cấp tỉnh lần đầu vào dịp này."
     },
     {
      "title": "Tặng sách, xây tủ sách",
-     "text": "Vận động quyên góp sách cho thư viện trường học, cộng đồng và vùng khó khăn."
+     "text": "Các quỹ thiện nguyện và trường học mở 'tuần tặng sách': thu gom sách cũ gửi vùng cao, xây tủ sách lớp học, gây quỹ thư viện xã. Ngày 21/4 cũng là dịp gia đình chọn sách để bắt đầu 'truyền thống đọc' cho con."
     },
     {
      "title": "Ra mắt sách, gặp tác giả",
-     "text": "Buổi giới thiệu sách mới, ký tặng và trò chuyện cùng nhà văn, dịch giả."
+     "text": "Các nhà xuất bản chọn Ngày Sách ra mắt tựa mới — sinh hoạt tác giả – độc giả trực tiếp tại nhà sách hoặc qua livestream. Các buổi 'gặp tác giả' dịp 21/4 luôn thu hút độc giả trẻ xếp hàng xin chữ ký."
     }
    ],
    "wishes": [
@@ -1850,19 +1854,19 @@
    "traditions": [
     {
      "title": "Ngày chạy Olympic",
-     "text": "Chạy bộ tập thể ở tất cả tỉnh thành vào dịp cuối tháng 3."
+     "text": "Ngày chạy Olympic vì sức khỏe toàn dân — truyền thống hơn 30 năm — diễn ra sáng chủ nhật gần ngày 27/3 tại hàng trăm điểm đồng loạt khắp cả nước. Từ học sinh đến cụ ông cùng ra đường chạy 'vì sức khỏe' là bức tranh đẹp nhất ngày này."
     },
     {
      "title": "Thể dục buổi sáng",
-     "text": "Văn hóa công viên sáng sớm: dưỡng sinh, khiêu vũ, cầu mây, đạp xe quanh hồ."
+     "text": "Ngày Thể thao nhắc lại thói quen 'thể dục buổi sáng' mà Bác Hồ từng kêu gọi — các công viên sáng 27/3 đông đặc hơn thường nhật với lớp dưỡng sinh, dân vũ, yoga công cộng miễn phí."
     },
     {
      "title": "Giải thể thao phong trào",
-     "text": "Hội khỏe Phù Đổng ở trường học, giải bóng đá, cầu lông, võ thuật cơ sở."
+     "text": "Hội khỏe Phù Đổng của thiếu nhi, giải chạy xã phường, giải cầu lông đơn vị — phong trào 'toàn dân rèn luyện thân thể theo gương Bác' sôi nổi nhất vào tháng 3. Ngày Thể thao là mốc mở mùa giải quần chúng cả năm."
     },
     {
      "title": "Vinh danh thành tích",
-     "text": "Biểu dương vận động viên, huấn luyện viên tiêu biểu của năm."
+     "text": "Dịp này, ngành thể thao tổng kết và vinh danh vận động viên đoạt huy chương quốc tế — SEA Games, ASIAD, Olympic. Ngày 27/3 được chọn vì ngày 27/3/1946 Bác Hồ ký sắc lệnh về thể dục thể thao — ngày khai sinh thể thao nước nhà."
     }
    ],
    "wishes": [
@@ -1908,19 +1912,19 @@
    "traditions": [
     {
      "title": "Phổ biến pháp luật",
-     "text": "Truyền thông, tổ tuyên truyền và hội nghị phổ biến luật mới đến tận thôn bản, phường xã."
+     "text": "Ngày 9/11, 'ngày pháp luật' là hoạt động chính: đội tuyên truyền phát tờ rơi về luật mới, pano biển luật treo khắp nơi, các lớp tập huấn Luật Đất đai, Luật Hôn nhân và gia đình mở ra tại từng xã phường."
     },
     {
      "title": "Tư vấn pháp luật miễn phí",
-     "text": "Luật sư, cán bộ tư pháp giải đáp miễn phí về đất đai, hôn nhân, lao động cho người dân."
+     "text": "Quầy tư vấn luật miễn phí được dựng ở chùa, đình, trung tâm hành chính: luật sư tình nguyện giải đáp về đất đai, lao động, hôn nhân — những vấn đề người dân hỏi nhiều nhất. Đây là hoạt động thiết thực nhất của ngày này."
     },
     {
      "title": "Đố vui pháp luật ở trường học",
-     "text": "Câu đố, tiểu phẩm và sinh hoạt chủ đề giúp học sinh hiểu quyền và nghĩa vụ công dân."
+     "text": "Trường học tổ chức cuộc thi 'Tìm hiểu pháp luật' với các câu đố tình huống gần gũi: đi xe máy không mũ bảo hiểm, hợp đồng lao động, cư xử trên mạng xã hội — học sinh học luật qua trò chơi thay vì bài giảng."
     },
     {
      "title": "Vinh danh người làm luật",
-     "text": "Biểu dương cán bộ tư pháp, thanh tra, luật sư có thành tích đưa luật vào đời sống."
+     "text": "Ngành tư pháp gặp mặt truyền thống: vinh danh người soạn luật, thẩm phán, luật sư, cán bộ pháp chế tiêu biểu — và nhắc lại ngày Quốc hội khóa I thông qua Hiến pháp đầu tiên ngày 9/11/1946."
     }
    ],
    "wishes": [
@@ -1966,19 +1970,19 @@
    "traditions": [
     {
      "title": "Hội chợ thương mại",
-     "text": "Vietnam Expo, hội chợ tỉnh thành và các triển lãm xúc tiến thương mại dồn về giữa năm."
+     "text": "Quanh 13/7 và suốt mùa hè là mùa hội chợ: Vietnam Expo, VietFood và hội chợ cấp tỉnh — gian hàng 'hàng Việt' chính hiệu trưng bày sản phẩm xuất khẩu, đặc sản OCOP của từng địa phương. Đây là 'ngày hội' của mặt trận thương mại nước nhà."
     },
     {
      "title": "Vinh danh doanh nghiệp",
-     "text": "Biểu dương doanh nghiệp xuất khẩu, hàng Việt chất lượng cao và thương hiệu quốc gia."
+     "text": "Ngày Thương mại gắn với vinh danh doanh nghiệp xuất khẩu giỏi: giải 'doanh nghiệp xuất khẩu tin cậy', top doanh nghiệp FDI xuất khẩu lớn. Khác 13/10 vinh danh con người doanh nhân, ngày này vinh danh tổ chức làm thương mại."
     },
     {
      "title": "Tọa đàm xuất nhập khẩu",
-     "text": "Nghiệp đoàn, hiệp hội ngành hàng bàn chính sách, thị trường và thương mại điện tử."
+     "text": "Bộ Công Thương và các hiệp hội chế biến xuất khẩu tổ chức tọa đàm quanh ngày này: xu hướng thị trường EU – Mỹ – Nhật, tận dụng EVFTA, thương mại điện tử xuyên biên giới — những chủ đề nóng của xuất khẩu Việt."
     },
     {
      "title": "Tuần hàng Việt",
-     "text": "Các chiến dịch 'Người Việt dùng hàng Việt' khuyến khích tiêu dùng nội."
+     "text": "'Tuần lễ hàng Việt' cùng chương trình 'Người Việt ưu tiên dùng hàng Việt' diễn ra dịp 13/7: siêu thị giảm giá hàng nội, ngày hội mua sắm đặc sản vùng miền — đưa 'hàng Việt Nam' đến với người Việt trước tiên."
     }
    ],
    "wishes": [
@@ -2024,19 +2028,19 @@
    "traditions": [
     {
      "title": "Kết nạp đoàn viên mới",
-     "text": "Lễ kết nạp cho đoàn viên mới tổ chức long trọng vào tháng 3 — mở đầu 'Tháng Thanh niên'."
+     "text": "Ngày Thành lập Đoàn là 'ngày đẹp nhất' để kết nạp đoàn viên: học sinh lớp 9 trở lên đứng trước lá cờ đoàn đọc lời hứa — khoảnh khắc 'trưởng thành đầu tiên' mà nhiều người nhớ cả đời."
     },
     {
      "title": "Tháng Thanh niên",
-     "text": "Cả tháng 3 là 'Tháng Thanh niên' với chiến dịch tình nguyện, đô thị văn minh, khởi nghiệp khắp nước."
+     "text": "Từ năm 2004, tháng 3 trở thành 'Tháng Thanh niên': tình nguyện xây dựng, hiến máu, trồng cây, làm sạch biển — tuổi trẻ cả nước ra quân cùng một màu áo xanh. Ngày 26/3 là đỉnh của tháng hoạt động này."
     },
     {
      "title": "Mít tinh, gặp mặt truyền thống",
-     "text": "Đoàn viên cũ gặp lại đoàn viên trẻ, kể chuyện TNXP, chuyến hải trình không số."
+     "text": "Lễ kỷ niệm trang trọng đọc lại lịch sử Đoàn từ ngày 26/3/1931 tại Vinh, nhớ Lý Tự Trọng — đoàn viên đầu tiên hy sinh khi mới 17 tuổi — và gặp mặt các thế hệ đoàn viên qua từng thời kỳ."
     },
     {
      "title": "Tình nguyện xây dựng",
-     "text": "Mùa hè xanh, xuân tình nguyện, tiếp sức mùa thi — tuổi trẻ đi làm thật, không chỉ hô khẩu hiệu."
+     "text": "Tuyến đường thanh niên, cầu dân sinh, nhà văn hóa do đoàn viên tình nguyện xây dựng là 'sản phẩm' truyền thống của Đoàn: từ con đường Hồ Chí Minh huyền thoại đến những tuyến 'Đoàn về quê' làm đường làng ngày nay."
     }
    ],
    "wishes": [
@@ -2082,19 +2086,19 @@
    "traditions": [
     {
      "title": "Đêm thơ Văn Miếu",
-     "text": "Buổi tối rằm Giêng tại Văn Miếu — Quốc Tử Giám: đọc thơ, ca trù, hòa nhạc và triển lãm thơ."
+     "text": "Đêm thơ Văn Miếu – Quốc Tử Giám tổ chức tối rằm tháng Giêng tại sân Giếng Văn dưới chân Khuê Văn Các: nhà thơ lớn, thiếu nhi, thi sĩ dân gian cùng đọc thơ dưới nến và trăng rằm đầu năm — đêm thi ca lớn nhất nước."
     },
     {
      "title": "Đọc thơ cùng nhau",
-     "text": "Câu lạc bộ thơ, trường học, thư viện cùng mở buổi đọc — bài nào cũng được, miễn là thơ."
+     "text": "Quán cà phê thơ, câu lạc bộ thi ca, trường học tổ chức 'giờ thơ' riêng: mỗi người mang một bài yêu thích đến đọc cho nhau nghe. Trong một đêm, thơ Việt trở về đúng nghĩa 'sinh hoạt cộng đồng'."
     },
     {
      "title": "Chủ đề năm",
-     "text": "Hội Nhà văn chọn chủ đề cho năm sáng tác — từ 'Quê hương' đến 'Tuổi trẻ và biển'."
+     "text": "Mỗi năm Hội Nhà văn Việt Nam chọn một chủ đề cho Ngày thơ — 'Thơ và quê hương', 'Thơ mùa xuân' chẳng hạn — và các cuộc thi sáng tác, triển lãm thi pháp xoay quanh chủ đề ấy suốt tuần lễ."
     },
     {
      "title": "Vinh danh nhà thơ",
-     "text": "Giải thưởng thơ của năm, cuộc thi thơ mới và tưởng nhớ các danh thi đã khuất."
+     "text": "Ngày này cũng là dịp tuyên dương những thi sĩ được yêu mến và trao giải thơ trong năm — Nguyễn Du, Xuân Quỳnh, thế hệ 'nhân văn giai nhân' được nhắc lại; nhiều trẻ em lần đầu nghe chính giọng mình đọc thơ trước đám đông."
     }
    ],
    "wishes": [
@@ -2140,19 +2144,19 @@
    "traditions": [
     {
      "title": "Lời chúc cho nam giới",
-     "text": "Ngày gửi lời cảm ơn đến cha, anh, chồng, đồng nghiệp nam — đơn giản mà ít ai làm."
+     "text": "Con cái, vợ và người yêu gửi lời chúc ngày 19/11 cho bố, chồng, anh trai — ngày này chưa 'đậm nét' như 8/3 nhưng ngày càng được nhắc đến: 'chúc bố luôn khỏe' là tin nhắn quen thuộc nhất."
     },
     {
      "title": "Chủ đề sức khỏe",
-     "text": "Chiến dịch khám sức khỏe, tư vấn tinh thần và vận động nam giới từ các tổ chức y tế."
+     "text": "Mỗi năm Ngày Quốc tế Nam giới chọn một chủ đề về sức khỏe đàn ông: ung thư tiền liệt tuyến, sức khỏe tâm thần nam giới — gắn với phong trào Movember (nuôi râu xuyên tháng 11) gây quỹ sức khỏe nam toàn cầu."
     },
     {
      "title": "Tôn vinh hình mẫu",
-     "text": "Câu chuyện về người cha, người thầy, người đồng đội có ảnh hưởng tốt được chia sẻ rộng."
+     "text": "Ngày này tìm và kể những hình mẫu nam giới tích cực: bố đơn thân nuôi con, nam y tá tận tụy, người đàn ông hiến máu cả trăm lần — 'tấm gương đàn ông tốt' được nhắc lại và lan tỏa."
     },
     {
      "title": "Cặp với 8/3",
-     "text": "Ở nhiều nước, 19/11 được xem là 'đối ứng' của 8/3 — ngày để nam giới cũng được tặng hoa, tặng quà."
+     "text": "Ở Việt Nam, 19/11 thường được nhắc như 'ngày đàn ông được đáp lễ' 8/3 — bữa cơm do chính đàn ông nấu, một món quà dành cho bố. Dù không chính thức như Quốc tế Phụ nữ, ngày này đang dần thành nét văn hóa mới."
     }
    ],
    "wishes": [
@@ -2198,15 +2202,15 @@
    "traditions": [
     {
      "title": "Countdown to midnight",
-     "text": "Many cities hold countdown parties and fireworks at midnight."
+     "text": "The midnight moment is counted down at central squares — busiest around Hoàn Kiếm Lake (Hanoi) and Nguyễn Huệ Boulevard (HCMC). In recent years both cities have shifted toward light shows, musical fountains and drone displays instead of high-altitude fireworks."
     },
     {
      "title": "New Year wishes",
-     "text": "Exchanging cards and messages wishing health and success."
+     "text": "People text 'Happy New Year', swap e-cards and post first-of-the-year statuses. Unlike the formal greetings of Tết Nguyên Đán, solar New Year wishes are casual and friendly, usually paired with countdown-night photos."
     },
     {
      "title": "New Year plans",
-     "text": "Writing goals, taking a short trip, or gathering with family."
+     "text": "Many young people write down resolutions — a new skill, more books, running, saving — even though the solar New Year is just a one-day break. Friend groups kick off 'first writing of the year' challenges as a promise to themselves."
     }
    ],
    "wishes": [
@@ -2253,19 +2257,19 @@
    "traditions": [
     {
      "title": "Wrapping bánh chưng & bánh tét",
-     "text": "Families gather to wrap and simmer the sticky-rice cakes through the night before Tết."
+     "text": "From the 26th to the 29th of the last lunar month, families gather to wrap cakes — soaked sticky rice, washed lá dong leaves, layers of mung bean and pork. The pot simmering 8–12 hours through the night is the most familiar Tết scene in every household."
     },
     {
      "title": "Lucky money (lì xì)",
-     "text": "Elders give children red envelopes of new banknotes for luck."
+     "text": "Fresh banknotes exchanged at the bank weeks before Tết go into red envelopes — the color of luck. Elders give lì xì to children and to aging parents alike, with wishes of health and good grades; the amount matters far less than the gesture."
     },
     {
      "title": "New Year visits",
-     "text": "Day one for father's family, day two for mother's, day three for teachers."
+     "text": "Day one belongs to the father's family, day two to the mother's, day three to teachers — an old rhythm still kept today. In the first days of the year every home opens its doors with candied treats, green tea and smiles."
     },
     {
      "title": "Red couplets & blossoms",
-     "text": "Homes are decorated with red calligraphy and peach or apricot blossoms."
+     "text": "Homes hang red couplets in gold ink — 'Cung chúc tân xuân', 'Phúc như Đông hải'. The North favors pink peach blossoms, the South golden mai flowers; a flowering branch is believed to carry spring itself indoors."
     }
    ],
    "wishes": [
@@ -2311,19 +2315,19 @@
    "traditions": [
     {
      "title": "Pagoda visits",
-     "text": "Burning incense and praying for health and peace at the start of the year."
+     "text": "'Going to the temple at the year's start' is a beloved custom: people visit pagodas after Tết, above all on the first full moon, to pray for a peaceful year. Great pagodas like Trấn Quốc and Hương Tích in Hanoi or Vĩnh Nghiêm in HCMC are packed all week."
     },
     {
      "title": "First full-moon offerings",
-     "text": "An ancestral tray with chè trôi nước and fresh fruit."
+     "text": "The first full moon of the year — Thượng Nguyên — is the biggest of all. The ancestral tray holds bánh chưng and fresh fruit; many families add chè trôi nước and a boiled chicken to complete the rite."
     },
     {
      "title": "Eating chè trôi nước",
-     "text": "Round ginger-scented rice balls symbolizing togetherness."
+     "text": "Round sticky-rice balls with mung-bean filling float up in sweet ginger broth — their roundness stands for reunion at the year's start. In Chợ Lớn, the Hoa community cooks a sủi cảo-style version, making a whole season of it."
     },
     {
      "title": "Lantern festivals",
-     "text": "Many places hold lantern processions and night illuminations."
+     "text": "Hội An's old town glows with thousands of lanterns on the full-moon night; HCMC keeps a lantern street in Chợ Lớn. Floating lanterns on the Hoài River are the festival's most iconic image."
     }
    ],
    "wishes": [
@@ -2369,15 +2373,15 @@
    "traditions": [
     {
      "title": "Giving roses",
-     "text": "Red roses for burning love, pink ones for sweetness."
+     "text": "Red roses are the 'currency' of February 14 — prices double or triple and still sell out at Quảng Ba and Hồ Thị Kỷ flower markets. Dried flowers, wax blooms and premium boxed roses have grown popular for lasting longer."
     },
     {
      "title": "Chocolates & cards",
-     "text": "The classic pair, finished with a handwritten note."
+     "text": "Chocolate is the classic sweet gift beside the roses. Young Vietnamese increasingly prefer handwritten cards, mystery gift boxes and handmade presents over store-bought ones — the value lies in the effort."
     },
     {
      "title": "A special date",
-     "text": "A dinner, a movie or a short trip just for two."
+     "text": "Restaurants and cafés with good views are fully booked a week ahead; many couples choose to cook together at home or take a 'reverse date' — skipping the crowds to make a photo album instead. When February 14 falls on a weekend, it becomes the year's busiest date night."
     }
    ],
    "wishes": [
@@ -2424,15 +2428,15 @@
    "traditions": [
     {
      "title": "Flowers & gifts",
-     "text": "Flowers, cards and wishes for mothers, wives, sisters and colleagues."
+     "text": "Roses, carnations and small gift boxes are the go-to choices — boyfriends for girlfriends, husbands for wives, children for mothers, students for teachers. Flower markets and e-commerce platforms run 'March 8 campaigns' all week."
     },
     {
      "title": "A family meal",
-     "text": "The family cooks together so the women can rest."
+     "text": "Many fathers and boyfriends take over the kitchen for the evening so the women can rest — a simple but deeply meaningful gift. Photos of men laboring over soup and braised fish on March 8 have become a beloved recurring meme."
     },
     {
      "title": "Honoring women",
-     "text": "Offices and schools hold gatherings to commend outstanding women."
+     "text": "Offices, companies and schools hold gatherings commending outstanding female staff and students; cooking contests and performances 'for women' run all week. Since 2016, the United Nations has set an official theme for each March 8."
     }
    ],
    "wishes": [
@@ -2479,15 +2483,15 @@
    "traditions": [
     {
      "title": "Incense at the Hùng Temple",
-     "text": "Millions travel to Phú Thọ to burn incense in memory of the Hùng kings."
+     "text": "From the night of the 9th through the 10th of the third lunar month, crowds climb Nghĩa Lĩnh Mountain (Phú Thọ) to offer incense at the Lower, Middle and Upper temples. State leaders attend the main rite at the Upper Temple while millions of Vietnamese at home and abroad turn toward the same hour."
     },
     {
      "title": "Palanquin processions & Xoan singing",
-     "text": "Palanquins ascend Nghĩa Lĩnh mountain to the Upper Temple."
+     "text": "Villages around the temple carry flower-bearing palanquins up the mountain all festival week — each with its own flags, drums and feast tray. Xoan singing of Phú Thọ — UNESCO intangible heritage since 2011 — echoes through the grounds."
     },
     {
      "title": "Bánh chưng & bánh giầy offerings",
-     "text": "The two cakes symbolizing earth and sky on the ancestral tray."
+     "text": "By the legend of Lang Liêu, the square bánh chưng stands for earth and the round bánh giầy for sky — both are required offerings on the Giỗ Tổ tray. Many families wrap their own or buy cakes to offer, then bring them home as blessed food."
     }
    ],
    "wishes": [
@@ -2533,19 +2537,19 @@
    "traditions": [
     {
      "title": "Tảo mộ — sweeping the tombs",
-     "text": "Families clean graves, pull weeds, repaint headstones and add fresh soil in the weeks around Thanh Minh."
+     "text": "Families return to their hometowns during Thanh minh week to tend the graves: clearing weeds, adding fresh earth, repairing headstones, cleaning incense bowls. The custom treats it as 'renovating the house' of the departed — many cemeteries now set shared hours to keep things tidy."
     },
     {
      "title": "Offering incense & flowers",
-     "text": "Incense, chrysanthemums and a modest tray are placed before the ancestors' graves and altar."
+     "text": "After the tidying, descendants light incense, lay fresh flowers and burn votive paper. Some families add boiled chicken, xôi and sweet soup; part of the tray is then laid upon the grave for the ancestors."
     },
     {
      "title": "Family visits & spring walks",
-     "text": "Grave visits often become gentle family reunions and walks in the clear spring air."
+     "text": "Thanh minh falls on the fifth solar term of spring — the year's clearest, brightest spell — so the tomb visit often ends with an outdoor meal or a family spring outing. The old saying calls it 'half tomb-sweeping, half spring-wandering'."
     },
     {
      "title": "Sticky-rice dishes",
-     "text": "Xôi and glutinous rice cakes are offered and shared in many regions during tảo mộ."
+     "text": "Each region has its tomb-day foods: the North cooks xôi gấc and tro-tàu cakes with molasses; the Center makes bánh phu thê and chè kho; the South favors chè xoa xoa. Humble dishes, but anyone far from home misses their taste that week."
     }
    ],
    "wishes": [
@@ -2589,15 +2593,15 @@
    "traditions": [
     {
      "title": "Flying the flag",
-     "text": "Homes and streets turn red with gold-star flags."
+     "text": "Across the cities — above all the Lê Duẩn–Độc Lập axis in HCMC and the streets of Hanoi — red flags carpet entire streets through the April 30 week. Residents hang flags on their own homes as a quiet reminder of reunification day."
     },
     {
      "title": "Commemorations & parades",
-     "text": "Round anniversaries bring national-level military parades."
+     "text": "In milestone years — the 40th (2015) and 50th (2025) anniversaries — state-level parades march through HCMC with tens of thousands of participants. The 50th-anniversary parade of April 30, 2025 ranked among the largest in Vietnamese history."
     },
     {
      "title": "Back to the roots",
-     "text": "Visiting historical sites and paying tribute to fallen heroes."
+     "text": "Veteran families and youth delegations use the occasion to return to old battlefields — the Củ Chi tunnels, Quảng Trị, Trường Sơn — and visit martyrs' cemeteries. Unit reunions are held across the country by former soldiers."
     }
    ],
    "wishes": [
@@ -2644,11 +2648,15 @@
    "traditions": [
     {
      "title": "The April 30–May 1 break",
-     "text": "Many families travel or return home for the long weekend."
+     "text": "The two back-to-back holidays form the year's longest break before summer — many families take a short trip or return to their hometowns. Beach destinations like Đà Nẵng, Nha Trang and Phú Quốc typically sell out a month ahead."
     },
     {
      "title": "Honoring outstanding workers",
-     "text": "Companies and unions commend exemplary employees."
+     "text": "Unions and companies commend skilled workers and improvement initiatives; newspapers run features on everyday labor — welders, rural doctors, mountain teachers. In recent years the 'pioneering worker' theme has been tied to digital transformation."
+    },
+    {
+     "title": "Union activities",
+     "text": "Workers' Month (May) kicks off right after the holiday: trade-skills contests, factory football leagues, job counseling and reunion programs for migrant workers. Many industrial parks open discount 'workers' markets' around this time."
     }
    ],
    "wishes": [
@@ -2695,15 +2703,15 @@
    "traditions": [
     {
      "title": "Carnations for Mom",
-     "text": "The carnation is the classic emblem of the day."
+     "text": "Carnations have belonged to this day since its founder — Anna Jarvis sent white carnations in memory of her late mother; pink and red ones now go to mothers still living. In Vietnam, roses, orchids and mixed bouquets are chosen just as often."
     },
     {
      "title": "A meal cooked by the kids",
-     "text": "Taking over the kitchen for a day — the simplest gift."
+     "text": "The most praised gift on social media each year is a meal cooked by the children — even when it comes out a bit too salty or bland. Kids living far away order hotpot or braised chicken delivered so Mom can skip the kitchen for the day."
     },
     {
      "title": "A call home",
-     "text": "For those far from home, a long phone call is the gift."
+     "text": "For those far from home, a video call asking 'have you eaten yet, Mom?' is the most on-time gift of all. Carriers even run call promotions for the occasion — many adults come to realize a weekly call outweighs any present."
     }
    ],
    "wishes": [
@@ -2750,15 +2758,15 @@
    "traditions": [
     {
      "title": "Fun at school",
-     "text": "Performances, folk games and schoolyards full of balloons."
+     "text": "On the morning of June 1 — often moved to the nearest weekend — kindergartens and primary schools hold festival days: folk games, performances by the kids themselves, year-end prizes. The 'school festival' memory is one of drums, water games and paper flowers."
     },
     {
      "title": "Gifts for kids",
-     "text": "Toys, storybooks and new clothes for the little ones."
+     "text": "Classic June 1 gifts are toys, comics and school bags — many parents now pick books and STEM kits instead of gadgets. Malls and toy stores set up play zones and week-long promotions for the occasion."
     },
     {
      "title": "Charitable activities",
-     "text": "Gifts for children in hardship and orphans."
+     "text": "Charities, children's funds and youth unions deliver gifts to disadvantaged kids — children's hospitals, SOS villages, flood-hit areas. Many fundraisers for underprivileged children's Tết also kick off around this season."
     }
    ],
    "wishes": [
@@ -2804,15 +2812,15 @@
    "traditions": [
     {
      "title": "A family dinner",
-     "text": "The whole family eats and talks together — screens put away."
+     "text": "The day has no fixed rite — its 'rite' is simply the whole family eating together, a reminder of the shared dinner table amid busy lives. The culture ministry once campaigned for a phone-free 'family dinner hour' from 6 to 7:30 pm."
     },
     {
      "title": "Family photos",
-     "text": "Taking a shared set of photos each year to remember."
+     "text": "Many families mark the day with a photo set — at a studio, in a park, or just a selfie around the dinner table. TV specials and 'happy family' photo contests are usually held around June 28."
     },
     {
      "title": "Stories across generations",
-     "text": "Grandparents tell the children about the family line and homeland."
+     "text": "Family Day is when grandparents tell old stories and open the wedding album and family tree — a 'family tradition' session there is rarely time for otherwise. Many schools assign 'interview your grandparents' homework this week."
     }
    ],
    "wishes": [
@@ -2858,15 +2866,15 @@
    "traditions": [
     {
      "title": "Visiting martyrs' cemeteries",
-     "text": "Lighting incense and laying flowers at cemeteries and memorials."
+     "text": "Millions visit their local martyrs' cemetery during the July 27 week — lighting incense, wiping headstones, reading the names aloud. In Quảng Trị, the great Trường Sơn and Đường 9 cemeteries welcome the year's largest gatherings of gray-haired veterans."
     },
     {
      "title": "Visiting policy families",
-     "text": "Calling on war invalids and Heroic Vietnamese Mothers."
+     "text": "The 'repaying gratitude' spirit becomes concrete work: localities, businesses and schools visit Heroic Mothers, wounded veterans and martyrs' families — bringing gifts, repairing 'gratitude houses' and delivering insurance papers."
     },
     {
      "title": "Candles of gratitude",
-     "text": "Candle-lighting ceremonies for the martyrs on the night of July 26."
+     "text": "On the evening of July 26, candle-lighting ceremonies spread from national cemeteries to village shrines — thousands of flames lit at the same hour. The 'sea of candles' at Trường Sơn cemetery is among the year's most moving sights."
     }
    ],
    "wishes": [
@@ -2913,15 +2921,15 @@
    "traditions": [
     {
      "title": "Pinning a rose on the chest",
-     "text": "A red rose while your mother lives, white when she has passed — the most moving rite."
+     "text": "The custom of pinning a rose at the Vu Lan service — red for those whose mother lives, white for those whose mother has passed — was started by Zen master Thích Nhất Hạnh in Huế in 1962. More than half a century on, the small flower is the day's most familiar image."
     },
     {
      "title": "Vu Lan at the pagoda",
-     "text": "Hearing the sutras of filial devotion and praying for both parents."
+     "text": "On the seventh full moon, pagodas hold the filial-piety service: chanting, rose-pinning, and teachings on parents' sacrifice from the Ullambana Sutra — the story of Mục Kiền Liên saving his mother. The busiest services fall on the full moon or the nearest Sunday."
     },
     {
      "title": "7th-month full-moon offerings",
-     "text": "Ancestral trays, offerings to wandering souls, and releasing living creatures."
+     "text": "Alongside the temple rite, families lay a full-moon tray for ancestors — many add an outdoor 'wandering souls' tray at dusk with thin rice soup, salt and votive money. Feeding lost souls shares the day's spirit of compassion."
     }
    ],
    "wishes": [
@@ -2967,15 +2975,15 @@
    "traditions": [
     {
      "title": "September 2 parades",
-     "text": "Round anniversaries bring military parades and marches at Ba Đình."
+     "text": "In milestone years — the 70th (2015) and 80th (2025) anniversaries — parades fill Ba Đình Square, the very spot where the Declaration of Independence was read. The A80 parade of 2025 gathered tens of thousands of troops and civilians and was broadcast live nationwide."
     },
     {
      "title": "Fireworks",
-     "text": "Hanoi, Ho Chi Minh City and many provinces launch fireworks on the night of September 2."
+     "text": "On the night of September 2, Hanoi and HCMC launch fireworks at multiple points — the Han River bridge in Đà Nẵng offers the country's most spectacular show. Since 2022 many provinces have swapped high-altitude fireworks for drone light displays."
     },
     {
      "title": "Streets of flags",
-     "text": "The whole country turns red with gold-star flags for the holiday."
+     "text": "From late August the national flag blankets the streets — even the smallest alleys turn red as residents hang flags on their own homes. Photos of flag-lined streets around the Opera House and the Old Quarter are the holiday's signature image."
     }
    ],
    "wishes": [
@@ -3021,15 +3029,15 @@
    "traditions": [
     {
      "title": "Breaking the feast under the moon",
-     "text": "A tray of mooncakes, pomelo and persimmons set under the moonlit yard."
+     "text": "On the full-moon night, the feast tray holds a pomelo carved like a boat, a banana bunch and mooncakes arranged in patterns — children 'break the feast' near midnight for luck. Adults sip tea and watch the moon while kids argue over the pomelo-boat's tail."
     },
     {
      "title": "Star-lantern parades",
-     "text": "Children carry lanterns and star lanterns through the streets."
+     "text": "Star lanterns of colored cellophane, carp lanterns, pull-string troop lanterns — bands of children parade hand-held lights through the alleys on the full-moon night. Musical battery lanterns are common now, but Hội An and the old quarters still keep the paper ones."
     },
     {
      "title": "Lion dances",
-     "text": "The sound of lion-dance drums fills the full-moon nights."
+     "text": "Lion-dance troupes work through the neighborhoods to thundering drums, performing for 'lucky treats' hung in front of shops — the drumbeat announces Mid-Autumn's arrival. Children chase the lions until late, a shared childhood memory across generations."
     }
    ],
    "wishes": [
@@ -3076,15 +3084,15 @@
    "traditions": [
     {
      "title": "Flowers & gifts",
-     "text": "Colleagues and loved ones send flowers and wishes to the women around them."
+     "text": "As on March 8, flowers and gifts flow to mothers, wives and sisters — but October 20 is 'our own day', purely Vietnamese. Flower markets and gift shops peak on the evening of the 19th and the morning of the 20th."
     },
     {
      "title": "Honoring exemplary women",
-     "text": "Women's unions hold gatherings and commendations."
+     "text": "The day is tied to the founding of the Vietnam Women's Union on October 20, 1930. Offices hold gatherings commending Heroic Mothers, female scientists and businesswomen all through the week."
     },
     {
      "title": "Men in the kitchen",
-     "text": "The 'men cook on 20/10' custom grows more popular every year."
+     "text": "A modern custom: on October 20 husbands cook dinner and sons wash the dishes — a meal made by men is the most practical gift. 'Vietnamese men in the kitchen on October 20' has quietly become a beloved new tradition."
     }
    ],
    "wishes": [
@@ -3130,15 +3138,15 @@
    "traditions": [
     {
      "title": "Students giving flowers",
-     "text": "Flowers and handmade cards for teachers at a special flag ceremony."
+     "text": "Before class on November 20, the class monitor presents a bouquet and a card of thanks; many schools hold a short ceremony first period. Younger pupils draw cards, high-schoolers buy flowers, university students send thank-you videos."
     },
     {
      "title": "Alumni visits",
-     "text": "Past generations return to their old schools to see aging teachers."
+     "text": "On this day, old class cohorts — from retirees to fresh graduates — return to visit their former teachers with flowers, cakes and old keepsakes. The 'three generations of teacher and students' reunion is the day's most familiar scene."
     },
     {
      "title": "Messages of thanks",
-     "text": "Grateful messages sent to former teachers everywhere."
+     "text": "Lately, instead of expensive gifts, parents encourage handwritten notes — 'teachers only need a sincere thank you'. Education authorities also regularly remind everyone of a 'no-material-gifts' November 20 to keep the day clean and meaningful."
     }
    ],
    "wishes": [
@@ -3184,15 +3192,15 @@
    "traditions": [
     {
      "title": "Traditional reunions",
-     "text": "Units and veterans gather to mark the founding anniversary."
+     "text": "Veterans of each unit — regiments, companies, the famous 'floating battalions' — reunite around December 22, reading the roll of fallen comrades and singing old marching songs. The date doubles as the nationwide All-People's Defense Festival in localities."
     },
     {
      "title": "Commending soldiers",
-     "text": "Awarding exemplary servicemen and women."
+     "text": "Units mark the day with ceremonies commending outstanding soldiers under the motto 'excellent at duty, devoted at home' — young conscripts cooking a meal for policy families is a familiar image of the day."
     },
     {
      "title": "Border activities",
-     "text": "Visiting border posts and remote garrisons."
+     "text": "Army Day comes with 'for the borderlands, for the fishermen' work: donating comradeship houses, free clinics in border districts, 'spring at the frontier' exchanges. Naval units begin receiving 'Tết on the islands' gift shipments around this date."
     }
    ],
    "wishes": [
@@ -3239,15 +3247,15 @@
    "traditions": [
     {
      "title": "Church on Christmas Eve",
-     "text": "Midnight mass on December 24 and nativity scenes at the big churches."
+     "text": "On Christmas Eve the great cathedrals — St. Joseph's in Hanoi, Notre-Dame in HCMC, Phủ Cam in Huế — overflow with visitors, including many non-Christians who come to watch the midnight mass. A religious service turned street festival: that is Vietnam's signature Christmas."
     },
     {
      "title": "Exchanging gifts",
-     "text": "Santa brings gifts for children on the night before Christmas."
+     "text": "Santas hand out gifts in malls and parks while kids go 'Santa hunting' on Christmas Eve. Families exchange presents under the tree on the morning of the 25th; classes and offices play Secret Santa."
     },
     {
      "title": "Decorating the tree",
-     "text": "Christmas trees, twinkling lights and holly wreaths."
+     "text": "Christmas trees — real or 3–10 m artificial ones — go up in front of churches, hotels and walking streets from early December. The nativity grotto recreating the Bethlehem manger is a distinctly Vietnamese touch: each parish and family competes to build the street's grandest."
     }
    ],
    "wishes": [
@@ -3293,19 +3301,19 @@
    "traditions": [
     {
      "title": "Seeing off the Táo quân",
-     "text": "Tidying the kitchen altar, offering a tray, Táo hats and paper effigy items for the gods' journey to heaven."
+     "text": "At noon on the 23rd of the last lunar month, every home lays a send-off tray for the Kitchen Gods — betel, wine, sticky rice, sometimes red paper hats and votive money. After the rite, the hats and paper money are burned, 'dispatched to the Jade Emperor' with the incense smoke."
     },
     {
      "title": "Releasing carp",
-     "text": "Releasing carp into ponds and rivers — the vehicle that carries the gods to heaven; many families release them on the afternoon of the 23rd."
+     "text": "By legend the carp transforms into a dragon and carries the Kitchen Gods to heaven — so after the offering many families buy red carp to release into rivers and lakes. Amid recent debate about releasing fish into natural waterways, many now release into private ponds or simply offer paper carp."
     },
     {
      "title": "Cleaning the house",
-     "text": "After the ceremony, the whole household begins sweeping, dusting and repairing for Tết."
+     "text": "Once the Kitchen Gods depart, the house is 'free of spirits' — the perfect moment for the final clean: dusting cobwebs, repairing the altar, replacing incense bowls, a deep clean before Tết. The folk logic is really a clever nudge to get the whole house ready for the New Year."
     },
     {
      "title": "Offerings to the Earth God",
-     "text": "On the same tray, many homes also honor ông Địa — the earth deity governing the household's land."
+     "text": "Alongside the kitchen's Táo quân, the household also offers to the Earth God — the deity guarding the land of the home — with its own or a shared tray. The saying 'first the Kitchen God, second the Earth God' recalls the two closest deities in a Vietnamese house, both sent off this night."
     }
    ],
    "wishes": [
@@ -3352,19 +3360,19 @@
    "traditions": [
     {
      "title": "Cooking bánh trôi & bánh chay",
-     "text": "Sugar-filled floating cakes and mung-bean cakes — the two signature pure cakes."
+     "text": "From the afternoon of the 2nd, families shape little bánh trôi with sugar-cube centers and fist-sized bánh chay with mung-bean filling — they are done when they float. The trôi go into ginger sweet soup, the chay onto their own plate; most kitchens make enough for offerings and for sharing."
     },
     {
      "title": "Ancestor offerings",
-     "text": "A tray of bánh trôi chay set on the family altar on the 3rd of the 3rd month."
+     "text": "On the morning of the 3rd, the trôi-and-chay tray replaces fruit on the altar — a rite preserving the 'cold food' origin of the festival. Families believe ancestors receive the new season's blessing through these soft white cakes."
     },
     {
      "title": "A vegetarian day",
-     "text": "Many families keep the day meat-free for a tranquil early spring."
+     "text": "Many families eat vegetarian on the 3rd of the third month — cleansing in early spring and recalling the old 'day without fire' that allowed only cold food. Still, in Vietnam the day is remembered most for its two sweet floating cakes."
     },
     {
      "title": "Pagoda visits",
-     "text": "People often go to the pagoda to pray for peace after the spring festivals."
+     "text": "Many households choose the day for a pagoda visit or one last spring outing before routine resumes after the first full moon. Children remember the 3rd of the third month for 'floating cakes' — the sweet soup grandparents never fail to cook."
     }
    ],
    "wishes": [
@@ -3410,19 +3418,19 @@
    "traditions": [
     {
      "title": "Eating sour fruits",
-     "text": "Green mango, plum, lychee — the early-summer sours believed to 'kill the pests' inside."
+     "text": "Thanh trà plums, sấu dracontomelum, mulberries — the sour early-summer fruits are the 'pest-killers' of Đoan Ngọ. Folk practice has them eaten early in the morning on an empty stomach, 'cleansing the insides' before breakfast."
     },
     {
      "title": "Glutinous-rice wine",
-     "text": "Fermented nếp cái hoa vàng rice — the signature dish of Đoan Ngọ."
+     "text": "Rượu nếp — fermented golden-flower sticky rice rolled into little balls — is the must-have of the 5th-day noon meal; its sweet warmth is said to burn off the last parasites. Children get the cooked version; adults take the raw wine with a pinch of sesame salt and chili."
     },
     {
      "title": "Gathering noon herbs",
-     "text": "At exactly noon, people of old gathered wild herbs — believed most potent at that hour."
+     "text": "Between 11 am and 1 pm on the 5th — the Hour of the Horse on the Day of the Horse in the Month of the Horse — yang energy is believed to peak, making herbs picked then the most potent. People once gathered mugwort and bamboo leaves to dry for year-round remedies."
     },
     {
      "title": "Burning vía & five-color threads",
-     "text": "Burning vía and tying five-color thread on children — driving off pests and misfortune."
+     "text": "At dusk some places used to burn small vía fires at the gate to 'drive off pests' — rare today for safety. But the customs of airing clothes in the sun and hanging mugwort by the door still carry the old spirit of cleansing at the start of summer."
     }
    ],
    "wishes": [
@@ -3468,19 +3476,19 @@
    "traditions": [
     {
      "title": "Flowers for doctors",
-     "text": "Roses and carnations for familiar doctors and nurses — the most common tribute."
+     "text": "On February 27 hospitals fill with flowers — recovered patients return with bouquets and thank-you letters for the doctors who saved them; medical students honor their mentors. Roses and lilies are the two most chosen blooms."
     },
     {
      "title": "Ceremonies at hospitals",
-     "text": "Hospitals hold gatherings and award outstanding health workers."
+     "text": "Hospitals from Việt Đức and Chợ Rẫy down to district clinics hold tradition gatherings: new doctors recite the Hippocratic oath, 'meritorious physicians' are honored, and retired teachers are thanked."
     },
     {
      "title": "Free clinics",
-     "text": "Many localities open free check-ups and blood drives around the day."
+     "text": "Around this day, volunteer medical teams run free check-ups in remote highlands — dispensing medicine, ultrasounds and charity eye surgeries. The profession calls it 'the most beautiful work of our own day'."
     },
     {
      "title": "Tributes in the press",
-     "text": "Media features stories of healers — especially in remote regions."
+     "text": "Newspapers and TV devote special features to doctors: the night-shift emergency physician, the 'jungle doctor' who fought malaria for thirty years, the female doctor in the mountains. These stories each February 27 bring medicine closer to the public."
     }
    ],
    "wishes": [
@@ -3526,19 +3534,19 @@
    "traditions": [
     {
      "title": "Press awards",
-     "text": "National press awards are usually announced around June 21 — honoring outstanding works."
+     "text": "Around June 21 comes journalism's biggest award season — the Golden Hammer & Sickle Prize and the National Press Awards — honoring investigations, anti-corruption reporting and the year's most striking press photography."
     },
     {
      "title": "Journalists' gatherings",
-     "text": "The Vietnam Journalists' Association and newsrooms hold reunions honoring the profession."
+     "text": "Journalists' associations and newsrooms hold tradition meetings: honoring veteran reporters, issuing new membership cards, and recalling June 21, 1925 — when Nguyễn Ái Quốc founded the newspaper Thanh Niên."
     },
     {
      "title": "Press exhibitions",
-     "text": "Many places display historic front pages — from Thanh Niên and Cứu Quốc to today's online papers."
+     "text": "The national press exhibition and spring newspaper fairs display award-winning work alongside historic front pages — from Hán-script colonial papers to modern digital newsrooms. The day lets readers see the 'workshop' behind the news."
     },
     {
      "title": "Talks on the craft",
-     "text": "Journalism schools hold discussions on ethics and media innovation."
+     "text": "Panels around the day discuss digital transformation, AI in the newsroom and press ethics in the era of fake news — the hottest questions facing the profession at each stage."
     }
    ],
    "wishes": [
@@ -3584,19 +3592,19 @@
    "traditions": [
     {
      "title": "Longevity celebrations",
-     "text": "Families hold mừng thọ for elderly grandparents — children gathering to wish them well."
+     "text": "Mừng thọ ceremonies mark the milestones of 60 (the returning cycle), 70, 77 ('joyful longevity'), 80, 88 ('rice longevity'), 90, 99 and 100 — descendants gather to present betel, red áo dài and congratulatory couplets. Many families fold the celebration into Tết or the October 1 occasion."
     },
     {
      "title": "Visiting the elderly",
-     "text": "Organizations and neighborhoods visit and gift lonely seniors."
+     "text": "Local Elderly Associations go door to door gifting citizens turning 80, 90 and 100 — milk, warm blankets, envelopes with wishes of long life; every commune keeps its own 'map of elders' so no household is missed."
     },
     {
      "title": "Senior club activities",
-     "text": "The Elderly Association holds performances, health checks and talks."
+     "text": "Elderly clubs are the real playground of rural seniors: poetry, chess, qigong, folk dance — many hold 'talented elder' contests around October 1. In the cities the day pairs with 'living healthy, living joyful' campaigns."
     },
     {
      "title": "Children coming home",
-     "text": "Many families pick October 1 for far-away children to visit their grandparents."
+     "text": "October 1 falls on an early-autumn weekend window — many children working far away pick it to come home and celebrate their grandparents. The 'day of grandparents' is also a nudge for the young to call their elders more often."
     }
    ],
    "wishes": [
@@ -3642,19 +3650,19 @@
    "traditions": [
     {
      "title": "Business gatherings",
-     "text": "Business associations and the Chamber of Commerce host meetings honoring outstanding entrepreneurs."
+     "text": "On October 13, business associations — VCCI, chambers of commerce, young entrepreneur clubs — hold gatherings and CEO forums. It is the community's annual 'roll call' of health after each volatile year."
     },
     {
      "title": "Startup forums",
-     "text": "Many startup and digital-transformation events happen around October 13."
+     "text": "Around October 13 is startup-forum season: Techfest, Startup Day and founder-story talks draw young businesspeople. Entrepreneur Day has become the year's flagship moment for startup inspiration."
     },
     {
      "title": "Company awards",
-     "text": "The Sao Vàng đất Việt and Thánh Gióng awards are presented around the day."
+     "text": "The season brings respected prizes: the Thánh Gióng Cup for outstanding entrepreneurs, Sao Đỏ for community-minded firms, the VNR500 list of largest companies. The October 13 honors form the business world's annual 'gold board'."
     },
     {
      "title": "Charitable work",
-     "text": "Many businesses pick this day as their corporate social responsibility day."
+     "text": "Beyond awards, many corporations pick October 13 as a shared day of giving: scholarships, charity houses, healthcare sponsorships. 'Entrepreneurs do more than get rich' is the message repeated every year."
     }
    ],
    "wishes": [
@@ -3700,15 +3708,15 @@
    "traditions": [
     {
      "title": "Anniversary ceremonies",
-     "text": "Central and local ceremonies mark the date, with major celebrations in round-number years."
+     "text": "Party committees from commune to central level hold solemn February 3 ceremonies: recalling the 1930 conference in Kowloon (Hong Kong) that merged the three communist organizations, reviewing nine-plus decades of history, and screening archival films."
     },
     {
      "title": "New member induction",
-     "text": "Many party cells choose this occasion to induct new members before the party flag."
+     "text": "Founding Day is 'induction season': outstanding young people, soldiers and model workers are admitted as party members in solemn ceremonies — a moment each new member calls their 'second birthday'."
     },
     {
      "title": "Volunteer campaigns",
-     "text": "Mass organizations launch clean-ups, charity house-building and gratitude activities."
+     "text": "Local party cells run volunteer days around February 3: environmental clean-ups, tree planting, blood donation, visits to policy families. 'Every member a good deed' is the day's familiar slogan."
     }
    ],
    "wishes": [
@@ -3754,15 +3762,15 @@
    "traditions": [
     {
      "title": "Visiting A1 cemetery",
-     "text": "Hill A1 in Điện Biên Phủ city — resting place of thousands of soldiers — fills with incense every May 7."
+     "text": "The Điện Biên Phủ martyrs' cemetery on Hill D1 (Điện Biên Phủ city) welcomes veterans and descendants — busiest in the week of May 7. Wreaths and incense on the graves are the day's signature ritual."
     },
     {
      "title": "Ceremonies in Điện Biên",
-     "text": "Round-number anniversaries bring rallies, parades and festivals on the old battlefield."
+     "text": "The province holds annual commemorations; milestone years (60th, 65th, 70th) rise to state level — the 70th in 2024 featured parades and the largest exhibitions the Northwest has ever seen."
     },
     {
      "title": "Archives and exhibitions",
-     "text": "Media and museums reopen campaign maps and photographs of the 56 days and nights."
+     "text": "The Điện Biên Phủ Museum and libraries open archival displays: maps of De Castries' command bunker, soldiers' letters, photos of Corps 559 hauling artillery through the forest. On May 7 the documents 'come alive' for the public."
     }
    ],
    "wishes": [
@@ -3808,15 +3816,15 @@
    "traditions": [
     {
      "title": "Mausoleum visits",
-     "text": "Tens of thousands enter Ba Đình to visit the Hồ Chí Minh Mausoleum in the week around May 19."
+     "text": "From early morning on May 19, thousands queue to enter the Mausoleum — every delegation in formal order, laying wreaths. His birthday is one of the Mausoleum's busiest days of the year, alongside September 2."
     },
     {
      "title": "Pilgrimage to Kim Liên",
-     "text": "Hoàng Trù village in Nam Đàn, Nghệ An welcomes delegations and travelers coming to offer incense."
+     "text": "Hoàng Trù–Kim Liên village (Nam Đàn, Nghệ An), where he was born, welcomes its biggest 'back to the roots' crowds on May 19: flowers at the thatched parental home, incense at the maternal home, ví-giặm folk singing all day."
     },
     {
      "title": "Arts honoring him",
-     "text": "Songs, poetry nights and archival exhibitions recall his life."
+     "text": "Singing and storytelling contests about him bloom across schools and communes around May 19. Books, films and archives about his life are reintroduced to the young through the gentlest stories."
     }
    ],
    "wishes": [
@@ -3862,15 +3870,15 @@
    "traditions": [
     {
      "title": "Ceremonies at the Opera House",
-     "text": "August Revolution Square in front of the Hanoi Opera House — where the historic rally of August 19, 1945 took place."
+     "text": "The Hanoi Opera House — where the August 19, 1945 rally gathered hundreds of thousands to hear the call to the General Uprising — hosts the official ceremony each year. The square in front, now called August Revolution Square, is the day's 'red address'."
     },
     {
      "title": "Parades and flags",
-     "text": "Streets hang the national flag; round-number years bring large parades."
+     "text": "The capital's streets fly red flags all week; youth delegations march with the banner 'Nothing is more precious than independence and freedom' through the walking streets. Provinces tie the day to their own revolutionary tradition dates."
     },
     {
      "title": "Traditional activities",
-     "text": "August 19 is also the traditional day of the People's Public Security force — many events mark both."
+     "text": "Organizations and schools hold 'August stories' sessions: the columns advancing on Hanoi, the bronze bugle of the uprising, village elders leading communes to take power. August 19 is also the tradition day of the People's Police."
     }
    ],
    "wishes": [
@@ -3916,15 +3924,15 @@
    "traditions": [
     {
      "title": "Ceremonies in Hanoi",
-     "text": "Round-number years (60th, 70th) bring state ceremonies with parades and street festivals."
+     "text": "The city-level ceremony is held at the National Convention Center or the Opera House; the 70th anniversary in 2024 was the capital's biggest event with parades, exhibitions and the concert 'Hanoi — faith and hope'."
     },
     {
      "title": "Streets ablaze with flags",
-     "text": "Hanoi's streets turn red with flags; the Flag Tower is the traditional photo spot."
+     "text": "The Old Quarter floods with flags around October 10 — flags over ancient tiled roofs, along Hàng Đào–Hàng Ngang where the liberation columns entered in 1954. Tourism bodies run 'in the footsteps of the takeover' tours for visitors."
     },
     {
      "title": "'Hanoi remembers' exhibitions",
-     "text": "The Hanoi Museum and universities open photo exhibitions about the takeover of October 10, 1954."
+     "text": "The Hanoi Museum and book-street exhibitions show 'the takeover days': bicycles carrying soldiers, shops reopening on the first morning, family letters bearing the news. The 'stories of those who stayed' are always the most-read section."
     }
    ],
    "wishes": [
@@ -3970,19 +3978,19 @@
    "traditions": [
     {
      "title": "Shared reading hour",
-     "text": "Schools and offices read together for 10–15 minutes on April 21."
+     "text": "Every April 21 a nationwide 'shared reading hour' takes place — schools, offices and libraries pause for 15–30 minutes to read together. The campaign spreads from provinces down to schools and reading communities."
     },
     {
      "title": "Book fairs & festivals",
-     "text": "Ho Chi Minh City's Book Street, Hanoi book fairs and provincial fairs open discount stalls."
+     "text": "Book week around April 21 blooms with fairs: HCMC's Book Street, Hanoi's 19/12 Book Street, children's book festivals — deep discounts, author meet-ups, 'books that changed the world' displays. Many provinces hold their first-ever fairs on this date."
     },
     {
      "title": "Donating books",
-     "text": "Drives collect books for school libraries, communities and remote areas."
+     "text": "Charities and schools run 'book-donation weeks': collecting used books for the highlands, building classroom shelves, funding commune libraries. April 21 is also when families pick 'a reading tradition' for their children."
     },
     {
      "title": "Launches & author talks",
-     "text": "New-book introductions, signings and conversations with writers and translators."
+     "text": "Publishers time new titles for Reading Day — author-reader meetups in bookstores and livestreams. The April 21 'meet the author' sessions draw young readers queuing for signatures."
     }
    ],
    "wishes": [
@@ -4028,19 +4036,19 @@
    "traditions": [
     {
      "title": "Olympic Run",
-     "text": "Mass jogs in nearly every province around late March."
+     "text": "The Olympic Run for Public Health — a 30-plus-year tradition — is held on the Sunday nearest March 27 at hundreds of simultaneous starting points nationwide. From pupils to grandparents, everyone runs 'for health' — the day's finest picture."
     },
     {
      "title": "Morning exercise",
-     "text": "Early-morning park culture: qigong, dance workouts, shuttlecock and lakeside cycling."
+     "text": "Sports Day recalls Hồ Chí Minh's 'morning exercise' appeal — parks on the morning of March 27 are livelier than usual with qigong classes, folk dance and free public yoga."
     },
     {
      "title": "Grassroots tournaments",
-     "text": "The Phù Đổng school games, workplace football, badminton and martial-arts meets."
+     "text": "The Phù Đổng Children's Games, commune fun-runs and inter-office badminton — the 'whole people train following his example' movement peaks in March. Sports Day opens the amateur season for the year."
     },
     {
      "title": "Honoring achievements",
-     "text": "Recognition of the year's outstanding athletes and coaches."
+     "text": "The sector uses the date to honor medalists of SEA Games, ASIAD and the Olympics. March 27 was chosen because on March 27, 1946 Hồ Chí Minh signed the decree founding Vietnamese sport."
     }
    ],
    "wishes": [
@@ -4086,19 +4094,19 @@
    "traditions": [
     {
      "title": "Legal outreach",
-     "text": "Media, outreach teams and commune meetings carry new laws down to the village level."
+     "text": "On November 9, 'law day' outreach is the core activity: lawyer teams hand out leaflets on new laws, legal banners go up everywhere, and training classes on the Land Law and Marriage Law open in every commune."
     },
     {
      "title": "Free legal aid",
-     "text": "Lawyers and justice officers answer land, marriage and labor questions free of charge."
+     "text": "Free legal-aid booths appear at pagodas, communal halls and admin centers: volunteer lawyers answer questions on land, labor and divorce — the issues people ask most. It is the day's most practical activity."
     },
     {
      "title": "Law quizzes in schools",
-     "text": "Quizzes, skits and themed activities teach students their rights and duties."
+     "text": "Schools run 'learn the law' contests with everyday scenarios: riding without a helmet, labor contracts, social media conduct — students learn law through games instead of lectures."
     },
     {
      "title": "Honoring legal workers",
-     "text": "Recognition of justice officers, inspectors and lawyers who brought law into daily life."
+     "text": "The justice sector holds tradition meetings honoring drafters, judges, lawyers and legal officers — and recalls November 9, 1946, when the first National Assembly passed Vietnam's first constitution."
     }
    ],
    "wishes": [
@@ -4144,19 +4152,19 @@
    "traditions": [
     {
      "title": "Trade fairs",
-     "text": "Vietnam Expo, provincial fairs and trade-promotion exhibitions cluster in mid-year."
+     "text": "Around July 13 and through the summer comes fair season: Vietnam Expo, VietFood and provincial fairs — booths of genuine 'Vietnamese goods' displaying export products and each locality's OCOP specialties. It is the 'festival' of the nation's trade front."
     },
     {
      "title": "Honoring businesses",
-     "text": "Commendation of top exporters, high-quality Vietnamese goods and national brands."
+     "text": "Trade Day honors export achievers: 'trusted exporter' awards and top FDI exporters — where October 13 honors the entrepreneur as a person, this day honors the trading organization."
     },
     {
      "title": "Trade seminars",
-     "text": "Industry associations debate policy, markets and e-commerce."
+     "text": "The Ministry of Industry and Trade and export associations hold seminars around the date: EU–US–Japan market trends, tapping EVFTA, cross-border e-commerce — the hottest questions of Vietnamese exports."
     },
     {
      "title": "Vietnamese-goods week",
-     "text": "Campaigns of 'Vietnamese people use Vietnamese goods' promote domestic consumption."
+     "text": "'Vietnamese Goods Week' and the 'Vietnamese people prioritize Vietnamese goods' campaign run for the occasion: supermarkets discount domestic products and regional specialty fairs bring 'Made in Vietnam' to Vietnamese shoppers first."
     }
    ],
    "wishes": [
@@ -4202,19 +4210,19 @@
    "traditions": [
     {
      "title": "New member ceremonies",
-     "text": "Induction ceremonies for new members are held solemnly in March — opening 'Youth Month'."
+     "text": "Founding Day is the 'finest day' for Union inductions: ninth-graders stand before the Union flag and recite the pledge — a first 'growing-up' moment many remember all their lives."
     },
     {
      "title": "Youth Month",
-     "text": "All of March is 'Youth Month' with volunteer campaigns, urban civility drives and startup programs nationwide."
+     "text": "Since 2004, March has been 'Youth Month': volunteer building, blood donation, tree planting, beach clean-ups — the nation's young people take the field in the same blue shirts. March 26 crowns that month of activity."
     },
     {
      "title": "Tradition gatherings",
-     "text": "Former members meet today's youth, telling stories of volunteer brigades and the 'ship with no number'."
+     "text": "Solemn ceremonies retell Union history from March 26, 1931 in Vinh, remembering Lý Tự Trọng — the first member to die, at just 17 — and reuniting generations of Union members."
     },
     {
      "title": "Volunteer building",
-     "text": "Green Summer, Spring Volunteering, exam-support teams — young people do real work, not just slogans."
+     "text": "Union-built 'youth roads', rural bridges and cultural houses are the tradition's signature output: from the legendary Hồ Chí Minh road to today's 'Union to the countryside' village lanes."
     }
    ],
    "wishes": [
@@ -4260,19 +4268,19 @@
    "traditions": [
     {
      "title": "Van Mieu poetry night",
-     "text": "The first-full-moon evening at the Temple of Literature: poetry readings, ca tru singing, concerts and verse exhibitions."
+     "text": "The Poetry Night at Văn Miếu – Quốc Tử Giám unfolds on the first-full-moon evening by the Well of Literature beneath the Khuê Văn pavilion: great poets, children and folk singers read by candlelight and moonlight — the nation's grandest night of verse."
     },
     {
      "title": "Reading together",
-     "text": "Poetry clubs, schools and libraries host joint readings — any poem counts, as long as it's poetry."
+     "text": "Poetry cafés, verse clubs and schools hold their own 'poetry hour': each person brings a beloved poem to read aloud. For one night, Vietnamese verse becomes a true community activity."
     },
     {
      "title": "Annual theme",
-     "text": "The Writers' Association picks a creative theme for the year — from 'Homeland' to 'Youth and the sea'."
+     "text": "Each year the Vietnam Writers' Association sets a theme for Poetry Day — 'Poetry and homeland', 'Poetry of spring' — and the week's contests and exhibitions revolve around it."
     },
     {
      "title": "Honoring poets",
-     "text": "Annual poetry prizes, new-poet contests, and remembrance of great poets who have passed."
+     "text": "The day also celebrates beloved poets and awards the year's verse prizes — Nguyễn Du, Xuân Quỳnh and the 'humanist' generation are recalled; many children hear their own voices recite before a crowd for the first time."
     }
    ],
    "wishes": [
@@ -4318,19 +4326,19 @@
    "traditions": [
     {
      "title": "Wishes for men",
-     "text": "A day to thank fathers, brothers, husbands and male colleagues — simple, and rarely done."
+     "text": "Children, wives and partners send November 19 wishes to fathers, husbands and brothers — the day is not yet as big as March 8 but grows more familiar each year: 'stay healthy, Dad' is the classic message."
     },
     {
      "title": "Health themes",
-     "text": "Health-check drives, mental-health counseling and men's wellness campaigns by medical organizations."
+     "text": "Each International Men's Day carries a men's-health theme: prostate cancer, male mental health — tied to the global Movember movement growing mustaches through November for men's-health causes."
     },
     {
      "title": "Honoring role models",
-     "text": "Stories of influential fathers, teachers and teammates get shared widely."
+     "text": "The day honors positive male role models: single fathers raising children, devoted male nurses, men who have donated blood a hundred times — 'good men worth knowing' are sought out and their stories retold."
     },
     {
      "title": "Paired with March 8",
-     "text": "In many countries November 19 is seen as the 'counterpart' of International Women's Day — a day men receive flowers and gifts too."
+     "text": "In Vietnam, November 19 is often treated as the day men 'receive back' what March 8 gives women — a dinner cooked by the man himself, a gift for Dad. Though unofficial, it is slowly becoming a new cultural habit."
     }
    ],
    "wishes": [

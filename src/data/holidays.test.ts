@@ -25,11 +25,28 @@ describe("holiday data integrity", () => {
       expect(h.dateMark.length).toBeGreaterThan(0);
       expect(h.displayDate.length).toBeGreaterThan(0);
       expect(h.tagline.length).toBeGreaterThan(5);
-      expect(h.history.length).toBeGreaterThanOrEqual(1);
+      expect(h.history.length).toBeGreaterThanOrEqual(3);
+      expect(
+        h.history.join("").length,
+        `${h.slug} history too thin`,
+      ).toBeGreaterThanOrEqual(450);
       expect(h.meaning.length).toBeGreaterThan(10);
       expect(h.wishes.length).toBeGreaterThanOrEqual(5);
       expect(h.gifts.length).toBeGreaterThanOrEqual(3);
+      // traditions: ≥3 cards, each explaining the custom in 2+ sentences
+      expect(h.traditions.length).toBeGreaterThanOrEqual(3);
+      for (const t of h.traditions) {
+        expect(t.title.length).toBeGreaterThan(2);
+        expect(
+          t.text.length,
+          `${h.slug} tradition "${t.title}" too thin`,
+        ).toBeGreaterThanOrEqual(90);
+      }
       expect(h.faq.length).toBeGreaterThanOrEqual(3);
+      for (const f of h.faq) {
+        expect(f.q.length).toBeGreaterThan(8);
+        expect(f.a.length).toBeGreaterThan(40);
+      }
       expect(h.categories.length).toBeGreaterThan(0);
       for (const c of h.categories) {
         expect(CATEGORY_LABELS[c]).toBeDefined();
@@ -255,6 +272,16 @@ describe("holiday photos", () => {
       );
       expect((e.quotes ?? []).length).toBe((v.quotes ?? []).length);
       expect(e.heroStyle ?? null).toBe(v.heroStyle ?? null);
+      // content sections must mirror so EN/VI pages carry the same depth
+      expect(e.history.length, `${v.slug} history parity`).toBe(
+        v.history.length,
+      );
+      expect(e.traditions.length, `${v.slug} traditions parity`).toBe(
+        v.traditions.length,
+      );
+      expect(e.faq.length, `${v.slug} faq parity`).toBe(v.faq.length);
+      expect(e.wishes.length, `${v.slug} wishes parity`).toBe(v.wishes.length);
+      expect(e.gifts.length, `${v.slug} gifts parity`).toBe(v.gifts.length);
       // step/beat counts mirror so the layouts line up
       for (let j = 0; j < (v.signature ?? []).length; j++) {
         const vs = v.signature![j];

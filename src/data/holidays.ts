@@ -200,9 +200,9 @@ export const holidays: Holiday[] = [
     meaning:
       "Dịp để khép lại một năm, nghỉ ngơi bên gia đình và mở đầu hành trình mới với những dự định tươi sáng.",
     traditions: [
-      { title: "Đếm ngược giao thừa", text: "Nhiều thành phố tổ chức bắn pháo hoa và đếm ngược về 0 giờ." },
-      { title: "Lời chúc năm mới", text: "Trao đổi thiệp, tin nhắn chúc sức khỏe và thành công." },
-      { title: "Kế hoạch năm mới", text: "Viết mục tiêu, du lịch ngắn ngày hoặc sum họp gia đình." },
+      { title: "Đếm ngược giao thừa", text: "Khoảnh khắc 0 giờ được đếm ngược tại các quảng trường trung tâm — đông nhất là khu vực Bờ Hồ (Hà Nội) và đường Nguyễn Huệ (TP.HCM). Những năm gần đây hai thành phố chuyển dần sang trình diễn ánh sáng, nhạc nước và drone thay cho pháo hoa tầm cao." },
+      { title: "Lời chúc năm mới", text: "Người ta nhắn 'Happy New Year' cho nhau bằng tin nhắn, thiệp điện tử và những dòng status đầu năm. Khác lời chúc Tết Nguyên Đán trang trọng, lời chúc Tết Dương lịch nhẹ nhàng, kiểu bạn bè, thường kèm ảnh đêm giao thừa." },
+      { title: "Kế hoạch năm mới", text: "Nhiều bạn trẻ viết ra mục tiêu năm mới — học thêm kỹ năng, đọc sách, chạy bộ, tiết kiệm — dù Tết Dương lịch chỉ nghỉ một ngày. Các nhóm bạn rủ nhau 'khai bút' đầu năm như một cách tự hứa với chính mình." },
     ],
     wishes: [
       "Chúc năm mới an khang, thịnh vượng, vạn sự như ý!",
@@ -243,6 +243,7 @@ export const holidays: Holiday[] = [
       { q: "Tết Dương lịch được nghỉ mấy ngày?", a: "Theo Bộ luật Lao động, người lao động được nghỉ 1 ngày vào 1/1 dương lịch; nếu trùng cuối tuần thường được nghỉ bù." },
       { q: "Tết Dương lịch và Tết Nguyên Đán khác nhau thế nào?", a: "Tết Dương lịch là ngày 1/1 theo lịch quốc tế; Tết Nguyên Đán là mùng 1 tháng Giêng âm lịch, lễ lớn nhất của Việt Nam." },
       { q: "Có bắn pháo hoa không?", a: "Hà Nội, TP.HCM và nhiều địa phương thường tổ chức điểm bắn pháo hoa vào đêm giao thừa 31/12." },
+      { q: "Nước nào đón năm mới sớm nhất thế giới?", a: "Đảo quốc Kiribati — cụ thể là đảo Kiritimati (Đảo Giáng Sinh) nằm ở múi giờ UTC+14, đón năm mới sớm hơn Việt Nam 7 tiếng. Samoa và Tonga cũng thuộc nhóm đầu tiên chào năm mới mỗi năm." },
     ],
   },
   {
@@ -290,10 +291,10 @@ export const holidays: Holiday[] = [
     meaning:
       "Tết là khoảnh khắc chuyển giao giữa năm cũ và năm mới — thời điểm của đoàn viên, hiếu kính và hy vọng.",
     traditions: [
-      { title: "Gói bánh chưng, bánh tét", text: "Gia đình quây quần gói bánh, nấu bánh suốt đêm trước Tết." },
-      { title: "Lì xì đầu năm", text: "Người lớn mừng tuổi trẻ nhỏ bằng bao đỏ cầu may mắn." },
-      { title: "Chúc Tết, thăm họ hàng", text: "Mùng 1 Tết cha, mùng 2 Tết mẹ, mùng 3 Tết thầy." },
-      { title: "Câu đối đỏ, hoa đào hoa mai", text: "Trang trí nhà cửa với sắc đỏ vàng rực rỡ đón xuân." },
+      { title: "Gói bánh chưng, bánh tét", text: "Từ ngày 26–29 tháng Chạp, cả nhà quây quần gói bánh — nếp ngâm, lá dong rửa sạch, đậu xanh và thịt lợn xếp từng lớp. Nồi bánh luộc suốt 8–12 tiếng qua đêm là khoảnh khắc Tết quen thuộc nhất của mỗi gia đình, nhất là ở quê." },
+      { title: "Lì xì đầu năm", text: "Tiền mới đổi từ ngân hàng nhiều tuần trước Tết được cho vào phong bao đỏ — màu của may mắn. Người lớn lì xì cho trẻ em và cả cha mẹ cao tuổi kèm lời chúc sức khỏe; số tiền không quan trọng bằng tấm lòng đầu năm." },
+      { title: "Chúc Tết, thăm họ hàng", text: "Mùng 1 dành cho họ nội, mùng 2 cho họ ngoại, mùng 3 thăm thầy cô — nhịp xưa vẫn được giữ đến nay. Những ngày đầu năm, nhà nào cũng mở cửa đón khách với mứt Tết, trà xanh và tiếng cười." },
+      { title: "Câu đối đỏ, hoa đào hoa mai", text: "Nhà nào cũng treo câu đối đỏ chữ vàng — 'Cung chúc tân xuân', 'Phúc như Đông hải'. Miền Bắc chuộng đào hồng, miền Nam quý mai vàng; một cành hoa Tết được cho mang cả sắc xuân vào nhà." },
     ],
     wishes: [
       "Chúc mừng năm mới — an khang thịnh vượng, vạn sự như ý!",
@@ -342,6 +343,7 @@ export const holidays: Holiday[] = [
       { q: "Tết Nguyên Đán rơi vào khoảng thời gian nào?", a: "Từ cuối tháng 1 đến giữa tháng 2 dương lịch, tùy năm âm lịch. Trang này tự tính ngày dương chính xác cho từng năm." },
       { q: "Tết được nghỉ bao nhiêu ngày?", a: "Người lao động được nghỉ 5 ngày lễ Tết Âm lịch theo luật; thực tế thường kéo dài 7–9 ngày nhờ nghỉ bù và cuối tuần." },
       { q: "Xông đất là gì?", a: "Người đầu tiên bước vào nhà sau giao thừa được tin là ảnh hưởng đến vận may cả năm của gia chủ." },
+      { q: "Mùng 1, 2, 3 Tết thường đi thăm ai?", a: "Nhịp truyền thống là 'mùng 1 cha, mùng 2 mẹ, mùng 3 thầy': ngày đầu năm về bên nội chúc Tết ông bà cha, mùng 2 về ngoại thăm ông bà mẹ, mùng 3 tới thăm thầy cô. Ngày nay nhiều gia đình linh hoạt nhưng thứ tự trên vẫn được nhắc nhiều nhất." },
     ],
   },
   {
@@ -378,10 +380,10 @@ export const holidays: Holiday[] = [
     meaning:
       "Đêm trăng tròn đầu năm tượng trưng cho sự viên mãn; dịp cầu bình an cho cả năm.",
     traditions: [
-      { title: "Đi chùa cầu an", text: "Lễ Phật, thắp hương cầu sức khỏe và bình an đầu năm." },
-      { title: "Cúng rằm tháng Giêng", text: "Mâm cúng gia tiên với chè trôi nước, hoa quả." },
-      { title: "Ăn chè trôi nước", text: "Viên bánh tròn thơm gừng tượng trưng cho sự đoàn viên." },
-      { title: "Hội đèn lồng", text: "Nhiều nơi rước đèn, ngắm hoa đăng rực rỡ về đêm." },
+      { title: "Đi chùa cầu an", text: "'Đi lễ đầu năm' là nếp đẹp: người ta tới chùa sau Tết và đông nhất vào rằm tháng Giêng để cầu bình an cả năm. Các chùa lớn như Trấn Quốc, Hương Tích (Hà Nội) hay Vĩnh Nghiêm (TP.HCM) kín người suốt tuần rằm." },
+      { title: "Cúng rằm tháng Giêng", text: "Rằm tháng Giêng là rằm lớn nhất năm, còn gọi tết Thượng Nguyên. Mâm cúng gia tiên có bánh chưng, hoa quả tươi; nhiều nhà thêm chè trôi nước và gà luộc để cúng trọn nghi rằm đầu năm." },
+      { title: "Ăn chè trôi nước", text: "Viên chè tròn vỏ nếp nhân đậu xanh nổi lên trong nước gừng ngọt ấm — hình tròn tượng trưng sự viên mãn, sum họp đầu năm. Ở Chợ Lớn, người Hoa nấu chè trôi nước kiểu sủi cảo, thành một mùa chè riêng mỗi rằm Giêng." },
+      { title: "Hội đèn lồng", text: "Phố cổ Hội An sáng rực hàng nghìn đèn lồng vào tối rằm; TP.HCM giữ tuyến phố đèn lồng Tết Nguyên tiêu tại khu Chợ Lớn. Cảnh thả hoa đăng trên sông Hoài là hình ảnh Tết Nguyên tiêu nổi tiếng nhất." },
     ],
     wishes: [
       "Rằm tháng Giêng, chúc gia đình bạn viên mãn, bình an cả năm.",
@@ -425,6 +427,7 @@ export const holidays: Holiday[] = [
       { q: "Tết Nguyên Tiêu là ngày nào?", a: "Rằm tháng Giêng âm lịch, tức ngày 15/1 âm — đêm trăng tròn đầu tiên của năm mới." },
       { q: "Có được nghỉ lễ không?", a: "Không, đây là lễ truyền thống chứ không phải ngày nghỉ quốc gia." },
       { q: "Ăn gì ngày rằm tháng Giêng?", a: "Chè trôi nước (bánh trôi nước) là món đặc trưng, nhiều gia đình ăn chay cả ngày rằm." },
+      { q: "Rằm tháng Giêng khác các ngày rằm khác thế nào?", a: "Đây là rằm đầu tiên và lớn nhất trong năm — tết Thượng Nguyên, cũng là một trong ba đại lễ rằm (Thượng Nguyên, Trung Nguyên rằm tháng 7, Hạ Nguyên rằm tháng 10). Ở Việt Nam, rằm Giêng còn trùng với Ngày thơ Việt Nam." },
     ],
   },
   {
@@ -462,9 +465,9 @@ export const holidays: Holiday[] = [
     ],
     meaning: "Dịp để nói ra điều khó nói — một lời yêu thương đúng lúc đáng giá hơn mọi món quà.",
     traditions: [
-      { title: "Tặng hoa hồng", text: "Hồng đỏ cho tình yêu nồng cháy, hồng nhạt cho sự ngọt ngào." },
-      { title: "Sô-cô-la và thiệp", text: "Cặp quà kinh điển kèm một lời nhắn viết tay." },
-      { title: "Hẹn hò đặc biệt", text: "Bữa tối, bộ phim hay chuyến đi ngắn dành cho hai người." },
+      { title: "Tặng hoa hồng", text: "Hoa hồng đỏ là 'đơn vị tiền tệ' của ngày 14/2 — giá mỗi bông tăng gấp hai, gấp ba lần mà vẫn cháy hàng tại các chợ hoa Quảng Ba, Hồ Thị Kỷ. Những năm gần đây hoa khô, hoa sáp và hộp hoa cao cấp được chuộng vì giữ được lâu." },
+      { title: "Sô-cô-la và thiệp", text: "Sô-cô-la là món quà ngọt ngào kinh điển đi cùng bông hồng. Giới trẻ Việt ngày càng chuộng thiệp viết tay, hộp quà bí mật và quà tự làm hơn quà mua sẵn — giá trị nằm ở công chuẩn bị." },
+      { title: "Hẹn hò đặc biệt", text: "Nhà hàng, quán cà phê view đẹp được đặt kín từ cả tuần trước; nhiều cặp chọn nấu ăn cùng nhau ở nhà hay 'hẹn hò ngược' — né phố đông, tự làm album ảnh. Khi 14/2 rơi vào cuối tuần, đó thường là đêm hẹn hò đông nhất năm." },
     ],
     wishes: [
       "Anh/chị là món quà đẹp nhất mà đời mang đến. Valentine vui vẻ!",
@@ -508,6 +511,7 @@ export const holidays: Holiday[] = [
       { q: "Valentine có phải ngày nghỉ lễ không?", a: "Không, 14/2 là ngày lễ tình yêu phổ biến nhưng không phải ngày nghỉ quốc gia." },
       { q: "Tặng gì cho người mới quen?", a: "Một bông hoa và tấm thiệp chân thành là đủ — tránh quà quá đắt tiền gây áp lực." },
       { q: "Valentine trắng là gì?", a: "Ngày 14/3, khi theo truyền thống châu Á, nam giới đáp lễ quà nhận được ngày 14/2." },
+      { q: "Có mấy ngày Valentine trong năm?", a: "Ba ngày được nhắc nhiều nhất: Valentine đỏ 14/2 (tặng quà cho người yêu), Valentine trắng 14/3 (nam giới 'đáp lễ', phổ biến ở Nhật Bản) và Valentine đen 14/4 — ngày vui của người độc thân." },
     ],
   },
   {
@@ -553,9 +557,9 @@ export const holidays: Holiday[] = [
     ],
     meaning: "Ngày để tôn vinh công lao, sự hy sinh và quyền bình đẳng của phụ nữ trong gia đình lẫn xã hội.",
     traditions: [
-      { title: "Tặng hoa và quà", text: "Hoa, thiệp và những lời chúc gửi đến mẹ, vợ, chị em, đồng nghiệp." },
-      { title: "Bữa cơm sum họp", text: "Gia đình cùng nấu ăn để phụ nữ được nghỉ ngơi." },
-      { title: "Hoạt động tôn vinh", text: "Cơ quan, trường học tổ chức gặp mặt, tuyên dương nữ cán bộ, học sinh." },
+      { title: "Tặng hoa và quà", text: "Hoa hồng, hoa cẩm chướng và những hộp quà nhỏ là lựa chọn phổ biến nhất — bạn trai tặng người yêu, chồng tặng vợ, con tặng mẹ, học trò tặng cô. Chợ hoa và các sàn thương mại điện tử đều chạy 'chiến dịch 8/3' suốt tuần trước đó." },
+      { title: "Bữa cơm sum họp", text: "Nhiều ông bố, người yêu vào bếp nấu bữa tối để 'đổi ca' cho mẹ và vợ — bữa cơm là món quà đơn giản mà ý nghĩa nhất. Hình ảnh đàn ông hì hục nấu canh rau ngót, kho cá ngày 8/3 đã thành 'meme' yêu thương quen thuộc." },
+      { title: "Hoạt động tôn vinh", text: "Cơ quan, doanh nghiệp, trường học tổ chức gặp mặt, tuyên dương nữ cán bộ, nữ sinh tiêu biểu; các cuộc thi nấu ăn, văn nghệ 'vì phụ nữ' sôi nổi cả tuần. Từ năm 2016, Liên Hợp Quốc đặt một chủ đề riêng cho ngày 8/3 mỗi năm." },
     ],
     wishes: [
       "Chúc mẹ/chị/em ngày 8/3 rạng rỡ, hạnh phúc và luôn xinh đẹp!",
@@ -597,6 +601,7 @@ export const holidays: Holiday[] = [
       { q: "Ngày 8/3 có được nghỉ không?", a: "Không, đây là ngày kỷ niệm quốc tế chứ không phải ngày nghỉ lễ theo luật." },
       { q: "8/3 và 20/10 khác nhau thế nào?", a: "8/3 là Ngày Quốc tế Phụ nữ toàn cầu; 20/10 là Ngày Phụ nữ Việt Nam, kỷ niệm thành lập Hội LHPN Việt Nam." },
       { q: "Nên tặng hoa gì ngày 8/3?", a: "Hoa hồng và cẩm chướng phổ biến nhất; quan trọng hơn là lời chúc chân thành kèm theo." },
+      { q: "Ngày 8/3 mỗi năm có chủ đề riêng không?", a: "Có. Từ năm 2016, Liên Hợp Quốc đặt chủ đề chính thức cho mỗi năm — ví dụ 'DigitALL' (2023) về công nghệ số cho nữ giới, 'Invest in Women' (2024) về đầu tư cho phụ nữ — và các hoạt động toàn cầu xoay quanh chủ đề ấy." },
     ],
   },
   {
@@ -640,9 +645,9 @@ export const holidays: Holiday[] = [
     ],
     meaning: "Uống nước nhớ nguồn — ngày để mỗi người Việt hướng về cội nguồn dân tộc.",
     traditions: [
-      { title: "Dâng hương Đền Hùng", text: "Hàng triệu người về Phú Thọ thắp hương tưởng nhớ các vua Hùng." },
-      { title: "Rước kiệu, hát xoan", text: "Lễ rước kiệu từ chân núi Nghĩa Lĩnh lên Đền Thượng." },
-      { title: "Bánh chưng, bánh giầy dâng cúng", text: "Hai loại bánh tượng trưng trời đất trong mâm cúng tổ tiên." },
+      { title: "Dâng hương Đền Hùng", text: "Từ đêm mùng 9 rạng ngày 10/3 âm lịch, dòng người lên núi Nghĩa Lĩnh (Phú Thọ) dâng hương tại Đền Hạ, Đền Trung và Đền Thượng. Lãnh đạo Nhà nước dự lễ chính tại Đền Thượng; hàng triệu người Việt trong và ngoài nước hướng về cùng một giờ." },
+      { title: "Rước kiệu, hát xoan", text: "Các làng quanh Đền Hùng rước kiệu dâng hoa lên đền suốt tuần lễ hội — mỗi kiệu có cờ, trống và mâm cỗ của riêng địa phương. Hát xoan Phú Thọ — di sản văn hóa phi vật thể được UNESCO công nhận năm 2011 — vang lên suốt hội." },
+      { title: "Bánh chưng, bánh giầy dâng cúng", text: "Theo truyền thuyết Lang Liêu, bánh chưng vuông tượng trưng đất, bánh giầy tròn tượng trưng trời — hai thứ bánh là lễ vật bắt buộc trên mâm cúng Giỗ Tổ. Nhiều gia đình tự gói hoặc mua bánh dâng lên đền rồi mang về làm lộc." },
     ],
     wishes: [
       "Nhân ngày Giỗ Tổ, nguyện tổ tiên phù hộ cho gia đình mình bình an.",
@@ -687,6 +692,7 @@ export const holidays: Holiday[] = [
       { q: "Giỗ Tổ là ngày nào dương lịch?", a: "Ngày 10/3 âm lịch, thường rơi vào tháng 4 dương. Trang này tự tính ngày dương chính xác từng năm." },
       { q: "Giỗ Tổ được nghỉ mấy ngày?", a: "1 ngày theo luật lao động; nếu trùng cuối tuần được nghỉ bù." },
       { q: "Lễ hội Đền Hùng ở đâu?", a: "Tại Khu di tích lịch sử Đền Hùng, Việt Trì, Phú Thọ." },
+      { q: "Có bao nhiêu đời vua Hùng?", a: "Theo truyền thuyết có 18 đời vua Hùng nối tiếp nhau trị vì nước Văn Lang, kéo dài từ thời Hồng Bàng đến khi An Dương Vương thành lập Âu Lạc (258 TCN). Giỗ Tổ được giữ vào ngày 10/3 âm lịch — ngày quốc lễ do sắc lệnh vua Khải Định ấn định năm 1917." },
     ],
   },
   {
@@ -722,10 +728,10 @@ export const holidays: Holiday[] = [
     ],
     meaning: "Ngày của sự tưởng nhớ giữa tiết xuân trong sáng — khi con cháu quay về quét dọn mồ mả, thắp hương và nối lại sợi dây với tổ tiên.",
     traditions: [
-      { title: "Tảo mộ", text: "Cả nhà dọn cỏ, vun đất, sửa lại mộ phần ông bà trong những tuần quanh Thanh minh." },
-      { title: "Dâng hương hoa quả", text: "Nén hương, cành cúc và mâm lễ giản dị đặt trước mộ và ban thờ." },
-      { title: "Sum họp, dạo xuân", text: "Chuyến tảo mộ thường thành buổi gặp gỡ đại gia đình giữa tiết trời trong lành." },
-      { title: "Xôi, bánh dân gian", text: "Nhiều miền dâng xôi và bánh nếp trong ngày tảo mộ." },
+      { title: "Tảo mộ", text: "Gia đình về quê vào tuần Thanh minh để quét dọn mồ mả: phát cỏ, đắp đất mới, sửa bia, lau bát hương. Tục lệ coi đó là 'sửa nhà' cho người đã khuất; nhiều nơi nay quy định giờ tảo mộ chung để giữ vệ sinh nghĩa trang." },
+      { title: "Dâng hương hoa quả", text: "Sau khi quét tảo, con cháu thắp hương, dâng hoa tươi và đốt vàng mã. Có nơi cúng thêm gà luộc, xôi, chè; xong lễ, mâm cúng được rải một phần lên mộ để 'gửi' cho người thân." },
+      { title: "Sum họp, dạo xuân", text: "Thanh minh rơi vào tiết khí thứ năm của mùa xuân — lúc trời sáng đẹp nhất năm — nên chuyến tảo mộ thường kết thúc bằng bữa cơm ngoài trời hoặc cuộc dạo xuân cả gia đình. Người xưa gọi đó là 'vừa tảo mộ, vừa dạo thanh minh'." },
+      { title: "Xôi, bánh dân gian", text: "Mỗi miền có món riêng ngày tảo mộ: miền Bắc có xôi gấc, xôi vò và bánh tro tàu nhân mật mía; miền Trung có bánh phu thê, chè kho; miền Nam có chè xoa xoa. Món ăn mộc mạc nhưng ai đi xa cũng nhớ vị ngày Thanh minh." },
     ],
     wishes: [
       "Nhân tiết Thanh minh, nguyện tổ tiên phù hộ gia đình bình an, khỏe mạnh.",
@@ -770,6 +776,7 @@ export const holidays: Holiday[] = [
       { q: "Tết Thanh minh vào ngày nào?", a: "Vào tiết Thanh minh, thường 4–6 tháng 4 — ngày chính xác đổi theo năm; trang này tự tính từ bảng tiết khí." },
       { q: "Thanh minh có được nghỉ lễ không?", a: "Không — đây là phong tục truyền thống chứ không phải ngày nghỉ quốc gia." },
       { q: "Tảo mộ là làm gì?", a: "Quay về mồ mả tổ tiên dọn dẹp, sửa chữa, phủi son, rồi thắp hương và dâng hoa quả tưởng nhớ." },
+      { q: "Thanh minh nghĩa là gì?", a: "'Thanh minh' là tên một trong 24 tiết khí — tiết khí thứ năm của mùa xuân, khi trời trong sáng, khí trời mát mẻ (chữ Hán nghĩa là 'trong sáng'). Tết trùng tên tiết khí vì tảo mộ thường tổ chức đúng vào tiết này." },
     ],
   },
   {
@@ -805,9 +812,9 @@ export const holidays: Holiday[] = [
     ],
     meaning: "Ngày của độc lập, thống nhất và lòng biết ơn với những thế hệ đã hy sinh cho đất nước.",
     traditions: [
-      { title: "Treo cờ Tổ quốc", text: "Nhà cửa, đường phố rực sắc đỏ sao vàng." },
-      { title: "Kỷ niệm và diễu binh", text: "Các dịp tròn năm tổ chức diễu binh, diễu hành cấp quốc gia." },
-      { title: "Về nguồn", text: "Tham quan địa chỉ đỏ, tưởng nhớ anh hùng liệt sĩ." },
+      { title: "Treo cờ Tổ quốc", text: "Khắp các con phố — nhất là trục Lê Duẩn – Độc Lập ở TP.HCM và các nẻo đường Hà Nội — cờ đỏ sao vàng phủ kín suốt tuần lễ 30/4. Người dân tự treo cờ trước nhà như một lời nhắc lặng lẽ về ngày thống nhất." },
+      { title: "Kỷ niệm và diễu binh", text: "Các năm tròn — 40 năm (2015), 50 năm (2025) — tổ chức diễu binh, diễu hành cấp quốc gia tại TP.HCM với hàng chục nghìn người tham gia. Đại lễ 50 năm ngày 30/4/2025 nằm trong số những cuộc diễu binh lớn nhất lịch sử Việt Nam." },
+      { title: "Về nguồn", text: "Dịp này, nhiều gia đình cựu chiến binh và đoàn thanh niên về thăm lại chiến trường xưa — địa đạo Củ Chi, Quảng Trị, Trường Sơn — và viếng các nghĩa trang liệt sĩ. Những buổi gặp mặt đồng đội truyền thống diễn ra ở khắp các đơn vị quân đội cũ." },
     ],
     wishes: [
       "Tự hào ngày 30/4 — chúc đất nước mãi hòa bình, thịnh vượng.",
@@ -848,6 +855,7 @@ export const holidays: Holiday[] = [
       { q: "30/4 được nghỉ mấy ngày?", a: "1 ngày, thường nối với lễ 1/5 thành đợt nghỉ dài 4–5 ngày." },
       { q: "Có bắn pháo hoa ngày 30/4 không?", a: "Thường có ở Hà Nội và TP.HCM, nhất là vào các năm kỷ niệm tròn." },
       { q: "Tên gọi đầy đủ của ngày này?", a: "Ngày Giải phóng miền Nam, thống nhất đất nước." },
+      { q: "Đại lễ 50 năm 30/4/2025 có gì đặc biệt?", a: "Đây là lễ kỷ niệm lớn nhất lịch sử ngày này: diễu binh – diễu hành tại TP.HCM quy tụ hàng chục nghìn quân dân, có thêm khối quân nhân nước ngoài diễu hành cùng và trình diễn không quân — truyền hình trực tiếp toàn quốc." },
     ],
   },
   {
@@ -881,8 +889,9 @@ export const holidays: Holiday[] = [
     ],
     meaning: "Ngày ghi nhận giá trị của lao động và quyền lợi chính đáng của người làm việc.",
     traditions: [
-      { title: "Kỳ nghỉ lễ 30/4–1/5", text: "Nhiều gia đình chọn du lịch, về quê trong dịp nghỉ dài." },
-      { title: "Vinh danh lao động tiêu biểu", text: "Doanh nghiệp, công đoàn tuyên dương người lao động xuất sắc." },
+      { title: "Kỳ nghỉ lễ 30/4–1/5", text: "Hai ngày lễ liền nhau thành kỳ nghỉ dài nhất nửa đầu năm — nhiều gia đình 'ăn lễ' bằng một chuyến du lịch ngắn hoặc về quê thăm nhà. Các điểm biển như Đà Nẵng, Nha Trang, Phú Quốc thường cháy phòng từ cả tháng trước." },
+      { title: "Vinh danh lao động tiêu biểu", text: "Công đoàn và doanh nghiệp tuyên dương công nhân giỏi, các sáng kiến cải tiến kỹ thuật; báo chí đăng chuyên đề về người lao động — thợ hàn, bác sĩ vùng sâu, giáo viên vùng cao. Những năm gần đây chủ đề 'người lao động tiên phong' gắn với chuyển đổi số." },
+      { title: "Hoạt động của công đoàn", text: "Tháng Công nhân (tháng 5) khởi động ngay sau lễ: thi tay nghề, giải bóng đá công nhân, tư vấn việc làm và các chương trình chăm lo cho công nhân xa quê. Nhiều khu công nghiệp mở 'chợ công nhân' giá rẻ vào dịp này." },
     ],
     wishes: [
       "Chúc người lao động một ngày 1/5 thật nghỉ ngơi, thật vui.",
@@ -922,6 +931,7 @@ export const holidays: Holiday[] = [
       { q: "Ngày 1/5 có phải ngày nghỉ quốc gia?", a: "Có, người lao động được nghỉ 1 ngày và thường nối với 30/4 thành đợt nghỉ dài." },
       { q: "Ngày 1/5 bắt nguồn từ đâu?", a: "Từ phong trào đòi 8 giờ làm việc của công nhân ở Chicago, Mỹ năm 1886." },
       { q: "Nên đi đâu chơi dịp 30/4–1/5?", a: "Các điểm biển và cao nguyên thường đông; đặt vé sớm hoặc chọn điểm ít người biết." },
+      { q: "Có nước nào không nghỉ lễ 1/5 không?", a: "Có. Mỹ và Canada mừng Ngày Lao động (Labor Day) vào thứ Hai đầu tháng 9 thay vì 1/5 — di sản riêng của phong trào công nhân Bắc Mỹ; một số nước khác cũng chọn ngày lao động riêng." },
     ],
   },
   {
@@ -958,9 +968,9 @@ export const holidays: Holiday[] = [
     ],
     meaning: "Dịp để nói lời yêu thương với mẹ — người luôn đứng sau mọi bước đi của ta.",
     traditions: [
-      { title: "Hoa cẩm chướng cho mẹ", text: "Bông cẩm chướng là biểu tượng kinh điển của ngày này." },
-      { title: "Bữa cơm do con nấu", text: "Vào bếp thay mẹ một ngày — món quà giản dị nhất." },
-      { title: "Gọi điện về nhà", text: "Với những người xa quê, một cuộc gọi dài là món quà." },
+      { title: "Hoa cẩm chướng cho mẹ", text: "Cẩm chướng gắn với ngày này từ chính người khởi xướng — Anna Jarvis đã gửi hoa cẩm chướng trắng để tưởng nhớ mẹ quá cố; ngày nay cẩm chướng hồng đỏ dành tặng các mẹ còn khỏe. Ở Việt Nam, hoa hồng, hoa lan và bó hoa hỗn hợp được chọn không kém." },
+      { title: "Bữa cơm do con nấu", text: "Món quà được khen nhiều nhất trên mạng xã hội mỗi năm là bữa cơm con tự nấu — dù đôi khi 'muối mặn, nước nhạt'. Con ở xa còn hay đặt shipper giao lẩu, gà hầm tận nhà để mẹ khỏi vào bếp ngày này." },
+      { title: "Gọi điện về nhà", text: "Với con cái xa nhà, một cuộc gọi video hỏi 'mẹ ăn cơm chưa' là món quà đúng ngày nhất. Các nhà mạng đều có ưu đãi phút gọi dịp này — nhiều người trưởng thành mới nhận ra cuộc gọi ngắn hằng tuần còn quý hơn bất kỳ quà vật chất nào." },
     ],
     wishes: [
       "Mẹ là cả bầu trời che chở. Chúc mẹ ngày của Mẹ thật hạnh phúc!",
@@ -1000,6 +1010,7 @@ export const holidays: Holiday[] = [
       { q: "Ngày của Mẹ là ngày nào?", a: "Chủ nhật thứ hai của tháng 5 hằng năm — ngày cụ thể đổi mỗi năm và được tính tự động trên trang này." },
       { q: "Ngày của Mẹ có phải ngày lễ Việt Nam không?", a: "Đây là ngày lễ du nhập từ phương Tây nhưng rất phổ biến ở Việt Nam; bên cạnh đó còn có lễ Vu Lan báo hiếu." },
       { q: "Tặng quà gì cho mẹ?", a: "Thời gian bên mẹ quý hơn quà — một bữa cơm con tự nấu là lựa chọn chắc chắn đúng." },
+      { q: "Vì sao Ngày của Mẹ lại là Chủ nhật thứ hai của tháng 5?", a: "Vì Anna Jarvis — người Mỹ khởi xướng ngày này — chọn Chủ nhật gần ngày mẹ bà mất (ngày 9/5/1905) để mọi gia đình dễ sum họp; năm 1914, Tổng thống Wilson chính thức ấn định Chủ nhật thứ hai tháng 5 là Ngày của Mẹ tại Mỹ và thế giới theo sau." },
     ],
   },
   {
@@ -1035,9 +1046,9 @@ export const holidays: Holiday[] = [
     ],
     meaning: "Ngày nhắc nhở xã hội bảo vệ, yêu thương và đầu tư cho thế hệ tương lai.",
     traditions: [
-      { title: "Vui chơi tại trường", text: "Văn nghệ, trò chơi dân gian và khuôn viên tràng bóng bay." },
-      { title: "Quà cho bé", text: "Đồ chơi, sách truyện, quần áo mới cho các con." },
-      { title: "Hoạt động thiện nguyện", text: "Tặng quà cho trẻ em khó khăn, trẻ mồ côi." },
+      { title: "Vui chơi tại trường", text: "Sáng 1/6 — thường dời về cuối tuần gần nhất — trường mầm non, tiểu học tổ chức ngày hội: trò chơi dân gian, văn nghệ do chính các bé biểu diễn, phát thưởng cuối năm học. Ký ức 'ngày hội trường' gắn với tiếng trống hội, quẩy tung nước và những bông hồng giấy." },
+      { title: "Quà cho bé", text: "Quà 1/6 kinh điển là đồ chơi, truyện tranh, cặp sách — nhiều bố mẹ nay chọn sách và đồ chơi STEM thay vì đồ điện tử. Trung tâm thương mại, cửa hàng đồ chơi dựng khu vui chơi và ưu đãi riêng suốt cả tuần lễ." },
+      { title: "Hoạt động thiện nguyện", text: "Dịp này, các tổ chức thiện nguyện, quỹ nhi đồng và đoàn thanh niên tặng quà cho trẻ em khó khăn — bệnh viện nhi, làng SOS, trẻ em vùng bão lũ. Nhiều chương trình gây quỹ quà Tết cho trẻ nghèo cũng khởi động từ mùa hè." },
     ],
     wishes: [
       "Chúc các con 1/6 thật vui, ngoan ngoãn và học giỏi!",
@@ -1077,6 +1088,7 @@ export const holidays: Holiday[] = [
       { q: "Ngày 1/6 là của ai?", a: "Của thiếu nhi — thường trẻ em dưới 15 tuổi được vui chơi và nhận quà." },
       { q: "1/6 có phải ngày nghỉ không?", a: "Không, nhưng nhiều trường cho học sinh vui chơi cả ngày." },
       { q: "Tết Thiếu nhi còn gọi là gì?", a: "Nhiều gia đình gọi đây là \"Tết của thiếu nhi\" vì các con được quà và đi chơi." },
+      { q: "1/6 khác Ngày Quyền trẻ em thế giới thế nào?", a: "1/6 là Ngày Quốc tế Thiếu nhi do Quốc tế Phụ nữ Dân chủ đề xuất năm 1949, được nhiều nước (gồm Việt Nam) hưởng ứng. Liên Hợp Quốc lại chọn 20/11 làm Ngày Quyền trẻ em thế giới — kỷ niệm Công ước Quyền trẻ em 1989; cả hai ngày đều được nhắc tới." },
     ],
   },
   {
@@ -1112,9 +1124,9 @@ export const holidays: Holiday[] = [
     ],
     meaning: "Nhắc mỗi người trân trọng tổ ấm của mình — nơi bắt đầu và quay về của mọi hành trình.",
     traditions: [
-      { title: "Bữa cơm sum họp", text: "Cả nhà cùng ăn tối, trò chuyện thay vì mỗi người một màn hình." },
-      { title: "Ảnh gia đình", text: "Chụp một bộ ảnh chung làm kỷ niệm mỗi năm." },
-      { title: "Câu chuyện thế hệ", text: "Ông bà kể cho con cháu nghe về dòng họ, quê hương." },
+      { title: "Bữa cơm sum họp", text: "Ngày này không có nghi lễ chuẩn — 'nghi lễ' của nó chính là bữa cơm cả nhà ăn cùng nhau, lời nhắc về giá trị 'bữa cơm gia đình' giữa nhịp sống bận rộn. Bộ VHTTDL từng phát động chiến dịch 'Giờ cơm gia đình' 18h–19h30 không điện thoại." },
+      { title: "Ảnh gia đình", text: "Nhiều gia đình chọn ngày này đi chụp bộ ảnh chung — ở studio, ở công viên, hoặc chỉ là tấm ảnh selfie quanh mâm cơm. Các chương trình truyền hình và cuộc thi ảnh 'gia đình hạnh phúc' thường tổ chức quanh ngày 28/6." },
+      { title: "Câu chuyện thế hệ", text: "Ngày Gia đình là dịp để ông bà kể chuyện xưa, mở ảnh cưới, gia phả cho con cháu xem — buổi 'truyền thống gia đình' mà hiếm ngày nào ngồi lại được với nhau. Nhiều trường học giao bài tập 'phỏng vấn ông bà' vào đúng tuần này." },
     ],
     wishes: [
       "Chúc gia đình mình luôn sum vầy, yêu thương và bình an.",
@@ -1154,6 +1166,7 @@ export const holidays: Holiday[] = [
       { q: "Ngày Gia đình Việt Nam từ khi nào?", a: "Từ năm 2001, theo quyết định của Thủ tướng Chính phủ." },
       { q: "Ngày 28/6 có được nghỉ không?", a: "Không, đây là ngày kỷ niệm xã hội chứ không phải ngày nghỉ lễ." },
       { q: "Nên làm gì ngày Gia đình?", a: "Đơn giản nhất: cùng ăn một bữa cơm và nói chuyện với nhau thật nhiều." },
+      { q: "Ngày Gia đình Việt Nam khác Ngày Gia đình quốc tế thế nào?", a: "Ngày Gia đình quốc tế của Liên Hợp Quốc là 15/5 (từ 1994). Việt Nam có ngày riêng — 28/6 theo Quyết định 72/2001/QĐ-TTg — gắn với truyền thống 'gia đình là tế bào của xã hội'; nước ta quan sát cả hai ngày." },
     ],
   },
   {
@@ -1189,9 +1202,9 @@ export const holidays: Holiday[] = [
     ],
     meaning: "Ngày tri ân những người đã đổi máu xương cho hòa bình hôm nay.",
     traditions: [
-      { title: "Viếng nghĩa trang liệt sĩ", text: "Thắp hương, đặt hoa tại các nghĩa trang và đài tưởng niệm." },
-      { title: "Thăm gia đình chính sách", text: "Thăm hỏi, tặng quà thương binh, mẹ Việt Nam anh hùng." },
-      { title: "Đèn tri ân", text: "Thắp nến tri ân các anh hùng liệt sĩ tối 26/7." },
+      { title: "Viếng nghĩa trang liệt sĩ", text: "Hàng triệu người đến nghĩa trang liệt sĩ địa phương trong tuần lễ 27/7 — thắp hương, lau mộ, đọc tên trên từng bia đá. Ở Quảng Trị, hai nghĩa trang lớn Trường Sơn và Đường 9 đón những đoàn cựu chiến binh tóc bạc đông nhất năm." },
+      { title: "Thăm gia đình chính sách", text: "Tinh thần 'đền ơn đáp nghĩa' thành việc làm cụ thể: địa phương, doanh nghiệp, trường học đi thăm mẹ Việt Nam anh hùng, thương binh, gia đình liệt sĩ — tặng quà, sửa nhà tình nghĩa, cấp sổ bảo hiểm tận tay." },
+      { title: "Đèn tri ân", text: "Tối 26/7, nghi thức thắp nến tri ân lan từ nghĩa trang quốc gia đến những ngôi mộ liệt sĩ trong đình làng — hàng nghìn ngọn nến thắp cùng một giờ. Hình ảnh 'biển nến' tại nghĩa trang Trường Sơn là khoảnh khắc xúc động nhất của năm." },
     ],
     wishes: [
       "Mãi ghi nhớ công ơn các anh hùng liệt sĩ của dân tộc.",
@@ -1232,6 +1245,7 @@ export const holidays: Holiday[] = [
       { q: "Ngày 27/7 có phải ngày nghỉ không?", a: "Không phải ngày nghỉ lễ nhưng là ngày tri ân quan trọng của quốc gia." },
       { q: "Tại sao lại là ngày 27/7?", a: "Gắn với việc Chính phủ chọn 27/7/1947 làm Ngày Thương binh toàn quốc đầu tiên." },
       { q: "Nên làm gì ngày 27/7?", a: "Viếng nghĩa trang liệt sĩ gần nhất hoặc thắp một ngọn nến tri ân." },
+      { q: "Nghi thức thắp nến tri ân bắt đầu từ khi nào?", a: "Từ đề xuất của nhà báo – đại tá Ngô Thế Vinh (cựu chiến binh Sư đoàn 9): đêm trước ngày 27/7, mỗi người dân thắp một ngọn nến trước mộ liệt sĩ hoặc ban thờ trong nhà. Tục lệ lan rộng khắp nước và thường tổ chức tối 26/7." },
     ],
   },
   {
@@ -1275,9 +1289,9 @@ export const holidays: Holiday[] = [
     ],
     meaning: "Mùa để nhớ về công ơn cha mẹ và báo hiếu những người sinh thành.",
     traditions: [
-      { title: "Cài hoa hồng lên áo", text: "Hoa đỏ khi còn mẹ, hoa trắng khi mẹ đã khuất — lễ nghi xúc động nhất." },
-      { title: "Đi chùa lễ Vu Lan", text: "Nghe kinh báo hiếu, cầu nguyện cho cha mẹ hai bên." },
-      { title: "Cúng rằm tháng 7", text: "Mâm cúng gia tiên, xá tội vong nhân, phóng sinh." },
+      { title: "Cài hoa hồng lên áo", text: "Tục cài hoa hồng lên áo khi lễ chùa Vu Lan — hồng cho người còn mẹ, trắng cho người không còn mẹ — do Thiền sư Thích Nhất Hạnh khởi xướng ở Huế năm 1962. Hơn nửa thế kỷ sau, cánh hoa nhỏ trên áo là hình ảnh quen thuộc nhất của ngày báo hiếu." },
+      { title: "Đi chùa lễ Vu Lan", text: "Rằm tháng 7, các chùa tổ chức lễ Vu Lan báo hiếu: tụng kinh, trao bông hồng, nghe giảng về công ơn cha mẹ qua kinh Vu Lan Bồn — câu chuyện Mục Kiền Liên cứu mẹ. Lễ đông nhất thường vào đúng rằm hoặc chủ nhật gần nhất." },
+      { title: "Cúng rằm tháng 7", text: "Song song lễ chùa, nhà nào cũng sắm mâm rằm tháng 7 cúng gia tiên — nhiều nơi thêm 'mâm cúng cô hồn' bày ngoài cổng vào chiều tối với cháo loãng, muối, tiền vàng. Tục xá tội vong, bố thí chúng sinh đi đôi với lòng từ bi của ngày này." },
     ],
     wishes: [
       "Mùa Vu Lan, cầu chúc cha mẹ mình luôn khỏe mạnh, bình an.",
@@ -1322,6 +1336,7 @@ export const holidays: Holiday[] = [
       { q: "Lễ Vu Lan là ngày nào?", a: "Rằm tháng 7 âm lịch (15/7 âm), thường rơi vào tháng 8–9 dương; trang này tính ngày dương theo từng năm." },
       { q: "Cài hoa hồng có ý nghĩa gì?", a: "Hoa đỏ dành cho người còn mẹ, hoa trắng cho người mẹ đã mất — biểu tượng hiếu nghĩa." },
       { q: "Vu Lan và rằm tháng 7 có phải một?", a: "Cùng ngày 15/7 âm; Vu Lan thiên về báo hiếu cha mẹ còn rằm tháng 7 gắn với xá tội vong nhân." },
+      { q: "Tục cài hoa hồng có từ bao giờ?", a: "Từ năm 1962, khi Thiền sư Thích Nhất Hạnh tổ chức lễ Vu Lan tại chùa Từ Hiếu (Huế) và đề xuất cài bông hồng lên áo: hồng nếu còn mẹ, trắng nếu đã mất. Nghi thức này nay phổ biến ở hầu hết chùa trên cả nước." },
     ],
   },
   {
@@ -1367,9 +1382,9 @@ export const holidays: Holiday[] = [
     ],
     meaning: "Ngày của niềm tự hào dân tộc và khát vọng hòa bình, phát triển.",
     traditions: [
-      { title: "Diễu binh 2/9", text: "Các năm tròn tổ chức diễu binh, diễu hành tại Ba Đình." },
-      { title: "Pháo hoa", text: "Hà Nội, TP.HCM và nhiều tỉnh thành bắn pháo hoa đêm 2/9." },
-      { title: "Phố phường treo cờ", text: "Cả nước rực đỏ cờ sao vàng trong dịp Quốc khánh." },
+      { title: "Diễu binh 2/9", text: "Các năm tròn — 70 năm (2015), 80 năm (2025) — tổ chức diễu binh, diễu hành tại quảng trường Ba Đình, đúng nơi Bác Hồ đọc Tuyên ngôn Độc lập. Diễu binh A80 năm 2025 quy tụ hàng chục nghìn quân dân và được truyền hình trực tiếp toàn quốc." },
+      { title: "Pháo hoa", text: "Đêm 2/9, Hà Nội và TP.HCM bắn pháo hoa nhiều điểm — riêng cầu sông Hàn (Đà Nẵng) là nơi ngắm pháo đẹp nhất nước. Từ năm 2022, nhiều địa phương thay pháo tầm cao bằng trình diễn drone light tại các quảng trường." },
+      { title: "Phố phường treo cờ", text: "Từ cuối tháng 8, cờ Tổ quốc phủ kín phố phường — ngõ nhỏ nhất cũng đỏ rực, người dân tự treo cờ trước nhà. Ảnh 'phố cờ đỏ' quanh Nhà hát Lớn và phố cổ Hà Nội là khung hình Quốc khánh quen thuộc nhất." },
     ],
     wishes: [
       "Tự hào là người Việt Nam! Chúc mừng Quốc khánh 2/9.",
@@ -1411,6 +1426,7 @@ export const holidays: Holiday[] = [
       { q: "Quốc khánh được nghỉ mấy ngày?", a: "2 ngày theo luật hiện hành (ngày 2/9 và 1 ngày liền kề trước hoặc sau)." },
       { q: "Xem pháo hoa 2/9 ở đâu?", a: "Hồ Hoàn Kiếm (Hà Nội), sông Sài Gòn (TP.HCM) và nhiều điểm bắn tại các tỉnh thành." },
       { q: "Quốc khánh kỷ niệm sự kiện gì?", a: "Ngày Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập, khai sinh nước Việt Nam Dân chủ Cộng hòa — 2/9/1945." },
+      { q: "Diễu binh Quốc khánh diễn ra ở đâu?", a: "Tại quảng trường Ba Đình – trước Lăng Chủ tịch Hồ Chí Minh, nơi Bác đọc Tuyên ngôn Độc lập ngày 2/9/1945. Diễu binh chỉ tổ chức vào các năm tròn (60, 70, 80 năm), mới nhất là diễu binh A80 năm 2025." },
     ],
   },
   {
@@ -1456,9 +1472,9 @@ export const holidays: Holiday[] = [
     ],
     meaning: "Đêm trăng tròn của sự sum họp — người lớn nhớ quê, trẻ nhỏ mong đèn ông sao.",
     traditions: [
-      { title: "Phá cỗ ngắm trăng", text: "Mâm cỗ bánh trung thu, bưởi, hồng đặt dưới sân trăng." },
-      { title: "Rước đèn ông sao", text: "Trẻ em rước đèn lồng, đèn ông sao đi khắp phố." },
-      { title: "Múa lân", text: "Tiếng trống lân rộn rã trong những đêm rằm tháng 8." },
+      { title: "Phá cỗ ngắm trăng", text: "Đêm rằm tháng 8, mâm cỗ bày bưởi tạt đầu 'thuyền', nải chuối, bánh nướng bánh dẻo xếp thành hình — trẻ em 'phá cỗ' lúc gần nửa đêm để lấy may. Người lớn uống trà ngắm trăng trong khi trẻ con tranh nhau miếng đuôi thuyền bưởi." },
+      { title: "Rước đèn ông sao", text: "Đèn ông sao giấy bói đủ màu, đèn cá chép, đèn kéo quân — từng tốp trẻ em tay đèn đi rước quanh ngõ phố đêm rằm. Đèn pin nhạc điện tử phổ biến hơn ngày nay, nhưng Hội An và nhiều phố cổ vẫn giữ đèn giấy truyền thống." },
+      { title: "Múa lân", text: "Đoàn lân sư rồng đi từng tổ dân phố, trống rộn rã, múa lân hái 'lộc' treo trước các cửa hàng — tiếng trống lân là âm thanh báo hiệu Trung thu về. Trẻ con kéo nhau đi xem lân đến khuya — ký ức chung của nhiều thế hệ." },
     ],
     wishes: [
       "Trung thu vui vẻ! Chúc gia đình bạn đoàn viên dưới trăng rằm.",
@@ -1506,6 +1522,7 @@ export const holidays: Holiday[] = [
       { q: "Trung thu là ngày nào dương lịch?", a: "Rằm 15/8 âm lịch, thường rơi vào tháng 9–10 dương; trang này tự tính theo năm." },
       { q: "Trung thu có phải ngày nghỉ không?", a: "Không, nhưng trẻ em thường được vui chơi, rước đèn vào đêm rằm." },
       { q: "Bánh trung thu có mấy loại?", a: "Hai loại chính: bánh nướng (vỏ giòn) và bánh dẻo (vỏ bột nếp mềm)." },
+      { q: "Trung thu khác Tết Thiếu nhi 1/6 thế nào?", a: "1/6 là ngày quốc tế của trẻ em nói chung, còn Trung thu (rằm tháng 8 âm lịch) là tết truyền thống gắn với mâm cỗ trăng, bánh trung thu và rước đèn — từ xưa được gọi là 'Tết của thiếu nhi' vì các bé là nhân vật chính của đêm hội." },
     ],
   },
   {
@@ -1541,9 +1558,9 @@ export const holidays: Holiday[] = [
     ],
     meaning: "Ngày riêng của phụ nữ Việt — tri ân sự hy sinh, bản lĩnh và vẻ đẹp của một nửa thế giới.",
     traditions: [
-      { title: "Tặng hoa, tặng quà", text: "Đồng nghiệp, người thân gửi hoa và lời chúc đến phụ nữ quanh mình." },
-      { title: "Vinh danh phụ nữ tiêu biểu", text: "Các cấp hội phụ nữ tổ chức gặp mặt, tuyên dương." },
-      { title: "Nam giới vào bếp", text: "Tục \"đàn ông nấu ăn\" ngày 20/10 ngày càng phổ biến." },
+      { title: "Tặng hoa, tặng quà", text: "Giống 8/3, hoa và quà đổ về tay các bà, các mẹ, các chị — nhưng 20/10 là ngày 'của nhà mình', riêng của Việt Nam. Chợ hoa và cửa hàng quà tặng đông đúc nhất vào tối 19 và sáng 20." },
+      { title: "Vinh danh phụ nữ tiêu biểu", text: "Ngày này gắn với lịch sử Hội Liên hiệp Phụ nữ Việt Nam — thành lập 20/10/1930. Các cơ quan tổ chức gặp mặt, tuyên dương mẹ Việt Nam anh hùng, nữ khoa học gia, nữ doanh nhân tiêu biểu suốt tuần lễ." },
+      { title: "Nam giới vào bếp", text: "Trào lưu 'nam giới đảm đang' ngày 20/10: chồng nấu bữa tối, con trai phụ rửa bát — bữa cơm do đàn ông làm trở thành món quà thiết thực nhất. 'Đàn ông Việt Nam vào bếp ngày 20/10' dần thành 'tục lệ' mới được hưởng ứng." },
     ],
     wishes: [
       "Chúc mẹ/em/chị 20/10 luôn xinh đẹp, hạnh phúc và được yêu thương!",
@@ -1584,6 +1601,7 @@ export const holidays: Holiday[] = [
       { q: "Ngày 20/10 kỷ niệm điều gì?", a: "Ngày thành lập Hội LHPN Việt Nam (20/10/1930) và là Ngày Phụ nữ Việt Nam." },
       { q: "20/10 có được nghỉ không?", a: "Không, đây là ngày kỷ niệm chứ không phải ngày nghỉ lễ." },
       { q: "Nên chúc 8/3 hay 20/10?", a: "Cả hai đều phù hợp — 8/3 mang tính quốc tế, 20/10 là ngày riêng của phụ nữ Việt Nam." },
+      { q: "Ngày 20/10 gắn với tổ chức nào?", a: "Gắn với Hội Liên hiệp Phụ nữ Việt Nam — thành lập ngày 20/10/1930 với tên đầu tiên là Hội Phụ nữ phản đế Việt Nam. Ngày thành lập Hội trở thành Ngày Phụ nữ Việt Nam, riêng biệt với ngày quốc tế 8/3." },
     ],
   },
   {
@@ -1619,9 +1637,9 @@ export const holidays: Holiday[] = [
     ],
     meaning: "Nhất tự vi sư, bán tự vi sư — ngày để nhớ ơn những người đã dìu dắt ta.",
     traditions: [
-      { title: "Học sinh tặng hoa", text: "Hoa và thiệp tay gửi thầy cô trong tiết chào cờ đặc biệt." },
-      { title: "Cựu học sinh về thăm", text: "Thế hệ đi trước quay lại trường xưa thăm thầy cô già." },
-      { title: "Lời nhắn tri ân", text: "Những tin nhắn cảm ơn gửi đến thầy cô cũ khắp nơi." },
+      { title: "Học sinh tặng hoa", text: "Trước giờ lên lớp ngày 20/11, lớp trưởng đại diện dâng bó hoa cùng tấm thiệp lời cảm ơn; nhiều trường tổ chức lễ kỷ niệm ngắn gọn đầu giờ. Học sinh tiểu học tự vẽ thiệp, học sinh trung học mua hoa, sinh viên gửi video tri ân." },
+      { title: "Cựu học sinh về thăm", text: "Ngày này, các niên khóa cũ — từ thế hệ xế chiều tới tân sinh viên — tề tựu về trường thăm thầy cô, mang theo hoa, bánh và kỷ vật năm xưa. Cuộc gặp 'thầy trò ba thế hệ' là khoảnh khắc quen thuộc nhất mỗi 20/11." },
+      { title: "Lời nhắn tri ân", text: "Gần đây, thay vì quà đắt tiền, phụ huynh khuyến khích con viết lời nhắn tay — 'thầy cô chỉ cần một lời cảm ơn chân thành'. Ngành giáo dục cũng thường xuyên nhắc nhở 'không lễ vật ngày 20/11' để ngày lễ giữ đúng nghĩa trong sạch." },
     ],
     wishes: [
       "Kính chúc thầy cô 20/11 khỏe mạnh, hạnh phúc và mãi tận tâm.",
@@ -1661,6 +1679,7 @@ export const holidays: Holiday[] = [
       { q: "Ngày Nhà giáo VN là ngày nào?", a: "Ngày 20/11 hằng năm, chính thức từ năm 1982." },
       { q: "20/11 có phải ngày nghỉ học?", a: "Không nghỉ học, nhưng nhiều trường cho văn nghệ, tri ân thay vì học bình thường." },
       { q: "Tặng gì cho thầy cô ngày 20/11?", a: "Hoa và lời chúc chân thành là đủ; quà vật chất không bắt buộc." },
+      { q: "20/11 bắt đầu từ khi nào?", a: "Ngày 20/11 là 'Ngày quốc tế Hiến chương các nhà giáo' — kỷ niệm việc thành lập FISE (liên đoàn giáo viên quốc tế) năm 1949. Việt Nam chính thức kỷ niệm lần đầu năm 1982 và đến nay là ngày tôn vinh nhà giáo lớn nhất nước." },
     ],
   },
   {
@@ -1696,9 +1715,9 @@ export const holidays: Holiday[] = [
     ],
     meaning: "Tri ân những người lính đã và đang giữ gìn độc lập, chủ quyền của Tổ quốc.",
     traditions: [
-      { title: "Gặp mặt truyền thống", text: "Các đơn vị, cựu chiến binh tổ chức gặp mặt ngày thành lập." },
-      { title: "Vinh danh cán bộ chiến sĩ", text: "Khen thưởng gương quân nhân tiêu biểu." },
-      { title: "Hoạt động biên giới", text: "Thăm đồn biên phòng, trại lính ở vùng sâu vùng xa." },
+      { title: "Gặp mặt truyền thống", text: "Các cựu chiến binh cùng đơn vị — trung đoàn, đại đội, những 'tiểu đoàn nổi tiếng' — gặp mặt quanh 22/12, đọc lại danh sách liệt sĩ và hát những bài hát năm xưa. Ngày này đồng thời là Ngày hội Quốc phòng toàn dân ở các địa phương." },
+      { title: "Vinh danh cán bộ chiến sĩ", text: "Các đơn vị quân đội kỷ niệm bằng lễ gặp mặt, tuyên dương chiến sĩ giỏi, thi đua 'giỏi việc nước, đảm việc nhà'. Hình ảnh chiến sĩ nghĩa vụ trẻ nấu mâm cơm tiếp gia đình chính sách quen thuộc vào ngày này." },
+      { title: "Hoạt động biên giới", text: "Ngày thành lập quân đội gắn với hoạt động 'vì biên cương, vì ngư dân': trao nhà tình đồng đội, khám chữa bệnh miễn phí vùng biên, giao lưu 'Xuân biên phòng ấm lòng dân'. Các đơn vị hải quân bắt đầu nhận chuyến quà 'Tết trên đảo' từ dịp này." },
     ],
     wishes: [
       "Chúc mừng ngày truyền thống Quân đội nhân dân Việt Nam 22/12!",
@@ -1737,8 +1756,9 @@ export const holidays: Holiday[] = [
     },
     faq: [
       { q: "22/12 kỷ niệm sự kiện gì?", a: "Ngày thành lập Quân đội nhân dân Việt Nam (22/12/1944) và Ngày hội Quốc phòng toàn dân." },
-      { q: "Ngày 22/12 có được nghỉ không?", a: "Không phải ngày nghỉ lễ quốc gia." },
+      { q: "Ngày 22/12 có được nghỉ không?", a: "Không phải ngày nghỉ lễ quốc gia — người lao động và học sinh vẫn đi làm, đi học bình thường; các hoạt động kỷ niệm tổ chức trong giờ hành chính hoặc chiều tối." },
       { q: "Tiền thân của quân đội VN là gì?", a: "Đội Việt Nam Tuyên truyền Giải phóng quân, thành lập tại rừng Trần Hưng Đạo, Cao Bằng." },
+      { q: "22/12 còn có tên gọi nào khác?", a: "Đây còn là Ngày hội Quốc phòng toàn dân — ấn định chính thức từ năm 1989 — kỷ niệm ngày thành lập Đội Việt Nam Tuyên truyền Giải phóng quân (22/12/1944 tại Hoàng Hoa Thám, Cao Bằng), tiền thân của Quân đội nhân dân Việt Nam." },
     ],
   },
   {
@@ -1775,9 +1795,9 @@ export const holidays: Holiday[] = [
     ],
     meaning: "Mùa của sự cho đi, an lành và những điều ấm áp bên người thân.",
     traditions: [
-      { title: "Đi nhà thờ đêm 24/12", text: "Lễ vọng Giáng sinh và ngắm hang đá tại các nhà thờ lớn." },
-      { title: "Trao quà Noel", text: "Ông già Noel tặng quà cho trẻ em đêm trước Giáng sinh." },
-      { title: "Trang trí cây thông", text: "Cây thông Noel, đèn nhấp nháy và vòng nguyệt quế." },
+      { title: "Đi nhà thờ đêm 24/12", text: "Đêm vọng Giáng sinh, các nhà thờ lớn — Nhà thờ Lớn Hà Nội, Đức Bà TP.HCM, Phủ Cam Huế — đông nghẹt cả những người không theo đạo đến xem lễ nửa đêm. Đây là hình ảnh Giáng sinh đặc trưng của Việt Nam: lễ tôn giáo trở thành lễ hội chung của phố phường." },
+      { title: "Trao quà Noel", text: "Ông già Noel phát quà ở trung tâm thương mại, công viên — trẻ em đi 'săn ông già Noel' đêm 24. Gia đình trao quà dưới cây thông sáng 25/12; lớp học, công ty chơi 'Secret Santa' trao quà ẩn danh." },
+      { title: "Trang trí cây thông", text: "Cây thông Noel — cây thật hoặc nhựa cao 3–10m — được dựng trước nhà thờ, khách sạn, phố đi bộ từ đầu tháng 12. Hang đá tái hiện máng cỏ Bethlehem là nét riêng của Giáng sinh Việt: mỗi giáo xứ, gia đình thi nhau làm hang đá lớn nhất phố." },
     ],
     wishes: [
       "Merry Christmas! Chúc bạn một Giáng sinh an lành, ấm áp.",
@@ -1823,6 +1843,7 @@ export const holidays: Holiday[] = [
       { q: "Giáng sinh ở Việt Nam là ngày nào?", a: "Đêm 24/12 (Noel) và ngày 25/12 dương lịch." },
       { q: "Giáng sinh có phải ngày nghỉ lễ không?", a: "Không phải ngày nghỉ quốc gia, nhưng nhiều công ty cho nghỉ hoặc tổ chức tiệc cuối năm." },
       { q: "Đi chơi Noel ở đâu?", a: "Khu phố nhà thờ lớn Hà Nội, quận 1 TP.HCM hay các nhà thờ địa phương." },
+      { q: "Hang đá Giáng sinh là gì?", a: "Hang đá là mô hình tái hiện hang máng cỏ nơi Chúa Giê-su ra đời ở Bethlehem — gồm tượng Hài Nhi, Đức Mẹ, thánh Giuse, các nhà thông thái và bầy chiên. Ở Việt Nam, giáo xứ và nhiều gia đình tự làm hang đá bằng đá xốp, rêu và đèn — thi nhau đẹp nhất phố." },
     ],
   },
   {
@@ -1867,10 +1888,10 @@ export const holidays: Holiday[] = [
     meaning:
       "Ông Công Ông Táo là lễ chuyển giao giữa năm cũ và năm mới — ngày gia đình dọn bếp, tưởng nhớ ngọn lửa ấm cả năm qua, và tin rằng điều thiện sẽ được mang lên trời. Đó cũng là lời nhắc sống tử tế trong chính nhà mình.",
     traditions: [
-      { title: "Cúng tiễn Táo quân", text: "Dọn dẹp bàn thờ bếp, dâng mâm cỗ, nón Táo và vật phẩm hóa vàng để Táo quân về trời trình báo." },
-      { title: "Thả cá chép", text: "Thả cá chép ra ao hồ — phương tiện đưa Táo quân lên trời; nhiều gia đình thả chiều 23/12 âm lịch." },
-      { title: "Quét dọn nhà cửa", text: "Sau lễ cúng, người ta bắt đầu quét tước, lau chùi, sửa sang đón Tết." },
-      { title: "Cúng ông Thổ địa", text: "Cùng mâm cỗ, nhiều nhà cúng cả ông Địa – Thổ công cai quản đất đai trong nhà." },
+      { title: "Cúng tiễn Táo quân", text: "Trưa ngày 23 tháng Chạp, nhà nào cũng dọn mâm lễ tiễn ông Táo về trời — trầu, rượu, nếp tẻ, đôi khi mũ ông Táo bằng giấy đỏ và tiền vàng mã. Sau lễ, mũ và vàng mã được hóa đi để 'trình lên Ngọc Hoàng' theo làn khói hương." },
+      { title: "Thả cá chép", text: "Theo truyền thuyết, cá chép hóa rồng đưa ông Táo về trời — nên sau lễ nhiều nhà mua chép đỏ ra sông, hồ phóng sinh. Gần đây có tranh luận về việc thả cá vào nguồn nước tự nhiên, nhiều gia đình chọn phóng sinh vào ao hồ riêng hoặc chỉ cúng cá chép bằng giấy." },
+      { title: "Quét dọn nhà cửa", text: "Khi ông Táo đã về trời, nhà 'vắng thần' nên đây là lúc quét dọn dứt điểm: giũ bụi trần nhà, sửa bàn thờ, thay bát hương mới, tổng vệ sinh trước Tết. 'Thần đi vắng' nghe có vẻ mê tín nhưng thực chất là nhịp khéo léo để cả nhà cùng dọn đón năm mới." },
+      { title: "Cúng ông Thổ địa", text: "Song song ông Táo nhà bếp, gia chủ còn cúng ông Thổ địa — vị thần giữ đất của căn nhà — bằng mâm lễ riêng hoặc chung. Tục 'Nhất Táo, nhị Địa' nhắc hai vị thần thân cận nhất trong nhà người Việt cùng được tiễn lên trời tối nay." },
     ],
     wishes: [
       "Chúc cả nhà một năm bếp lửa ấm, bát ngát yêu thương!",
@@ -1916,6 +1937,7 @@ export const holidays: Holiday[] = [
       { q: "Ông Công Ông Táo là ngày nghỉ lễ không?", a: "Không — đây là lễ truyền thống dân gian, không phải ngày nghỉ có lương." },
       { q: "Vì sao thả cá chép?", a: "Theo truyền thuyết, cá chép là phương tiện đưa Táo quân về trời trước Ngọc Hoàng ngày 23 tháng Chạp." },
           { q: "Khi nào thả cá chép là đúng?", a: "Chiều tối 23 tháng Chạp sau lễ cúng, hoặc sáng 24 — tùy từng gia đình." },
+      { q: "Ông Công Ông Táo gồm mấy vị thần?", a: "Theo tín ngưỡng dân gian là ba vị: hai ông và một bà (gắn với chuyện Trọng Cao – Thị Nhi – Phạm Lang trong 'Táo quân trình Ngọc Hoàng'). Người Việt gọi gộp 'ông Táo' hay 'Táo quân' — thần cai quản việc bếp núc trong nhà." },
     ],
   },
   {
@@ -1951,10 +1973,10 @@ export const holidays: Holiday[] = [
     meaning:
       "Tết Hàn thực là ngày ăn chay, nhớ về cội nguồn và thực hành sự thanh tịnh giữa đời sống năm mới — một nốt lặng trong dải lễ hội sau Tết, khi người ta dâng lên tổ tiên những viên bánh tròn ngọt thanh.",
     traditions: [
-      { title: "Nấu bánh trôi, bánh chay", text: "Bánh trôi nước nhân đường và bánh chay xay đậu xanh — hai chiếc bánh thanh tịnh đặc trưng." },
-      { title: "Cúng tổ tiên", text: "Dâng bánh trôi chay lên bàn thờ ông bà mùng 3/3 âm lịch." },
-      { title: "Ăn chay cả ngày", text: "Nhiều gia đình giữ ngày chay thanh tịnh để tĩnh tâm đầu xuân." },
-      { title: "Xuất hành lễ chùa", text: "Người ta thường đi lễ chùa cầu an sau loạt lễ Xuân." },
+      { title: "Nấu bánh trôi, bánh chay", text: "Từ chiều mùng 2, các nhà vo bánh trôi nhân đường viên tròn nhỏ và bánh chay nhân đậu xanh to bằng nắm tay — bánh luộc nổi lên là chín. Bánh trôi thả trong chè gừng, bánh chay xếp đĩa riêng; nhiều nhà làm đủ để dâng cúng và chia họ hàng." },
+      { title: "Cúng tổ tiên", text: "Sáng mùng 3 tháng 3, mâm bánh trôi bánh chay thay hoa quả lên bàn thờ — nghi lễ lưu giữ gốc tích 'hàn thực' (bữa lạnh, không lửa) của Tết ngày xưa. Người ta tin tổ tiên về thọ hưởng mùa mới qua những viên bánh trắng mềm." },
+      { title: "Ăn chay cả ngày", text: "Nhiều gia đình chọn ăn chay ngày 3/3 — vừa thanh tịnh đầu xuân, vừa gợi nhớ gốc 'ngày không lửa' chỉ dùng đồ nguội của Tết Hàn thực. Tuy vậy, ở Việt Nam nét đặc trưng nhất vẫn là hai thứ bánh trôi, bánh chay ngọt." },
+      { title: "Xuất hành lễ chùa", text: "Nhiều nhà chọn ngày này đi chùa cầu bình an, hoặc đi chơi xuân nốt trước khi nhịp sống thường ngày trở lại sau rằm Giêng. Với trẻ em, mùng 3 tháng 3 gắn với 'bánh trôi nổi' — món chè ông bà, bố mẹ nhất định nấu mỗi năm." },
     ],
     wishes: [
       "Chúc gia đình một ngày Hàn thực ngọt lành, thanh tịnh!",
@@ -1997,6 +2019,7 @@ export const holidays: Holiday[] = [
       { q: "Tết Hàn thực có phải ngày nghỉ lễ?", a: "Không — đây là tết truyền thống, không phải ngày nghỉ lễ quốc gia." },
       { q: "Bánh trôi khác bánh chay thế nào?", a: "Bánh trôi nước là viên tròn nhân đường nấu trong nước gừng; bánh chay là viên dẹp nhân đậu xanh giã nhuyễn trần nước đường." },
           { q: "Hàn thực khác gì ngày chay thường?", a: "Là tết theo lịch cố định 3/3 âm — không phải ngày rằm, mùng 1 mà là một lễ riêng về thanh tịnh." },
+      { q: "3/3 âm lịch còn gọi là gì?", a: "Ngoài tên Tết Hàn thực, ngày này còn gọi 'tết bánh trôi bánh chay' — tên dân gian theo đúng hai món đặc trưng. Câu ca dao 'Mùng ba tháng ba, mẹ dắt đi chùa' cũng gắn với ngày này." },
     ],
   },
   {
@@ -2032,10 +2055,10 @@ export const holidays: Holiday[] = [
     meaning:
       "Tết Đoan Ngọ là cách dân gian Việt đối phó với chuyển mùa hè: một ngày thanh lọc cơ thể, bảo vệ sức khỏe, đồng thời gắn với bó mẹ và những đứa trẻ — vì tục giết sâu bọ cũng là tục giữ gìn sinh khí cho nhà.",
     traditions: [
-      { title: "Ăn hoa quả chua", text: "Xoài xanh, mận, vải — trái chua đầu mùa được cho 'giết sâu bọ' trong người." },
-      { title: "Rượu nếp, cơm rượu", text: "Cơm rượu nếp cái hoa vàng — món truyền thống của tết Đoan Ngọ." },
-      { title: "Hái thuốc ngọ", text: "Đúng giờ ngọ, người xưa đi hái cỏ cây làm thuốc vì tin giờ này dược tính mạnh." },
-      { title: "Tục đốt vía", text: "Đốt vía, đeo chỉ ngũ sắc cho trẻ — xua đuổi sâu bọ và tai ương." },
+      { title: "Ăn hoa quả chua", text: "Quả thanh trà, mận, sấu, dâu tằm — trái vị chua đầu hè là 'thuốc' giết sâu bọ của Tết Đoan Ngọ. Dân gian có tục ăn hoa quả lúc bụng đói từ sáng sớm để 'diệt sâu từ bên trong' trước khi ăn cơm." },
+      { title: "Rượu nếp, cơm rượu", text: "Cơm rượu nếp cái hoa vàng viên nhỏ là món nhất định của trưa mùng 5 — vị ngọt cay ấm được coi là 'đốt hết sâu bọ' cuối mùa. Trẻ em ăn cơm rượu đã đun chín; người lớn uống rượu nếp nguyên chất kèm chút muối mè, ớt." },
+      { title: "Hái thuốc ngọ", text: "Từ 11h–13h ngày mùng 5 — đúng giờ Ngọ của ngày Ngọ, tháng Ngọ — được cho là lúc dương khí cực thịnh, thuốc hái giờ này tốt nhất năm. Người xưa hái ngải cứu, lá tre, rễ cỏ tranh phơi nắng cất làm thuốc quanh năm." },
+      { title: "Tục đốt vía", text: "Tối Đoan Ngọ, có nơi đốt vía — đống giấy rơm ngoài ngõ 'đuổi sâu bọ' — nay ít còn vì lý do an toàn. Nhưng tục giũ quần áo phơi nắng, treo ngải cứu trước cửa vẫn giữ nét 'xua tà khí' mùa hạ." },
     ],
     wishes: [
       "Đoan Ngọ an khỏe — chúc cả nhà mùa hè hạnh phúc, không đau ốm!",
@@ -2080,6 +2103,7 @@ export const holidays: Holiday[] = [
       { q: "Tết Đoan Ngọ có phải ngày nghỉ?", a: "Không — là tết truyền thống, không phải ngày nghỉ lễ quốc gia." },
       { q: "Tết giết sâu bọ nghĩa là gì?", a: "Dân gian tin ăn hoa quả chua, rượu nếp đúng giờ ngọ 5/5 giúp thanh lọc, phòng bệnh mùa hè." },
           { q: "Ăn gì vào tết Đoan Ngọ?", a: "Hoa quả chua đầu mùa (vải, mận, xoài xanh), cơm rượu nếp, trứng luộc — trước bữa cơm trưa." },
+      { q: "Giờ Ngọ trong ngày Đoan Ngọ có ý nghĩa gì?", a: "Giờ Ngọ (11h–13h) của ngày Ngọ tháng Ngọ là lúc dương khí đạt đỉnh trong năm theo quan niệm âm dương — vì vậy thuốc hái, nước lấy, lá phơi đúng giờ này được cho là 'linh nhất'. Tên 'Đoan Ngọ' nghĩa là 'chính ngọ'." },
     ],
   },
   {
@@ -2114,10 +2138,10 @@ export const holidays: Holiday[] = [
     meaning:
       "Ngày Thầy thuốc Việt Nam là ngày cả nước nói lời cảm ơn với người cầm dao mổ, người đêm trực phòng cấp cứu — những nghề đòi hỏi tài năng lẫn lòng nhân hậu. 'Lương y như từ mẫu' là chuẩn mực sống của nghề ấy.",
     traditions: [
-      { title: "Tặng hoa cho bác sĩ", text: "Hoa hồng, cẩm chướng tặng thầy thuốc, y tá quen thuộc — hành động tri ân phổ biến." },
-      { title: "Lễ kỷ niệm tại viện", text: "Các bệnh viện tổ chức họp mặt, trao bằng khen cán bộ y tế tiêu biểu." },
-      { title: "Khám chữa miễn phí", text: "Nhiều địa phương mở đợt khám bệnh công ích, hiến máu quanh ngày lễ." },
-      { title: "Tri ân trên báo chí", text: "Báo đài đăng chuyện người thầy thuốc — nhất là vùng sâu, vùng xa." },
+      { title: "Tặng hoa cho bác sĩ", text: "Ngày 27/2, bệnh viện ngập hoa — bệnh nhân cũ trở lại tặng hoa cùng lá thư cảm ơn cho bác sĩ từng cứu mình; sinh viên y tặng thầy hướng dẫn. Hoa hồng và hoa ly là hai loài được chọn nhiều nhất." },
+      { title: "Lễ kỷ niệm tại viện", text: "Các bệnh viện từ Việt Đức, Chợ Rẫy đến viện tuyến huyện tổ chức gặp mặt truyền thống: tân bác sĩ đọc lại lời thề Hippocrates, vinh danh 'thầy thuốc ưu tú', tri ân thế hệ thầy đã về hưu." },
+      { title: "Khám chữa miễn phí", text: "Dịp này, nhiều đoàn y bác sĩ tình nguyện khám sức khỏe miễn phí ở vùng cao, vùng sâu — phát thuốc, siêu âm, mổ mắt nhân đạo. Ngành y gọi đây là 'việc làm đẹp nhất trong ngày của chính mình'." },
+      { title: "Tri ân trên báo chí", text: "Báo chí, truyền hình dành chuyên mục tri ân: phóng sự về bác sĩ thức trắng đêm trực cấp cứu, 'bác sĩ rừng' ba mươi năm chống sốt rét, nữ bác sĩ vùng cao. Những câu chuyện mỗi 27/2 khiến nghề y gần với công chúng hơn." },
     ],
     wishes: [
       "Kính chúc các thầy thuốc sức khỏe — để cứu chữa nhiều sinh mệnh hơn nữa!",
@@ -2156,6 +2180,7 @@ export const holidays: Holiday[] = [
       { q: "Ngày Thầy thuốc VN là ngày nghỉ lễ không?", a: "Không — là ngày kỷ niệm nghề nghiệp, không phải ngày nghỉ có lương." },
       { q: "Vì sao chọn 27/2?", a: "Ngày 27/2/1955 Chủ tịch Hồ Chí Minh gửi Thư cho cán bộ y tế với câu nổi tiếng 'Lương y như từ mẫu'." },
           { q: "Tặng gì cho thầy thuốc?", a: "Hoa cẩm chướng, thiệp tri ân, hoặc đơn giản lời cảm ơn đúng ngày 27/2." },
+      { q: "Ngày Thầy thuốc Việt Nam khác Ngày Y tế thế giới thế nào?", a: "Ngày Y tế thế giới của WHO là 7/4 — ngày thành lập WHO năm 1948. 27/2 là ngày riêng của Việt Nam do Quyết định 37-CP năm 1955 ấn định theo đề xuất của Bác Hồ, nhằm tôn vinh thầy thuốc nước nhà." },
     ],
   },
   {
@@ -2190,10 +2215,10 @@ export const holidays: Holiday[] = [
     meaning:
       "Ngày Báo chí Cách mạng Việt Nam là ngày tôn vinh người làm báo — nghề chạy ngược lũ, chui xuống hầm, ghi chép công tâm. Từ tờ Thanh Niên 1925 đến nghị trường hôm nay, báo chí vẫn là cơ quan của dân chủ xã hội.",
     traditions: [
-      { title: "Lễ trao giải báo chí", text: "Các giải báo chí quốc gia thường công bố gần ngày 21/6 — vinh danh tác phẩm tiêu biểu." },
-      { title: "Họp mặt nhà báo", text: "Hội Nhà báo Việt Nam, các cơ quan báo chí tổ chức gặp mặt, tri ân nghề." },
-      { title: "Triển lãm báo chí", text: "Nhiều nơi trưng bày trang báo lịch sử — từ Thanh Niên, Cứu Quốc đến báo mạng hôm nay." },
-      { title: "Tọa đàm nghề báo", text: "Trường báo chí mở tọa đàm về đạo đức nghề và đổi mới truyền thông." },
+      { title: "Lễ trao giải báo chí", text: "Quanh 21/6 là mùa giải lớn nhất năm của nghề báo — Giải Búa liềm vàng và Giải báo chí toàn quốc — trao cho những tác phẩm điều tra, đấu tranh chống tham nhũng và bức ảnh báo chí ấn tượng nhất năm trước đó." },
+      { title: "Họp mặt nhà báo", text: "Hội Nhà báo các cấp và các tòa soạn tổ chức gặp mặt truyền thống: vinh danh nhà báo kỳ cựu, trao thẻ hội viên mới, nhắc lại ngày báo Thanh niên số đầu tiên ra đời 21/6/1925 do Nguyễn Ái Quốc sáng lập." },
+      { title: "Triển lãm báo chí", text: "Triển lãm báo chí toàn quốc và hội báo xuân trưng bày tác phẩm đoạt giải cùng những trang báo lịch sử — từ tờ báo in chữ Hán thời xưa đến trang tin điện tử hiện đại. Đây là dịp độc giả nhìn thấy 'công xưởng' đằng sau tin tức." },
+      { title: "Tọa đàm nghề báo", text: "Các tọa đàm nghề nghiệp quanh ngày này xoay quanh báo chí chuyển đổi số, AI trong tòa soạn và đạo đức nghề báo thời tin giả — những vấn đề nóng nhất của nghề theo từng giai đoạn." },
     ],
     wishes: [
       "Chúc các nhà báo giữ lửa công tâm — ngòi bút luôn vững!",
@@ -2232,6 +2257,7 @@ export const holidays: Holiday[] = [
       { q: "21/6 có phải ngày nghỉ?", a: "Không — là ngày kỷ niệm ngành báo chí, không phải ngày nghỉ quốc gia." },
       { q: "Tờ báo đầu tiên của cách mạng VN?", a: "Báo Thanh Niên do Nguyễn Ái Quốc sáng lập tại Quảng Châu (Trung Quốc) ngày 21/6/1925." },
           { q: "Báo chí cách mạng khác báo thường?", a: "Là truyền thống báo chí gắn với độc lập dân tộc từ 1925 — khác với báo chí thương mại thuần túy." },
+      { q: "Giải báo chí lớn nhất của Việt Nam là gì?", a: "Giải Báo chí Quốc gia — trao hằng năm cho nhóm tác phẩm xuất sắc nhất trên báo in, báo điện tử, phát thanh, truyền hình và ảnh báo chí. Bên cạnh đó còn Giải Búa liềm vàng dành riêng cho tác phẩm về xây dựng Đảng." },
     ],
   },
   {
@@ -2268,10 +2294,10 @@ export const holidays: Holiday[] = [
     meaning:
       "Ngày Người cao tuổi là ngày chúng ta cúi đầu trước những mái tóc bạc: ông bà, cha mẹ — những người đã đi qua chiến tranh, đói khổ, và dựng nên gia đình. 'Kính lão đắc thọ' không phải tục lễ mà là chuẩn sống.",
     traditions: [
-      { title: "Mừng thọ", text: "Gia đình tổ chức mừng thọ cho cụ ông, cụ bà — con cháu tề tựu chúc phúc." },
-      { title: "Thăm hỏi người già", text: "Đoàn thể, khu phố thăm hỏi, tặng quà người cao tuổi neo đơn." },
-      { title: "Hoạt động hội người cao tuổi", text: "Hội người cao tuổi tổ chức văn nghệ, khám sức khỏe, tọa đàm." },
-      { title: "Con cháu về quê", text: "Nhiều gia đình chọn ngày 1/10 để các cháu xa quê về thăm ông bà." },
+      { title: "Mừng thọ", text: "Tục mừng thọ tổ chức ở các mốc 60 (hồi giáp), 70, 77 (hi thọ), 80, 88 (mễ thọ), 90, 99 (bạch thọ) và 100 tuổi — con cháu tề tựu dâng trầu, áo đỏ, câu đối chúc thọ. Nhiều gia đình gộp mừng thọ vào dịp Tết hoặc ngày 1/10 cho đông đủ." },
+      { title: "Thăm hỏi người già", text: "Hội Người cao tuổi cơ sở đi từng ngõ tặng quà các cụ bước sang 80, 90, 100 tuổi — hộp sữa, chăn ấm, phong bì chúc thọ. Địa phương nào cũng có 'bản đồ cụ thọ' riêng để không bỏ sót nhà nào." },
+      { title: "Hoạt động hội người cao tuổi", text: "Chi hội người cao tuổi là sân chơi thật của người già nông thôn: thơ, cờ tướng, dưỡng sinh, múa hát — nhiều hội tổ chức hội thi 'cụ ông cụ bà tài năng' dịp 1/10. Ở thành phố, ngày này gắn với chủ đề 'sống vui, sống khỏe' tuổi vàng." },
+      { title: "Con cháu về quê", text: "Ngày 1/10 rơi vào khoảng cuối tuần đầu thu — nhiều con cháu đi xa chọn về quê thăm ông bà, gộp mừng thọ vào ngày này. 'Ngày của ông bà' cũng là lời nhắc người trẻ gọi điện thường xuyên hơn cho cụ già ở xa." },
     ],
     wishes: [
       "Kính chúc ông bà sống lâu trăm tuổi, tâm thanh thản!",
@@ -2314,6 +2340,7 @@ export const holidays: Holiday[] = [
       { q: "1/10 có phải ngày nghỉ?", a: "Không — là ngày kỷ niệm xã hội, không phải ngày nghỉ lễ." },
       { q: "Ngày này cùng ngày Quốc tế Người cao tuổi?", a: "Đúng — Việt Nam lấy 1/10, cùng ngày Liên Hợp Quốc chọn từ 1991." },
           { q: "Mừng thọ ở tuổi nào?", a: "Thường 70, 80, 90, 100 tuổi — tùy gia đình và truyền thống vùng miền." },
+      { q: "Ngày Người cao tuổi Việt Nam là ngày nào?", a: "Ngoài Ngày Quốc tế Người cao tuổi 1/10 do Liên Hợp Quốc ấn định, Việt Nam còn có ngày riêng: 6/6 — Ngày Người cao tuổi Việt Nam theo Hiến chương Hội Người cao tuổi (từ 2008), kỷ niệm ngày Bác Hồ viết 'Lời kêu gọi người già cả nước'." },
     ],
   },
   {
@@ -2350,10 +2377,10 @@ export const holidays: Holiday[] = [
     meaning:
       "Ngày Doanh nhân Việt Nam là ngày tôn vinh người dám bắt đầu — từ tiểu thương chợ quê đến startup công nghệ. Doanh nhân không chỉ tạo của cải mà tạo việc làm, niềm tin và khí thế của một đất nước đang lớn.",
     traditions: [
-      { title: "Gặp mặt doanh nhân", text: "Hiệp hội doanh nghiệp, Phòng Thương mại tổ chức gặp gỡ, tôn vinh doanh nhân tiêu biểu." },
-      { title: "Diễn đàn khởi nghiệp", text: "Nhiều diễn đàn, workshop khởi nghiệp, chuyển đổi số diễn ra quanh ngày 13/10." },
-      { title: "Vinh danh doanh nghiệp", text: "Giải thưởng Sao Vàng đất Việt, Thánh Gióng và các giải thường trao quanh ngày lễ." },
-      { title: "Hoạt động thiện nguyện", text: "Nhiều doanh nghiệp chọn ngày này làm ngày trách nhiệm xã hội, từ thiện cộng đồng." },
+      { title: "Gặp mặt doanh nhân", text: "Ngày 13/10, các hiệp hội doanh nghiệp — VCCI, phòng thương mại, hội doanh nhân trẻ — tổ chức gặp mặt và diễn đàn CEO. Đây là dịp 'điểm danh' sức khỏe cộng đồng doanh nhân Việt sau mỗi năm biến động." },
+      { title: "Diễn đàn khởi nghiệp", text: "Quanh 13/10 là mùa diễn đàn khởi nghiệp: Techfest, Startup Day, talkshow 'hành trình founder' thu hút giới trẻ kinh doanh. Ngày Doanh nhân trở thành điểm nhấn truyền cảm hứng kinh doanh lớn nhất năm." },
+      { title: "Vinh danh doanh nghiệp", text: "Dịp này trao các giải uy tín: cúp Thánh Gióng cho doanh nhân tiêu biểu, Sao Đỏ cho doanh nghiệp vì cộng đồng, Top 500 doanh nghiệp lớn nhất (VNR500). Bảng vinh danh 13/10 là 'bảng vàng' thường niên của giới kinh doanh." },
+      { title: "Hoạt động thiện nguyện", text: "Bên cạnh vinh danh, nhiều tập đoàn chọn 13/10 làm ngày thiện nguyện chung: trao học bổng, xây nhà tình thương, tài trợ y tế khắp nơi. 'Doanh nhân không chỉ làm giàu' là thông điệp được nhắc lại mỗi năm." },
     ],
     wishes: [
       "Chúc các doanh nhân Việt giữ lửa khởi nghiệp — kinh doanh phát đạt!",
@@ -2392,6 +2419,7 @@ export const holidays: Holiday[] = [
       { q: "13/10 có phải ngày nghỉ?", a: "Không — là ngày kỷ niệm, không phải ngày nghỉ lễ quốc gia." },
       { q: "Từ khi nào có ngày này?", a: "Từ quyết định của Thủ tướng năm 2004 — chọn 13/10 làm Ngày Doanh nhân Việt Nam." },
           { q: "Ngày Doanh nhân có hoạt động gì?", a: "Gặp mặt, giải thưởng, diễn đàn khởi nghiệp và các hoạt động thiện nguyện của doanh nghiệp." },
+      { q: "Giải thưởng nào gắn với Ngày Doanh nhân Việt Nam?", a: "Hai giải được nhắc nhiều nhất: cúp Thánh Gióng do VCCI trao cho doanh nhân tiêu biểu và giải Sao Đỏ cho doanh nhân vì cộng đồng. Nhiều bảng xếp hạng doanh nghiệp (VNR500, Top 10 uy tín) cũng công bố quanh ngày 13/10." },
     ],
   },
   {
@@ -2428,9 +2456,9 @@ export const holidays: Holiday[] = [
     meaning:
       "Dấu mốc thống nhất phong trào cộng sản Việt Nam — từ đây cách mạng có một đảng lãnh đạo duy nhất.",
     traditions: [
-      { title: "Lễ kỷ niệm", text: "Cấp trung ương và địa phương tổ chức lễ kỷ niệm, đặc biệt long trọng vào các năm tròn chẵn." },
-      { title: "Kết nạp đảng viên", text: "Nhiều chi bộ chọn dịp này đứng ra kết nạp đảng viên mới trước cờ Đảng." },
-      { title: "Hoạt động thiện nguyện", text: "Đoàn thể tổ chức ra quân vệ sinh, xây nhà tình nghĩa, đền ơn đáp nghĩa." },
+      { title: "Lễ kỷ niệm", text: "Đảng bộ các cấp từ xã phường đến trung ương tổ chức lễ kỷ niệm trang trọng ngày 3/2: ôn lại hội nghị hợp nhất ba tổ chức cộng sản tại Cửu Long (Hồng Kông) năm 1930, diễn văn về chặng đường hơn 90 năm, chiếu phim tư liệu." },
+      { title: "Kết nạp đảng viên", text: "Ngày Thành lập Đảng là 'mùa kết nạp': nhiều thanh niên ưu tú, chiến sĩ, công nhân giỏi được kết nạp đảng viên trong buổi lễ trang trọng — khoảnh khắc được coi là 'ngày sinh thứ hai' của mỗi người." },
+      { title: "Hoạt động thiện nguyện", text: "Chi bộ, đảng bộ cơ sở tổ chức ngày thiện nguyện quanh 3/2: dọn vệ sinh môi trường, trồng cây, hiến máu, thăm gia đình chính sách. 'Mỗi đảng viên một việc tử tế' là khẩu hiệu quen thuộc ngày này." },
     ],
     wishes: [
       "Nhân ngày thành lập Đảng 3/2, chúc đất nước đoàn kết, thịnh vượng.",
@@ -2471,6 +2499,7 @@ export const holidays: Holiday[] = [
       { q: "3/2 có được nghỉ lễ không?", a: "Không — đây là ngày kỷ niệm chính trị, không nằm trong danh sách ngày nghỉ lễ theo Bộ luật Lao động." },
       { q: "Đảng Cộng sản Việt Nam thành lập ở đâu?", a: "Tại hội nghị hợp nhất ở Cửu Long, Hồng Kông, ngày 3/2/1930 do Nguyễn Ái Quốc chủ trì." },
       { q: "Ba tổ chức nào hợp nhất thành Đảng?", a: "Đông Dương Cộng sản Đảng, An Nam Cộng sản Đảng và Đông Dương Cộng sản Liên đoàn." },
+      { q: "Đại hội đầu tiên của Đảng tổ chức khi nào?", a: "Đại hội lần thứ I diễn ra từ 27–31/3/1935 tại Ma Cao — năm năm sau ngày thành lập (3/2/1930). Hội nghị hợp nhất ở Hồng Kông năm 1930 được coi là 'đại hội thành lập' nhưng Đại hội chính thức đầu tiên là 1935." },
     ],
   },
   {
@@ -2507,9 +2536,9 @@ export const holidays: Holiday[] = [
     meaning:
       "Biểu tượng của ý chí độc lập — trận đánh khiến một cường quốc thực dân phải ngồi vào bàn đàm phán.",
     traditions: [
-      { title: "Viếng nghĩa trang A1", text: "Đồi A1 tại TP. Điện Biên Phủ — nơi hàng nghìn liệt sĩ an nghỉ, luôn đông hương khói dịp 7/5." },
-      { title: "Lễ kỷ niệm tại Điện Biên", text: "Các năm tròn chẵn tổ chức lễ mít tinh, diễu binh và lễ hội lớn tại nơi diễn ra chiến dịch." },
-      { title: "Tư liệu và triển lãm", text: "Báo chí, bảo tàng mở lại bản đồ tác chiến, ảnh tư liệu về 56 ngày đêm khoét núi." },
+      { title: "Viếng nghĩa trang A1", text: "Nghĩa trang liệt sĩ Điện Biên Phủ trên đồi D1 (TP. Điện Biên Phủ) đón các đoàn cựu chiến binh và con cháu về viếng — đông nhất trong tuần lễ 7/5. Nghi thức dâng vòng hoa, thắp hương trước các ngôi mộ là hình ảnh quen thuộc của ngày chiến thắng." },
+      { title: "Lễ kỷ niệm tại Điện Biên", text: "Tỉnh Điện Biên tổ chức lễ kỷ niệm hằng năm; các năm tròn (60, 65, 70 năm) nâng lên cấp quốc gia — năm 2024, lễ 70 năm có diễu binh và triển lãm quy mô lớn nhất vùng Tây Bắc từ trước đến nay." },
+      { title: "Tư liệu và triển lãm", text: "Bảo tàng Điện Biên Phủ và các thư viện mở triển lãm tư liệu: bản đồ hầm chỉ huy De Castries, thư từ lính thời, ảnh Đoàn 559 kéo pháo qua rừng. Ngày 7/5 là lúc tư liệu lịch sử 'sống lại' với công chúng hiện đại." },
     ],
     wishes: [
       "7/5 — tự hào Điện Biên, tự hào những người đã kéo pháo qua rừng.",
@@ -2549,6 +2578,7 @@ export const holidays: Holiday[] = [
       { q: "7/5 có phải ngày nghỉ lễ?", a: "Không — ngày kỷ niệm chiến thắng, không phải ngày nghỉ quốc gia theo Bộ luật Lao động." },
       { q: "Chiến dịch Điện Biên Phủ kéo dài bao lâu?", a: "56 ngày đêm, từ 13/3/1954 đến chiều 7/5/1954." },
       { q: "Ai chỉ huy chiến dịch phía Việt Nam?", a: "Đại tướng Võ Nguyên Giáp — Tư lệnh kiêm Chính ủy chiến dịch; phía Pháp là tướng Henri Navarre và chỉ huy cứ điểm De Castries." },
+      { q: "Chiến thắng Điện Biên Phủ dẫn đến điều gì?", a: "Chiến thắng 7/5/1954 buộc Pháp phải ký Hiệp định Genève (20–21/7/1954) chấm dứt chiến tranh Đông Dương — miền Bắc được giải phóng hoàn toàn. Đây là trận quyết chiến cuối cùng của cuộc kháng chiến chống Pháp." },
     ],
   },
   {
@@ -2585,9 +2615,9 @@ export const holidays: Holiday[] = [
     meaning:
       "Ngày cả nước quay về Kim Liên trong lòng — tri ân con người đã đi tìm đường cho dân tộc.",
     traditions: [
-      { title: "Viếng lăng Bác", text: "Hàng vạn người vào Ba Đình viếng lăng Chủ tịch Hồ Chí Minh trong tuần quanh 19/5." },
-      { title: "Về nguồn Kim Liên", text: "Làng Hoàng Trù — Chùa Chung, Nam Đàn, Nghệ An đón đoàn đại biểu và du khách về dâng hương." },
-      { title: "Văn nghệ về Bác", text: "Ca khúc, đêm thơ và triển lãm tư liệu tưởng nhớ cuộc đời Người." },
+      { title: "Viếng lăng Bác", text: "Từ sáng sớm 19/5, hàng ngàn người xếp hàng vào Lăng Chủ tịch — đoàn nào cũng nghiêm chỉnh mang vòng hoa. Ngày sinh nhật Bác là một trong những ngày Lăng đông khách nhất năm cùng với Quốc khánh 2/9." },
+      { title: "Về nguồn Kim Liên", text: "Làng Hoàng Trù – Kim Liên (Nam Đàn, Nghệ An), nơi Bác sinh ra, đón đoàn 'về nguồn' đông nhất năm dịp 19/5: dâng hoa trước nhà lá quê nội, thắp hương nhà ngoại, nghe hát ví giặm suốt ngày." },
+      { title: "Văn nghệ về Bác", text: "Các cuộc thi 'hát về Bác', 'kể chuyện Bác' nở rộ khắp trường học, xã phường quanh ngày 19/5. Sách, phim, tư liệu về cuộc đời Người được giới thiệu lại với thế hệ trẻ qua những câu chuyện gần gũi nhất." },
     ],
     wishes: [
       "Kính nhớ Bác — người dạy ta biết yêu đất nước bằng cả cuộc đời mình.",
@@ -2627,6 +2657,7 @@ export const holidays: Holiday[] = [
       { q: "19/5 có được nghỉ lễ không?", a: "Không — ngày kỷ niệm sinh nhật Chủ tịch Hồ Chí Minh, không phải ngày nghỉ lễ theo Bộ luật Lao động." },
       { q: "Bác Hồ sinh ở đâu?", a: "Làng Hoàng Trù, xã Kim Liên, huyện Nam Đàn, tỉnh Nghệ An — nơi nay là khu di tích quốc gia đặc biệt." },
       { q: "Lăng Bác mở cửa khi nào?", a: "Sáng thứ Ba, Tư, Năm, Bảy và Chủ nhật hằng tuần (trừ khoảng thời gian bảo dưỡng hằng năm); riêng dịp 19/5 thường có lịch mở riêng — kiểm tra thông báo của Ban Quản lý Lăng." },
+      { q: "Tên thật của Bác Hồ là gì?", a: "Bác sinh ngày 19/5/1890 tại Kim Liên với tên khai sinh Nguyễn Sinh Cung; sau đó đổi nhiều lần — Nguyễn Tất Thành, Nguyễn Ái Quốc — và cuối cùng là Hồ Chí Minh, cái tên gắn với Tuyên ngôn Độc lập 1945." },
     ],
   },
   {
@@ -2663,9 +2694,9 @@ export const holidays: Holiday[] = [
     meaning:
       "Khoảnh khắc chuyển giao của lịch sử — từ hơn tám mươi năm thuộc địa sang nền độc lập của dân tộc.",
     traditions: [
-      { title: "Lễ kỷ niệm tại Nhà hát Lớn", text: "Quảng trường Cách mạng tháng Tám trước Nhà hát Lớn Hà Nội — nơi diễn ra cuộc mít tinh lịch sử 19/8/1945." },
-      { title: "Diễu hành và treo cờ", text: "Phố phường treo cờ Tổ quốc; các năm tròn chẵn có lễ diễu binh, diễu hành lớn." },
-      { title: "Sinh hoạt truyền thống", text: "19/8 cũng là ngày truyền thống của lực lượng Công an nhân dân — nhiều hoạt động gắn đôi hai sự kiện." },
+      { title: "Lễ kỷ niệm tại Nhà hát Lớn", text: "Nhà hát Lớn Hà Nội — nơi mít tinh 19/8/1945 với hàng chục vạn người nghe kêu gọi Tổng khởi nghĩa — là nơi tổ chức lễ kỷ niệm chính thức hằng năm. Quảng trường trước nhà hát mang tên Quảng trường Cách mạng Tháng Tám là 'địa chỉ đỏ' của ngày này." },
+      { title: "Diễu hành và treo cờ", text: "Phố phường thủ đô treo cờ đỏ sao vàng suốt tuần lễ 19/8; các đoàn thanh niên diễu hành băng rôn 'Không có gì quý hơn độc lập, tự do' qua phố đi bộ. Ở các tỉnh, lễ kỷ niệm gắn với ngày truyền thống cách mạng của chính địa phương." },
+      { title: "Sinh hoạt truyền thống", text: "Các đoàn thể, trường học tổ chức buổi nói chuyện 'Tháng Tám': kể chuyện đoàn quân tiến về Hà Nội, chiếc kèn đồng tổng khởi nghĩa, già làng dẫn đầu thôn lên nhận chính quyền. 19/8 cũng là ngày truyền thống của lực lượng Công an nhân dân." },
     ],
     wishes: [
       "Tự hào tháng Tám! Chúc đất nước mãi giữ được ngọn cờ độc lập năm xưa.",
@@ -2705,6 +2736,7 @@ export const holidays: Holiday[] = [
       { q: "19/8 có phải ngày nghỉ lễ?", a: "Không — ngày kỷ niệm Cách mạng tháng Tám, không phải ngày nghỉ quốc gia theo Bộ luật Lao động." },
       { q: "Cách mạng tháng Tám là ngày nào?", a: "Cao trào Tổng khởi nghĩa 14–25/8/1945; 19/8/1945 là ngày giành chính quyền tại Hà Nội — được chọn làm ngày kỷ niệm." },
       { q: "Vì sao 19/8 là ngày truyền thống Công an?", a: "Ngày 19/8/1945, lực lượng cách mạng giành Sở Mật thám và Ty Bắc bộ — tiền thân ngành công an được tính từ mốc đó." },
+      { q: "Mít tinh 19/8/1945 diễn ra ở đâu?", a: "Tại quảng trường trước Nhà hát Lớn Hà Nội — nơi quần chúng tập hợp nghe đọc lời kêu gọi Tổng khởi nghĩa rồi tiến chiếm các cơ sở chính quyền. Quảng trường này sau được đặt tên Quảng trường Cách mạng Tháng Tám." },
     ],
   },
   {
@@ -2741,9 +2773,9 @@ export const holidays: Holiday[] = [
     meaning:
       "Ngày Hà Nội trở về tay dân tộc — kết thúc một trang sử để mở trang mới của Thủ đô và đất nước.",
     traditions: [
-      { title: "Lễ kỷ niệm tại Hà Nội", text: "Các năm tròn chẵn (60, 70 năm) tổ chức lễ kỷ niệm cấp quốc gia với diễu binh và lễ hội đường phố." },
-      { title: "Treo cờ rực phố", text: "Phố phường Hà Nội rợp cờ đỏ; điểm chụp hình truyền thống là cột cờ thành Hà Nội." },
-      { title: "Triển lãm 'Hà Nội nhớ'", text: "Bảo tàng Hà Nội, các trường đại học mở triển lãm ảnh về ngày tiếp quản 10/10/1954." },
+      { title: "Lễ kỷ niệm tại Hà Nội", text: "Lễ kỷ niệm cấp thành phố tổ chức tại Trung tâm Hội nghị quốc gia hoặc Nhà hát Lớn; năm 2024, đại lễ 70 năm là sự kiện lớn nhất của thủ đô với diễu binh, triển lãm và đêm nhạc 'Hà Nội — niềm tin và hy vọng'." },
+      { title: "Treo cờ rực phố", text: "Phố cổ Hà Nội ngập trong cờ đỏ những ngày 10/10 — cờ trên nóc ngói cổ, cờ dọc Hàng Đào – Hàng Ngang, nơi đoàn quân giải phóng tiến vào năm 1954. Ngành du lịch mở tour 'theo bước tiếp quản' cho du khách." },
+      { title: "Triển lãm 'Hà Nội nhớ'", text: "Bảo tàng Hà Nội và phố sách 19/12 mở triển lãm ảnh 'Hà Nội tiếp quản': xe đạp chở bộ đội, cửa hàng mở lại ngày đầu, thư gia đình báo tin vui. Phần 'câu chuyện người ở lại' luôn được quan tâm nhất." },
     ],
     wishes: [
       "10/10 — chúc Hà Nội mãi là trái tim kiêu hãnh của đất nước.",
@@ -2783,6 +2815,7 @@ export const holidays: Holiday[] = [
       { q: "10/10 có được nghỉ lễ không?", a: "Không — là ngày kỷ niệm, không phải ngày nghỉ quốc gia theo Bộ luật Lao động." },
       { q: "Ngày Giải phóng Thủ đô kỷ niệm sự kiện gì?", a: "Ngày 10/10/1954, Quân đội nhân dân Việt Nam tiếp quản Hà Nội sau khi quân Pháp rút theo Hiệp định Genève." },
       { q: "Cờ Tổ quốc kéo lên ở đâu ngày đó?", a: "Trên cột cờ thành Hà Nội (Kỳ đài) — khu di tích Hoàng thành Thăng Long, quận Ba Đình." },
+      { q: "Năm 2024 kỷ niệm bao nhiêu năm Giải phóng Thủ đô?", a: "70 năm (1954–2024) — với lễ kỷ niệm cấp quốc gia, diễu binh trên đường phố, triển lãm 'Hà Nội 70 năm' và đêm nhạc lớn tại quảng trường. Đây là dấu mốc lớn gần nhất của ngày này cho đến kỷ niệm 80 năm (2034)." },
     ],
   },
   {
@@ -2820,10 +2853,10 @@ export const holidays: Holiday[] = [
     meaning:
       "Nhắc mỗi người rằng đọc sách là thói quen nuôi tri thức bền nhất — và cùng xây một 'văn hóa đọc' cho cả xã hội.",
     traditions: [
-      { title: "Giờ đọc chung", text: "Trường học, cơ quan cùng đọc sách 10–15 phút trong ngày 21/4." },
-      { title: "Hội sách, ngày hội sách", text: "Đường sách TP.HCM, hội chợ sách Hà Nội và các tỉnh mở gian hàng ưu đãi." },
-      { title: "Tặng sách, xây tủ sách", text: "Vận động quyên góp sách cho thư viện trường học, cộng đồng và vùng khó khăn." },
-      { title: "Ra mắt sách, gặp tác giả", text: "Buổi giới thiệu sách mới, ký tặng và trò chuyện cùng nhà văn, dịch giả." },
+      { title: "Giờ đọc chung", text: "Năm nào ngày 21/4 cũng có 'giờ đọc chung' toàn quốc — trường học, cơ quan, thư viện cùng dừng lại 15–30 phút mở sách đọc. Chiến dịch lan từ tỉnh thành xuống trường học và các cộng đồng đọc." },
+      { title: "Hội sách, ngày hội sách", text: "Tuần sách quanh 21/4 nở rộ hội sách: Đường sách TP.HCM, phố sách 19/12 Hà Nội, hội sách thiếu nhi — giảm giá sâu, gặp tác giả, triển lãm 'sách thay đổi thế giới'. Nhiều tỉnh tổ chức hội sách cấp tỉnh lần đầu vào dịp này." },
+      { title: "Tặng sách, xây tủ sách", text: "Các quỹ thiện nguyện và trường học mở 'tuần tặng sách': thu gom sách cũ gửi vùng cao, xây tủ sách lớp học, gây quỹ thư viện xã. Ngày 21/4 cũng là dịp gia đình chọn sách để bắt đầu 'truyền thống đọc' cho con." },
+      { title: "Ra mắt sách, gặp tác giả", text: "Các nhà xuất bản chọn Ngày Sách ra mắt tựa mới — sinh hoạt tác giả – độc giả trực tiếp tại nhà sách hoặc qua livestream. Các buổi 'gặp tác giả' dịp 21/4 luôn thu hút độc giả trẻ xếp hàng xin chữ ký." },
     ],
     wishes: [
       "21/4 — chúc bạn luôn có một quyển sách hay chờ sẵn trên đầu giường.",
@@ -2900,10 +2933,10 @@ export const holidays: Holiday[] = [
     meaning:
       "Khắc ghi lời Bác 'mạnh khỏe để làm việc' — mỗi người khỏe là một phần sức mạnh của cả dân tộc.",
     traditions: [
-      { title: "Ngày chạy Olympic", text: "Chạy bộ tập thể ở tất cả tỉnh thành vào dịp cuối tháng 3." },
-      { title: "Thể dục buổi sáng", text: "Văn hóa công viên sáng sớm: dưỡng sinh, khiêu vũ, cầu mây, đạp xe quanh hồ." },
-      { title: "Giải thể thao phong trào", text: "Hội khỏe Phù Đổng ở trường học, giải bóng đá, cầu lông, võ thuật cơ sở." },
-      { title: "Vinh danh thành tích", text: "Biểu dương vận động viên, huấn luyện viên tiêu biểu của năm." },
+      { title: "Ngày chạy Olympic", text: "Ngày chạy Olympic vì sức khỏe toàn dân — truyền thống hơn 30 năm — diễn ra sáng chủ nhật gần ngày 27/3 tại hàng trăm điểm đồng loạt khắp cả nước. Từ học sinh đến cụ ông cùng ra đường chạy 'vì sức khỏe' là bức tranh đẹp nhất ngày này." },
+      { title: "Thể dục buổi sáng", text: "Ngày Thể thao nhắc lại thói quen 'thể dục buổi sáng' mà Bác Hồ từng kêu gọi — các công viên sáng 27/3 đông đặc hơn thường nhật với lớp dưỡng sinh, dân vũ, yoga công cộng miễn phí." },
+      { title: "Giải thể thao phong trào", text: "Hội khỏe Phù Đổng của thiếu nhi, giải chạy xã phường, giải cầu lông đơn vị — phong trào 'toàn dân rèn luyện thân thể theo gương Bác' sôi nổi nhất vào tháng 3. Ngày Thể thao là mốc mở mùa giải quần chúng cả năm." },
+      { title: "Vinh danh thành tích", text: "Dịp này, ngành thể thao tổng kết và vinh danh vận động viên đoạt huy chương quốc tế — SEA Games, ASIAD, Olympic. Ngày 27/3 được chọn vì ngày 27/3/1946 Bác Hồ ký sắc lệnh về thể dục thể thao — ngày khai sinh thể thao nước nhà." },
     ],
     wishes: [
       "27/3 — chúc bạn luôn khỏe như vận động viên, chơi hết mình, sống hết mình.",
@@ -2981,10 +3014,10 @@ export const holidays: Holiday[] = [
     meaning:
       "Nhắc nguyên tắc căn bản nhất của xã hội hiện đại: nhà nước quản lý xã hội bằng pháp luật — và không ai được đứng trên pháp luật.",
     traditions: [
-      { title: "Phổ biến pháp luật", text: "Truyền thông, tổ tuyên truyền và hội nghị phổ biến luật mới đến tận thôn bản, phường xã." },
-      { title: "Tư vấn pháp luật miễn phí", text: "Luật sư, cán bộ tư pháp giải đáp miễn phí về đất đai, hôn nhân, lao động cho người dân." },
-      { title: "Đố vui pháp luật ở trường học", text: "Câu đố, tiểu phẩm và sinh hoạt chủ đề giúp học sinh hiểu quyền và nghĩa vụ công dân." },
-      { title: "Vinh danh người làm luật", text: "Biểu dương cán bộ tư pháp, thanh tra, luật sư có thành tích đưa luật vào đời sống." },
+      { title: "Phổ biến pháp luật", text: "Ngày 9/11, 'ngày pháp luật' là hoạt động chính: đội tuyên truyền phát tờ rơi về luật mới, pano biển luật treo khắp nơi, các lớp tập huấn Luật Đất đai, Luật Hôn nhân và gia đình mở ra tại từng xã phường." },
+      { title: "Tư vấn pháp luật miễn phí", text: "Quầy tư vấn luật miễn phí được dựng ở chùa, đình, trung tâm hành chính: luật sư tình nguyện giải đáp về đất đai, lao động, hôn nhân — những vấn đề người dân hỏi nhiều nhất. Đây là hoạt động thiết thực nhất của ngày này." },
+      { title: "Đố vui pháp luật ở trường học", text: "Trường học tổ chức cuộc thi 'Tìm hiểu pháp luật' với các câu đố tình huống gần gũi: đi xe máy không mũ bảo hiểm, hợp đồng lao động, cư xử trên mạng xã hội — học sinh học luật qua trò chơi thay vì bài giảng." },
+      { title: "Vinh danh người làm luật", text: "Ngành tư pháp gặp mặt truyền thống: vinh danh người soạn luật, thẩm phán, luật sư, cán bộ pháp chế tiêu biểu — và nhắc lại ngày Quốc hội khóa I thông qua Hiến pháp đầu tiên ngày 9/11/1946." },
     ],
     wishes: [
       "9/11 — chúc bạn sống thật tự do trong khuôn khổ thật rõ ràng.",
@@ -3061,10 +3094,10 @@ export const holidays: Holiday[] = [
     meaning:
       "Vinh danh những người làm kinh tế — từ bà bán chợ đến doanh nghiệp xuất khẩu — nghề đã đưa hàng Việt và chữ 'Việt Nam' ra bản đồ thế giới.",
     traditions: [
-      { title: "Hội chợ thương mại", text: "Vietnam Expo, hội chợ tỉnh thành và các triển lãm xúc tiến thương mại dồn về giữa năm." },
-      { title: "Vinh danh doanh nghiệp", text: "Biểu dương doanh nghiệp xuất khẩu, hàng Việt chất lượng cao và thương hiệu quốc gia." },
-      { title: "Tọa đàm xuất nhập khẩu", text: "Nghiệp đoàn, hiệp hội ngành hàng bàn chính sách, thị trường và thương mại điện tử." },
-      { title: "Tuần hàng Việt", text: "Các chiến dịch 'Người Việt dùng hàng Việt' khuyến khích tiêu dùng nội." },
+      { title: "Hội chợ thương mại", text: "Quanh 13/7 và suốt mùa hè là mùa hội chợ: Vietnam Expo, VietFood và hội chợ cấp tỉnh — gian hàng 'hàng Việt' chính hiệu trưng bày sản phẩm xuất khẩu, đặc sản OCOP của từng địa phương. Đây là 'ngày hội' của mặt trận thương mại nước nhà." },
+      { title: "Vinh danh doanh nghiệp", text: "Ngày Thương mại gắn với vinh danh doanh nghiệp xuất khẩu giỏi: giải 'doanh nghiệp xuất khẩu tin cậy', top doanh nghiệp FDI xuất khẩu lớn. Khác 13/10 vinh danh con người doanh nhân, ngày này vinh danh tổ chức làm thương mại." },
+      { title: "Tọa đàm xuất nhập khẩu", text: "Bộ Công Thương và các hiệp hội chế biến xuất khẩu tổ chức tọa đàm quanh ngày này: xu hướng thị trường EU – Mỹ – Nhật, tận dụng EVFTA, thương mại điện tử xuyên biên giới — những chủ đề nóng của xuất khẩu Việt." },
+      { title: "Tuần hàng Việt", text: "'Tuần lễ hàng Việt' cùng chương trình 'Người Việt ưu tiên dùng hàng Việt' diễn ra dịp 13/7: siêu thị giảm giá hàng nội, ngày hội mua sắm đặc sản vùng miền — đưa 'hàng Việt Nam' đến với người Việt trước tiên." },
     ],
     wishes: [
       "13/7 — chúc người làm ăn gặp nhiều may, mua may bán đắt, phát tài phát lộc.",
@@ -3142,10 +3175,10 @@ export const holidays: Holiday[] = [
     meaning:
       "Ngày nhắc tuổi trẻ về truyền thống xung kích hơn chín mươi năm — từ Lý Tự Trọng đến thanh niên xung phong, đến mùa hè xanh và khởi nghiệp hôm nay.",
     traditions: [
-      { title: "Kết nạp đoàn viên mới", text: "Lễ kết nạp cho đoàn viên mới tổ chức long trọng vào tháng 3 — mở đầu 'Tháng Thanh niên'." },
-      { title: "Tháng Thanh niên", text: "Cả tháng 3 là 'Tháng Thanh niên' với chiến dịch tình nguyện, đô thị văn minh, khởi nghiệp khắp nước." },
-      { title: "Mít tinh, gặp mặt truyền thống", text: "Đoàn viên cũ gặp lại đoàn viên trẻ, kể chuyện TNXP, chuyến hải trình không số." },
-      { title: "Tình nguyện xây dựng", text: "Mùa hè xanh, xuân tình nguyện, tiếp sức mùa thi — tuổi trẻ đi làm thật, không chỉ hô khẩu hiệu." },
+      { title: "Kết nạp đoàn viên mới", text: "Ngày Thành lập Đoàn là 'ngày đẹp nhất' để kết nạp đoàn viên: học sinh lớp 9 trở lên đứng trước lá cờ đoàn đọc lời hứa — khoảnh khắc 'trưởng thành đầu tiên' mà nhiều người nhớ cả đời." },
+      { title: "Tháng Thanh niên", text: "Từ năm 2004, tháng 3 trở thành 'Tháng Thanh niên': tình nguyện xây dựng, hiến máu, trồng cây, làm sạch biển — tuổi trẻ cả nước ra quân cùng một màu áo xanh. Ngày 26/3 là đỉnh của tháng hoạt động này." },
+      { title: "Mít tinh, gặp mặt truyền thống", text: "Lễ kỷ niệm trang trọng đọc lại lịch sử Đoàn từ ngày 26/3/1931 tại Vinh, nhớ Lý Tự Trọng — đoàn viên đầu tiên hy sinh khi mới 17 tuổi — và gặp mặt các thế hệ đoàn viên qua từng thời kỳ." },
+      { title: "Tình nguyện xây dựng", text: "Tuyến đường thanh niên, cầu dân sinh, nhà văn hóa do đoàn viên tình nguyện xây dựng là 'sản phẩm' truyền thống của Đoàn: từ con đường Hồ Chí Minh huyền thoại đến những tuyến 'Đoàn về quê' làm đường làng ngày nay." },
     ],
     wishes: [
       "26/3 — chúc tuổi trẻ của bạn luôn có một chỗ đứng xung kích cho riêng mình.",
@@ -3223,10 +3256,10 @@ export const holidays: Holiday[] = [
     meaning:
       "Tôn vinh thi ca — loại hình nghệ thuật gắn bó lâu nhất với văn hóa Việt: từ ca dao ru con, thơ Đường luật đến Truyện Kiều và thơ mới.",
     traditions: [
-      { title: "Đêm thơ Văn Miếu", text: "Buổi tối rằm Giêng tại Văn Miếu — Quốc Tử Giám: đọc thơ, ca trù, hòa nhạc và triển lãm thơ." },
-      { title: "Đọc thơ cùng nhau", text: "Câu lạc bộ thơ, trường học, thư viện cùng mở buổi đọc — bài nào cũng được, miễn là thơ." },
-      { title: "Chủ đề năm", text: "Hội Nhà văn chọn chủ đề cho năm sáng tác — từ 'Quê hương' đến 'Tuổi trẻ và biển'." },
-      { title: "Vinh danh nhà thơ", text: "Giải thưởng thơ của năm, cuộc thi thơ mới và tưởng nhớ các danh thi đã khuất." },
+      { title: "Đêm thơ Văn Miếu", text: "Đêm thơ Văn Miếu – Quốc Tử Giám tổ chức tối rằm tháng Giêng tại sân Giếng Văn dưới chân Khuê Văn Các: nhà thơ lớn, thiếu nhi, thi sĩ dân gian cùng đọc thơ dưới nến và trăng rằm đầu năm — đêm thi ca lớn nhất nước." },
+      { title: "Đọc thơ cùng nhau", text: "Quán cà phê thơ, câu lạc bộ thi ca, trường học tổ chức 'giờ thơ' riêng: mỗi người mang một bài yêu thích đến đọc cho nhau nghe. Trong một đêm, thơ Việt trở về đúng nghĩa 'sinh hoạt cộng đồng'." },
+      { title: "Chủ đề năm", text: "Mỗi năm Hội Nhà văn Việt Nam chọn một chủ đề cho Ngày thơ — 'Thơ và quê hương', 'Thơ mùa xuân' chẳng hạn — và các cuộc thi sáng tác, triển lãm thi pháp xoay quanh chủ đề ấy suốt tuần lễ." },
+      { title: "Vinh danh nhà thơ", text: "Ngày này cũng là dịp tuyên dương những thi sĩ được yêu mến và trao giải thơ trong năm — Nguyễn Du, Xuân Quỳnh, thế hệ 'nhân văn giai nhân' được nhắc lại; nhiều trẻ em lần đầu nghe chính giọng mình đọc thơ trước đám đông." },
     ],
     wishes: [
       "Rằm Giêng — chúc bạn một năm sống chậm lại đủ để nghe thấy vần điệu của đời mình.",
@@ -3307,10 +3340,10 @@ export const holidays: Holiday[] = [
     meaning:
       "Bù lại cho những người đàn ông ít được nói lời cảm ơn — ngày nhắc chúng ta chú ý đến sức khỏe, cảm xúc và vai trò của nam giới.",
     traditions: [
-      { title: "Lời chúc cho nam giới", text: "Ngày gửi lời cảm ơn đến cha, anh, chồng, đồng nghiệp nam — đơn giản mà ít ai làm." },
-      { title: "Chủ đề sức khỏe", text: "Chiến dịch khám sức khỏe, tư vấn tinh thần và vận động nam giới từ các tổ chức y tế." },
-      { title: "Tôn vinh hình mẫu", text: "Câu chuyện về người cha, người thầy, người đồng đội có ảnh hưởng tốt được chia sẻ rộng." },
-      { title: "Cặp với 8/3", text: "Ở nhiều nước, 19/11 được xem là 'đối ứng' của 8/3 — ngày để nam giới cũng được tặng hoa, tặng quà." },
+      { title: "Lời chúc cho nam giới", text: "Con cái, vợ và người yêu gửi lời chúc ngày 19/11 cho bố, chồng, anh trai — ngày này chưa 'đậm nét' như 8/3 nhưng ngày càng được nhắc đến: 'chúc bố luôn khỏe' là tin nhắn quen thuộc nhất." },
+      { title: "Chủ đề sức khỏe", text: "Mỗi năm Ngày Quốc tế Nam giới chọn một chủ đề về sức khỏe đàn ông: ung thư tiền liệt tuyến, sức khỏe tâm thần nam giới — gắn với phong trào Movember (nuôi râu xuyên tháng 11) gây quỹ sức khỏe nam toàn cầu." },
+      { title: "Tôn vinh hình mẫu", text: "Ngày này tìm và kể những hình mẫu nam giới tích cực: bố đơn thân nuôi con, nam y tá tận tụy, người đàn ông hiến máu cả trăm lần — 'tấm gương đàn ông tốt' được nhắc lại và lan tỏa." },
+      { title: "Cặp với 8/3", text: "Ở Việt Nam, 19/11 thường được nhắc như 'ngày đàn ông được đáp lễ' 8/3 — bữa cơm do chính đàn ông nấu, một món quà dành cho bố. Dù không chính thức như Quốc tế Phụ nữ, ngày này đang dần thành nét văn hóa mới." },
     ],
     wishes: [
       "19/11 — chúc người đàn ông của bạn khỏe mạnh, và đủ can đảm để kể khi mình mệt.",

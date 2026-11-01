@@ -42,9 +42,9 @@ export const holidaysEn: Holiday[] = [
     meaning:
       "A moment to close out the year, rest with family, and open a new chapter full of fresh intentions.",
     traditions: [
-      { title: "Countdown to midnight", text: "Many cities hold countdown parties and fireworks at midnight." },
-      { title: "New Year wishes", text: "Exchanging cards and messages wishing health and success." },
-      { title: "New Year plans", text: "Writing goals, taking a short trip, or gathering with family." },
+      { title: "Countdown to midnight", text: "The midnight moment is counted down at central squares — busiest around Hoàn Kiếm Lake (Hanoi) and Nguyễn Huệ Boulevard (HCMC). In recent years both cities have shifted toward light shows, musical fountains and drone displays instead of high-altitude fireworks." },
+      { title: "New Year wishes", text: "People text 'Happy New Year', swap e-cards and post first-of-the-year statuses. Unlike the formal greetings of Tết Nguyên Đán, solar New Year wishes are casual and friendly, usually paired with countdown-night photos." },
+      { title: "New Year plans", text: "Many young people write down resolutions — a new skill, more books, running, saving — even though the solar New Year is just a one-day break. Friend groups kick off 'first writing of the year' challenges as a promise to themselves." },
     ],
     wishes: [
       "Happy New Year — may you enjoy peace, prosperity and everything you wish for!",
@@ -84,6 +84,7 @@ export const holidaysEn: Holiday[] = [
       { q: "How many days off is New Year's Day?", a: "Under the Labor Code, workers get one day off on January 1; if it falls on a weekend, a compensatory day is usually added." },
       { q: "What's the difference between New Year's Day and Tết?", a: "New Year's Day is January 1 on the international calendar; Tết (Lunar New Year) is the first day of the first lunar month — Vietnam's biggest holiday." },
       { q: "Are there fireworks?", a: "Hanoi, Ho Chi Minh City and many localities usually hold firework displays on the night of December 31." },
+      { q: "Which country greets the New Year first?", a: "Kiribati — specifically Kiritimati (Christmas Island) in the UTC+14 zone — welcomes the New Year about seven hours before Vietnam. Samoa and Tonga are also among the first to celebrate each year." },
     ],
   },
   {
@@ -136,10 +137,10 @@ export const holidaysEn: Holiday[] = [
     meaning:
       "Tết is the handover between the old year and the new — a time of reunion, filial reverence and hope.",
     traditions: [
-      { title: "Wrapping bánh chưng & bánh tét", text: "Families gather to wrap and simmer the sticky-rice cakes through the night before Tết." },
-      { title: "Lucky money (lì xì)", text: "Elders give children red envelopes of new banknotes for luck." },
-      { title: "New Year visits", text: "Day one for father's family, day two for mother's, day three for teachers." },
-      { title: "Red couplets & blossoms", text: "Homes are decorated with red calligraphy and peach or apricot blossoms." },
+      { title: "Wrapping bánh chưng & bánh tét", text: "From the 26th to the 29th of the last lunar month, families gather to wrap cakes — soaked sticky rice, washed lá dong leaves, layers of mung bean and pork. The pot simmering 8–12 hours through the night is the most familiar Tết scene in every household." },
+      { title: "Lucky money (lì xì)", text: "Fresh banknotes exchanged at the bank weeks before Tết go into red envelopes — the color of luck. Elders give lì xì to children and to aging parents alike, with wishes of health and good grades; the amount matters far less than the gesture." },
+      { title: "New Year visits", text: "Day one belongs to the father's family, day two to the mother's, day three to teachers — an old rhythm still kept today. In the first days of the year every home opens its doors with candied treats, green tea and smiles." },
+      { title: "Red couplets & blossoms", text: "Homes hang red couplets in gold ink — 'Cung chúc tân xuân', 'Phúc như Đông hải'. The North favors pink peach blossoms, the South golden mai flowers; a flowering branch is believed to carry spring itself indoors." },
     ],
     wishes: [
       "Happy New Year — may you have peace, prosperity and everything you wish for!",
@@ -187,6 +188,7 @@ export const holidaysEn: Holiday[] = [
       { q: "When does Tết fall?", a: "Between late January and mid-February on the solar calendar, depending on the lunar year. This site computes the exact solar date for each year." },
       { q: "How long is the Tết holiday?", a: "Workers get 5 official days off for Lunar New Year; in practice it usually runs 7–9 days with compensatory days and weekends." },
       { q: "What is first-footing (xông đất)?", a: "The first person to enter a home after New Year's Eve is believed to influence the household's luck for the whole year." },
+      { q: "Whom do people visit on the first three days of Tết?", a: "The traditional rhythm is 'day one for the father, day two for the mother, day three for teachers': New Year's morning goes to the paternal grandparents, day two to the maternal side, day three to former teachers. Families are flexible nowadays, but this order is still the most cited." },
     ],
   },
   {
@@ -228,10 +230,10 @@ export const holidaysEn: Holiday[] = [
     meaning:
       "The year's first full moon symbolizes completeness — a night to pray for peace in the year ahead.",
     traditions: [
-      { title: "Pagoda visits", text: "Burning incense and praying for health and peace at the start of the year." },
-      { title: "First full-moon offerings", text: "An ancestral tray with chè trôi nước and fresh fruit." },
-      { title: "Eating chè trôi nước", text: "Round ginger-scented rice balls symbolizing togetherness." },
-      { title: "Lantern festivals", text: "Many places hold lantern processions and night illuminations." },
+      { title: "Pagoda visits", text: "'Going to the temple at the year's start' is a beloved custom: people visit pagodas after Tết, above all on the first full moon, to pray for a peaceful year. Great pagodas like Trấn Quốc and Hương Tích in Hanoi or Vĩnh Nghiêm in HCMC are packed all week." },
+      { title: "First full-moon offerings", text: "The first full moon of the year — Thượng Nguyên — is the biggest of all. The ancestral tray holds bánh chưng and fresh fruit; many families add chè trôi nước and a boiled chicken to complete the rite." },
+      { title: "Eating chè trôi nước", text: "Round sticky-rice balls with mung-bean filling float up in sweet ginger broth — their roundness stands for reunion at the year's start. In Chợ Lớn, the Hoa community cooks a sủi cảo-style version, making a whole season of it." },
+      { title: "Lantern festivals", text: "Hội An's old town glows with thousands of lanterns on the full-moon night; HCMC keeps a lantern street in Chợ Lớn. Floating lanterns on the Hoài River are the festival's most iconic image." },
     ],
     wishes: [
       "On this first full moon, may your family be whole and peaceful all year.",
@@ -274,6 +276,7 @@ export const holidaysEn: Holiday[] = [
       { q: "When is Tết Nguyên Tiêu?", a: "The 15th day of the 1st lunar month — the year's first full-moon night." },
       { q: "Is it a day off?", a: "No — it's a traditional festival, not a national public holiday." },
       { q: "What do people eat?", a: "Chè trôi nước is the signature dish; many families also eat vegetarian food all day." },
+      { q: "How is the first full moon different from other full moons?", a: "It is the first and greatest full moon of the year — the Thượng Nguyên festival, one of three great full-moon rites alongside Trung Nguyên (7th month) and Hạ Nguyên (10th month). In Vietnam it also coincides with National Poetry Day." },
     ],
   },
   {
@@ -312,9 +315,9 @@ export const holidaysEn: Holiday[] = [
     meaning:
       "A chance to say what is hard to say — a well-timed word of love is worth more than any gift.",
     traditions: [
-      { title: "Giving roses", text: "Red roses for burning love, pink ones for sweetness." },
-      { title: "Chocolates & cards", text: "The classic pair, finished with a handwritten note." },
-      { title: "A special date", text: "A dinner, a movie or a short trip just for two." },
+      { title: "Giving roses", text: "Red roses are the 'currency' of February 14 — prices double or triple and still sell out at Quảng Ba and Hồ Thị Kỷ flower markets. Dried flowers, wax blooms and premium boxed roses have grown popular for lasting longer." },
+      { title: "Chocolates & cards", text: "Chocolate is the classic sweet gift beside the roses. Young Vietnamese increasingly prefer handwritten cards, mystery gift boxes and handmade presents over store-bought ones — the value lies in the effort." },
+      { title: "A special date", text: "Restaurants and cafés with good views are fully booked a week ahead; many couples choose to cook together at home or take a 'reverse date' — skipping the crowds to make a photo album instead. When February 14 falls on a weekend, it becomes the year's busiest date night." },
     ],
     wishes: [
       "You are the most beautiful gift life has given me. Happy Valentine's Day!",
@@ -357,6 +360,7 @@ export const holidaysEn: Holiday[] = [
       { q: "Is Valentine's Day a day off?", a: "No — February 14 is a widely celebrated day of love but not a national holiday." },
       { q: "What to give someone you just met?", a: "A single flower and a sincere card is enough — avoid expensive gifts that create pressure." },
       { q: "What is White Day?", a: "March 14, when in Asian tradition men return the gifts they received on February 14." },
+      { q: "How many Valentine's Days are there in a year?", a: "Three are most often mentioned: Red Valentine on February 14 (gifts for your partner), White Valentine on March 14 (men 'return the favor', popularized in Japan), and Black Day on April 14 — a playful day for singles." },
     ],
   },
   {
@@ -408,9 +412,9 @@ export const holidaysEn: Holiday[] = [
     meaning:
       "A day to honor women's contributions, sacrifices and equal rights — in the family and in society.",
     traditions: [
-      { title: "Flowers & gifts", text: "Flowers, cards and wishes for mothers, wives, sisters and colleagues." },
-      { title: "A family meal", text: "The family cooks together so the women can rest." },
-      { title: "Honoring women", text: "Offices and schools hold gatherings to commend outstanding women." },
+      { title: "Flowers & gifts", text: "Roses, carnations and small gift boxes are the go-to choices — boyfriends for girlfriends, husbands for wives, children for mothers, students for teachers. Flower markets and e-commerce platforms run 'March 8 campaigns' all week." },
+      { title: "A family meal", text: "Many fathers and boyfriends take over the kitchen for the evening so the women can rest — a simple but deeply meaningful gift. Photos of men laboring over soup and braised fish on March 8 have become a beloved recurring meme." },
+      { title: "Honoring women", text: "Offices, companies and schools hold gatherings commending outstanding female staff and students; cooking contests and performances 'for women' run all week. Since 2016, the United Nations has set an official theme for each March 8." },
     ],
     wishes: [
       "Happy March 8 — may you stay radiant, happy and beautiful!",
@@ -451,6 +455,7 @@ export const holidaysEn: Holiday[] = [
       { q: "Is March 8 a day off?", a: "No — it is an international day of observance, not a statutory holiday." },
       { q: "How is March 8 different from October 20?", a: "March 8 is the global International Women's Day; October 20 is Vietnamese Women's Day, marking the founding of the Vietnam Women's Union." },
       { q: "What flowers should I give?", a: "Roses and carnations are the most common; the sincere wish attached matters more." },
+      { q: "Does March 8 have a theme each year?", a: "Yes. Since 2016 the UN has set an official annual theme — 'DigitALL' (2023) on technology for women, 'Invest in Women' (2024) on funding equality — and global activities revolve around that theme." },
     ],
   },
   {
@@ -500,9 +505,9 @@ export const holidaysEn: Holiday[] = [
     meaning:
       "When drinking water, remember the source — the day every Vietnamese turns toward the nation's roots.",
     traditions: [
-      { title: "Incense at the Hùng Temple", text: "Millions travel to Phú Thọ to burn incense in memory of the Hùng kings." },
-      { title: "Palanquin processions & Xoan singing", text: "Palanquins ascend Nghĩa Lĩnh mountain to the Upper Temple." },
-      { title: "Bánh chưng & bánh giầy offerings", text: "The two cakes symbolizing earth and sky on the ancestral tray." },
+      { title: "Incense at the Hùng Temple", text: "From the night of the 9th through the 10th of the third lunar month, crowds climb Nghĩa Lĩnh Mountain (Phú Thọ) to offer incense at the Lower, Middle and Upper temples. State leaders attend the main rite at the Upper Temple while millions of Vietnamese at home and abroad turn toward the same hour." },
+      { title: "Palanquin processions & Xoan singing", text: "Villages around the temple carry flower-bearing palanquins up the mountain all festival week — each with its own flags, drums and feast tray. Xoan singing of Phú Thọ — UNESCO intangible heritage since 2011 — echoes through the grounds." },
+      { title: "Bánh chưng & bánh giầy offerings", text: "By the legend of Lang Liêu, the square bánh chưng stands for earth and the round bánh giầy for sky — both are required offerings on the Giỗ Tổ tray. Many families wrap their own or buy cakes to offer, then bring them home as blessed food." },
     ],
     wishes: [
       "On this Ancestors' day, may our forebears bless your family with peace.",
@@ -546,6 +551,7 @@ export const holidaysEn: Holiday[] = [
       { q: "What solar date is Giỗ Tổ?", a: "The 10th day of the 3rd lunar month, usually falling in April. This site computes the exact solar date for each year." },
       { q: "How many days off?", a: "One day under labor law; a compensatory day applies if it falls on a weekend." },
       { q: "Where is the Hùng Temple festival?", a: "At the Hùng Temple historical complex in Việt Trì, Phú Thọ province." },
+      { q: "How many Hùng kings were there?", a: "By legend there were 18 successive Hùng kings ruling the kingdom of Văn Lang, from the Hồng Bàng era until An Dương Vương founded Âu Lạc in 258 BC. The commemoration falls on the 10th of the third lunar month — fixed as a national rite by Emperor Khải Định's edict in 1917." },
     ],
   },
   {
@@ -587,10 +593,10 @@ export const holidaysEn: Holiday[] = [
     meaning:
       "The festival of remembrance at the threshold of clear spring — when living descendants sweep the tombs, offer incense and renew the bond with their ancestors.",
     traditions: [
-      { title: "Tảo mộ — sweeping the tombs", text: "Families clean graves, pull weeds, repaint headstones and add fresh soil in the weeks around Thanh Minh." },
-      { title: "Offering incense & flowers", text: "Incense, chrysanthemums and a modest tray are placed before the ancestors' graves and altar." },
-      { title: "Family visits & spring walks", text: "Grave visits often become gentle family reunions and walks in the clear spring air." },
-      { title: "Sticky-rice dishes", text: "Xôi and glutinous rice cakes are offered and shared in many regions during tảo mộ." },
+      { title: "Tảo mộ — sweeping the tombs", text: "Families return to their hometowns during Thanh minh week to tend the graves: clearing weeds, adding fresh earth, repairing headstones, cleaning incense bowls. The custom treats it as 'renovating the house' of the departed — many cemeteries now set shared hours to keep things tidy." },
+      { title: "Offering incense & flowers", text: "After the tidying, descendants light incense, lay fresh flowers and burn votive paper. Some families add boiled chicken, xôi and sweet soup; part of the tray is then laid upon the grave for the ancestors." },
+      { title: "Family visits & spring walks", text: "Thanh minh falls on the fifth solar term of spring — the year's clearest, brightest spell — so the tomb visit often ends with an outdoor meal or a family spring outing. The old saying calls it 'half tomb-sweeping, half spring-wandering'." },
+      { title: "Sticky-rice dishes", text: "Each region has its tomb-day foods: the North cooks xôi gấc and tro-tàu cakes with molasses; the Center makes bánh phu thê and chè kho; the South favors chè xoa xoa. Humble dishes, but anyone far from home misses their taste that week." },
     ],
     wishes: [
       "On Thanh Minh, may the ancestors bless your home with peace and health.",
@@ -635,6 +641,7 @@ export const holidaysEn: Holiday[] = [
       { q: "When is Tết Thanh Minh?", a: "On the Qingming solar term, usually April 4–6 — the exact date shifts by year; this site computes it from the solar-term table." },
       { q: "Is Thanh Minh a day off in Vietnam?", a: "No — it is a traditional observance, not a statutory public holiday." },
       { q: "What do people do on tảo mộ?", a: "Return to ancestral graves to clean, repair and repaint them, then offer incense, flowers and a modest tray in memory." },
+      { q: "What does 'Thanh minh' mean?", a: "Thanh minh is the fifth of the 24 solar terms — the one when the sky turns clear and the air stays mild (the Sino-Vietnamese name literally means 'pure brightness'). The festival shares the term's name because tomb-sweeping is held in this exact period." },
     ],
   },
   {
@@ -676,9 +683,9 @@ export const holidaysEn: Holiday[] = [
     meaning:
       "A day of independence, reunification, and gratitude to the generations who sacrificed for the country.",
     traditions: [
-      { title: "Flying the flag", text: "Homes and streets turn red with gold-star flags." },
-      { title: "Commemorations & parades", text: "Round anniversaries bring national-level military parades." },
-      { title: "Back to the roots", text: "Visiting historical sites and paying tribute to fallen heroes." },
+      { title: "Flying the flag", text: "Across the cities — above all the Lê Duẩn–Độc Lập axis in HCMC and the streets of Hanoi — red flags carpet entire streets through the April 30 week. Residents hang flags on their own homes as a quiet reminder of reunification day." },
+      { title: "Commemorations & parades", text: "In milestone years — the 40th (2015) and 50th (2025) anniversaries — state-level parades march through HCMC with tens of thousands of participants. The 50th-anniversary parade of April 30, 2025 ranked among the largest in Vietnamese history." },
+      { title: "Back to the roots", text: "Veteran families and youth delegations use the occasion to return to old battlefields — the Củ Chi tunnels, Quảng Trị, Trường Sơn — and visit martyrs' cemeteries. Unit reunions are held across the country by former soldiers." },
     ],
     wishes: [
       "Proud of April 30 — may our country forever enjoy peace and prosperity.",
@@ -718,6 +725,7 @@ export const holidaysEn: Holiday[] = [
       { q: "How many days off is April 30?", a: "One day, usually running into the May 1 holiday for a 4–5 day break." },
       { q: "Are there fireworks on April 30?", a: "Usually yes in Hanoi and Ho Chi Minh City, especially on round anniversaries." },
       { q: "What is the day's full official name?", a: "The Day of the Liberation of the South and National Reunification." },
+      { q: "What was special about the 50th anniversary in 2025?", a: "It was the largest commemoration in the day's history: a military-civilian parade through HCMC gathering tens of thousands, joined for the first time by foreign troop formations and an air-force display — broadcast live nationwide." },
     ],
   },
   {
@@ -752,8 +760,9 @@ export const holidaysEn: Holiday[] = [
     meaning:
       "A day recognizing the value of labor and the rightful rights of working people.",
     traditions: [
-      { title: "The April 30–May 1 break", text: "Many families travel or return home for the long weekend." },
-      { title: "Honoring outstanding workers", text: "Companies and unions commend exemplary employees." },
+      { title: "The April 30–May 1 break", text: "The two back-to-back holidays form the year's longest break before summer — many families take a short trip or return to their hometowns. Beach destinations like Đà Nẵng, Nha Trang and Phú Quốc typically sell out a month ahead." },
+      { title: "Honoring outstanding workers", text: "Unions and companies commend skilled workers and improvement initiatives; newspapers run features on everyday labor — welders, rural doctors, mountain teachers. In recent years the 'pioneering worker' theme has been tied to digital transformation." },
+      { title: "Union activities", text: "Workers' Month (May) kicks off right after the holiday: trade-skills contests, factory football leagues, job counseling and reunion programs for migrant workers. Many industrial parks open discount 'workers' markets' around this time." },
     ],
     wishes: [
       "Wishing every worker a May 1 of real rest and real joy.",
@@ -792,6 +801,7 @@ export const holidaysEn: Holiday[] = [
       { q: "Is May 1 a national holiday?", a: "Yes — workers get one day off, usually running into April 30 for a long break." },
       { q: "Where does May 1 come from?", a: "From the 1886 movement of Chicago workers demanding an eight-hour workday." },
       { q: "Where to go on the April 30–May 1 break?", a: "Beaches and highlands get crowded — book early or choose lesser-known spots." },
+      { q: "Do all countries celebrate May 1?", a: "No. The US and Canada mark Labor Day on the first Monday of September instead — a legacy of the North American labor movement — and several other countries observe their own distinct labor days." },
     ],
   },
   {
@@ -833,9 +843,9 @@ export const holidaysEn: Holiday[] = [
     meaning:
       "A day to say the words of love to Mom — the person standing behind every step we take.",
     traditions: [
-      { title: "Carnations for Mom", text: "The carnation is the classic emblem of the day." },
-      { title: "A meal cooked by the kids", text: "Taking over the kitchen for a day — the simplest gift." },
-      { title: "A call home", text: "For those far from home, a long phone call is the gift." },
+      { title: "Carnations for Mom", text: "Carnations have belonged to this day since its founder — Anna Jarvis sent white carnations in memory of her late mother; pink and red ones now go to mothers still living. In Vietnam, roses, orchids and mixed bouquets are chosen just as often." },
+      { title: "A meal cooked by the kids", text: "The most praised gift on social media each year is a meal cooked by the children — even when it comes out a bit too salty or bland. Kids living far away order hotpot or braised chicken delivered so Mom can skip the kitchen for the day." },
+      { title: "A call home", text: "For those far from home, a video call asking 'have you eaten yet, Mom?' is the most on-time gift of all. Carriers even run call promotions for the occasion — many adults come to realize a weekly call outweighs any present." },
     ],
     wishes: [
       "Mom, you are the whole sky that shelters me. Happy Mother's Day!",
@@ -874,6 +884,7 @@ export const holidaysEn: Holiday[] = [
       { q: "When is Mother's Day?", a: "The second Sunday of May each year — the exact date changes and is computed automatically on this site." },
       { q: "Is Mother's Day a Vietnamese holiday?", a: "It's an imported Western observance but very popular in Vietnam; the traditional equivalent is the Vu Lan festival." },
       { q: "What should I give Mom?", a: "Time beside her matters more than gifts — a meal you cooked yourself is always the right choice." },
+      { q: "Why is Mother's Day the second Sunday of May?", a: "Because Anna Jarvis — the American who founded it — chose the Sunday nearest her mother's death (May 9, 1905) so families could gather easily; in 1914 President Wilson officially fixed the second Sunday of May as US Mother's Day, and the world followed." },
     ],
   },
   {
@@ -915,9 +926,9 @@ export const holidaysEn: Holiday[] = [
     meaning:
       "A day reminding society to protect, love and invest in the next generation.",
     traditions: [
-      { title: "Fun at school", text: "Performances, folk games and schoolyards full of balloons." },
-      { title: "Gifts for kids", text: "Toys, storybooks and new clothes for the little ones." },
-      { title: "Charitable activities", text: "Gifts for children in hardship and orphans." },
+      { title: "Fun at school", text: "On the morning of June 1 — often moved to the nearest weekend — kindergartens and primary schools hold festival days: folk games, performances by the kids themselves, year-end prizes. The 'school festival' memory is one of drums, water games and paper flowers." },
+      { title: "Gifts for kids", text: "Classic June 1 gifts are toys, comics and school bags — many parents now pick books and STEM kits instead of gadgets. Malls and toy stores set up play zones and week-long promotions for the occasion." },
+      { title: "Charitable activities", text: "Charities, children's funds and youth unions deliver gifts to disadvantaged kids — children's hospitals, SOS villages, flood-hit areas. Many fundraisers for underprivileged children's Tết also kick off around this season." },
     ],
     wishes: [
       "Happy June 1 — may you have fun, stay good and study well, little ones!",
@@ -956,6 +967,7 @@ export const holidaysEn: Holiday[] = [
       { q: "Whose day is June 1?", a: "The children's — kids under about 15 get parties and gifts." },
       { q: "Is June 1 a day off?", a: "No, but many schools let students play all day." },
       { q: "What else is it called?", a: "Many families call it 'Tết for children' because kids get gifts and outings." },
+      { q: "How is June 1 different from World Children's Day?", a: "June 1 is International Children's Day, proposed in 1949 and observed by Vietnam and many other countries. The UN separately chose November 20 as World Children's Day, marking the 1989 Convention on the Rights of the Child — Vietnam observes both." },
     ],
   },
   {
@@ -996,9 +1008,9 @@ export const holidaysEn: Holiday[] = [
     meaning:
       "A reminder to treasure your warm nest — the place where every journey begins and returns.",
     traditions: [
-      { title: "A family dinner", text: "The whole family eats and talks together — screens put away." },
-      { title: "Family photos", text: "Taking a shared set of photos each year to remember." },
-      { title: "Stories across generations", text: "Grandparents tell the children about the family line and homeland." },
+      { title: "A family dinner", text: "The day has no fixed rite — its 'rite' is simply the whole family eating together, a reminder of the shared dinner table amid busy lives. The culture ministry once campaigned for a phone-free 'family dinner hour' from 6 to 7:30 pm." },
+      { title: "Family photos", text: "Many families mark the day with a photo set — at a studio, in a park, or just a selfie around the dinner table. TV specials and 'happy family' photo contests are usually held around June 28." },
+      { title: "Stories across generations", text: "Family Day is when grandparents tell old stories and open the wedding album and family tree — a 'family tradition' session there is rarely time for otherwise. Many schools assign 'interview your grandparents' homework this week." },
     ],
     wishes: [
       "May our family always stay close, loving and at peace.",
@@ -1037,6 +1049,7 @@ export const holidaysEn: Holiday[] = [
       { q: "Since when is there a Vietnamese Family Day?", a: "Since 2001, by decision of the Prime Minister." },
       { q: "Is June 28 a day off?", a: "No — it is a social observance, not a statutory holiday." },
       { q: "What should we do on Family Day?", a: "Simplest of all: share one meal and really talk to each other." },
+      { q: "How does Vietnam's Family Day differ from the international one?", a: "The UN's International Day of Families is May 15 (since 1994). Vietnam keeps its own day — June 28 under Decision 72/2001/QĐ-TTg — tied to the tradition of 'the family as the cell of society'; both are observed." },
     ],
   },
   {
@@ -1078,9 +1091,9 @@ export const holidaysEn: Holiday[] = [
     meaning:
       "A day to honor those who traded blood and bone for today's peace.",
     traditions: [
-      { title: "Visiting martyrs' cemeteries", text: "Lighting incense and laying flowers at cemeteries and memorials." },
-      { title: "Visiting policy families", text: "Calling on war invalids and Heroic Vietnamese Mothers." },
-      { title: "Candles of gratitude", text: "Candle-lighting ceremonies for the martyrs on the night of July 26." },
+      { title: "Visiting martyrs' cemeteries", text: "Millions visit their local martyrs' cemetery during the July 27 week — lighting incense, wiping headstones, reading the names aloud. In Quảng Trị, the great Trường Sơn and Đường 9 cemeteries welcome the year's largest gatherings of gray-haired veterans." },
+      { title: "Visiting policy families", text: "The 'repaying gratitude' spirit becomes concrete work: localities, businesses and schools visit Heroic Mothers, wounded veterans and martyrs' families — bringing gifts, repairing 'gratitude houses' and delivering insurance papers." },
+      { title: "Candles of gratitude", text: "On the evening of July 26, candle-lighting ceremonies spread from national cemeteries to village shrines — thousands of flames lit at the same hour. The 'sea of candles' at Trường Sơn cemetery is among the year's most moving sights." },
     ],
     wishes: [
       "Forever grateful to the heroic martyrs of our nation.",
@@ -1120,6 +1133,7 @@ export const holidaysEn: Holiday[] = [
       { q: "Is July 27 a day off?", a: "Not a statutory holiday, but an important national day of gratitude." },
       { q: "Why July 27?", a: "It marks the government's choice of July 27, 1947 as the first National War Invalids' Day." },
       { q: "What should I do on July 27?", a: "Visit your nearest martyrs' cemetery or light a candle of gratitude." },
+      { q: "When did the candle-lighting rite begin?", a: "It grew from a proposal by journalist and veteran colonel Ngô Thế Vinh: on the eve of July 27, every citizen lights one candle at a martyr's grave or at the home altar. The custom spread nationwide and is usually held on the evening of July 26." },
     ],
   },
   {
@@ -1168,9 +1182,9 @@ export const holidaysEn: Holiday[] = [
     meaning:
       "A season to remember the debt to one's parents and repay those who gave us life.",
     traditions: [
-      { title: "Pinning a rose on the chest", text: "A red rose while your mother lives, white when she has passed — the most moving rite." },
-      { title: "Vu Lan at the pagoda", text: "Hearing the sutras of filial devotion and praying for both parents." },
-      { title: "7th-month full-moon offerings", text: "Ancestral trays, offerings to wandering souls, and releasing living creatures." },
+      { title: "Pinning a rose on the chest", text: "The custom of pinning a rose at the Vu Lan service — red for those whose mother lives, white for those whose mother has passed — was started by Zen master Thích Nhất Hạnh in Huế in 1962. More than half a century on, the small flower is the day's most familiar image." },
+      { title: "Vu Lan at the pagoda", text: "On the seventh full moon, pagodas hold the filial-piety service: chanting, rose-pinning, and teachings on parents' sacrifice from the Ullambana Sutra — the story of Mục Kiền Liên saving his mother. The busiest services fall on the full moon or the nearest Sunday." },
+      { title: "7th-month full-moon offerings", text: "Alongside the temple rite, families lay a full-moon tray for ancestors — many add an outdoor 'wandering souls' tray at dusk with thin rice soup, salt and votive money. Feeding lost souls shares the day's spirit of compassion." },
     ],
     wishes: [
       "This Vu Lan season, may your parents always be healthy and at peace.",
@@ -1214,6 +1228,7 @@ export const holidaysEn: Holiday[] = [
       { q: "When is Vu Lan?", a: "The 15th of the 7th lunar month, usually falling in August–September; this site computes the solar date each year." },
       { q: "What does pinning the rose mean?", a: "A red rose for those whose mother lives, a white rose for those whose mother has passed — the symbol of filial devotion." },
       { q: "Are Vu Lan and the 7th-month full moon the same?", a: "Both fall on lunar 7/15; Vu Lan centers on repaying parents while the full-moon rite centers on pardoning wandering souls." },
+      { q: "Where did the rose-pinning custom come from?", a: "It began in 1962, when Zen master Thích Nhất Hạnh held a Vu Lan service at Từ Hiếu Pagoda (Huế) and proposed pinning a rose to the chest: red if your mother lives, white if she has passed. The rite is now practiced at pagodas nationwide." },
     ],
   },
   {
@@ -1270,9 +1285,9 @@ export const holidaysEn: Holiday[] = [
     meaning:
       "A day of national pride and the aspiration for peace and development.",
     traditions: [
-      { title: "September 2 parades", text: "Round anniversaries bring military parades and marches at Ba Đình." },
-      { title: "Fireworks", text: "Hanoi, Ho Chi Minh City and many provinces launch fireworks on the night of September 2." },
-      { title: "Streets of flags", text: "The whole country turns red with gold-star flags for the holiday." },
+      { title: "September 2 parades", text: "In milestone years — the 70th (2015) and 80th (2025) anniversaries — parades fill Ba Đình Square, the very spot where the Declaration of Independence was read. The A80 parade of 2025 gathered tens of thousands of troops and civilians and was broadcast live nationwide." },
+      { title: "Fireworks", text: "On the night of September 2, Hanoi and HCMC launch fireworks at multiple points — the Han River bridge in Đà Nẵng offers the country's most spectacular show. Since 2022 many provinces have swapped high-altitude fireworks for drone light displays." },
+      { title: "Streets of flags", text: "From late August the national flag blankets the streets — even the smallest alleys turn red as residents hang flags on their own homes. Photos of flag-lined streets around the Opera House and the Old Quarter are the holiday's signature image." },
     ],
     wishes: [
       "Proud to be Vietnamese! Happy National Day, September 2.",
@@ -1313,6 +1328,7 @@ export const holidaysEn: Holiday[] = [
       { q: "How many days off for National Day?", a: "Two days under current law (September 2 plus one adjacent day before or after)." },
       { q: "Where to watch September 2 fireworks?", a: "Hoàn Kiếm Lake (Hanoi), the Saigon River (HCMC) and launch sites across the provinces." },
       { q: "What does National Day commemorate?", a: "President Hồ Chí Minh's Declaration of Independence founding the Democratic Republic of Vietnam — September 2, 1945." },
+      { q: "Where does the National Day parade take place?", a: "At Ba Đình Square in Hanoi — in front of the Hồ Chí Minh Mausoleum, where the Declaration was read on September 2, 1945. Parades are held only in round-anniversary years (60th, 70th, 80th), the most recent being the A80 parade of 2025." },
     ],
   },
   {
@@ -1369,9 +1385,9 @@ export const holidaysEn: Holiday[] = [
     meaning:
       "The full-moon night of togetherness — adults missing home, children dreaming of star lanterns.",
     traditions: [
-      { title: "Breaking the feast under the moon", text: "A tray of mooncakes, pomelo and persimmons set under the moonlit yard." },
-      { title: "Star-lantern parades", text: "Children carry lanterns and star lanterns through the streets." },
-      { title: "Lion dances", text: "The sound of lion-dance drums fills the full-moon nights." },
+      { title: "Breaking the feast under the moon", text: "On the full-moon night, the feast tray holds a pomelo carved like a boat, a banana bunch and mooncakes arranged in patterns — children 'break the feast' near midnight for luck. Adults sip tea and watch the moon while kids argue over the pomelo-boat's tail." },
+      { title: "Star-lantern parades", text: "Star lanterns of colored cellophane, carp lanterns, pull-string troop lanterns — bands of children parade hand-held lights through the alleys on the full-moon night. Musical battery lanterns are common now, but Hội An and the old quarters still keep the paper ones." },
+      { title: "Lion dances", text: "Lion-dance troupes work through the neighborhoods to thundering drums, performing for 'lucky treats' hung in front of shops — the drumbeat announces Mid-Autumn's arrival. Children chase the lions until late, a shared childhood memory across generations." },
     ],
     wishes: [
       "Happy Mid-Autumn! May your family be reunited under the full moon.",
@@ -1418,6 +1434,7 @@ export const holidaysEn: Holiday[] = [
       { q: "What solar date is Mid-Autumn?", a: "The 15th of the 8th lunar month, usually in September–October; this site computes it each year." },
       { q: "Is it a day off?", a: "No, but children usually get lantern parties on the full-moon night." },
       { q: "How many kinds of mooncake are there?", a: "Two main kinds: baked (crisp crust) and snow-skin (soft rice-flour skin)." },
+      { q: "How does Mid-Autumn differ from Children's Day?", a: "June 1 is the international children's day in general, while Mid-Autumn (the 8th-month full moon) is a traditional festival of moon trays, mooncakes and lantern parades — long called 'the children's Tết' because kids are the stars of the night." },
     ],
   },
   {
@@ -1458,9 +1475,9 @@ export const holidaysEn: Holiday[] = [
     meaning:
       "The day reserved for Vietnamese women — honoring their sacrifices, resilience and beauty.",
     traditions: [
-      { title: "Flowers & gifts", text: "Colleagues and loved ones send flowers and wishes to the women around them." },
-      { title: "Honoring exemplary women", text: "Women's unions hold gatherings and commendations." },
-      { title: "Men in the kitchen", text: "The 'men cook on 20/10' custom grows more popular every year." },
+      { title: "Flowers & gifts", text: "As on March 8, flowers and gifts flow to mothers, wives and sisters — but October 20 is 'our own day', purely Vietnamese. Flower markets and gift shops peak on the evening of the 19th and the morning of the 20th." },
+      { title: "Honoring exemplary women", text: "The day is tied to the founding of the Vietnam Women's Union on October 20, 1930. Offices hold gatherings commending Heroic Mothers, female scientists and businesswomen all through the week." },
+      { title: "Men in the kitchen", text: "A modern custom: on October 20 husbands cook dinner and sons wash the dishes — a meal made by men is the most practical gift. 'Vietnamese men in the kitchen on October 20' has quietly become a beloved new tradition." },
     ],
     wishes: [
       "Happy October 20 — may you always be beautiful, happy and loved!",
@@ -1500,6 +1517,7 @@ export const holidaysEn: Holiday[] = [
       { q: "What does October 20 commemorate?", a: "The founding of the Vietnam Women's Union (October 20, 1930) — Vietnamese Women's Day." },
       { q: "Is October 20 a day off?", a: "No — it is a day of observance, not a statutory holiday." },
       { q: "Should I send wishes on 8/3 or 20/10?", a: "Both are welcome — March 8 is international, October 20 is Vietnam's own day for its women." },
+      { q: "Which organization is October 20 tied to?", a: "The Vietnam Women's Union — founded October 20, 1930 under its first name, the Anti-Imperialist Women's Association. The Union's founding day became Vietnamese Women's Day, distinct from the international March 8." },
     ],
   },
   {
@@ -1540,9 +1558,9 @@ export const holidaysEn: Holiday[] = [
     meaning:
       "One letter learned, a teacher for life — the day to remember those who guided us.",
     traditions: [
-      { title: "Students giving flowers", text: "Flowers and handmade cards for teachers at a special flag ceremony." },
-      { title: "Alumni visits", text: "Past generations return to their old schools to see aging teachers." },
-      { title: "Messages of thanks", text: "Grateful messages sent to former teachers everywhere." },
+      { title: "Students giving flowers", text: "Before class on November 20, the class monitor presents a bouquet and a card of thanks; many schools hold a short ceremony first period. Younger pupils draw cards, high-schoolers buy flowers, university students send thank-you videos." },
+      { title: "Alumni visits", text: "On this day, old class cohorts — from retirees to fresh graduates — return to visit their former teachers with flowers, cakes and old keepsakes. The 'three generations of teacher and students' reunion is the day's most familiar scene." },
+      { title: "Messages of thanks", text: "Lately, instead of expensive gifts, parents encourage handwritten notes — 'teachers only need a sincere thank you'. Education authorities also regularly remind everyone of a 'no-material-gifts' November 20 to keep the day clean and meaningful." },
     ],
     wishes: [
       "Wishing teachers a November 20 of health, happiness and lasting devotion.",
@@ -1581,6 +1599,7 @@ export const holidaysEn: Holiday[] = [
       { q: "When is Vietnamese Teachers' Day?", a: "November 20 every year, official since 1982." },
       { q: "Is November 20 a day off school?", a: "No classes cancelled, but many schools replace regular lessons with performances and tributes." },
       { q: "What to give teachers on 20/11?", a: "Flowers and a sincere wish are enough — material gifts are not required." },
+      { q: "When did November 20 begin?", a: "November 20 marks the 'International Charter of Teachers' day — commemorating the founding of FISE (the international teachers' federation) in 1949. Vietnam first officially observed it in 1982, and it has grown into the country's biggest day honoring teachers." },
     ],
   },
   {
@@ -1622,9 +1641,9 @@ export const holidaysEn: Holiday[] = [
     meaning:
       "Honoring the soldiers who have kept — and keep — the country's independence and sovereignty.",
     traditions: [
-      { title: "Traditional reunions", text: "Units and veterans gather to mark the founding anniversary." },
-      { title: "Commending soldiers", text: "Awarding exemplary servicemen and women." },
-      { title: "Border activities", text: "Visiting border posts and remote garrisons." },
+      { title: "Traditional reunions", text: "Veterans of each unit — regiments, companies, the famous 'floating battalions' — reunite around December 22, reading the roll of fallen comrades and singing old marching songs. The date doubles as the nationwide All-People's Defense Festival in localities." },
+      { title: "Commending soldiers", text: "Units mark the day with ceremonies commending outstanding soldiers under the motto 'excellent at duty, devoted at home' — young conscripts cooking a meal for policy families is a familiar image of the day." },
+      { title: "Border activities", text: "Army Day comes with 'for the borderlands, for the fishermen' work: donating comradeship houses, free clinics in border districts, 'spring at the frontier' exchanges. Naval units begin receiving 'Tết on the islands' gift shipments around this date." },
     ],
     wishes: [
       "Happy Vietnam People's Army Day, December 22!",
@@ -1662,8 +1681,9 @@ export const holidaysEn: Holiday[] = [
     },
     faq: [
       { q: "What does December 22 mark?", a: "The founding of the Vietnam People's Army (December 22, 1944) and National Defense Day." },
-      { q: "Is December 22 a day off?", a: "Not a national public holiday." },
+      { q: "Is December 22 a day off?", a: "Not a national public holiday — work and school carry on as usual; commemorative activities happen during office hours or in the evening." },
       { q: "What was the army's forerunner?", a: "The Vietnam Propaganda Liberation Army, founded in the Trần Hưng Đạo forest, Cao Bằng." },
+      { q: "What else is December 22 called?", a: "It is also the All-People's Defense Festival — officially designated in 1989 — commemorating the founding of the Vietnam Propaganda Liberation Army on December 22, 1944 at Hoàng Hoa Thám (Cao Bằng), forerunner of today's People's Army." },
     ],
   },
   {
@@ -1705,9 +1725,9 @@ export const holidaysEn: Holiday[] = [
     meaning:
       "The season of giving, peace and warm moments beside loved ones.",
     traditions: [
-      { title: "Church on Christmas Eve", text: "Midnight mass on December 24 and nativity scenes at the big churches." },
-      { title: "Exchanging gifts", text: "Santa brings gifts for children on the night before Christmas." },
-      { title: "Decorating the tree", text: "Christmas trees, twinkling lights and holly wreaths." },
+      { title: "Church on Christmas Eve", text: "On Christmas Eve the great cathedrals — St. Joseph's in Hanoi, Notre-Dame in HCMC, Phủ Cam in Huế — overflow with visitors, including many non-Christians who come to watch the midnight mass. A religious service turned street festival: that is Vietnam's signature Christmas." },
+      { title: "Exchanging gifts", text: "Santas hand out gifts in malls and parks while kids go 'Santa hunting' on Christmas Eve. Families exchange presents under the tree on the morning of the 25th; classes and offices play Secret Santa." },
+      { title: "Decorating the tree", text: "Christmas trees — real or 3–10 m artificial ones — go up in front of churches, hotels and walking streets from early December. The nativity grotto recreating the Bethlehem manger is a distinctly Vietnamese touch: each parish and family competes to build the street's grandest." },
     ],
     wishes: [
       "Merry Christmas! Wishing you a peaceful, warm Christmas.",
@@ -1752,6 +1772,7 @@ export const holidaysEn: Holiday[] = [
       { q: "When is Christmas in Vietnam?", a: "The night of December 24 (Christmas Eve) and December 25." },
       { q: "Is Christmas a day off?", a: "Not a national holiday, but many companies give leave or hold year-end parties." },
       { q: "Where to go for Noel?", a: "The big church quarters of Hanoi, District 1 in HCMC, or your local church." },
+      { q: "What is a Christmas grotto?", a: "The grotto is a model of the Bethlehem stable where Jesus was born — with figurines of the Child, Mary, Joseph, the Magi and the shepherds. In Vietnam, parishes and many families build their own from porous stone, moss and lights, competing for the most beautiful in the neighborhood." },
     ],
   },
   {
@@ -1796,10 +1817,10 @@ export const holidaysEn: Holiday[] = [
     meaning:
       "Kitchen Gods' Day is the handover between the old year and the new — the day families tidy the hearth, honor the flame that kept them warm all year, and trust that good deeds will be carried to heaven. It is also a reminder to live kindly inside our own homes.",
     traditions: [
-      { title: "Seeing off the Táo quân", text: "Tidying the kitchen altar, offering a tray, Táo hats and paper effigy items for the gods' journey to heaven." },
-      { title: "Releasing carp", text: "Releasing carp into ponds and rivers — the vehicle that carries the gods to heaven; many families release them on the afternoon of the 23rd." },
-      { title: "Cleaning the house", text: "After the ceremony, the whole household begins sweeping, dusting and repairing for Tết." },
-      { title: "Offerings to the Earth God", text: "On the same tray, many homes also honor ông Địa — the earth deity governing the household's land." },
+      { title: "Seeing off the Táo quân", text: "At noon on the 23rd of the last lunar month, every home lays a send-off tray for the Kitchen Gods — betel, wine, sticky rice, sometimes red paper hats and votive money. After the rite, the hats and paper money are burned, 'dispatched to the Jade Emperor' with the incense smoke." },
+      { title: "Releasing carp", text: "By legend the carp transforms into a dragon and carries the Kitchen Gods to heaven — so after the offering many families buy red carp to release into rivers and lakes. Amid recent debate about releasing fish into natural waterways, many now release into private ponds or simply offer paper carp." },
+      { title: "Cleaning the house", text: "Once the Kitchen Gods depart, the house is 'free of spirits' — the perfect moment for the final clean: dusting cobwebs, repairing the altar, replacing incense bowls, a deep clean before Tết. The folk logic is really a clever nudge to get the whole house ready for the New Year." },
+      { title: "Offerings to the Earth God", text: "Alongside the kitchen's Táo quân, the household also offers to the Earth God — the deity guarding the land of the home — with its own or a shared tray. The saying 'first the Kitchen God, second the Earth God' recalls the two closest deities in a Vietnamese house, both sent off this night." },
     ],
     wishes: [
       "May your home's hearth stay warm and full of love all year!",
@@ -1845,6 +1866,7 @@ export const holidaysEn: Holiday[] = [
       { q: "Is Kitchen Gods' Day a day off?", a: "No — it's a folk traditional observance, not a paid holiday." },
       { q: "Why release carp?", a: "By legend, the carp is the vehicle that carries the Táo quân to heaven before the Jade Emperor on the 23rd of the last month." },
       { q: "When should I release the carp?", a: "The afternoon or evening of the 23rd after the offering, or the morning of the 24th — it varies by family." },
+      { q: "How many Kitchen Gods are there?", a: "In folk belief there are three: two men and one woman — tied to the tale of Trọng Cao, Thị Nhi and Phạm Lang retold in 'The Kitchen Gods report to the Jade Emperor'. Vietnamese call them collectively 'ông Táo' or 'Táo quân', the deities overseeing the household's hearth." },
     ],
   },
   {
@@ -1880,10 +1902,10 @@ export const holidaysEn: Holiday[] = [
     meaning:
       "Tết Hàn thực is a day of vegetarian food, remembering one's roots and practicing purity in the new year — a quiet note in the string of post-Tết festivals, when people offer their ancestors little round cakes of sweet clarity.",
     traditions: [
-      { title: "Cooking bánh trôi & bánh chay", text: "Sugar-filled floating cakes and mung-bean cakes — the two signature pure cakes." },
-      { title: "Ancestor offerings", text: "A tray of bánh trôi chay set on the family altar on the 3rd of the 3rd month." },
-      { title: "A vegetarian day", text: "Many families keep the day meat-free for a tranquil early spring." },
-      { title: "Pagoda visits", text: "People often go to the pagoda to pray for peace after the spring festivals." },
+      { title: "Cooking bánh trôi & bánh chay", text: "From the afternoon of the 2nd, families shape little bánh trôi with sugar-cube centers and fist-sized bánh chay with mung-bean filling — they are done when they float. The trôi go into ginger sweet soup, the chay onto their own plate; most kitchens make enough for offerings and for sharing." },
+      { title: "Ancestor offerings", text: "On the morning of the 3rd, the trôi-and-chay tray replaces fruit on the altar — a rite preserving the 'cold food' origin of the festival. Families believe ancestors receive the new season's blessing through these soft white cakes." },
+      { title: "A vegetarian day", text: "Many families eat vegetarian on the 3rd of the third month — cleansing in early spring and recalling the old 'day without fire' that allowed only cold food. Still, in Vietnam the day is remembered most for its two sweet floating cakes." },
+      { title: "Pagoda visits", text: "Many households choose the day for a pagoda visit or one last spring outing before routine resumes after the first full moon. Children remember the 3rd of the third month for 'floating cakes' — the sweet soup grandparents never fail to cook." },
     ],
     wishes: [
       "Wishing your family a sweet and serene Hàn thực day!",
@@ -1926,6 +1948,7 @@ export const holidaysEn: Holiday[] = [
       { q: "Is Tết Hàn thực a day off?", a: "No — it is a traditional festival, not a national holiday." },
       { q: "How do bánh trôi and bánh chay differ?", a: "Bánh trôi are round sugar-filled balls boiled in ginger syrup; bánh chay are flat cakes of pounded mung bean served in light syrup." },
       { q: "How is Hàn thực different from a normal vegetarian day?", a: "It's a fixed festival on lunar 3/3 — not a full-moon or first-day observance but its own festival of purity." },
+      { q: "What else is the 3rd of the third lunar month called?", a: "Besides Cold Food Festival (Tết Hàn thực), it is commonly called 'the bánh trôi bánh chay festival' — a folk name after its two signature cakes. The verse 'On the third day of the third month, mother takes me to the pagoda' is also tied to this date." },
     ],
   },
   {
@@ -1961,10 +1984,10 @@ export const holidaysEn: Holiday[] = [
     meaning:
       "Tết Đoan Ngọ is Vietnam's folk answer to the turn of summer: a day of cleansing the body, protecting health, and staying close to mothers and children — for the pest-killing custom is also the custom of preserving the home's vitality.",
     traditions: [
-      { title: "Eating sour fruits", text: "Green mango, plum, lychee — the early-summer sours believed to 'kill the pests' inside." },
-      { title: "Glutinous-rice wine", text: "Fermented nếp cái hoa vàng rice — the signature dish of Đoan Ngọ." },
-      { title: "Gathering noon herbs", text: "At exactly noon, people of old gathered wild herbs — believed most potent at that hour." },
-      { title: "Burning vía & five-color threads", text: "Burning vía and tying five-color thread on children — driving off pests and misfortune." },
+      { title: "Eating sour fruits", text: "Thanh trà plums, sấu dracontomelum, mulberries — the sour early-summer fruits are the 'pest-killers' of Đoan Ngọ. Folk practice has them eaten early in the morning on an empty stomach, 'cleansing the insides' before breakfast." },
+      { title: "Glutinous-rice wine", text: "Rượu nếp — fermented golden-flower sticky rice rolled into little balls — is the must-have of the 5th-day noon meal; its sweet warmth is said to burn off the last parasites. Children get the cooked version; adults take the raw wine with a pinch of sesame salt and chili." },
+      { title: "Gathering noon herbs", text: "Between 11 am and 1 pm on the 5th — the Hour of the Horse on the Day of the Horse in the Month of the Horse — yang energy is believed to peak, making herbs picked then the most potent. People once gathered mugwort and bamboo leaves to dry for year-round remedies." },
+      { title: "Burning vía & five-color threads", text: "At dusk some places used to burn small vía fires at the gate to 'drive off pests' — rare today for safety. But the customs of airing clothes in the sun and hanging mugwort by the door still carry the old spirit of cleansing at the start of summer." },
     ],
     wishes: [
       "A healthy Đoan Ngọ — may your family have a happy, ailment-free summer!",
@@ -2009,6 +2032,7 @@ export const holidaysEn: Holiday[] = [
       { q: "Is Tết Đoan Ngọ a day off?", a: "No — a traditional festival, not a national holiday." },
       { q: "What does 'pest-killing' mean?", a: "Folk believe eating sour fruits and glutinous wine at the noon hour of lunar 5/5 cleanses the body and prevents summer illness." },
       { q: "What to eat on Đoan Ngọ?", a: "Early-summer sour fruits (lychee, plum, green mango), fermented rice, boiled eggs — before the midday meal." },
+      { q: "What is special about the noon hour on Đoan Ngọ?", a: "The Hour of the Horse (11 am–1 pm) on the Day of the Horse in the Month of the Horse is considered the year's peak of yang energy — so herbs picked, water drawn and leaves dried at this hour were deemed most potent. 'Đoan Ngọ' itself means 'the very noon'." },
     ],
   },
   {
@@ -2048,10 +2072,10 @@ export const holidaysEn: Holiday[] = [
     meaning:
       "Vietnamese Doctors' Day is when the whole country says thank you to those who hold the scalpel and those who keep the night watch in emergency rooms — professions demanding both talent and compassion. 'A good physician must be like a loving mother' is that profession's living standard.",
     traditions: [
-      { title: "Flowers for doctors", text: "Roses and carnations for familiar doctors and nurses — the most common tribute." },
-      { title: "Ceremonies at hospitals", text: "Hospitals hold gatherings and award outstanding health workers." },
-      { title: "Free clinics", text: "Many localities open free check-ups and blood drives around the day." },
-      { title: "Tributes in the press", text: "Media features stories of healers — especially in remote regions." },
+      { title: "Flowers for doctors", text: "On February 27 hospitals fill with flowers — recovered patients return with bouquets and thank-you letters for the doctors who saved them; medical students honor their mentors. Roses and lilies are the two most chosen blooms." },
+      { title: "Ceremonies at hospitals", text: "Hospitals from Việt Đức and Chợ Rẫy down to district clinics hold tradition gatherings: new doctors recite the Hippocratic oath, 'meritorious physicians' are honored, and retired teachers are thanked." },
+      { title: "Free clinics", text: "Around this day, volunteer medical teams run free check-ups in remote highlands — dispensing medicine, ultrasounds and charity eye surgeries. The profession calls it 'the most beautiful work of our own day'." },
+      { title: "Tributes in the press", text: "Newspapers and TV devote special features to doctors: the night-shift emergency physician, the 'jungle doctor' who fought malaria for thirty years, the female doctor in the mountains. These stories each February 27 bring medicine closer to the public." },
     ],
     wishes: [
       "Wishing our healers health — to save even more lives!",
@@ -2090,6 +2114,7 @@ export const holidaysEn: Holiday[] = [
       { q: "Is Vietnamese Doctors' Day a day off?", a: "No — it's a professional observance, not a paid holiday." },
       { q: "Why February 27?", a: "On February 27, 1955 Hồ Chí Minh sent his Letter to health workers containing the famous 'a good physician must be like a loving mother'." },
       { q: "What to give a doctor?", a: "Carnations, a thank-you card, or simply a sincere word of thanks on February 27." },
+      { q: "How does it differ from World Health Day?", a: "World Health Day is April 7 — the WHO's founding anniversary (1948). February 27 is Vietnam's own day, fixed by Decision 37-CP in 1955 at Hồ Chí Minh's suggestion, to honor the nation's physicians." },
     ],
   },
   {
@@ -2129,10 +2154,10 @@ export const holidaysEn: Holiday[] = [
     meaning:
       "Vietnam Revolutionary Press Day honors the journalist — the profession that runs against the flood, goes down into the tunnels and writes with fairness. From the 1925 Thanh Niên newspaper to today's parliament, the press remains an organ of social democracy.",
     traditions: [
-      { title: "Press awards", text: "National press awards are usually announced around June 21 — honoring outstanding works." },
-      { title: "Journalists' gatherings", text: "The Vietnam Journalists' Association and newsrooms hold reunions honoring the profession." },
-      { title: "Press exhibitions", text: "Many places display historic front pages — from Thanh Niên and Cứu Quốc to today's online papers." },
-      { title: "Talks on the craft", text: "Journalism schools hold discussions on ethics and media innovation." },
+      { title: "Press awards", text: "Around June 21 comes journalism's biggest award season — the Golden Hammer & Sickle Prize and the National Press Awards — honoring investigations, anti-corruption reporting and the year's most striking press photography." },
+      { title: "Journalists' gatherings", text: "Journalists' associations and newsrooms hold tradition meetings: honoring veteran reporters, issuing new membership cards, and recalling June 21, 1925 — when Nguyễn Ái Quốc founded the newspaper Thanh Niên." },
+      { title: "Press exhibitions", text: "The national press exhibition and spring newspaper fairs display award-winning work alongside historic front pages — from Hán-script colonial papers to modern digital newsrooms. The day lets readers see the 'workshop' behind the news." },
+      { title: "Talks on the craft", text: "Panels around the day discuss digital transformation, AI in the newsroom and press ethics in the era of fake news — the hottest questions facing the profession at each stage." },
     ],
     wishes: [
       "May our journalists keep the fire of fairness — may the pen stay firm!",
@@ -2171,6 +2196,7 @@ export const holidaysEn: Holiday[] = [
       { q: "Is June 21 a day off?", a: "No — a professional observance of the press sector, not a national holiday." },
       { q: "The first newspaper of the Vietnamese revolution?", a: "Thanh Niên, founded by Nguyễn Ái Quốc in Guangzhou (China) on June 21, 1925." },
       { q: "How is revolutionary press different?", a: "It's the press tradition tied to national independence since 1925 — distinct from purely commercial media." },
+      { q: "What is Vietnam's biggest press award?", a: "The National Press Awards — given annually for outstanding work across print, online, radio, TV and press photography. Alongside it, the Golden Hammer & Sickle Prize honors journalism specifically about Party-building." },
     ],
   },
   {
@@ -2211,10 +2237,10 @@ export const holidaysEn: Holiday[] = [
     meaning:
       "Senior Citizens' Day is when we bow before the silver-haired: grandparents, parents — the people who walked through war and hardship and built our families. 'Respect the old, receive long life' is not a ritual but a standard of living.",
     traditions: [
-      { title: "Longevity celebrations", text: "Families hold mừng thọ for elderly grandparents — children gathering to wish them well." },
-      { title: "Visiting the elderly", text: "Organizations and neighborhoods visit and gift lonely seniors." },
-      { title: "Senior club activities", text: "The Elderly Association holds performances, health checks and talks." },
-      { title: "Children coming home", text: "Many families pick October 1 for far-away children to visit their grandparents." },
+      { title: "Longevity celebrations", text: "Mừng thọ ceremonies mark the milestones of 60 (the returning cycle), 70, 77 ('joyful longevity'), 80, 88 ('rice longevity'), 90, 99 and 100 — descendants gather to present betel, red áo dài and congratulatory couplets. Many families fold the celebration into Tết or the October 1 occasion." },
+      { title: "Visiting the elderly", text: "Local Elderly Associations go door to door gifting citizens turning 80, 90 and 100 — milk, warm blankets, envelopes with wishes of long life; every commune keeps its own 'map of elders' so no household is missed." },
+      { title: "Senior club activities", text: "Elderly clubs are the real playground of rural seniors: poetry, chess, qigong, folk dance — many hold 'talented elder' contests around October 1. In the cities the day pairs with 'living healthy, living joyful' campaigns." },
+      { title: "Children coming home", text: "October 1 falls on an early-autumn weekend window — many children working far away pick it to come home and celebrate their grandparents. The 'day of grandparents' is also a nudge for the young to call their elders more often." },
     ],
     wishes: [
       "Wishing our grandparents a hundred years of life and a tranquil heart!",
@@ -2257,6 +2283,7 @@ export const holidaysEn: Holiday[] = [
       { q: "Is October 1 a day off?", a: "No — a social observance, not a statutory holiday." },
       { q: "Same as the UN day?", a: "Yes — Vietnam took October 1, the day the UN chose in 1991." },
       { q: "At what ages is longevity celebrated?", a: "Usually 70, 80, 90 and 100 — depending on the family and regional tradition." },
+      { q: "Does Vietnam have its own elderly day?", a: "Yes — besides the UN's International Day of Older Persons on October 1, Vietnam observes June 6 as Vietnamese Elderly Day (under the Elderly Association's charter since 2008), marking the day Hồ Chí Minh wrote his 'Appeal to the nation's elders'." },
     ],
   },
   {
@@ -2297,10 +2324,10 @@ export const holidaysEn: Holiday[] = [
     meaning:
       "Vietnamese Entrepreneurs' Day honors those who dare to begin — from the market-stall trader to the tech founder. Entrepreneurs create not only wealth but jobs, confidence and the momentum of a country on the rise.",
     traditions: [
-      { title: "Business gatherings", text: "Business associations and the Chamber of Commerce host meetings honoring outstanding entrepreneurs." },
-      { title: "Startup forums", text: "Many startup and digital-transformation events happen around October 13." },
-      { title: "Company awards", text: "The Sao Vàng đất Việt and Thánh Gióng awards are presented around the day." },
-      { title: "Charitable work", text: "Many businesses pick this day as their corporate social responsibility day." },
+      { title: "Business gatherings", text: "On October 13, business associations — VCCI, chambers of commerce, young entrepreneur clubs — hold gatherings and CEO forums. It is the community's annual 'roll call' of health after each volatile year." },
+      { title: "Startup forums", text: "Around October 13 is startup-forum season: Techfest, Startup Day and founder-story talks draw young businesspeople. Entrepreneur Day has become the year's flagship moment for startup inspiration." },
+      { title: "Company awards", text: "The season brings respected prizes: the Thánh Gióng Cup for outstanding entrepreneurs, Sao Đỏ for community-minded firms, the VNR500 list of largest companies. The October 13 honors form the business world's annual 'gold board'." },
+      { title: "Charitable work", text: "Beyond awards, many corporations pick October 13 as a shared day of giving: scholarships, charity houses, healthcare sponsorships. 'Entrepreneurs do more than get rich' is the message repeated every year." },
     ],
     wishes: [
       "May Vietnamese entrepreneurs keep the startup fire — prosperous business ahead!",
@@ -2339,6 +2366,7 @@ export const holidaysEn: Holiday[] = [
       { q: "Is October 13 a day off?", a: "No — an observance day, not a national holiday." },
       { q: "Since when does this day exist?", a: "Since the Prime Minister's 2004 decision — October 13 as Vietnamese Entrepreneurs' Day." },
       { q: "What happens on Entrepreneurs' Day?", a: "Gatherings, awards, startup forums and charitable activities by businesses." },
+      { q: "Which awards are tied to Entrepreneurs' Day?", a: "Two are cited most: the Thánh Gióng Cup awarded by VCCI to outstanding entrepreneurs, and the Sao Đỏ award for community-minded business leaders. Major corporate rankings (VNR500, Top-10 reputable) are also announced around October 13." },
     ],
   },
   {
@@ -2380,9 +2408,9 @@ export const holidaysEn: Holiday[] = [
     meaning:
       "The milestone that unified Vietnam's communist movement under a single leading party.",
     traditions: [
-      { title: "Anniversary ceremonies", text: "Central and local ceremonies mark the date, with major celebrations in round-number years." },
-      { title: "New member induction", text: "Many party cells choose this occasion to induct new members before the party flag." },
-      { title: "Volunteer campaigns", text: "Mass organizations launch clean-ups, charity house-building and gratitude activities." },
+      { title: "Anniversary ceremonies", text: "Party committees from commune to central level hold solemn February 3 ceremonies: recalling the 1930 conference in Kowloon (Hong Kong) that merged the three communist organizations, reviewing nine-plus decades of history, and screening archival films." },
+      { title: "New member induction", text: "Founding Day is 'induction season': outstanding young people, soldiers and model workers are admitted as party members in solemn ceremonies — a moment each new member calls their 'second birthday'." },
+      { title: "Volunteer campaigns", text: "Local party cells run volunteer days around February 3: environmental clean-ups, tree planting, blood donation, visits to policy families. 'Every member a good deed' is the day's familiar slogan." },
     ],
     wishes: [
       "On the Party's founding day, may Vietnam stay united and prosperous.",
@@ -2423,6 +2451,7 @@ export const holidaysEn: Holiday[] = [
       { q: "Is February 3 a day off?", a: "No — a political observance, not in the Labor Code's list of public holidays." },
       { q: "Where was the Communist Party of Vietnam founded?", a: "At the unification conference in Kowloon, Hong Kong, on February 3, 1930, chaired by Nguyễn Ái Quốc." },
       { q: "Which three organizations merged?", a: "The Đông Dương Communist Party, the Annam Communist Party and the Đông Dương Communist League." },
+      { q: "When was the Party's first congress held?", a: "The First Congress met March 27–31, 1935 in Macau — five years after the founding (February 3, 1930). The 1930 Hong Kong conference is counted as the 'founding congress', but the first official numbered congress came in 1935." },
     ],
   },
   {
@@ -2464,9 +2493,9 @@ export const holidaysEn: Holiday[] = [
     meaning:
       "A symbol of the will to independence — the battle that brought a colonial power to the negotiating table.",
     traditions: [
-      { title: "Visiting A1 cemetery", text: "Hill A1 in Điện Biên Phủ city — resting place of thousands of soldiers — fills with incense every May 7." },
-      { title: "Ceremonies in Điện Biên", text: "Round-number anniversaries bring rallies, parades and festivals on the old battlefield." },
-      { title: "Archives and exhibitions", text: "Media and museums reopen campaign maps and photographs of the 56 days and nights." },
+      { title: "Visiting A1 cemetery", text: "The Điện Biên Phủ martyrs' cemetery on Hill D1 (Điện Biên Phủ city) welcomes veterans and descendants — busiest in the week of May 7. Wreaths and incense on the graves are the day's signature ritual." },
+      { title: "Ceremonies in Điện Biên", text: "The province holds annual commemorations; milestone years (60th, 65th, 70th) rise to state level — the 70th in 2024 featured parades and the largest exhibitions the Northwest has ever seen." },
+      { title: "Archives and exhibitions", text: "The Điện Biên Phủ Museum and libraries open archival displays: maps of De Castries' command bunker, soldiers' letters, photos of Corps 559 hauling artillery through the forest. On May 7 the documents 'come alive' for the public." },
     ],
     wishes: [
       "May 7 — proud of Điện Biên, proud of those who hauled cannons through jungle.",
@@ -2506,6 +2535,7 @@ export const holidaysEn: Holiday[] = [
       { q: "Is May 7 a public holiday?", a: "No — a victory commemoration, not a national day off under the Labor Code." },
       { q: "How long did the Điện Biên Phủ campaign last?", a: "56 days and nights, from March 13 to the afternoon of May 7, 1954." },
       { q: "Who commanded the campaign?", a: "General Võ Nguyên Giáp as commander and political commissar; the French side was led by General Henri Navarre with De Castries commanding the strongpoint." },
+      { q: "What did the victory lead to?", a: "The victory of May 7, 1954 forced France to sign the Geneva Accords (July 20–21, 1954) ending the First Indochina War — the North was fully liberated. It was the decisive final battle of the resistance against the French." },
     ],
   },
   {
@@ -2547,9 +2577,9 @@ export const holidaysEn: Holiday[] = [
     meaning:
       "The day the nation turns its heart toward Kim Liên — honoring the man who went to find a road for his people.",
     traditions: [
-      { title: "Mausoleum visits", text: "Tens of thousands enter Ba Đình to visit the Hồ Chí Minh Mausoleum in the week around May 19." },
-      { title: "Pilgrimage to Kim Liên", text: "Hoàng Trù village in Nam Đàn, Nghệ An welcomes delegations and travelers coming to offer incense." },
-      { title: "Arts honoring him", text: "Songs, poetry nights and archival exhibitions recall his life." },
+      { title: "Mausoleum visits", text: "From early morning on May 19, thousands queue to enter the Mausoleum — every delegation in formal order, laying wreaths. His birthday is one of the Mausoleum's busiest days of the year, alongside September 2." },
+      { title: "Pilgrimage to Kim Liên", text: "Hoàng Trù–Kim Liên village (Nam Đàn, Nghệ An), where he was born, welcomes its biggest 'back to the roots' crowds on May 19: flowers at the thatched parental home, incense at the maternal home, ví-giặm folk singing all day." },
+      { title: "Arts honoring him", text: "Singing and storytelling contests about him bloom across schools and communes around May 19. Books, films and archives about his life are reintroduced to the young through the gentlest stories." },
     ],
     wishes: [
       "Honoring Uncle Hồ — the man who taught us to love our country with his whole life.",
@@ -2589,6 +2619,7 @@ export const holidaysEn: Holiday[] = [
       { q: "Is May 19 a day off?", a: "No — a commemoration of President Hồ Chí Minh's birthday, not a Labor Code holiday." },
       { q: "Where was Uncle Hồ born?", a: "Hoàng Trù village, Kim Liên commune, Nam Đàn district, Nghệ An province — now a special national heritage site." },
       { q: "When does the mausoleum open?", a: "Tuesday, Wednesday, Thursday, Saturday and Sunday mornings (except the annual maintenance period); May 19 usually has its own schedule — check the Management Board's notice." },
+      { q: "What was his birth name?", a: "He was born Nguyễn Sinh Cung on May 19, 1890 in Kim Liên; over the years he used many names — Nguyễn Tất Thành, Nguyễn Ái Quốc — and finally Hồ Chí Minh, the name tied to the 1945 Declaration of Independence." },
     ],
   },
   {
@@ -2630,9 +2661,9 @@ export const holidaysEn: Holiday[] = [
     meaning:
       "History's handover moment — from more than eighty years of colonization to national independence.",
     traditions: [
-      { title: "Ceremonies at the Opera House", text: "August Revolution Square in front of the Hanoi Opera House — where the historic rally of August 19, 1945 took place." },
-      { title: "Parades and flags", text: "Streets hang the national flag; round-number years bring large parades." },
-      { title: "Traditional activities", text: "August 19 is also the traditional day of the People's Public Security force — many events mark both." },
+      { title: "Ceremonies at the Opera House", text: "The Hanoi Opera House — where the August 19, 1945 rally gathered hundreds of thousands to hear the call to the General Uprising — hosts the official ceremony each year. The square in front, now called August Revolution Square, is the day's 'red address'." },
+      { title: "Parades and flags", text: "The capital's streets fly red flags all week; youth delegations march with the banner 'Nothing is more precious than independence and freedom' through the walking streets. Provinces tie the day to their own revolutionary tradition dates." },
+      { title: "Traditional activities", text: "Organizations and schools hold 'August stories' sessions: the columns advancing on Hanoi, the bronze bugle of the uprising, village elders leading communes to take power. August 19 is also the tradition day of the People's Police." },
     ],
     wishes: [
       "Proud of August! May the nation forever keep the flag of independence raised then.",
@@ -2672,6 +2703,7 @@ export const holidaysEn: Holiday[] = [
       { q: "Is August 19 a public holiday?", a: "No — an August Revolution commemoration, not a national day off under the Labor Code." },
       { q: "Which day is the August Revolution?", a: "The General Uprising ran August 14–25, 1945; August 19, 1945 — the day Hanoi seized power — is the commemoration date." },
       { q: "Why is August 19 Public Security tradition day?", a: "On August 19, 1945 revolutionary forces took the Security Bureau and Tonkin offices — the police service counts its origin from that milestone." },
+      { q: "Where did the August 19, 1945 rally happen?", a: "In the square before the Hanoi Opera House — where the crowd heard the call to the General Uprising before advancing on the government offices. The square was later named August Revolution Square." },
     ],
   },
   {
@@ -2713,9 +2745,9 @@ export const holidaysEn: Holiday[] = [
     meaning:
       "The day Hanoi returned to the nation's hands — closing one page of history to open a new one for the capital and the country.",
     traditions: [
-      { title: "Ceremonies in Hanoi", text: "Round-number years (60th, 70th) bring state ceremonies with parades and street festivals." },
-      { title: "Streets ablaze with flags", text: "Hanoi's streets turn red with flags; the Flag Tower is the traditional photo spot." },
-      { title: "'Hanoi remembers' exhibitions", text: "The Hanoi Museum and universities open photo exhibitions about the takeover of October 10, 1954." },
+      { title: "Ceremonies in Hanoi", text: "The city-level ceremony is held at the National Convention Center or the Opera House; the 70th anniversary in 2024 was the capital's biggest event with parades, exhibitions and the concert 'Hanoi — faith and hope'." },
+      { title: "Streets ablaze with flags", text: "The Old Quarter floods with flags around October 10 — flags over ancient tiled roofs, along Hàng Đào–Hàng Ngang where the liberation columns entered in 1954. Tourism bodies run 'in the footsteps of the takeover' tours for visitors." },
+      { title: "'Hanoi remembers' exhibitions", text: "The Hanoi Museum and book-street exhibitions show 'the takeover days': bicycles carrying soldiers, shops reopening on the first morning, family letters bearing the news. The 'stories of those who stayed' are always the most-read section." },
     ],
     wishes: [
       "October 10 — may Hanoi forever be the nation's proud heart.",
@@ -2755,6 +2787,7 @@ export const holidaysEn: Holiday[] = [
       { q: "Is October 10 a day off?", a: "No — a commemoration, not a national holiday under the Labor Code." },
       { q: "What does Hanoi Liberation Day mark?", a: "October 10, 1954 — the Vietnam People's Army taking over Hanoi after the French withdrawal under the Geneva Accords." },
       { q: "Where was the flag raised that day?", a: "On the Hanoi Flag Tower (Kỳ đài) — inside the Thăng Long Imperial Citadel site, Ba Đình district." },
+      { q: "Which anniversary was marked in 2024?", a: "The 70th (1954–2024) — with a state-level ceremony, street parades, the '70 years of Hanoi' exhibition and a grand concert in the square. It is the date's biggest milestone until the 80th anniversary in 2034." },
     ],
   },
   {
@@ -2792,10 +2825,10 @@ export const holidaysEn: Holiday[] = [
     meaning:
       "A reminder that reading is the most durable way to grow knowledge — and a push toward a true 'reading culture' for the whole society.",
     traditions: [
-      { title: "Shared reading hour", text: "Schools and offices read together for 10–15 minutes on April 21." },
-      { title: "Book fairs & festivals", text: "Ho Chi Minh City's Book Street, Hanoi book fairs and provincial fairs open discount stalls." },
-      { title: "Donating books", text: "Drives collect books for school libraries, communities and remote areas." },
-      { title: "Launches & author talks", text: "New-book introductions, signings and conversations with writers and translators." },
+      { title: "Shared reading hour", text: "Every April 21 a nationwide 'shared reading hour' takes place — schools, offices and libraries pause for 15–30 minutes to read together. The campaign spreads from provinces down to schools and reading communities." },
+      { title: "Book fairs & festivals", text: "Book week around April 21 blooms with fairs: HCMC's Book Street, Hanoi's 19/12 Book Street, children's book festivals — deep discounts, author meet-ups, 'books that changed the world' displays. Many provinces hold their first-ever fairs on this date." },
+      { title: "Donating books", text: "Charities and schools run 'book-donation weeks': collecting used books for the highlands, building classroom shelves, funding commune libraries. April 21 is also when families pick 'a reading tradition' for their children." },
+      { title: "Launches & author talks", text: "Publishers time new titles for Reading Day — author-reader meetups in bookstores and livestreams. The April 21 'meet the author' sessions draw young readers queuing for signatures." },
     ],
     wishes: [
       "April 21 — may a good book always wait on your nightstand.",
@@ -2872,10 +2905,10 @@ export const holidaysEn: Holiday[] = [
     meaning:
       "Inscribing Uncle Hồ's words 'healthy to work' — every healthy citizen is a share of the nation's strength.",
     traditions: [
-      { title: "Olympic Run", text: "Mass jogs in nearly every province around late March." },
-      { title: "Morning exercise", text: "Early-morning park culture: qigong, dance workouts, shuttlecock and lakeside cycling." },
-      { title: "Grassroots tournaments", text: "The Phù Đổng school games, workplace football, badminton and martial-arts meets." },
-      { title: "Honoring achievements", text: "Recognition of the year's outstanding athletes and coaches." },
+      { title: "Olympic Run", text: "The Olympic Run for Public Health — a 30-plus-year tradition — is held on the Sunday nearest March 27 at hundreds of simultaneous starting points nationwide. From pupils to grandparents, everyone runs 'for health' — the day's finest picture." },
+      { title: "Morning exercise", text: "Sports Day recalls Hồ Chí Minh's 'morning exercise' appeal — parks on the morning of March 27 are livelier than usual with qigong classes, folk dance and free public yoga." },
+      { title: "Grassroots tournaments", text: "The Phù Đổng Children's Games, commune fun-runs and inter-office badminton — the 'whole people train following his example' movement peaks in March. Sports Day opens the amateur season for the year." },
+      { title: "Honoring achievements", text: "The sector uses the date to honor medalists of SEA Games, ASIAD and the Olympics. March 27 was chosen because on March 27, 1946 Hồ Chí Minh signed the decree founding Vietnamese sport." },
     ],
     wishes: [
       "March 27 — stay fit like an athlete, play hard, live fully.",
@@ -2953,10 +2986,10 @@ export const holidaysEn: Holiday[] = [
     meaning:
       "A reminder of modern society's most basic principle: the state governs by law — and no one stands above it.",
     traditions: [
-      { title: "Legal outreach", text: "Media, outreach teams and commune meetings carry new laws down to the village level." },
-      { title: "Free legal aid", text: "Lawyers and justice officers answer land, marriage and labor questions free of charge." },
-      { title: "Law quizzes in schools", text: "Quizzes, skits and themed activities teach students their rights and duties." },
-      { title: "Honoring legal workers", text: "Recognition of justice officers, inspectors and lawyers who brought law into daily life." },
+      { title: "Legal outreach", text: "On November 9, 'law day' outreach is the core activity: lawyer teams hand out leaflets on new laws, legal banners go up everywhere, and training classes on the Land Law and Marriage Law open in every commune." },
+      { title: "Free legal aid", text: "Free legal-aid booths appear at pagodas, communal halls and admin centers: volunteer lawyers answer questions on land, labor and divorce — the issues people ask most. It is the day's most practical activity." },
+      { title: "Law quizzes in schools", text: "Schools run 'learn the law' contests with everyday scenarios: riding without a helmet, labor contracts, social media conduct — students learn law through games instead of lectures." },
+      { title: "Honoring legal workers", text: "The justice sector holds tradition meetings honoring drafters, judges, lawyers and legal officers — and recalls November 9, 1946, when the first National Assembly passed Vietnam's first constitution." },
     ],
     wishes: [
       "November 9 — may you live truly free within clearly drawn bounds.",
@@ -3033,10 +3066,10 @@ export const holidaysEn: Holiday[] = [
     meaning:
       "Honoring everyone in commerce — from the market vendor to the exporting enterprise — the trade that carried Vietnamese goods and the words 'Viet Nam' onto the world map.",
     traditions: [
-      { title: "Trade fairs", text: "Vietnam Expo, provincial fairs and trade-promotion exhibitions cluster in mid-year." },
-      { title: "Honoring businesses", text: "Commendation of top exporters, high-quality Vietnamese goods and national brands." },
-      { title: "Trade seminars", text: "Industry associations debate policy, markets and e-commerce." },
-      { title: "Vietnamese-goods week", text: "Campaigns of 'Vietnamese people use Vietnamese goods' promote domestic consumption." },
+      { title: "Trade fairs", text: "Around July 13 and through the summer comes fair season: Vietnam Expo, VietFood and provincial fairs — booths of genuine 'Vietnamese goods' displaying export products and each locality's OCOP specialties. It is the 'festival' of the nation's trade front." },
+      { title: "Honoring businesses", text: "Trade Day honors export achievers: 'trusted exporter' awards and top FDI exporters — where October 13 honors the entrepreneur as a person, this day honors the trading organization." },
+      { title: "Trade seminars", text: "The Ministry of Industry and Trade and export associations hold seminars around the date: EU–US–Japan market trends, tapping EVFTA, cross-border e-commerce — the hottest questions of Vietnamese exports." },
+      { title: "Vietnamese-goods week", text: "'Vietnamese Goods Week' and the 'Vietnamese people prioritize Vietnamese goods' campaign run for the occasion: supermarkets discount domestic products and regional specialty fairs bring 'Made in Vietnam' to Vietnamese shoppers first." },
     ],
     wishes: [
       "July 13 — may traders meet fortune: easy buying, brisk selling, wealth flowing.",
@@ -3114,10 +3147,10 @@ export const holidaysEn: Holiday[] = [
     meaning:
       "A day reminding young people of a ninety-year tradition of stepping forward — from Ly Tu Trong to the volunteer brigades, to today's green summer campaigns and startups.",
     traditions: [
-      { title: "New member ceremonies", text: "Induction ceremonies for new members are held solemnly in March — opening 'Youth Month'." },
-      { title: "Youth Month", text: "All of March is 'Youth Month' with volunteer campaigns, urban civility drives and startup programs nationwide." },
-      { title: "Tradition gatherings", text: "Former members meet today's youth, telling stories of volunteer brigades and the 'ship with no number'." },
-      { title: "Volunteer building", text: "Green Summer, Spring Volunteering, exam-support teams — young people do real work, not just slogans." },
+      { title: "New member ceremonies", text: "Founding Day is the 'finest day' for Union inductions: ninth-graders stand before the Union flag and recite the pledge — a first 'growing-up' moment many remember all their lives." },
+      { title: "Youth Month", text: "Since 2004, March has been 'Youth Month': volunteer building, blood donation, tree planting, beach clean-ups — the nation's young people take the field in the same blue shirts. March 26 crowns that month of activity." },
+      { title: "Tradition gatherings", text: "Solemn ceremonies retell Union history from March 26, 1931 in Vinh, remembering Lý Tự Trọng — the first member to die, at just 17 — and reuniting generations of Union members." },
+      { title: "Volunteer building", text: "Union-built 'youth roads', rural bridges and cultural houses are the tradition's signature output: from the legendary Hồ Chí Minh road to today's 'Union to the countryside' village lanes." },
     ],
     wishes: [
       "March 26 — may your youth always have a front line of your own to step up to.",
@@ -3195,10 +3228,10 @@ export const holidaysEn: Holiday[] = [
     meaning:
       "Honoring poetry — the art form longest bound to Vietnamese culture: from lullaby folk verse and Tang-regulated poems to The Tale of Kieu and modern free verse.",
     traditions: [
-      { title: "Van Mieu poetry night", text: "The first-full-moon evening at the Temple of Literature: poetry readings, ca tru singing, concerts and verse exhibitions." },
-      { title: "Reading together", text: "Poetry clubs, schools and libraries host joint readings — any poem counts, as long as it's poetry." },
-      { title: "Annual theme", text: "The Writers' Association picks a creative theme for the year — from 'Homeland' to 'Youth and the sea'." },
-      { title: "Honoring poets", text: "Annual poetry prizes, new-poet contests, and remembrance of great poets who have passed." },
+      { title: "Van Mieu poetry night", text: "The Poetry Night at Văn Miếu – Quốc Tử Giám unfolds on the first-full-moon evening by the Well of Literature beneath the Khuê Văn pavilion: great poets, children and folk singers read by candlelight and moonlight — the nation's grandest night of verse." },
+      { title: "Reading together", text: "Poetry cafés, verse clubs and schools hold their own 'poetry hour': each person brings a beloved poem to read aloud. For one night, Vietnamese verse becomes a true community activity." },
+      { title: "Annual theme", text: "Each year the Vietnam Writers' Association sets a theme for Poetry Day — 'Poetry and homeland', 'Poetry of spring' — and the week's contests and exhibitions revolve around it." },
+      { title: "Honoring poets", text: "The day also celebrates beloved poets and awards the year's verse prizes — Nguyễn Du, Xuân Quỳnh and the 'humanist' generation are recalled; many children hear their own voices recite before a crowd for the first time." },
     ],
     wishes: [
       "First full moon — may your year slow down just enough to hear the meter of your own life.",
@@ -3279,10 +3312,10 @@ export const holidaysEn: Holiday[] = [
     meaning:
       "A thank-you to men who rarely hear it — a day to pay attention to men's health, emotions and roles in society.",
     traditions: [
-      { title: "Wishes for men", text: "A day to thank fathers, brothers, husbands and male colleagues — simple, and rarely done." },
-      { title: "Health themes", text: "Health-check drives, mental-health counseling and men's wellness campaigns by medical organizations." },
-      { title: "Honoring role models", text: "Stories of influential fathers, teachers and teammates get shared widely." },
-      { title: "Paired with March 8", text: "In many countries November 19 is seen as the 'counterpart' of International Women's Day — a day men receive flowers and gifts too." },
+      { title: "Wishes for men", text: "Children, wives and partners send November 19 wishes to fathers, husbands and brothers — the day is not yet as big as March 8 but grows more familiar each year: 'stay healthy, Dad' is the classic message." },
+      { title: "Health themes", text: "Each International Men's Day carries a men's-health theme: prostate cancer, male mental health — tied to the global Movember movement growing mustaches through November for men's-health causes." },
+      { title: "Honoring role models", text: "The day honors positive male role models: single fathers raising children, devoted male nurses, men who have donated blood a hundred times — 'good men worth knowing' are sought out and their stories retold." },
+      { title: "Paired with March 8", text: "In Vietnam, November 19 is often treated as the day men 'receive back' what March 8 gives women — a dinner cooked by the man himself, a gift for Dad. Though unofficial, it is slowly becoming a new cultural habit." },
     ],
     wishes: [
       "November 19 — wishing the men in your life good health, and the courage to say when they're tired.",
