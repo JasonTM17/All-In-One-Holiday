@@ -11,7 +11,7 @@ export const HERO_SRC_W: Record<string, number> = {
   "ngay-cach-mang-thang-tam": 1920,
   "ngay-cua-me": 1920,
   "ngay-dien-bien-phu": 960,
-  "ngay-gia-dinh-viet-nam": 960,
+  "ngay-gia-dinh-viet-nam": 1280,
   "ngay-giai-phong-thu-do": 720,
   "ngay-sinh-nhat-bac": 1920,
   "ngay-thanh-lap-dang": 1920,
@@ -33,7 +33,7 @@ export const HERO_SRC_W: Record<string, number> = {
   "tet-nguyen-tieu": 1920,
   "tet-thanh-minh": 394,
   "thuong-binh-liet-si": 1920,
-  "trung-thu": 1920,
+  "trung-thu": 960,
   "valentine": 911,
   "vu-lan": 1920
 };
@@ -52,7 +52,7 @@ export const HERO_TINT: Record<string, string> = {
   "ngay-cach-mang-thang-tam": "#c8e8f8",
   "ngay-cua-me": "#f82838",
   "ngay-dien-bien-phu": "#f8f8f8",
-  "ngay-gia-dinh-viet-nam": "#c8c8b8",
+  "ngay-gia-dinh-viet-nam": "#f8f8f8",
   "ngay-giai-phong-thu-do": "#f8f8f8",
   "ngay-sinh-nhat-bac": "#6898c8",
   "ngay-thanh-lap-dang": "#d82828",
@@ -74,7 +74,7 @@ export const HERO_TINT: Record<string, string> = {
   "tet-nguyen-tieu": "#080808",
   "tet-thanh-minh": "#c89858",
   "thuong-binh-liet-si": "#080808",
-  "trung-thu": "#081828",
+  "trung-thu": "#f8f8f8",
   "valentine": "#f8f8f8",
   "vu-lan": "#284808"
 };

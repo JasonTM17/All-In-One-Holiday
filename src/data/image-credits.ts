@@ -1145,12 +1145,12 @@ export const imageCredits: Record<string, ImageCredit[]> = {
     },
     {
       "file": "ngay-gia-dinh-viet-nam/hero.webp",
-      "photographer": "Chiku dsc",
-      "profile": "https://commons.wikimedia.org/wiki/File:Mother_and_child_love.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Mother_and_child_love.jpg",
-      "license": "CC BY-SA 4.0",
-      "source": "Wikimedia Commons",
-      "alt": "A newly born child brings alot of happiness and joy in every family and makes the family complete. Love and care of a mo"
+      "photographer": "mabaydar.blogspot.com",
+      "profile": "https://mabaydar.blogspot.com/2016/01/",
+      "photo": "https://mabaydar.blogspot.com/2016/01/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (mabaydar.blogspot.com)",
+      "alt": "မဗေဒါရဲ့ ဗေဒါလမ်း: 01/01/2016 - 02/01/2016"
     },
     {
       "file": "ngay-gia-dinh-viet-nam/gallery1.webp",
@@ -1402,15 +1402,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Spectacular Ha Long Bay (Halong Bay) in North Vietnam, a UNESCO World Heritage Site."
     },
     {
-      "file": "quoc-khanh/gallery4.webp",
-      "photographer": "Grenouille vert",
-      "profile": "https://commons.wikimedia.org/wiki/File:Ba_Dinh_Square_panorama.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Ba_Dinh_Square_panorama.jpg",
-      "license": "CC BY-SA 3.0",
-      "source": "Wikimedia Commons",
-      "alt": "A 360-degree view of the en:Ba Dinh Square in Hanoi, Vietnam"
-    },
-    {
       "file": "quoc-khanh/gallery5.webp",
       "photographer": "Syced",
       "profile": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_mausoleum_in_2003_2.jpg",
@@ -1427,6 +1418,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 2.0",
       "source": "Wikimedia Commons",
       "alt": "Vietnamese flag in Halong Bay"
+    },
+    {
+      "file": "quoc-khanh/gallery4.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/chagiajose/15011126925",
+      "photo": "https://www.flickr.com/photos/chagiajose/15011126925",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "DSC_7509 | Flag Tower of Hanoi | Cha già José | Flickr"
     }
   ],
   "trung-thu": [
@@ -1531,12 +1531,12 @@ export const imageCredits: Record<string, ImageCredit[]> = {
     },
     {
       "file": "trung-thu/hero.webp",
-      "photographer": "doctorho",
-      "profile": "https://commons.wikimedia.org/wiki/File:Lanterns_at_Mid-Autumn_Festival,_Hong_Kong;_September_2013_(03).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Lanterns_at_Mid-Autumn_Festival,_Hong_Kong;_September_2013_(03).jpg",
-      "license": "CC BY-SA 2.0",
-      "source": "Wikimedia Commons",
-      "alt": "The Mid-Autumn Festival, also known as the Moon Festival or Mooncake Festival, is a traditional festival celebrated in m"
+      "photographer": "motogo.vn",
+      "profile": "https://motogo.vn/pho-co-hoi-an/",
+      "photo": "https://motogo.vn/pho-co-hoi-an/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (motogo.vn)",
+      "alt": "Phố cổ Hội An | Tận hưởng một ngày trọn vẹn - MOTOGO"
     },
     {
       "file": "trung-thu/gallery5.webp",
@@ -2233,12 +2233,12 @@ export const imageCredits: Record<string, ImageCredit[]> = {
     },
     {
       "file": "ngay-bao-chi/gallery3.webp",
-      "photographer": "Unknown authorship, published before 1945.",
-      "profile": "https://commons.wikimedia.org/wiki/File:King_Bao_Dai_visited_the_Archives_and_Library_of_Indochina_in_1933_(taken_at_the_Central_Library).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:King_Bao_Dai_visited_the_Archives_and_Library_of_Indochina_in_1933_(taken_at_the_Central_Library).jpg",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "A photograph related to the modernisation of the Imperial Archives of the Nguyễn Dynasty by Paul Boudet."
+      "photographer": "tcgd.tapchigiaoduc.edu.vn",
+      "profile": "https://tcgd.tapchigiaoduc.edu.vn/index.php/tapchi/article/view/3906",
+      "photo": "https://tcgd.tapchigiaoduc.edu.vn/index.php/tapchi/article/view/3906",
+      "license": "CC (xem nguồn)",
+      "source": "Web (tcgd.tapchigiaoduc.edu.vn)",
+      "alt": "Giải pháp giáo dục lòng yêu nước, ý thức dân tộc cho thế hệ trẻ Việt ..."
     }
   ],
   "nguoi-cao-tuoi": [

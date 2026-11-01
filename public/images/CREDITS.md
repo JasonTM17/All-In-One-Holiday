@@ -127,7 +127,7 @@ Photos from Wikimedia Commons and Flickr contributors; see per-file license and 
 | ngay-gia-dinh-viet-nam/card.webp | Hoangkid | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Vietnamese_family_daily_meal.jpg) |
 | ngay-gia-dinh-viet-nam/gallery4.webp | Unknown authorUnknown author | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Three_generations_of_the_Gladfelter_Family_on_a_Picnic.jpg) |
 | ngay-gia-dinh-viet-nam/gallery5.webp | Peachyeung316 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:A_Square_shaped_Vietnamese_Rice_Dumpling.jpg) |
-| ngay-gia-dinh-viet-nam/hero.webp | Chiku dsc | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Mother_and_child_love.jpg) |
+| ngay-gia-dinh-viet-nam/hero.webp | mabaydar.blogspot.com | CC (xem nguồn) | [Commons](https://mabaydar.blogspot.com/2016/01/) |
 | ngay-gia-dinh-viet-nam/gallery1.webp | Russell Lee | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:The_family_of_John_R._Blaney_eating_supper._Mr._Blaney_has_worked_for_the_company_for_twenty-four_years._Mullens..._-_NARA_-_540956.tif) |
 | ngay-gia-dinh-viet-nam/gallery6.webp | Donald Trung | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Personal_in-home_altar_for_deceased_family_members_in_Viet_Nam.jpg) |
 | thuong-binh-liet-si/hero.webp | Linhcandng (thảo luận) | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ngh%C4%A9a_trang_Li%E1%BB%87t_s%C4%A9_H%E1%BA%A3i_D%C6%B0%C6%A1ng.jpeg) |
@@ -155,9 +155,9 @@ Photos from Wikimedia Commons and Flickr contributors; see per-file license and 
 | quoc-khanh/gallery1.webp | Gabrielconstantin | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Vietnam_Asia_Express.jpg) |
 | quoc-khanh/gallery2.webp | Vivian Bloomsberg | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Vietnam-26834_1280.png) |
 | quoc-khanh/gallery3.webp | Vyacheslav Argenberg | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Vietnamese_flag_in_Ha_Long_Bay,_Vietnam.jpg) |
-| quoc-khanh/gallery4.webp | Grenouille vert | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ba_Dinh_Square_panorama.jpg) |
 | quoc-khanh/gallery5.webp | Syced | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_mausoleum_in_2003_2.jpg) |
 | quoc-khanh/gallery6.webp | rusticus80 | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Vietnamese_flag_in_Halong_Bay.jpg) |
+| quoc-khanh/gallery4.webp | flickr.com | CC (xem nguồn) | [Commons](https://www.flickr.com/photos/chagiajose/15011126925) |
 | trung-thu/card.webp | YaEeBondZ 002 | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:HK_CWB_Causeway_Bay_%E7%B6%AD%E5%9C%92_Victoria_Park_%E4%B8%AD%E7%A7%8B%E7%AF%80%E7%87%88%E5%8C%AF_Mid-autumn_Festival_Lantern_Carnival_September_2026_N13P_201.jpg) |
 | trung-thu/gallery1.webp | YaEeBondZ 002 | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:HK_CWB_Causeway_Bay_%E7%B6%AD%E5%9C%92_Victoria_Park_%E4%B8%AD%E7%A7%8B%E7%AF%80%E7%87%88%E5%8C%AF_Mid-autumn_Festival_Lantern_Carnival_September_2026_N13P_203.jpg) |
 | trung-thu/gallery2.webp | YaEeBondZ 002 | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:HK_CWB_Causeway_Bay_%E7%B6%AD%E5%9C%92_Victoria_Park_%E4%B8%AD%E7%A7%8B%E7%AF%80%E7%87%88%E5%8C%AF_Mid-autumn_Festival_Lantern_Carnival_September_2026_N13P_208.jpg) |
@@ -169,7 +169,7 @@ Photos from Wikimedia Commons and Flickr contributors; see per-file license and 
 | trung-thu/amthuc-banh-in.webp | Viethavvh | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:C%E1%BB%97_trung_thu.JPG) |
 | trung-thu/phongtuc-den-ong-sao.webp | Newone | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:%C4%90%C3%A8n_l%E1%BB%93ng_th%E1%BB%8F_Trung_Thu_kh%E1%BB%95ng_l%E1%BB%93_Times_City.jpg) |
 | trung-thu/gallery4.webp | Shajinss | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Night_sky_with_beautiful_moon.jpg) |
-| trung-thu/hero.webp | doctorho | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lanterns_at_Mid-Autumn_Festival,_Hong_Kong;_September_2013_(03).jpg) |
+| trung-thu/hero.webp | motogo.vn | CC (xem nguồn) | [Commons](https://motogo.vn/pho-co-hoi-an/) |
 | trung-thu/gallery5.webp | Dragfyre | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Mid-Autumn_Star_DN.JPG) |
 | trung-thu/gallery6.webp | Violetbonmua | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Star-shape_lanterns_in_Vietnam.jpg) |
 | giang-sinh/card.webp | Lechhansl | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Rockefeller_Center_christmas_tree.jpg) |
@@ -245,7 +245,7 @@ Photos from Wikimedia Commons and Flickr contributors; see per-file license and 
 | ngay-bao-chi/gallery6.webp | Matti Blume | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Mille_Miglia_2018_press_conference,_Le_Grand-Saconnex_(1X7A9542).jpg) |
 | ngay-bao-chi/gallery1.webp | Ngô Trung | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:S%E1%BA%A1p_b%C3%A1o.JPG) |
 | ngay-bao-chi/gallery2.webp | TaiwaneseWaveVN | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:S%E1%BA%A1p_b%C3%A1o_110A1_%C4%91%C6%B0%E1%BB%9Dng_Gi%E1%BA%A3ng_V%C3%B5,_qu%E1%BA%ADn_Ba_%C4%90%C3%ACnh,_H%C3%A0_N%E1%BB%99i_(A_newspaper_kiosk_at_110A1_Giang_Vo_Road,_Ba_Dinh_District,_Hanoi,_Vietnam).jpg) |
-| ngay-bao-chi/gallery3.webp | Unknown authorship, published before 1945. | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:King_Bao_Dai_visited_the_Archives_and_Library_of_Indochina_in_1933_(taken_at_the_Central_Library).jpg) |
+| ngay-bao-chi/gallery3.webp | tcgd.tapchigiaoduc.edu.vn | CC (xem nguồn) | [Commons](https://tcgd.tapchigiaoduc.edu.vn/index.php/tapchi/article/view/3906) |
 | nguoi-cao-tuoi/hero.webp | . The original uploader was MoodyGroove at English Wikipedia. | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Clinton_health_care_elderly.jpg) |
 | nguoi-cao-tuoi/card.webp | Cpl. Cullen J. Tiernan | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:USMC-100810-M-8743T-217.jpg) |
 | nguoi-cao-tuoi/gallery1.webp | Wikimedia Commons | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Nicaraguan_Residents_Receive_Care_at_High_School_Clinic_During_Continuing_Promise_2008_DVIDS109439.jpg) |
