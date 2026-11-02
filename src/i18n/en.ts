@@ -2,7 +2,7 @@ import type { Messages } from "./types";
 
 export const en: Messages = {
   meta: {
-    titleDefault: "Ngày Lễ Việt — Vietnamese & International Holiday Calendar",
+    titleDefault: "Ngày Lễ Việt — Vietnamese & International Holidays",
     titleTemplate: "%s | Ngày Lễ Việt",
     description:
       "A calendar of Vietnamese and international holidays — origins, meaning, traditions, wishes and gift ideas, in English.",

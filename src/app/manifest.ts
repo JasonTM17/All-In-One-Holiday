@@ -14,8 +14,14 @@ export default function manifest(): MetadataRoute.Manifest {
     start_url: `${BASE}/`,
     scope: `${BASE}/`,
     display: "standalone",
+    categories: ["lifestyle", "utilities"],
     background_color: "#fffdf8",
     theme_color: "#be123c",
+    shortcuts: [
+      { name: "Hôm nay là ngày gì", url: `${BASE}/hom-nay/` },
+      { name: "Lịch ngày lễ", url: `${BASE}/lich/` },
+      { name: "Tạo thiệp", url: `${BASE}/thiep/` },
+    ],
     icons: [
       { src: `${BASE}/icon-192.png`, sizes: "192x192", type: "image/png", purpose: "any" },
       { src: `${BASE}/icon-512.png`, sizes: "512x512", type: "image/png", purpose: "any" },

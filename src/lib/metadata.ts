@@ -42,6 +42,11 @@ export function rootMetadata(locale: Locale): Metadata {
       images: [`${siteUrl()}/opengraph-image.png`],
     },
     twitter: { card: "summary_large_image" },
+    appleWebApp: {
+      capable: true,
+      title: "Ngày Lễ Việt",
+      statusBarStyle: "default",
+    },
     alternates: {
       canonical: home,
       languages: { vi: "/", en: "/en/", "x-default": "/" },

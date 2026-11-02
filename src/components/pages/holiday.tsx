@@ -34,10 +34,18 @@ export async function holidayMetadata(
 ): Promise<Metadata> {
   const h = holidayOf(slug, locale);
   if (!h) return {};
-  const description =
+  const base = `${h.name} (${h.displayDate}): ${h.tagline}`;
+  const flat = `${h.name}: ${h.tagline}`;
+  const suffix =
     locale === "en"
-      ? `${h.name} (${h.displayDate}): ${h.tagline} Meaning, traditions, wishes and gift ideas.`
-      : `${h.name} (${h.displayDate}): ${h.tagline} Ý nghĩa, phong tục, lời chúc và gợi ý quà tặng.`;
+      ? " Meaning, traditions, wishes and gift ideas."
+      : " Ý nghĩa, phong tục, lời chúc và gợi ý quà tặng.";
+  // SERPs cut ~158 chars — drop the boilerplate suffix, then the date, then
+  // truncate the tagline at a word boundary as the last resort.
+  const cut = (s: string) =>
+    s.slice(0, 157).replace(/\s+\S*$/, "") + "…";
+  const description =
+    [`${base}${suffix}`, base, flat].find((d) => d.length <= 158) ?? cut(flat);
   const url = localePath(locale, `/${h.slug}/`);
   return {
     title: h.name,
