@@ -202,15 +202,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "View thru My Global Lens: Red for Good Luck"
     },
     {
-      "file": "tet-nguyen-dan/gallery6.webp",
-      "photographer": "foodboozeshoes.blogspot.com",
-      "profile": "https://foodboozeshoes.blogspot.com/2011/04/asia-tripping-part-v-halong-bay-vietnam.html",
-      "photo": "https://foodboozeshoes.blogspot.com/2011/04/asia-tripping-part-v-halong-bay-vietnam.html",
-      "license": "CC (xem nguồn)",
-      "source": "Web (foodboozeshoes.blogspot.com)",
-      "alt": "Food, booze and shoes: Asia tripping - part V: Halong Bay, Vietnam"
-    },
-    {
       "file": "tet-nguyen-dan/history.webp",
       "photographer": "Steffen Schmitz (more photos)",
       "profile": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City,_Nguyen_Hue_Street,_2020-01_CN-01.jpg",
@@ -218,18 +209,18 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 4.0",
       "source": "Wikimedia Commons",
       "alt": "Ho Chi Minh City (Vietnam) – Nguyen Hue Street – closed pedestrian area during the preparation of Tết"
+    },
+    {
+      "file": "tet-nguyen-dan/gallery6.webp",
+      "photographer": "Nguyen Dung Tien",
+      "profile": "https://commons.wikimedia.org/wiki/File:Ch%E1%BB%A3_hoa_t%E1%BA%BFt_2.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Ch%E1%BB%A3_hoa_t%E1%BA%BFt_2.jpg",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "A busy flower market during the Tet festival, Vietnam."
     }
   ],
   "tet-nguyen-tieu": [
-    {
-      "file": "tet-nguyen-tieu/hero.webp",
-      "photographer": "vi:Thành viên:Viethavvh",
-      "profile": "https://commons.wikimedia.org/wiki/File:Den_ong_sao.JPG",
-      "photo": "https://commons.wikimedia.org/wiki/File:Den_ong_sao.JPG",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "Vietnamese children celebrating Tết Trung Thu in a traditional lantern procession."
-    },
     {
       "file": "tet-nguyen-tieu/gallery1.webp",
       "photographer": "Christophe95",
@@ -328,6 +319,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "Public domain",
       "source": "Wikimedia Commons",
       "alt": "Thiên Trù"
+    },
+    {
+      "file": "tet-nguyen-tieu/hero.webp",
+      "photographer": "-Zest",
+      "profile": "https://commons.wikimedia.org/wiki/File:Lantern_Festival_in_Taiwan_at_night_5.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Lantern_Festival_in_Taiwan_at_night_5.jpg",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "​台南巷口花燈兼自由創意彩繪"
     }
   ],
   "valentine": [
@@ -754,15 +754,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Soldiers of the en:Vietnam People's Army."
     },
     {
-      "file": "quan-doi-nhan-dan/gallery6.webp",
-      "photographer": "U.S. Army photo by Sgt. Elisabeth Tasker",
-      "profile": "https://commons.wikimedia.org/wiki/File:Army%27s_250th_Birthday_Parade_Historical_Uniform_Fitting_(9107963).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Army%27s_250th_Birthday_Parade_Historical_Uniform_Fitting_(9107963).jpg",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "A U.S. Army Soldier assigned to the 101st Airborne Division, gets fitted at the Regional Office Building, June 11, 2025,"
-    },
-    {
       "file": "quan-doi-nhan-dan/card.webp",
       "photographer": "Unknown authorUnknown author or not provided",
       "profile": "https://commons.wikimedia.org/wiki/File:South_Vietnamese_soldier,_1966,_1958_-_1974_-_NARA_-_541856.tif",
@@ -770,6 +761,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "Public domain",
       "source": "Wikimedia Commons",
       "alt": "General notes: Use War and Conflict Number 396 when ordering a reproduction or requesting information about this image."
+    },
+    {
+      "file": "quan-doi-nhan-dan/gallery6.webp",
+      "photographer": "Adam Jones Adam63",
+      "profile": "https://commons.wikimedia.org/wiki/File:Soldier_-_Can_Tho_-_Vietnam.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:Soldier_-_Can_Tho_-_Vietnam.JPG",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "Young soldier near Can Tho, Mekong delta, Vietnam. July 2009."
     }
   ],
   "gio-to-hung-vuong": [
@@ -1234,15 +1234,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "A modern daily Vietnamese meal presented on an aluminium round tray. From top left to right: vegetarian soup of Basella "
     },
     {
-      "file": "ngay-gia-dinh-viet-nam/gallery4.webp",
-      "photographer": "Unknown authorUnknown author",
-      "profile": "https://commons.wikimedia.org/wiki/File:Three_generations_of_the_Gladfelter_Family_on_a_Picnic.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Three_generations_of_the_Gladfelter_Family_on_a_Picnic.jpg",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "Title: Three generations of the Gladfelter Family on a Picnic."
-    },
-    {
       "file": "ngay-gia-dinh-viet-nam/gallery5.webp",
       "photographer": "Peachyeung316",
       "profile": "https://commons.wikimedia.org/wiki/File:A_Square_shaped_Vietnamese_Rice_Dumpling.jpg",
@@ -1250,24 +1241,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 4.0",
       "source": "Wikimedia Commons",
       "alt": "A Square Shaped Vietnamese Rice Dumpling at the table in Food Shop at Sham Shui Po"
-    },
-    {
-      "file": "ngay-gia-dinh-viet-nam/hero.webp",
-      "photographer": "mabaydar.blogspot.com",
-      "profile": "https://mabaydar.blogspot.com/2016/01/",
-      "photo": "https://mabaydar.blogspot.com/2016/01/",
-      "license": "CC (xem nguồn)",
-      "source": "Web (mabaydar.blogspot.com)",
-      "alt": "မဗေဒါရဲ့ ဗေဒါလမ်း: 01/01/2016 - 02/01/2016"
-    },
-    {
-      "file": "ngay-gia-dinh-viet-nam/gallery1.webp",
-      "photographer": "Russell Lee",
-      "profile": "https://commons.wikimedia.org/wiki/File:The_family_of_John_R._Blaney_eating_supper._Mr._Blaney_has_worked_for_the_company_for_twenty-four_years._Mullens..._-_NARA_-_540956.tif",
-      "photo": "https://commons.wikimedia.org/wiki/File:The_family_of_John_R._Blaney_eating_supper._Mr._Blaney_has_worked_for_the_company_for_twenty-four_years._Mullens..._-_NARA_-_540956.tif",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "Vietnamese family eating"
     },
     {
       "file": "ngay-gia-dinh-viet-nam/gallery6.webp",
@@ -1295,6 +1268,33 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC (xem nguồn)",
       "source": "Web (ritkanlathatotortenelem.blog.hu)",
       "alt": "Napi érdekes - 288 - RITKÁN LÁTHATÓ TÖRTÉNELEM"
+    },
+    {
+      "file": "ngay-gia-dinh-viet-nam/hero.webp",
+      "photographer": "Unknown photographer",
+      "profile": "https://commons.wikimedia.org/wiki/File:Ph%E1%BA%A1m_Th%E1%BB%8B_T%C3%BD_and_her_family.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Ph%E1%BA%A1m_Th%E1%BB%8B_T%C3%BD_and_her_family.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Phạm Thị Tý and her family, Hanoi"
+    },
+    {
+      "file": "ngay-gia-dinh-viet-nam/gallery1.webp",
+      "photographer": "Unknown, published before 1945.",
+      "profile": "https://commons.wikimedia.org/wiki/File:Ng%C6%B0%E1%BB%9Di_nh%C3%A0_c%E1%BA%A7m_hu%C3%A2n_ch%C6%B0%C6%A1ng_B%E1%BA%AFc_%C4%90%E1%BA%A9u_b%E1%BB%99i_tinh_c%E1%BB%A7a_KTS_Nguy%E1%BB%85n-Duy_%C4%90%E1%BA%A1t_trong_%C4%91%C3%A1m_tang.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Ng%C6%B0%E1%BB%9Di_nh%C3%A0_c%E1%BA%A7m_hu%C3%A2n_ch%C6%B0%C6%A1ng_B%E1%BA%AFc_%C4%90%E1%BA%A9u_b%E1%BB%99i_tinh_c%E1%BB%A7a_KTS_Nguy%E1%BB%85n-Duy_%C4%90%E1%BA%A1t_trong_%C4%91%C3%A1m_tang.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "A family member holding the medals and decorations awarded to KTS Nguyễn-Duy Đạt at his funeral."
+    },
+    {
+      "file": "ngay-gia-dinh-viet-nam/gallery4.webp",
+      "photographer": "Unknown photographer",
+      "profile": "https://commons.wikimedia.org/wiki/File:Family_of_Mr_B%C3%B9i_Thi%E1%BB%87n_C%C6%A1.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Family_of_Mr_B%C3%B9i_Thi%E1%BB%87n_C%C6%A1.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Family of Mr Bùi Thiện Cơ"
     }
   ],
   "thuong-binh-liet-si": [
@@ -2118,15 +2118,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Bánh bao chay ngọt cúng tất niên"
     },
     {
-      "file": "tet-han-thuc/card.webp",
-      "photographer": "en.wikipedia.org",
-      "profile": "https://en.wikipedia.org/wiki/B%C3%A1nh_t%C3%A9t",
-      "photo": "https://en.wikipedia.org/wiki/B%C3%A1nh_t%C3%A9t",
-      "license": "CC (xem nguồn)",
-      "source": "Web (en.wikipedia.org)",
-      "alt": "Bánh tét - Wikipedia"
-    },
-    {
       "file": "tet-han-thuc/gallery3.webp",
       "photographer": "tramkochen.blogspot.com",
       "profile": "https://tramkochen.blogspot.com/2010/04/banh-chuoi-hap.html",
@@ -2170,6 +2161,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY 2.0",
       "source": "Wikimedia Commons",
       "alt": "I think this is some sort of sweet dough....but I don't know."
+    },
+    {
+      "file": "tet-han-thuc/card.webp",
+      "photographer": "Việt Hùng Cao",
+      "profile": "https://www.flickr.com/photos/caoviethungnd/36379724891/",
+      "photo": "https://www.flickr.com/photos/caoviethungnd/36379724891/",
+      "license": "CC0/PDM",
+      "source": "Flickr",
+      "alt": "Bánh trôi nước — món ăn truyền thống Tết Hàn Thực"
     }
   ],
   "tet-doan-ngo": [
@@ -2439,22 +2439,22 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "An early Communist newspaper issued in French Indo-China to advocate for the struggles of the indigenous proletariat aga"
     },
     {
-      "file": "ngay-bao-chi/gallery5.webp",
-      "photographer": "Photo courtesy of Paul Brock",
-      "profile": "https://commons.wikimedia.org/wiki/File:National_Association_of_Black_Journalists,_Kerner_Report_key_to_African-American_breakthrough_in_media_industry_160218-A-DZ999-371.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:National_Association_of_Black_Journalists,_Kerner_Report_key_to_African-American_breakthrough_in_media_industry_160218-A-DZ999-371.jpg",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "Paul Brock served as deputy director of Communications for the Democratic National Committee from 1974 to 1976. Unit: Jo"
-    },
-    {
       "file": "ngay-bao-chi/gallery4.webp",
       "photographer": "David Hume Kennerly",
-      "profile": "https://commons.wikimedia.org/wiki/File:Ford_A4239_NLGRF_photo_contact_sheet_(1975-04-28)(Gerald_Ford_Library).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Ford_A4239_NLGRF_photo_contact_sheet_(1975-04-28)(Gerald_Ford_Library).jpg",
+      "profile": "https://commons.wikimedia.org/wiki/File:Nick_Ut_speaks_with_the_press.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Nick_Ut_speaks_with_the_press.jpg",
       "license": "Public domain",
       "source": "Wikimedia Commons",
-      "alt": "The photo contact sheet, identified as A4239 by the White House Photographic Office (WHPO), is housed at the Gerald R. F"
+      "alt": "Pulitzer Prize-winning photographer Nick Ut speaks with the press on Thursday, April 28, 2016, outside of the LBJ Presid"
+    },
+    {
+      "file": "ngay-bao-chi/gallery5.webp",
+      "photographer": "Cuong PM",
+      "profile": "https://www.flickr.com/photos/49059855@N03/8848041327/",
+      "photo": "https://www.flickr.com/photos/49059855@N03/8848041327/",
+      "license": "CC BY 2.0",
+      "source": "Flickr",
+      "alt": "Người đàn ông Việt Nam đọc báo ngoài công viên"
     }
   ],
   "nguoi-cao-tuoi": [
@@ -2559,12 +2559,12 @@ export const imageCredits: Record<string, ImageCredit[]> = {
     },
     {
       "file": "nguoi-cao-tuoi/history.webp",
-      "photographer": "simpleinsomnia",
-      "profile": "https://commons.wikimedia.org/wiki/File:CDV_of_a_sickly,_elderly_woman_(13989798719).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:CDV_of_a_sickly,_elderly_woman_(13989798719).jpg",
-      "license": "CC BY 2.0",
+      "photographer": "unknown painter",
+      "profile": "https://commons.wikimedia.org/wiki/File:Portrait_of_a_Vietnamese_wealthy_elderly_man.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Portrait_of_a_Vietnamese_wealthy_elderly_man.jpg",
+      "license": "Public domain",
       "source": "Wikimedia Commons",
-      "alt": "\"Great Grandma Bicknell\" Stamped \"Clifford's Studio, Newton, Iowa\""
+      "alt": "Portrait of a Vietnamese wealthy elderly man"
     }
   ],
   "doanh-nhan": [
@@ -3204,15 +3204,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Chùa Tứ Kỳ, Hà Nội, Việt Nam."
     },
     {
-      "file": "ngay-sach-viet-nam/gallery4.webp",
-      "photographer": "Yun Huang Yong from Harbord, Australia",
-      "profile": "https://commons.wikimedia.org/wiki/File:Ben_Thanh_Market_(3122976554).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Ben_Thanh_Market_(3122976554).jpg",
-      "license": "CC BY 2.0",
-      "source": "Wikimedia Commons",
-      "alt": "Its a very large market selling just about everything from dried foods to the latest in knock-off fashions, as well as s"
-    },
-    {
       "file": "ngay-sach-viet-nam/gallery2.webp",
       "photographer": "resibooks.com",
       "profile": "https://www.resibooks.com/2019/03/",
@@ -3256,6 +3247,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 3.0",
       "source": "Wikimedia Commons",
       "alt": "An iPad with text sits between ordinary books in a bookshelf. The text is a page from Georg Büchner's \"Dantons Tod\". The"
+    },
+    {
+      "file": "ngay-sach-viet-nam/gallery4.webp",
+      "photographer": "Smuconlaw",
+      "profile": "https://commons.wikimedia.org/wiki/File:National_Library_of_Vietnam,_Hanoi,_Vietnam_-_20131030-03.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:National_Library_of_Vietnam,_Hanoi,_Vietnam_-_20131030-03.JPG",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "The National Library of Vietnam at 31 Tràng Thi Street, Hoang Kiem, Hanoi, Vietnam."
     }
   ],
   "ngay-the-thao-viet-nam": [
@@ -3729,15 +3729,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Vietnamese men working"
     },
     {
-      "file": "quoc-te-nam-gioi/gallery6.webp",
-      "photographer": "Unknown authorUnknown author",
-      "profile": "https://commons.wikimedia.org/wiki/File:Father_and_Son._Emperors_Qianlong_and_Yongzhen.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Father_and_Son._Emperors_Qianlong_and_Yongzhen.jpg",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "A hanging scroll by Lang Shining (Giuseppe Castiglione), Spring's Peaceful Messages, c. 1736. Ink and color on silk, 68."
-    },
-    {
       "file": "quoc-te-nam-gioi/gallery5.webp",
       "photographer": "Lewis Hine",
       "profile": "https://commons.wikimedia.org/wiki/File:Scott%27s_Run,_West_Virginia._(A_gathering_of_men_and_women.)_-_NARA_-_518405.tif",
@@ -3781,6 +3772,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC (xem nguồn)",
       "source": "Web (flickr.com)",
       "alt": "Dad in Vietnam | B, K, G &amp; AB | Flickr"
+    },
+    {
+      "file": "quoc-te-nam-gioi/gallery6.webp",
+      "photographer": "Lewis Hine",
+      "profile": "https://commons.wikimedia.org/wiki/File:%22A_group_picture_showing_some_of_the_men_working_at_Norris_Dam.%22_-_NARA_-_532718.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:%22A_group_picture_showing_some_of_the_men_working_at_Norris_Dam.%22_-_NARA_-_532718.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Vietnamese men working"
     }
   ]
 };

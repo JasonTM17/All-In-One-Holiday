@@ -25,9 +25,8 @@ Photos from Wikimedia Commons and Flickr contributors; see per-file license and 
 | tet-nguyen-dan/gallery4.webp | This is Thảo | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Tet_holiday_in_Vietnam.jpg) |
 | tet-nguyen-dan/gallery5.webp | justinsomnia.org | CC (xem nguồn) | [justinsomnia.org](https://justinsomnia.org/2011/02/ok-where-next/) |
 | tet-nguyen-dan/gallery3.webp | viewthrumygloballens.blogspot.com | CC (xem nguồn) | [viewthrumygloballens.blogspot.com](https://viewthrumygloballens.blogspot.com/2011/02/red-for-good-luck.html) |
-| tet-nguyen-dan/gallery6.webp | foodboozeshoes.blogspot.com | CC (xem nguồn) | [foodboozeshoes.blogspot.com](https://foodboozeshoes.blogspot.com/2011/04/asia-tripping-part-v-halong-bay-vietnam.html) |
 | tet-nguyen-dan/history.webp | Steffen Schmitz (more photos) | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City,_Nguyen_Hue_Street,_2020-01_CN-01.jpg) |
-| tet-nguyen-tieu/hero.webp | vi:Thành viên:Viethavvh | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Den_ong_sao.JPG) |
+| tet-nguyen-dan/gallery6.webp | Nguyen Dung Tien | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ch%E1%BB%A3_hoa_t%E1%BA%BFt_2.jpg) |
 | tet-nguyen-tieu/gallery1.webp | Christophe95 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lantern_Shop_in_Hoi_An_1.jpg) |
 | tet-nguyen-tieu/gallery2.webp | Christophe95 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lantern_Shop_in_Hoi_An_2.jpg) |
 | tet-nguyen-tieu/gallery3.webp | Christophe95 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Hoi_An_Full_Moon_Festival.jpg) |
@@ -39,6 +38,7 @@ Photos from Wikimedia Commons and Flickr contributors; see per-file license and 
 | tet-nguyen-tieu/amthuc-xoi-che.webp | tramkochen.blogspot.com | CC (xem nguồn) | [tramkochen.blogspot.com](https://tramkochen.blogspot.com/2010/04/xoi-khuc.html) |
 | tet-nguyen-tieu/gallery6.webp | Christophe95 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lanterns_in_Hoi_An_6.jpg) |
 | tet-nguyen-tieu/history.webp | Hoàng Việt at vi.wikipedia | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Chua_Huong_561.JPG) |
+| tet-nguyen-tieu/hero.webp | -Zest | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lantern_Festival_in_Taiwan_at_night_5.jpg) |
 | valentine/hero.webp | Rosendahl | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Wedding_bouquet_red_reses.jpg) |
 | valentine/card.webp | Juppi | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Bouquet-of-Red-Roses.png) |
 | valentine/gallery2.webp | Montanabw | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Red_roses_from_bouquet.jpg) |
@@ -85,8 +85,8 @@ Photos from Wikimedia Commons and Flickr contributors; see per-file license and 
 | quan-doi-nhan-dan/gallery4.webp | Rufus Phillips | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:VA066422_VN_National_Day_-_Oct_1956.jpg) |
 | quan-doi-nhan-dan/history.webp | Diane Selwyn (talk) | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Vietnam_People%27s_Army_Lam_Dong_01.jpg) |
 | quan-doi-nhan-dan/gallery3.webp | DoD photo by Helene C. Stikkel. (Released) | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Soldiers_of_Vietnam_People%27s_Army.jpg) |
-| quan-doi-nhan-dan/gallery6.webp | U.S. Army photo by Sgt. Elisabeth Tasker | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Army%27s_250th_Birthday_Parade_Historical_Uniform_Fitting_(9107963).jpg) |
 | quan-doi-nhan-dan/card.webp | Unknown authorUnknown author or not provided | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:South_Vietnamese_soldier,_1966,_1958_-_1974_-_NARA_-_541856.tif) |
+| quan-doi-nhan-dan/gallery6.webp | Adam Jones Adam63 | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Soldier_-_Can_Tho_-_Vietnam.JPG) |
 | gio-to-hung-vuong/card.webp | Thang Nguyen from Nottingham, United Kingdom | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:%C4%90%E1%BB%81n_H%C3%B9ng,_%C4%91%E1%BB%81n_H%E1%BA%A1.jpg) |
 | gio-to-hung-vuong/gallery1.webp | Thang Nguyen from Nottingham, United Kingdom | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:%C4%90%E1%BB%81n_H%C3%B9ng,_%C4%91%E1%BB%81n_Th%C6%B0%E1%BB%A3ng.jpg) |
 | gio-to-hung-vuong/gallery2.webp | Thang Nguyen from Nottingham, United Kingdom | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:%C4%90%E1%BB%81n_H%C3%B9ng,_%C4%91%E1%BB%81n_H%E1%BA%A1,_c%C3%A2y_v%E1%BA%A1n_tu%E1%BA%BF.jpg) |
@@ -137,13 +137,13 @@ Photos from Wikimedia Commons and Flickr contributors; see per-file license and 
 | quoc-te-thieu-nhi/history.webp | Unknown authorUnknown author | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Schoolchildren_marching_in_Gannan,_1940s.jpg) |
 | ngay-gia-dinh-viet-nam/gallery3.webp | Rungbachduong | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Distribution_of_Vietnamese_family_names.png) |
 | ngay-gia-dinh-viet-nam/card.webp | Hoangkid | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Vietnamese_family_daily_meal.jpg) |
-| ngay-gia-dinh-viet-nam/gallery4.webp | Unknown authorUnknown author | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Three_generations_of_the_Gladfelter_Family_on_a_Picnic.jpg) |
 | ngay-gia-dinh-viet-nam/gallery5.webp | Peachyeung316 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:A_Square_shaped_Vietnamese_Rice_Dumpling.jpg) |
-| ngay-gia-dinh-viet-nam/hero.webp | mabaydar.blogspot.com | CC (xem nguồn) | [mabaydar.blogspot.com](https://mabaydar.blogspot.com/2016/01/) |
-| ngay-gia-dinh-viet-nam/gallery1.webp | Russell Lee | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:The_family_of_John_R._Blaney_eating_supper._Mr._Blaney_has_worked_for_the_company_for_twenty-four_years._Mullens..._-_NARA_-_540956.tif) |
 | ngay-gia-dinh-viet-nam/gallery6.webp | Donald Trung | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Personal_in-home_altar_for_deceased_family_members_in_Viet_Nam.jpg) |
 | ngay-gia-dinh-viet-nam/gallery2.webp | flickr.com | CC (xem nguồn) | [flickr.com](https://www.flickr.com/photos/badao212/4278144269/) |
 | ngay-gia-dinh-viet-nam/history.webp | ritkanlathatotortenelem.blog.hu | CC (xem nguồn) | [ritkanlathatotortenelem.blog.hu](https://ritkanlathatotortenelem.blog.hu/2019/05/12/napi_erdekes_939) |
+| ngay-gia-dinh-viet-nam/hero.webp | Unknown photographer | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Ph%E1%BA%A1m_Th%E1%BB%8B_T%C3%BD_and_her_family.jpg) |
+| ngay-gia-dinh-viet-nam/gallery1.webp | Unknown, published before 1945. | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Ng%C6%B0%E1%BB%9Di_nh%C3%A0_c%E1%BA%A7m_hu%C3%A2n_ch%C6%B0%C6%A1ng_B%E1%BA%AFc_%C4%90%E1%BA%A9u_b%E1%BB%99i_tinh_c%E1%BB%A7a_KTS_Nguy%E1%BB%85n-Duy_%C4%90%E1%BA%A1t_trong_%C4%91%C3%A1m_tang.jpg) |
+| ngay-gia-dinh-viet-nam/gallery4.webp | Unknown photographer | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Family_of_Mr_B%C3%B9i_Thi%E1%BB%87n_C%C6%A1.jpg) |
 | thuong-binh-liet-si/hero.webp | Linhcandng (thảo luận) | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ngh%C4%A9a_trang_Li%E1%BB%87t_s%C4%A9_H%E1%BA%A3i_D%C6%B0%C6%A1ng.jpeg) |
 | thuong-binh-liet-si/card.webp | Liftold (thảo luận) | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ngh%C4%A9a_trang_li%E1%BB%87t_s%C4%A9_Tr%C6%A1%E1%BB%9Dng_S%C6%A1n_2.JPG) |
 | thuong-binh-liet-si/gallery1.webp | Gonzo Gooner | CC BY 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Truong_Son_National_Cemetery_-_panoramio.jpg) |
@@ -233,12 +233,12 @@ Photos from Wikimedia Commons and Flickr contributors; see per-file license and 
 | tet-han-thuc/amthuc-banh-chay.webp | Conbo at vi.wikipedia | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Banhchay.JPG) |
 | tet-han-thuc/gallery4.webp | Junyu-K | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:202501_%E6%A1%82%E8%8A%B1%E8%9C%9C%E7%B6%9C%E5%90%88%E6%B9%AF%E5%9C%93%E5%88%A8%E5%86%B0,Aka_%E5%86%B0%E7%81%AB%E6%B9%AF%E5%9C%93.jpg) |
 | tet-han-thuc/gallery5.webp | Phương Huy (thảo luận) | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:B%C3%A1nh_bao_chay_ng%E1%BB%8Dt_c%C3%BAng_t%E1%BA%A5t_ni%C3%AAn_nh%C3%A0_m%E1%BB%87_2018.jpg) |
-| tet-han-thuc/card.webp | en.wikipedia.org | CC (xem nguồn) | [en.wikipedia.org](https://en.wikipedia.org/wiki/B%C3%A1nh_t%C3%A9t) |
 | tet-han-thuc/gallery3.webp | tramkochen.blogspot.com | CC (xem nguồn) | [tramkochen.blogspot.com](https://tramkochen.blogspot.com/2010/04/banh-chuoi-hap.html) |
 | tet-han-thuc/amthuc-banh-troi.webp | tramkochen.blogspot.com | CC (xem nguồn) | [tramkochen.blogspot.com](https://tramkochen.blogspot.com/2011/) |
 | tet-han-thuc/gallery2.webp | motogo.vn | CC (xem nguồn) | [motogo.vn](https://motogo.vn/dac-san-hue/) |
 | tet-han-thuc/gallery6.webp | Alpha | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:B%C3%A1nh_b%C3%A8o,_B%C3%A1nh_%C3%ADt_tr%E1%BA%A7n,_B%C3%A1nh_b%E1%BB%99t_l%E1%BB%8Dc_tr%E1%BA%A7n.jpg) |
 | tet-han-thuc/history.webp | Jess Lander from Los Angeles, CA, USA | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Comruou.jpg) |
+| tet-han-thuc/card.webp | Việt Hùng Cao | CC0/PDM | [Flickr](https://www.flickr.com/photos/caoviethungnd/36379724891/) |
 | tet-doan-ngo/gallery1.webp | JIP | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Spring_rolls_and_lychee_juice_at_restaurant_Nam_Nam_in_Munich.jpg) |
 | tet-doan-ngo/gallery2.webp | TopTropicals.com | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Litchi_chinensis_-_Lychee_(52334448851).jpg) |
 | tet-doan-ngo/gallery3.webp | rajucreddy | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Exotic_Lychee_Cluster_By_Raju_C_Reddy.jpg) |
@@ -268,8 +268,8 @@ Photos from Wikimedia Commons and Flickr contributors; see per-file license and 
 | ngay-bao-chi/gallery3.webp | 24hdansuneredaction.com | CC (xem nguồn) | [24hdansuneredaction.com](https://24hdansuneredaction.com/vi/presse/15-ky-thuat-phong-van/) |
 | ngay-bao-chi/gallery2.webp | konde.co | CC (xem nguồn) | [konde.co](https://www.konde.co/2021/10/female-journalists-at-top-level-advocate-gender-equality-in-newsrooms-from-labyrinth-glass-ceiling-to-roller-coaster/) |
 | ngay-bao-chi/history.webp | Susta.vn / Liên hiệp hội Sơn La | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:B%C3%A1o_%E2%80%9CS%E1%BB%B1_th%E1%BA%ADt%E2%80%9D_-_Li%C3%AAn_hi%E1%BB%87p_h%E1%BB%99i_S%C6%A1n_La.jpg) |
-| ngay-bao-chi/gallery5.webp | Photo courtesy of Paul Brock | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:National_Association_of_Black_Journalists,_Kerner_Report_key_to_African-American_breakthrough_in_media_industry_160218-A-DZ999-371.jpg) |
-| ngay-bao-chi/gallery4.webp | David Hume Kennerly | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Ford_A4239_NLGRF_photo_contact_sheet_(1975-04-28)(Gerald_Ford_Library).jpg) |
+| ngay-bao-chi/gallery4.webp | David Hume Kennerly | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Nick_Ut_speaks_with_the_press.jpg) |
+| ngay-bao-chi/gallery5.webp | Cuong PM | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/49059855@N03/8848041327/) |
 | nguoi-cao-tuoi/amthuc-xoi-gac.webp | Nguyễn Thanh Quang | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:X%C3%B4i_g%E1%BA%A5c.JPG) |
 | nguoi-cao-tuoi/amthuc-che-tra.webp | Khương Việt Hà | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Trap_che_an_hoi_(Vietnam).JPG) |
 | nguoi-cao-tuoi/amthuc-mung-tho.webp | Nhan Lương (thảo luận) | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:B%C3%A0i_tr%C3%AD_cho_L%E1%BB%85_th%C6%B0%E1%BB%A3ng_th%E1%BB%8D.JPG) |
@@ -281,7 +281,7 @@ Photos from Wikimedia Commons and Flickr contributors; see per-file license and 
 | nguoi-cao-tuoi/hero.webp | Unknown authorUnknown author or not provided | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Franklin_D._Roosevelt,_Delano_grandparents,_and_7_cousins_in_Newburgh,_New_York_-_NARA_-_196677.tif) |
 | nguoi-cao-tuoi/card.webp | unknown painter | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Portraits_of_a_Vietnamese_T%E1%BB%95ng-%C4%91%E1%BB%91c_(Governor-general)_and_a_Vietnamese_wealthy_elderly_man_01.jpg) |
 | nguoi-cao-tuoi/gallery3.webp | PR Kavitha | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Grandparents_-_The_cradle_of_love!!.jpg) |
-| nguoi-cao-tuoi/history.webp | simpleinsomnia | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:CDV_of_a_sickly,_elderly_woman_(13989798719).jpg) |
+| nguoi-cao-tuoi/history.webp | unknown painter | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Portrait_of_a_Vietnamese_wealthy_elderly_man.jpg) |
 | doanh-nhan/gallery4.webp | Richard Allaway | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Freshwater_and_Urban_Environments_-_Port_and_shipyard_next_to_the_Central_Business_District_(CBD)_of_Ho_Chi_Minh_City,_Vietnam.jpg) |
 | doanh-nhan/card.webp | Diego Delso | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Bitexco_Financial_Tower,_Ciudad_Ho_Chi_Minh,_Vietnam,_2013-08-14,_DD_01.JPG) |
 | doanh-nhan/gallery2.webp | calflier001 | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:BEN_THANH_MARKET_SAIGON_VIETNAM_JAN_2012_(6966716295).jpg) |
@@ -351,12 +351,12 @@ Photos from Wikimedia Commons and Flickr contributors; see per-file license and 
 | ngay-sach-viet-nam/gallery1.webp | diendan.org | CC (xem nguồn) | [diendan.org](https://www.diendan.org/phe-binh-nghien-cuu/sach-moi-cua-gs-ha-van-tan-su-sinh-thanh-viet-nam) |
 | ngay-sach-viet-nam/history.webp | Smuconlaw | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:National_Library_of_Vietnam,_Hanoi,_Vietnam_-_20131030-01.JPG) |
 | ngay-sach-viet-nam/card.webp | Phan Minh Tuấn | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Th%C6%B0_vi%E1%BB%87n,_ch%C3%B9a_T%E1%BB%A9_K%E1%BB%B3,_H%C3%A0_N%E1%BB%99i_003.JPG) |
-| ngay-sach-viet-nam/gallery4.webp | Yun Huang Yong from Harbord, Australia | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ben_Thanh_Market_(3122976554).jpg) |
 | ngay-sach-viet-nam/gallery2.webp | resibooks.com | CC (xem nguồn) | [resibooks.com](https://www.resibooks.com/2019/03/) |
 | ngay-sach-viet-nam/gallery3.webp | blog.aladin.co.kr | CC (xem nguồn) | [blog.aladin.co.kr](https://blog.aladin.co.kr/forkids24/10859246) |
 | ngay-sach-viet-nam/gallery5.webp | Unknown authorUnknown author or not provided | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:A_new_market_for_%22Tinh_Thuong.%22_Children_gather_before_the_market_which_was_built_with_assistance_from_the_government_of_-_NARA_-_541851.tif) |
 | ngay-sach-viet-nam/gallery6.webp | Pratham Books from India | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:A_child_reading_a_book_from_Pratham_Books_-_Flickr_-_Pratham_Books.jpg) |
 | ngay-sach-viet-nam/hero.webp | Maximilian Schönherr | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:EBook_between_paper_books.jpg) |
+| ngay-sach-viet-nam/gallery4.webp | Smuconlaw | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:National_Library_of_Vietnam,_Hanoi,_Vietnam_-_20131030-03.JPG) |
 | ngay-the-thao-viet-nam/card.webp | captaintarekdreams.blogspot.com | CC (xem nguồn) | [captaintarekdreams.blogspot.com](https://captaintarekdreams.blogspot.com/2012/06/pictures-of-day-2009-part-3.html) |
 | ngay-the-thao-viet-nam/gallery2.webp | flickr.com | CC (xem nguồn) | [flickr.com](https://www.flickr.com/photos/voxstock/18599622271) |
 | ngay-the-thao-viet-nam/gallery3.webp | thuocdantoc.vn | CC (xem nguồn) | [thuocdantoc.vn](https://thuocdantoc.vn/khai-mac-dai-hoi-the-duc-the-thao-chao-mung-ngay-truyen-thong-cong-ty-cp-thuoc-dan-toc.html) |
@@ -408,9 +408,9 @@ Photos from Wikimedia Commons and Flickr contributors; see per-file license and 
 | quoc-te-nam-gioi/gallery1.webp | Ni.Nguyen.VCLCA | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Men_play_general_chess_for_relaxing_16-09-2025_E2.jpg) |
 | quoc-te-nam-gioi/gallery2.webp | Zitsman Carl, U.S. Fish and Wildlife Service | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:A_father_and_son_get_their_picture_taken_with_fish_in_hand.jpg) |
 | quoc-te-nam-gioi/gallery3.webp | Unknown authorUnknown author or not provided | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:NYA-Louisiana-men_standing_on_ladders_working_on_metal_building_structure_-_NARA_-_196045.tif) |
-| quoc-te-nam-gioi/gallery6.webp | Unknown authorUnknown author | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Father_and_Son._Emperors_Qianlong_and_Yongzhen.jpg) |
 | quoc-te-nam-gioi/gallery5.webp | Lewis Hine | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Scott%27s_Run,_West_Virginia._(A_gathering_of_men_and_women.)_-_NARA_-_518405.tif) |
 | quoc-te-nam-gioi/hero.webp | Sao Thể Thao | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Vietnam_celebrating_2024_ASEAN_Championship_title.png) |
 | quoc-te-nam-gioi/card.webp | Unknown authorUnknown author or not provided | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Two_oldtimers_playing_chess_on_a_Central_Park_bench_in_New_York_City,_05-1946_-_NARA_-_541889.jpg) |
 | quoc-te-nam-gioi/gallery4.webp | Lewis Hine | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:No_caption._Young_boy_and_two_men_gathering_ore_-_NARA_-_523334.tif) |
 | quoc-te-nam-gioi/history.webp | flickr.com | CC (xem nguồn) | [flickr.com](https://www.flickr.com/photos/gabbyportraits/81358133) |
+| quoc-te-nam-gioi/gallery6.webp | Lewis Hine | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:%22A_group_picture_showing_some_of_the_men_working_at_Norris_Dam.%22_-_NARA_-_532718.jpg) |
