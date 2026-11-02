@@ -30,11 +30,12 @@ function tools(locale: Locale): Searchable[] {
     ["thiep", t.thiep.h1, t.thiep.metaDescription],
     ["birthday", t.birthday.h1, t.birthday.metaDescription],
   ];
+  const toolChip = t.today.eyebrow; // shared "Công cụ"/"Tool" label across tool pages
   return rows.map(([slug, name, tagline]) => ({
     slug,
     name,
     dateMark: "",
-    displayDate: t.calendar.eyebrow,
+    displayDate: toolChip,
     tagline,
     wishes: [],
     theme,
