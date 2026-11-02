@@ -125,7 +125,7 @@ export default function SearchPaletteDialog({
             </li>
           ))}
         </ul>
-        <p className="border-t border-[var(--color-line)] px-4 py-2 text-[10px] text-[var(--color-faint)]">
+        <p className="border-t border-[var(--color-line)] px-4 py-2 text-[10px] text-[var(--color-faint)] [@media(pointer:coarse)]:hidden">
           {t.search.footer}
         </p>
       </div>

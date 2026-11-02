@@ -38,7 +38,11 @@ export default function CreditsPage({ locale }: { locale: Locale }) {
     ...Object.entries(NAME),
   ]);
   const entries = Object.entries(imageCredits);
-  const HOLIDAY_SLUGS = new Set(holidays.map((h) => h.slug));
+  const ROUTE_OF = new Map<string, string>([
+    ...holidays.map((h) => [h.slug, `/${h.slug}/`] as [string, string]),
+    ["birthday", "/birthday/"],
+    ["home-hero", "/"],
+  ]);
   const jsonLd = toolBreadcrumbJsonLd(locale, "/credits/", t.credits.h1, t.footer.home);
   return (
     <>
@@ -61,10 +65,10 @@ export default function CreditsPage({ locale }: { locale: Locale }) {
               id={`cr-${slug}`}
               className="font-display text-lg font-bold text-[var(--color-ink)]"
             >
-              {HOLIDAY_SLUGS.has(slug) ? (
+              {ROUTE_OF.has(slug) ? (
                 <Link
                   prefetch={false}
-                  href={localePath(locale, `/${slug}/`)}
+                  href={localePath(locale, ROUTE_OF.get(slug)!)}
                   className="u-link hover:text-[var(--color-brand-deep)]"
                 >
                   {NAME_OF.get(slug) ?? slug}
