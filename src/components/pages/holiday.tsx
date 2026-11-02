@@ -479,7 +479,7 @@ export default function HolidayPage({
                 >
                   {s.title}
                 </h2>
-                <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                <ul className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
                   {s.items.map((m) => (
                     <li key={m.title} className="card p-5">
                       <span
@@ -654,7 +654,7 @@ export default function HolidayPage({
               #
             </a>
           </h2>
-          <ul className="mt-8 grid gap-4 sm:grid-cols-3">
+          <ul className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-3">
             {h.traditions.map((x, i) => (
               <li
                 key={x.title}
@@ -784,7 +784,7 @@ export default function HolidayPage({
                   <h3 className="mt-10 font-display text-xl font-extrabold text-[var(--color-ink)]">
                     {t.holiday.cuisine}
                   </h3>
-                  <ul className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                  <ul className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
                     {h.deep.amThuc.map((a) => (
                       <li
                         key={a.title}
@@ -855,7 +855,7 @@ export default function HolidayPage({
                 #
               </a>
             </h2>
-            <ol className="mt-8 grid gap-5 sm:grid-cols-3">
+            <ol className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-3">
               {h.lessons.map((l, i) => (
                 <li
                   key={l.title}
@@ -974,7 +974,7 @@ export default function HolidayPage({
               #
             </a>
           </h2>
-          <ul className="mt-8 grid gap-4 sm:grid-cols-3">
+          <ul className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-3">
             {h.gifts.map((g, i) => (
               <li key={g.title} className={`card p-6 ${i === 0 ? "sm:col-span-2" : ""}`}>
                 <Motif
@@ -1069,7 +1069,7 @@ export default function HolidayPage({
                 <h3 className="mt-10 font-display text-xl font-bold text-[var(--color-ink)]">
                   {t.holiday.readMore}
                 </h3>
-                <ul className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                <ul className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
                   {st.sources.map((s) => (
                     <li key={s.url} className="card flex flex-col p-5">
                       <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-[var(--color-brand)]">
@@ -1132,7 +1132,7 @@ export default function HolidayPage({
                 #
               </a>
             </h2>
-            <div className="mt-6 grid gap-4 sm:grid-cols-3">
+            <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-3">
               {related.map((o) => (
                 <Link
                   key={o.slug}

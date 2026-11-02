@@ -31,13 +31,14 @@ export default function CreditsPage({ locale }: { locale: Locale }) {
   const NAME: Record<string, string> = {
     "home-hero": t.credits.homeLabel,
     birthday: t.credits.birthdayLabel,
+    scenery: t.credits.sceneryLabel,
   };
   const NAME_OF = new Map<string, string>([
     ...holidays.map((h) => [h.slug, h.name] as [string, string]),
     ...Object.entries(NAME),
   ]);
   const entries = Object.entries(imageCredits);
-  const LINKLESS = new Set(Object.keys(NAME));
+  const HOLIDAY_SLUGS = new Set(holidays.map((h) => h.slug));
   const jsonLd = toolBreadcrumbJsonLd(locale, "/credits/", t.credits.h1, t.footer.home);
   return (
     <>
@@ -60,9 +61,7 @@ export default function CreditsPage({ locale }: { locale: Locale }) {
               id={`cr-${slug}`}
               className="font-display text-lg font-bold text-[var(--color-ink)]"
             >
-              {LINKLESS.has(slug) ? (
-                (NAME_OF.get(slug) ?? slug)
-              ) : (
+              {HOLIDAY_SLUGS.has(slug) ? (
                 <Link
                   prefetch={false}
                   href={localePath(locale, `/${slug}/`)}
@@ -70,9 +69,11 @@ export default function CreditsPage({ locale }: { locale: Locale }) {
                 >
                   {NAME_OF.get(slug) ?? slug}
                 </Link>
+              ) : (
+                (NAME_OF.get(slug) ?? slug)
               )}
             </h2>
-            <ul className="mt-3 grid gap-2 sm:grid-cols-2">
+            <ul className="mt-3 grid grid-cols-1 gap-2 sm:grid-cols-2">
               {list.map((c) => (
                 <li
                   key={c.file}
@@ -85,7 +86,7 @@ export default function CreditsPage({ locale }: { locale: Locale }) {
                     href={c.photo}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="u-link shrink-0 font-semibold text-[var(--color-brand-deep)]"
+                    className="u-link min-w-0 text-right font-semibold text-[var(--color-brand-deep)]"
                   >
                     {c.photographer} · {c.license}
                   </a>

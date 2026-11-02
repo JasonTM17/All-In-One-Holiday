@@ -290,6 +290,7 @@ export const vi: Messages = {
       "Ghi nhận tác giả các hình ảnh Wikimedia Commons được dùng trên Ngày Lễ Việt.",
     homeLabel: "Trang chủ",
     birthdayLabel: "Thiệp sinh nhật",
+    sceneryLabel: "Phong cảnh Việt Nam",
   },
   a11y: {
     eyebrow: "Khả năng truy cập",

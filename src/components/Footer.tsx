@@ -15,7 +15,7 @@ export default function Footer({ locale }: { locale: Locale }) {
 
   return (
     <footer className="cv-auto dot-pattern-ink border-t border-[var(--color-line)] bg-[var(--color-band)]">
-      <div className="mx-auto grid max-w-6xl gap-10 px-4 py-12 sm:grid-cols-3 sm:px-6">
+      <div className="mx-auto grid max-w-6xl grid-cols-1 gap-10 px-4 py-12 sm:grid-cols-3 sm:px-6">
         <div>
           <p className="flex items-center gap-2 font-display text-xl font-extrabold text-[var(--color-brand-deep)]">
             <Motif name="lantern" className="h-7 w-7" filled />

@@ -290,6 +290,7 @@ export const en: Messages = {
       "Attribution for the Wikimedia Commons images used on Ngày Lễ Việt.",
     homeLabel: "Home",
     birthdayLabel: "Birthday card",
+    sceneryLabel: "Vietnam scenery",
   },
   a11y: {
     eyebrow: "Accessibility",

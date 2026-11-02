@@ -177,7 +177,7 @@ export default function HomePage({ locale }: { locale: Locale }) {
 
       {/* ---------- Tools row ---------- */}
       <section aria-label={t.home.toolsAria} className="cv-auto border-b border-[var(--color-line)] bg-[var(--color-surface)]">
-        <div className="mx-auto grid max-w-6xl gap-3 px-4 py-8 sm:grid-cols-3 sm:px-6">
+        <div className="mx-auto grid max-w-6xl grid-cols-1 gap-3 px-4 py-8 sm:grid-cols-3 sm:px-6">
           {tools.map((tool) => (
             <Link
               key={tool.href}
@@ -265,7 +265,7 @@ export default function HomePage({ locale }: { locale: Locale }) {
               {t.home.womenH2}
             </h2>
           </div>
-          <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <ul className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {holidays
               .filter((h) => h.categories.includes("phu-nu"))
               .map((h) => (

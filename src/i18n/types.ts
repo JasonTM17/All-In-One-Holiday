@@ -270,6 +270,7 @@ export interface Messages {
     metaDescription: string;
     homeLabel: string;
     birthdayLabel: string;
+    sceneryLabel: string;
   };
   /** /accessibility/ statement page. */
   a11y: {
