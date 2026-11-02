@@ -55,7 +55,7 @@ export default function WishGenerator({
             maxLength={40}
             onChange={(e) => setName(e.target.value)}
             placeholder={t.wishGen.namePlaceholder}
-            className="mt-1 w-full rounded-xl border border-[var(--color-line)] bg-transparent px-3 py-2.5 outline-none focus:border-[var(--color-brand)]"
+            className="mt-1 w-full rounded-xl border border-[var(--color-faint)] bg-transparent px-3 py-2.5 outline-none focus:border-[var(--color-brand)]"
           />
         </label>
         <label className="text-sm font-bold text-[var(--color-muted)]">
@@ -66,7 +66,7 @@ export default function WishGenerator({
             maxLength={40}
             onChange={(e) => setRel(e.target.value)}
             placeholder={t.wishGen.relPlaceholder}
-            className="mt-1 w-full rounded-xl border border-[var(--color-line)] bg-transparent px-3 py-2.5 outline-none focus:border-[var(--color-brand)]"
+            className="mt-1 w-full rounded-xl border border-[var(--color-faint)] bg-transparent px-3 py-2.5 outline-none focus:border-[var(--color-brand)]"
           />
         </label>
       </div>

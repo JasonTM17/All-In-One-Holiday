@@ -2,7 +2,7 @@ import type { Holiday } from "@/data/holidays";
 import { holidaysOf } from "@/i18n/data";
 import { localePrefix, type Locale } from "@/i18n";
 import { siteUrl } from "./site";
-import { occurrenceInYear } from "./dates";
+import { isoDay, nextOccurrence, occurrenceInYear } from "./dates";
 
 /**
  * Structured data builders. Pages emit a single ld+json script whose @graph
@@ -10,18 +10,25 @@ import { occurrenceInYear } from "./dates";
  * validate the emitted syntax for every holiday in both locales.
  */
 
-export function eventJsonLd(h: Holiday, eventYear: number, locale: Locale = "vi") {
+export function eventJsonLd(h: Holiday, from: Date = new Date(), locale: Locale = "vi") {
   const prefix = localePrefix(locale);
+  // Advertise the upcoming occurrence — a past startDate marks a scheduled
+  // event that can no longer be attended.
+  const start = nextOccurrence(h.rule, from);
+  const end = new Date(start);
+  if (h.dayOffDays) end.setDate(end.getDate() + h.dayOffDays - 1);
   return {
     "@type": "Event",
     "@id": `${siteUrl()}${prefix}/${h.slug}/#event`,
     name: h.name,
     description: `${h.name} — ${h.displayDate}. ${h.tagline}`,
-    startDate: occurrenceInYear(h.rule, eventYear).toISOString().slice(0, 10),
+    startDate: isoDay(start),
+    ...(h.dayOffDays && h.dayOffDays > 1 ? { endDate: isoDay(end) } : {}),
     eventStatus: "https://schema.org/EventScheduled",
     location: {
-      "@type": "Country",
+      "@type": "Place",
       name: locale === "en" ? "Vietnam" : "Việt Nam",
+      address: { "@type": "PostalAddress", addressCountry: "VN" },
     },
     url: `${siteUrl()}${prefix}/${h.slug}/`,
     inLanguage: locale,
@@ -65,11 +72,21 @@ export function breadcrumbJsonLd(h: Holiday, locale: Locale = "vi", homeLabel = 
 }
 
 /** Event + FAQPage + BreadcrumbList for a holiday page. */
-export function holidayJsonLd(h: Holiday, eventYear: number, locale: Locale = "vi", homeLabel = "Trang chủ") {
+/** Holidays ordered by their occurrence within `year` (Jan → Dec). */
+function inYearOrder(list: Holiday[], year: number): Holiday[] {
+  return [...list].sort(
+    (a, b) =>
+      occurrenceInYear(a.rule, year).getTime() -
+      occurrenceInYear(b.rule, year).getTime(),
+  );
+}
+
+/** Event + FAQPage + BreadcrumbList for a holiday page. */
+export function holidayJsonLd(h: Holiday, from: Date = new Date(), locale: Locale = "vi", homeLabel = "Trang chủ") {
   return {
     "@context": "https://schema.org",
     "@graph": [
-      eventJsonLd(h, eventYear, locale),
+      eventJsonLd(h, from, locale),
       faqJsonLd(h, locale),
       breadcrumbJsonLd(h, locale, homeLabel),
     ],
@@ -115,7 +132,7 @@ export function toolBreadcrumbJsonLd(
 /** BreadcrumbList + ItemList of every holiday for the /lich/ calendar page. */
 export function calendarJsonLd(locale: Locale, name: string, homeLabel: string) {
   const prefix = localePrefix(locale);
-  const list = holidaysOf(locale);
+  const list = inYearOrder(holidaysOf(locale), new Date().getFullYear());
   const [breadcrumb] = toolBreadcrumbJsonLd(locale, "/lich/", name, homeLabel)["@graph"];
   return {
     "@context": "https://schema.org",
@@ -140,7 +157,7 @@ export function calendarJsonLd(locale: Locale, name: string, homeLabel: string) 
 export function homeJsonLd(locale: Locale = "vi") {
   const base = siteUrl();
   const prefix = localePrefix(locale);
-  const list = holidaysOf(locale);
+  const list = inYearOrder(holidaysOf(locale), new Date().getFullYear());
   const en = locale === "en";
   return {
     "@context": "https://schema.org",

@@ -24,11 +24,31 @@ export default function LangSwitch({ locale }: { locale: Locale }) {
       hrefLang={isVi ? "en" : "vi"}
       className="flex min-h-11 items-center gap-1 whitespace-nowrap rounded-xl border border-[var(--color-line)] px-3 text-xs font-extrabold tracking-wide text-[var(--color-muted)] hover:bg-[var(--color-soft)] focus-visible:outline-2"
     >
-      <span className={isVi ? "text-[var(--color-brand)]" : ""}>VI</span>
+      <span
+        lang="vi"
+        aria-current={isVi ? "true" : undefined}
+        className={
+          isVi
+            ? "text-[var(--color-brand)] underline decoration-2 underline-offset-4"
+            : ""
+        }
+      >
+        VI
+      </span>
       <span aria-hidden="true" className="text-[var(--color-faint)]">
         |
       </span>
-      <span className={isVi ? "" : "text-[var(--color-brand)]"}>EN</span>
+      <span
+        lang="en"
+        aria-current={isVi ? undefined : "true"}
+        className={
+          isVi
+            ? ""
+            : "text-[var(--color-brand)] underline decoration-2 underline-offset-4"
+        }
+      >
+        EN
+      </span>
     </Link>
   );
 }

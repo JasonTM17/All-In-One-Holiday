@@ -225,6 +225,16 @@ export function daysUntil(target: Date, from: Date = new Date()): number {
   return Math.round((atMidnight(target).getTime() - atMidnight(from).getTime()) / 86_400_000);
 }
 
+/**
+ * ISO 8601 calendar date (YYYY-MM-DD) from a local Date. Unlike
+ * `toISOString().slice(0,10)` this never shifts a day — UTC+7 midnights
+ * map to the previous day in UTC.
+ */
+export function isoDay(d: Date): string {
+  const p = (n: number) => String(n).padStart(2, "0");
+  return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`;
+}
+
 function isLeapYear(year: number): boolean {
   return (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0;
 }

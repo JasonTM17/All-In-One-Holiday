@@ -477,6 +477,11 @@ button.card:hover,
     color 0.15s ease;
   vertical-align: 0.15em;
 }
+/* The glyph is generated, not DOM text — heading textContent stays clean
+   ("Nguồn gốc", not "Nguồn gốc #") for outline tools and copy/paste. */
+.sec-h2 .anchor-link::after {
+  content: "#";
+}
 .sec-h2 .anchor-link:hover,
 .sec-h2 .anchor-link:focus-visible {
   color: var(--color-brand);

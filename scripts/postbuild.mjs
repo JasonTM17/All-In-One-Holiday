@@ -78,15 +78,21 @@ function walk(dir) {
       copyFileSync(p, img);
       copied++;
     } else if (name.endsWith(".html")) {
-      const html = readFileSync(p, "utf8");
-      if (html.includes("Content-Security-Policy")) continue;
-      // Right after the charset meta: before any resource reference so the
-      // policy governs every subsequent fetch on the page.
-      const next = html.replace(/<meta\s+charSet="utf-8"\s*\/>/, (m) => m + CSP_TAG);
-      if (next !== html) {
-        writeFileSync(p, next);
-        cspInjected++;
+      const original = readFileSync(p, "utf8");
+      // next/font emits a same-origin preconnect to "/", which resolves to
+      // the domain root — off the app's base path and a guaranteed 404 on
+      // GitHub Pages. The hint is a no-op at best; drop it.
+      let html = original.replace(/<link rel="preconnect" href="\/"[^/]*\/>/g, "");
+      if (!html.includes("Content-Security-Policy")) {
+        // Right after the charset meta: before any resource reference so
+        // the policy governs every subsequent fetch on the page.
+        const next = html.replace(/<meta\s+charSet="utf-8"\s*\/>/, (m) => m + CSP_TAG);
+        if (next !== html) {
+          html = next;
+          cspInjected++;
+        }
       }
+      if (html !== original) writeFileSync(p, html);
     }
   }
 }

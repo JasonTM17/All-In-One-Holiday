@@ -289,7 +289,7 @@ export default function BirthdayCard({
             maxLength={40}
             value={fName}
             onChange={(e) => setFName(e.target.value)}
-            className="min-h-11 w-full rounded-xl border border-[var(--color-line)] px-4 py-2.5 text-base"
+            className="min-h-11 w-full rounded-xl border border-[var(--color-faint)] px-4 py-2.5 text-base"
             autoComplete="off"
           />
         </div>
@@ -330,7 +330,7 @@ export default function BirthdayCard({
               required
               value={fDate}
               onChange={(e) => setFDate(e.target.value)}
-              className="min-h-11 w-full rounded-xl border border-[var(--color-line)] px-4 py-2.5 text-base"
+              className="min-h-11 w-full rounded-xl border border-[var(--color-faint)] px-4 py-2.5 text-base"
             />
           </div>
         ) : (
@@ -347,7 +347,7 @@ export default function BirthdayCard({
                 required
                 value={fLMonth}
                 onChange={(e) => setFLMonth(e.target.value)}
-                className="min-h-11 w-full rounded-xl border border-[var(--color-line)] bg-[var(--color-card)] px-3 py-2.5 text-base"
+                className="min-h-11 w-full rounded-xl border border-[var(--color-faint)] bg-[var(--color-card)] px-3 py-2.5 text-base"
               >
                 <option value="" disabled>
                   —
@@ -371,7 +371,7 @@ export default function BirthdayCard({
                 required
                 value={fLDay}
                 onChange={(e) => setFLDay(e.target.value)}
-                className="min-h-11 w-full rounded-xl border border-[var(--color-line)] bg-[var(--color-card)] px-3 py-2.5 text-base"
+                className="min-h-11 w-full rounded-xl border border-[var(--color-faint)] bg-[var(--color-card)] px-3 py-2.5 text-base"
               >
                 <option value="" disabled>
                   —
@@ -398,7 +398,7 @@ export default function BirthdayCard({
                 max={2100}
                 value={fLYear}
                 onChange={(e) => setFLYear(e.target.value)}
-                className="min-h-11 w-full rounded-xl border border-[var(--color-line)] px-3 py-2.5 text-base"
+                className="min-h-11 w-full rounded-xl border border-[var(--color-faint)] px-3 py-2.5 text-base"
                 placeholder="—"
                 autoComplete="off"
               />
@@ -418,7 +418,7 @@ export default function BirthdayCard({
             maxLength={200}
             value={fMsg}
             onChange={(e) => setFMsg(e.target.value)}
-            className="w-full rounded-xl border border-[var(--color-line)] px-4 py-2.5 text-base"
+            className="w-full rounded-xl border border-[var(--color-faint)] px-4 py-2.5 text-base"
           />
         </div>
         <div>
@@ -434,7 +434,7 @@ export default function BirthdayCard({
             maxLength={40}
             value={fFrom}
             onChange={(e) => setFFrom(e.target.value)}
-            className="min-h-11 w-full rounded-xl border border-[var(--color-line)] px-4 py-2.5 text-base"
+            className="min-h-11 w-full rounded-xl border border-[var(--color-faint)] px-4 py-2.5 text-base"
             autoComplete="off"
           />
         </div>

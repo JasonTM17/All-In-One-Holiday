@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { holidays } from "@/data/holidays";
+import { occurrenceInYear } from "@/lib/dates";
 import { siteUrl } from "@/lib/site";
 import {
   breadcrumbJsonLd,
@@ -11,12 +12,12 @@ import {
   toolBreadcrumbJsonLd,
 } from "./jsonld";
 
-const y = new Date().getFullYear();
+const now = new Date();
 
 describe("holiday JSON-LD", () => {
   it("emits a parseable @graph with Event, FAQPage and BreadcrumbList per holiday", () => {
     for (const h of holidays) {
-      const ld = holidayJsonLd(h, y);
+      const ld = holidayJsonLd(h, now);
       const parsed = JSON.parse(JSON.stringify(ld));
       expect(parsed["@context"]).toBe("https://schema.org");
       const types = parsed["@graph"].map(
@@ -28,12 +29,27 @@ describe("holiday JSON-LD", () => {
 
   it("Event node has an ISO startDate and canonical url", () => {
     for (const h of holidays) {
-      const e = eventJsonLd(h, y);
+      const e = eventJsonLd(h, now);
       expect(e.startDate, h.slug).toMatch(/^\d{4}-\d{2}-\d{2}$/);
       expect(e.url).toBe(`${siteUrl()}/${h.slug}/`);
       expect(e.name).toBe(h.name);
       expect(e.eventStatus).toBe("https://schema.org/EventScheduled");
     }
+  });
+
+  it("startDate is the upcoming occurrence, in the local civil date", () => {
+    // UTC+7 midnight must not become the previous day via toISOString.
+    const e = eventJsonLd(
+      holidays.find((h) => h.slug === "doanh-nhan")!,
+      new Date(2026, 9, 1), // Oct 1 — before Oct 13
+    );
+    expect(e.startDate).toBe("2026-10-13");
+    // Already-passed holidays advertise next year's occurrence instead.
+    const past = eventJsonLd(
+      holidays.find((h) => h.slug === "quoc-te-phu-nu")!,
+      new Date(2026, 10, 1), // Nov 1 — Mar 8 already gone
+    );
+    expect(past.startDate).toBe("2027-03-08");
   });
 
   it("FAQPage mirrors the on-page faq data verbatim", () => {
@@ -132,10 +148,22 @@ describe("home JSON-LD", () => {
     const items = col.mainEntity.itemListElement;
     expect(items).toHaveLength(holidays.length);
     expect(col.mainEntity.numberOfItems).toBe(holidays.length);
+    // Same set as the source list — ordering is calendar (Jan → Dec),
+    // asserted separately below.
+    const bySlug = new Map(holidays.map((h) => [h.slug, h]));
+    const occurrences: number[] = [];
     for (const [i, it] of items.entries()) {
       expect(it.position).toBe(i + 1);
-      expect(it.url).toBe(`${siteUrl()}/${holidays[i].slug}/`);
-      expect(it.name).toBe(holidays[i].name);
+      const h = bySlug.get(new URL(it.url).pathname.split("/")[1]);
+      expect(it.name).toBe(h?.name);
     }
+    // Positions follow the Jan → Dec occurrence order for the current year.
+    for (const it of items) {
+      const h = bySlug.get(new URL(it.url).pathname.split("/")[1]);
+      occurrences.push(
+        occurrenceInYear(h!.rule, now.getFullYear()).getTime(),
+      );
+    }
+    expect([...occurrences].sort((a, b) => a - b)).toEqual(occurrences);
   });
 });

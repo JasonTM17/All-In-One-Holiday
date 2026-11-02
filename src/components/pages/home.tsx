@@ -6,7 +6,7 @@ import NextHolidayHero from "@/components/NextHolidayHero";
 import Reveals from "@/components/Reveals";
 import HImg from "@/components/HImg";
 import LightboxImg from "@/components/LightboxImg";
-import { nextOccurrence } from "@/lib/dates";
+import { isoDay, nextOccurrence, occurrenceInYear } from "@/lib/dates";
 import Motif from "@/components/Motif";
 import { homeJsonLd } from "@/lib/jsonld";
 import { HERO_LQIP } from "@/data/hero-lqip";
@@ -46,17 +46,24 @@ export default function HomePage({ locale }: { locale: Locale }) {
   // ~20 chips are plenty for a continuous marquee (track ×2 ≫ viewport).
   const allWishes = holidays.flatMap((h) => h.wishes.slice(0, 2)).slice(0, 20);
 
-  const gridItems = holidays.map((h) => ({
-    slug: h.slug,
-    name: h.name,
-    dateMark: h.dateMark,
-    displayDate: h.displayDate,
-    motif: h.motif,
-    categories: h.categories,
-    rule: h.rule,
-    theme: h.theme,
-    tagline: h.tagline,
-  }));
+  const year = new Date().getFullYear();
+  const gridItems = [...holidays]
+    .sort(
+      (a, b) =>
+        occurrenceInYear(a.rule, year).getTime() -
+        occurrenceInYear(b.rule, year).getTime(),
+    )
+    .map((h) => ({
+      slug: h.slug,
+      name: h.name,
+      dateMark: h.dateMark,
+      displayDate: h.displayDate,
+      motif: h.motif,
+      categories: h.categories,
+      rule: h.rule,
+      theme: h.theme,
+      tagline: h.tagline,
+    }));
 
   const now = new Date();
   const next90 = holidays
@@ -163,13 +170,13 @@ export default function HomePage({ locale }: { locale: Locale }) {
         <div className="relative border-t border-white/15">
           <dl className="mx-auto grid max-w-6xl grid-cols-3 divide-x divide-white/15 px-4 sm:px-6">
             {stats.map((s) => (
-              <div key={s.l} className="px-3 py-5 text-center sm:py-7">
-                <dd className="font-display text-3xl font-extrabold tabular-nums sm:text-4xl">
-                  {s.v}
-                </dd>
-                <dt className="mt-1 text-[11px] font-semibold uppercase tracking-widest text-white/65 sm:text-xs">
+              <div key={s.l} className="flex flex-col px-3 py-5 text-center sm:py-7">
+                <dt className="order-2 mt-1 text-[11px] font-semibold uppercase tracking-widest text-white/65 sm:text-xs">
                   {s.l}
                 </dt>
+                <dd className="order-1 font-display text-3xl font-extrabold tabular-nums sm:text-4xl">
+                  {s.v}
+                </dd>
               </div>
             ))}
           </dl>
@@ -347,7 +354,10 @@ export default function HomePage({ locale }: { locale: Locale }) {
                     >
                       {h.name}
                     </Link>
-                    <time className="text-sm font-bold text-[var(--color-faint)]">
+                    <time
+                      dateTime={isoDay(date)}
+                      className="text-sm font-bold text-[var(--color-faint)]"
+                    >
                       {date.getDate()}/{date.getMonth() + 1}/{date.getFullYear()}
                     </time>
                     <span className="rounded-lg bg-[var(--color-soft)] px-2.5 py-0.5 text-xs font-bold text-[var(--color-muted)]">
@@ -379,7 +389,7 @@ export default function HomePage({ locale }: { locale: Locale }) {
             {t.home.gridIntro}
           </p>
         </div>
-        <HolidayGrid items={gridItems} locale={locale} />
+        <HolidayGrid items={gridItems} locale={locale} year={year} />
       </section>
 
       {/* ---------- Birthday CTA ---------- */}

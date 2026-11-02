@@ -5,6 +5,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { siteUrl } from "@/lib/site";
 import { holidayJsonLd } from "@/lib/jsonld";
+import { photoCredit } from "@/lib/photo-credit";
 import RuleCountdown from "@/components/RuleCountdown";
 import CopyButton from "@/components/CopyButton";
 import WishGenerator from "@/components/WishGenerator";
@@ -52,6 +53,10 @@ export async function holidayMetadata(
     description,
     alternates: languageAlternates(locale, `/${h.slug}/`),
     openGraph: {
+      type: "website",
+      siteName: "Ngày Lễ Việt",
+      locale: locale === "en" ? "en_US" : "vi_VN",
+      alternateLocale: locale === "en" ? "vi_VN" : "en_US",
       title: h.name,
       description,
       url,
@@ -136,7 +141,6 @@ export default function HolidayPage({
       (o) => o.slug !== slug && o.categories[0] !== relCat,
     ),
   ].slice(0, 3);
-  const eventYear = new Date().getFullYear();
   const hero = h.heroStyle ?? "classic";
   // First category drives the page skin (card radius + heading glyph);
   // gallery layout varies by slug so adjacent pages rarely match.
@@ -144,7 +148,7 @@ export default function HolidayPage({
   const galleryLayout: GalleryLayout =
     GALLERY_LAYOUTS[slugHash(h.slug) % GALLERY_LAYOUTS.length];
 
-  const jsonLd = holidayJsonLd(h, eventYear, locale, t.footer.home);
+  const jsonLd = holidayJsonLd(h, new Date(), locale, t.footer.home);
   const tocItems: [string, string][] = [
     ["origin", t.holiday.origin],
     ["traditions", t.holiday.traditions],
@@ -390,9 +394,7 @@ export default function HolidayPage({
                 className="anchor-link"
                 aria-hidden="true"
                 tabIndex={-1}
-              >
-                #
-              </a>
+              />
             </h2>
             <p className="mt-2 text-xs font-semibold text-[var(--color-faint)]">
               {t.holiday.readTime(readMin)}
@@ -688,9 +690,7 @@ export default function HolidayPage({
               className="anchor-link"
               aria-hidden="true"
               tabIndex={-1}
-            >
-              #
-            </a>
+            />
           </h2>
           <ul className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-3">
             {h.traditions.map((x, i) => (
@@ -758,9 +758,7 @@ export default function HolidayPage({
                   className="anchor-link"
                   aria-hidden="true"
                   tabIndex={-1}
-                >
-                  #
-                </a>
+                />
               </h2>
               <div className="mt-6 max-w-3xl space-y-4">
                 {h.deep.ongNguon.map((p) => (
@@ -889,9 +887,7 @@ export default function HolidayPage({
                 className="anchor-link"
                 aria-hidden="true"
                 tabIndex={-1}
-              >
-                #
-              </a>
+              />
             </h2>
             <ol className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-3">
               {h.lessons.map((l, i) => (
@@ -943,9 +939,7 @@ export default function HolidayPage({
                 className="anchor-link"
                 aria-hidden="true"
                 tabIndex={-1}
-              >
-                #
-              </a>
+              />
             </h2>
           </div>
           <div aria-hidden="true" className="marquee mt-8 print:hidden">
@@ -1008,9 +1002,7 @@ export default function HolidayPage({
               className="anchor-link"
               aria-hidden="true"
               tabIndex={-1}
-            >
-              #
-            </a>
+            />
           </h2>
           <ul className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-3">
             {h.gifts.map((g, i) => (
@@ -1053,15 +1045,14 @@ export default function HolidayPage({
               className="anchor-link"
               aria-hidden="true"
               tabIndex={-1}
-            >
-              #
-            </a>
+            />
           </h2>
           <GalleryGrid
             slug={h.slug}
             layout={galleryLayout}
             items={[1, 2, 3, 4, 5, 6].map((n) => {
-              const alt = t.holiday.galleryAlt(h.name, n);
+              const credit = photoCredit(h.slug, `gallery${n}`);
+              const alt = credit?.alt ?? t.holiday.galleryAlt(h.name, n);
               return {
                 base: `gallery${n}`,
                 alt,
@@ -1097,9 +1088,7 @@ export default function HolidayPage({
                     className="anchor-link"
                     aria-hidden="true"
                     tabIndex={-1}
-                  >
-                    #
-                  </a>
+                  />
                 </h2>
                 <p className="mt-5 max-w-3xl leading-relaxed text-[var(--color-muted)]">
                   {st.story.body}
@@ -1144,9 +1133,7 @@ export default function HolidayPage({
                 className="anchor-link"
                 aria-hidden="true"
                 tabIndex={-1}
-              >
-                #
-              </a>
+              />
             </h2>
             <div className="mt-8">
               <Faq items={h.faq} />
@@ -1166,9 +1153,7 @@ export default function HolidayPage({
                 className="anchor-link"
                 aria-hidden="true"
                 tabIndex={-1}
-              >
-                #
-              </a>
+              />
             </h2>
             <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-3">
               {related.map((o) => (

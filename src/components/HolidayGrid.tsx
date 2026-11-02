@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import { type HolidayCategory } from "@/data/categories";
 import type { MotifName } from "@/data/holidays";
-import { nextOccurrence, daysUntil, type DateRule } from "@/lib/dates";
+import { isoDay, nextOccurrence, occurrenceInYear, daysUntil, type DateRule } from "@/lib/dates";
 import { formatDayMonth, formatFull } from "@/lib/format";
 import { useNow } from "@/hooks/useNow";
 import { getStrings, localePath, type Locale } from "@/i18n";
@@ -28,9 +28,12 @@ type Filter = "all" | HolidayCategory;
 export default function HolidayGrid({
   items,
   locale = "vi",
+  year,
 }: {
   items: GridItem[];
   locale?: Locale;
+  /** Calendar year used for the stable SSR/client ordering (Jan → Dec). */
+  year: number;
 }) {
   const t = getStrings(locale);
   const FILTERS: { key: Filter; label: string }[] = [
@@ -56,12 +59,14 @@ export default function HolidayGrid({
       filter === "all"
         ? items
         : items.filter((h) => h.categories.includes(filter));
-    return [...list].sort((a, b) => {
-      const da = dates[a.slug]?.getTime() ?? Number.MAX_SAFE_INTEGER;
-      const db = dates[b.slug]?.getTime() ?? Number.MAX_SAFE_INTEGER;
-      return da - db;
-    });
-  }, [items, filter, dates]);
+    // Same year-order basis the server used — identical before and after
+    // hydration, so the grid never reshuffles on mount.
+    return [...list].sort(
+      (a, b) =>
+        occurrenceInYear(a.rule, year).getTime() -
+        occurrenceInYear(b.rule, year).getTime(),
+    );
+  }, [items, filter, year]);
 
   return (
     <div>
@@ -128,14 +133,16 @@ export default function HolidayGrid({
                     {h.tagline}
                   </p>
                   <p className="mt-4 flex items-center gap-2 text-xs font-bold uppercase tracking-wide text-[var(--color-faint)]">
-                    <time
-                      dateTime={
-                        next ? next.toISOString().slice(0, 10) : undefined
-                      }
-                      title={next ? formatFull(next, locale) : undefined}
-                    >
-                      {next ? formatDayMonth(next, locale) : h.displayDate}
-                    </time>
+                    {next ? (
+                      <time
+                        dateTime={isoDay(next)}
+                        title={formatFull(next, locale)}
+                      >
+                        {formatDayMonth(next, locale)}
+                      </time>
+                    ) : (
+                      <span>{h.displayDate}</span>
+                    )}
                     {days !== null && (
                       <span className="text-[var(--color-brand)]">
                         {days === 0 ? t.grid.today : t.grid.daysLeft(days)}

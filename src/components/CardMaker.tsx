@@ -177,7 +177,7 @@ export default function CardMaker({
           <select
             value={slug}
             onChange={(e) => setSlug(e.target.value)}
-            className="mt-1 w-full rounded-xl border border-[var(--color-line)] bg-[var(--color-card)] px-3 py-2.5 text-[var(--color-ink)] outline-none focus:border-[var(--color-brand)]"
+            className="mt-1 w-full rounded-xl border border-[var(--color-faint)] bg-[var(--color-card)] px-3 py-2.5 text-[var(--color-ink)] outline-none focus:border-[var(--color-brand)]"
           >
             {items.map((x) => (
               <option key={x.slug} value={x.slug}>
@@ -213,7 +213,7 @@ export default function CardMaker({
             value={to}
             maxLength={40}
             onChange={(e) => setTo(e.target.value)}
-            className="mt-1 w-full rounded-xl border border-[var(--color-line)] bg-[var(--color-card)] px-3 py-2.5 text-[var(--color-ink)] outline-none focus:border-[var(--color-brand)]"
+            className="mt-1 w-full rounded-xl border border-[var(--color-faint)] bg-[var(--color-card)] px-3 py-2.5 text-[var(--color-ink)] outline-none focus:border-[var(--color-brand)]"
           />
         </label>
         <label className="block text-sm font-bold text-[var(--color-muted)]">
@@ -223,7 +223,7 @@ export default function CardMaker({
             value={from}
             maxLength={40}
             onChange={(e) => setFrom(e.target.value)}
-            className="mt-1 w-full rounded-xl border border-[var(--color-line)] bg-[var(--color-card)] px-3 py-2.5 text-[var(--color-ink)] outline-none focus:border-[var(--color-brand)]"
+            className="mt-1 w-full rounded-xl border border-[var(--color-faint)] bg-[var(--color-card)] px-3 py-2.5 text-[var(--color-ink)] outline-none focus:border-[var(--color-brand)]"
           />
         </label>
         <label className="block text-sm font-bold text-[var(--color-muted)]">
@@ -233,7 +233,7 @@ export default function CardMaker({
             maxLength={200}
             rows={3}
             onChange={(e) => setMsg(e.target.value)}
-            className="mt-1 w-full rounded-xl border border-[var(--color-line)] bg-[var(--color-card)] px-3 py-2.5 text-[var(--color-ink)] outline-none focus:border-[var(--color-brand)]"
+            className="mt-1 w-full rounded-xl border border-[var(--color-faint)] bg-[var(--color-card)] px-3 py-2.5 text-[var(--color-ink)] outline-none focus:border-[var(--color-brand)]"
           />
         </label>
         <label className="block text-sm font-bold text-[var(--color-muted)]">
@@ -245,7 +245,7 @@ export default function CardMaker({
               e.target.value = "-1";
             }}
             defaultValue={-1}
-            className="mt-1 w-full rounded-xl border border-[var(--color-line)] bg-[var(--color-card)] px-3 py-2.5 text-[var(--color-ink)] outline-none focus:border-[var(--color-brand)]"
+            className="mt-1 w-full rounded-xl border border-[var(--color-faint)] bg-[var(--color-card)] px-3 py-2.5 text-[var(--color-ink)] outline-none focus:border-[var(--color-brand)]"
           >
             <option value={-1}>{t.thiep.chooseWish}</option>
             {h.wishes.map((w, i) => (
