@@ -47,7 +47,7 @@ export async function holidayMetadata(
       title: h.name,
       description,
       url,
-      images: [`${siteUrl()}${url}opengraph-image.png`],
+      images: [`${siteUrl()}${url}opengraph-image.jpg`],
     },
     twitter: { card: "summary_large_image", title: h.name, description },
   };

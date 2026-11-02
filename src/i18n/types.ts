@@ -49,6 +49,8 @@ export interface Messages {
     birthday: string;
     accessibility: string;
     feed: string;
+    /** GitHub issue link for content corrections. */
+    reportIssue: string;
     disclaimer: string;
   };
   countdown: {
@@ -200,6 +202,12 @@ export interface Messages {
     offIntro: string;
     /** Per-row day count, e.g. "5 ngày" / "5 days". */
     offDays: (n: number) => string;
+    /** Citation link under the statutory table. */
+    offSource: string;
+    /** Footnote on how lunar dates are computed. */
+    lunarNote: string;
+    /** Print button label. */
+    printLabel: string;
   };
   /** /hom-nay/ "what day is today" tool. */
   today: {

@@ -38,6 +38,7 @@ export const vi: Messages = {
     birthday: "Thiệp sinh nhật",
     accessibility: "Khả năng truy cập",
     feed: "Nguồn cấp Atom",
+    reportIssue: "Báo lỗi nội dung",
     disclaimer: "Mẫu trang cộng đồng — dữ liệu chỉ phục vụ tham khảo.",
   },
   countdown: {
@@ -219,6 +220,10 @@ export const vi: Messages = {
     offIntro:
       "6 đợt nghỉ lễ hưởng nguyên lương theo Điều 112 Bộ luật Lao động 2019. Lịch nghỉ bù và hoán đổi cụ thể do Chính phủ thông báo từng năm.",
     offDays: (n) => `${n} ngày`,
+    offSource: "Nguồn: Điều 112, Bộ luật Lao động 2019 (45/2019/QH14)",
+    lunarNote:
+      "Ngày âm lịch được quy đổi theo lịch âm Việt Nam (múi giờ UTC+7) — bảng tra tính sẵn cho 1900–2100.",
+    printLabel: "In lịch",
   },
   today: {
     eyebrow: "Công cụ",

@@ -66,10 +66,16 @@ function walk(dir) {
     } else if (name === "opengraph-image" || name.startsWith("opengraph-image-")) {
       // Next dedupes same-named metadata files across route groups by hashing
       // one of them (`opengraph-image-XXXX`); the canonical og:image URL is
-      // always `<route>/opengraph-image.png`, so copy the hashed variant to it.
-      const png =
-        name === "opengraph-image" ? `${p}.png` : join(dir, "opengraph-image.png");
-      copyFileSync(p, png);
+      // always `<route>/opengraph-image.<ext>`, so copy the hashed variant to it.
+      // Extension follows the payload's magic bytes — holiday cards emit JPEG,
+      // flat gradient cards stay PNG.
+      const head = readFileSync(p).subarray(0, 3);
+      const ext = head[0] === 0xff && head[1] === 0xd8 ? "jpg" : "png";
+      const img =
+        name === "opengraph-image"
+          ? `${p}.${ext}`
+          : join(dir, `opengraph-image.${ext}`);
+      copyFileSync(p, img);
       copied++;
     } else if (name.endsWith(".html")) {
       const html = readFileSync(p, "utf8");

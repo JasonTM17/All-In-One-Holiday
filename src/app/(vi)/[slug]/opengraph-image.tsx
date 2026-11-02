@@ -6,7 +6,7 @@ import { getHoliday, holidays } from "@/data/holidays";
 
 export const dynamic = "force-static";
 export const size = { width: 1200, height: 630 };
-export const contentType = "image/png";
+export const contentType = "image/jpeg";
 
 export function generateStaticParams() {
   return holidays.map((h) => ({ slug: h.slug }));
@@ -38,15 +38,15 @@ export default async function Image({
   );
   // Real holiday photo as the card backdrop (webp → jpeg for satori).
   const { default: sharp } = await import("sharp");
-  const jpeg = await sharp(
+  const bgJpeg = await sharp(
     join(process.cwd(), `public/images/holidays/${slug}/hero.webp`),
   )
     .resize(1200, 630, { fit: "cover" })
     .jpeg({ quality: 74 })
     .toBuffer();
-  const bg = `data:image/jpeg;base64,${jpeg.toString("base64")}`;
+  const bg = `data:image/jpeg;base64,${bgJpeg.toString("base64")}`;
 
-  return new ImageResponse(
+  const res = new ImageResponse(
     (
       <div
         style={{
@@ -100,4 +100,11 @@ export default async function Image({
       ],
     },
   );
+  // Re-encode the satori PNG as JPEG — ~85% smaller for photo cards, and every
+  // social scraper accepts og:image/jpeg.
+  const png = Buffer.from(await res.arrayBuffer());
+  const out = await sharp(png).flatten().jpeg({ quality: 82 }).toBuffer();
+  return new Response(new Uint8Array(out), {
+    headers: { "content-type": "image/jpeg" },
+  });
 }

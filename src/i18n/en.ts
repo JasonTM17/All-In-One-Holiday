@@ -38,6 +38,7 @@ export const en: Messages = {
     birthday: "Birthday card",
     accessibility: "Accessibility",
     feed: "Atom feed",
+    reportIssue: "Report an issue",
     disclaimer: "Community showcase — content is for reference only.",
   },
   countdown: {
@@ -219,6 +220,10 @@ export const en: Messages = {
     offIntro:
       "The six paid public holidays under Article 112 of the 2019 Labour Code. Compensatory and swapped days off are announced by the government each year.",
     offDays: (n) => `${n} ${n === 1 ? "day" : "days"}`,
+    offSource: "Source: Article 112, Labor Code 2019 (45/2019/QH14)",
+    lunarNote:
+      "Lunar dates are converted per Vietnam's lunar calendar (UTC+7) — lookup table precomputed for 1900–2100.",
+    printLabel: "Print calendar",
   },
   today: {
     eyebrow: "Tool",

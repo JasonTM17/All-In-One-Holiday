@@ -2,6 +2,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Calendar from "@/components/Calendar";
+import PrintButton from "@/components/PrintButton";
 import { getStrings, localePath, type Locale } from "@/i18n";
 import { holidaysOf } from "@/i18n/data";
 import { siteUrl } from "@/lib/site";
@@ -44,6 +45,9 @@ export default function CalendarPage({ locale }: { locale: Locale }) {
       <p className="mt-3 max-w-xl text-[var(--color-faint)]">
         {t.calendar.intro}
       </p>
+      <div className="mt-4">
+        <PrintButton label={t.calendar.printLabel} />
+      </div>
       <div className="mt-8">
         <Calendar
           locale={locale}
@@ -66,6 +70,14 @@ export default function CalendarPage({ locale }: { locale: Locale }) {
         <p className="mt-2 max-w-xl text-sm text-[var(--color-faint)]">
           {t.calendar.offIntro}
         </p>
+        <a
+          href="https://vanban.chinhphu.vn/?docid=198540&pageid=27160"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="u-link mt-1 inline-block text-xs font-semibold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]"
+        >
+          {t.calendar.offSource}
+        </a>
         <ul className="mt-6 grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3">
           {holidays
             .filter((h) => h.dayOffDays != null)
@@ -94,6 +106,9 @@ export default function CalendarPage({ locale }: { locale: Locale }) {
               </li>
             ))}
         </ul>
+        <p className="mt-6 max-w-xl text-xs text-[var(--color-faint)]">
+          {t.calendar.lunarNote}
+        </p>
       </section>
     </section>
     </>

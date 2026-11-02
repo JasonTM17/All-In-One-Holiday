@@ -89,6 +89,16 @@ export default function Footer({ locale }: { locale: Locale }) {
                 {t.footer.feed}
               </a>
             </li>
+            <li>
+              <a
+                href="https://github.com/JasonTM17/All-In-One-Holiday/issues/new"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="u-link font-semibold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]"
+              >
+                {t.footer.reportIssue}
+              </a>
+            </li>
           </ul>
         </nav>
       </div>
