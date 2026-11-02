@@ -71,7 +71,7 @@ test("gallery: six photos open a shared lightbox with keyboard nav", async ({
 }) => {
   await page.emulateMedia({ reducedMotion: "reduce" });
   await page.goto("/trung-thu/");
-  const gallery = page.locator('section[aria-labelledby="hinh-anh"]');
+  const gallery = page.locator('section[aria-labelledby="photos"]');
   const triggers = gallery.locator("button");
   await expect(triggers).toHaveCount(6);
 

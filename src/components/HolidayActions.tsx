@@ -74,6 +74,11 @@ export default function HolidayActions({
       `DTEND;VALUE=DATE:${toIcsDate(plusDays(next, 1))}`,
       `SUMMARY:${name}`,
       `DESCRIPTION:${name} — ${displayDate}. ${tagline}`,
+      "BEGIN:VALARM",
+      "ACTION:DISPLAY",
+      "TRIGGER:-P1D",
+      `DESCRIPTION:${name}`,
+      "END:VALARM",
       "END:VEVENT",
       "END:VCALENDAR",
     ].join("\r\n");
@@ -86,6 +91,15 @@ export default function HolidayActions({
     URL.revokeObjectURL(url);
   }
 
+  function shareFacebook() {
+    const u = encodeURIComponent(window.location.href);
+    window.open(
+      `https://www.facebook.com/sharer/sharer.php?u=${u}`,
+      "_blank",
+      "noopener,width=640,height=560",
+    );
+  }
+
   return (
     <div className="flex flex-wrap gap-2">
       <button
@@ -94,6 +108,13 @@ export default function HolidayActions({
         className="glass rounded-xl px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-white/25"
       >
         <span aria-live="polite">{copied ? t.actions.copiedLink : t.actions.share}</span>
+      </button>
+      <button
+        type="button"
+        onClick={shareFacebook}
+        className="glass rounded-xl px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-white/25"
+      >
+        Facebook
       </button>
       <button
         type="button"

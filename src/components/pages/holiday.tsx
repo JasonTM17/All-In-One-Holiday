@@ -130,15 +130,15 @@ export default function HolidayPage({
 
   const jsonLd = holidayJsonLd(h, eventYear, locale, t.footer.home);
   const tocItems: [string, string][] = [
-    ["nguon-goc", t.holiday.origin],
-    ["phong-tuc", t.holiday.traditions],
-    ["doc-tron", t.holiday.deepEyebrow],
-    ["bai-hoc", t.holiday.lessons],
-    ["loi-chuc", t.holiday.wishes],
-    ["hinh-anh", t.holiday.images],
-    ["cau-chuyen", t.holiday.storyEyebrow],
+    ["origin", t.holiday.origin],
+    ["traditions", t.holiday.traditions],
+    ["deep-dive", t.holiday.deepEyebrow],
+    ["lessons", t.holiday.lessons],
+    ["wishes", t.holiday.wishes],
+    ["photos", t.holiday.images],
+    ["stories", t.holiday.storyEyebrow],
     ["faq", "FAQ"],
-    ["kham-pha-them", t.holiday.related],
+    ["more", t.holiday.related],
   ];
 
   return (
@@ -217,6 +217,23 @@ export default function HolidayPage({
 
         <div className="relative mx-auto grid max-w-6xl gap-10 px-4 pb-24 pt-14 sm:px-6 lg:grid-cols-[1.35fr_1fr] lg:pb-28 lg:pt-20">
           <div>
+            <nav aria-label={t.holiday.breadcrumb} className="mb-5">
+              <ol className="flex flex-wrap items-center gap-1.5 text-xs font-semibold text-white/75">
+                <li>
+                  <Link
+                    prefetch={false}
+                    href={lp("/")}
+                    className="underline-offset-2 hover:text-white hover:underline focus-visible:outline-2"
+                  >
+                    {t.footer.home}
+                  </Link>
+                </li>
+                <li aria-hidden="true">›</li>
+                <li aria-current="page" className="text-white/95">
+                  {h.name}
+                </li>
+              </ol>
+            </nav>
             <p className="eyebrow flex flex-wrap items-center gap-x-3 gap-y-1 text-white/85">
               <span>{h.displayDate}</span>
               {h.categories.map((c) => (
@@ -227,6 +244,11 @@ export default function HolidayPage({
                   {t.grid.categories[c]}
                 </span>
               ))}
+              {h.dayOff && (
+                <span className="rounded-lg bg-white/25 px-2.5 py-0.5 text-[10px] font-bold tracking-widest text-white">
+                  {t.holiday.dayOff}
+                </span>
+              )}
             </p>
             <h1 className="mt-4 font-display text-[clamp(2.4rem,5vw+1rem,4.5rem)] font-extrabold leading-[1.05]">
               {h.name}
@@ -341,14 +363,14 @@ export default function HolidayPage({
       {/* ---------- Body ---------- */}
       <div className="mx-auto max-w-4xl space-y-20 px-4 pt-16 sm:px-6">
         <div data-rv className="cv-auto">
-          <section aria-labelledby="nguon-goc">
+          <section aria-labelledby="origin">
             <h2
-              id="nguon-goc"
+              id="origin"
               className="sec-h2 group font-display text-3xl font-extrabold text-[var(--color-ink)]"
             >
               {t.holiday.origin}
               <a
-                href="#nguon-goc"
+                href="#origin"
                 className="anchor-link"
                 aria-hidden="true"
                 tabIndex={-1}
@@ -633,7 +655,7 @@ export default function HolidayPage({
       {/* ---------- Traditions band: palette-tinted soft wash breaks the
           cream run; each card anchors on the holiday motif pictogram. ---------- */}
       <section
-        aria-labelledby="phong-tuc"
+        aria-labelledby="traditions"
         className="mt-16 border-y border-[var(--color-line)]"
         style={{
           background: `linear-gradient(155deg, ${h.theme.from}14, transparent 45%, transparent 55%, ${h.theme.to}12), var(--color-soft)`,
@@ -641,12 +663,12 @@ export default function HolidayPage({
       >
         <div data-rv className="mx-auto max-w-4xl px-4 py-16 sm:px-6">
           <h2
-            id="phong-tuc"
+            id="traditions"
             className="sec-h2 group font-display text-3xl font-extrabold text-[var(--color-ink)]"
           >
             {t.holiday.traditions}
             <a
-              href="#phong-tuc"
+              href="#traditions"
               className="anchor-link"
               aria-hidden="true"
               tabIndex={-1}
@@ -696,7 +718,7 @@ export default function HolidayPage({
 
         <div data-rv className="cv-auto">
           <section
-            aria-labelledby="doc-tron"
+            aria-labelledby="deep-dive"
             className="relative overflow-hidden rounded-2xl border border-[var(--color-line)] bg-[var(--color-card)] p-6 sm:p-10"
           >
             <div
@@ -711,12 +733,12 @@ export default function HolidayPage({
                 {t.holiday.deepEyebrow}
               </p>
               <h2
-                id="doc-tron"
+                id="deep-dive"
                 className="mt-2 sec-h2 group font-display text-3xl font-extrabold text-[var(--color-ink)]"
               >
                 {t.holiday.deepTitle(h.name)}
                 <a
-                  href="#doc-tron"
+                  href="#deep-dive"
                   className="anchor-link"
                   aria-hidden="true"
                   tabIndex={-1}
@@ -840,14 +862,14 @@ export default function HolidayPage({
         </div>
 
         <div data-rv className="cv-auto">
-          <section aria-labelledby="bai-hoc">
+          <section aria-labelledby="lessons">
             <h2
-              id="bai-hoc"
+              id="lessons"
               className="sec-h2 group font-display text-3xl font-extrabold text-[var(--color-ink)]"
             >
               {t.holiday.lessons}
               <a
-                href="#bai-hoc"
+                href="#lessons"
                 className="anchor-link"
                 aria-hidden="true"
                 tabIndex={-1}
@@ -890,18 +912,18 @@ export default function HolidayPage({
 
       {/* ---------- Wishes marquee + cards ---------- */}
       <section
-        aria-labelledby="loi-chuc"
+        aria-labelledby="wishes"
         className="cv-auto dot-pattern-ink border-y border-[var(--color-line)] bg-[var(--color-band)]"
       >
         <div className="mx-auto max-w-4xl px-4 py-16 sm:px-6">
           <div data-rv>
             <h2
-              id="loi-chuc"
+              id="wishes"
               className="sec-h2 group font-display text-3xl font-extrabold text-[var(--color-ink)]"
             >
               {t.holiday.wishes}
               <a
-                href="#loi-chuc"
+                href="#wishes"
                 className="anchor-link"
                 aria-hidden="true"
                 tabIndex={-1}
@@ -997,7 +1019,7 @@ export default function HolidayPage({
       {/* ---------- Gallery band: ink-inverted so photos glow; each opens a
           lightbox. ---------- */}
       <section
-        aria-labelledby="hinh-anh"
+        aria-labelledby="photos"
         className="cv-auto relative overflow-hidden bg-[#221b15] print:bg-transparent"
       >
         <Motif
@@ -1006,12 +1028,12 @@ export default function HolidayPage({
         />
         <div data-rv className="mx-auto max-w-4xl px-4 py-16 sm:px-6">
           <h2
-            id="hinh-anh"
+            id="photos"
             className="sec-h2 group font-display text-3xl font-extrabold text-white print:text-[var(--color-ink)]"
           >
             {t.holiday.images}
             <a
-              href="#hinh-anh"
+              href="#photos"
               className="anchor-link"
               aria-hidden="true"
               tabIndex={-1}
@@ -1047,15 +1069,15 @@ export default function HolidayPage({
           if (!st) return null;
           return (
             <div data-rv className="cv-auto">
-              <section aria-labelledby="cau-chuyen">
+              <section aria-labelledby="stories">
                 <p className="eyebrow text-[var(--color-brand)]">{t.holiday.storyEyebrow}</p>
                 <h2
-                  id="cau-chuyen"
+                  id="stories"
                   className="mt-2 sec-h2 group font-display text-3xl font-extrabold text-[var(--color-ink)]"
                 >
                   {st.story.title}
                   <a
-                    href="#cau-chuyen"
+                    href="#stories"
                     className="anchor-link"
                     aria-hidden="true"
                     tabIndex={-1}
@@ -1117,14 +1139,14 @@ export default function HolidayPage({
         </div>
 
         <div data-rv className="cv-auto">
-          <section aria-labelledby="kham-pha-them">
+          <section aria-labelledby="more">
             <h2
-              id="kham-pha-them"
+              id="more"
               className="sec-h2 group font-display text-3xl font-extrabold text-[var(--color-ink)]"
             >
               {t.holiday.related}
               <a
-                href="#kham-pha-them"
+                href="#more"
                 className="anchor-link"
                 aria-hidden="true"
                 tabIndex={-1}

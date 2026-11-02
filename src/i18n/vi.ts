@@ -89,7 +89,7 @@ export const vi: Messages = {
     othersAria: "Ngày lễ khác",
     prev: "← Trước",
     next: "Sau →",
-    heroAlt: (name) => `${name} — ảnh minh họa`,
+    heroAlt: (name) => name,
     galleryAlt: (name, n) => `${name} — ảnh ${n}`,
     viewPhoto: (name) => `Xem ảnh lớn: ${name}`,
     closePhoto: "Đóng ảnh",
@@ -102,6 +102,8 @@ export const vi: Messages = {
     signatureLegend: "Truyền thuyết",
     quoteTitle: "Lời hay ý đẹp",
     nearest: (date) => `Ngày lễ gần nhất: ${date}`,
+    breadcrumb: "Đường dẫn",
+    dayOff: "Ngày nghỉ lễ quốc gia",
   },
   actions: {
     share: "Chia sẻ",
@@ -211,6 +213,25 @@ export const vi: Messages = {
       "truyen-thong": "Truyền thống",
       "quoc-te": "Quốc tế",
     },
+  },
+  today: {
+    eyebrow: "Công cụ",
+    h1: "Hôm nay là ngày gì?",
+    intro:
+      "Ngày dương và ngày âm của hôm nay, các lễ đang diễn ra và ngày lễ gần nhất — cập nhật theo giờ Việt Nam.",
+    metaTitle: "Hôm nay là ngày gì",
+    metaDescription:
+      "Tra nhanh hôm nay là ngày bao nhiêu dương và âm lịch, có lễ gì không và còn bao nhiêu ngày đến ngày lễ gần nhất.",
+    liveAria: "Thông tin hôm nay",
+    lunarToday: (d, m) => `— ngày ${d}/${m} âm lịch`,
+    hasHoliday: "Hôm nay là",
+    noHoliday: "Hôm nay không có ngày lễ nào — nhưng sắp đến rồi:",
+    nextLabel: "Ngày lễ sắp tới",
+    inDays: (n) => `còn ${n} ngày`,
+    isToday: "hôm nay",
+    thisMonth: "Còn lại trong tháng này",
+    noneThisMonth: "Tháng này không còn ngày lễ nào.",
+    viewCalendar: "Xem lịch cả năm",
   },
   thiep: {
     eyebrow: "Công cụ",

@@ -89,7 +89,7 @@ export const en: Messages = {
     othersAria: "Other holidays",
     prev: "← Previous",
     next: "Next →",
-    heroAlt: (name) => `${name} — illustration`,
+    heroAlt: (name) => name,
     galleryAlt: (name, n) => `${name} — photo ${n}`,
     viewPhoto: (name) => `View larger photo: ${name}`,
     closePhoto: "Close photo",
@@ -102,6 +102,8 @@ export const en: Messages = {
     signatureLegend: "Legend",
     quoteTitle: "Voices & verses",
     nearest: (date) => `Nearest occurrence: ${date}`,
+    breadcrumb: "Breadcrumb",
+    dayOff: "National public holiday",
   },
   actions: {
     share: "Share",
@@ -211,6 +213,25 @@ export const en: Messages = {
       "truyen-thong": "Traditional",
       "quoc-te": "International",
     },
+  },
+  today: {
+    eyebrow: "Tool",
+    h1: "What day is today?",
+    intro:
+      "Today’s solar and lunar dates, the holidays happening now and the nearest ones ahead — in Vietnam time.",
+    metaTitle: "What day is today",
+    metaDescription:
+      "Instantly see today’s solar and lunar dates, whether a holiday falls today, and how many days remain until the next Vietnamese holiday.",
+    liveAria: "Today’s information",
+    lunarToday: (d, m) => `— lunar ${d}/${m}`,
+    hasHoliday: "Today is",
+    noHoliday: "No holiday today — but the next one is close:",
+    nextLabel: "Upcoming holidays",
+    inDays: (n) => `in ${n} days`,
+    isToday: "today",
+    thisMonth: "Rest of this month",
+    noneThisMonth: "No more holidays this month.",
+    viewCalendar: "See the full year",
   },
   thiep: {
     eyebrow: "Tool",

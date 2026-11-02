@@ -9,6 +9,7 @@ import type { Holiday } from "./holidays";
 export const holidaysEn: Holiday[] = [
   {
     slug: "tet-duong-lich",
+    dayOff: true,
     heroStyle: "framed",
     signature: [
       {
@@ -94,6 +95,7 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "tet-nguyen-dan",
+    dayOff: true,
     heroStyle: "mosaic",
     signature: [
       {
@@ -485,6 +487,7 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "gio-to-hung-vuong",
+    dayOff: true,
     heroStyle: "mosaic",
     signature: [
       {
@@ -681,6 +684,7 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "giai-phong-mien-nam",
+    dayOff: true,
     heroStyle: "banner",
     signature: [
       {
@@ -770,6 +774,7 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "quoc-te-lao-dong",
+    dayOff: true,
     signature: [
       {
         kind: "timeline",
@@ -1303,6 +1308,7 @@ export const holidaysEn: Holiday[] = [
   },
   {
     slug: "quoc-khanh",
+    dayOff: true,
     heroStyle: "banner",
     signature: [
       {

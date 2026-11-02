@@ -65,6 +65,11 @@ export default function Footer({ locale }: { locale: Locale }) {
               </Link>
             </li>
             <li>
+              <Link prefetch={false} href={lp("/hom-nay/")} className="u-link font-semibold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
+                {t.today.h1}
+              </Link>
+            </li>
+            <li>
               <Link prefetch={false} href={lp("/thiep/")} className="u-link font-semibold text-[var(--color-muted)] hover:text-[var(--color-brand-deep)]">
                 {t.footer.cardMaker}
               </Link>

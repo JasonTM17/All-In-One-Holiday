@@ -26,6 +26,11 @@ export function eventLine(h: Holiday, d: Date): string {
     `DTEND;VALUE=DATE:${icsDate(next)}`,
     `SUMMARY:${esc(h.name)}`,
     `DESCRIPTION:${esc(h.tagline)}`,
+    "BEGIN:VALARM",
+    "ACTION:DISPLAY",
+    "TRIGGER:-P1D",
+    `DESCRIPTION:${esc(h.name)}`,
+    "END:VALARM",
     "END:VEVENT",
   ].join("\r\n");
 }

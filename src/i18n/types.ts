@@ -118,6 +118,10 @@ export interface Messages {
     quoteTitle: string;
     /** sr-only text naming the nearest occurrence date. */
     nearest: (date: string) => string;
+    /** aria-label on the visible breadcrumb inside the hero. */
+    breadcrumb: string;
+    /** Badge marking a paid public holiday (Labour Code art. 112). */
+    dayOff: string;
   };
   actions: {
     share: string;
@@ -189,6 +193,33 @@ export interface Messages {
     lunarAbbr: string;
     all: string;
     categories: Record<HolidayCategory, string>;
+  };
+  /** /hom-nay/ "what day is today" tool. */
+  today: {
+    eyebrow: string;
+    h1: string;
+    intro: string;
+    metaTitle: string;
+    metaDescription: string;
+    /** aria-label wrapping the live today panel. */
+    liveAria: string;
+    /** "— ngày {d}/{m} âm lịch" suffix under the solar date. */
+    lunarToday: (d: number, m: number) => string;
+    /** Heading when at least one holiday falls today. */
+    hasHoliday: string;
+    /** Heading when no holiday falls today. */
+    noHoliday: string;
+    /** Section heading for upcoming holidays. */
+    nextLabel: string;
+    /** "còn {n} ngày" countdown per upcoming item. */
+    inDays: (n: number) => string;
+    /** "Hôm nay" label when the upcoming holiday is today. */
+    isToday: string;
+    /** Section heading for the rest of this month. */
+    thisMonth: string;
+    /** Shown when no more holidays remain this month. */
+    noneThisMonth: string;
+    viewCalendar: string;
   };
   /** /thiep/ card maker. */
   thiep: {
