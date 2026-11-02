@@ -6,6 +6,7 @@ import { holidays } from "../src/data/holidays.js";
 import { holidaysEn } from "../src/data/holidays-en.js";
 import type { Holiday } from "../src/data/holidays.js";
 import type { Searchable } from "../src/lib/search.js";
+import { getStrings, type Locale } from "../src/i18n/index.js";
 
 function build(list: Holiday[]): Searchable[] {
   return list.map((h) => ({
@@ -16,6 +17,27 @@ function build(list: Holiday[]): Searchable[] {
     tagline: h.tagline,
     wishes: h.wishes,
     theme: { from: h.theme.from, to: h.theme.to },
+  }));
+}
+
+/** Tool routes join the index so "lich", "thiep"… also surface pages. */
+function tools(locale: Locale): Searchable[] {
+  const t = getStrings(locale);
+  const theme = { from: "#334155", to: "#64748b" };
+  const rows: [string, string, string][] = [
+    ["lich", t.calendar.h1, t.calendar.metaDescription],
+    ["hom-nay", t.today.h1, t.today.metaDescription],
+    ["thiep", t.thiep.h1, t.thiep.metaDescription],
+    ["birthday", t.birthday.h1, t.birthday.metaDescription],
+  ];
+  return rows.map(([slug, name, tagline]) => ({
+    slug,
+    name,
+    dateMark: "",
+    displayDate: t.calendar.eyebrow,
+    tagline,
+    wishes: [],
+    theme,
   }));
 }
 
@@ -30,5 +52,5 @@ export const ${exportName}: Searchable[] = ${JSON.stringify(index, null, 0)};
   console.log(`wrote ${file} (${index.length} entries)`);
 }
 
-emit("src/data/search-index.ts", "searchIndex", build(holidays));
-emit("src/data/search-index-en.ts", "searchIndexEn", build(holidaysEn));
+emit("src/data/search-index.ts", "searchIndex", [...build(holidays), ...tools("vi")]);
+emit("src/data/search-index-en.ts", "searchIndexEn", [...build(holidaysEn), ...tools("en")]);

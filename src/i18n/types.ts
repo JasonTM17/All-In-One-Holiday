@@ -1,4 +1,4 @@
-import type { HolidayCategory } from "@/data/categories";
+import type { HolidayCategory } from "../data/categories";
 
 /** Supported site locales. VI stays at the site root; EN lives under /en/. */
 export type Locale = "vi" | "en";

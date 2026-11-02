@@ -25,6 +25,10 @@ execFileSync(
     "src/data/holidays.ts",
     "src/data/holidays-en.ts",
     "src/data/lunar-table.ts",
+    "src/i18n/index.ts",
+    "src/i18n/en.ts",
+    "src/i18n/vi.ts",
+    "src/i18n/types.ts",
     "--outDir",
     ".ics-tmp",
     "--module",
@@ -67,7 +71,8 @@ execFileSync(process.execPath, [".ics-tmp/scripts/gen-search-entry.js"], {
 });
 rmSync(".ics-tmp", { recursive: true, force: true });
 
-// PWA icons from the SVG app icon (devDep sharp).
+// PWA icons from the SVG app icon (devDep sharp). apple-icon lands in src/app
+// as a file convention so Next emits <link rel="apple-touch-icon">.
 const { default: sharp } = await import("sharp");
 const svg = readFileSync("src/app/icon.svg");
 for (const [size, name, pad] of [
@@ -81,4 +86,10 @@ for (const [size, name, pad] of [
     : base;
   await img.png().toFile(`public/${name}`);
 }
+// iOS home-screen icon: opaque brand background (Safari drops alpha to black).
+await sharp(svg, { density: 384 })
+  .resize(136, 136)
+  .extend({ top: 22, bottom: 22, left: 22, right: 22, background: "#be123c" })
+  .png()
+  .toFile("src/app/apple-icon.png");
 console.log("wrote PWA icons");

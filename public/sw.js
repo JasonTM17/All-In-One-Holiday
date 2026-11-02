@@ -1,5 +1,5 @@
 /* Service worker — cache shell + visited pages for offline. BasePath-aware via scope. */
-const VERSION = "nlv-v24";
+const VERSION = "nlv-v25";
 const SHELL = VERSION + "-shell";
 const PAGES = VERSION + "-pages";
 const SCOPE = self.registration.scope;

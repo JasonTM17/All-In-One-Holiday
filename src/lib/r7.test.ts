@@ -3,6 +3,7 @@ import { holidays } from "@/data/holidays";
 import { buildIcs, eventLine, icsDate } from "@/lib/ics";
 import { occurrenceInYear, solarToLunar } from "@/lib/dates";
 import { fold, searchHolidays } from "@/lib/search";
+import { searchIndex } from "@/data/search-index";
 import { makeWishes, tonesFor } from "@/lib/wishes-gen";
 import { getStrings } from "@/i18n";
 
@@ -24,6 +25,16 @@ describe("diacritic-insensitive search", () => {
   });
   it("empty query returns nothing", () => {
     expect(searchHolidays(holidays, "")).toEqual([]);
+  });
+  it("generated index also covers the tool routes", () => {
+    for (const slug of ["lich", "hom-nay", "thiep", "birthday"]) {
+      expect(
+        searchIndex.some((h) => h.slug === slug),
+        slug,
+      ).toBe(true);
+    }
+    expect(searchHolidays(searchIndex, "lich")[0]?.holiday.slug).toBe("lich");
+    expect(searchHolidays(searchIndex, "hom nay")[0]?.holiday.slug).toBe("hom-nay");
   });
 });
 
