@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Calendar from "@/components/Calendar";
 import PrintButton from "@/components/PrintButton";
+import YearGrid from "@/components/YearGrid";
 import { getStrings, localePath, type Locale } from "@/i18n";
 import { holidaysOf } from "@/i18n/data";
 import { siteUrl } from "@/lib/site";
@@ -60,6 +61,24 @@ export default function CalendarPage({ locale }: { locale: Locale }) {
           }))}
         />
       </div>
+      <section aria-labelledby="year-grid" className="mt-12">
+        <h2
+          id="year-grid"
+          className="font-display text-2xl font-extrabold text-[var(--color-ink)]"
+        >
+          {t.calendar.yearH2}
+        </h2>
+        <p className="mt-2 max-w-xl text-sm text-[var(--color-faint)]">
+          {t.calendar.yearIntro}
+        </p>
+        <div className="mt-6 space-y-8">
+          {[new Date().getFullYear(), new Date().getFullYear() + 1].map(
+            (y) => (
+              <YearGrid key={y} locale={locale} holidays={holidays} year={y} />
+            ),
+          )}
+        </div>
+      </section>
       <section aria-labelledby="off-days" className="mt-12">
         <h2
           id="off-days"

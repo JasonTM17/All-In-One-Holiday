@@ -224,6 +224,10 @@ export const vi: Messages = {
     lunarNote:
       "Ngày âm lịch được quy đổi theo lịch âm Việt Nam (múi giờ UTC+7) — bảng tra tính sẵn cho 1900–2100.",
     printLabel: "In lịch",
+    yearH2: "Lịch lễ cả năm — bản in",
+    yearIntro:
+      "Ngày lễ được tô đậm theo màu chủ đề; rê chuột (hoặc chạm) vào ngày để xem tên lễ. In trang này để có poster lịch cả năm.",
+    yearTitle: (y) => `Năm ${y}`,
   },
   today: {
     eyebrow: "Công cụ",

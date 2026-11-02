@@ -208,6 +208,10 @@ export interface Messages {
     lunarNote: string;
     /** Print button label. */
     printLabel: string;
+    /** Year-at-a-glance poster section. */
+    yearH2: string;
+    yearIntro: string;
+    yearTitle: (year: number) => string;
   };
   /** /hom-nay/ "what day is today" tool. */
   today: {

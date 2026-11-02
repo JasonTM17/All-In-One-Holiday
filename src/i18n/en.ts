@@ -224,6 +224,10 @@ export const en: Messages = {
     lunarNote:
       "Lunar dates are converted per Vietnam's lunar calendar (UTC+7) — lookup table precomputed for 1900–2100.",
     printLabel: "Print calendar",
+    yearH2: "Year at a glance — printable",
+    yearIntro:
+      "Holiday days are bolded in each holiday's theme color; hover (or tap) a day to see its name. Print this page for a year poster.",
+    yearTitle: (y) => `${y}`,
   },
   today: {
     eyebrow: "Tool",
