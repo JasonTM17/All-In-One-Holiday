@@ -593,12 +593,12 @@ export const holidaysEn: Holiday[] = [
     signature: [
       {
         kind: "steps",
-        title: "Tending the graves, properly",
+        title: "Grave-tending, step by step",
         steps: [
-          { icon: "home", title: "Clear the grass, wash the stone", text: "Weeds around the grave are cleared, the headstone washed, and faded lettering touched up anew." },
-          { icon: "temple", title: "Add fresh earth, light incense", text: "New soil is heaped onto the mound — 'repairing the house' of the departed — then the first stick of incense is lit." },
-          { icon: "lotus", title: "Flowers and offerings", text: "Fresh flowers, betel, wine and the dishes the departed loved — simple offerings, a sincere heart." },
-          { icon: "heart", title: "Gather and remember", text: "Grave-tending is also a family reunion at the ancestral plot — old stories retold so the young know where they come from." },
+          { icon: "home", title: "Clear weeds, wash the headstone", text: "The first task is tidying the grave itself: cutting the weeds growing around it, washing the headstone clean, and repainting any lettering that has faded over the years." },
+          { icon: "temple", title: "Heap fresh earth, light incense", text: "New soil is added onto the mound — called 'vun mộ', like repairing the house of the departed — then the first incense stick is lit in reverence to the ancestors." },
+          { icon: "lotus", title: "Offer flowers and gifts", text: "Fresh flowers, betel, wine and the dishes the departed used to enjoy are laid out. Offerings may be simple or elaborate depending on the family — what matters is sincerity." },
+          { icon: "heart", title: "Reunite and retell stories", text: "Grave-tending is also a family reunion at the ancestral plot, where elders retell old stories so the children learn about their ancestors and roots." },
         ],
       },
     ],

@@ -738,12 +738,12 @@ export const holidays: Holiday[] = [
     signature: [
       {
         kind: "steps",
-        title: "Tảo mộ đúng nghi",
+        title: "Tảo mộ theo trình tự",
         steps: [
-          { icon: "home", title: "Dọn cỏ, rửa bia", text: "Quét dọn cỏ dại quanh phần mộ, rửa sạch bia và tô điểm lại nét chữ đã mờ theo năm tháng." },
-          { icon: "temple", title: "Vun đất, thắp hương", text: "Đắp thêm đất lên phần mộ — 'vun mộ' như sửa lại nhà cho người đã khuất — rồi thắp nén hương đầu tiên." },
-          { icon: "lotus", title: "Dâng hoa, dâng lễ", text: "Hoa tươi, trầu rượu và món ăn người thân từng thích — lễ vật giản dị, lòng thành là chính." },
-          { icon: "heart", title: "Thăm hỏi, nhắc chuyện", text: "Tảo mộ cũng là ngày đại gia đình gặp nhau bên mộ tổ — kể lại chuyện cũ để người nhỏ biết mình từ đâu." },
+          { icon: "home", title: "Dọn cỏ, rửa bia mộ", text: "Việc đầu tiên là dọn dẹp phần mộ: cắt cỏ dại mọc xung quanh, lau rửa bia mộ cho sạch và tô lại những nét chữ đã phai theo năm tháng." },
+          { icon: "temple", title: "Vun đất, thắp hương", text: "Đắp thêm đất mới lên mộ — gọi là 'vun mộ', mang ý nghĩa sửa sang lại nhà cửa cho người đã khuất — rồi thắp nén hương đầu tiên kính báo với tổ tiên." },
+          { icon: "lotus", title: "Dâng hoa và lễ vật", text: "Bày hoa tươi, trầu cau, rượu và những món ăn người mất từng thích. Lễ vật giản dị hay đầy đủ tùy mỗi gia đình — điều quan trọng là lòng thành kính." },
+          { icon: "heart", title: "Sum họp, nhắc chuyện xưa", text: "Tảo mộ cũng là dịp đại gia đình gặp nhau bên mộ tổ. Người lớn kể lại những chuyện ngày xưa để con cháu biết về tổ tiên và cội nguồn của mình." },
         ],
       },
     ],

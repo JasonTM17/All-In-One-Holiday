@@ -66,6 +66,31 @@ test("axe: photo lightbox dialog on /trung-thu/", async ({ page }) => {
   await expect(trigger).toBeFocused();
 });
 
+test("lightbox covers the whole viewport (portal escapes cv-auto)", async ({
+  page,
+}) => {
+  await page.goto("/");
+  // Scenery triggers live inside a content-visibility:auto section —
+  // contain:paint would pin position:fixed to the section box unless the
+  // dialog is portaled to <body>.
+  const trigger = page
+    .locator('section[aria-labelledby="viet-nam"] li button')
+    .first();
+  await trigger.scrollIntoViewIfNeeded();
+  await trigger.click();
+  const dialog = page.getByRole("dialog");
+  await expect(dialog).toBeVisible();
+  expect(await dialog.evaluate((el) => el.parentElement?.tagName)).toBe("BODY");
+  const box = await dialog.boundingBox();
+  const viewport = page.viewportSize()!;
+  expect(Math.round(box!.x)).toBeLessThanOrEqual(0);
+  expect(Math.round(box!.y)).toBeLessThanOrEqual(0);
+  expect(Math.round(box!.width)).toBeGreaterThanOrEqual(viewport.width - 1);
+  expect(Math.round(box!.height)).toBeGreaterThanOrEqual(viewport.height - 1);
+  await page.keyboard.press("Escape");
+  await expect(dialog).toHaveCount(0);
+});
+
 test("gallery: six photos open a shared lightbox with keyboard nav", async ({
   page,
 }) => {

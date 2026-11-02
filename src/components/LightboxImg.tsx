@@ -6,6 +6,7 @@
 // button, moves focus to the close button on open and back to the trigger
 // on close, and locks body scroll while open.
 import { useEffect, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import HImg from "./HImg";
 import { photoCredit } from "@/lib/photo-credit";
 
@@ -97,7 +98,10 @@ export default function LightboxImg({
         </span>
       </button>
 
-      {open && (
+      {/* Portal to <body>: sections use content-visibility (contain: paint),
+          which would otherwise trap position:fixed inside the section box. */}
+      {open &&
+        createPortal(
         <div
           role="dialog"
           aria-modal="true"
@@ -153,7 +157,8 @@ export default function LightboxImg({
               <path d="M5 5l14 14M19 5L5 19" />
             </svg>
           </button>
-        </div>
+        </div>,
+        document.body,
       )}
     </>
   );
