@@ -5,6 +5,12 @@ updates:
     schedule:
       interval: "weekly"
     open-pull-requests-limit: 5
+    ignore:
+      # typescript-eslint (all versions incl. latest 8.x) requires TS <6.1;
+      # merging TS >=7 crashes ESLint and therefore CI. Revisit once
+      # typescript-eslint ships tsgo/TS7 support.
+      - dependency-name: "typescript"
+        update-types: ["version-update:semver-major"]
     groups:
       next:
         patterns:
