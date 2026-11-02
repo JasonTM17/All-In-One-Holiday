@@ -1454,15 +1454,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Sculpture of the Thousand-Armed Avalokitsvara along with offerings of fruit and sunflowers on an altar at Chùa Dư Hàng ("
     },
     {
-      "file": "vu-lan/gallery4.webp",
-      "photographer": "PattayaPatrol",
-      "profile": "https://commons.wikimedia.org/wiki/File:DZ6_2454_A_peaceful_pond_dotted_with_pink_water_lilies_framed_by_palm_trees_and_bright_blue_sky.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:DZ6_2454_A_peaceful_pond_dotted_with_pink_water_lilies_framed_by_palm_trees_and_bright_blue_sky.jpg",
-      "license": "CC BY-SA 4.0",
-      "source": "Wikimedia Commons",
-      "alt": "This is a beautiful landscape photograph of a serene pond or small lake filled with water lilies or lotus flowers bloomi"
-    },
-    {
       "file": "vu-lan/gallery5.webp",
       "photographer": "shankar s. from Dubai, united arab emirates",
       "profile": "https://commons.wikimedia.org/wiki/File:Majestic_arch_leading_to_the_temple_behind_Thien_Mu_pagoda_(31764632176).jpg",
@@ -1497,6 +1488,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC0",
       "source": "Wikimedia Commons",
       "alt": "The free high-resolution photo of girl, lake, statue, buddhism, lighting, pray, temple, carving, vietnam, water feature,"
+    },
+    {
+      "file": "vu-lan/gallery4.webp",
+      "photographer": "Abasaa",
+      "profile": "https://commons.wikimedia.org/wiki/File:Chua_Nam_Hoa_Temple.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:Chua_Nam_Hoa_Temple.JPG",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Chua Nam Hoa Temple in Koshigaya, Saitama, Japan"
     }
   ],
   "quoc-khanh": [
@@ -2118,15 +2118,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Bánh bao chay ngọt cúng tất niên"
     },
     {
-      "file": "tet-han-thuc/gallery6.webp",
-      "photographer": "bualoy-thaidessert.blogspot.com",
-      "profile": "https://bualoy-thaidessert.blogspot.com/",
-      "photo": "https://bualoy-thaidessert.blogspot.com/",
-      "license": "CC (xem nguồn)",
-      "source": "Web (bualoy-thaidessert.blogspot.com)",
-      "alt": "บัวลอยไข่หวาน สูตรขนมที่คนไทยไม่เคยลืม"
-    },
-    {
       "file": "tet-han-thuc/card.webp",
       "photographer": "en.wikipedia.org",
       "profile": "https://en.wikipedia.org/wiki/B%C3%A1nh_t%C3%A9t",
@@ -2163,6 +2154,15 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Đặc sản Huế | TOP 15 món ăn ngon nức tiếng xứ Huế - MOTOGO"
     },
     {
+      "file": "tet-han-thuc/gallery6.webp",
+      "photographer": "Alpha",
+      "profile": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_b%C3%A8o,_B%C3%A1nh_%C3%ADt_tr%E1%BA%A7n,_B%C3%A1nh_b%E1%BB%99t_l%E1%BB%8Dc_tr%E1%BA%A7n.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_b%C3%A8o,_B%C3%A1nh_%C3%ADt_tr%E1%BA%A7n,_B%C3%A1nh_b%E1%BB%99t_l%E1%BB%8Dc_tr%E1%BA%A7n.jpg",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Various Vietnamese cakes and dumplings - bánh bèo (small steamed savory rice cakes, topped with minced dried shrimp), bá"
+    },
+    {
       "file": "tet-han-thuc/history.webp",
       "photographer": "Jess Lander from Los Angeles, CA, USA",
       "profile": "https://commons.wikimedia.org/wiki/File:Comruou.jpg",
@@ -2173,15 +2173,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
     }
   ],
   "tet-doan-ngo": [
-    {
-      "file": "tet-doan-ngo/card.webp",
-      "photographer": "babinbubun",
-      "profile": "https://commons.wikimedia.org/wiki/File:Start_your_day.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Start_your_day.jpg",
-      "license": "CC BY-SA 4.0",
-      "source": "Wikimedia Commons",
-      "alt": "The breakfast which gives you a fresh start.."
-    },
     {
       "file": "tet-doan-ngo/gallery1.webp",
       "photographer": "JIP",
@@ -2273,15 +2264,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Various food items being sacrificed for the wandering souls."
     },
     {
-      "file": "tet-doan-ngo/amthuc-com-ruou.webp",
-      "photographer": "vietskin.vn",
-      "profile": "https://www.vietskin.vn/benh-thuong-gap/",
-      "photo": "https://www.vietskin.vn/benh-thuong-gap/",
-      "license": "CC (xem nguồn)",
-      "source": "Web (vietskin.vn)",
-      "alt": "Bệnh thường gặp"
-    },
-    {
       "file": "tet-doan-ngo/history.webp",
       "photographer": "Casablanca1911 at vi.wikipedia",
       "profile": "https://commons.wikimedia.org/wiki/File:R%C6%B0%E1%BB%A3u_n%E1%BA%BFp_c%E1%BA%A9m2.JPG",
@@ -2289,6 +2271,24 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "Public domain",
       "source": "Wikimedia Commons",
       "alt": "Rượu nếp cẩm. Ảnh này do người truyền lên chụp."
+    },
+    {
+      "file": "tet-doan-ngo/card.webp",
+      "photographer": "Dinkum",
+      "profile": "https://commons.wikimedia.org/wiki/File:Litchis_au_march%C3%A9.JPG",
+      "photo": "https://commons.wikimedia.org/wiki/File:Litchis_au_march%C3%A9.JPG",
+      "license": "CC0",
+      "source": "Wikimedia Commons",
+      "alt": "Litchis au marché"
+    },
+    {
+      "file": "tet-doan-ngo/amthuc-com-ruou.webp",
+      "photographer": "motogo.vn",
+      "profile": "https://motogo.vn/du-lich-ha-noi-mua-nao-dep-nhat/",
+      "photo": "https://motogo.vn/du-lich-ha-noi-mua-nao-dep-nhat/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (motogo.vn)",
+      "alt": "Du lịch Hà Nội mùa nào đẹp nhất? - MOTOGO"
     }
   ],
   "ngay-thay-thuoc": [
@@ -3177,15 +3177,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
   ],
   "ngay-sach-viet-nam": [
     {
-      "file": "ngay-sach-viet-nam/hero.webp",
-      "photographer": "pngimg.com",
-      "profile": "https://pngimg.com/download/51074",
-      "photo": "https://pngimg.com/download/51074",
-      "license": "CC (xem nguồn)",
-      "source": "Web (pngimg.com)",
-      "alt": "Book PNG"
-    },
-    {
       "file": "ngay-sach-viet-nam/gallery1.webp",
       "photographer": "diendan.org",
       "profile": "https://www.diendan.org/phe-binh-nghien-cuu/sach-moi-cua-gs-ha-van-tan-su-sinh-thanh-viet-nam",
@@ -3193,33 +3184,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC (xem nguồn)",
       "source": "Web (diendan.org)",
       "alt": "Sách mới của GS Hà Văn Tấn: Sự sinh thành Việt Nam — Diễn Đàn Forum"
-    },
-    {
-      "file": "ngay-sach-viet-nam/gallery2.webp",
-      "photographer": "libringioco.blog",
-      "profile": "https://libringioco.blog/videoletture-gratis-per-bambini/",
-      "photo": "https://libringioco.blog/videoletture-gratis-per-bambini/",
-      "license": "CC (xem nguồn)",
-      "source": "Web (libringioco.blog)",
-      "alt": "Videoletture gratis per bambini"
-    },
-    {
-      "file": "ngay-sach-viet-nam/gallery3.webp",
-      "photographer": "blog.aladin.co.kr",
-      "profile": "https://blog.aladin.co.kr/forkids24/10859246",
-      "photo": "https://blog.aladin.co.kr/forkids24/10859246",
-      "license": "CC (xem nguồn)",
-      "source": "Web (blog.aladin.co.kr)",
-      "alt": "[알라딘서재]작고 큰 여행_가벼이, 가벼이 나서야지"
-    },
-    {
-      "file": "ngay-sach-viet-nam/gallery5.webp",
-      "photographer": "julencoir.blogspot.com",
-      "profile": "https://julencoir.blogspot.com/2020/04/",
-      "photo": "https://julencoir.blogspot.com/2020/04/",
-      "license": "CC (xem nguồn)",
-      "source": "Web (julencoir.blogspot.com)",
-      "alt": "BLOG ESCOLAR. (D.Julen): abril 2020"
     },
     {
       "file": "ngay-sach-viet-nam/history.webp",
@@ -3240,15 +3204,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Chùa Tứ Kỳ, Hà Nội, Việt Nam."
     },
     {
-      "file": "ngay-sach-viet-nam/gallery6.webp",
-      "photographer": "Kari Hawkins, USAG Redstone",
-      "profile": "https://commons.wikimedia.org/wiki/File:US_Army_53394_BOOK_OF_RHYMES.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:US_Army_53394_BOOK_OF_RHYMES.jpg",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "Taka sits with 9-year-old Sofia Rundini and his owner and trainer, Jamie Ward, during Sofia's reading of \"Mary Had a Lit"
-    },
-    {
       "file": "ngay-sach-viet-nam/gallery4.webp",
       "photographer": "Yun Huang Yong from Harbord, Australia",
       "profile": "https://commons.wikimedia.org/wiki/File:Ben_Thanh_Market_(3122976554).jpg",
@@ -3256,6 +3211,51 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY 2.0",
       "source": "Wikimedia Commons",
       "alt": "Its a very large market selling just about everything from dried foods to the latest in knock-off fashions, as well as s"
+    },
+    {
+      "file": "ngay-sach-viet-nam/gallery2.webp",
+      "photographer": "resibooks.com",
+      "profile": "https://www.resibooks.com/2019/03/",
+      "photo": "https://www.resibooks.com/2019/03/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (resibooks.com)",
+      "alt": "Life is a Book: marzo 2019"
+    },
+    {
+      "file": "ngay-sach-viet-nam/gallery3.webp",
+      "photographer": "blog.aladin.co.kr",
+      "profile": "https://blog.aladin.co.kr/forkids24/10859246",
+      "photo": "https://blog.aladin.co.kr/forkids24/10859246",
+      "license": "CC (xem nguồn)",
+      "source": "Web (blog.aladin.co.kr)",
+      "alt": "[알라딘서재]작고 큰 여행_가벼이, 가벼이 나서야지"
+    },
+    {
+      "file": "ngay-sach-viet-nam/gallery5.webp",
+      "photographer": "Unknown authorUnknown author or not provided",
+      "profile": "https://commons.wikimedia.org/wiki/File:A_new_market_for_%22Tinh_Thuong.%22_Children_gather_before_the_market_which_was_built_with_assistance_from_the_government_of_-_NARA_-_541851.tif",
+      "photo": "https://commons.wikimedia.org/wiki/File:A_new_market_for_%22Tinh_Thuong.%22_Children_gather_before_the_market_which_was_built_with_assistance_from_the_government_of_-_NARA_-_541851.tif",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "General notes: Use War and Conflict Number 409 when ordering a reproduction or requesting information about this image."
+    },
+    {
+      "file": "ngay-sach-viet-nam/gallery6.webp",
+      "photographer": "Pratham Books from India",
+      "profile": "https://commons.wikimedia.org/wiki/File:A_child_reading_a_book_from_Pratham_Books_-_Flickr_-_Pratham_Books.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:A_child_reading_a_book_from_Pratham_Books_-_Flickr_-_Pratham_Books.jpg",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "alt": "Pratham Books is a not-for-profit trust that seeks to publish high-quality books for children at a affordable cost in mu"
+    },
+    {
+      "file": "ngay-sach-viet-nam/hero.webp",
+      "photographer": "Maximilian Schönherr",
+      "profile": "https://commons.wikimedia.org/wiki/File:EBook_between_paper_books.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:EBook_between_paper_books.jpg",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "An iPad with text sits between ordinary books in a bookshelf. The text is a page from Georg Büchner's \"Dantons Tod\". The"
     }
   ],
   "ngay-the-thao-viet-nam": [
@@ -3267,15 +3267,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC (xem nguồn)",
       "source": "Web (captaintarekdreams.blogspot.com)",
       "alt": "Soccer fans waved flags Monday in Hanoi in celebration of Vietnam’s 1-1 ..."
-    },
-    {
-      "file": "ngay-the-thao-viet-nam/gallery1.webp",
-      "photographer": "sinarharian-on9.blogspot.com",
-      "profile": "https://sinarharian-on9.blogspot.com/2014/12/layanan-fans-vietnam-yang-mengejutkan.html",
-      "photo": "https://sinarharian-on9.blogspot.com/2014/12/layanan-fans-vietnam-yang-mengejutkan.html",
-      "license": "CC (xem nguồn)",
-      "source": "Web (sinarharian-on9.blogspot.com)",
-      "alt": "Layanan Fans Vietnam Yang Mengejutkan - Info Semasa"
     },
     {
       "file": "ngay-the-thao-viet-nam/gallery2.webp",
@@ -3294,15 +3285,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC (xem nguồn)",
       "source": "Web (thuocdantoc.vn)",
       "alt": "Khai mạc Đại hội Thể dục thể thao chào mừng ngày Truyền thống CTCP ..."
-    },
-    {
-      "file": "ngay-the-thao-viet-nam/gallery4.webp",
-      "photographer": "footballrsu.blogspot.com",
-      "profile": "https://footballrsu.blogspot.com/",
-      "photo": "https://footballrsu.blogspot.com/",
-      "license": "CC (xem nguồn)",
-      "source": "Web (footballrsu.blogspot.com)",
-      "alt": "เทคนิคเกี่ยวกับการเล่นฟุตบอล"
     },
     {
       "file": "ngay-the-thao-viet-nam/gallery5.webp",
@@ -3339,6 +3321,24 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "Public domain",
       "source": "Wikimedia Commons",
       "alt": "Morning Exercise In Hanoi (Vietnam) by AlfredBoc Own Work December 2005"
+    },
+    {
+      "file": "ngay-the-thao-viet-nam/gallery1.webp",
+      "photographer": "Vovinam - Viet Vo Dao / Belgique",
+      "profile": "https://commons.wikimedia.org/wiki/File:Ciseaux_vovinam_belgique.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Ciseaux_vovinam_belgique.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Vovinam - Viet Vo Dao Figure"
+    },
+    {
+      "file": "ngay-the-thao-viet-nam/gallery4.webp",
+      "photographer": "Amir Ostovari",
+      "profile": "https://commons.wikimedia.org/wiki/File:Iranian_fans_at_Al_Nahyan_Stadium_04.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Iranian_fans_at_Al_Nahyan_Stadium_04.jpg",
+      "license": "CC BY 4.0",
+      "source": "Wikimedia Commons",
+      "alt": "Iranian fans at Al Nahyan Stadium, 2019 AFC Asian Cup"
     }
   ],
   "ngay-phap-luat-viet-nam": [
@@ -3518,15 +3518,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Hanoi, Vietnam | Volunteers of 350.org Hanoi joined the Clim… | Flickr"
     },
     {
-      "file": "ngay-doan-thanh-nien/gallery2.webp",
-      "photographer": "thuocdantoc.vn",
-      "profile": "https://thuocdantoc.vn/thuoc-dan-toc-to-chuc-thanh-cong-chuong-trinh-thien-nguyen-them-niem-vui-cho-em.html",
-      "photo": "https://thuocdantoc.vn/thuoc-dan-toc-to-chuc-thanh-cong-chuong-trinh-thien-nguyen-them-niem-vui-cho-em.html",
-      "license": "CC (xem nguồn)",
-      "source": "Web (thuocdantoc.vn)",
-      "alt": "Thuốc dân tộc tổ chức thành công chương trình thiện nguyện “Thêm niềm ..."
-    },
-    {
       "file": "ngay-doan-thanh-nien/gallery5.webp",
       "photographer": "flickr.com",
       "profile": "https://www.flickr.com/photos/350org/7149046023",
@@ -3534,15 +3525,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC (xem nguồn)",
       "source": "Web (flickr.com)",
       "alt": "Hanoi, Vietnam | Volunteers of 350.org Hanoi joined the Clim… | Flickr"
-    },
-    {
-      "file": "ngay-doan-thanh-nien/history.webp",
-      "photographer": "Huyhoang1990",
-      "profile": "https://commons.wikimedia.org/wiki/File:1395152_444484699001421_1197673697_n-(1).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:1395152_444484699001421_1197673697_n-(1).jpg",
-      "license": "CC BY-SA 3.0",
-      "source": "Wikimedia Commons",
-      "alt": "Trường đẹp cho em"
     },
     {
       "file": "ngay-doan-thanh-nien/card.webp",
@@ -3588,6 +3570,24 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "Public domain",
       "source": "Wikimedia Commons",
       "alt": "Photo: Richard Nyberg, USAID/Vietnam"
+    },
+    {
+      "file": "ngay-doan-thanh-nien/history.webp",
+      "photographer": "See title.",
+      "profile": "https://commons.wikimedia.org/wiki/File:Drapeau_du_Front_QDD_de_1945-1946_(%C3%A9galement_drapeau_du_VNQDD_et_du_DVQDD)_;_drapeau_du_T%C3%A2n_Dai_Vi%C3%AAt_de_1964_;_drapeau_du_Dai_Vi%C3%AAt_Cach_Mang_Dang_(Dai_Vi%C3%AAt_R%C3%A9volutionnaire)_de_1965.gif",
+      "photo": "https://commons.wikimedia.org/wiki/File:Drapeau_du_Front_QDD_de_1945-1946_(%C3%A9galement_drapeau_du_VNQDD_et_du_DVQDD)_;_drapeau_du_T%C3%A2n_Dai_Vi%C3%AAt_de_1964_;_drapeau_du_Dai_Vi%C3%AAt_Cach_Mang_Dang_(Dai_Vi%C3%AAt_R%C3%A9volutionnaire)_de_1965.gif",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "The flag of a Vietnamese political organisation listed on Indomemoires."
+    },
+    {
+      "file": "ngay-doan-thanh-nien/gallery2.webp",
+      "photographer": "The Government of Vietnam",
+      "profile": "https://commons.wikimedia.org/wiki/File:C%C3%A1c_th%C3%A0nh_vi%C3%AAn_Ch%C3%ADnh_ph%E1%BB%A7_L%C3%A2m_th%E1%BB%9Di_n%C6%B0%E1%BB%9Bc_Vi%E1%BB%87t_Nam_DCCH,_th%C3%A1ng_08-1945.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:C%C3%A1c_th%C3%A0nh_vi%C3%AAn_Ch%C3%ADnh_ph%E1%BB%A7_L%C3%A2m_th%E1%BB%9Di_n%C6%B0%E1%BB%9Bc_Vi%E1%BB%87t_Nam_DCCH,_th%C3%A1ng_08-1945.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "The Provisional Government of the Democratic Republic of Vietnam"
     }
   ],
   "ngay-tho-viet-nam": [
@@ -3608,15 +3608,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC (xem nguồn)",
       "source": "Web (flickr.com)",
       "alt": "First courtyard - Van Mieu gate - Temple of Literature (Va… | Flickr"
-    },
-    {
-      "file": "ngay-tho-viet-nam/gallery1.webp",
-      "photographer": "vishibansal.blogspot.com",
-      "profile": "https://vishibansal.blogspot.com/2017/",
-      "photo": "https://vishibansal.blogspot.com/2017/",
-      "license": "CC (xem nguồn)",
-      "source": "Web (vishibansal.blogspot.com)",
-      "alt": "Feet with wings : 2017"
     },
     {
       "file": "ngay-tho-viet-nam/gallery2.webp",
@@ -3644,24 +3635,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC (xem nguồn)",
       "source": "Web (diendan.org)",
       "alt": "Sách Việt kiệu thư trong con mắt giới sử học đương đại — Diễn Đàn Forum"
-    },
-    {
-      "file": "ngay-tho-viet-nam/gallery5.webp",
-      "photographer": "chriscrews.com",
-      "profile": "https://www.chriscrews.com/photos/chinese-calligraphy/",
-      "photo": "https://www.chriscrews.com/photos/chinese-calligraphy/",
-      "license": "CC (xem nguồn)",
-      "source": "Web (chriscrews.com)",
-      "alt": "Chinese Calligraphy – The Adventures of Mr. Chris"
-    },
-    {
-      "file": "ngay-tho-viet-nam/gallery6.webp",
-      "photographer": "flickr.com",
-      "profile": "https://www.flickr.com/photos/3336/45421639/",
-      "photo": "https://www.flickr.com/photos/3336/45421639/",
-      "license": "CC (xem nguồn)",
-      "source": "Web (flickr.com)",
-      "alt": "Moonlight... | The waters of the Lake Ontario reflecting the… | Flickr"
     },
     {
       "file": "ngay-tho-viet-nam/amthuc-che-troi-nuoc.webp",
@@ -3698,36 +3671,36 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "CC BY-SA 4.0",
       "source": "Wikimedia Commons",
       "alt": "The Tale of Kieu 1902 These are the first six lines of the prologue. Within the span of hundred years of human existence"
+    },
+    {
+      "file": "ngay-tho-viet-nam/gallery1.webp",
+      "photographer": "theworldtastesgood.blogspot.com",
+      "profile": "https://theworldtastesgood.blogspot.com/2010/12/toba-mikas-katazome-exhibition-at.html",
+      "photo": "https://theworldtastesgood.blogspot.com/2010/12/toba-mikas-katazome-exhibition-at.html",
+      "license": "CC (xem nguồn)",
+      "source": "Web (theworldtastesgood.blogspot.com)",
+      "alt": "The World Tastes Good: Toba Mika's Katazome Exhibition at the Temple of ..."
+    },
+    {
+      "file": "ngay-tho-viet-nam/gallery5.webp",
+      "photographer": "chriscrews.com",
+      "profile": "https://www.chriscrews.com/photos/chinese-calligraphy/",
+      "photo": "https://www.chriscrews.com/photos/chinese-calligraphy/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (chriscrews.com)",
+      "alt": "Chinese Calligraphy – The Adventures of Mr. Chris"
+    },
+    {
+      "file": "ngay-tho-viet-nam/gallery6.webp",
+      "photographer": "24hinh.vn",
+      "profile": "https://24hinh.vn/threads/day-la-ly-do-ban-nhin-thay-nhung-buc-anh-mat-trang-co-nhung-mau-sac-khac-nhau.2125/",
+      "photo": "https://24hinh.vn/threads/day-la-ly-do-ban-nhin-thay-nhung-buc-anh-mat-trang-co-nhung-mau-sac-khac-nhau.2125/",
+      "license": "CC (xem nguồn)",
+      "source": "Web (24hinh.vn)",
+      "alt": "Chia sẻ - Đây là lý do bạn nhìn thấy những bức ảnh mặt trăng có những ..."
     }
   ],
   "quoc-te-nam-gioi": [
-    {
-      "file": "quoc-te-nam-gioi/history.webp",
-      "photographer": "unoscacchista.com",
-      "profile": "https://unoscacchista.com/2021/06/30/nuovi-scacchisti-adulti/",
-      "photo": "https://unoscacchista.com/2021/06/30/nuovi-scacchisti-adulti/",
-      "license": "CC (xem nguồn)",
-      "source": "Web (unoscacchista.com)",
-      "alt": "Nuovi scacchisti adulti – Uno Scacchista *Edizione 10 Anni*"
-    },
-    {
-      "file": "quoc-te-nam-gioi/hero.webp",
-      "photographer": "U.S. Navy photo by Seaman Juan Cordova",
-      "profile": "https://commons.wikimedia.org/wiki/File:George_Washington_Sailors_Play_Soccer_with_Vietnamese_Sailors_(9844496).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:George_Washington_Sailors_Play_Soccer_with_Vietnamese_Sailors_(9844496).jpg",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "Sailors assigned to Nimitz-class aircraft carrier USS George Washington (CVN 73) pose for a photo before playing soccer "
-    },
-    {
-      "file": "quoc-te-nam-gioi/card.webp",
-      "photographer": "Dorothea Lange",
-      "profile": "https://commons.wikimedia.org/wiki/File:Manzanar_Relocation_Center,_Manzanar,_California._Grandfather_and_grandson_of_Japanese_ancestry_at_._._._-_NARA_-_537994.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Manzanar_Relocation_Center,_Manzanar,_California._Grandfather_and_grandson_of_Japanese_ancestry_at_._._._-_NARA_-_537994.jpg",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "Scope and content: The full caption for this photograph reads: Manzanar Relocation Center, Manzanar, California. Grandfa"
-    },
     {
       "file": "quoc-te-nam-gioi/gallery1.webp",
       "photographer": "Ni.Nguyen.VCLCA",
@@ -3756,24 +3729,6 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "alt": "Vietnamese men working"
     },
     {
-      "file": "quoc-te-nam-gioi/gallery4.webp",
-      "photographer": "Dorothea Lange",
-      "profile": "https://commons.wikimedia.org/wiki/File:Manzanar_Relocation_Center,_Manzanar,_California._Grandfather_and_grandson_of_Japanese_ancestry_at_._._._-_NARA_-_537994.jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:Manzanar_Relocation_Center,_Manzanar,_California._Grandfather_and_grandson_of_Japanese_ancestry_at_._._._-_NARA_-_537994.jpg",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "Scope and content: The full caption for this photograph reads: Manzanar Relocation Center, Manzanar, California. Grandfa"
-    },
-    {
-      "file": "quoc-te-nam-gioi/gallery5.webp",
-      "photographer": "U.S. Navy photo by Seaman Juan Cordova",
-      "profile": "https://commons.wikimedia.org/wiki/File:George_Washington_Sailors_Play_Soccer_with_Vietnamese_Sailors_(9844495).jpg",
-      "photo": "https://commons.wikimedia.org/wiki/File:George_Washington_Sailors_Play_Soccer_with_Vietnamese_Sailors_(9844495).jpg",
-      "license": "Public domain",
-      "source": "Wikimedia Commons",
-      "alt": "Sailors assigned to Nimitz-class aircraft carrier USS George Washington (CVN 73) play soccer with Vietnamese sailors dur"
-    },
-    {
       "file": "quoc-te-nam-gioi/gallery6.webp",
       "photographer": "Unknown authorUnknown author",
       "profile": "https://commons.wikimedia.org/wiki/File:Father_and_Son._Emperors_Qianlong_and_Yongzhen.jpg",
@@ -3781,6 +3736,51 @@ export const imageCredits: Record<string, ImageCredit[]> = {
       "license": "Public domain",
       "source": "Wikimedia Commons",
       "alt": "A hanging scroll by Lang Shining (Giuseppe Castiglione), Spring's Peaceful Messages, c. 1736. Ink and color on silk, 68."
+    },
+    {
+      "file": "quoc-te-nam-gioi/gallery5.webp",
+      "photographer": "Lewis Hine",
+      "profile": "https://commons.wikimedia.org/wiki/File:Scott%27s_Run,_West_Virginia._(A_gathering_of_men_and_women.)_-_NARA_-_518405.tif",
+      "photo": "https://commons.wikimedia.org/wiki/File:Scott%27s_Run,_West_Virginia._(A_gathering_of_men_and_women.)_-_NARA_-_518405.tif",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Vietnamese men gathering"
+    },
+    {
+      "file": "quoc-te-nam-gioi/hero.webp",
+      "photographer": "Sao Thể Thao",
+      "profile": "https://commons.wikimedia.org/wiki/File:Vietnam_celebrating_2024_ASEAN_Championship_title.png",
+      "photo": "https://commons.wikimedia.org/wiki/File:Vietnam_celebrating_2024_ASEAN_Championship_title.png",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "alt": "Vietnam players celebrating the 2024 ASEAN Championship title"
+    },
+    {
+      "file": "quoc-te-nam-gioi/card.webp",
+      "photographer": "Unknown authorUnknown author or not provided",
+      "profile": "https://commons.wikimedia.org/wiki/File:Two_oldtimers_playing_chess_on_a_Central_Park_bench_in_New_York_City,_05-1946_-_NARA_-_541889.jpg",
+      "photo": "https://commons.wikimedia.org/wiki/File:Two_oldtimers_playing_chess_on_a_Central_Park_bench_in_New_York_City,_05-1946_-_NARA_-_541889.jpg",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Vietnamese men chess street"
+    },
+    {
+      "file": "quoc-te-nam-gioi/gallery4.webp",
+      "photographer": "Lewis Hine",
+      "profile": "https://commons.wikimedia.org/wiki/File:No_caption._Young_boy_and_two_men_gathering_ore_-_NARA_-_523334.tif",
+      "photo": "https://commons.wikimedia.org/wiki/File:No_caption._Young_boy_and_two_men_gathering_ore_-_NARA_-_523334.tif",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "alt": "Vietnamese men gathering"
+    },
+    {
+      "file": "quoc-te-nam-gioi/history.webp",
+      "photographer": "flickr.com",
+      "profile": "https://www.flickr.com/photos/gabbyportraits/81358133",
+      "photo": "https://www.flickr.com/photos/gabbyportraits/81358133",
+      "license": "CC (xem nguồn)",
+      "source": "Web (flickr.com)",
+      "alt": "Dad in Vietnam | B, K, G &amp; AB | Flickr"
     }
   ]
 };

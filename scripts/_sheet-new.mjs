@@ -10,15 +10,14 @@ mkdirSync(OUT, { recursive: true });
 const manifest = JSON.parse(readFileSync(join(STAGE, "manifest.json"), "utf8"));
 
 const SLOTS = [
-  "tet-han-thuc/gallery2", "quoc-te-lao-dong/gallery6", "ngay-sinh-nhat-bac/gallery4",
-  "ngay-bao-chi/gallery2", "ngay-phap-luat-viet-nam/gallery3", "quoc-te-thieu-nhi/gallery4",
-  "ngay-doan-thanh-nien/gallery3", "ngay-doan-thanh-nien/gallery5", "quoc-te-nam-gioi/gallery3",
-  "ong-cong-ong-tao/card", "ong-cong-ong-tao/gallery2", "tet-nguyen-tieu/gallery6",
-  "ngay-cua-me/gallery1", "ngay-gia-dinh-viet-nam/gallery2", "quoc-te-thieu-nhi/gallery6",
-  "valentine/gallery3", "quoc-te-phu-nu/gallery5", "tet-nguyen-dan/gallery3",
-  "tet-nguyen-dan/gallery6", "ngay-dien-bien-phu/gallery2", "ngay-dien-bien-phu/gallery3",
-  "ngay-giai-phong-thu-do/gallery3", "ngay-giai-phong-thu-do/gallery4",
-  "ngay-cach-mang-thang-tam/gallery3", "ngay-cach-mang-thang-tam/gallery4",
+  "quoc-te-nam-gioi/hero","quoc-te-nam-gioi/card","quoc-te-nam-gioi/gallery4","quoc-te-nam-gioi/gallery5","quoc-te-nam-gioi/gallery6","quoc-te-nam-gioi/history",
+  "ngay-sach-viet-nam/hero","ngay-sach-viet-nam/card","ngay-sach-viet-nam/gallery2","ngay-sach-viet-nam/gallery3","ngay-sach-viet-nam/gallery4","ngay-sach-viet-nam/gallery5","ngay-sach-viet-nam/gallery6",
+  "ngay-tho-viet-nam/gallery1","ngay-tho-viet-nam/gallery5","ngay-tho-viet-nam/gallery6",
+  "tet-han-thuc/hero","tet-han-thuc/gallery3","tet-han-thuc/gallery6","tet-han-thuc/history","tet-han-thuc/amthuc-mam-cung",
+  "tet-doan-ngo/card","tet-doan-ngo/amthuc-com-ruou",
+  "ngay-the-thao-viet-nam/gallery1","ngay-the-thao-viet-nam/gallery4",
+  "vu-lan/gallery4","vu-lan/history",
+  "ngay-doan-thanh-nien/history","ngay-doan-thanh-nien/gallery2",
 ];
 
 const groups = {};
