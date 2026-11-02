@@ -67,8 +67,9 @@ export default function HomePage({ locale }: { locale: Locale }) {
   const jsonLd = homeJsonLd(locale);
   const tools = [
     { href: lp("/lich/"), t: t.home.tools[0].t, d: t.home.tools[0].d },
-    { href: lp("/thiep/"), t: t.home.tools[1].t, d: t.home.tools[1].d },
-    { href: lp("/birthday/"), t: t.home.tools[2].t, d: t.home.tools[2].d },
+    { href: lp("/hom-nay/"), t: t.home.tools[1].t, d: t.home.tools[1].d },
+    { href: lp("/thiep/"), t: t.home.tools[2].t, d: t.home.tools[2].d },
+    { href: lp("/birthday/"), t: t.home.tools[3].t, d: t.home.tools[3].d },
   ];
   const scenery: [string, string][] = [
     ["scenery", "hero"],
@@ -177,7 +178,7 @@ export default function HomePage({ locale }: { locale: Locale }) {
 
       {/* ---------- Tools row ---------- */}
       <section aria-label={t.home.toolsAria} className="cv-auto border-b border-[var(--color-line)] bg-[var(--color-surface)]">
-        <div className="mx-auto grid max-w-6xl grid-cols-1 gap-3 px-4 py-8 sm:grid-cols-3 sm:px-6">
+        <div className="mx-auto grid max-w-6xl grid-cols-1 gap-3 px-4 py-8 sm:grid-cols-2 sm:px-6 lg:grid-cols-4">
           {tools.map((tool) => (
             <Link
               key={tool.href}

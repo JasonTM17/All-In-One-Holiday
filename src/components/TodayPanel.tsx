@@ -15,7 +15,7 @@ export interface TodayItem {
   categories: HolidayCategory[];
   rule: DateRule;
   theme: { from: string };
-  dayOff?: boolean;
+  dayOffDays?: number;
 }
 
 function atMidnight(d: Date): Date {
@@ -85,7 +85,7 @@ export default function TodayPanel({
                       style={{ background: h.theme.from }}
                     >
                       {h.name}
-                      {h.dayOff && (
+                      {h.dayOffDays != null && (
                         <span className="rounded-md bg-white/25 px-1.5 py-0.5 text-[10px] tracking-wide">
                           {t.holiday.dayOff}
                         </span>

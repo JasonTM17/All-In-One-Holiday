@@ -120,8 +120,10 @@ export interface Messages {
     nearest: (date: string) => string;
     /** aria-label on the visible breadcrumb inside the hero. */
     breadcrumb: string;
-    /** Badge marking a paid public holiday (Labour Code art. 112). */
+    /** Short badge marking a paid public holiday (Labour Code art. 112). */
     dayOff: string;
+    /** Full badge with the statutory day count, e.g. "… · 5 ngày". */
+    dayOffDays: (n: number) => string;
   };
   actions: {
     share: string;
@@ -193,6 +195,11 @@ export interface Messages {
     lunarAbbr: string;
     all: string;
     categories: Record<HolidayCategory, string>;
+    /** Statutory paid-holidays table under the calendar. */
+    offTitle: string;
+    offIntro: string;
+    /** Per-row day count, e.g. "5 ngày" / "5 days". */
+    offDays: (n: number) => string;
   };
   /** /hom-nay/ "what day is today" tool. */
   today: {

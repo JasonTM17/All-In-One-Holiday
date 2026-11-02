@@ -49,7 +49,7 @@ export default function TodayPage({ locale }: { locale: Locale }) {
               categories: h.categories,
               rule: h.rule,
               theme: { from: h.theme.from },
-              dayOff: h.dayOff,
+              dayOffDays: h.dayOffDays,
             }))}
           />
         </div>

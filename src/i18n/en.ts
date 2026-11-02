@@ -104,6 +104,7 @@ export const en: Messages = {
     nearest: (date) => `Nearest occurrence: ${date}`,
     breadcrumb: "Breadcrumb",
     dayOff: "National public holiday",
+    dayOffDays: (n) => `Public holiday · ${n} ${n === 1 ? "day" : "days"}`,
   },
   actions: {
     share: "Share",
@@ -161,6 +162,7 @@ export const en: Messages = {
     toolsAria: "Tools",
     tools: [
       { t: "Holiday calendar", d: "Solar & lunar dates · .ics subscribe" },
+      { t: "What day is today", d: "Solar & lunar · upcoming holidays" },
       { t: "Card maker", d: "6 templates · free PNG download" },
       { t: "Birthday card", d: "Personalized via a shareable link" },
     ],
@@ -213,6 +215,10 @@ export const en: Messages = {
       "truyen-thong": "Traditional",
       "quoc-te": "International",
     },
+    offTitle: "Statutory paid holidays",
+    offIntro:
+      "The six paid public holidays under Article 112 of the 2019 Labour Code. Compensatory and swapped days off are announced by the government each year.",
+    offDays: (n) => `${n} ${n === 1 ? "day" : "days"}`,
   },
   today: {
     eyebrow: "Tool",

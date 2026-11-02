@@ -36,6 +36,15 @@ export default async function Image({
   const regular = await readFile(
     join(process.cwd(), "src/assets/fonts/BeVietnamPro-Regular.ttf"),
   );
+  // Real holiday photo as the card backdrop (webp → jpeg for satori).
+  const { default: sharp } = await import("sharp");
+  const jpeg = await sharp(
+    join(process.cwd(), `public/images/holidays/${slug}/hero.webp`),
+  )
+    .resize(1200, 630, { fit: "cover" })
+    .jpeg({ quality: 74 })
+    .toBuffer();
+  const bg = `data:image/jpeg;base64,${jpeg.toString("base64")}`;
 
   return new ImageResponse(
     (
@@ -47,7 +56,9 @@ export default async function Image({
           flexDirection: "column",
           justifyContent: "space-between",
           padding: 72,
-          background: `linear-gradient(135deg, ${h.theme.from}, ${h.theme.to})`,
+          backgroundImage: `linear-gradient(160deg, ${h.theme.from}cc 0%, ${h.theme.from}66 45%, rgba(0,0,0,0.55) 100%), url(${bg})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
           color: "white",
         }}
       >

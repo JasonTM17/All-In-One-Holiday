@@ -104,6 +104,7 @@ export const vi: Messages = {
     nearest: (date) => `Ngày lễ gần nhất: ${date}`,
     breadcrumb: "Đường dẫn",
     dayOff: "Ngày nghỉ lễ quốc gia",
+    dayOffDays: (n) => `Ngày nghỉ lễ quốc gia · ${n} ngày`,
   },
   actions: {
     share: "Chia sẻ",
@@ -161,6 +162,7 @@ export const vi: Messages = {
     toolsAria: "Công cụ",
     tools: [
       { t: "Lịch ngày lễ", d: "Ngày dương ngày âm · đăng ký .ics" },
+      { t: "Hôm nay là ngày gì", d: "Ngày dương · ngày âm · lễ sắp tới" },
       { t: "Tạo thiệp", d: "6 mẫu · tải PNG miễn phí" },
       { t: "Thiệp sinh nhật", d: "Cá nhân hóa qua liên kết" },
     ],
@@ -213,6 +215,10 @@ export const vi: Messages = {
       "truyen-thong": "Truyền thống",
       "quoc-te": "Quốc tế",
     },
+    offTitle: "Nghỉ lễ theo quy định",
+    offIntro:
+      "6 đợt nghỉ lễ hưởng nguyên lương theo Điều 112 Bộ luật Lao động 2019. Lịch nghỉ bù và hoán đổi cụ thể do Chính phủ thông báo từng năm.",
+    offDays: (n) => `${n} ngày`,
   },
   today: {
     eyebrow: "Công cụ",

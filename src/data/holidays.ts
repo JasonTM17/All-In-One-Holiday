@@ -142,8 +142,8 @@ export interface Holiday {
   quotes?: Quote[];
   /** Hero layout variant; absent = "classic". */
   heroStyle?: HeroStyle;
-  /** Paid public holiday under Labour Code art. 112 — shown as a hero badge. */
-  dayOff?: boolean;
+  /** Paid public-holiday days under Labour Code art. 112 — shown as a hero badge. */
+  dayOffDays?: number;
 }
 
 /** Decorative SVG ornament shown on each holiday page (see components/Motif). */
@@ -171,7 +171,7 @@ export type MotifName =
 export const holidays: Holiday[] = [
   {
     slug: "tet-duong-lich",
-    dayOff: true,
+    dayOffDays: 1,
     heroStyle: "framed",
     signature: [
       {
@@ -258,7 +258,7 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "tet-nguyen-dan",
-    dayOff: true,
+    dayOffDays: 5,
     heroStyle: "mosaic",
     signature: [
       {
@@ -637,7 +637,7 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "gio-to-hung-vuong",
-    dayOff: true,
+    dayOffDays: 1,
     heroStyle: "mosaic",
     signature: [
       {
@@ -823,7 +823,7 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "giai-phong-mien-nam",
-    dayOff: true,
+    dayOffDays: 1,
     heroStyle: "banner",
     signature: [
       {
@@ -908,7 +908,7 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "quoc-te-lao-dong",
-    dayOff: true,
+    dayOffDays: 1,
     signature: [
       {
         kind: "timeline",
@@ -1420,7 +1420,7 @@ export const holidays: Holiday[] = [
   },
   {
     slug: "quoc-khanh",
-    dayOff: true,
+    dayOffDays: 2,
     heroStyle: "banner",
     signature: [
       {

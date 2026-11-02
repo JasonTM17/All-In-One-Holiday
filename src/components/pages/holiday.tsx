@@ -244,9 +244,9 @@ export default function HolidayPage({
                   {t.grid.categories[c]}
                 </span>
               ))}
-              {h.dayOff && (
+              {h.dayOffDays != null && (
                 <span className="rounded-lg bg-white/25 px-2.5 py-0.5 text-[10px] font-bold tracking-widest text-white">
-                  {t.holiday.dayOff}
+                  {t.holiday.dayOffDays(h.dayOffDays)}
                 </span>
               )}
             </p>
